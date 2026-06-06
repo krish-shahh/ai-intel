@@ -9,6 +9,8 @@
   --brief: #7c6cff;
   --person: #36b6a4;
   --topic: #e0883b;
+  --ok: #3fb950;
+  --err: #e5534b;
   --serif: "Iowan Old Style", "Charter", Georgia, Cambria, ui-serif, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
   --mono: ui-monospace, "SF Mono", Menlo, monospace;
@@ -103,6 +105,19 @@ a:hover { text-decoration: underline; }
 .brow .s { color: var(--muted); font-size: .85em; text-transform: capitalize; }
 .how { display: flex; flex-direction: column; gap: 9px; color: var(--muted); font-size: .92em; }
 
+/* status block */
+.status { display: flex; flex-direction: column; gap: 8px; font-size: .9em; }
+.srow { display: flex; align-items: center; gap: 8px; }
+.srow .t { margin-left: auto; color: var(--muted); font-size: .82em; }
+.srow.ok2 { color: var(--muted); }
+.srow.warn { color: var(--topic); cursor: pointer; font-weight: 600; }
+.srow.warn:hover { color: var(--ink); }
+.sdot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); flex: none; }
+.sdot.ok { background: var(--ok); }
+.sdot.err { background: var(--err); }
+.sdot.run { background: var(--accent); animation: pulse 1.2s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .35; } }
+
 .canvas { overflow-y: auto; padding: 32px 40px 48px; }
 .canvas .eyebrow { font-size: .74em; letter-spacing: .13em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
 .canvas h1.title { font-family: var(--serif); font-size: 2.1em; font-weight: 600; letter-spacing: -.015em; line-height: 1.12; margin: 7px 0 3px; }
@@ -134,12 +149,15 @@ a:hover { text-decoration: underline; }
 
 /* ---- files ---- */
 .files { display: grid; grid-template-columns: 280px minmax(0,1fr); height: 100%; }
-.tree { border-right: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 14px 12px; }
-.tree .group { margin-bottom: 14px; }
-.tree .ghead { font-size: .68em; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); padding: 4px 8px; }
-.tree .item { padding: 5px 8px; border-radius: 7px; cursor: pointer; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.tree .item:hover { background: var(--panel-2); }
-.tree .item.sel { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--ink); }
+.tree { border-right: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 10px 8px; }
+.tnode { display: flex; align-items: center; gap: 4px; padding: 4px 8px; border-radius: 7px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .92em; }
+.tnode:hover { background: var(--panel-2); }
+.tdir { color: var(--muted); font-weight: 600; letter-spacing: .01em; }
+.tdir .chev { width: 12px; display: inline-block; font-size: .8em; }
+.tdir .tname { color: var(--ink); }
+.tdir .tcount { margin-left: auto; font-size: .8em; opacity: .55; font-weight: 400; }
+.tfile { color: var(--ink); }
+.tfile.sel { background: color-mix(in srgb, var(--accent) 20%, transparent); }
 .reader { overflow-y: auto; padding: 34px 44px 56px; }
 .reader .rhead { font-family: var(--serif); font-size: 1.9em; font-weight: 600; letter-spacing: -.01em; margin: 0 0 4px; }
 .reader .rmeta { color: var(--muted); margin-bottom: 20px; }

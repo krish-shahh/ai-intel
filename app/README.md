@@ -23,9 +23,11 @@ npm run dist        # outputs a .dmg + .zip in app/dist/
 
 ## Views
 
-- **Dashboard** — next run, stats, recent briefs, and the latest brief rendered inline.
+- **Dashboard** — next run, stats, recent briefs, the latest brief rendered inline, and a live **Status** panel: whether you're behind `origin` (click to pull) and the latest result of each GitHub Actions workflow (notify · link-check · heartbeat, via the `gh` CLI).
 - **Graph** — force-directed map of briefs ↔ people ↔ topics (frontmatter + `[[wikilinks]]`). Drag to pan, scroll to zoom, click a node to open.
-- **Files** — folder tree + reader. Source links open in your browser; wikilinks navigate in-app.
+- **Files** — a collapsible **file tree** of the whole vault (folders show file counts, click to expand/collapse) + a reader. Source links open in your browser; wikilinks navigate in-app.
+
+The CI status needs the [GitHub CLI](https://cli.github.com) installed and authenticated (`gh auth login`); without it the rest still works and that row just says "needs gh CLI".
 
 Shortcuts: `⌘1/2/3` switch views, `⌘K` search.
 

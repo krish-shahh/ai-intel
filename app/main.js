@@ -102,29 +102,72 @@ function renderNote(raw) {
   return { data, html, links };
 }
 
-function readDir(folder) {
-  const dir = path.join(vaultPath, folder);
-  const out = [];
-  if (!fs.existsSync(dir)) return out;
-  for (const f of fs.readdirSync(dir)) {
-    if (!f.endsWith('.md')) continue;
-    try {
-      const raw = fs.readFileSync(path.join(dir, f), 'utf8');
-      const slug = f.replace(/\.md$/, '');
-      out.push({ slug, name: slug, folder, ...renderNote(raw) });
-    } catch (e) { /* skip unreadable file */ }
+const IGNORE = new Set(['.git', 'node_modules', 'app', '.obsidian', 'dist', '.github']);
+
+function collect(dir, rel, notes) {
+  let entries;
+  try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch (e) { return; }
+  for (const e of entries) {
+    if (e.name.startsWith('.') || IGNORE.has(e.name)) continue;
+    const full = path.join(dir, e.name);
+    const r = rel ? rel + '/' + e.name : e.name;
+    if (e.isDirectory()) collect(full, r, notes);
+    else if (e.name.endsWith('.md')) {
+      try {
+        const raw = fs.readFileSync(full, 'utf8');
+        notes.push({
+          path: r, name: e.name.replace(/\.md$/, ''), slug: e.name.replace(/\.md$/, ''),
+          top: r.includes('/') ? r.split('/')[0] : '', ...renderNote(raw),
+        });
+      } catch (e2) { /* skip */ }
+    }
   }
-  return out;
+}
+
+function buildTree(dir, rel) {
+  const node = { name: rel ? path.basename(dir) : '', path: rel, type: 'dir', children: [] };
+  let entries;
+  try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch (e) { return node; }
+  entries.sort((a, b) => (Number(b.isDirectory()) - Number(a.isDirectory())) || a.name.localeCompare(b.name));
+  for (const e of entries) {
+    if (e.name.startsWith('.') || IGNORE.has(e.name)) continue;
+    const full = path.join(dir, e.name);
+    const r = rel ? rel + '/' + e.name : e.name;
+    if (e.isDirectory()) { const c = buildTree(full, r); if (c.children.length) node.children.push(c); }
+    else if (e.name.endsWith('.md')) node.children.push({ name: e.name.replace(/\.md$/, ''), path: r, type: 'file' });
+  }
+  return node;
 }
 
 function loadVault() {
-  return {
-    vaultPath,
-    briefs: readDir('briefs').sort((a, b) =>
-      (b.data.date || '').localeCompare(a.data.date || '') || a.name.localeCompare(b.name)),
-    people: readDir('people').sort((a, b) => a.name.localeCompare(b.name)),
-    topics: readDir('topics').sort((a, b) => a.name.localeCompare(b.name)),
-  };
+  const notes = [];
+  collect(vaultPath, '', notes);
+  return { vaultPath, notes, tree: buildTree(vaultPath, '') };
+}
+
+function sh(cmd) {
+  return new Promise((res) => exec(cmd, { cwd: vaultPath, timeout: 30000 },
+    (e, o, er) => res({ ok: !e, out: (o || '').trim(), err: (er || '').trim() })));
+}
+async function gitInfo() {
+  if (!fs.existsSync(path.join(vaultPath, '.git'))) return { repo: false };
+  await sh('git fetch --quiet');
+  const branch = (await sh('git rev-parse --abbrev-ref HEAD')).out;
+  const c = (await sh('git rev-list --left-right --count HEAD...@{u}')).out.split(/\s+/);
+  return { repo: true, branch, ahead: +(c[0] || 0), behind: +(c[1] || 0) };
+}
+async function ciInfo() {
+  const r = await sh('gh run list -L 30 --json workflowName,status,conclusion,createdAt');
+  if (!r.ok) return { ghOk: false };
+  let runs = [];
+  try { runs = JSON.parse(r.out); } catch (e) { return { ghOk: false }; }
+  const latest = {};
+  for (const run of runs) {
+    const n = run.workflowName;
+    if (!latest[n] || run.createdAt > latest[n].createdAt) latest[n] = run;
+  }
+  return { ghOk: true, workflows: Object.values(latest).map((w) =>
+    ({ name: w.workflowName, status: w.status, conclusion: w.conclusion, at: w.createdAt })) };
 }
 
 ipcMain.handle('vault:load', () => loadVault());
@@ -139,6 +182,7 @@ ipcMain.handle('vault:pick', async () => {
   return null;
 });
 ipcMain.handle('vault:pull', () => gitPull('manual'));
+ipcMain.handle('vault:status', async () => ({ git: await gitInfo(), ci: await ciInfo() }));
 ipcMain.on('open:external', (_e, url) => { if (/^https?:/.test(url)) shell.openExternal(url); });
 
 app.whenReady().then(createWindow);

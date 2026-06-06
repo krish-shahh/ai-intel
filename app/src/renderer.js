@@ -2,8 +2,10 @@ const $ = (s, r = document) => r.querySelector(s);
 const elem = (t, c, h) => { const e = document.createElement(t); if (c) e.className = c; if (h != null) e.innerHTML = h; return e; };
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]));
 
-let DATA = { briefs: [], people: [], topics: [], vaultPath: '' };
+let DATA = { briefs: [], people: [], topics: [], notes: [], tree: null, vaultPath: '' };
 let SLUG = {};
+let PATHMAP = {};
+let COLLAPSED = new Set();
 let VIEW = 'dashboard';
 let CURRENT = null;
 let GRAPH = null;
@@ -31,17 +33,23 @@ function mentions(field) {
 }
 function noteTitle(n) {
   if (!n) return '';
-  if (n.folder === 'people') return n.data.name || n.slug;
-  if (n.folder === 'topics') return n.data.title || n.slug;
-  return cap(n.data.session || '') + ' brief';
+  if (n.top === 'people') return n.data.name || n.slug;
+  if (n.top === 'topics') return n.data.title || n.slug;
+  if (n.top === 'briefs') return cap(n.data.session || '') + ' brief';
+  return n.name;
 }
 
 async function load() {
-  DATA = await window.vault.load();
-  SLUG = {};
-  for (const f of ['briefs', 'people', 'topics']) for (const n of DATA[f]) SLUG[n.slug] = n;
-  if (!CURRENT || !SLUG[CURRENT.slug]) CURRENT = DATA.briefs[0] || DATA.people[0] || null;
-  else CURRENT = SLUG[CURRENT.slug];
+  const v = await window.vault.load();
+  DATA.vaultPath = v.vaultPath; DATA.notes = v.notes; DATA.tree = v.tree;
+  const by = (t) => v.notes.filter((n) => n.top === t);
+  DATA.briefs = by('briefs').sort((a, b) => (b.data.date || '').localeCompare(a.data.date || '') || a.name.localeCompare(b.name));
+  DATA.people = by('people').sort((a, b) => a.name.localeCompare(b.name));
+  DATA.topics = by('topics').sort((a, b) => a.name.localeCompare(b.name));
+  SLUG = {}; PATHMAP = {};
+  for (const n of v.notes) { PATHMAP[n.path] = n; if (!SLUG[n.slug]) SLUG[n.slug] = n; }
+  if (!CURRENT || !PATHMAP[CURRENT.path]) CURRENT = DATA.briefs[0] || v.notes[0] || null;
+  else CURRENT = PATHMAP[CURRENT.path];
   render();
 }
 function openNote(slug) {
@@ -69,10 +77,7 @@ function Dashboard() {
       <div><b>${DATA.people.length}</b><span>people</span></div>
       <div><b>${DATA.topics.length}</b><span>topics</span></div></div></div>
     <div class="rblk"><div class="lbl">Recent briefs</div><div class="blist">${recent}</div></div>
-    <div class="rblk foot"><div class="how">
-      <div>📡&nbsp; Live from your vault</div>
-      <div>🔄&nbsp; Updates when Git pulls</div>
-      <div>🔔&nbsp; Alerts via ntfy · ai-intel</div></div></div>`));
+    <div class="rblk foot"><div class="lbl">Status</div><div class="status" id="statusblk"><div class="srow ok2"><span class="sdot"></span>checking…</div></div></div>`));
 
   const chips = (arr, counts) => [...arr]
     .sort((a, b) => (counts[b.slug] || 0) - (counts[a.slug] || 0) || a.slug.localeCompare(b.slug))
@@ -128,26 +133,37 @@ function Graph() {
   return wrap;
 }
 
-/* ---------------- Files ---------------- */
+/* ---------------- Files (tree) ---------------- */
+function treeRows(node, depth, out) {
+  for (const child of (node.children || [])) {
+    if (child.type === 'dir') {
+      const collapsed = COLLAPSED.has(child.path);
+      const count = countFiles(child);
+      out.push(`<div class="tnode tdir" data-dir="${esc(child.path)}" style="padding-left:${depth * 14 + 8}px"><span class="chev">${collapsed ? '▸' : '▾'}</span><span class="tname">${esc(child.name)}</span><span class="tcount">${count}</span></div>`);
+      if (!collapsed) treeRows(child, depth + 1, out);
+    } else {
+      const sel = CURRENT && CURRENT.path === child.path ? ' sel' : '';
+      out.push(`<div class="tnode tfile${sel}" data-path="${esc(child.path)}" style="padding-left:${depth * 14 + 24}px">${esc(child.name)}</div>`);
+    }
+  }
+}
+function countFiles(node) {
+  let n = 0;
+  for (const c of (node.children || [])) n += c.type === 'file' ? 1 : countFiles(c);
+  return n;
+}
 function Files() {
   const wrap = elem('div', 'files');
-  const groups = [['briefs', 'Briefs'], ['people', 'People'], ['topics', 'Topics']];
   const tree = elem('aside', 'tree');
-  for (const [key, label] of groups) {
-    const g = elem('div', 'group');
-    g.appendChild(elem('div', 'ghead', `${label} (${DATA[key].length})`));
-    for (const n of DATA[key]) {
-      const it = elem('div', 'item' + (CURRENT && CURRENT.slug === n.slug ? ' sel' : ''), esc(noteTitle(n)));
-      it.dataset.open = n.slug;
-      g.appendChild(it);
-    }
-    tree.appendChild(g);
-  }
+  const rows = [];
+  if (DATA.tree) treeRows(DATA.tree, 0, rows);
+  tree.innerHTML = rows.join('') || '<div class="how">Empty vault.</div>';
+
   const reader = elem('section', 'reader');
   if (CURRENT) {
-    const sub = CURRENT.folder === 'briefs'
+    const sub = CURRENT.top === 'briefs'
       ? `${fmtDate(CURRENT.data.date, true)} · ${cap(CURRENT.data.session || '')}`
-      : (CURRENT.data.handle || cap(CURRENT.folder.replace(/s$/, '')));
+      : (CURRENT.data.handle || CURRENT.path);
     reader.innerHTML = `<h1 class="rhead">${esc(noteTitle(CURRENT))}</h1><div class="rmeta">${esc(sub)}</div><article class="prose">${CURRENT.html}</article>`;
   } else {
     reader.innerHTML = `<div class="empty">Select a note.</div>`;
@@ -163,6 +179,40 @@ function render() {
   const view = $('#view');
   view.innerHTML = '';
   view.appendChild(VIEW === 'dashboard' ? Dashboard() : VIEW === 'graph' ? Graph() : Files());
+  if (VIEW === 'dashboard') refreshStatus();
+}
+
+/* live CI + sync status (replaces the old static blurb) */
+async function refreshStatus() {
+  const blk = document.getElementById('statusblk');
+  if (!blk) return;
+  let s;
+  try { s = await window.vault.status(); } catch (e) { blk.innerHTML = '<div class="srow ok2"><span class="sdot"></span>status unavailable</div>'; return; }
+  const g = s.git || {}, ci = s.ci || {};
+  const rows = [];
+  if (!g.repo) rows.push(`<div class="srow ok2"><span class="sdot"></span>not a git repo</div>`);
+  else if (g.behind > 0) rows.push(`<div class="srow warn" id="pullrow"><span class="sdot err"></span>${g.behind} behind · pull now</div>`);
+  else if (g.ahead > 0) rows.push(`<div class="srow ok2"><span class="sdot run"></span>${g.ahead} unpushed</div>`);
+  else rows.push(`<div class="srow ok2"><span class="sdot ok"></span>up to date</div>`);
+
+  if (!ci.ghOk) {
+    rows.push(`<div class="srow ok2"><span class="sdot"></span>CI: needs gh CLI</div>`);
+  } else {
+    const order = ['Brief notification', 'Brief link check', 'Brief heartbeat'];
+    const short = { 'Brief notification': 'notify', 'Brief link check': 'link-check', 'Brief heartbeat': 'heartbeat' };
+    const wf = (ci.workflows || []).slice().sort((a, b) => order.indexOf(a.name) - order.indexOf(b.name));
+    for (const w of wf) {
+      let cls = '';
+      if (w.status !== 'completed') cls = 'run';
+      else if (w.conclusion === 'success') cls = 'ok';
+      else if (['failure', 'timed_out', 'cancelled'].includes(w.conclusion)) cls = 'err';
+      rows.push(`<div class="srow"><span class="sdot ${cls}"></span>${esc(short[w.name] || w.name)}<span class="t">${esc(relTime(Date.parse(w.at)))}</span></div>`);
+    }
+    if (!wf.length) rows.push(`<div class="srow ok2"><span class="sdot"></span>no CI runs yet</div>`);
+  }
+  blk.innerHTML = rows.join('');
+  const pr = document.getElementById('pullrow');
+  if (pr) pr.addEventListener('click', pullNow);
 }
 
 /* quick open / search */
@@ -173,7 +223,7 @@ function quickOpen(q) {
   const all = [...DATA.briefs, ...DATA.people, ...DATA.topics];
   const hits = all.filter((n) => (noteTitle(n) + ' ' + n.slug).toLowerCase().includes(q)).slice(0, 12);
   box.innerHTML = hits.map((n, i) =>
-    `<div class="qo${i === 0 ? ' sel' : ''}" data-open="${esc(n.slug)}"><span>${esc(noteTitle(n))}</span><small>${esc(n.folder)}</small></div>`
+    `<div class="qo${i === 0 ? ' sel' : ''}" data-open="${esc(n.slug)}"><span>${esc(noteTitle(n))}</span><small>${esc(n.top || 'root')}</small></div>`
   ).join('') || '<div class="qo"><span>No matches</span></div>';
   box.hidden = false;
 }
@@ -181,6 +231,10 @@ function quickOpen(q) {
 document.addEventListener('click', (e) => {
   const op = e.target.closest('[data-open]');
   if (op) { e.preventDefault(); $('#quickopen').hidden = true; $('#search').value = ''; openNote(op.dataset.open); return; }
+  const td = e.target.closest('[data-dir]');
+  if (td) { const p = td.dataset.dir; COLLAPSED.has(p) ? COLLAPSED.delete(p) : COLLAPSED.add(p); render(); return; }
+  const tp = e.target.closest('[data-path]');
+  if (tp) { CURRENT = PATHMAP[tp.dataset.path] || CURRENT; render(); return; }
   const a = e.target.closest('a');
   if (a) {
     const href = a.getAttribute('href') || '';
@@ -222,6 +276,7 @@ async function pullNow() {
   $('#sync').textContent = 'syncing…';
   await window.vault.pull();
   await load(); // ensure view reflects latest even if no file-change event fired
+  refreshStatus();
 }
 
 document.querySelectorAll('#switch button').forEach((b) => b.addEventListener('click', () => setView(b.dataset.v)));
@@ -239,4 +294,5 @@ window.addEventListener('keydown', (e) => {
 });
 
 window.vault.onChanged(() => load());
+setInterval(() => { if (VIEW === 'dashboard') refreshStatus(); }, 60000);
 load();
