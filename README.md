@@ -14,10 +14,10 @@ flowchart TD
     W -->|commit &amp; push| M[("main branch")]
     M --> N["notify.yml<br/>→ ntfy push 🔔"]
     M --> L["linkcheck.yml<br/>→ flag dead links"]
-    M --> O["Obsidian vault<br/>auto-pull"]
     H["heartbeat.yml<br/>scheduled"] -.->|brief missing| N
+    M -->|git auto-pull| A["🖥️ Desktop app<br/>dashboard · graph · files · CI status"]
     N --> U["📱 You"]
-    O --> U
+    A --> U
 ```
 
 Each run:
