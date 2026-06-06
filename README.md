@@ -59,6 +59,31 @@ README.md                   This file
 - **`heartbeat.yml`** — shortly after each window, alerts if the expected brief
   never landed, so a failed run can't pass as a quiet day.
 
+## Run your own copy
+
+It's just markdown + GitHub Actions + Claude Code routines, so you can fork it and
+point it at your own interests:
+
+1. **Fork the repo**, then edit `people/` and `topics/` to track who and what you
+   care about (one file each — see [Folder structure](#folder-structure)).
+2. **Create two Claude Code routines** at
+   [claude.ai/code/routines](https://claude.ai/code/routines) — a morning and an
+   evening run — pointed at your fork. Each routine's prompt scans X/web for your
+   tracked people/topics, writes `briefs/<date>-<session>.md`, updates the stubs,
+   and commits/pushes to `main`. (The prompts live in claude.ai, not the repo;
+   cron is in UTC, so convert from your timezone.)
+3. **Allow direct pushes** — in the routine's repo permissions, enable
+   **Allow unrestricted git push** so it can commit straight to `main` (or adapt
+   the prompt to open PRs instead).
+4. **Choose an ntfy topic** — replace `ai-intel` with your own (ideally
+   unguessable) topic in `.github/workflows/notify.yml` and `heartbeat.yml`, then
+   subscribe to it in the [ntfy](https://ntfy.sh) app.
+5. **Enable GitHub Actions** on your fork (they power notifications, link-checking,
+   and the missed-run heartbeat). No secrets or tokens needed — ntfy topics are
+   public and the workflows just `curl` them.
+6. **(Optional) the desktop app** — `cd app && npm install && npm start`. Its CI
+   panel uses the [GitHub CLI](https://cli.github.com) (`gh auth login`).
+
 ## Desktop app
 
 A standalone Electron reader lives in [`app/`](app/) — a purpose-built mini-Obsidian for
@@ -97,3 +122,8 @@ your machine).
 Briefs are auto-generated from web search. The link-check catches dead URLs, but
 it can't verify that every claim is true — treat briefs as leads, not gospel, and
 follow the sources.
+
+## License
+
+MIT — see [LICENSE](LICENSE). The bundled humanizer skill is MIT, adapted from
+[blader/humanizer](https://github.com/blader/humanizer).
