@@ -16,7 +16,8 @@ Topic stub for **OpenCode**.
 
 ## Notes
 
--
+- **2026-06-06** PewDiePie's Odysseus project, a self-hosted personal AI workspace built on OpenCode, hit 44K GitHub stars in under a week. [[swyx]] called it a vibe shift moment for consumer-facing local AI. ([GitHub](https://github.com/pewdiepie-archdaemon/odysseus))
+- **2026-06** OpenCode sitting at 162K stars, supports 75+ providers. Increasingly used as underlying infrastructure for personal AI workspace products.
 
 ## Related
 

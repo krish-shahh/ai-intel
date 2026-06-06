@@ -17,7 +17,7 @@ Profile stub for **Simon Willison** (@simonw).
 
 ## Recent
 
--
+- **2026-06-06** Shipped datasette-apps and datasette-agent-micropython. Continues pushing "vibe engineering" as the term for responsible professional use of LLMs, explicitly distinguishing it from "vibe coding." ([substack](https://simonw.substack.com/p/vibe-engineering))
 
 ## Links
 

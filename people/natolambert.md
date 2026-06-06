@@ -17,7 +17,7 @@ Profile stub for **Nathan Lambert** (@natolambert).
 
 ## Recent
 
--
+- **2026-06-06** Building out a deeper understanding of Chinese AI labs. Said he'll share more soon. ([tweet](https://x.com/natolambert/status/1986856877163167810))
 
 ## Links
 

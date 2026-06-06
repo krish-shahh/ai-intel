@@ -17,7 +17,7 @@ Profile stub for **Peter Steinberger** (@steipete).
 
 ## Recent
 
--
+- **2026-02** Joined OpenAI to work on bringing agents to a general audience. Previously built OpenClaw (214K+ GitHub stars), an open-source personal AI agent. ([post](https://steipete.me/posts/2026/openclaw))
 
 ## Links
 
