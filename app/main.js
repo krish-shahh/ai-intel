@@ -103,12 +103,14 @@ function renderNote(raw) {
 }
 
 const IGNORE = new Set(['.git', 'node_modules', 'app', '.obsidian', 'dist', '.github']);
+const IGNORE_FILES = new Set(['README.md', 'Dashboard.md']);
 
 function collect(dir, rel, notes) {
   let entries;
   try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch (e) { return; }
   for (const e of entries) {
     if (e.name.startsWith('.') || IGNORE.has(e.name)) continue;
+    if (!e.isDirectory() && IGNORE_FILES.has(e.name)) continue;
     const full = path.join(dir, e.name);
     const r = rel ? rel + '/' + e.name : e.name;
     if (e.isDirectory()) collect(full, r, notes);
@@ -131,6 +133,7 @@ function buildTree(dir, rel) {
   entries.sort((a, b) => (Number(b.isDirectory()) - Number(a.isDirectory())) || a.name.localeCompare(b.name));
   for (const e of entries) {
     if (e.name.startsWith('.') || IGNORE.has(e.name)) continue;
+    if (!e.isDirectory() && IGNORE_FILES.has(e.name)) continue;
     const full = path.join(dir, e.name);
     const r = rel ? rel + '/' + e.name : e.name;
     if (e.isDirectory()) { const c = buildTree(full, r); if (c.children.length) node.children.push(c); }

@@ -38,7 +38,7 @@ The writing uses an in-repo "humanizer" skill so briefs don't read machine-gener
 briefs/                     Dated digests: YYYY-MM-DD-{morning,evening}.md
 people/                     One page per tracked person (name, handle, tags:[person])
 topics/                     One page per topic (title, tags:[topic])
-Dashboard.md                Dataview home note (recent briefs, top people/topics)
+app/                        Desktop reader app (Electron: dashboard, graph, files)
 README.md                   This file
 ```
 
@@ -58,6 +58,27 @@ README.md                   This file
   dead/invented ones (404/410/unreachable).
 - **`heartbeat.yml`** — shortly after each window, alerts if the expected brief
   never landed, so a failed run can't pass as a quiet day.
+
+## Desktop app
+
+A standalone Electron reader lives in [`app/`](app/) — a purpose-built mini-Obsidian for
+this vault, so you don't need Obsidian at all. Three views over the same markdown:
+
+- **Dashboard** — next-run time, stats, recent briefs, the latest brief rendered inline,
+  and a live status panel: whether you're behind `origin` (click to pull) and the latest
+  GitHub Actions run for each workflow (notify · link-check · heartbeat, via the `gh` CLI).
+- **Graph** — force-directed map of briefs ↔ people ↔ topics, from frontmatter + `[[wikilinks]]`.
+- **Files** — a collapsible file tree of the vault + a reader.
+
+It auto-pulls from GitHub (every 10 min + on launch) and live-reloads on file changes, so
+new briefs appear on their own.
+
+```bash
+cd app && npm install && npm start   # run from source
+npm run dist                          # build a macOS .app + .dmg into app/dist/
+```
+
+See [`app/README.md`](app/README.md) for details.
 
 ## Using it in Obsidian
 
