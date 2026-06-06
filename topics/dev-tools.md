@@ -16,7 +16,7 @@ Topic stub for **Dev Tools**.
 
 ## Notes
 
--
+- **2026-06-06** GitHub Copilot switched to AI Credits billing on June 1 (fully usage-based), adding user-level budgets and a Copilot Max upgrade path; Copilot code review now consumes Actions minutes. [llm-stats.com](https://llm-stats.com/llm-updates)
 
 ## Related
 

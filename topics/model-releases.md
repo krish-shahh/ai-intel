@@ -21,6 +21,8 @@ Topic stub for **Model Releases**.
 - **2026-06-06** Claude Opus 4.8 additional benchmarks: 96.7% on USAMO 2026 (+27 pts from Opus 4.7 in one cycle), Dynamic Workflows, Effort Control, Fast Mode 3x cheaper. [Anthropic](https://www.anthropic.com/news/claude-opus-4-8)
 - **2026-06-06** Microsoft launched 7 MAI models at Build 2026 (June 2), including MAI-Thinking-1 (35B MoE, 256K context, 53% SWE Bench Pro), all trained from scratch without OpenAI distillation. [Microsoft AI](https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/)
 
+- **2026-06-06** OpenAI shipped gpt-oss-120b and gpt-oss-20b under Apache 2.0: on-prem reasoning models with function calling and structured outputs, gpt-oss-120b near o4-mini on benchmarks, available on AWS Bedrock and SageMaker. [openai.com](https://openai.com/index/introducing-gpt-oss/)
+
 ## Related
 
 -
