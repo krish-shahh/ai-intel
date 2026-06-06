@@ -4,6 +4,8 @@ handle: @swyx
 tags: [person]
 ---
 
+[@swyx](https://x.com/swyx)
+
 Shawn Wang, who goes by swyx, is a developer and writer known for coining and popularizing the term "AI Engineer" to describe a distinct discipline. He is the co-founder and CEO of AI Engineer, which runs the AI Engineer Summit and World's Fair conferences, and he writes and co-hosts the Latent Space podcast and newsletter. He also founded Smol AI, which produces the AI News newsletter. As of 2025 he additionally contributes to evaluation standards for coding agents at Cognition.
 
 ## Recent

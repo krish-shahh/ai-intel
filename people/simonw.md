@@ -4,6 +4,8 @@ handle: @simonw
 tags: [person]
 ---
 
+[@simonw](https://x.com/simonw)
+
 Simon Willison is a British programmer and open source developer, best known as the co-creator of the Django web framework and the creator of Datasette, a tool for exploring and publishing data. Since 2023 he has focused heavily on large language models, building the LLM command-line tool and Python library and writing one of the most widely read weblogs on practical LLM use. He works independently on these open source projects and serves on the Python Software Foundation board. In 2025 he shipped Datasette Agent and a range of LLM-powered plugins.
 
 ## Recent
