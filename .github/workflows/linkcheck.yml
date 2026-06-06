@@ -1,0 +1,64 @@
+name: Brief link check
+
+# When a brief lands on main, verify its source links actually resolve.
+# Flags only 404 / 410 / connection-or-DNS failures (000) — these are the
+# signatures of a dead or invented URL. Codes like 200/301/403/429 are treated
+# as "reachable" so we don't false-alarm on X/Twitter and other sites that
+# block bots (a real X post often returns 403 to curl, an invented domain 000).
+# NOTE: this cannot catch a fabricated X status ID that still returns 200; it
+# catches bad domains, typo'd URLs, and dead articles/repos/papers.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'briefs/**.md'
+
+env:
+  NTFY_TOPIC: ai-intel
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check links in the new brief
+        run: |
+          set -uo pipefail
+
+          brief="$(git show --name-only --pretty='' HEAD \
+            | grep -E '^briefs/.*\.md$' | head -n1 || true)"
+          [ -z "${brief}" ] && { echo "No brief in HEAD; skip."; exit 0; }
+          [ ! -f "${brief}" ] && { echo "Brief deleted; skip."; exit 0; }
+
+          mapfile -t urls < <(grep -oE 'https?://[^ )]+' "${brief}" \
+            | sed -E 's/[.,);]+$//' | sort -u)
+          echo "Found ${#urls[@]} unique link(s) in ${brief}"
+
+          bad=()
+          for u in "${urls[@]}"; do
+            code="$(curl -sS -o /dev/null -L --max-time 20 \
+                      -A 'Mozilla/5.0 (compatible; ai-intel-linkcheck/1.0)' \
+                      -w '%{http_code}' "${u}" || echo 000)"
+            echo "  ${code}  ${u}"
+            case "${code}" in
+              404|410|000) bad+=("${code} ${u}") ;;
+            esac
+          done
+
+          if [ "${#bad[@]}" -gt 0 ]; then
+            echo "::warning::${#bad[@]} suspect link(s) in ${brief}"
+            msg="$(printf '%s\n' "${#bad[@]} suspect link(s) in ${brief}:" "${bad[@]}")"
+            curl -s -m 20 \
+              -H "Title: ai-intel link check — ${brief##*/}" \
+              -H "Priority: high" \
+              -H "Tags: warning" \
+              -d "${msg}" \
+              "https://ntfy.sh/${NTFY_TOPIC}" || true
+            exit 1
+          fi
+
+          echo "All links reachable."
