@@ -16,7 +16,8 @@
     "directories": { "output": "dist" },
     "mac": {
       "target": ["dmg", "zip"],
-      "category": "public.app-category.productivity"
+      "category": "public.app-category.productivity",
+      "icon": "build/icon.icns"
     }
   },
   "devDependencies": {

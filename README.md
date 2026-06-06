@@ -80,15 +80,17 @@ npm run dist                          # build a macOS .app + .dmg into app/dist/
 
 See [`app/README.md`](app/README.md) for details.
 
-## Using it in Obsidian
+## Obsidian (optional)
 
-Open the repo root as a vault (`Open folder as vault`). You get wikilinks,
+The desktop app above is the primary way to read this wiki, but since it's just a
+folder of markdown, you can also open it in [Obsidian](https://obsidian.md) if you
+prefer (`Open folder as vault`, pointed at the repo root). You get wikilinks,
 backlinks (each person/topic page shows every brief that mentioned it), the graph
 view, and tag filtering (`person` / `topic` / `brief`).
 
-- Install the **Dataview** plugin to make `Dashboard.md` render.
-- Install the **Obsidian Git** plugin and enable auto-pull so new briefs sync to
-  your vault automatically (the routines push to GitHub, not to your machine).
+If you go the Obsidian route, install the **Obsidian Git** plugin and enable
+auto-pull so new briefs sync to your vault (the routines push to GitHub, not to
+your machine).
 
 ## A note on accuracy
 
