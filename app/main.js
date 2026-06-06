@@ -7,6 +7,13 @@ const MarkdownIt = require('markdown-it');
 const PULL_INTERVAL_MS = 10 * 60 * 1000; // auto-pull every 10 minutes
 let pullTimer = null;
 
+// GUI apps launched from the Dock get a minimal PATH (/usr/bin:/bin), which omits
+// Homebrew — so `gh` (and git in some setups) aren't found. Restore the usual dirs.
+const EXEC_ENV = {
+  ...process.env,
+  PATH: ['/opt/homebrew/bin', '/usr/local/bin', process.env.PATH || '', '/usr/bin', '/bin'].filter(Boolean).join(':'),
+};
+
 const cfgFile = () => path.join(app.getPath('userData'), 'config.json');
 const isVault = (p) => { try { return fs.existsSync(path.join(p, 'briefs')) || fs.existsSync(path.join(p, 'people')); } catch (e) { return false; } };
 function loadConfig() { try { return JSON.parse(fs.readFileSync(cfgFile(), 'utf8')); } catch (e) { return {}; } }
@@ -53,7 +60,7 @@ function gitPull(reason) {
       if (win) win.webContents.send('vault:pull', res);
       return resolve(res);
     }
-    exec('git pull --ff-only', { cwd: vaultPath, timeout: 60000 }, (err, stdout, stderr) => {
+    exec('git pull --ff-only', { cwd: vaultPath, timeout: 60000, env: EXEC_ENV }, (err, stdout, stderr) => {
       const out = ((stdout || '') + (stderr || '')).trim();
       const changed = !err && !/Already up to date/i.test(out);
       const res = { ok: !err, changed, reason, at: Date.now(), msg: err ? out : (changed ? 'updated' : 'up to date') };
@@ -162,7 +169,7 @@ function loadVault() {
 }
 
 function sh(cmd) {
-  return new Promise((res) => exec(cmd, { cwd: vaultPath, timeout: 30000 },
+  return new Promise((res) => exec(cmd, { cwd: vaultPath, timeout: 30000, env: EXEC_ENV },
     (e, o, er) => res({ ok: !e, out: (o || '').trim(), err: (er || '').trim() })));
 }
 async function gitInfo() {
