@@ -17,7 +17,7 @@ Profile stub for **Harrison Chase** (@hwchase17).
 
 ## Recent
 
--
+- **2026-06-06** Shipped LangChain Engine: an agent that mines LangSmith production traces, patches agent code, and sets up evals autonomously. [LangChain Blog](https://www.langchain.com/blog)
 
 ## Links
 
