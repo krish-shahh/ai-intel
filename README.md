@@ -8,17 +8,16 @@ be browsed as an [Obsidian](https://obsidian.md) vault.
 
 ## How it works
 
-```
-8am & 8pm EST                  per push to briefs/
-┌──────────────┐   commit +    ┌───────────────────────────┐
-│ cloud routine │──push to main─▶│ GitHub Actions            │
-│ (Claude)      │               │  • notify  → ntfy push    │
-│  search → write│               │  • linkcheck → flag dead  │
-│  brief + stubs │               │ + heartbeat (scheduled)   │
-└──────────────┘               └───────────────────────────┘
-        │                                   │
-        ▼                                   ▼
-  briefs/ + people/ + topics/        phone notification
+```mermaid
+flowchart TD
+    R["⏰ Cloud routines<br/>8am &amp; 8pm EST"] -->|search X + web| W["Write digest brief<br/>+ update people/topics"]
+    W -->|commit &amp; push| M[("main branch")]
+    M --> N["notify.yml<br/>→ ntfy push 🔔"]
+    M --> L["linkcheck.yml<br/>→ flag dead links"]
+    M --> O["Obsidian vault<br/>auto-pull"]
+    H["heartbeat.yml<br/>scheduled"] -.->|brief missing| N
+    N --> U["📱 You"]
+    O --> U
 ```
 
 Each run:
