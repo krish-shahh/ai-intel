@@ -4,10 +4,6 @@ handle: @sama
 tags: [person]
 ---
 
-# Sam Altman
-
-[@sama](https://x.com/sama)
-
 Sam Altman is co-founder and CEO of OpenAI, the company behind ChatGPT and the GPT model series. He previously was president of Y Combinator. He was briefly removed as CEO in November 2023 before being reinstated days later. He remains CEO of OpenAI as of 2026, leading the company through its push on ChatGPT and infrastructure deals amid reported preparations for a potential IPO.
 
 ## Recent

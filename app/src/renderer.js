@@ -161,10 +161,16 @@ function Files() {
 
   const reader = elem('section', 'reader');
   if (CURRENT) {
-    const sub = CURRENT.top === 'briefs'
-      ? `${fmtDate(CURRENT.data.date, true)} · ${cap(CURRENT.data.session || '')}`
-      : (CURRENT.data.handle || CURRENT.path);
-    reader.innerHTML = `<h1 class="rhead">${esc(noteTitle(CURRENT))}</h1><div class="rmeta">${esc(sub)}</div><article class="prose">${CURRENT.html}</article>`;
+    let sub;
+    if (CURRENT.top === 'briefs') {
+      sub = `${esc(fmtDate(CURRENT.data.date, true))} · ${esc(cap(CURRENT.data.session || ''))}`;
+    } else if (CURRENT.data.handle) {
+      const h = String(CURRENT.data.handle).replace(/^@/, '');
+      sub = `<a href="https://x.com/${esc(h)}">@${esc(h)}</a>`;
+    } else {
+      sub = esc(CURRENT.path);
+    }
+    reader.innerHTML = `<h1 class="rhead">${esc(noteTitle(CURRENT))}</h1><div class="rmeta">${sub}</div><article class="prose">${CURRENT.html}</article>`;
   } else {
     reader.innerHTML = `<div class="empty">Select a note.</div>`;
   }

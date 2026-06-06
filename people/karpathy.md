@@ -4,10 +4,6 @@ handle: @karpathy
 tags: [person]
 ---
 
-# Andrej Karpathy
-
-[@karpathy](https://x.com/karpathy)
-
 Andrej Karpathy is an AI researcher and educator who was a founding member of OpenAI and later served as senior director of AI at Tesla, where he led the Autopilot vision team. He is widely known for his deep learning teaching, including the Stanford CS231n course and his "zero to hero" neural network video series, and for coining the term "vibe coding." In July 2024 he founded Eureka Labs, an AI-native education startup. As of May 2026 he joined Anthropic to build a team using Claude to accelerate model pre-training research.
 
 ## Recent
