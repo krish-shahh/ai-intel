@@ -1,0 +1,5 @@
+# Obsidian local app/workspace settings (per-machine, not part of the wiki)
+.obsidian/
+
+# Claude Code local settings
+.claude/settings.local.json
