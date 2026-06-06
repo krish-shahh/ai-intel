@@ -2,7 +2,7 @@
 
 A **self-writing AI intel wiki**: a living knowledge base about the people,
 projects, and ideas moving the AI world. Two scheduled cloud agents read what
-happened across X and the web twice a day, write a short brief, update the
+happened across X, Reddit, and the web twice a day, write a short brief, update the
 relevant people/topic pages, push to `main`, and ping your phone. It's built to
 be browsed as an [Obsidian](https://obsidian.md) vault.
 
@@ -10,7 +10,7 @@ be browsed as an [Obsidian](https://obsidian.md) vault.
 
 ```mermaid
 flowchart TD
-    R["⏰ Cloud routines<br/>8am &amp; 8pm EST"] -->|search X + web| W["Write digest brief<br/>+ update people/topics"]
+    R["⏰ Cloud routines<br/>8am &amp; 8pm EST"] -->|search X + Reddit + web| W["Write digest brief<br/>+ update people/topics"]
     W -->|commit &amp; push| M[("main branch")]
     M --> N["notify.yml<br/>→ ntfy push 🔔"]
     M --> L["linkcheck.yml<br/>→ flag dead links"]
@@ -22,18 +22,20 @@ flowchart TD
 
 Each run:
 1. Reads `people/` and `topics/` as the **source of truth** for what to track.
-2. Searches X/Twitter and the web for the last ~10h.
-3. Writes a scannable digest to `briefs/<date>-<session>.md` — TL;DR, light
-   section headers, one-line bullets, every bullet ending in a real source link.
-4. Appends dated, sourced notes to the relevant `people/` and `topics/` pages.
-5. Commits and pushes directly to `main`.
-
-The writing uses an in-repo "humanizer" skill so briefs don't read machine-generated.
+2. Searches X/Twitter, Reddit, and the web for the last ~10h. Reddit is pulled as
+   structured JSON (append `.json` to any URL, e.g. `r/LocalLLaMA/new.json`), and each
+   post's `created_utc` timestamp is used to keep only genuinely fresh items.
+3. Skims the previous brief and reports only what's new since then, so the morning and
+   evening briefs don't repeat each other.
+4. Writes a scannable digest to `briefs/<date>-<session>.md` — TL;DR, light section
+   headers, one-line bullets in a plain voice, every bullet ending in a real source link.
+5. Appends dated, sourced notes to the relevant `people/` and `topics/` pages.
+6. Commits and pushes the brief to `main` first, then the page updates as a second commit.
 
 ## Folder structure
 
 ```
-.claude/skills/humanizer/   Skill the routines use to clean up writing
+.claude/skills/humanizer/   Bundled MIT writing-cleanup skill (optional; not in the default pipeline)
 .github/workflows/          notify.yml · linkcheck.yml · heartbeat.yml
 briefs/                     Dated digests: YYYY-MM-DD-{morning,evening}.md
 people/                     One page per tracked person (name, handle, tags:[person])
@@ -44,7 +46,9 @@ README.md                   This file
 
 - **`people/` is the whitelist.** Add a `people/<slug>.md` with `name`, `handle`,
   `tags: [person]` and the next run tracks them. Remove the file to stop. The
-  filename (no `.md`) is the wikilink slug, e.g. `[[karpathy]]`.
+  filename (no `.md`) is the wikilink slug, e.g. `[[karpathy]]`. Each page carries a
+  short bio and links the handle to that person's X profile; the routine appends dated,
+  sourced notes under `## Recent`.
 - **`topics/`** works the same way for themes; its filenames are the topic slugs.
 
 ## Automation
@@ -68,10 +72,11 @@ point it at your own interests:
    care about (one file each — see [Folder structure](#folder-structure)).
 2. **Create two Claude Code routines** at
    [claude.ai/code/routines](https://claude.ai/code/routines) — a morning and an
-   evening run — pointed at your fork. Each routine's prompt scans X/web for your
-   tracked people/topics, writes `briefs/<date>-<session>.md`, updates the stubs,
-   and commits/pushes to `main`. (The prompts live in claude.ai, not the repo;
-   cron is in UTC, so convert from your timezone.)
+   evening run — pointed at your fork. Each routine's prompt scans X, Reddit (via the
+   public `.json` endpoints, filtered to fresh posts by `created_utc`), and the web for
+   your tracked people/topics, writes `briefs/<date>-<session>.md`, updates the stubs,
+   and commits/pushes to `main`. (The prompts live in claude.ai, not the repo; cron is
+   in UTC, so convert from your timezone.)
 3. **Allow direct pushes** — in the routine's repo permissions, enable
    **Allow unrestricted git push** so it can commit straight to `main` (or adapt
    the prompt to open PRs instead).
