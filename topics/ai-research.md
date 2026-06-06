@@ -3,21 +3,6 @@ title: AI Research
 tags: [topic]
 ---
 
-# AI Research
-
-Topic stub for **AI Research**.
-
-> Auto-generated placeholder. The wiki will accumulate notes, links, and
-> related people/briefs on this topic over time.
-
-## Overview
-
--
+AI research covers new papers, methods, and findings across machine learning: model architectures, training, evaluation, reasoning, and interpretability. This page tracks notable work as it lands.
 
 ## Notes
-
--
-
-## Related
-
--
