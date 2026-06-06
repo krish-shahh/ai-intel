@@ -3,51 +3,65 @@ title: Dashboard
 tags: [dashboard]
 ---
 
-# ai-intel dashboard
+# 🗞️ ai-intel
 
-> Needs the **Dataview** community plugin. In Obsidian: Settings → Community plugins → Browse → install & enable **Dataview**. The blocks below render live once it's on.
+Twice-daily intel on the people and topics moving AI. Fresh briefs land at **8:00 AM** and **8:00 PM EST**.
 
-## Latest briefs
+> [!tip]
+> Switch to **Reading view** (`Cmd+E`) to see the tables. The count next to each header (e.g. *Person (4)*) is the live total.
+
+## 🆕 Latest briefs
 
 ```dataview
-TABLE WITHOUT ID file.link AS Brief, session AS Session, date AS Date
+TABLE WITHOUT ID file.link AS Brief, session AS Session, dateformat(date, "EEE, MMM dd") AS Date, length(topics) AS "Topics"
 FROM "briefs"
 SORT date DESC, session DESC
-LIMIT 20
+LIMIT 14
 ```
 
-## Most-mentioned people
+## 🔥 Most-mentioned people
 
 ```dataview
-TABLE length(rows) AS "Briefs"
+TABLE WITHOUT ID link(key) AS Person, length(rows) AS Briefs
 FROM "briefs"
 FLATTEN people AS person
-GROUP BY person AS "Person"
+GROUP BY person
 SORT length(rows) DESC
+LIMIT 12
 ```
 
-## Most-covered topics
+## 🏷️ Most-covered topics
 
 ```dataview
-TABLE length(rows) AS "Briefs"
+TABLE WITHOUT ID link(key) AS Topic, length(rows) AS Briefs
 FROM "briefs"
 FLATTEN topics AS topic
-GROUP BY topic AS "Topic"
+GROUP BY topic
 SORT length(rows) DESC
+LIMIT 12
 ```
 
-## People index
+## 🕑 Recently updated pages
 
 ```dataview
-LIST
+TABLE WITHOUT ID file.link AS Page, dateformat(file.mtime, "MMM dd, HH:mm") AS Updated
+FROM "people" OR "topics"
+SORT file.mtime DESC
+LIMIT 10
+```
+
+## 👤 Tracked people
+
+```dataview
+LIST WITHOUT ID link(file.name, default(name, file.name))
 FROM "people"
 SORT file.name ASC
 ```
 
-## Topics index
+## 🧭 Topics
 
 ```dataview
-LIST
+LIST WITHOUT ID link(file.name, default(title, file.name))
 FROM "topics"
 SORT file.name ASC
 ```
