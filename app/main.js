@@ -7,6 +7,19 @@ const MarkdownIt = require('markdown-it');
 const PULL_INTERVAL_MS = 10 * 60 * 1000; // auto-pull every 10 minutes
 let pullTimer = null;
 
+const cfgFile = () => path.join(app.getPath('userData'), 'config.json');
+const isVault = (p) => { try { return fs.existsSync(path.join(p, 'briefs')) || fs.existsSync(path.join(p, 'people')); } catch (e) { return false; } };
+function loadConfig() { try { return JSON.parse(fs.readFileSync(cfgFile(), 'utf8')); } catch (e) { return {}; } }
+function saveConfig(c) { try { fs.mkdirSync(path.dirname(cfgFile()), { recursive: true }); fs.writeFileSync(cfgFile(), JSON.stringify(c)); } catch (e) {} }
+function resolveVault() {
+  const saved = loadConfig().vaultPath;
+  if (saved && isVault(saved)) return saved;
+  const home = app.getPath('home');
+  const candidates = [path.resolve(__dirname, '..'), path.join(home, 'Desktop', 'ai-intel'), path.join(home, 'ai-intel')];
+  for (const c of candidates) if (isVault(c)) return c;
+  return path.resolve(__dirname, '..');
+}
+
 const md = new MarkdownIt({ html: false, linkify: true, typographer: true });
 
 let win = null;
@@ -178,6 +191,7 @@ ipcMain.handle('vault:pick', async () => {
   const r = await dialog.showOpenDialog(win, { properties: ['openDirectory'] });
   if (!r.canceled && r.filePaths[0]) {
     vaultPath = r.filePaths[0];
+    saveConfig({ vaultPath });
     watchVault();
     startAutoPull();
     return loadVault();
@@ -188,6 +202,6 @@ ipcMain.handle('vault:pull', () => gitPull('manual'));
 ipcMain.handle('vault:status', async () => ({ git: await gitInfo(), ci: await ciInfo() }));
 ipcMain.on('open:external', (_e, url) => { if (/^https?:/.test(url)) shell.openExternal(url); });
 
-app.whenReady().then(createWindow);
+app.whenReady().then(() => { vaultPath = resolveVault(); createWindow(); });
 app.on('window-all-closed', () => { if (process.platform !== 'darwin') app.quit(); });
 app.on('activate', () => { if (BrowserWindow.getAllWindows().length === 0) createWindow(); });
