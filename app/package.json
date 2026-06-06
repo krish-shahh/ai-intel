@@ -1,0 +1,29 @@
+{
+  "name": "ai-intel-app",
+  "version": "0.1.0",
+  "description": "Desktop reader for the ai-intel wiki — dashboard, graph, and file views",
+  "main": "main.js",
+  "author": "krish-shahh",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.krishshah.aiintel",
+    "productName": "ai-intel",
+    "files": ["main.js", "preload.js", "src/**/*"],
+    "directories": { "output": "dist" },
+    "mac": {
+      "target": ["dmg", "zip"],
+      "category": "public.app-category.productivity"
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
+  }
+}

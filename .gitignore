@@ -3,3 +3,7 @@
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Electron desktop app build artifacts
+app/node_modules/
+app/dist/
