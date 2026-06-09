@@ -10,5 +10,6 @@ Peter Steinberger is an Austrian programmer and entrepreneur who founded PSPDFKi
 
 ## Recent
 
+- **2026-06-08** OpenClaw v2026.6.5-beta.5 shipped (22:49 UTC), the fifth beta in the current sprint; project has grown past 210k GitHub stars in 2026. [GitHub releases](https://github.com/openclaw/openclaw/releases)
 - **2026-06-07** OpenClaw v2026.6.5-beta.2 released: QQBot strips model reasoning before delivery, MCP tool results now handle non-text content, Anthropic extended-thinking sessions recover on reconnect, parallel web-search provider bundled, auth profiles moved to SQLite. Beta.1 (June 6) carried the same core fixes. [GitHub releases](https://github.com/openclaw/openclaw/releases)
 - **2026-02** Joined OpenAI to work on bringing agents to a general audience. Previously built OpenClaw (214K+ GitHub stars), an open-source personal AI agent. ([post](https://steipete.me/posts/2026/openclaw))
