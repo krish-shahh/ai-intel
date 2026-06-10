@@ -10,5 +10,6 @@ Nathan Lambert is an AI researcher specializing in reinforcement learning from h
 
 ## Recent
 
+- **2026-06-09** Called out Anthropic publicly: "I don't really want to have to go to bat against Anthropic, but they've just been unnecessarily antagonistic to all of China, then not so subtly to open weight models, and now more broadly open AI research. What's next on the list?" Posted on the day Fable 5 launched. ([tweet](https://x.com/natolambert/status/2064412173527556298))
 - **2026-06-06** Building out a deeper understanding of Chinese AI labs. Said he'll share more soon. ([tweet](https://x.com/natolambert/status/1986856877163167810))
 - **2026-06-06** Flagged rapid political pressure to ban AI "distillation attacks," warning that early legislation could trigger serious unintended second-order effects. [Substack](https://substack.com/@natolambert/note/c-248222393)
