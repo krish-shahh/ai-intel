@@ -7,6 +7,9 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-06-12** v2.1.175 adds `enforceAvailableModels` managed setting: when enabled, the `availableModels` allowlist constrains the Default model and user/project settings can no longer widen a managed list — MDM-style model lockdown for enterprises. [GitHub](https://github.com/anthropics/claude-code/releases)
+- **2026-06-12** v2.1.174 adds usage attribution breakdown (cache misses, long context, subagents) to the Account & usage dialog; fixes enterprise Fable 5 credits banner, Bedrock GovCloud region handling, and background sessions inheriting provider env variables. [GitHub](https://github.com/anthropics/claude-code/releases)
+- **2026-06-10** v2.1.172 enables nested sub-agents: sub-agents can now spawn their own sub-agents up to 5 levels deep; Bedrock now reads AWS region from `~/.aws` config when `AWS_REGION` isn't set; added search bar for marketplace plugin browsing. [GitHub](https://github.com/anthropics/claude-code/releases)
 - **2026-06-11** Code with Claude: Extended Tokyo ran today — a second-day overflow event for indie devs and early-stage founders with hands-on workshops on managed agents, memory, evals, and multi-agent composition; recordings to be posted. [Event page](https://claude.com/code-with-claude/tokyo-extended)
 - **2026-06-06** Enterprise cost crisis surfacing loudly. Microsoft cutting Claude Code licenses for its Experiences + Devices division by June 30, routing to Copilot. Uber burned through its entire 2026 AI coding budget by April, with heavy users hitting $500-$2,000/month. ([opentools.ai](https://opentools.ai/news/microsoft-cancels-claude-code-licenses-copilot-cli))
 - **2026-05-28** Claude Opus 4.8 released, now leads the Artificial Analysis Intelligence Index at 61.4, with SWE-bench Pro at 69.2%.
