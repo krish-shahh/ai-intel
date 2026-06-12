@@ -2,15 +2,15 @@
 
 A **self-writing AI intel wiki**: a living knowledge base about the people,
 projects, and ideas moving the AI world. Two scheduled cloud agents read what
-happened across X, Reddit, and the web twice a day, write a short brief, update the
-relevant people/topic pages, push to `main`, and ping your phone. It's built to
-be browsed as an [Obsidian](https://obsidian.md) vault.
+happened across X, Reddit, Hacker News, Polymarket, GitHub, and the web twice a
+day, write a short brief, update the relevant people/topic pages, push to `main`,
+and ping your phone. It's built to be browsed as an [Obsidian](https://obsidian.md) vault.
 
 ## How it works
 
 ```mermaid
 flowchart TD
-    R["⏰ Cloud routines<br/>8am &amp; 8pm EST"] -->|search X + Reddit + web| W["Write digest brief<br/>+ update people/topics"]
+    R["⏰ Cloud routines<br/>9am &amp; 8pm EST"] -->|search X · Reddit · HN · Polymarket · GitHub · web| W["Write digest brief<br/>+ update people/topics"]
     W -->|commit &amp; push| M[("main branch")]
     M --> N["notify.yml<br/>→ ntfy push 🔔"]
     M --> L["linkcheck.yml<br/>→ flag dead links"]
@@ -22,15 +22,24 @@ flowchart TD
 
 Each run:
 1. Reads `people/` and `topics/` as the **source of truth** for what to track.
-2. Searches X/Twitter, Reddit, and the web for the last ~10h. Reddit is pulled as
-   structured JSON (append `.json` to any URL, e.g. `r/LocalLLaMA/new.json`), and each
-   post's `created_utc` timestamp is used to keep only genuinely fresh items.
-3. Skims the previous brief and reports only what's new since then, so the morning and
+2. Searches across multiple sources for the last ~10h:
+   - **X/Twitter** and the **web** via search
+   - **Reddit** — pulled as structured JSON (`r/<sub>/new.json`, filtered by `created_utc`)
+     across 26+ practitioner subs (r/LocalLLaMA, r/ClaudeAI, r/OpenAI, etc.)
+   - **Hacker News** — via the Algolia API (`hn.algolia.com`), filtered by freshness and
+     minimum engagement (≥10 points or ≥5 comments)
+   - **Polymarket** — scans active prediction markets for AI topics; surfaces a signal only
+     if volume > $10k and the odds are surprising or actionable
+   - **GitHub trending** — daily trending repos, filtered to AI/ML/agent projects
+   - **TLDR newsletters** (morning only) — ai, tech, and hardware editions
+3. Ranks competing items by community engagement (Reddit score, HN points, comment count)
+   within the freshness window.
+4. Skims the previous brief and reports only what's new since then, so the morning and
    evening briefs don't repeat each other.
-4. Writes a scannable digest to `briefs/<date>-<session>.md` — TL;DR, light section
+5. Writes a scannable digest to `briefs/<date>-<session>.md` — TL;DR, light section
    headers, one-line bullets in a plain voice, every bullet ending in a real source link.
-5. Appends dated, sourced notes to the relevant `people/` and `topics/` pages.
-6. Commits and pushes the brief to `main` first, then the page updates as a second commit.
+6. Appends dated, sourced notes to the relevant `people/` and `topics/` pages.
+7. Commits and pushes the brief to `main` first, then the page updates as a second commit.
 
 ## Folder structure
 
@@ -73,10 +82,10 @@ point it at your own interests:
 2. **Create two Claude Code routines** at
    [claude.ai/code/routines](https://claude.ai/code/routines) — a morning and an
    evening run — pointed at your fork. Each routine's prompt scans X, Reddit (via the
-   public `.json` endpoints, filtered to fresh posts by `created_utc`), and the web for
-   your tracked people/topics, writes `briefs/<date>-<session>.md`, updates the stubs,
-   and commits/pushes to `main`. (The prompts live in claude.ai, not the repo; cron is
-   in UTC, so convert from your timezone.)
+   public `.json` endpoints, filtered by `created_utc`), Hacker News (Algolia API),
+   Polymarket, GitHub trending, and the web for your tracked people/topics, writes
+   `briefs/<date>-<session>.md`, updates the stubs, and commits/pushes to `main`.
+   (The prompts live in claude.ai, not the repo; cron is in UTC, so convert from your timezone.)
 3. **Allow direct pushes** — in the routine's repo permissions, enable
    **Allow unrestricted git push** so it can commit straight to `main` (or adapt
    the prompt to open PRs instead).
