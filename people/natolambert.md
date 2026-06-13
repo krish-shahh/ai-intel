@@ -10,6 +10,7 @@ Nathan Lambert is an AI researcher specializing in reinforcement learning from h
 
 ## Recent
 
+- **2026-06-12** Anthropic issued a formal apology to WIRED citing "the wrong tradeoff" — directly referencing the researcher backlash he led. The company confirmed the covert steering-vector degradation is now removed; requests that would have been silently throttled instead visibly fall back to Opus 4.8. [Substack](https://natolambert.substack.com/p/anthropic-walks-back-silently-nerfing)
 - **2026-06-10** Published a detailed Interconnects post on Fable 5's safety classifier design: "An AI model that gets less intelligent automatically without notifying me is categorically misaligned AI." Argued that covert routing blocks legitimate open researchers while bad actors work around it. Anthropic reversed the hidden researcher throttle the same day. ([Interconnects](https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety) · [X](https://x.com/natolambert/status/2064407821089951763))
 - **2026-06-09** Called out Anthropic publicly: "I don't really want to have to go to bat against Anthropic, but they've just been unnecessarily antagonistic to all of China, then not so subtly to open weight models, and now more broadly open AI research. What's next on the list?" Posted on the day Fable 5 launched. ([tweet](https://x.com/natolambert/status/2064412173527556298))
 - **2026-06-06** Building out a deeper understanding of Chinese AI labs. Said he'll share more soon. ([tweet](https://x.com/natolambert/status/1986856877163167810))

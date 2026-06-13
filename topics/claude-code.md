@@ -7,6 +7,7 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-06-12** v2.1.176: session titles now generate in the conversation language (configurable via `language` setting), `footerLinksRegexes` for regex-matched link badges, improved Bedrock credential caching (cached until `Expiration` vs fixed 1 hour), and a large batch of Remote Control and background-agent bug fixes including disconnect notifications, session model switching, and backgrounded-session "Working" spinner stalls. [Changelog](https://code.claude.com/docs/en/changelog)
 - **2026-06-12** v2.1.175 adds `enforceAvailableModels` managed setting: when enabled, the `availableModels` allowlist constrains the Default model and user/project settings can no longer widen a managed list — MDM-style model lockdown for enterprises. [GitHub](https://github.com/anthropics/claude-code/releases)
 - **2026-06-12** v2.1.174 adds usage attribution breakdown (cache misses, long context, subagents) to the Account & usage dialog; fixes enterprise Fable 5 credits banner, Bedrock GovCloud region handling, and background sessions inheriting provider env variables. [GitHub](https://github.com/anthropics/claude-code/releases)
 - **2026-06-10** v2.1.172 enables nested sub-agents: sub-agents can now spawn their own sub-agents up to 5 levels deep; Bedrock now reads AWS region from `~/.aws` config when `AWS_REGION` isn't set; added search bar for marketplace plugin browsing. [GitHub](https://github.com/anthropics/claude-code/releases)
