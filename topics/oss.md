@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-13** **anthropics/skills** is the top trending Python repo today with +459 stars (150K total). **NVIDIA/SkillSpector** — a security scanner for agent skills — surged +809 stars to 4K total. **browser-use** added +181 to reach 98K total. [GitHub Trending](https://github.com/trending/python?since=daily)
+
 - **2026-06-13** addyosmani/agent-skills hit 2,656 stars in one day on GitHub trending — Addy Osmani's SKILL.md framework for AI coding agents is at 53k+ total stars; provides 20 core skills, 7 slash commands, and 3 specialist agent personas for the full dev lifecycle. [GitHub](https://github.com/addyosmani/agent-skills)
 - **2026-06-13** obra/superpowers pulled 1,275 stars today on GitHub trending — Jesse Vincent's TDD-enforced agentic methodology now ships through the Claude plugin marketplace, Codex CLI, Gemini CLI, Cursor, and GitHub Copilot CLI; at 224k+ total stars. [GitHub](https://github.com/obra/superpowers)
 - **2026-06-08** OpenClaw v2026.6.5-beta.5 shipped (22:49 UTC), the fifth beta in the current sprint; project now past 210k GitHub stars. [GitHub releases](https://github.com/openclaw/openclaw/releases)
