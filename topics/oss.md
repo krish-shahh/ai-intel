@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-14** `LMCache/LMCache` surged 238 stars today: persistent KV cache layer for vLLM and SGLang claiming 6.7x faster TTFT and ~80% higher throughput via cross-query prefix reuse; had an MLSys 2026 invited talk. [GitHub](https://github.com/LMCache/LMCache)
+
 - **2026-06-13** **anthropics/skills** is the top trending Python repo today with +459 stars (150K total). **NVIDIA/SkillSpector** — a security scanner for agent skills — surged +809 stars to 4K total. **browser-use** added +181 to reach 98K total. [GitHub Trending](https://github.com/trending/python?since=daily)
 
 - **2026-06-13** addyosmani/agent-skills hit 2,656 stars in one day on GitHub trending — Addy Osmani's SKILL.md framework for AI coding agents is at 53k+ total stars; provides 20 core skills, 7 slash commands, and 3 specialist agent personas for the full dev lifecycle. [GitHub](https://github.com/addyosmani/agent-skills)
