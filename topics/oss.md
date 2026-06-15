@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-15** Panniantong/Agent-Reach hit 1,045 stars on GitHub trending today: free CLI giving any AI agent access to 16 web platforms (Twitter, Reddit, YouTube, GitHub, and more) via one command, no paid API keys required. Works with Claude Code, Cursor, Codex, and others. [GitHub](https://github.com/Panniantong/Agent-Reach)
+
 - **2026-06-14** `LMCache/LMCache` surged 238 stars today: persistent KV cache layer for vLLM and SGLang claiming 6.7x faster TTFT and ~80% higher throughput via cross-query prefix reuse; had an MLSys 2026 invited talk. [GitHub](https://github.com/LMCache/LMCache)
 
 - **2026-06-13** **anthropics/skills** is the top trending Python repo today with +459 stars (150K total). **NVIDIA/SkillSpector** — a security scanner for agent skills — surged +809 stars to 4K total. **browser-use** added +181 to reach 98K total. [GitHub Trending](https://github.com/trending/python?since=daily)
