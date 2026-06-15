@@ -10,6 +10,7 @@ Nathan Lambert is an AI researcher specializing in reinforcement learning from h
 
 ## Recent
 
+- **2026-06-15** Confirmed as Global CTO of AI at the Linux Foundation, focusing on open model governance and fully open post-training work. [Interconnects](https://www.interconnects.ai/p/farewell-ai2)
 - **2026-06-13** Posted Substack reflections on "the current state of the Claude Fable saga," noting a cluster of overlapping problems operating on different timelines — some fixable, some without easy answers. [Substack note](https://substack.com/@natolambert/note/c-274465419)
 
 - **2026-06-12** Anthropic issued a formal apology to WIRED citing "the wrong tradeoff" — directly referencing the researcher backlash he led. The company confirmed the covert steering-vector degradation is now removed; requests that would have been silently throttled instead visibly fall back to Opus 4.8. [Substack](https://natolambert.substack.com/p/anthropic-walks-back-silently-nerfing)
