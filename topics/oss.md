@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-17** Panniantong/Agent-Reach hit 2,025 stars today (#1 GitHub trending overall). obra/superpowers added 1,109 stars (224K total). [Agent-Reach](https://github.com/Panniantong/Agent-Reach) · [superpowers](https://github.com/obra/superpowers)
+
 - **2026-06-16** Panniantong/Agent-Reach still on GitHub trending: +1,100 stars today, 30K total. Still the biggest AI mover in the daily list. [GitHub](https://github.com/Panniantong/Agent-Reach)
 
 - **2026-06-15** Panniantong/Agent-Reach hit 1,045 stars on GitHub trending today: free CLI giving any AI agent access to 16 web platforms (Twitter, Reddit, YouTube, GitHub, and more) via one command, no paid API keys required. Works with Claude Code, Cursor, Codex, and others. [GitHub](https://github.com/Panniantong/Agent-Reach)

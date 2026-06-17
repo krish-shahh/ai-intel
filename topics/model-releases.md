@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-16** OpenAI chief scientist Jakub Pachocki called GPT-5.6 a "meaningful leap" over GPT-5.5 in a public statement; no official launch date but Polymarket gives June 22-28 an 83% probability ($960K volume). [TechTimes](https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm)
+
 - **2026-06-16** Fable 5 / Mythos 5 still offline as of evening UTC. Anthropic's Tom Brown and Sarah Heck met White House officials over the weekend; no deal announced. 80+ cybersecurity executives signed an open letter June 14 asking Commerce Secretary Lutnick to lift the controls. Amazon researchers reportedly triggered the ban by demo'ing a cyberattack jailbreak to the White House. Polymarket: ~71% chance Fable 5 access restored by July 1. [Axios](https://www.axios.com/2026/06/13/anthropic-amazon-white-house) · [Fortune](https://fortune.com/2026/06/14/how-a-warning-from-amazon-led-the-white-house-to-shut-down-anthropics-mythos-model/) · [BusinessToday](https://www.businesstoday.in/technology/news/story/anthropic-and-white-house-officials-to-hold-discussions-around-claude-fable-5-ban-536943-2026-06-15) · [Polymarket](https://polymarket.com/event/claude-fable-5-restored-for-us-customers-by-20260613193753196)
 
 - **2026-06-15** Claude Opus 4 and Sonnet 4 retirements took effect at 9AM PT; API calls to `claude-opus-4-20250514` or `claude-sonnet-4-20250514` now return errors. No auto-failover. [Enterprise DNA](https://enterprisedna.co/resources/news/anthropic-claude-june-15-retirements-billing-2026/)

@@ -10,6 +10,8 @@ Sam Altman is co-founder and CEO of OpenAI, the company behind ChatGPT and the G
 
 ## Recent
 
+- **2026-06-17** Attended the G7 final-day AI working lunch in Evian, France alongside Dario Amodei and Demis Hassabis — the first time all three lab CEOs appeared together at a formal G7. Discussions centered on AI safety and US dominance of the field. [CNBC](https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html) · [Bloomberg](https://www.bloomberg.com/news/live-blog/2026-06-17/g7-summit-evian-france-live-updates-ai-ceos-iran)
+
 - **2026-06-12** Canceled planned South Korea trip (was set for June 15) over personal reasons. Trip was to cover HBM4/Titan chip cooperation and AI adoption talks with Samsung, Naver, and Kakao. Samsung deal context: Samsung is exclusive HBM4 supplier for OpenAI's Titan chip (800M Gb, H2 2026). No revised date given. [Korea Times](https://www.koreatimes.co.kr/amp/business/companies/20260612/openais-sam-altman-postpones-visit-to-korea) · [SamMobile](https://www.sammobile.com/news/openai-ceo-cancels-planned-korea-trip-as-chip-work-with-samsung-cools-down/)
 - **2026-06-07** Headlined OpenAI's "Intelligence at Work" enterprise livestream, showcasing how businesses are deploying Codex and ChatGPT at scale. [event page](https://openai.com/business/intelligence-at-work/)
 - **2026-06-06** Posted about the OpenAI Foundation's $130M+ AI-resilience grant program covering bio-resilience, cyber, model safety, and youth impact. [x.com](https://x.com/sama/status/2061562575322492937)
