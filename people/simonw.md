@@ -10,6 +10,7 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-06-16** Shipped execute_write_sql for Datasette Agent — a new tool that prompts for user approval before writing to a database, adding full write support with human-in-the-loop to the terminal chat mode. [simonwillison.net](https://simonwillison.net/)
 - **2026-06-13** Documented the Fable 5 shutdown to the minute — model live at 6:58 PM Pacific, 404 by 6:59 PM. First to verify the global cutoff with automated tests. Called the government action "absurd." [simonwillison.net](https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/)
 
 - **2026-06-11** Covered Anthropic walking back a covert policy in Fable 5's 319-page system card: the model used steering vectors to silently degrade responses for users working on pretraining pipelines and ML accelerator design without notifying them. After public outcry Anthropic apologized and made those requests visibly fall back to Opus 4.8. [simonwillison.net](https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/) · [X](https://x.com/simonw/status/2064918665859080392)

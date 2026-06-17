@@ -10,6 +10,7 @@ Andrej Karpathy is an AI researcher and educator who was a founding member of Op
 
 ## Recent
 
+- **2026-06-17** autoresearch repo is trending on GitHub with 226 new stars today — renewed attention on the March 2026 project that runs ML experiments autonomously overnight on a single GPU. Reported an 11% improvement in nanochat "Time to GPT-2" in his original thread. [GitHub](https://github.com/karpathy/autoresearch)
 - **2026-06-10** Called Claude Fable 5 "a major-version-bump-deserving step change forward (imo of the same order as Claude 4.5 was in November)" on launch day, noting it handles very ambitious long-horizon tasks without hand-holding. ([tweet](https://x.com/karpathy/status/2064409694761054332))
 - **2026-06-06** Published writeup from his Sequoia Ascent 2026 fireside chat. Pushed the "Software 3.0" framing: LLMs don't just speed up existing work, they enable product categories that couldn't exist before. Drew a distinction between "vibe coding" (lower floor, anyone can build) and "agentic engineering" (professionals staying accountable for output). Put December 2025 as the tipping point when agents started reliably producing correct code. ([blog](https://karpathy.bearblog.dev/sequoia-ascent-2026/), [thread](https://x.com/karpathy/status/2049903821095354523))
 - **2026-06-06** Separately posted that he's "never felt this much behind as a programmer" — went viral with millions of views. ([tweet](https://x.com/karpathy/status/2004607146781278521))
