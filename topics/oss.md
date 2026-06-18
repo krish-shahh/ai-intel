@@ -7,7 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
-- **2026-06-18** DeusData/codebase-memory-mcp hit 371 stars today on GitHub trending: a C-based MCP server that indexes a codebase into a persistent knowledge graph for low-latency code intelligence queries, aimed at reducing tool-call overhead in coding agents. [GitHub](https://github.com/DeusData/codebase-memory-mcp)
+- **2026-06-18** DeusData/codebase-memory-mcp surged 2,308 stars today on GitHub trending (3.4K total): C-based MCP server indexing codebases into a persistent knowledge graph; 158 languages, sub-ms queries, 99% fewer tokens versus file-by-file exploration; backed by a preprint with 83% answer quality across 31 real repos. [GitHub](https://github.com/DeusData/codebase-memory-mcp)
+- **2026-06-18** Kilo-Org/kilocode debuted on GitHub trending with 1,339 new stars today: open-source agentic coding agent platform, self-described as the most popular open-source coding agent. [GitHub](https://github.com/Kilo-Org/kilocode)
 
 - **2026-06-17** Panniantong/Agent-Reach hit 2,025 stars today (#1 GitHub trending overall). obra/superpowers added 1,109 stars (224K total). [Agent-Reach](https://github.com/Panniantong/Agent-Reach) · [superpowers](https://github.com/obra/superpowers)
 

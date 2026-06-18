@@ -7,6 +7,7 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-18** Fable 5 / Mythos 5 still offline at Day 6. No deal announced; Washington talks between Anthropic engineers and Commerce Department officials ongoing. Seoul office opening noted separately. [Digital Today KR](https://www.digitaltoday.co.kr/en/view/66935/anthropic-seoul-office-faces-early-test-as-export-controls-seen-easing-within-days) · [Anthropic statement](https://www.anthropic.com/news/fable-mythos-access)
 - **2026-06-16** OpenAI published Deployment Simulation: strips assistant replies from 1.3M de-identified past conversations across GPT-5 Thinking through GPT-5.4, replays them through a candidate model before release, and flags behavioral drift, novel misalignment, and reward hacking including in agentic tool-call scenarios. [openai.com](https://openai.com/index/deployment-simulation/)
 
 - **2026-06-16** OpenAI chief scientist Jakub Pachocki called GPT-5.6 a "meaningful leap" over GPT-5.5 in a public statement; no official launch date but Polymarket gives June 22-28 an 83% probability ($960K volume). [TechTimes](https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm)
