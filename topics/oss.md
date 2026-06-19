@@ -7,6 +7,7 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-19** chopratejas/headroom is #1 on Python GitHub trending (+3,938 stars); compresses tool outputs, logs, and RAG chunks 60-95% before they reach the LLM with no quality loss; ships as a library, proxy, or MCP server. [GitHub](https://github.com/chopratejas/headroom)
 - **2026-06-19** calesthio/OpenMontage spiked 738 stars today: open-source agentic video production system, 12 pipelines, 52 tools, 500+ agent skills. [GitHub](https://github.com/calesthio/OpenMontage)
 - **2026-06-19** anthropics/financial-services hit 481 stars today: Anthropic's reference implementation for regulated financial services use of Claude. [GitHub](https://github.com/anthropics/financial-services)
 - **2026-06-19** withastro/flue at 162 stars today: TypeScript sandbox agent framework for isolated AI agent testing. [GitHub](https://github.com/withastro/flue)

@@ -7,5 +7,6 @@ Codex is OpenAI's coding agent for writing, editing, and running code across a c
 
 ## Notes
 
+- **2026-06-19** Record & Replay for macOS launched: record a workflow once and Codex converts it into a reusable "skill" via Computer Use; excluded from EEA, UK, and Switzerland at launch. [Codex changelog](https://developers.openai.com/codex/changelog)
 - **2026-06-11** OCI integration live: Oracle cloud customers can now apply Oracle Universal Credits toward OpenAI models and Codex, routing enterprise procurement through existing Oracle contracts. [OpenAI](https://openai.com/index/openai-on-oracle-cloud/)
 - **2026-06-06** Hit 5M weekly users. Shipped Codex Sites (build and deploy internal apps from a prompt) and 6 role-specific plugin bundles covering data, sales, design, and banking. [VentureBeat](https://venturebeat.com/orchestration/openais-codex-update-lets-agents-build-interactive-enterprise-workspaces-via-sites-and-role-specific-plugins)
