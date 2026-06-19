@@ -7,6 +7,12 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-19** ENISA (EU cybersecurity agency) met with Anthropic in San Francisco to negotiate EU defender access to Fable 5 and Mythos 5. The meeting was pre-scheduled before the June 12 ban, turning it into a live negotiation session. [CryptoBriefing](https://cryptobriefing.com/enisa-anthropic-us-ai-export-controls/)
+
+- **2026-06-19** OpenAI's 2025 audited financials leaked (Ed Zitron/FT): $13B revenue, $20.9B operating loss, $38.5B net loss after $41.5B in fair-value charges from nonprofit-to-for-profit conversion. R&D: $19.2B. Microsoft payments: $17.2B. Inference margins healthy at 40%+; training and infrastructure costs are the drain. [Fortune](https://fortune.com/2026/06/16/openai-financials-leaked-losses-revenue-profit/)
+
+- **2026-06-19** Grok 4.3 GA on Amazon Bedrock (launched June 16): 1M-token context, configurable reasoning effort levels (none/low/medium/high), claimed lowest hallucination rate among frontier models; running on xAI's Mantle inference engine. [AWS](https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/) · [xAI](https://x.ai/news/grok-amazon-bedrock)
+
 - **2026-06-18** Fable 5 / Mythos 5 still offline at Day 6. No deal announced; Washington talks between Anthropic engineers and Commerce Department officials ongoing. Seoul office opening noted separately. [Digital Today KR](https://www.digitaltoday.co.kr/en/view/66935/anthropic-seoul-office-faces-early-test-as-export-controls-seen-easing-within-days) · [Anthropic statement](https://www.anthropic.com/news/fable-mythos-access)
 - **2026-06-16** OpenAI published Deployment Simulation: strips assistant replies from 1.3M de-identified past conversations across GPT-5 Thinking through GPT-5.4, replays them through a candidate model before release, and flags behavioral drift, novel misalignment, and reward hacking including in agentic tool-call scenarios. [openai.com](https://openai.com/index/deployment-simulation/)
 

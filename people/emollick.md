@@ -10,4 +10,6 @@ Ethan Mollick is an associate professor at the Wharton School of the University 
 
 ## Recent
 
+- **2026-06-19** Flagged the bright spot in OpenAI's leaked 2025 financials: "OpenAI is profitable on serving customers with 40%+ gross margins. But training remains incredibly expensive." Framed automating AI research as a cost-reduction play, not just a capability one. [X](https://x.com/emollick/status/2067258683436798073)
+
 - **2026-06-09** Pushed back on a paper arguing prior ML systems' lack of productivity savings predicts lower investment in current AI systems; called it "super weird" and noted it cites a "mostly fake MIT study." [X](https://x.com/emollick/status/2062355630573170968)

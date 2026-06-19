@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-19** calesthio/OpenMontage spiked 738 stars today: open-source agentic video production system, 12 pipelines, 52 tools, 500+ agent skills. [GitHub](https://github.com/calesthio/OpenMontage)
+- **2026-06-19** anthropics/financial-services hit 481 stars today: Anthropic's reference implementation for regulated financial services use of Claude. [GitHub](https://github.com/anthropics/financial-services)
+- **2026-06-19** withastro/flue at 162 stars today: TypeScript sandbox agent framework for isolated AI agent testing. [GitHub](https://github.com/withastro/flue)
+
 - **2026-06-18** DeusData/codebase-memory-mcp surged 2,308 stars today on GitHub trending (3.4K total): C-based MCP server indexing codebases into a persistent knowledge graph; 158 languages, sub-ms queries, 99% fewer tokens versus file-by-file exploration; backed by a preprint with 83% answer quality across 31 real repos. [GitHub](https://github.com/DeusData/codebase-memory-mcp)
 - **2026-06-18** Kilo-Org/kilocode debuted on GitHub trending with 1,339 new stars today: open-source agentic coding agent platform, self-described as the most popular open-source coding agent. [GitHub](https://github.com/Kilo-Org/kilocode)
 
