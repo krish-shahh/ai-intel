@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-20** chopratejas/headroom added +4,005 stars today, remaining the top Python trending repo for a second day (38K+ total). Context-compression tool for LLM agents. [GitHub](https://github.com/chopratejas/headroom)
+- **2026-06-20** google-research/timesfm resurged with +1,510 stars today (24K total): time-series foundation model from Google Research, getting renewed attention from new community integrations. [GitHub](https://github.com/google-research/timesfm)
+- **2026-06-20** DeusData/codebase-memory-mcp added +1,058 stars today (8.2K total), continuing momentum from its June 18 debut. [GitHub](https://github.com/DeusData/codebase-memory-mcp)
+
 - **2026-06-19** chopratejas/headroom is #1 on Python GitHub trending (+3,938 stars); compresses tool outputs, logs, and RAG chunks 60-95% before they reach the LLM with no quality loss; ships as a library, proxy, or MCP server. [GitHub](https://github.com/chopratejas/headroom)
 - **2026-06-19** calesthio/OpenMontage spiked 738 stars today: open-source agentic video production system, 12 pipelines, 52 tools, 500+ agent skills. [GitHub](https://github.com/calesthio/OpenMontage)
 - **2026-06-19** anthropics/financial-services hit 481 stars today: Anthropic's reference implementation for regulated financial services use of Claude. [GitHub](https://github.com/anthropics/financial-services)
