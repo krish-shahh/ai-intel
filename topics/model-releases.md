@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-20** Trump told Axios he no longer views Anthropic as a national security threat: "Well, not now, but a week ago, maybe." Globe and Mail reports active deal talks between Anthropic and Commerce Department toward restoring Fable 5 and Mythos 5 — no formal timeline yet. [CNBC](https://www.cnbc.com/2026/06/19/trump-tells-axios-he-no-longer-views-anthropic-as-national-security-threat.html) · [Axios](https://www.axios.com/2026/06/19/trump-anthropic-national-security-the-axios-show) · [Globe and Mail](https://www.theglobeandmail.com/business/article-anthropic-trump-officials-deal-restore-fable-5-mythos-5/)
+
 - **2026-06-20** Fable 5 / Mythos 5 refund deadline: June 20 is Anthropic's cutoff for customers to claim credits on June 9-14 usage. No access restoration announced. Prediction markets: ~57% chance models return before July 1. Manifold has an active resolution market. [Fable 5 ban - pasqualepillitteri](https://pasqualepillitteri.it/en/news/5180/claude-fable-5-when-will-it-return) · [Manifold](https://manifold.markets/PhilipDowdell/will-anthropic-restore-access-to-fa)
 
 - **2026-06-19** ENISA (EU cybersecurity agency) met with Anthropic in San Francisco to negotiate EU defender access to Fable 5 and Mythos 5. The meeting was pre-scheduled before the June 12 ban, turning it into a live negotiation session. [CryptoBriefing](https://cryptobriefing.com/enisa-anthropic-us-ai-export-controls/)

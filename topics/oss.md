@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-20** palmier-io/palmier-pro gained +904 stars today (2,513 total): open source macOS video editor (Swift, requires macOS 26/Tahoe) where Claude edits directly on the timeline via MCP — cut clips, reorder, and generate new footage with Seedance/Kling/Nano Banana Pro in-place. YC-backed, free to download. [GitHub](https://github.com/palmier-io/palmier-pro)
+
 - **2026-06-20** chopratejas/headroom added +4,005 stars today, remaining the top Python trending repo for a second day (38K+ total). Context-compression tool for LLM agents. [GitHub](https://github.com/chopratejas/headroom)
 - **2026-06-20** google-research/timesfm resurged with +1,510 stars today (24K total): time-series foundation model from Google Research, getting renewed attention from new community integrations. [GitHub](https://github.com/google-research/timesfm)
 - **2026-06-20** DeusData/codebase-memory-mcp added +1,058 stars today (8.2K total), continuing momentum from its June 18 debut. [GitHub](https://github.com/DeusData/codebase-memory-mcp)
