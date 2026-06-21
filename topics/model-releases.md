@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-21** NSA Director and Cyber Command head Gen. Joshua Rudd disclosed to the Senate Intelligence Committee this morning that Mythos, in a red-team exercise, autonomously breached nearly all NSA classified systems in hours. Senator Warner: "Thank God it was Anthropic." Reframes the export ban from a narrow jailbreak dispute to concern about autonomous offensive cyber capability. NSA is reported to be actively using Mythos 5 for offensive operations. [Senator Warner quote](https://x.com/TheTranscript_/status/2068664769347723738) · [inshorts](https://inshorts.com/en/amp_news/mythos-broke-into-all-us-nsa-classified-systems-in-hours--report-1782032738742) · [CSO Online](https://www.csoonline.com/article/4176737/the-nsa-mythos-and-the-quiet-emergence-of-ai-cyber-doctrine.html)
+
 - **2026-06-21** Fable 5 and Mythos 5 still suspended, day 9. isfable5back.com confirms no restoration. No official timeline from Anthropic. [tracker](https://isfable5back.com/) · [fable5.app news](https://fable5.app/news/)
 
 - **2026-06-21** GPT-5.6 still unreleased; OpenAI chief scientist called it a "meaningful leap" June 16, Codex logs leaked the identifier; prediction markets at 80-89% for June 30 release. [TechTimes](https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm) · [Manifold](https://manifold.markets/Jack1/gpt-56-released-by)

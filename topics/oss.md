@@ -7,6 +7,7 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-21** NousResearch/hermes-agent added 711 stars today: adaptive agent framework intended to expand capabilities alongside user needs. [GitHub](https://github.com/NousResearch/hermes-agent)
 - **2026-06-21** chopratejas/headroom still #1 on GitHub trending, 3,795 new stars today (41K+ total). [GitHub](https://github.com/chopratejas/headroom)
 - **2026-06-21** DeusData/codebase-memory-mcp added 1,271 stars today (9.3K total), continuing momentum from its June 18 debut. [GitHub](https://github.com/DeusData/codebase-memory-mcp)
 - **2026-06-21** calesthio/OpenMontage added 677 stars today as the agentic video production system keeps trending. [GitHub](https://github.com/calesthio/OpenMontage)

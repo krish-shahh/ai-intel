@@ -10,6 +10,8 @@ Nathan Lambert is an AI researcher specializing in reinforcement learning from h
 
 ## Recent
 
+- **2026-06-21** Noted that Chinese labs are "hitting high peaks with much less compute" and shouldn't be discounted, while still maintaining US frontier models are overall ahead. [X](https://x.com/natolambert/status/2066964292839371051)
+
 - **2026-06-15** Confirmed as Global CTO of AI at the Linux Foundation, focusing on open model governance and fully open post-training work. [Interconnects](https://www.interconnects.ai/p/farewell-ai2)
 - **2026-06-13** Posted Substack reflections on "the current state of the Claude Fable saga," noting a cluster of overlapping problems operating on different timelines — some fixable, some without easy answers. [Substack note](https://substack.com/@natolambert/note/c-274465419)
 

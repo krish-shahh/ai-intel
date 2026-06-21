@@ -7,6 +7,10 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-06-21** Amazon dropped Luca Guadagnino's nearly finished film "Artificial" (Andrew Garfield as Sam Altman) — came four months after Amazon's $50B OpenAI deal. Film is in post-production and shopping to A24, Netflix, Neon, WB. [Variety](https://variety.com/2026/film/global/luca-guadagnino-sam-altman-movie-artificial-dropped-amazon-1236785830/) · [The Next Web](https://thenextweb.com/news/amazon-drops-artificial-sam-altman-openai-film-guadagnino)
+
+- **2026-06-16** SpaceX filed an SEC 8-K formalizing its all-stock acquisition of Cursor (Anysphere) at ~$60B implied equity value — $4B annualized revenue, $2.6B from enterprise. A joint SpaceX/Cursor model ships in Grok Build soon; deal expected to close Q3. Largest VC-backed startup acquisition on record. [Axios](https://www.axios.com/2026/06/16/spacex-cursor-60-billion-musk) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-06-16/spacex-cements-60-billion-deal-to-take-over-ai-startup-cursor)
+
 - **2026-06-18** Google Gemini CLI ends consumer access today. Individual and free-tier users are cutoff; enterprise Gemini Code Assist licenses are unaffected. Replacement is Antigravity CLI (Go, async, no session locks). Announced at Google I/O (May 19) as part of consolidating developer tooling under the Antigravity brand. [migration guide](https://dev.to/toboreeee/google-is-killing-gemini-cli-on-june-18-here-is-what-to-do-before-then-4907) · [overview](https://inventivehq.com/blog/gemini-cli-deprecated-antigravity-cli-migration)
 
 - **2026-06-09** Apple shipped a LanguageModel Swift protocol (WWDC session 241) letting iOS/macOS apps swap between on-device Foundation Models, Anthropic Claude, and Google Gemini via a single SPM dependency change with no session-code changes; Anthropic and Google both published launch-day packages. [TechTimes](https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm) · [WWDC26 session 241](https://developer.apple.com/videos/play/wwdc2026/241/)
