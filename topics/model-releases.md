@@ -7,6 +7,10 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-21** Fable 5 and Mythos 5 still suspended, day 9. isfable5back.com confirms no restoration. No official timeline from Anthropic. [tracker](https://isfable5back.com/) · [fable5.app news](https://fable5.app/news/)
+
+- **2026-06-21** GPT-5.6 still unreleased; OpenAI chief scientist called it a "meaningful leap" June 16, Codex logs leaked the identifier; prediction markets at 80-89% for June 30 release. [TechTimes](https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm) · [Manifold](https://manifold.markets/Jack1/gpt-56-released-by)
+
 - **2026-06-20** Trump told Axios he no longer views Anthropic as a national security threat: "Well, not now, but a week ago, maybe." Globe and Mail reports active deal talks between Anthropic and Commerce Department toward restoring Fable 5 and Mythos 5 — no formal timeline yet. [CNBC](https://www.cnbc.com/2026/06/19/trump-tells-axios-he-no-longer-views-anthropic-as-national-security-threat.html) · [Axios](https://www.axios.com/2026/06/19/trump-anthropic-national-security-the-axios-show) · [Globe and Mail](https://www.theglobeandmail.com/business/article-anthropic-trump-officials-deal-restore-fable-5-mythos-5/)
 
 - **2026-06-20** Fable 5 / Mythos 5 refund deadline: June 20 is Anthropic's cutoff for customers to claim credits on June 9-14 usage. No access restoration announced. Prediction markets: ~57% chance models return before July 1. Manifold has an active resolution market. [Fable 5 ban - pasqualepillitteri](https://pasqualepillitteri.it/en/news/5180/claude-fable-5-when-will-it-return) · [Manifold](https://manifold.markets/PhilipDowdell/will-anthropic-restore-access-to-fa)

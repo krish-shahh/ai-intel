@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-21** chopratejas/headroom still #1 on GitHub trending, 3,795 new stars today (41K+ total). [GitHub](https://github.com/chopratejas/headroom)
+- **2026-06-21** DeusData/codebase-memory-mcp added 1,271 stars today (9.3K total), continuing momentum from its June 18 debut. [GitHub](https://github.com/DeusData/codebase-memory-mcp)
+- **2026-06-21** calesthio/OpenMontage added 677 stars today as the agentic video production system keeps trending. [GitHub](https://github.com/calesthio/OpenMontage)
+
 - **2026-06-20** palmier-io/palmier-pro gained +904 stars today (2,513 total): open source macOS video editor (Swift, requires macOS 26/Tahoe) where Claude edits directly on the timeline via MCP — cut clips, reorder, and generate new footage with Seedance/Kling/Nano Banana Pro in-place. YC-backed, free to download. [GitHub](https://github.com/palmier-io/palmier-pro)
 
 - **2026-06-20** chopratejas/headroom added +4,005 stars today, remaining the top Python trending repo for a second day (38K+ total). Context-compression tool for LLM agents. [GitHub](https://github.com/chopratejas/headroom)

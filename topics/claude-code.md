@@ -7,6 +7,10 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-06-21** Dynamic Workflows landed in research preview: Claude plans a task dynamically, writes an orchestration script, and fans it out across hundreds of parallel subagents with validation before folding results back; available on Max, Team, and eligible Enterprise plus Bedrock/Vertex/Foundry. Token usage can be substantial. [Claude blog](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code) · [InfoQ](https://www.infoq.com/news/2026/06/dynamic-workflows-claude-code/)
+
+- **2026-06-20** v2.1.185: stream-stall hint message changed to "Waiting for API response · will retry in..." and now fires after 20 seconds instead of 10. [GitHub releases](https://github.com/anthropics/claude-code/releases)
+
 - **2026-06-19** v2.1.183: auto mode now blocks destructive git commands when the user did not ask to discard local work. [Changelog](https://code.claude.com/docs/en/changelog)
 - **2026-06-18** Anthropic opened Seoul office (third Asia-Pacific location); NAVER deployed Claude Code across its full engineering org, Samsung SDS across Samsung Electronics, with LG CNS, Nexon, and Hanwha also signing on. Separately, Anthropic signed a MOU with Korea's Ministry of Science and ICT on AI safety. [Anthropic](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem) · [Korea Times](https://www.koreatimes.co.kr/business/tech-science/20260618/anthropic-opens-seoul-office-to-expand-ties-with-korean-ai-ecosystem)
 - **2026-06-15** v2.1.178: new Tool(param:value) permission syntax matches on tool input parameters with wildcard support (e.g. Agent(model:opus) to block Opus subagents); nested .claude/ directories resolve closest-wins for agents, workflows, and output-styles; improved auto-mode subagent classification before launch; /doctor layout overhaul; fixes for JetBrains terminal flicker and Chrome connection drops. [Changelog](https://code.claude.com/docs/en/changelog)

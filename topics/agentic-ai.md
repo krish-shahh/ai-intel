@@ -7,6 +7,8 @@ Agentic AI covers systems where LLMs plan and act over multiple steps with tools
 
 ## Notes
 
+- **2026-06-21** Claude Code Dynamic Workflows (research preview): one session can orchestrate hundreds of parallel subagents via a Claude-written JS script; subagents validate results before the session consolidates them. Max/Team/Enterprise + Bedrock/Vertex/Foundry. [Claude blog](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code)
+
 - **2026-06-18** Kilo-Org/kilocode hit 1,339 new stars on GitHub trending today: open-source all-in-one agentic coding agent platform, positioned as a Claude Code / Cursor alternative. obra/superpowers added 1,435 stars, continuing its multi-day trending run. [kilocode](https://github.com/Kilo-Org/kilocode) · [superpowers](https://github.com/obra/superpowers)
 - **2026-06-13** GitHub trending dominated by agentic skills frameworks today: addyosmani/agent-skills (2,656 stars) and obra/superpowers (1,275 stars) both trending strongly, signaling continued practitioner demand for structured agent workflow tooling. [agent-skills](https://github.com/addyosmani/agent-skills) · [superpowers](https://github.com/obra/superpowers)
 - **2026-06-09** OpenAI's "third phase" manifesto (Altman + Pachocki) explicitly rejects full automation: "entirely automating everything is not the future we want" — frames the next era as human-AI collaboration, not replacement. [OpenAI](https://openai.com/index/built-to-benefit-everyone-our-plan/) · [The Decoder](https://the-decoder.com/openai-says-entirely-automating-everything-is-not-the-future-we-want/)
