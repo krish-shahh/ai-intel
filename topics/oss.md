@@ -7,6 +7,11 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-22** chopratejas/headroom +2,624 stars today (44k total): still the top Python trending repo; context-compression library claiming 60-95% token reduction for LLM agents. [GitHub](https://github.com/chopratejas/headroom)
+- **2026-06-22** NousResearch/hermes-agent +700 stars today (199k total): adaptive agent framework; v0.17.0 shipped June 19 with iMessage support via Photon, a Raft agent network, and desktop improvements. [GitHub](https://github.com/NousResearch/hermes-agent)
+- **2026-06-22** calesthio/OpenMontage +987 stars today (8.9k total): open-source agentic video production system, 12 pipelines, 52 tools, 500+ agent skills. [GitHub](https://github.com/calesthio/OpenMontage)
+- **2026-06-22** bytedance/deer-flow +442 stars today (72.6k total): long-horizon SuperAgent for research, coding, and creation with sandboxes and memory. [GitHub](https://github.com/bytedance/deer-flow)
+
 - **2026-06-21** NousResearch/hermes-agent added 711 stars today: adaptive agent framework intended to expand capabilities alongside user needs. [GitHub](https://github.com/NousResearch/hermes-agent)
 - **2026-06-21** chopratejas/headroom still #1 on GitHub trending, 3,795 new stars today (41K+ total). [GitHub](https://github.com/chopratejas/headroom)
 - **2026-06-21** DeusData/codebase-memory-mcp added 1,271 stars today (9.3K total), continuing momentum from its June 18 debut. [GitHub](https://github.com/DeusData/codebase-memory-mcp)

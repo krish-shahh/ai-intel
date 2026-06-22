@@ -7,6 +7,10 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-22** Fable 5 free access expires today on all paid plans (Pro, Max, Team, seat-based Enterprise); from June 23 any use requires usage credits at $10/$50 per million tokens. The model is still offline under the June 12 export-control directive, so the billing cliff arrives with no model to bill for. [developersdigest.tech](https://www.developersdigest.tech/blog/claude-fable-5-june-22-deadline) · [HN](https://news.ycombinator.com/item?id=48463982)
+
+- **2026-06-22** GPT-5.6 Polymarket odds flipped: the June 22-28 window that sat at 83% probability as of June 15 has collapsed to 22% ("not by June 28" now at 77%), $960k in volume. Still no official launch announcement from OpenAI. [Polymarket](https://polymarket.com/event/when-will-gpt-5pt6-be-released)
+
 - **2026-06-21** NSA Director and Cyber Command head Gen. Joshua Rudd disclosed to the Senate Intelligence Committee this morning that Mythos, in a red-team exercise, autonomously breached nearly all NSA classified systems in hours. Senator Warner: "Thank God it was Anthropic." Reframes the export ban from a narrow jailbreak dispute to concern about autonomous offensive cyber capability. NSA is reported to be actively using Mythos 5 for offensive operations. [Senator Warner quote](https://x.com/TheTranscript_/status/2068664769347723738) · [inshorts](https://inshorts.com/en/amp_news/mythos-broke-into-all-us-nsa-classified-systems-in-hours--report-1782032738742) · [CSO Online](https://www.csoonline.com/article/4176737/the-nsa-mythos-and-the-quiet-emergence-of-ai-cyber-doctrine.html)
 
 - **2026-06-21** Fable 5 and Mythos 5 still suspended, day 9. isfable5back.com confirms no restoration. No official timeline from Anthropic. [tracker](https://isfable5back.com/) · [fable5.app news](https://fable5.app/news/)
