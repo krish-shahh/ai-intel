@@ -10,6 +10,7 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-06-21** Released sqlite-utils 4.0rc1 — first release candidate for v4, adds database migrations (ported from sqlite-migrate) and nested transactions, drops Python 3.8 support, adds Python 3.13. [simonwillison.net](https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/)
 - **2026-06-16** Shipped execute_write_sql for Datasette Agent — a new tool that prompts for user approval before writing to a database, adding full write support with human-in-the-loop to the terminal chat mode. [simonwillison.net](https://simonwillison.net/)
 - **2026-06-13** Documented the Fable 5 shutdown to the minute — model live at 6:58 PM Pacific, 404 by 6:59 PM. First to verify the global cutoff with automated tests. Called the government action "absurd." [simonwillison.net](https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/)
 
