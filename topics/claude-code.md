@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-06-23** Broad outage starting 14:19 UTC: elevated error rates on Claude Opus 4.8 across claude.ai, Claude Code, Claude Cowork, Claude Console, and the API. Anthropic confirmed "a fix is being implemented" by 14:25 UTC; over 8,000 Downdetector reports in the US. [TechRadar](https://www.techradar.com/news/live/claude-down-june-23-2026) · [Claude Status](https://status.claude.com/)
+
 - **2026-06-21** Dynamic Workflows landed in research preview: Claude plans a task dynamically, writes an orchestration script, and fans it out across hundreds of parallel subagents with validation before folding results back; available on Max, Team, and eligible Enterprise plus Bedrock/Vertex/Foundry. Token usage can be substantial. [Claude blog](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code) · [InfoQ](https://www.infoq.com/news/2026/06/dynamic-workflows-claude-code/)
 
 - **2026-06-20** v2.1.185: stream-stall hint message changed to "Waiting for API response · will retry in..." and now fires after 20 seconds instead of 10. [GitHub releases](https://github.com/anthropics/claude-code/releases)

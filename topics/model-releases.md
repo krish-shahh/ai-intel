@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-23** OpenAI launched the full GPT-5.5-Cyber model for vetted defenders (June 22): CyberGym 85.6%, ExploitGym 39.5%, SEC-bench Pro 69.8%. Ships with an updated Codex Security plugin and "Patch the Planet," an open-source vuln-patch initiative. Individual access requires Advanced Account Security. [Axios](https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model) · [OpenAI](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/)
+
 - **2026-06-23** Sakana AI Fugu and Fugu Ultra launched June 22: a 7B RL conductor routes sub-tasks to a pool of Claude Opus 4.8, GPT-5.5, and Gemini 3.1 Pro (no Fable 5 — banned). Fugu Ultra scores 73.7 SWE-Bench Pro vs. Opus 4.8 at 69.2 and GPT-5.5 at 58.6, plus 95.5 on GPQA-D. Priced at $5/M input / $30/M output. Not available in EU/EEA. [The Decoder](https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/) · [MarkTechPost](https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/)
 
 - **2026-06-23** GPT-5.6: launch window opened June 22; leak pins June 25 as the drop date. Expected: 1.5M-token context, reasoning effort budget up from 768 to 960, December 2025 knowledge cutoff. Still no official OpenAI announcement. [TechTimes](https://www.techtimes.com/articles/318799/20260621/gpt-56-launch-window-starts-monday-alignment-fix-15m-token-context-inside.htm)
