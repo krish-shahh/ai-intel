@@ -7,6 +7,10 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-23** Sakana AI Fugu and Fugu Ultra launched June 22: a 7B RL conductor routes sub-tasks to a pool of Claude Opus 4.8, GPT-5.5, and Gemini 3.1 Pro (no Fable 5 — banned). Fugu Ultra scores 73.7 SWE-Bench Pro vs. Opus 4.8 at 69.2 and GPT-5.5 at 58.6, plus 95.5 on GPQA-D. Priced at $5/M input / $30/M output. Not available in EU/EEA. [The Decoder](https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/) · [MarkTechPost](https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/)
+
+- **2026-06-23** GPT-5.6: launch window opened June 22; leak pins June 25 as the drop date. Expected: 1.5M-token context, reasoning effort budget up from 768 to 960, December 2025 knowledge cutoff. Still no official OpenAI announcement. [TechTimes](https://www.techtimes.com/articles/318799/20260621/gpt-56-launch-window-starts-monday-alignment-fix-15m-token-context-inside.htm)
+
 - **2026-06-22** Fable 5 free access expires today on all paid plans (Pro, Max, Team, seat-based Enterprise); from June 23 any use requires usage credits at $10/$50 per million tokens. The model is still offline under the June 12 export-control directive, so the billing cliff arrives with no model to bill for. [developersdigest.tech](https://www.developersdigest.tech/blog/claude-fable-5-june-22-deadline) · [HN](https://news.ycombinator.com/item?id=48463982)
 
 - **2026-06-22** GPT-5.6 Polymarket odds flipped: the June 22-28 window that sat at 83% probability as of June 15 has collapsed to 22% ("not by June 28" now at 77%), $960k in volume. Still no official launch announcement from OpenAI. [Polymarket](https://polymarket.com/event/when-will-gpt-5pt6-be-released)

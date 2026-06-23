@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-06-23** LiteLLM CVE-2026-42271 CISA patch deadline passed June 22: federal agencies were required to upgrade to LiteLLM 1.83.7 + Starlette 1.0.1 by today. The chained exploit (CVE-2026-48710) gives unauthenticated RCE with no credentials at a combined CVSS 10.0. If you run LiteLLM as an AI gateway, verify your version. [The Hacker News](https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html) · [Horizon3.ai](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-42271-chained-with-cve-2026-48710/)
+
 - **2026-06-21** Amazon dropped Luca Guadagnino's nearly finished film "Artificial" (Andrew Garfield as Sam Altman) — came four months after Amazon's $50B OpenAI deal. Film is in post-production and shopping to A24, Netflix, Neon, WB. [Variety](https://variety.com/2026/film/global/luca-guadagnino-sam-altman-movie-artificial-dropped-amazon-1236785830/) · [The Next Web](https://thenextweb.com/news/amazon-drops-artificial-sam-altman-openai-film-guadagnino)
 
 - **2026-06-16** SpaceX filed an SEC 8-K formalizing its all-stock acquisition of Cursor (Anysphere) at ~$60B implied equity value — $4B annualized revenue, $2.6B from enterprise. A joint SpaceX/Cursor model ships in Grok Build soon; deal expected to close Q3. Largest VC-backed startup acquisition on record. [Axios](https://www.axios.com/2026/06/16/spacex-cursor-60-billion-musk) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-06-16/spacex-cements-60-billion-deal-to-take-over-ai-startup-cursor)

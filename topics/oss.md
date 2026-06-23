@@ -7,6 +7,11 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-23** garrytan/gstack +573 stars today: 23 specialized agentic tools in a single TypeScript stack, functioning as CEO, Designer, EM, and other roles. [GitHub](https://github.com/garrytan/gstack)
+- **2026-06-23** ZhuLinsen/daily_stock_analysis +1,557 stars today: LLM-driven multi-market stock analysis system with real-time news aggregation and automated decision dashboards, Python. [GitHub](https://github.com/ZhuLinsen/daily_stock_analysis)
+- **2026-06-23** topoteretes/cognee +688 stars today: open-source AI memory platform for agents using a self-hosted knowledge graph for long-term persistent storage. [GitHub](https://github.com/topoteretes/cognee)
+- **2026-06-23** palmier-io/palmier-pro +2,463 stars today (resumed trending from June 20 debut): macOS AI video editor where agents edit directly on the timeline via MCP. [GitHub](https://github.com/palmier-io/palmier-pro)
+
 - **2026-06-22** chopratejas/headroom +2,624 stars today (44k total): still the top Python trending repo; context-compression library claiming 60-95% token reduction for LLM agents. [GitHub](https://github.com/chopratejas/headroom)
 - **2026-06-22** NousResearch/hermes-agent +700 stars today (199k total): adaptive agent framework; v0.17.0 shipped June 19 with iMessage support via Photon, a Raft agent network, and desktop improvements. [GitHub](https://github.com/NousResearch/hermes-agent)
 - **2026-06-22** calesthio/OpenMontage +987 stars today (8.9k total): open-source agentic video production system, 12 pipelines, 52 tools, 500+ agent skills. [GitHub](https://github.com/calesthio/OpenMontage)

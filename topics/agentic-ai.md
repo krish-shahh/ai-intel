@@ -7,6 +7,8 @@ Agentic AI covers systems where LLMs plan and act over multiple steps with tools
 
 ## Notes
 
+- **2026-06-23** Sakana AI Fugu Ultra (launched June 22) is a multi-agent orchestration system: a 7B RL conductor dispatches sub-problems to a swappable pool of frontier models and blends their outputs through a single OpenAI-compatible API. Outperforms Opus 4.8 on SWE-Bench Pro without training a new frontier model — the architecture sidesteps the export-control gap left by Fable 5 and Mythos. [Sakana review](https://www.buildfastwithai.com/blogs/sakana-ai-fugu-review-the-orchestration-model-that-routes-around-export-controls) · [The Decoder](https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/)
+
 - **2026-06-21** Claude Code Dynamic Workflows (research preview): one session can orchestrate hundreds of parallel subagents via a Claude-written JS script; subagents validate results before the session consolidates them. Max/Team/Enterprise + Bedrock/Vertex/Foundry. [Claude blog](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code)
 
 - **2026-06-16** SpaceX formalized its $60B all-stock acquisition of Cursor (Anysphere) via SEC 8-K. Cursor generates $4B ARR; a joint SpaceX/Cursor model is co-trained for Grok Build. Largest VC-backed startup acquisition on record. [Axios](https://www.axios.com/2026/06/16/spacex-cursor-60-billion-musk)
