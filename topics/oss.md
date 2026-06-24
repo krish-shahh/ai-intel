@@ -7,6 +7,9 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-24** calesthio/OpenMontage +3,592 stars today (15K+ total): agentic video production system continues to surge two days after launch. [GitHub](https://github.com/calesthio/OpenMontage)
+- **2026-06-24** DeusData/codebase-memory-mcp +1,300 stars today (12K+ total): code knowledge graph MCP server keeps trending. [GitHub](https://github.com/DeusData/codebase-memory-mcp)
+- **2026-06-24** garrytan/gstack +1,011 stars today (114K+ total): 23 agentic tools mimicking CEO, designer, and manager roles using Claude Code. [GitHub](https://github.com/garrytan/gstack)
 - **2026-06-23** garrytan/gstack +573 stars today: 23 specialized agentic tools in a single TypeScript stack, functioning as CEO, Designer, EM, and other roles. [GitHub](https://github.com/garrytan/gstack)
 - **2026-06-23** ZhuLinsen/daily_stock_analysis +1,557 stars today: LLM-driven multi-market stock analysis system with real-time news aggregation and automated decision dashboards, Python. [GitHub](https://github.com/ZhuLinsen/daily_stock_analysis)
 - **2026-06-23** topoteretes/cognee +688 stars today: open-source AI memory platform for agents using a self-hosted knowledge graph for long-term persistent storage. [GitHub](https://github.com/topoteretes/cognee)
