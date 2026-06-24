@@ -7,6 +7,10 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-06-24** Google DevRel engineer Justin Poehnelt posted that he was fired for building the Google Workspace CLI — the tool hit #1 on HN, gained thousands of stars, and Google fired him; two days later Google announced an official Workspace CLI at Cloud Next 2026. Post reached 1.1M views on X. [X thread](https://x.com/JPoehnelt/status/2069482265953087602) · [HN thread](https://news.ycombinator.com/item?id=48649011)
+
+- **2026-06-22** OpenAI expanded Daybreak: shipped full GPT-5.5-Cyber (85.6% CyberGym, vetted-access), launched "Patch the Planet" with Trail of Bits to AI-patch widely used open-source projects (curl, Python, Go, aiohttp), and updated the Codex Security plugin. [SiliconANGLE](https://siliconangle.com/2026/06/22/openai-expands-daybreak-patch-planet-full-gpt-5-5-cyber-release/) · [The Hacker News](https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html)
+
 - **2026-06-23** LiteLLM CVE-2026-42271 CISA patch deadline passed June 22: federal agencies were required to upgrade to LiteLLM 1.83.7 + Starlette 1.0.1 by today. The chained exploit (CVE-2026-48710) gives unauthenticated RCE with no credentials at a combined CVSS 10.0. If you run LiteLLM as an AI gateway, verify your version. [The Hacker News](https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html) · [Horizon3.ai](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-42271-chained-with-cve-2026-48710/)
 
 - **2026-06-21** Amazon dropped Luca Guadagnino's nearly finished film "Artificial" (Andrew Garfield as Sam Altman) — came four months after Amazon's $50B OpenAI deal. Film is in post-production and shopping to A24, Netflix, Neon, WB. [Variety](https://variety.com/2026/film/global/luca-guadagnino-sam-altman-movie-artificial-dropped-amazon-1236785830/) · [The Next Web](https://thenextweb.com/news/amazon-drops-artificial-sam-altman-openai-film-guadagnino)

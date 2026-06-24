@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-06-24** (morning) Used Claude Code with Opus 4.8 to port the Moebius 0.2B image inpainting model to run entirely in the browser: converted PyTorch weights to ONNX, pushed to Hugging Face, and built a WebGPU demo in a single parallel agent session. [simonwillison.net](https://simonwillison.net/2026/Jun/22/porting-moebius/)
+
 - **2026-06-23** Published "A pelican for GPT-5.5 via the semi-official Codex backdoor API" documenting an undocumented API path in Codex that gives GPT-5.5 access, and "Extract PDF text in your browser with LiteParse for the web." [simonwillison.net](https://simonwillison.net/)
 
 - **2026-06-21** Released sqlite-utils 4.0rc1 — first release candidate for v4, adds database migrations (ported from sqlite-migrate) and nested transactions, drops Python 3.8 support, adds Python 3.13. [simonwillison.net](https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/)
