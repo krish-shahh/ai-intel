@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; script-src 'self';" />
+  <title>ai-intel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="topbar">
+    <div class="brand">ai<i>·</i>intel</div>
+    <nav id="switch">
+      <button data-v="dashboard" class="active">Dashboard</button>
+      <button data-v="graph">Graph</button>
+      <button data-v="files">Files</button>
+    </nav>
+    <div class="tools">
+      <span id="sync" title="Last sync">…</span>
+      <input id="search" type="text" placeholder="Search notes…" spellcheck="false" />
+      <button id="refresh" title="Pull now">⟳</button>
+    </div>
+    <div id="quickopen" hidden></div>
+  </header>
+  <main id="view"></main>
+  <script src="graph.js"></script>
+  <script src="renderer.js"></script>
+</body>
+</html>

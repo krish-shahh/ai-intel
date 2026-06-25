@@ -3,21 +3,29 @@ title: Claude Code
 tags: [topic]
 ---
 
-# Claude Code
-
-Topic stub for **Claude Code**.
-
-> Auto-generated placeholder. The wiki will accumulate notes, links, and
-> related people/briefs on this topic over time.
-
-## Overview
-
--
+Claude Code is Anthropic's command-line coding agent. It runs in the terminal and reads, edits, runs, and reviews code in a real repository. This page tracks its releases, pricing, and adoption.
 
 ## Notes
 
--
+- **2026-06-24** Anthropic investigating social media claims that Claude returned responses meant for other users during the June 23 outage. No confirmed data exposure as of this evening; Anthropic says it takes any such report "very seriously." [Cybernews](https://cybernews.com/ai-news/claude-outage-resolved-anthropic-ops-model-errors/)
+- **2026-06-23** Fiona Fung (engineering head, Claude Code and Cowork) said on Lenny's Podcast that heavy agentic use is making employees' work more solitary, prompting Anthropic to add team-building countermeasures. [Fortune](https://fortune.com/2026/06/23/anthropic-engineering-head-claude-code-lonely-experience-big-tech-morale/)
+- **2026-06-23** Broad outage starting 14:19 UTC: elevated error rates on Claude Opus 4.8 across claude.ai, Claude Code, Claude Cowork, Claude Console, and the API. Root cause was sub-agents spawning infinite loops that consumed platform resources. Anthropic confirmed fix by 14:25 UTC and resolved by 16:44 UTC; over 8,000 Downdetector reports in the US. [TechRadar](https://www.techradar.com/news/live/claude-down-june-23-2026) · [TechTimes](https://www.techtimes.com/articles/318925/20260623/claude-outage-tops-8000-reports-agentic-pipeline-failures-mount-before-anthropic-ipo.htm)
 
-## Related
+- **2026-06-21** Dynamic Workflows landed in research preview: Claude plans a task dynamically, writes an orchestration script, and fans it out across hundreds of parallel subagents with validation before folding results back; available on Max, Team, and eligible Enterprise plus Bedrock/Vertex/Foundry. Token usage can be substantial. [Claude blog](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code) · [InfoQ](https://www.infoq.com/news/2026/06/dynamic-workflows-claude-code/)
 
--
+- **2026-06-20** v2.1.185: stream-stall hint message changed to "Waiting for API response · will retry in..." and now fires after 20 seconds instead of 10. [GitHub releases](https://github.com/anthropics/claude-code/releases)
+
+- **2026-06-19** v2.1.183: auto mode now blocks destructive git commands when the user did not ask to discard local work. [Changelog](https://code.claude.com/docs/en/changelog)
+- **2026-06-18** Anthropic opened Seoul office (third Asia-Pacific location); NAVER deployed Claude Code across its full engineering org, Samsung SDS across Samsung Electronics, with LG CNS, Nexon, and Hanwha also signing on. Separately, Anthropic signed a MOU with Korea's Ministry of Science and ICT on AI safety. [Anthropic](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem) · [Korea Times](https://www.koreatimes.co.kr/business/tech-science/20260618/anthropic-opens-seoul-office-to-expand-ties-with-korean-ai-ecosystem)
+- **2026-06-15** v2.1.178: new Tool(param:value) permission syntax matches on tool input parameters with wildcard support (e.g. Agent(model:opus) to block Opus subagents); nested .claude/ directories resolve closest-wins for agents, workflows, and output-styles; improved auto-mode subagent classification before launch; /doctor layout overhaul; fixes for JetBrains terminal flicker and Chrome connection drops. [Changelog](https://code.claude.com/docs/en/changelog)
+- **2026-06-15** Agent SDK billing split is now live: `claude -p`, Claude Code GitHub Actions, and third-party agents draw from a separate monthly credit ($20 Pro / $100 Max 5x / $200 Max 20x) at full API rates, no rollover. Interactive terminal sessions unaffected. [The New Stack](https://thenewstack.io/anthropic-agent-sdk-credits/)
+- **2026-06-12** v2.1.176: session titles now generate in the conversation language (configurable via `language` setting), `footerLinksRegexes` for regex-matched link badges, improved Bedrock credential caching (cached until `Expiration` vs fixed 1 hour), and a large batch of Remote Control and background-agent bug fixes including disconnect notifications, session model switching, and backgrounded-session "Working" spinner stalls. [Changelog](https://code.claude.com/docs/en/changelog)
+- **2026-06-12** v2.1.175 adds `enforceAvailableModels` managed setting: when enabled, the `availableModels` allowlist constrains the Default model and user/project settings can no longer widen a managed list — MDM-style model lockdown for enterprises. [GitHub](https://github.com/anthropics/claude-code/releases)
+- **2026-06-12** v2.1.174 adds usage attribution breakdown (cache misses, long context, subagents) to the Account & usage dialog; fixes enterprise Fable 5 credits banner, Bedrock GovCloud region handling, and background sessions inheriting provider env variables. [GitHub](https://github.com/anthropics/claude-code/releases)
+- **2026-06-10** v2.1.172 enables nested sub-agents: sub-agents can now spawn their own sub-agents up to 5 levels deep; Bedrock now reads AWS region from `~/.aws` config when `AWS_REGION` isn't set; added search bar for marketplace plugin browsing. [GitHub](https://github.com/anthropics/claude-code/releases)
+- **2026-06-11** Code with Claude: Extended Tokyo ran today — a second-day overflow event for indie devs and early-stage founders with hands-on workshops on managed agents, memory, evals, and multi-agent composition; recordings to be posted. [Event page](https://claude.com/code-with-claude/tokyo-extended)
+- **2026-06-06** Enterprise cost crisis surfacing loudly. Microsoft cutting Claude Code licenses for its Experiences + Devices division by June 30, routing to Copilot. Uber burned through its entire 2026 AI coding budget by April, with heavy users hitting $500-$2,000/month. ([opentools.ai](https://opentools.ai/news/microsoft-cancels-claude-code-licenses-copilot-cli))
+- **2026-05-28** Claude Opus 4.8 released, now leads the Artificial Analysis Intelligence Index at 61.4, with SWE-bench Pro at 69.2%.
+- **2026-06-08** Billing split lands June 15: Agent SDK, `claude -p`, and Claude Code GitHub Actions move off subscription limits into a separate monthly credit pool ($20 Pro / $100 Max 5x / $200 Max 20x) at full API rates, no rollover. Interactive Claude Code in the terminal is unaffected. [TechTimes](https://www.techtimes.com/articles/317625/20260602/anthropic-ends-subscription-subsidy-agents-june-15-credit-pool-replaces-flat-rate-access.htm) · [Codersera](https://codersera.com/blog/anthropic-june-2026-billing-change-claude-code/)
+- **2026-06-06** v2.1.166-168: adds `fallbackModel` setting so agents recover when the primary model is unavailable, glob support in deny-rule tool-name positions, hardened cross-session message security, and `MAX_THINKING_TOKENS=0` to suppress extended thinking. Two follow-on patch releases the same day. [GitHub releases](https://github.com/anthropics/claude-code/releases)
+- **2026-06-06** Auto mode now on Bedrock, Vertex, and Foundry for Opus 4.7/4.8; dynamic-workflow trigger renamed to "ultracode"; plugins in `.claude/skills/` load automatically without a marketplace. [Releasebot](https://releasebot.io/updates/anthropic/claude-code)

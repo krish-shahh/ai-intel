@@ -1,0 +1,46 @@
+name: Brief heartbeat
+
+# Safety net: a missed run currently looks identical to a quiet news day.
+# Shortly after each scheduled brief window, confirm the expected brief landed;
+# if not, send a high-priority ntfy alert so silence never hides a failure.
+#
+# Routine schedule (UTC): morning 13:00 (8am EST), evening 01:00 (8pm EST).
+# We check ~1.5h later to allow for run time + GitHub's cron slack.
+
+on:
+  schedule:
+    - cron: '30 14 * * *'   # after the 13:00 UTC morning run
+    - cron: '30 2 * * *'    # after the 01:00 UTC evening run
+  workflow_dispatch: {}
+
+env:
+  NTFY_TOPIC: ai-intel
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Confirm the expected brief landed
+        run: |
+          set -uo pipefail
+          today="$(date -u +%F)"
+          hour="$(date -u +%H)"
+          # The 14:30 run checks morning; the 02:30 run checks evening.
+          if [ "${hour}" -ge 12 ]; then session="morning"; else session="evening"; fi
+          f="briefs/${today}-${session}.md"
+
+          if [ -f "${f}" ]; then
+            echo "OK: ${f} is present."
+            exit 0
+          fi
+
+          echo "::error::Missing ${f}"
+          curl -s -m 20 \
+            -H "Title: ai-intel — ${session} brief MISSING" \
+            -H "Priority: high" \
+            -H "Tags: rotating_light" \
+            -d "No ${session} brief for ${today} landed. The routine likely failed — check https://claude.ai/code/routines" \
+            "https://ntfy.sh/${NTFY_TOPIC}" || true
+          exit 1

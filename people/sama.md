@@ -4,21 +4,21 @@ handle: @sama
 tags: [person]
 ---
 
-# Sam Altman
+[@sama](https://x.com/sama)
 
-Profile stub for **Sam Altman** (@sama).
-
-> Auto-generated placeholder. The wiki will fill this in over time with notes,
-> links, and observations about this person.
-
-## Notes
-
--
+Sam Altman is co-founder and CEO of OpenAI, the company behind ChatGPT and the GPT model series. He previously was president of Y Combinator. He was briefly removed as CEO in November 2023 before being reinstated days later. He remains CEO of OpenAI as of 2026, leading the company through its push on ChatGPT and infrastructure deals amid reported preparations for a potential IPO.
 
 ## Recent
 
--
+- **2026-06-24** Received the first Jalapeño inference chips alongside [[gdb]] at the OpenAI + Broadcom announcement. Custom silicon targets ~50% lower inference cost vs Nvidia GPUs; first deployment end of 2026. [CNBC](https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html)
+- **2026-06-18** Called Noam Shazeer (Transformer co-inventor, Gemini co-lead) "one of the people I have most wanted to work with since the very beginning of OpenAI" when OpenAI announced Shazeer as Lead for Architecture Research. [Benzinga](https://www.benzinga.com/markets/tech/26/06/53269428/google-gemini-co-lead-noam-shazeer-joins-openai-sam-altman-says-its-10-years-in-the-making)
+- **2026-06-17** Attended the G7 final-day AI working lunch in Evian, France alongside Dario Amodei and Demis Hassabis — the first time all three lab CEOs appeared together at a formal G7. Discussions centered on AI safety and US dominance of the field. [CNBC](https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html) · [Bloomberg](https://www.bloomberg.com/news/live-blog/2026-06-17/g7-summit-evian-france-live-updates-ai-ceos-iran)
 
-## Links
-
--
+- **2026-06-12** Canceled planned South Korea trip (was set for June 15) over personal reasons. Trip was to cover HBM4/Titan chip cooperation and AI adoption talks with Samsung, Naver, and Kakao. Samsung deal context: Samsung is exclusive HBM4 supplier for OpenAI's Titan chip (800M Gb, H2 2026). No revised date given. [Korea Times](https://www.koreatimes.co.kr/amp/business/companies/20260612/openais-sam-altman-postpones-visit-to-korea) · [SamMobile](https://www.sammobile.com/news/openai-ceo-cancels-planned-korea-trip-as-chip-work-with-samsung-cools-down/)
+- **2026-06-07** Headlined OpenAI's "Intelligence at Work" enterprise livestream, showcasing how businesses are deploying Codex and ChatGPT at scale. [event page](https://openai.com/business/intelligence-at-work/)
+- **2026-06-06** Posted about the OpenAI Foundation's $130M+ AI-resilience grant program covering bio-resilience, cyber, model safety, and youth impact. [x.com](https://x.com/sama/status/2061562575322492937)
+- **2026-06-03** Met with lawmakers and Trump administration officials in DC about the AI executive order. Also attending the G7 in France later this month at Macron's invitation. ([CNBC](https://www.cnbc.com/2026/06/03/open-ai-altman-congress-trump-eo.html))
+- **2026-06-09** Altman and chief scientist Jakub Pachocki published "Built to benefit everyone: our plan" alongside OpenAI's confidential S-1 filing; key stance: "entirely automating everything is not the future we want — it would be unfulfilling, and it would be dangerous." Frames OpenAI's "third phase" as building an automated AI researcher, accelerating the economy, and giving everyone a personal AGI. [OpenAI](https://openai.com/index/built-to-benefit-everyone-our-plan/) · [The Decoder](https://the-decoder.com/openai-says-entirely-automating-everything-is-not-the-future-we-want/)
+- **2026-06-09** OpenAI confidentially filed its S-1 with the SEC; $852B valuation, $20B+ ARR, targeting September 2026 debut with Goldman, Morgan Stanley, and JPMorgan; internal documents project a $14B non-GAAP loss in 2026 with profitability not expected until 2029. [Fortune](https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/) · [Yahoo Finance on losses](https://finance.yahoo.com/news/openais-own-forecast-predicts-14-150445813.html)
+- **2026-06-08** OpenAI launched the Economic Research Exchange: structured grant program funding external researchers studying how AI affects workers, firms, and the economy; applications close July 5. [OpenAI](https://openai.com/index/economic-research-exchange/)
+- **2026-06** Has been advocating for government equity stakes in AI companies. OpenAI hasn't set an IPO timeline, but Anthropic's S-1 filing adds pressure.
