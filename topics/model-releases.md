@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-24** OpenAI and Broadcom unveiled Jalapeño: OpenAI's first custom LLM inference processor, nine months design-to-tape-out, claims ~50% lower cost per token vs Nvidia GPUs, initial deployment targeted end of 2026. [[gdb]]: "By designing more of the stack ourselves, we can serve more intelligence with greater efficiency." [TechCrunch](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/) · [OpenAI](https://openai.com/index/openai-broadcom-jalapeno-inference-chip/)
+
 - **2026-06-23** OpenAI launched the full GPT-5.5-Cyber model for vetted defenders (June 22): CyberGym 85.6%, ExploitGym 39.5%, SEC-bench Pro 69.8%. Ships with an updated Codex Security plugin and "Patch the Planet," an open-source vuln-patch initiative. Individual access requires Advanced Account Security. [Axios](https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model) · [OpenAI](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/)
 
 - **2026-06-24** GPT-5.6 prediction market odds collapsed further: "launches by June 28" dropped to 17% (was 22% on June 22, ~83% as of June 15), with $560K wagered. Traders abandoned the near-term bet with no signal from OpenAI on an imminent release. [Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/traders-abandon-bets-gpt-5-093100441.html) · [ProActive Investors](https://www.proactiveinvestors.co.uk/companies/news/1094317/traders-abandon-bets-on-a-gpt-5-6-launch-this-week-1094317.html)

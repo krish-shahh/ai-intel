@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-25** calesthio/OpenMontage +3,719 stars today (continuing surge since June 22 debut): agentic video production system, 12 pipelines, 52 tools, 500+ agent skills. [GitHub](https://github.com/calesthio/OpenMontage)
+- **2026-06-25** NousResearch/hermes-agent +1,178 stars today (201K+ total): self-improving agent with persistent memory and skill creation from experience, 22 messaging platforms, 200+ models via OpenRouter. [GitHub](https://github.com/nousresearch/hermes-agent)
 - **2026-06-24** NousResearch/hermes-agent +1,174 stars today (201K total): v0.17.0 (June 19) added iMessage via Photon, background subagents, Cursor Composer model routing via xAI Grok; Skills Hub at 90,881 skills. [GitHub](https://github.com/NousResearch/hermes-agent)
 - **2026-06-24** google-labs-code/design.md +504 stars today: format spec for giving coding agents a persistent understanding of a project's visual identity via a DESIGN.md file; ships with a CLI validator, Google positioning as candidate industry standard. [GitHub](https://github.com/google-labs-code/design.md)
 - **2026-06-24** calesthio/OpenMontage +3,592 stars today (15K+ total): agentic video production system continues to surge two days after launch. [GitHub](https://github.com/calesthio/OpenMontage)
