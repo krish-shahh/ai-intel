@@ -10,6 +10,8 @@ Andrej Karpathy is an AI researcher and educator who was a founding member of Op
 
 ## Recent
 
+- **2026-06-24** Called Claude Tag for Slack "the 3rd major redesign of LLM UIUX": web chatbot was first, standalone app was second, the third is a persistent async agent embedded org-wide. [X](https://x.com/karpathy/status/2069547676849557725) · [Benzinga](https://www.benzinga.com/markets/tech/26/06/60091727/andrej-karpathy-says-ai-is-no-longer-a-chatbot-its-becoming-your-teammate)
+- **2026-06-24** Posted that X's algorithmic feed is "actively making the platform worse" and compared it to Reddit; [[elonmusk]] publicly agreed, replying "We need a complete overhaul of the algorithm." [American Bazaar](https://americanbazaaronline.com/2026/06/25/elon-musk-backs-andrej-karpathy-amid-claude-ai-debate-483537/)
 - **2026-06-22** Congratulated [[simonw]] on 23 years of continuous blogging, called his LLM coverage "really excellent," and nudged followers to sponsor him on GitHub. [X](https://x.com/karpathy/status/1933582359347278246)
 - **2026-06-17** autoresearch repo is trending on GitHub with 226 new stars today — renewed attention on the March 2026 project that runs ML experiments autonomously overnight on a single GPU. Reported an 11% improvement in nanochat "Time to GPT-2" in his original thread. [GitHub](https://github.com/karpathy/autoresearch)
 - **2026-06-10** Called Claude Fable 5 "a major-version-bump-deserving step change forward (imo of the same order as Claude 4.5 was in November)" on launch day, noting it handles very ambitious long-horizon tasks without hand-holding. ([tweet](https://x.com/karpathy/status/2064409694761054332))
