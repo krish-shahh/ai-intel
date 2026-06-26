@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-06-26** google-labs-code/design.md is today's #1 GitHub trending repo (2,319 new stars). Google Labs' open spec for a DESIGN.md file: YAML frontmatter with design tokens (colors, type, spacing, components) plus human-readable guidance, giving any coding agent a persistent brand contract. Ships with a WCAG AA CLI linter. Works with Stitch, Claude, and others. Apache 2.0. [GitHub](https://github.com/google-labs-code/design.md) · [Google Labs blog](https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-design-md/)
+
 - **2026-06-24** Qualcomm confirmed $3.9B all-stock acquisition of Modular (Chris Lattner's AI software startup) at Investor Day; Modular lets devs run AI across hardware without rewrites. Also named Meta as first customer for its C1000 data center CPUs, shipping late 2028. Tenstorrent $8-10B talks remain unconfirmed. [CNBC](https://www.cnbc.com/2026/06/24/qualcomm-ai-chip-modular-software.html) · [Gurufocus](https://www.gurufocus.com/news/8930007/qualcomm-qcom-confirms-39b-acquisition-of-ai-startup-modular)
 - **2026-06-24** Google DevRel engineer Justin Poehnelt posted that he was fired for building the Google Workspace CLI — the tool hit #1 on HN, gained thousands of stars, and Google fired him; two days later Google announced an official Workspace CLI at Cloud Next 2026. Post reached 1.1M views on X. [X thread](https://x.com/JPoehnelt/status/2069482265953087602) · [HN thread](https://news.ycombinator.com/item?id=48649011)
 

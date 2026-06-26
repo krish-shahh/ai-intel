@@ -10,6 +10,8 @@ Nathan Lambert is an AI researcher specializing in reinforcement learning from h
 
 ## Recent
 
+- **2026-06-22** Released TMax (arXiv 2606.23321) with Ai2: open RL recipe for terminal agents shipping 9B and 27B weights, training data, and reproduction code. TMax-27B scores 42.7% on Terminal-Bench 2.0, best among public models. Key method: combining difficulty control, personas, and verifier diversification to cheaply generate terminal environments for RL. [arXiv](https://arxiv.org/abs/2606.23321) · [Substack](https://natolambert.substack.com/p/tmax-an-open-rl-recipe-for-terminal) · [X](https://x.com/natolambert/status/2069055254961021150)
+
 - **2026-06-21** Noted that Chinese labs are "hitting high peaks with much less compute" and shouldn't be discounted, while still maintaining US frontier models are overall ahead. [X](https://x.com/natolambert/status/2066964292839371051)
 
 - **2026-06-15** Confirmed as Global CTO of AI at the Linux Foundation, focusing on open model governance and fully open post-training work. [Interconnects](https://www.interconnects.ai/p/farewell-ai2)

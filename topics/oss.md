@@ -7,6 +7,9 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-26** google-labs-code/design.md #1 GitHub trending overall (+2,319 stars today, 20.6K total): Google Labs' open spec for a DESIGN.md file — YAML frontmatter design tokens plus human-readable rationale, giving any coding agent a persistent brand contract. Ships with a WCAG AA linter. Apache 2.0. [GitHub](https://github.com/google-labs-code/design.md)
+- **2026-06-26** Also trending today: Panniantong/Agent-Reach +1,547 stars (gives agents web-scraping eyes: Twitter, Reddit, YouTube, GitHub, Bilibili), calesthio/OpenMontage +1,674 stars (continued surge), xbtlin/ai-berkshire +1,270 stars (Claude Code multi-agent investment research), topoteretes/cognee +755 stars (open-source AI memory platform). [Agent-Reach](https://github.com/Panniantong/Agent-Reach) · [ai-berkshire](https://github.com/xbtlin/ai-berkshire) · [cognee](https://github.com/topoteretes/cognee)
+
 - **2026-06-25** calesthio/OpenMontage +3,719 stars today (continuing surge since June 22 debut): agentic video production system, 12 pipelines, 52 tools, 500+ agent skills. [GitHub](https://github.com/calesthio/OpenMontage)
 - **2026-06-25** NousResearch/hermes-agent +1,178 stars today (201K+ total): self-improving agent with persistent memory and skill creation from experience, 22 messaging platforms, 200+ models via OpenRouter. [GitHub](https://github.com/nousresearch/hermes-agent)
 - **2026-06-24** NousResearch/hermes-agent +1,174 stars today (201K total): v0.17.0 (June 19) added iMessage via Photon, background subagents, Cursor Composer model routing via xAI Grok; Skills Hub at 90,881 skills. [GitHub](https://github.com/NousResearch/hermes-agent)
