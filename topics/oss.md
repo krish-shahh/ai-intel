@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-27** topoteretes/cognee +729 stars today: open-source AI memory platform for agents; persistent knowledge graph + vector search on a single Postgres instance; v1.2.0 preview adds Slack and Google Drive connectors. [GitHub](https://github.com/topoteretes/cognee)
+- **2026-06-27** xbtlin/ai-berkshire +686 stars today: Python framework chaining Claude Code agents for multi-angle value-investing research. [GitHub](https://github.com/xbtlin/ai-berkshire)
 - **2026-06-27** opendatalab/MinerU +960 stars today: converts PDFs and Office docs to LLM-ready markdown/JSON, targeted at agentic workflows. [GitHub](https://github.com/opendatalab/MinerU)
 - **2026-06-27** aws/agent-toolkit-for-aws +243 stars today: AWS-backed collection of MCP servers, skills, and plugins for agents building on AWS infrastructure. [GitHub](https://github.com/aws/agent-toolkit-for-aws)
 - **2026-06-26** google-labs-code/design.md #1 GitHub trending overall (+2,319 stars today, 20.6K total): Google Labs' open spec for a DESIGN.md file — YAML frontmatter design tokens plus human-readable rationale, giving any coding agent a persistent brand contract. Ships with a WCAG AA linter. Apache 2.0. [GitHub](https://github.com/google-labs-code/design.md)
