@@ -10,6 +10,7 @@ Andrej Karpathy is an AI researcher and educator who was a founding member of Op
 
 ## Recent
 
+- **2026-06-28** An updated CLAUDE.md attributed to Karpathy began circulating today, expanding the original 4 rules to 10 with a new agent self-check protocol for coding loops. He has not confirmed it publicly. The original 4-rule file already hit 100K GitHub stars. [TechTimes](https://www.techtimes.com/articles/319214/20260628/karpathy-claudemd-grows-ten-rules-new-self-check-protocol-ai-coding-loops.htm) · [Raytar on X](https://x.com/Raytar/status/2070577723089768500)
 - **2026-06-24** Called Claude Tag for Slack "the 3rd major redesign of LLM UIUX": web chatbot was first, standalone app was second, the third is a persistent async agent embedded org-wide. [X](https://x.com/karpathy/status/2069547676849557725) · [Benzinga](https://www.benzinga.com/markets/tech/26/06/60091727/andrej-karpathy-says-ai-is-no-longer-a-chatbot-its-becoming-your-teammate)
 - **2026-06-24** Posted that X's algorithmic feed is "actively making the platform worse" and compared it to Reddit; [[elonmusk]] publicly agreed, replying "We need a complete overhaul of the algorithm." [American Bazaar](https://americanbazaaronline.com/2026/06/25/elon-musk-backs-andrej-karpathy-amid-claude-ai-debate-483537/)
 - **2026-06-22** Congratulated [[simonw]] on 23 years of continuous blogging, called his LLM coverage "really excellent," and nudged followers to sponsor him on GitHub. [X](https://x.com/karpathy/status/1933582359347278246)
