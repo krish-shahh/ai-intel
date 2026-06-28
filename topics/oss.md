@@ -7,6 +7,11 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-28** Panniantong/Agent-Reach +1,145 stars today (continued surge): gives AI agents live read access to Twitter, Reddit, YouTube, and GitHub; topping Python trending. [GitHub](https://github.com/Panniantong/Agent-Reach)
+- **2026-06-28** topoteretes/cognee +780 stars today: persistent knowledge-graph memory platform for agents, now with Slack and Google Drive connectors in v1.2.0. [GitHub](https://github.com/topoteretes/cognee)
+- **2026-06-28** xbtlin/ai-berkshire +685 stars today: Claude Code multi-agent value-investing framework. [GitHub](https://github.com/xbtlin/ai-berkshire)
+- **2026-06-28** anomalyco/opencode trending today: open-source TypeScript coding agent. [GitHub](https://github.com/anomalyco/opencode)
+- **2026-06-28** luongnv89/claude-howto +141 stars today: visual Claude Code guide with copy-paste agent templates. [GitHub](https://github.com/luongnv89/claude-howto)
 - **2026-06-27** topoteretes/cognee +729 stars today: open-source AI memory platform for agents; persistent knowledge graph + vector search on a single Postgres instance; v1.2.0 preview adds Slack and Google Drive connectors. [GitHub](https://github.com/topoteretes/cognee)
 - **2026-06-27** xbtlin/ai-berkshire +686 stars today: Python framework chaining Claude Code agents for multi-angle value-investing research. [GitHub](https://github.com/xbtlin/ai-berkshire)
 - **2026-06-27** opendatalab/MinerU +960 stars today: converts PDFs and Office docs to LLM-ready markdown/JSON, targeted at agentic workflows. [GitHub](https://github.com/opendatalab/MinerU)

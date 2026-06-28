@@ -7,6 +7,7 @@ OpenCode is an open-source, model-agnostic terminal coding agent built by Anomal
 
 ## Notes
 
+- **2026-06-28** anomalyco/opencode back on GitHub trending today as an open-source TypeScript coding agent. [GitHub](https://github.com/anomalyco/opencode)
 - **2026-06-22** v1.17.8: faster session timeline loading, MCP tool schema validation fixes, Cloudflare AI Gateway support. [GitHub releases](https://github.com/opencode-ai/opencode/releases)
 
 - **2026-06-12** v1.17.4: adds `cwd` support for local MCP servers; fixes Gemini tool schemas, content-filtered model responses, and snapshot creation performance on large repos. [GitHub](https://github.com/anomalyco/opencode/releases)
