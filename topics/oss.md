@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-29** msitarzewski/agency-agents topped GitHub trending overall today (1,221 new stars): Shell-based AI agency framework with specialized expert sub-agents for distinct task domains. [GitHub](https://github.com/msitarzewski/agency-agents)
+- **2026-06-29** HKUDS/Vibe-Trading gained 840 stars today: autonomous personal trading agent in Python. [GitHub](https://github.com/HKUDS/Vibe-Trading)
 - **2026-06-29** browser-use/video-use trending on GitHub today: edit videos with coding agents. New from the browser-use team that built the browser automation agent. [GitHub](https://github.com/browser-use/video-use)
 
 - **2026-06-28** DeusData/codebase-memory-mcp is today's #1 GitHub trending overall (+2,162 stars, 14K+ total): MCP server that indexes any codebase into a persistent knowledge graph, 99% fewer tokens vs file-by-file, 158 languages, single static binary. Been on trending for 10+ days. [GitHub](https://github.com/DeusData/codebase-memory-mcp)
