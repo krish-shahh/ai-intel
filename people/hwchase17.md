@@ -10,4 +10,6 @@ Harrison Chase is co-founder and CEO of LangChain, the company behind the widely
 
 ## Recent
 
+- **2026-06-28** Tweeted on building reliable agents: emphasized repeatable improvement lifecycles over one-off prompt tweaks, linking back to LangSmith traces as the ground truth for agent behavior. [X](https://x.com/hwchase17/status/2069467520474501544)
+
 - **2026-06-06** Shipped LangChain Engine: an agent that mines LangSmith production traces, patches agent code, and sets up evals autonomously. [LangChain Blog](https://www.langchain.com/blog)

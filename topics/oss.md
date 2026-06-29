@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-29** browser-use/video-use trending on GitHub today: edit videos with coding agents. New from the browser-use team that built the browser automation agent. [GitHub](https://github.com/browser-use/video-use)
+
 - **2026-06-28** DeusData/codebase-memory-mcp is today's #1 GitHub trending overall (+2,162 stars, 14K+ total): MCP server that indexes any codebase into a persistent knowledge graph, 99% fewer tokens vs file-by-file, 158 languages, single static binary. Been on trending for 10+ days. [GitHub](https://github.com/DeusData/codebase-memory-mcp)
 - **2026-06-28** Panniantong/Agent-Reach +1,145 stars today (continued surge): gives AI agents live read access to Twitter, Reddit, YouTube, and GitHub; topping Python trending. [GitHub](https://github.com/Panniantong/Agent-Reach)
 - **2026-06-28** topoteretes/cognee +780 stars today: persistent knowledge-graph memory platform for agents, now with Slack and Google Drive connectors in v1.2.0. [GitHub](https://github.com/topoteretes/cognee)

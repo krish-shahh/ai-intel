@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-06-29** Claude Managed Agents now support operator-controlled sandboxes: agents can run in your own infrastructure or managed providers (Cloudflare, Daytona, Modal, Vercel) connected to private MCP servers. Also launched: Trusted Devices for Remote Control on Team/Enterprise plans, Claude-in-Slack for Enterprise (tag Claude in threads to delegate tasks), and Compliance API integrations for IT governance. [Anthropic newsroom](https://www.anthropic.com/news)
+
 - **2026-06-22-26** Week 26 digest: `claude mcp login` authenticates a configured MCP server from the shell without the interactive `/mcp` menu; shell mode now explains command output inline (e.g. `! npm test` gets a follow-up without a second prompt); `/rewind` can resume a session from before a `/clear`; background subagents surface permission prompts to the main session instead of auto-denying. [What's New](https://code.claude.com/docs/en/whats-new)
 - **2026-06-24** Anthropic investigating social media claims that Claude returned responses meant for other users during the June 23 outage. No confirmed data exposure as of this evening; Anthropic says it takes any such report "very seriously." [Cybernews](https://cybernews.com/ai-news/claude-outage-resolved-anthropic-ops-model-errors/)
 - **2026-06-23** Fiona Fung (engineering head, Claude Code and Cowork) said on Lenny's Podcast that heavy agentic use is making employees' work more solitary, prompting Anthropic to add team-building countermeasures. [Fortune](https://fortune.com/2026/06/23/anthropic-engineering-head-claude-code-lonely-experience-big-tech-morale/)
