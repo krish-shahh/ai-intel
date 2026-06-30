@@ -7,6 +7,10 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-30** Gemini 3.5 Pro officially confirmed delayed to July -- Google cited token-use tuning and long-task performance issues flagged by enterprise testers; the "give us until next month" promise Sundar Pichai made at I/O 2026 did not land. [TechTimes Jun 29](https://www.techtimes.com/articles/319318/20260629/gemini-35-pro-cleared-july-launch-fable-5-nears-return-gpt-56-stays-locked.htm) · [Crypto Briefing](https://cryptobriefing.com/google-delays-gemini-35-pro-launch-to-july-2026/)
+
+- **2026-06-30** Grok 5 did not ship before month-end; prediction markets had it at 12-33% odds for a June 30 release and it remains in training on Colossus 2. xAI's June consolation drops were grok-imagine-video-1.5 (GA June 16) and Grok Build /goal autonomous mode. [WaveSpeed tracker](https://wavespeed.ai/blog/posts/grok-5-launch-tracker/)
+
 - **2026-06-29** Anthropic published the June Economic Index "Cadences" report: ~9,700 surveyed Claude users, 50% say AI can handle half or more of their job tasks today, 4% say it could do their entire role now. Personal use peaks on weekends; high-value work tasks cluster at night. Data covers April 10 – June 10, 2026. [Anthropic](https://www.anthropic.com/research/economic-index-june-2026-report) · [GIGAZINE](https://gigazine.net/gsc_news/en/20260629-anthropic-economic-report)
 
 - **2026-06-28** WSJ reported "China Has Matched Anthropic in Cybersecurity, Resetting AI Race": Zhipu AI's GLM-5.2 benchmarked at or near Claude Mythos levels on security-bug detection, per Semgrep research. With Mythos and Fable offline for most users and OpenAI gating GPT-5.6, the timing is uncomfortable for US labs. [CNBC](https://www.cnbc.com/2026/06/26/china-zhipu-z-ai-open-source-anthropic-openai.html) · [X](https://x.com/aleabitoreddit/status/2071074680253911267)

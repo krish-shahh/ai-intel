@@ -7,6 +7,12 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-06-30** msitarzewski/agency-agents still #1 overall trending +1,425 stars today (up from 1,221 yesterday). [GitHub](https://github.com/msitarzewski/agency-agents)
+- **2026-06-30** xbtlin/ai-berkshire surged to +1,386 stars today (#1 Python trending), up from +685 yesterday; Claude Code multi-agent value investing framework. [GitHub](https://github.com/xbtlin/ai-berkshire)
+- **2026-06-30** browser-use/video-use +967 stars today; video editing with coding agents from the browser-use team. [GitHub](https://github.com/browser-use/video-use)
+- **2026-06-30** topoteretes/cognee +868 stars today (continued multi-day run); open-source AI memory with knowledge graph for agents. [GitHub](https://github.com/topoteretes/cognee)
+- **2026-06-30** TauricResearch/TradingAgents +362 stars today; multi-agent LLM financial trading framework in Python. [GitHub](https://github.com/TauricResearch/TradingAgents)
+
 - **2026-06-29** msitarzewski/agency-agents topped GitHub trending overall today (1,221 new stars): Shell-based AI agency framework with specialized expert sub-agents for distinct task domains. [GitHub](https://github.com/msitarzewski/agency-agents)
 - **2026-06-29** HKUDS/Vibe-Trading gained 840 stars today: autonomous personal trading agent in Python. [GitHub](https://github.com/HKUDS/Vibe-Trading)
 - **2026-06-29** browser-use/video-use trending on GitHub today: edit videos with coding agents. New from the browser-use team that built the browser automation agent. [GitHub](https://github.com/browser-use/video-use)
