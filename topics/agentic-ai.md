@@ -7,6 +7,8 @@ Agentic AI covers systems where LLMs plan and act over multiple steps with tools
 
 ## Notes
 
+- **2026-06-30** google/agents-cli trending on GitHub (3.9k stars, v0.6.1 Jun 28): CLI + skills package for building, evaluating, and deploying ADK agents on Google Cloud; designed to run as skills inside Claude Code, Codex, and Antigravity CLI rather than as a standalone tool. [GitHub](https://github.com/google/agents-cli) · [Google Developers Blog](https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/)
+
 - **2026-06-30** Anthropic "AI for Science" livestream today targeted pharma/biotech/research executives with Claude use cases across drug discovery and lab workflows; signals a push to establish Claude in life-sciences pipelines alongside the existing enterprise coding focus. [Anthropic event](https://www.anthropic.com/events/the-briefing-ai-for-science-virtual-event)
 
 - **2026-06-23** Anthropic launched Claude Tag in beta for Enterprise and Team Slack plans: tag @Claude into any channel and it maintains persistent org-wide context, handles async tasks, and posts proactive updates; admin-controlled governance via policy settings. [[karpathy]] called it the "3rd major redesign of LLM UIUX." [Bloomberg](https://www.bloomberg.com/news/articles/2026-06-23/anthropic-wants-claude-to-be-your-new-slack-coworker) · [AI Daily Brief](https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive)

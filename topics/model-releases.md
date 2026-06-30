@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-06-30** Claude Opus 4.8 and Haiku 4.5 hit GA in Microsoft Foundry on Azure: Azure-native identity, billing, and governance for Claude; runs on NVIDIA GB300 Blackwell Ultra. "Hosted on Anthropic infrastructure" option stays in preview. [Azure blog](https://azure.microsoft.com/en-us/blog/introducing-anthropics-claude-models-in-microsoft-foundry-bringing-frontier-intelligence-to-azure/) · [WindowsReport](https://windowsreport.com/claude-models-are-now-generally-available-in-microsoft-foundry-on-azure/)
+
 - **2026-06-30** Gemini 3.5 Pro officially confirmed delayed to July -- Google cited token-use tuning and long-task performance issues flagged by enterprise testers; the "give us until next month" promise Sundar Pichai made at I/O 2026 did not land. [TechTimes Jun 29](https://www.techtimes.com/articles/319318/20260629/gemini-35-pro-cleared-july-launch-fable-5-nears-return-gpt-56-stays-locked.htm) · [Crypto Briefing](https://cryptobriefing.com/google-delays-gemini-35-pro-launch-to-july-2026/)
 
 - **2026-06-30** Grok 5 did not ship before month-end; prediction markets had it at 12-33% odds for a June 30 release and it remains in training on Colossus 2. xAI's June consolation drops were grok-imagine-video-1.5 (GA June 16) and Grok Build /goal autonomous mode. [WaveSpeed tracker](https://wavespeed.ai/blog/posts/grok-5-launch-tracker/)
