@@ -7,6 +7,11 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-01** msitarzewski/agency-agents: 1,791 stars today (up from 1,425 yesterday), still #1 overall GitHub trending. Shell multi-agent system with expert persona specialization. [GitHub](https://github.com/msitarzewski/agency-agents)
+- **2026-07-01** xbtlin/ai-berkshire: 969 stars today; Claude Code multi-agent investment research framework, continuing its trending run. [GitHub](https://github.com/xbtlin/ai-berkshire)
+- **2026-07-01** browser-use/video-use: 721 stars today; video-editing agents from the browser-use team. [GitHub](https://github.com/browser-use/video-use)
+- **2026-07-01** google/agents-cli: 445 stars today; Google's Python CLI for creating and deploying ADK agents on Google Cloud. [GitHub](https://github.com/google/agents-cli)
+
 - **2026-06-30** diegosouzapw/OmniRoute +617 stars today: AI gateway routing across 160+ providers with token-saving compression and multi-model API support. [GitHub](https://github.com/diegosouzapw/OmniRoute)
 - **2026-06-30** ogulcancelik/herdr +467 stars today: Rust-based agent multiplexer for terminal environments. [GitHub](https://github.com/ogulcancelik/herdr)
 - **2026-06-30** usestrix/strix +395 stars today: open-source AI penetration testing tool for finding and fixing app vulnerabilities, Python. [GitHub](https://github.com/usestrix/strix)
