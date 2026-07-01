@@ -7,6 +7,10 @@ AI research covers new papers, methods, and findings across machine learning: mo
 
 ## Notes
 
+- **2026-06-30** OpenAI released GeneBench-Pro: 129 synthetic biology/genomics/medicine problems for judging AI agents in computational research. GPT-5.6 Sol Pro tops at 31.5% pass rate; Claude Opus 4.8 at 16%. Finding: top models fail 70% of realistic biology tasks. 10 problems open-sourced on Hugging Face. [OpenAI](https://openai.com/index/introducing-genebench-pro/) · [AlphaSignal](https://alphasignal.ai/news/openai-s-genebench-pro-exposes-that-top-ai-fails-real-biology-70-of-the-time)
+
+- **2026-06-30** Anthropic launched Claude Science in beta: an AI workbench for scientists on Pro/Max/Team/Enterprise (macOS and Linux). Pre-configured with 60+ scientific databases, renders 3D protein structures and genome browser tracks, and runs a reviewer agent that checks citations and math. Early users include Novo Nordisk and Allen Institute. Anthropic funding 50 research projects at up to $30k credits each; applications open through July 15. [CNBC](https://www.cnbc.com/2026/06/30/anthropic-launches-ai-drug-discovery-program-claude-science.html) · [TechCrunch](https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/)
+
 - **2026-06-29** Anthropic Economic Index "Cadences" report coverage spread widely: of ~9,700 surveyed Claude users, half say AI already handles 50%+ of their job tasks; 4% say Claude could do their entire role today; usage peaks late-night and weekends for high-income workers, mirroring global work rhythms. Data covers April 10 -- June 10, 2026. [Anthropic research](https://www.anthropic.com/research/economic-index-june-2026-report) · [GIGAZINE](https://gigazine.net/gsc_news/en/20260629-anthropic-economic-report)
 
 - **2026-06-30** Anthropic ran "The Briefing: AI for Science" livestream (10am PST) for pharma, biotech, and research institutions -- product demos and customer case studies from Claude's use in drug discovery and lab workflows. [Anthropic event](https://www.anthropic.com/events/the-briefing-ai-for-science-virtual-event)

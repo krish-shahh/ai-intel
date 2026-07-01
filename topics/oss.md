@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-01** virgiliojr94/book-to-skill trending today (205 Python stars): turns technical PDFs into Claude Code skills automatically. [GitHub](https://github.com/virgiliojr94/book-to-skill)
+- **2026-07-01** langchain-ai/deepagents trending today (103 Python stars): LangChain's batteries-included agent harness. [GitHub](https://github.com/langchain-ai/deepagents)
 - **2026-07-01** msitarzewski/agency-agents: 1,791 stars today (up from 1,425 yesterday), still #1 overall GitHub trending. Shell multi-agent system with expert persona specialization. [GitHub](https://github.com/msitarzewski/agency-agents)
 - **2026-07-01** xbtlin/ai-berkshire: 969 stars today; Claude Code multi-agent investment research framework, continuing its trending run. [GitHub](https://github.com/xbtlin/ai-berkshire)
 - **2026-07-01** browser-use/video-use: 721 stars today; video-editing agents from the browser-use team. [GitHub](https://github.com/browser-use/video-use)

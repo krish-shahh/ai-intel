@@ -7,6 +7,8 @@ Agentic AI covers systems where LLMs plan and act over multiple steps with tools
 
 ## Notes
 
+- **2026-06-30** [[emollick]] published "The Twilight of the Chatbots": argues the chatbot era is over and agentic systems are coming to work beyond just engineering. Cites METR and UK government programmer-hours-per-prompt estimates as the key capability metric. [oneusefulthing.org](https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots)
+
 - **2026-06-30** google/agents-cli trending on GitHub (3.9k stars, v0.6.1 Jun 28): CLI + skills package for building, evaluating, and deploying ADK agents on Google Cloud; designed to run as skills inside Claude Code, Codex, and Antigravity CLI rather than as a standalone tool. [GitHub](https://github.com/google/agents-cli) · [Google Developers Blog](https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/)
 
 - **2026-06-30** Anthropic "AI for Science" livestream today targeted pharma/biotech/research executives with Claude use cases across drug discovery and lab workflows; signals a push to establish Claude in life-sciences pipelines alongside the existing enterprise coding focus. [Anthropic event](https://www.anthropic.com/events/the-briefing-ai-for-science-virtual-event)

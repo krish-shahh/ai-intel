@@ -10,6 +10,8 @@ Ethan Mollick is an associate professor at the Wharton School of the University 
 
 ## Recent
 
+- **2026-06-30** Published "The Twilight of the Chatbots" on Substack: argues the chatbot era is over and agentic systems are coming to work beyond just engineering. Cites METR and UK government estimates of programmer-hours-per-prompt as the key capability metric to watch. [oneusefulthing.org](https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots)
+
 - **2026-06-28** Posted about a large China study showing AI homework use hurts test scores: "AI tutoring to support student learning is good, using AI to replace the effort of homework is bad." [X](https://x.com/emollick/status/2068507998343885284)
 
 - **2026-06-21** Documented the rapid capability arc in a single tweet: "June 2024: LLMs couldn't count the r's in strawberry. July 2025: LLMs got gold at the Math Olympiad. May 2026: LLMs solved one of the best-known questions in combinatorial geometry." Referencing an OpenAI model cracking the Erdős planar unit distance problem (open since 1946). [X](https://x.com/emollick/status/2057190703965327834)

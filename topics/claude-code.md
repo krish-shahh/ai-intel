@@ -7,6 +7,10 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-07-01** Claude Fable 5 access restored on Claude Code; new safety classifier blocks the jailbreak in 99%+ of cases. Coding requests that trigger a false positive now fall back to Opus 4.8 with user notification. Usage capped at 50% of weekly limit through July 7. [The Hacker News](https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html)
+
+- **2026-06-30** Claude Sonnet 5 is the new default model in Claude Code (replaces Sonnet 4.6). 1M token context, near-Opus-4.8 quality, $2/$10 per Mtok intro pricing through Aug 31. Note: new tokenizer produces ~30% more tokens than Sonnet 4.6 on the same input. [Anthropic](https://www.anthropic.com/news/claude-sonnet-5)
+
 - **2026-06-29** Claude Managed Agents now support operator-controlled sandboxes: agents can run in your own infrastructure or managed providers (Cloudflare, Daytona, Modal, Vercel) connected to private MCP servers. Also launched: Trusted Devices for Remote Control on Team/Enterprise plans, Claude-in-Slack for Enterprise (tag Claude in threads to delegate tasks), and Compliance API integrations for IT governance. [Anthropic newsroom](https://www.anthropic.com/news)
 
 - **2026-06-22-26** Week 26 digest: `claude mcp login` authenticates a configured MCP server from the shell without the interactive `/mcp` menu; shell mode now explains command output inline (e.g. `! npm test` gets a follow-up without a second prompt); `/rewind` can resume a session from before a `/clear`; background subagents surface permission prompts to the main session instead of auto-denying. [What's New](https://code.claude.com/docs/en/whats-new)
