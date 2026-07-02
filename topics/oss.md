@@ -7,6 +7,11 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-02** msitarzewski/agency-agents +2,114 stars today (continued #1 trending): multi-expert AI agency toolkit, surging again after yesterday's run. [GitHub](https://github.com/msitarzewski/agency-agents)
+- **2026-07-02** usestrix/strix +1,211 stars today: AI pen-testing tool trending for a second day. [GitHub](https://github.com/usestrix/strix)
+- **2026-07-02** diegosouzapw/OmniRoute +1,010 stars today: free AI gateway, 231+ providers, now passing 9.5K total stars. [GitHub](https://github.com/diegosouzapw/OmniRoute)
+- **2026-07-02** HKUDS/Vibe-Trading +694 stars today: personal trading agent. [GitHub](https://github.com/HKUDS/Vibe-Trading)
+
 - **2026-07-01** virgiliojr94/book-to-skill trending today (205 Python stars): turns technical PDFs into Claude Code skills automatically. [GitHub](https://github.com/virgiliojr94/book-to-skill)
 - **2026-07-01** langchain-ai/deepagents trending today (103 Python stars): LangChain's batteries-included agent harness. [GitHub](https://github.com/langchain-ai/deepagents)
 - **2026-07-01** msitarzewski/agency-agents: 1,791 stars today (up from 1,425 yesterday), still #1 overall GitHub trending. Shell multi-agent system with expert persona specialization. [GitHub](https://github.com/msitarzewski/agency-agents)

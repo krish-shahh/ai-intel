@@ -10,6 +10,8 @@ Ethan Mollick is an associate professor at the Wharton School of the University 
 
 ## Recent
 
+- **2026-07-02** Tweeted OpenAI internal usage data showing agentic task completion spreading beyond engineering to knowledge workers broadly: "The chatbot era is over, and agentic systems are coming to tasks beyond engineering." Citing the same shift documented in his June 30 Substack piece but with new org-level usage numbers as evidence. [X](https://x.com/emollick/status/2070171580030656744)
+
 - **2026-06-30** Published "The Twilight of the Chatbots" on Substack: argues the chatbot era is over and agentic systems are coming to work beyond just engineering. Cites METR and UK government estimates of programmer-hours-per-prompt as the key capability metric to watch. [oneusefulthing.org](https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots)
 
 - **2026-06-28** Posted about a large China study showing AI homework use hurts test scores: "AI tutoring to support student learning is good, using AI to replace the effort of homework is bad." [X](https://x.com/emollick/status/2068507998343885284)
