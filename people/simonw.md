@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-06-30** Wrote up Claude Sonnet 5 on launch day, flagging a key gotcha: the new tokenizer produces ~30% more tokens per string, making Sonnet 5 ~1.4x more expensive for English text and ~1.33x for Spanish despite the introductory $2/$10 pricing — roughly neutral only for Simplified Mandarin. [simonwillison.net](https://simonwillison.net/2026/Jun/30/claude-sonnet-5/)
+
 - **2026-06-26** Published "What happened after 2,000 people tried to hack my AI assistant" — a post-mortem on red-teaming his own AI tool by the public; covers prompt injection attempts, data exfiltration tries, and what actually succeeded. [simonwillison.net](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/)
 
 - **2026-06-24** (morning) Used Claude Code with Opus 4.8 to port the Moebius 0.2B image inpainting model to run entirely in the browser: converted PyTorch weights to ONNX, pushed to Hugging Face, and built a WebGPU demo in a single parallel agent session. [simonwillison.net](https://simonwillison.net/2026/Jun/22/porting-moebius/)
