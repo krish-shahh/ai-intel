@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-03** "Agentjacking" via exposed Sentry DSNs: a crafted Sentry error event causes Claude Code, Cursor, and Codex to run attacker code with the developer's full privileges — 85% success rate, no alert fires. Datadog, PagerDuty, and Jira have the same attack surface. Tenet Security found 2,388+ orgs exposed. [VentureBeat](https://venturebeat.com/security/the-attack-that-hijacked-claude-code-came-through-sentry-datadog-pagerduty-and-jira-have-the-same-exposure) · [The New Stack](https://thenewstack.io/agentjacking-sentry-mcp-attack/)
+
 - **2026-07-03** Claude Code v2.1.196 found to steganographically mark system prompts when routed through Chinese AI lab API domains — a suspected anti-distillation measure. See [[claude-code]] for details. [HN](https://news.ycombinator.com/item?id=48734373)
 
 - **2026-07-01** Cursor shipped a native iOS public beta on June 29: remote-controls cloud agents or local desktop agents from phone, with voice input, slash commands, Live Activities on the lock screen, and inline diff review. All paid subscribers get access. 75% off Composer 2.5 runs in the app through July 5. [cursor.com](https://cursor.com/blog/ios-mobile-app)

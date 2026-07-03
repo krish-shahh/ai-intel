@@ -7,6 +7,12 @@ Agentic AI covers systems where LLMs plan and act over multiple steps with tools
 
 ## Notes
 
+- **2026-07-03** "Agentjacking" via Sentry DSNs: injecting malicious instructions into public Sentry error events causes Claude Code, Cursor, and Codex to execute attacker-controlled code with the developer's full privileges — 85% success rate across tested agents, no alerts fire. Tenet Security documented 2,388+ exposed orgs with valid injectable DSNs. Datadog, PagerDuty, and Jira surfaces have the same exposure. [VentureBeat](https://venturebeat.com/security/the-attack-that-hijacked-claude-code-came-through-sentry-datadog-pagerduty-and-jira-have-the-same-exposure) · [The New Stack](https://thenewstack.io/agentjacking-sentry-mcp-attack/)
+
+- **2026-07-02** Zuckerberg told Meta employees at an internal town hall that AI agent development has not accelerated as expected over the past four months, and the May restructuring (10% workforce cut, 7,000 people reassigned to AI) was "not as clean" as planned. He expects more meaningful returns in 3-6 months. [US News/Reuters](https://money.usnews.com/investing/news/articles/2026-07-02/exclusive-zuckerberg-says-ai-agent-development-going-slower-than-expected)
+
+- **2026-07-02** Meta capped per-employee AI token spending after internal usage hit ~73.7 trillion tokens in a single month; employees are being steered toward proprietary MetaCode and away from external tools. [MLQ AI](https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/)
+
 - **2026-06-30** [[emollick]] published "The Twilight of the Chatbots": argues the chatbot era is over and agentic systems are coming to work beyond just engineering. Cites METR and UK government programmer-hours-per-prompt estimates as the key capability metric. [oneusefulthing.org](https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots)
 
 - **2026-06-30** google/agents-cli trending on GitHub (3.9k stars, v0.6.1 Jun 28): CLI + skills package for building, evaluating, and deploying ADK agents on Google Cloud; designed to run as skills inside Claude Code, Codex, and Antigravity CLI rather than as a standalone tool. [GitHub](https://github.com/google/agents-cli) · [Google Developers Blog](https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/)

@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-03** JuliusBrussee/caveman +2,851 stars today (#1 overall trending): Claude Code skill — and 30+ other agents — that cuts output tokens ~65% via terse "caveman-speak" rewrites, six compression levels, companion commands for commits and context compression. v1.9.1, 82.5k total stars. [GitHub](https://github.com/JuliusBrussee/caveman)
+- **2026-07-03** obra/superpowers +1,205 stars today: structured agentic skills framework with a seven-phase development workflow (design → TDD → subagent execution → peer review); works across Claude Code, Cursor, Copilot, Kimi Code. [GitHub](https://github.com/obra/superpowers)
+- **2026-07-03** safishamsi/graphify +937 stars today, v0.9.5 July 2, YC S26: turns any code folder into a queryable knowledge graph (HTML, markdown, JSON outputs) with god-node/surprising-connection detection; supports Claude Code, Cursor, Gemini CLI, 15+ agents. 76.7k total stars. [GitHub](https://github.com/safishamsi/graphify)
+
 - **2026-07-02** msitarzewski/agency-agents +2,114 stars today (continued #1 trending): multi-expert AI agency toolkit, surging again after yesterday's run. [GitHub](https://github.com/msitarzewski/agency-agents)
 - **2026-07-02** usestrix/strix +1,211 stars today: AI pen-testing tool trending for a second day. [GitHub](https://github.com/usestrix/strix)
 - **2026-07-02** diegosouzapw/OmniRoute +1,010 stars today: free AI gateway, 231+ providers, now passing 9.5K total stars. [GitHub](https://github.com/diegosouzapw/OmniRoute)
