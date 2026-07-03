@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-07-03** Researchers decompiled Claude Code v2.1.196 and found it steganographically alters the date string in its system prompt (Unicode apostrophe swap, hyphen-to-slash date separator) when ANTHROPIC_BASE_URL matches a base64+XOR(91) keyword list of Chinese AI lab domains including deepseek, moonshot, minimax, zhipu, baichuan, dashscope, volces. Suspected anti-distillation measure; community split on whether it's legitimate defense or malware-adjacent behavior for a dev tool. Hit 350+ points on HN in hours. [thereallo.dev](https://thereallo.dev/blog/claude-code-prompt-steganography) · [HN](https://news.ycombinator.com/item?id=48734373)
+
 - **2026-07-02** Claude Code session overhaul: completed agent rows no longer flip between "Done" and "Needs your input"; stalled agents labeled "Needs attention"; results mentioning a PR now show clickable links. Background sessions survive process restarts on all platforms including Windows. Org default models, readable session names, clickable file attachments also added. /code-review workflow token usage reduced ~25% by merging redundant finders. [Releasebot](https://releasebot.io/updates/anthropic/claude-code)
 
 - **2026-07-01** Claude Fable 5 access restored on Claude Code; new safety classifier blocks the jailbreak in 99%+ of cases. Coding requests that trigger a false positive now fall back to Opus 4.8 with user notification. Usage capped at 50% of weekly limit through July 7. [The Hacker News](https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html)

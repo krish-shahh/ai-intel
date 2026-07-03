@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-03** Claude Code v2.1.196 found to steganographically mark system prompts when routed through Chinese AI lab API domains — a suspected anti-distillation measure. See [[claude-code]] for details. [HN](https://news.ycombinator.com/item?id=48734373)
+
 - **2026-07-01** Cursor shipped a native iOS public beta on June 29: remote-controls cloud agents or local desktop agents from phone, with voice input, slash commands, Live Activities on the lock screen, and inline diff review. All paid subscribers get access. 75% off Composer 2.5 runs in the app through July 5. [cursor.com](https://cursor.com/blog/ios-mobile-app)
 
 - **2026-07-01** California Gov. Newsom partnered with Anthropic (June 29): Claude now available to all state agencies plus cities and counties at a 50% discount through the new SITeS portal. DMV and DHCS were already using it; this formalizes statewide access. Free workforce training and technical help from Anthropic included. First state-government-wide Claude deployment. [gov.ca.gov](https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/) · [TechCrunch](https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/)
