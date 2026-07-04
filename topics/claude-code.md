@@ -15,6 +15,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 - **2026-07-02** Claude Code session overhaul: completed agent rows no longer flip between "Done" and "Needs your input"; stalled agents labeled "Needs attention"; results mentioning a PR now show clickable links. Background sessions survive process restarts on all platforms including Windows. Org default models, readable session names, clickable file attachments also added. /code-review workflow token usage reduced ~25% by merging redundant finders. [Releasebot](https://releasebot.io/updates/anthropic/claude-code)
 
+- **2026-07-01** Claude in Chrome went generally available: background notifications, draft PR handoff, improved failover, and browser tools now load in a single batched call instead of one per tool. [Claude Code changelog](https://code.claude.com/docs/en/changelog)
+
 - **2026-07-01** Claude Fable 5 access restored on Claude Code; new safety classifier blocks the jailbreak in 99%+ of cases. Coding requests that trigger a false positive now fall back to Opus 4.8 with user notification. Usage capped at 50% of weekly limit through July 7. [The Hacker News](https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html)
 
 - **2026-06-30** Claude Sonnet 5 is the new default model in Claude Code (replaces Sonnet 4.6). 1M token context, near-Opus-4.8 quality, $2/$10 per Mtok intro pricing through Aug 31. Note: new tokenizer produces ~30% more tokens than Sonnet 4.6 on the same input. [Anthropic](https://www.anthropic.com/news/claude-sonnet-5)
