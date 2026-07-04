@@ -7,6 +7,13 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-04** usestrix/strix +1,910 stars today (continued trending); AI pentest tool. [GitHub](https://github.com/usestrix/strix)
+- **2026-07-04** mattpocock/skills +1,289 stars today: Matt Pocock's Claude Code skills collection for engineering productivity. [GitHub](https://github.com/mattpocock/skills)
+- **2026-07-04** alibaba/page-agent +1,110 stars today: TypeScript in-page GUI agent controlling web interfaces via natural language for agentic browser workflows. [GitHub](https://github.com/alibaba/page-agent)
+- **2026-07-04** JuliusBrussee/caveman +1,089 stars today (continued trending). [GitHub](https://github.com/JuliusBrussee/caveman)
+- **2026-07-04** openai/codex-plugin-cc +716 stars today: plugin to invoke Codex from inside Claude Code for code review and task delegation. [GitHub](https://github.com/openai/codex-plugin-cc)
+- **2026-07-04** ogulcancelik/herdr +706 stars today: terminal-native agent multiplexer for running multiple AI agents concurrently. [GitHub](https://github.com/ogulcancelik/herdr)
+
 - **2026-07-03** JuliusBrussee/caveman +2,851 stars today (#1 overall trending): Claude Code skill — and 30+ other agents — that cuts output tokens ~65% via terse "caveman-speak" rewrites, six compression levels, companion commands for commits and context compression. v1.9.1, 82.5k total stars. [GitHub](https://github.com/JuliusBrussee/caveman)
 - **2026-07-03** obra/superpowers +1,205 stars today: structured agentic skills framework with a seven-phase development workflow (design → TDD → subagent execution → peer review); works across Claude Code, Cursor, Copilot, Kimi Code. [GitHub](https://github.com/obra/superpowers)
 - **2026-07-03** safishamsi/graphify +937 stars today, v0.9.5 July 2, YC S26: turns any code folder into a queryable knowledge graph (HTML, markdown, JSON outputs) with god-node/surprising-connection detection; supports Claude Code, Cursor, Gemini CLI, 15+ agents. 76.7k total stars. [GitHub](https://github.com/safishamsi/graphify)
