@@ -7,6 +7,12 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-05** openai/codex-plugin-cc +1,519 stars today: Codex integration plugin for Claude Code enabling cross-tool code review and task delegation. [GitHub](https://github.com/openai/codex-plugin-cc)
+- **2026-07-05** Zackriya-Solutions/meetily +1,409 stars today: self-hosted AI meeting assistant using Parakeet/Whisper transcription and Ollama summarization, fully local. [GitHub](https://github.com/Zackriya-Solutions/meetily)
+- **2026-07-05** usestrix/strix +1,121 Python stars today (continued trending): open-source AI pentesting tool. [GitHub](https://github.com/usestrix/strix)
+- **2026-07-05** asgeirtj/system_prompts_leaks +981 stars today: community-maintained collection of extracted system prompts from major AI platforms. [GitHub](https://github.com/asgeirtj/system_prompts_leaks)
+- **2026-07-05** alibaba/page-agent +801 stars today (continued trending): TypeScript in-page GUI agent for natural language web interface control. [GitHub](https://github.com/alibaba/page-agent)
+
 - **2026-07-04** usestrix/strix +1,910 stars today (continued trending); AI pentest tool. [GitHub](https://github.com/usestrix/strix)
 - **2026-07-04** mattpocock/skills +1,289 stars today: Matt Pocock's Claude Code skills collection for engineering productivity. [GitHub](https://github.com/mattpocock/skills)
 - **2026-07-04** alibaba/page-agent +1,110 stars today: TypeScript in-page GUI agent controlling web interfaces via natural language for agentic browser workflows. [GitHub](https://github.com/alibaba/page-agent)
