@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-07-05** v2.1.199-201 (July 2-3): Three patch releases. v2.1.199 adds stacked slash-skill invocation (up to 5 per command), fixes SSL cert errors to fail fast with hints, and fixes streaming responses silently discarded on mid-stream overloaded errors. v2.1.200 changes `AskUserQuestion` to no longer auto-continue by default, formalizes "Manual" as the default permission mode label across CLI, VS Code, and JetBrains, and fixes background sessions going dark after sleep/wake. v2.1.201 patches Sonnet 5 sessions that were incorrectly using the mid-conversation system role for harness reminders. [GitHub releases](https://github.com/anthropics/claude-code/releases)
+
 - **2026-07-03** Claude Enterprise adds admin analytics (usage/cost by group and user), model-level entitlements (set per-role default and allowed models), and spend alerts at 75%/90% of org limits — first wave of controls targeting agentic cost visibility. [Anthropic blog](https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend)
 
 - **2026-07-03** Steganography patch confirmed: v2.1.197 (released July 1) removes the Unicode-swap tracking mechanism with no entry in the official changelog. [The Register](https://www.theregister.com/ai-and-ml/2026/07/01/anthropic-is-removing-its-covert-code-for-catching-chinese-competitors/5265366)
