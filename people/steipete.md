@@ -10,6 +10,8 @@ Peter Steinberger is an Austrian programmer and entrepreneur who founded PSPDFKi
 
 ## Recent
 
+- **2026-07-06** CodexBar v0.40.0 is trending on GitHub (+598 stars today): macOS 14+ menu bar app tracking token limits, spend, and quota reset windows for 57+ AI coding providers (Claude, Codex, Cursor, Gemini, OpenCode, Perplexity, and more) without separate logins; 16.6k total stars. [repo](https://github.com/steipete/CodexBar) · [releases](https://github.com/steipete/CodexBar/releases)
+
 - **2026-06-08** Posted two sentences that hit 6.5M views on X: "Here's your monthly reminder that you shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents." Sparked a wave of "loop engineering" content and tutorials across the AI dev community. [ExplainX summary](https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026)
 - **2026-06-08** OpenClaw v2026.6.5-beta.5 shipped (22:49 UTC), the fifth beta in the current sprint; project has grown past 210k GitHub stars in 2026. [GitHub releases](https://github.com/openclaw/openclaw/releases)
 - **2026-06-07** OpenClaw v2026.6.5-beta.2 released: QQBot strips model reasoning before delivery, MCP tool results now handle non-text content, Anthropic extended-thinking sessions recover on reconnect, parallel web-search provider bundled, auth profiles moved to SQLite. Beta.1 (June 6) carried the same core fixes. [GitHub releases](https://github.com/openclaw/openclaw/releases)
