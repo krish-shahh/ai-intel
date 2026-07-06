@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-05** Published "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)": over 37 prompts and 34 commits, Fable made +1,321/-190 changes across 30 files and independently flagged 5 release-blockers Willison had missed. [post](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/) · [HN](https://news.ycombinator.com/item?id=48791708)
+
 - **2026-07-03** Posted his best Fable tip so far: tell it "For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent" — lets Fable delegate mechanical edits and noticeably slows drain on the weekly usage limit. [x.com/simonw](https://x.com/simonw/status/2073117641020215566)
 
 - **2026-06-30** Wrote up Claude Sonnet 5 on launch day, flagging a key gotcha: the new tokenizer produces ~30% more tokens per string, making Sonnet 5 ~1.4x more expensive for English text and ~1.33x for Spanish despite the introductory $2/$10 pricing — roughly neutral only for Simplified Mandarin. [simonwillison.net](https://simonwillison.net/2026/Jun/30/claude-sonnet-5/)

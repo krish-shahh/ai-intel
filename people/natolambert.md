@@ -10,6 +10,8 @@ Nathan Lambert is an AI researcher specializing in reinforcement learning from h
 
 ## Recent
 
+- **2026-07-05** Posted "GLM-5.2 is the step change for open agents" on Interconnects — argues GLM-5.2 is the "DeepSeek moment" for open agents: first open model competing with frontier proprietary on agentic coding, with the open-to-closed capability lag now ~6-8 months. [post](https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open) · [tweet](https://x.com/natolambert/status/2069073545632813193)
+
 - **2026-06-22** Released TMax (arXiv 2606.23321) with Ai2: open RL recipe for terminal agents shipping 9B and 27B weights, training data, and reproduction code. TMax-27B scores 42.7% on Terminal-Bench 2.0, best among public models. Key method: combining difficulty control, personas, and verifier diversification to cheaply generate terminal environments for RL. [arXiv](https://arxiv.org/abs/2606.23321) · [Substack](https://natolambert.substack.com/p/tmax-an-open-rl-recipe-for-terminal) · [X](https://x.com/natolambert/status/2069055254961021150)
 
 - **2026-06-21** Noted that Chinese labs are "hitting high peaks with much less compute" and shouldn't be discounted, while still maintaining US frontier models are overall ahead. [X](https://x.com/natolambert/status/2066964292839371051)
