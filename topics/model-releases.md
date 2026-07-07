@@ -7,6 +7,12 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-07-07** Fable 5 billing cliff: today is the last day Fable 5 draws from subscription limits on Pro/Max/Team/Enterprise plans. From July 8 it bills at API pay-as-you-go rates ($10/1M input, $50/1M output). Anthropic says the move is temporary until capacity allows subscription reinstatement. [Bleeping Computer](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/) · [Anthropic](https://www.anthropic.com/news/redeploying-fable-5)
+
+- **2026-07-07** GPT-5.6 general access window opens this week (July 7-14); White House voluntary AI standards framework expected imminently as the likely release trigger. Polymarket: 99% yes by July 31, $29.3M traded. [OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/) · [Polymarket](https://polymarket.com/event/gpt-5pt6-released-by)
+
+- **2026-07-02** Anthropic in early talks with Samsung to manufacture a custom AI chip on Samsung's 2nm process with advanced packaging. No design yet; reportedly an OpenAI chip engineer just joined the company. [TechCrunch](https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-07-02/anthropic-in-talks-with-samsung-for-custom-ai-chip-information-mr3l34t4)
+
 - **2026-07-02** Meta AI chief Alexandr Wang told staff that the in-training "Watermelon" model has matched GPT-5.5 on internal benchmarks, using one order of magnitude more compute than the prior "Avocado" model. No public release or confirmed timeline. Caveat: OpenAI has already previewed GPT-5.6 Sol, so the frontier target has moved. [Benzinga](https://www.benzinga.com/markets/tech/26/07/60264651/metas-upcoming-watermelon-ai-model-matches-openais-gpt-5-5-on-key-benchmarks-alexandr-wang-reportedly-tells-employees) · [American Bazaar](https://americanbazaaronline.com/2026/07/03/meta-ai-chief-says-watermelon-model-has-caught-up-to-gpt-5-5-484022/)
 
 - **2026-07-05** GPT-5.6 Sol deploying on Cerebras at up to 750 tokens/sec in July; limited to select customers while capacity expands. First instance of a frontier model explicitly deployed for inference speed at this scale on non-GPU silicon. [OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/)

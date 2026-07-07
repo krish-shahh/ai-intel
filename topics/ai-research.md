@@ -7,6 +7,8 @@ AI research covers new papers, methods, and findings across machine learning: mo
 
 ## Notes
 
+- **2026-07-07** SimFoundry (NVIDIA GEAR + [[drjimfan]]'s lab): Real2Sim pipeline that turns one real-world video into a full interactive sim environment for robot policy learning. Three-stage pipeline: extraction, generation, augmentation. Zero-shot sim-to-real transfer shows 17-40% task success gains across 7 manipulation tasks. Mean Pearson r=0.911 between sim eval and real-world performance. [arXiv 2606.28276](https://arxiv.org/abs/2606.28276) · [NVIDIA](https://research.nvidia.com/labs/gear/simfoundry/)
+
 - **2026-07-05** [[natolambert]] called GLM-5.2 the "DeepSeek moment" for open agents in a new Interconnects post, arguing frontier agentic capability is now available in open weights and the closed-to-open lag is ~6-8 months. Also: Ai2's TMax (arXiv 2606.23321) is an open RL recipe for terminal agents — 27% Terminal-Bench 2.0 at 9B params with a dataset 2.5x larger than prior open work. [GLM-5.2 post](https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open) · [TMax paper](https://arxiv.org/abs/2606.23321)
 
 - **2026-06-30** OpenAI released GeneBench-Pro: 129 synthetic biology/genomics/medicine problems for judging AI agents in computational research. GPT-5.6 Sol Pro tops at 31.5% pass rate; Claude Opus 4.8 at 16%. Finding: top models fail 70% of realistic biology tasks. 10 problems open-sourced on Hugging Face. [OpenAI](https://openai.com/index/introducing-genebench-pro/) · [AlphaSignal](https://alphasignal.ai/news/openai-s-genebench-pro-exposes-that-top-ai-fails-real-biology-70-of-the-time)

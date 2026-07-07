@@ -7,6 +7,9 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-07** asgeirtj/system_prompts_leaks +1,378 stars today (#1 overall GitHub trending, 51k total): community-maintained collection of extracted system prompts from Claude, GPT, Gemini, Grok, and others — gaining momentum. [GitHub](https://github.com/asgeirtj/system_prompts_leaks)
+- **2026-07-07** addyosmani/agent-skills +notable stars today (70k+ total): production-grade AI coding agent skills, continuing strong run. [GitHub](https://github.com/addyosmani/agent-skills)
+
 - **2026-07-05** openai/codex-plugin-cc +1,519 stars today: Codex integration plugin for Claude Code enabling cross-tool code review and task delegation. [GitHub](https://github.com/openai/codex-plugin-cc)
 - **2026-07-05** Zackriya-Solutions/meetily +1,409 stars today: self-hosted AI meeting assistant using Parakeet/Whisper transcription and Ollama summarization, fully local. [GitHub](https://github.com/Zackriya-Solutions/meetily)
 - **2026-07-05** usestrix/strix +1,121 Python stars today (continued trending): open-source AI pentesting tool. [GitHub](https://github.com/usestrix/strix)
