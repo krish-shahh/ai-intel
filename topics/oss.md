@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-08** MadsLorentzen/ai-job-search +5,071 stars today: Claude Code-based job application framework — fork it, fill in your profile, and let Claude score job listings, tailor your CV, write cover letters, and run interview prep. [GitHub](https://github.com/MadsLorentzen/ai-job-search)
+
 - **2026-07-07** asgeirtj/system_prompts_leaks +1,378 stars today (#1 overall GitHub trending, 51k total): community-maintained collection of extracted system prompts from Claude, GPT, Gemini, Grok, and others — gaining momentum. [GitHub](https://github.com/asgeirtj/system_prompts_leaks)
 - **2026-07-07** addyosmani/agent-skills +notable stars today (70k+ total): production-grade AI coding agent skills, continuing strong run. [GitHub](https://github.com/addyosmani/agent-skills)
 - **2026-07-07** bradautomates/claude-video +953 stars today: Python framework giving Claude the ability to watch and analyze video content. [GitHub](https://github.com/bradautomates/claude-video)

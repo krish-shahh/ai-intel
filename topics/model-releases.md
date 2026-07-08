@@ -7,6 +7,12 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-07-08** GPT-5.6 Sol, Terra, and Luna confirmed for July 9 general availability after the US Department of Commerce cleared the 30-day voluntary review; pricing: Sol Fast $12.5/$75 per Mtok, Terra $2.5/$15, Luna $1/$6. [Neowin](https://www.neowin.net/news/openai-to-release-gpt-56-sol-terra-and-luna-on-july-9/) · [Engadget](https://www.engadget.com/2210308/openai-rolls-out-gpt5-6-july-9/)
+
+- **2026-07-08** Grok 4.5 (SpaceXAI) launching publicly July 9; Musk calls it "Opus-class" (claims Opus 4.8-level performance, faster and cheaper), 1.5T-param V9 foundation model. [Cybernews](https://cybernews.com/ai-news/grok-45-public-launch/) · [Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/spacexai-launch-grok-4-5-105609519.html)
+
+- **2026-07-08** Gemini 3.5 Pro reportedly targeting July 17 after Google scrapped the 2.5 Pro base for a full re-pretrain; claimed specs include 2M token context and a Deep Think Reasoning Layer; unconfirmed rumor, not an official date. [TechTimes](https://www.techtimes.com/articles/319877/20260708/gemini-35-pro-targets-july-17-deepseeks-july-24-deadline-hits-developers-now.htm) · [BigGo Finance](https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a)
+
 - **2026-07-07** Fable 5 billing cliff: today is the last day Fable 5 draws from subscription limits on Pro/Max/Team/Enterprise plans. From July 8 it bills at API pay-as-you-go rates ($10/1M input, $50/1M output). Anthropic says the move is temporary until capacity allows subscription reinstatement. [Bleeping Computer](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/) · [Anthropic](https://www.anthropic.com/news/redeploying-fable-5)
 
 - **2026-07-06** OpenAI shipped gpt-realtime-2.1 and gpt-realtime-2.1-mini: 25% lower p95 latency via improved caching, better alphanumeric recognition and noise handling, configurable reasoning effort (minimal to xhigh). [OpenAI Dev Forum](https://community.openai.com/t/new-realtime-models-on-the-api-gpt-realtime-2-1-and-gpt-realtime-2-1-mini/1385896)
