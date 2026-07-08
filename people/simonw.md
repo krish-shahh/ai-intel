@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-07** Shipped sqlite-utils 4.0 stable — first major version since 3.0 in November 2020; adds database migrations, nested transactions via `db.atomic()`, and compound foreign key support. The bulk of the release was written by Claude Fable. [GitHub release](https://github.com/simonw/sqlite-utils/releases)
+
 - **2026-07-05** Published "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)": over 37 prompts and 34 commits, Fable made +1,321/-190 changes across 30 files and independently flagged 5 release-blockers Willison had missed. [post](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/) · [HN](https://news.ycombinator.com/item?id=48791708)
 
 - **2026-07-03** Posted his best Fable tip so far: tell it "For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent" — lets Fable delegate mechanical edits and noticeably slows drain on the weekly usage limit. [x.com/simonw](https://x.com/simonw/status/2073117641020215566)
