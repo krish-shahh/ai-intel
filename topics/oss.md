@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-09** VoltAgent/awesome-design-md +1,569 stars today: DESIGN.md files that give coding agents enough UI context to generate matching interfaces, inspired by google-labs-code/design.md. [GitHub](https://github.com/VoltAgent/awesome-design-md)
+- **2026-07-09** Graphify-Labs/graphify (Python) +856 stars today: turns code, schemas, and docs into a queryable knowledge graph as an agent coding skill. [GitHub](https://github.com/Graphify-Labs/graphify)
 - **2026-07-09** iOfficeAI/OfficeCLI +1,717 stars today (11.8k total): Office suite for AI agents to read and automate Word, Excel, and PowerPoint files. [GitHub](https://github.com/iOfficeAI/OfficeCLI)
 - **2026-07-09** addyosmani/agent-skills +1,297 stars today (74k total): continued strong run for the production-grade AI coding agent skills framework. [GitHub](https://github.com/addyosmani/agent-skills)
 - **2026-07-09** asgeirtj/system_prompts_leaks +1,218 stars today (54k total): community-maintained collection of extracted system prompts from major AI providers. [GitHub](https://github.com/asgeirtj/system_prompts_leaks)

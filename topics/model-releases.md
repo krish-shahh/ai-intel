@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-07-09** Grok 4.5 launched publicly (SpaceXAI, V9 foundation, 1.5T params, 500K context, $2/$6 per M tokens). SWE-Bench Pro 64.7% — behind Fable 5 (80.4%) and Opus 4.8 (69.2%) but 4.2x more token-efficient per task than Opus 4.8. Co-trained on Cursor session data (after SpaceX acquired Cursor for ~$60B). July 9 marked the first time all three major Western frontier labs had public frontier models simultaneously. [Decrypt](https://decrypt.co/373094/grok-4-5-elon-musk-claude-opus) · [ExplainX](https://explainx.ai/blog/grok-4-5-public-launch-spacexai-july-2026)
+
 - **2026-07-09** GPT-5.6 Sol, Terra, and Luna launched publicly today. Sol's Ultra mode decomposes tasks and spawns cooperative subagents that communicate mid-run, not just at merge — 88.8% standard → 91.9% Ultra on Terminal-Bench 2.1. Each Ultra call can cost several times a standard request. The Dept. of Commerce cleared the 30-day safety review this week. [OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/) · [Ultra mode](https://apidog.com/blog/gpt-5-6-ultra-mode/)
 
 - **2026-07-08** GPT-5.6 Sol, Terra, and Luna confirmed for July 9 general availability after the US Department of Commerce cleared the 30-day voluntary review; pricing: Sol Fast $12.5/$75 per Mtok, Terra $2.5/$15, Luna $1/$6. [Neowin](https://www.neowin.net/news/openai-to-release-gpt-56-sol-terra-and-luna-on-july-9/) · [Engadget](https://www.engadget.com/2210308/openai-rolls-out-gpt5-6-july-9/)

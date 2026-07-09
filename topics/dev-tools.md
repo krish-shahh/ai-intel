@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-09** Microsoft Research released Flint, an intermediate visualization language for AI agents: models specify charts in a simple format that compiles to Vega-Lite, ECharts, or Chart.js without target-specific rewrites. 113 HN points, 299 comments at launch. [Microsoft Research](https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/) · [GitHub](https://github.com/microsoft/flint-chart) · [HN](https://news.ycombinator.com/item?id=48834924)
+
 - **2026-07-08** DeepSeek retires deepseek-chat and deepseek-reasoner on July 24 at 15:59 UTC; after that, API calls to those IDs return errors. Migrate to deepseek-v4-pro or deepseek-v4-flash on the same base URL and key. [DEV Community](https://dev.to/agdex_ai/deepseek-v4-api-migration-guide-everything-before-the-july-24-2026-deadline-4m30) · [byteiota](https://byteiota.com/deepseek-api-migration-july-2026/)
 
 - **2026-07-08** Trump administration in final negotiations with OpenAI, Google, and Anthropic on a voluntary framework requiring 30-day pre-release government review for frontier models before public launch; announcement expected this week. [White House EO](https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/) · [Traders Union](https://tradersunion.com/news/financial-news/show/2550448-white-house-ai-model-standards/)

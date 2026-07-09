@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-07-08** v2.1.205: auto mode now blocks transcript-tampering rules; improved agent view adds classifier-written state headlines and colored state words; `/doctor` is a full setup checkup (alias `/checkup`); auto-update downloads stream to disk saving ~400 MB peak RAM; fixed Windows worktree NTFS junction deletion bug; fixed session-to-PR linking for Bash calls exceeding 30K inline limit. v2.1.204 (same day): fixed hook events not streaming during SessionStart hooks in headless sessions. [GitHub releases](https://github.com/anthropics/claude-code/releases)
+
 - **2026-07-07** Claude Cowork expanded to web and mobile; sessions and files saved to the user's account and accessible cross-device; remote-hosted sessions in beta; rolling out on Max plan first. [TechCrunch](https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/) · [9to5Mac](https://9to5mac.com/2026/07/07/anthropic-expanding-claude-cowork-to-mobile-and-web-details-here/)
 
 - **2026-07-07** Claude Code and Claude Cowork in public beta on Claude for Government Desktop; FedRAMP High authorized environment, conversation history stored locally on agency devices, hard per-agency spend caps. [Anthropic](https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government)
