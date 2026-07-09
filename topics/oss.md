@@ -7,6 +7,12 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-09** iOfficeAI/OfficeCLI +1,717 stars today (11.8k total): Office suite for AI agents to read and automate Word, Excel, and PowerPoint files. [GitHub](https://github.com/iOfficeAI/OfficeCLI)
+- **2026-07-09** addyosmani/agent-skills +1,297 stars today (74k total): continued strong run for the production-grade AI coding agent skills framework. [GitHub](https://github.com/addyosmani/agent-skills)
+- **2026-07-09** asgeirtj/system_prompts_leaks +1,218 stars today (54k total): community-maintained collection of extracted system prompts from major AI providers. [GitHub](https://github.com/asgeirtj/system_prompts_leaks)
+- **2026-07-09** obra/superpowers +1,116 stars today (249k total): agentic skills framework and software development methodology. [GitHub](https://github.com/obra/superpowers)
+- **2026-07-09** bradautomates/claude-video +951 stars today (6k total): lets Claude watch and analyze videos by extracting frames and transcripts. [GitHub](https://github.com/bradautomates/claude-video)
+
 - **2026-07-08** MadsLorentzen/ai-job-search +5,071 stars today: Claude Code-based job application framework — fork it, fill in your profile, and let Claude score job listings, tailor your CV, write cover letters, and run interview prep. [GitHub](https://github.com/MadsLorentzen/ai-job-search)
 
 - **2026-07-07** asgeirtj/system_prompts_leaks +1,378 stars today (#1 overall GitHub trending, 51k total): community-maintained collection of extracted system prompts from Claude, GPT, Gemini, Grok, and others — gaining momentum. [GitHub](https://github.com/asgeirtj/system_prompts_leaks)

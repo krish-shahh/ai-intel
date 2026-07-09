@@ -10,6 +10,8 @@ Sam Altman is co-founder and CEO of OpenAI, the company behind ChatGPT and the G
 
 ## Recent
 
+- **2026-07-09** GPT-5.6 Sol, Terra, and Luna launched publicly today after weeks of US government review under the emerging voluntary framework. Sol ($5/$30/Mtok, flagship), Terra ($2.50/$15, 2x cheaper than GPT-5.5), Luna ($1/$6, economy); Sol runs on Cerebras at 750 tok/sec for select customers. [Neowin](https://www.neowin.net/news/openai-to-release-gpt-56-sol-terra-and-luna-on-july-9/) · [OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/)
+
 - **2026-07-02** Altman and OpenAI proposed donating a 5% equity stake in each major AI company to the US government, framed as a sovereign wealth fund returning AI dividends to citizens (echoes Alaska Permanent Fund). At OpenAI's $852B valuation that stake is ~$42.6B. The proposal would require Anthropic, Google, and Meta to participate as well; unclear if they'd agree. Government has not formally responded. [Bloomberg](https://www.bloomberg.com/news/articles/2026-07-02/openai-proposes-giving-the-us-government-a-5-stake-ft-says) · [CNBC](https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html)
 
 - **2026-06-26** OpenAI is leaning toward a 2027 IPO rather than accepting a sub-$1T valuation; Altman called any cut to the $1T figure a "nonstarter." SoftBank shed roughly $38B in market cap on the news. [TechTimes](https://www.techtimes.com/articles/319145/20260626/openai-ipo-delay-sends-softbank-down-38-billion-altman-refuses-any-cut-1-trillion-target.htm) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-06-26/softbank-s-shares-tumble-after-report-of-openai-s-ipo-delay)
