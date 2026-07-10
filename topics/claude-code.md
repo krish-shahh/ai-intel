@@ -7,6 +7,12 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-07-10** Anthropic reset the 5-hour and weekly usage limits for all users (Pro, Max, Team, Enterprise) following outages on July 3, 6, and 8. A temporary 50% weekly limit boost expires July 13. [Winzheng](https://www.winzheng.com/en/article/anthropic-claude-usage-limit-reset-subagent-fix)
+
+- **2026-07-10** Anthropic launched Reflect in Claude: a Spotify Wrapped-style usage dashboard showing topic patterns, session frequency, and time spent over 1/3/6/12-month windows. Includes quiet hours, break nudges, and mindful-use prompts. Beta for Free/Pro/Max users with memory on. [Anthropic](https://www.anthropic.com/news/reflect-with-claude) · [Dataconomy](https://dataconomy.com/2026/07/10/claude-gets-reflect-dashboard-to-track-ai-usage/)
+
+- **2026-07-10** Alibaba's ban on Claude Code and all Anthropic model products took effect today; employees directed to switch to in-house Qoder. Proximate trigger was China's NVDB formal security alert on July 8 describing the steganographic detection code as a backdoor vulnerability. [Tom's Hardware](https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-bans-anthropics-claude-code-after-an-alleged-hidden-china-detection-backdoor-is-uncovered-employees-told-to-switch-to-qoder-as-the-rift-between-the-firms-widens) · [BigGo](https://finance.biggo.com/news/a401b1c7-07f5-44e1-9291-cbbd71da342c)
+
 - **2026-07-08** v2.1.205: auto mode now blocks transcript-tampering rules; improved agent view adds classifier-written state headlines and colored state words; `/doctor` is a full setup checkup (alias `/checkup`); auto-update downloads stream to disk saving ~400 MB peak RAM; fixed Windows worktree NTFS junction deletion bug; fixed session-to-PR linking for Bash calls exceeding 30K inline limit. v2.1.204 (same day): fixed hook events not streaming during SessionStart hooks in headless sessions. [GitHub releases](https://github.com/anthropics/claude-code/releases)
 
 - **2026-07-07** Claude Cowork expanded to web and mobile; sessions and files saved to the user's account and accessible cross-device; remote-hosted sessions in beta; rolling out on Max plan first. [TechCrunch](https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/) · [9to5Mac](https://9to5mac.com/2026/07/07/anthropic-expanding-claude-cowork-to-mobile-and-web-details-here/)
