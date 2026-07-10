@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-09** Published a breakdown of the full GPT-5.6 family (Luna, Terra, Sol) noting the three-tier pricing structure, Sol's Ultra multi-subagent mode, and the new explicit cache breakpoints feature. [simonwillison.net](https://simonwillison.net/2026/Jul/9/gpt-5-6/)
+
 - **2026-07-08** Blogged about OpenAI's GPT-Live (full-duplex voice models GPT-Live-1 and GPT-Live-1 mini), having had preview access for weeks; called it "very impressive." GPT-Live delegates harder mid-conversation tasks to GPT-5.5 for web search or complex reasoning. [simonwillison.net](https://simonwillison.net/2026/Jul/8/introducing-gptlive/)
 
 - **2026-07-07** Shipped sqlite-utils 4.0 stable — first major version since 3.0 in November 2020; adds database migrations, nested transactions via `db.atomic()`, and compound foreign key support. The bulk of the release was written by Claude Fable. [GitHub release](https://github.com/simonw/sqlite-utils/releases)
