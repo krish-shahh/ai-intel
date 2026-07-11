@@ -7,6 +7,11 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-11** wonderwhy-er/DesktopCommanderMCP — 900 stars today (7.7k total). MCP server that gives Claude terminal control, filesystem search, and diff editing. Top-trending AI repo on GitHub today. [GitHub](https://github.com/wonderwhy-er/DesktopCommanderMCP)
+- **2026-07-11** huggingface/speech-to-speech — 187 stars today (6k total). Local voice agent builder using fully open-source models, strong proportional gain for a newer repo. [GitHub](https://github.com/huggingface/speech-to-speech)
+
+- **2026-07-09** Ollama raised a $65M Series B (Theory Ventures led, Benchmark and 8VC joining), reporting 8.9M monthly active developers and 67k+ community integrations. Total funding now $88M; proceeds target cloud compute expansion and hybrid scaling. Founded by Docker Desktop founders Jeffrey Morgan and Michael Chiang. [TechCrunch](https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/) · [TNW](https://thenextweb.com/news/ollama-65m-series-b-theory-ventures-open-models)
+
 - **2026-07-11** google-labs-code/stitch-skills — Google Labs' agent skills library for its Stitch MCP server; includes stitch-design (design-to-code), stitch-loop (multi-page React from one prompt), and a design-md skill. Compatible with Claude Code, Cursor, Gemini CLI, and Antigravity. Companion to the earlier design.md drop. New on trending today. [GitHub](https://github.com/google-labs-code/stitch-skills)
 - **2026-07-11** microsoft/agent-governance-toolkit — Microsoft open-sourced a policy enforcement and governance framework for autonomous AI agents targeting the OWASP Agentic Top 10. First day on GitHub trending (+78 stars). [GitHub](https://github.com/microsoft/agent-governance-toolkit)
 

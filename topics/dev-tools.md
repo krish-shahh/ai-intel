@@ -7,6 +7,10 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-10** VentureBeat Pulse survey (June 2026, enterprise AI teams): 50% have shipped an agent or LLM feature that passed internal evals and still caused a customer-facing failure; 66% are deploying toward or already in production without human review. Frames the problem as an "evaluation gap" where agent autonomy is outpacing verification tooling. [VentureBeat](https://venturebeat.com/orchestration/enterprise-ai-is-entering-an-evaluation-gap-agents-are-gaining-autonomy-faster-than-companies-can-verify-them)
+
+- **2026-07-07** FTC proposed making undisclosed AI output steering an unfair practice under Section 5 of the FTC Act: secretly designing an AI to pursue undisclosed ideological or commercial objectives while claiming to produce "best, most accurate" results would violate federal law. Consumers fact-check AI output less than 10% of the time. Public comment open through July 31. [FTC](https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy)
+
 - **2026-07-11** Fable 5 access on Pro/Max/Team/Enterprise plans expires tonight at 11:59 PM PT. After cutoff all Fable 5 tokens bill at usage credit rates ($10/$50 per million input/output). Anthropic says restoration to included subscription access is pending capacity expansion. [Anthropic](https://www.anthropic.com/news/redeploying-fable-5)
 
 - **2026-07-07** Meta launched Muse Image — its first in-house image model from Meta Superintelligence Labs, ranked #2 on Arena's text-to-image leaderboard. The privacy controversy: Meta defaulted all public adult Instagram accounts into the likeness-access pool with no notification, letting anyone enter a handle and generate AI remixes of that user's face. CAA publicly demanded Meta switch to opt-in; EU regulators flagged it; millions of users are scrambling to find the buried opt-out. [TechCrunch](https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/) · [Deadline](https://deadline.com/2026/07/caa-slams-meta-muse-image-ai-1236978047/)

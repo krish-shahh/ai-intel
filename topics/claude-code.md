@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-07-10** Anthropic added API key expiration to Claude Console: developers can set preset, custom, or never-expire policies on API keys and Admin API keys, with email warnings before expiry for keys with 7+ day lifetimes. Claude Code auto mode is now the default on AWS Bedrock, Google Vertex AI, and Microsoft Foundry; the Bedrock integration also updated to Claude Opus 4.8. [Releasebot](https://releasebot.io/updates/anthropic)
+
 - **2026-07-10** Anthropic reset the 5-hour and weekly usage limits for all users (Pro, Max, Team, Enterprise) following outages on July 3, 6, and 8. A temporary 50% weekly limit boost expires July 13. [Winzheng](https://www.winzheng.com/en/article/anthropic-claude-usage-limit-reset-subagent-fix)
 
 - **2026-07-10** Anthropic launched Reflect in Claude: a Spotify Wrapped-style usage dashboard showing topic patterns, session frequency, and time spent over 1/3/6/12-month windows. Includes quiet hours, break nudges, and mindful-use prompts. Beta for Free/Pro/Max users with memory on. [Anthropic](https://www.anthropic.com/news/reflect-with-claude) · [Dataconomy](https://dataconomy.com/2026/07/10/claude-gets-reflect-dashboard-to-track-ai-usage/)
