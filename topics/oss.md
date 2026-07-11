@@ -7,6 +7,9 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-11** google-labs-code/stitch-skills — Google Labs' agent skills library for its Stitch MCP server; includes stitch-design (design-to-code), stitch-loop (multi-page React from one prompt), and a design-md skill. Compatible with Claude Code, Cursor, Gemini CLI, and Antigravity. Companion to the earlier design.md drop. New on trending today. [GitHub](https://github.com/google-labs-code/stitch-skills)
+- **2026-07-11** microsoft/agent-governance-toolkit — Microsoft open-sourced a policy enforcement and governance framework for autonomous AI agents targeting the OWASP Agentic Top 10. First day on GitHub trending (+78 stars). [GitHub](https://github.com/microsoft/agent-governance-toolkit)
+
 - **2026-07-09** VoltAgent/awesome-design-md +1,569 stars today: DESIGN.md files that give coding agents enough UI context to generate matching interfaces, inspired by google-labs-code/design.md. [GitHub](https://github.com/VoltAgent/awesome-design-md)
 - **2026-07-09** Graphify-Labs/graphify (Python) +856 stars today: turns code, schemas, and docs into a queryable knowledge graph as an agent coding skill. [GitHub](https://github.com/Graphify-Labs/graphify)
 - **2026-07-09** iOfficeAI/OfficeCLI +1,717 stars today (11.8k total): Office suite for AI agents to read and automate Word, Excel, and PowerPoint files. [GitHub](https://github.com/iOfficeAI/OfficeCLI)

@@ -7,6 +7,10 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-11** Fable 5 access on Pro/Max/Team/Enterprise plans expires tonight at 11:59 PM PT. After cutoff all Fable 5 tokens bill at usage credit rates ($10/$50 per million input/output). Anthropic says restoration to included subscription access is pending capacity expansion. [Anthropic](https://www.anthropic.com/news/redeploying-fable-5)
+
+- **2026-07-07** Meta launched Muse Image — its first in-house image model from Meta Superintelligence Labs, ranked #2 on Arena's text-to-image leaderboard. The privacy controversy: Meta defaulted all public adult Instagram accounts into the likeness-access pool with no notification, letting anyone enter a handle and generate AI remixes of that user's face. CAA publicly demanded Meta switch to opt-in; EU regulators flagged it; millions of users are scrambling to find the buried opt-out. [TechCrunch](https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/) · [Deadline](https://deadline.com/2026/07/caa-slams-meta-muse-image-ai-1236978047/)
+
 - **2026-07-09** Microsoft Research released Flint, an intermediate visualization language for AI agents: models specify charts in a simple format that compiles to Vega-Lite, ECharts, or Chart.js without target-specific rewrites. 113 HN points, 299 comments at launch. [Microsoft Research](https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/) · [GitHub](https://github.com/microsoft/flint-chart) · [HN](https://news.ycombinator.com/item?id=48834924)
 
 - **2026-07-08** DeepSeek retires deepseek-chat and deepseek-reasoner on July 24 at 15:59 UTC; after that, API calls to those IDs return errors. Migrate to deepseek-v4-pro or deepseek-v4-flash on the same base URL and key. [DEV Community](https://dev.to/agdex_ai/deepseek-v4-api-migration-guide-everything-before-the-july-24-2026-deadline-4m30) · [byteiota](https://byteiota.com/deepseek-api-migration-july-2026/)
