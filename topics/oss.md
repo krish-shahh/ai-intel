@@ -7,6 +7,11 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-12** Dicklesworthstone/destructive_command_guard +444 stars today (Rust): intercepts dangerous git and shell commands before AI agents execute them; picked up traction alongside the GitHub Copilot workflow jailbreak story. [GitHub](https://github.com/Dicklesworthstone/destructive_command_guard)
+- **2026-07-12** anthropics/claude-cookbooks +464 stars today: Anthropic's official Jupyter notebook collection for effective Claude usage patterns, trending without a new release. [GitHub](https://github.com/anthropics/claude-cookbooks)
+- **2026-07-12** HKUDS/Vibe-Trading +776 stars today: personal AI trading agent framework, highest-momentum AI repo on GitHub daily list today. (Also trended July 2 at +694.) [GitHub](https://github.com/HKUDS/Vibe-Trading)
+- **2026-07-12** davila7/claude-code-templates +274 stars today: CLI tool for configuring and monitoring Claude Code instances. [GitHub](https://github.com/davila7/claude-code-templates)
+
 - **2026-07-11** wonderwhy-er/DesktopCommanderMCP — 900 stars today (7.7k total). MCP server that gives Claude terminal control, filesystem search, and diff editing. Top-trending AI repo on GitHub today. [GitHub](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 - **2026-07-11** huggingface/speech-to-speech — 187 stars today (6k total). Local voice agent builder using fully open-source models, strong proportional gain for a newer repo. [GitHub](https://github.com/huggingface/speech-to-speech)
 
