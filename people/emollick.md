@@ -10,6 +10,8 @@ Ethan Mollick is an associate professor at the Wharton School of the University 
 
 ## Recent
 
+- **2026-07-09** Shared first GPT-5.6 demos after embargo lifted: compared Sol to Fable as "faster but works with you in steps more" vs Fable's preference to go off and execute autonomously. Also flagged that OpenAI hasn't reported Sol's score on GDPval — their own benchmark for hard long-horizon tasks — calling the omission "confusing." Was an early tester under NDA. [demo tweet](https://x.com/emollick/status/2075269373426536691) · [Sol vs Fable comparison](https://x.com/emollick/status/2074712677755035907) · [GDPval thread](https://x.com/emollick/status/2075070920582943051)
+
 - **2026-07-02** Tweeted OpenAI internal usage data showing agentic task completion spreading beyond engineering to knowledge workers broadly: "The chatbot era is over, and agentic systems are coming to tasks beyond engineering." Citing the same shift documented in his June 30 Substack piece but with new org-level usage numbers as evidence. [X](https://x.com/emollick/status/2070171580030656744)
 
 - **2026-06-30** Published "The Twilight of the Chatbots" on Substack: argues the chatbot era is over and agentic systems are coming to work beyond just engineering. Cites METR and UK government estimates of programmer-hours-per-prompt as the key capability metric to watch. [oneusefulthing.org](https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots)
