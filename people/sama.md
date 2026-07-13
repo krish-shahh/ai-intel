@@ -10,6 +10,10 @@ Sam Altman is co-founder and CEO of OpenAI, the company behind ChatGPT and the G
 
 ## Recent
 
+- **2026-07-11** Called GPT-5.6 Sol "the best model in the world right now" on X in a public jab at [[elonmusk]] after Musk accused him of scamming users. Altman's retort — "the most reliable way to tell is that elon is obsessed with me again" — went viral. Sol does lead TerminalBench 2.1 (91.9% Ultra vs Fable 5's 83.4%) but trails on SWE-Bench Pro (64.6% vs Fable 5's 80.3%). [Forbes](https://www.forbes.com/sites/antoniopequenoiv/2026/07/11/sam-altman-says-elon-musk-is-obsessed-with-him-in-boast-about-latest-gpt-model/)
+
+- **2026-07-10** Apple sued OpenAI for trade-secret theft, naming former Apple VP Tang Tan (now OpenAI's hardware chief) and engineer Chang Liu as the primary defendants. OpenAI said it "has no interest in other companies' trade secrets." [CNBC](https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-07-10/apple-sues-openai-for-trade-secret-theft-in-blockbuster-case)
+
 - **2026-07-09** GPT-5.6 Sol, Terra, and Luna launched publicly today after weeks of US government review under the emerging voluntary framework. Sol ($5/$30/Mtok, flagship), Terra ($2.50/$15, 2x cheaper than GPT-5.5), Luna ($1/$6, economy); Sol runs on Cerebras at 750 tok/sec for select customers. [Neowin](https://www.neowin.net/news/openai-to-release-gpt-56-sol-terra-and-luna-on-july-9/) · [OpenAI](https://openai.com/index/gpt-5-6/)
 
 - **2026-07-09** Told Bloomberg and CNBC that OpenAI made "many changes" to GPT-5.6 during a "collaborative back and forth" with Commerce Secretary Lutnick, Treasury Secretary Bessent, and National Cyber Director Cairncross; Sol's capabilities in coding, biology, and cybersecurity drew the most scrutiny. In a separate FT op-ed called for a US-led international forum to set binding AI safety standards. [Bloomberg](https://www.bloomberg.com/news/articles/2026-07-09/altman-says-openai-made-many-changes-during-talks-with-us) · [Fortune](https://fortune.com/2026/07/09/sam-altman-says-openai-made-many-changes-during-talks-with-us-officials/)
