@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-13** Dicklesworthstone/destructive_command_guard +1,290 stars today (2,000+ total): continued surge for the Rust Claude Code / shell hook that blocks dangerous commands before execution; SIMD-accelerated, sub-ms latency. [GitHub](https://github.com/Dicklesworthstone/destructive_command_guard)
+
 - **2026-07-12** Dicklesworthstone/destructive_command_guard +444 stars today (Rust): intercepts dangerous git and shell commands before AI agents execute them; picked up traction alongside the GitHub Copilot workflow jailbreak story. [GitHub](https://github.com/Dicklesworthstone/destructive_command_guard)
 - **2026-07-12** anthropics/claude-cookbooks +464 stars today: Anthropic's official Jupyter notebook collection for effective Claude usage patterns, trending without a new release. [GitHub](https://github.com/anthropics/claude-cookbooks)
 - **2026-07-12** HKUDS/Vibe-Trading +776 stars today: personal AI trading agent framework, highest-momentum AI repo on GitHub daily list today. (Also trended July 2 at +694.) [GitHub](https://github.com/HKUDS/Vibe-Trading)
