@@ -9,3 +9,6 @@ tags: [person]
 François Chollet created the Keras deep learning library and the ARC-AGI benchmark for measuring general intelligence. He left Google in late 2024 after more than nine years and co-founded Ndea, an AI lab pursuing AGI through deep-learning-guided program synthesis, with Zapier co-founder Mike Knoop. He also co-founded and serves on the board of the ARC Prize Foundation, a nonprofit that runs the ARC-AGI benchmark and prize. Ndea is his current primary venture.
 
 ## Recent
+
+- **2026-07-12** Tweeted that AI code gen has fully flipped: weak AI code gen raised the floor for low-skill programmers but was useless to high-skill ones; strong AI code gen is now most useful to high-skill programmers — "it went from a crutch to a power tool." [X](https://x.com/fchollet/status/2076310779482317104)
+
