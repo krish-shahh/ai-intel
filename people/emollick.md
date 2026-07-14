@@ -10,6 +10,8 @@ Ethan Mollick is an associate professor at the Wharton School of the University 
 
 ## Recent
 
+- **2026-07-13** Flagged OpenRouter token-share graphs as a poor proxy for real AI usage in an agentic world: "I think OpenRouter is not a good measure of actual model usage in a world of agentic tools... We really need better data indicators for AI!" — noting that usage is shifting to Codex/Code/Cowork without surfacing in token-share metrics. [X](https://x.com/emollick/status/2076769431120756834)
+
 - **2026-07-13** Called for clearer AI roadmap communication, specifically about Anthropic's Claude Code weekly rate limit extension policy: "Planning for how to use AI is a lot easier if there is some clarity about what to expect. Even a 'we fully intend to keep extending this week by week but may need to stop under the following conditions' would be better." [X](https://x.com/emollick/status/2076373838028300370)
 
 - **2026-07-09** Shared first GPT-5.6 demos after embargo lifted: compared Sol to Fable as "faster but works with you in steps more" vs Fable's preference to go off and execute autonomously. Also flagged that OpenAI hasn't reported Sol's score on GDPval — their own benchmark for hard long-horizon tasks — calling the omission "confusing." Was an early tester under NDA. [demo tweet](https://x.com/emollick/status/2075269373426536691) · [Sol vs Fable comparison](https://x.com/emollick/status/2074712677755035907) · [GDPval thread](https://x.com/emollick/status/2075070920582943051)

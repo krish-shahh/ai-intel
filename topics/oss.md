@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-14** github/spec-kit — toolkit for Spec-Driven Development; 807 new stars today, a strong debut for a GitHub-owned project aimed at AI coding workflows. [GitHub](https://github.com/github/spec-kit)
+- **2026-07-14** cactus-compute/needle — 26M-param edge function-call model (see model-releases); 113 new Python trending stars today. [GitHub](https://github.com/cactus-compute/needle)
+- **2026-07-14** Dicklesworthstone/destructive_command_guard +481 stars today (3,200+ total): third consecutive day on GitHub trending for the Rust AI-agent safety hook. [GitHub](https://github.com/Dicklesworthstone/destructive_command_guard)
+
 - **2026-07-13** Dicklesworthstone/destructive_command_guard +1,290 stars today (2,000+ total): continued surge for the Rust Claude Code / shell hook that blocks dangerous commands before execution; SIMD-accelerated, sub-ms latency. [GitHub](https://github.com/Dicklesworthstone/destructive_command_guard)
 
 - **2026-07-12** Dicklesworthstone/destructive_command_guard +444 stars today (Rust): intercepts dangerous git and shell commands before AI agents execute them; picked up traction alongside the GitHub Copilot workflow jailbreak story. [GitHub](https://github.com/Dicklesworthstone/destructive_command_guard)

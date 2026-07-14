@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-07-14** cactus-compute/needle: 26M-param function-call model for edge devices (phones, watches, glasses), distilled from Gemini using an MLP-free "Simple Attention Network" architecture. Trained on 200B tokens using TPU v6e; achieves 6,000 tokens/sec prefill, outperforms FunctionGemma-270m and Qwen-0.6B on single-shot function calling. Weights fully open-source. 113 new GitHub stars today on Python trending. [GitHub](https://github.com/cactus-compute/needle)
+
 - **2026-07-13** Anthropic extended included Fable 5 access a second time — now through July 19 at 11:59 PM PT — announced this morning via @claudeai after the July 12 deadline had already passed. This is the third cutoff date in two weeks (original July 7, then July 12, now July 19). After July 19 it will be credits-only at $10/$50 per Mtok. [BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/) · [Android Authority](https://www.androidauthority.com/claude-fable-5-free-extension-3685103/)
 
 - **2026-07-11** GPT-5.6 Sol vs Fable 5 benchmark split is now clear: Sol leads TerminalBench 2.1 (88.8% standard, 91.9% Ultra) and Artificial Analysis Coding Agent Index (+2.8 pts over Fable 5, using half the tokens and cost), while Fable 5 maintains a large lead on SWE-Bench Pro (80.3% vs Sol's 64.6%). Different benchmarks; different winners depending on task type. [BenchLM](https://benchlm.ai/compare/claude-fable-vs-gpt-5-6-sol) · [Artificial Analysis](https://artificialanalysis.ai/articles/gpt-5-6-has-landed)

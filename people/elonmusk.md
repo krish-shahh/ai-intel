@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-07-13** [[sama]] publicly called out SpaceX's orbital data center pitch, saying it "is not going to be a serious business anytime soon." Musk's space compute plans are central to SpaceX's $2T valuation. [TechCrunch](https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/)
+
 - **2026-07-11** Accused [[sama]] of "scamming users and customers" on X; Altman fired back calling Sol "the best model in the world right now" and noting that Musk being "obsessed with me" was the most reliable benchmark signal. Both were responding to each other's model launch claims the same week. [Forbes](https://www.forbes.com/sites/antoniopequenoiv/2026/07/11/sam-altman-says-elon-musk-is-obsessed-with-him-in-boast-about-latest-gpt-model/)
 
 - **2026-07-09** Grok 4.5 went public today. V9 foundation, 1.5T params, 500K context, $2/$6 per M tokens. SWE-Bench Pro 64.7% — behind Fable 5 (80.4%) and Opus 4.8 (69.2%) but 4.2x more token-efficient per task than Opus 4.8. Musk called it "Opus-class" while acknowledging it competes with "last year's Claude Opus." July 9 marked the first day all three major frontier labs had simultaneous public frontier models. [Decrypt](https://decrypt.co/373094/grok-4-5-elon-musk-claude-opus) · [ExplainX](https://explainx.ai/blog/grok-4-5-public-launch-spacexai-july-2026)
