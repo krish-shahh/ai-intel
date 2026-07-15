@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-15** Posted about accidentally discovering Codex Desktop's "pet" feature and using GPT-5.6 Sol xhigh + gpt-image-2 to generate a custom pelican-on-a-bicycle companion that bounces around his desktop giving task updates. Lightweight signal that Codex Desktop has a gamified ambient UX layer most users haven't found. [simonwillison.net](https://simonwillison.net/2026/Jul/14/pedalican/)
+
 - **2026-07-14** Published a TIL on caching uvx calls in GitHub Actions: set UV_EXCLUDE_NEWER as an env variable, use it in the cache key, and bump the date to force an upgrade. Keeps workflows reproducible while staying easy to update. [til.simonwillison.net](https://til.simonwillison.net/github-actions/uvx-github-actions-cache)
 
 - **2026-07-11** Shipped sqlite-utils 4.1 — bug fix follow-up to last week's 4.0 major release. [simonwillison.net](https://simonwillison.net/2026/Jul/11/sqlite-utils/) · [GitHub](https://github.com/simonw/sqlite-utils/releases)

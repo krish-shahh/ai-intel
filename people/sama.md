@@ -10,6 +10,8 @@ Sam Altman is co-founder and CEO of OpenAI, the company behind ChatGPT and the G
 
 ## Recent
 
+- **2026-07-15** Warned on X that GPT-5.6 Sol demand is "insane" and that "hiccups" in service may be coming despite "heroic work" from the inference team. [Axios](https://www.axios.com/2026/07/14/sam-altman-chat-gpt-sol-ultra-warning)
+
 - **2026-07-14** Said it "sorta breaks my brain" that OpenAI models are now good at design tasks. Also responded to Anthropic's "There's Hope in Hard Questions" ad with "i thought this was satire, kept looking for the handle to be spelled c1audeai or something." [x.com/sama](https://x.com/sama/status/2077037818824843719) · [Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/openai-ceo-sam-altman-throws-062524871.html)
 
 - **2026-07-13** Publicly dismissed SpaceX's orbital data center plans, calling them "not going to be a serious business anytime soon" and accusing [[elonmusk]] of "selling public market investors on short-term space datacenters." Space compute is a core pillar of SpaceX's $2T valuation. [TechCrunch](https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/)
