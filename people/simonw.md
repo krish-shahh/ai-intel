@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-14** Published a TIL on caching uvx calls in GitHub Actions: set UV_EXCLUDE_NEWER as an env variable, use it in the cache key, and bump the date to force an upgrade. Keeps workflows reproducible while staying easy to update. [til.simonwillison.net](https://til.simonwillison.net/github-actions/uvx-github-actions-cache)
+
 - **2026-07-11** Shipped sqlite-utils 4.1 — bug fix follow-up to last week's 4.0 major release. [simonwillison.net](https://simonwillison.net/2026/Jul/11/sqlite-utils/) · [GitHub](https://github.com/simonw/sqlite-utils/releases)
 
 - **2026-07-09** Published a breakdown of the full GPT-5.6 family (Luna, Terra, Sol) noting the three-tier pricing structure, Sol's Ultra multi-subagent mode, and the new explicit cache breakpoints feature. [simonwillison.net](https://simonwillison.net/2026/Jul/9/gpt-5-6/)
