@@ -7,6 +7,12 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-16** ollama/ollama v0.32.1 released today: Gemma 4 tool calling and multi-turn reasoning improvements, fixed MLX model cache memory leak, interactive agent now receives current working directory as context. Point release stabilizing the v0.32.0 interactive agent that launched July 11. [GitHub](https://github.com/ollama/ollama/releases)
+
+- **2026-07-15** PrismML/Bonsai 27B: a 1-bit/ternary quantized build of Qwen3.6-27B at 3.9 GB that runs locally on smartphones. One of the highest-engagement HN stories of the window (~480 pts). Signals capable reasoning no longer requiring datacenter hardware. [PrismML](https://prismml.com/news/prismml-releases-bonsai-27b) · [HN](https://news.ycombinator.com/item?id=48910545)
+
+- **2026-07-15** comfy-org/ComfyUI v0.28.0: SeedVR2 native image/video upscaling, int4 model support with Turing int8/int4 optimizations, new Save 3D / Save Splat / Save Point Cloud nodes, SaveText and Text Overlay nodes, 4 CVE fixes. [GitHub](https://github.com/comfy-org/ComfyUI/releases)
+
 - **2026-07-14** github/spec-kit — toolkit for Spec-Driven Development; 807 new stars today, a strong debut for a GitHub-owned project aimed at AI coding workflows. [GitHub](https://github.com/github/spec-kit)
 - **2026-07-14** cactus-compute/needle — 26M-param edge function-call model (see model-releases); 113 new Python trending stars today. [GitHub](https://github.com/cactus-compute/needle)
 - **2026-07-14** Dicklesworthstone/destructive_command_guard +481 stars today (3,200+ total): third consecutive day on GitHub trending for the Rust AI-agent safety hook. [GitHub](https://github.com/Dicklesworthstone/destructive_command_guard)

@@ -7,6 +7,10 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-15** Anthropic's bankers are scheduling meetings with prospective public-market investors, per CNBC and Bloomberg; listing is expected as early as October 2026, which would put Anthropic ahead of OpenAI to public markets. [CNBC](https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html)
+
+- **2026-07-15** xAI's Grok CLI (Grok Build) was discovered to be uploading entire directory contents — including SSH keys and password databases — to xAI's Google Cloud buckets without disclosure. xAI disabled the feature and open-sourced the codebase under Apache 2.0 following the backlash. [simonwillison.net](https://simonwillison.net/2026/Jul/15/grok-build/)
+
 - **2026-07-12** US lawmakers launched a bipartisan probe July 8-9 into Chinese AI model adoption after CNBC confirmed Chinese-origin models (DeepSeek-led) now hold 30-46% of US enterprise API token traffic, up from 4.5% a year ago. Price gap drives adoption: DeepSeek V4 Flash at $0.14/M vs GPT-5.5 at $5/M. Open-weight model weights on the internet make a binding ban legally and technically difficult. [CNBC July 7](https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html) · [CNBC probe](https://www.cnbc.com/2026/07/08/chinese-ai-models-probe-us-lawmakers.html) · [TechTimes](https://www.techtimes.com/articles/320171/20260711/washington-wants-chinese-ai-out-corporate-america-open-weights-block-ban.htm)
 
 - **2026-07-10** VentureBeat Pulse survey (June 2026, enterprise AI teams): 50% have shipped an agent or LLM feature that passed internal evals and still caused a customer-facing failure; 66% are deploying toward or already in production without human review. Frames the problem as an "evaluation gap" where agent autonomy is outpacing verification tooling. [VentureBeat](https://venturebeat.com/orchestration/enterprise-ai-is-entering-an-evaluation-gap-agents-are-gaining-autonomy-faster-than-companies-can-verify-them)

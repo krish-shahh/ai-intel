@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-15** Posted on the xAI Grok Build privacy scandal: running the Grok CLI in any directory was silently uploading its entire contents — SSH keys, password manager databases, photos — to xAI's Google Cloud buckets. xAI disabled the feature and released the full codebase under Apache 2.0 after the backlash. [simonwillison.net](https://simonwillison.net/2026/Jul/15/grok-build/)
+
 - **2026-07-15** Posted about accidentally discovering Codex Desktop's "pet" feature and using GPT-5.6 Sol xhigh + gpt-image-2 to generate a custom pelican-on-a-bicycle companion that bounces around his desktop giving task updates. Lightweight signal that Codex Desktop has a gamified ambient UX layer most users haven't found. [simonwillison.net](https://simonwillison.net/2026/Jul/14/pedalican/)
 
 - **2026-07-14** Published a TIL on caching uvx calls in GitHub Actions: set UV_EXCLUDE_NEWER as an env variable, use it in the cache key, and bump the date to force an upgrade. Keeps workflows reproducible while staying easy to update. [til.simonwillison.net](https://til.simonwillison.net/github-actions/uvx-github-actions-cache)
