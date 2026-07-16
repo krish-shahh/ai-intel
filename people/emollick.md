@@ -10,6 +10,10 @@ Ethan Mollick is an associate professor at the Wharton School of the University 
 
 ## Recent
 
+- **2026-07-15** Flagged the anti-slop paradox: reading a viral "anti-slop" markdown file for AI agents, he found it was "basically 100% AI written" and would "hyperstition your outputs into mega-slop." Bottom line: build your own skills/instructions with a real sense of taste rather than importing an AI-generated template. [X](https://x.com/emollick/status/2077226285919531191)
+
+- **2026-07-15** "Between having AI as a subject for infinite speculation and using AI as a writer to produce such speculation at scale, it is the Golden Age of thinkpieces." Then asked Fable to turn his tweet into a thinkpiece; called the result "pretty funny." [X](https://x.com/emollick/status/2077029840058757380) · [X](https://x.com/emollick/status/2077030984491429916)
+
 - **2026-07-13** Flagged OpenRouter token-share graphs as a poor proxy for real AI usage in an agentic world: "I think OpenRouter is not a good measure of actual model usage in a world of agentic tools... We really need better data indicators for AI!" — noting that usage is shifting to Codex/Code/Cowork without surfacing in token-share metrics. [X](https://x.com/emollick/status/2076769431120756834)
 
 - **2026-07-13** Called for clearer AI roadmap communication, specifically about Anthropic's Claude Code weekly rate limit extension policy: "Planning for how to use AI is a lot easier if there is some clarity about what to expect. Even a 'we fully intend to keep extending this week by week but may need to stop under the following conditions' would be better." [X](https://x.com/emollick/status/2076373838028300370)
