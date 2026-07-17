@@ -10,6 +10,8 @@ Ethan Mollick is an associate professor at the Wharton School of the University 
 
 ## Recent
 
+- **2026-07-16** Updated his "harbor towns through history" benchmark to add Kimi K3, Inkling, and GPT-5.6 Pro, then made the interactive simulations publicly playable. [X](https://x.com/emollick/status/2077840214223982975)
+
 - **2026-07-15** Flagged the anti-slop paradox: reading a viral "anti-slop" markdown file for AI agents, he found it was "basically 100% AI written" and would "hyperstition your outputs into mega-slop." Bottom line: build your own skills/instructions with a real sense of taste rather than importing an AI-generated template. [X](https://x.com/emollick/status/2077226285919531191)
 
 - **2026-07-15** "Between having AI as a subject for infinite speculation and using AI as a writer to produce such speculation at scale, it is the Golden Age of thinkpieces." Then asked Fable to turn his tweet into a thinkpiece; called the result "pretty funny." [X](https://x.com/emollick/status/2077029840058757380) · [X](https://x.com/emollick/status/2077030984491429916)

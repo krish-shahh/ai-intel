@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-17** Nutlope/hallmark: biggest GitHub gainer of the day (+1,486 stars, 11.6k total). Anti-AI-slop design skill for Claude Code, Cursor, and Codex, arriving amid the ongoing community debate about agent output quality that emollick's anti-slop post helped ignite. [GitHub](https://github.com/Nutlope/hallmark)
+
+- **2026-07-17** Graphify-Labs/graphify held the Python trending #1 spot again (+1,476 stars, 89k total): converts code folders, databases, and docs into queryable knowledge graphs for AI coding assistants. [GitHub](https://github.com/Graphify-Labs/graphify)
+
 - **2026-07-16** ollama/ollama v0.32.1 released today: Gemma 4 tool calling and multi-turn reasoning improvements, fixed MLX model cache memory leak, interactive agent now receives current working directory as context. Point release stabilizing the v0.32.0 interactive agent that launched July 11. [GitHub](https://github.com/ollama/ollama/releases)
 
 - **2026-07-15** PrismML/Bonsai 27B: a 1-bit/ternary quantized build of Qwen3.6-27B at 3.9 GB that runs locally on smartphones. One of the highest-engagement HN stories of the window (~480 pts). Signals capable reasoning no longer requiring datacenter hardware. [PrismML](https://prismml.com/news/prismml-releases-bonsai-27b) · [HN](https://news.ycombinator.com/item?id=48910545)

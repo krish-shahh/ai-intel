@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-16** Released grok-mermaid: uses the Rust renderer extracted from the now-open-sourced xai-org/grok-build (compiled to WebAssembly) to render Mermaid diagrams as Unicode box art in the terminal. Also released mermaid-ascii on the same day. [simonwillison.net](https://simonwillison.net/2026/Jul/16/grok-mermaid/)
+
 - **2026-07-16** Posted a first look at Kimi K3 and the pelican benchmark, noting K3's performance on his standard litmus test. [simonwillison.net](https://simonwillison.net/2026/Jul/16/kimi-k3/)
 
 - **2026-07-15** Posted on the xAI Grok Build privacy scandal: running the Grok CLI in any directory was silently uploading its entire contents — SSH keys, password manager databases, photos — to xAI's Google Cloud buckets. xAI disabled the feature and released the full codebase under Apache 2.0 after the backlash. [simonwillison.net](https://simonwillison.net/2026/Jul/15/grok-build/)

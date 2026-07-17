@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-07-17** Gemini 3.5 Pro missed a third consecutive launch deadline as of July 16. Delays are tied specifically to coding performance gaps versus GPT-5.6; Google is weighing an interim stopgap release. No model card, pricing page, or API listing confirmed. [TechTimes](https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm) · [9to5Google](https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/)
+
 - **2026-07-17** Gemini 3.5 Pro is widely reported to target today for GA: 2M-token context (double most rivals), rebuilt from scratch after Google scrapped an earlier base model over SVG and recursive tool-call failures. Deep Think reasoning gated behind the $250/mo Ultra tier. No official launch post confirmed yet. [TechTimes](https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm)
 
 - **2026-07-16** Moonshot AI released Kimi K3: 2.8T-parameter MoE, 1M-token context, two variants (K3 Max for chat/agents, K3 Swarm Max for parallel work). Benchmarks: 93.5% GPQA Diamond, 88.3% Terminal-Bench 2.1, 91.2% BrowseComp, 56.0% Humanity's Last Exam with tools. Beats Opus 4.8 on GDPval-AA v2 (1687 vs 1600). $3/Mtok uncached input. Open weights on July 27. [VentureBeat](https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems) · [kimi.com](https://www.kimi.com/blog/kimi-k3)
