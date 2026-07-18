@@ -7,6 +7,12 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-17** Apple sent legal preservation letters to ~40 former employees now at OpenAI, escalating its July 10 trade secrets lawsuit (naming Tang Tan and Chang Liu) and telling them to preserve all potentially relevant communications. [MacRumors](https://www.macrumors.com/2026/07/17/apple-sends-legal-letters-openai/) · [9to5Mac](https://9to5mac.com/2026/07/17/apple-sends-legal-letters-to-former-employees-now-at-openai/)
+
+- **2026-07-16** Google renamed NotebookLM to Gemini Notebook and added a secure cloud computer to every notebook for native code execution; rolling out to AI Ultra users and eligible Workspace customers first, 30M+ users total. [Google Blog](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/)
+
+- **2026-07-16** EU issued binding DMA orders requiring Google to give rival AI assistants system-level Android access (voice activation, background tasks across 11 feature groups) previously exclusive to Gemini; most measures due with Android 18 by August 2027, search data sharing starts January 2027. [CNBC](https://www.cnbc.com/2026/07/16/google-required-to-open-up-to-ai-search-engine-rivals-under-eu-mandated-changes.html)
+
 - **2026-07-15** Anthropic's bankers are scheduling meetings with prospective public-market investors, per CNBC and Bloomberg; listing is expected as early as October 2026, which would put Anthropic ahead of OpenAI to public markets. [CNBC](https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html)
 
 - **2026-07-15** xAI's Grok CLI (Grok Build) was discovered to be uploading entire directory contents — including SSH keys and password databases — to xAI's Google Cloud buckets without disclosure. xAI disabled the feature and open-sourced the codebase under Apache 2.0 following the backlash. [simonwillison.net](https://simonwillison.net/2026/Jul/15/grok-build/)
