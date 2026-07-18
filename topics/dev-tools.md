@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-18** Microsoft's Project Perception is expected to launch this month: a multi-model AI security tool that routes vulnerability-detection tasks across Anthropic, OpenAI, and Microsoft models to minimize cost. Positioned as a cheaper alternative to Anthropic's Mythos for enterprise security scanning. [TechRepublic](https://www.techrepublic.com/article/news-microsoft-project-perception-ai-security-tool/) · [NewsBytesApp](https://www.newsbytesapp.com/news/science/microsoft-to-launch-project-perception-ai-cybersecurity-platform-this-month/tldr)
+
 - **2026-07-17** Apple sent legal preservation letters to ~40 former employees now at OpenAI, escalating its July 10 trade secrets lawsuit (naming Tang Tan and Chang Liu) and telling them to preserve all potentially relevant communications. [MacRumors](https://www.macrumors.com/2026/07/17/apple-sends-legal-letters-openai/) · [9to5Mac](https://9to5mac.com/2026/07/17/apple-sends-legal-letters-to-former-employees-now-at-openai/)
 
 - **2026-07-16** Google renamed NotebookLM to Gemini Notebook and added a secure cloud computer to every notebook for native code execution; rolling out to AI Ultra users and eligible Workspace customers first, 30M+ users total. [Google Blog](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/)
