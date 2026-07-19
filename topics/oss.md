@@ -7,6 +7,12 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-19** `MoonshotAI/kimi-cli` trending (9.4k stars, 65 new today): Kimi's CLI coding agent, riding Kimi K3 launch momentum from July 16. [GitHub](https://github.com/MoonshotAI/kimi-cli)
+
+- **2026-07-19** `tirth8205/code-review-graph` (20k total, 355 new today): local-first code intelligence graph for MCP and CLI with persistent codebase mapping. [GitHub](https://github.com/tirth8205/code-review-graph)
+
+- **2026-07-19** `KnockOutEZ/wigolo` (1.2k total, 203 new today): local-first web search, fetch, crawl, and research for AI coding agents — no API keys or cloud costs. [GitHub](https://github.com/KnockOutEZ/wigolo)
+
 - **2026-07-17** Nutlope/hallmark: biggest GitHub gainer of the day (+1,486 stars, 11.6k total). Anti-AI-slop design skill for Claude Code, Cursor, and Codex, arriving amid the ongoing community debate about agent output quality that emollick's anti-slop post helped ignite. [GitHub](https://github.com/Nutlope/hallmark)
 
 - **2026-07-17** Graphify-Labs/graphify held the Python trending #1 spot again (+1,476 stars, 89k total): converts code folders, databases, and docs into queryable knowledge graphs for AI coding assistants. [GitHub](https://github.com/Graphify-Labs/graphify)

@@ -7,6 +7,10 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-07-19** Fable 5 pricing transition takes effect: Max/Team Premium users get it at 50% weekly limits as a subscription feature; Pro/Team Standard users move to $10/$50 per million input/output tokens starting today. Anthropic extended the free period three times since the original July 7 cliff, citing capacity constraints. [TechTimes](https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm)
+
+- **2026-07-15** OpenAI's GPT-Red: an adversarial LLM trained via self-play to find prompt injections and other attacks; OpenAI says it surfaced novel attack patterns and was used to harden GPT-5.6 Sol. Focus is prompt injection in agentic workflows — framing it as the most dangerous near-term threat to deployed agents. [MIT Tech Review](https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/) · [OpenAI](https://openai.com/index/unlocking-self-improvement-gpt-red/)
+
 - **2026-07-17** Gemini 3.5 Pro missed a third consecutive launch deadline as of July 16. Delays are tied specifically to coding performance gaps versus GPT-5.6; Google is weighing an interim stopgap release. No model card, pricing page, or API listing confirmed. [TechTimes](https://www.techtimes.com/articles/320736/20260716/rebuilt-gemini-35-pro-misses-third-deadline-google-eyes-stopgap-release.htm) · [9to5Google](https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/)
 
 - **2026-07-17** Gemini 3.5 Pro is widely reported to target today for GA: 2M-token context (double most rivals), rebuilt from scratch after Google scrapped an earlier base model over SVG and recursive tool-call failures. Deep Think reasoning gated behind the $250/mo Ultra tier. No official launch post confirmed yet. [TechTimes](https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm)
