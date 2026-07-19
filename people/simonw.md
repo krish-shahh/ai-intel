@@ -10,6 +10,10 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-18** Posted "Claude make Fable 5 permanent": noting the July 20 plan split where Max and Team Premium get Fable 5 at 50% of weekly limits (themselves cut by a third), while Pro and Team Standard users lose subscription access and receive a one-time $100 credit toward usage. [simonwillison.net](https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/)
+
+- **2026-07-18** Released SQLite Query Explainer: a browser tool that runs SQL against an in-browser SQLite database and shows the full EXPLAIN QUERY PLAN trace of how SQLite actually executes it. [simonwillison.net](https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/)
+
 - **2026-07-17** Released llm-cliche-highlighter: paste text (or load from a URL) and it highlights sentences that match known LLM clichés, with chain-pattern badges and hover-to-see-which-cliché details. [tools.simonwillison.net](https://tools.simonwillison.net/llm-cliche-highlighter)
 
 - **2026-07-16** Released grok-mermaid: uses the Rust renderer extracted from the now-open-sourced xai-org/grok-build (compiled to WebAssembly) to render Mermaid diagrams as Unicode box art in the terminal. Also released mermaid-ascii on the same day. [simonwillison.net](https://simonwillison.net/2026/Jul/16/grok-mermaid/)
