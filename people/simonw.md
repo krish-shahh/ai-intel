@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-20** Posted "A quote from Sam Altman," surfacing a line from Altman's October 1, 2022 email to OpenAI's board that was exposed during the Musk v. Altman trial. [simonwillison.net](https://simonwillison.net/2026/Jul/20/sam-altman/)
+
 - **2026-07-19** Linked "AI Mania Is Eviscerating Global Decision-Making" — an essay arguing that AI hype is accelerating enterprise commitments that bypass normal deliberation and judgment. [simonwillison.net](https://simonwillison.net/2026/Jul/19/ai-mania/)
 
 - **2026-07-16** Covered Kimi K3 release using the pelican benchmark as a test: K3 passed where earlier open models had struggled, noting the closing gap between Chinese and US frontier models. [simonwillison.net](https://simonwillison.net/2026/Jul/16/kimi-k3/)
