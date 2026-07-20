@@ -10,6 +10,10 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-19** Linked "AI Mania Is Eviscerating Global Decision-Making" — an essay arguing that AI hype is accelerating enterprise commitments that bypass normal deliberation and judgment. [simonwillison.net](https://simonwillison.net/2026/Jul/19/ai-mania/)
+
+- **2026-07-16** Covered Kimi K3 release using the pelican benchmark as a test: K3 passed where earlier open models had struggled, noting the closing gap between Chinese and US frontier models. [simonwillison.net](https://simonwillison.net/2026/Jul/16/kimi-k3/)
+
 - **2026-07-18** Posted "Claude make Fable 5 permanent": noting the July 20 plan split where Max and Team Premium get Fable 5 at 50% of weekly limits (themselves cut by a third), while Pro and Team Standard users lose subscription access and receive a one-time $100 credit toward usage. [simonwillison.net](https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/)
 
 - **2026-07-18** Released SQLite Query Explainer: a browser tool that runs SQL against an in-browser SQLite database and shows the full EXPLAIN QUERY PLAN trace of how SQLite actually executes it. [simonwillison.net](https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/)

@@ -7,6 +7,12 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-20** `bojieli/ai-agent-book` is the #1 GitHub trending repo today (1,734 new stars): open-source Chinese-language book on AI agent design principles and engineering by Pine AI chief scientist Li Bojie. [GitHub](https://github.com/bojieli/ai-agent-book)
+
+- **2026-07-20** `tirth8205/code-review-graph` at 663 new stars today (up from 355 yesterday): local-first codebase intelligence graph for MCP and CLI tools, building persistent maps of codebases for AI coding agents. [GitHub](https://github.com/tirth8205/code-review-graph)
+
+- **2026-07-20** `jamiepine/voicebox` at 610 new stars today: open-source AI voice studio for cloning, dictation, and creation; TypeScript. [GitHub](https://github.com/jamiepine/voicebox)
+
 - **2026-07-19** `MoonshotAI/kimi-cli` trending (9.4k stars, 65 new today): Kimi's CLI coding agent, riding Kimi K3 launch momentum from July 16. [GitHub](https://github.com/MoonshotAI/kimi-cli)
 
 - **2026-07-19** `tirth8205/code-review-graph` (20k total, 355 new today): local-first code intelligence graph for MCP and CLI with persistent codebase mapping. [GitHub](https://github.com/tirth8205/code-review-graph)

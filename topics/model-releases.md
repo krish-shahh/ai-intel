@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-07-20** Fable 5 subscription rollout begins: Max and Team Premium plans now include Fable 5 at 50% of weekly limits. Pro and Team Standard users get a one-time $100 credit instead of subscription access. Anthropic cited competitive pressure from GPT-5.6 Sol and Kimi K3 as the reason the credits-only model was untenable. [X/@claudeai](https://x.com/claudeai/status/2078302415804379218) · [simonwillison.net](https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/)
+
 - **2026-07-19** Fable 5 pricing transition takes effect: Max/Team Premium users get it at 50% weekly limits as a subscription feature; Pro/Team Standard users move to $10/$50 per million input/output tokens starting today. Anthropic extended the free period three times since the original July 7 cliff, citing capacity constraints. [TechTimes](https://www.techtimes.com/articles/320905/20260718/claude-fable-5-ends-subscription-limbo-permanent-max-credits-only-pro.htm)
 
 - **2026-07-15** OpenAI's GPT-Red: an adversarial LLM trained via self-play to find prompt injections and other attacks; OpenAI says it surfaced novel attack patterns and was used to harden GPT-5.6 Sol. Focus is prompt injection in agentic workflows — framing it as the most dangerous near-term threat to deployed agents. [MIT Tech Review](https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/) · [OpenAI](https://openai.com/index/unlocking-self-improvement-gpt-red/)
