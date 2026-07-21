@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-19** Surfaced that Claude Code switched its runtime to Bun, the JavaScript runtime written in Rust. Became the top HN AI story on July 21 (391 points, 554 comments). [simonwillison.net](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/) · [HN](https://news.ycombinator.com/item?id=48966569)
+
 - **2026-07-20** Posted "A quote from Sam Altman," surfacing a line from Altman's October 1, 2022 email to OpenAI's board that was exposed during the Musk v. Altman trial. [simonwillison.net](https://simonwillison.net/2026/Jul/20/sam-altman/)
 
 - **2026-07-19** Linked "AI Mania Is Eviscerating Global Decision-Making" — an essay arguing that AI hype is accelerating enterprise commitments that bypass normal deliberation and judgment. [simonwillison.net](https://simonwillison.net/2026/Jul/19/ai-mania/)
