@@ -7,6 +7,10 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-07-22** Anthropic introduced the `agent-memory-2026-07-22` API version, replacing `managed-agents-2026-04-01` for all memory store calls; sending both headers returns HTTP 400. Python (0.116.0), TypeScript (0.110.0), Go (1.56.0), Java (2.48.0), Ruby (1.55.0), PHP (0.36.0), C# (12.35.0), and CLI (1.16.0) SDKs all updated. [Releasebot](https://releasebot.io/updates/anthropic)
+
+- **2026-07-22** Claude Code stability update added the EndConversation tool -- allows Claude to terminate sessions with abusive users or jailbreak attempts -- and periodic progress heartbeats for long-running tool calls that previously went silent. Also includes tighter Bash/PowerShell permission checks and improved background session cleanup. [Gradually changelog](https://www.gradually.ai/en/changelogs/claude-code/)
+
 - **2026-07-10** Anthropic added API key expiration to Claude Console: developers can set preset, custom, or never-expire policies on API keys and Admin API keys, with email warnings before expiry for keys with 7+ day lifetimes. Claude Code auto mode is now the default on AWS Bedrock, Google Vertex AI, and Microsoft Foundry; the Bedrock integration also updated to Claude Opus 4.8. [Releasebot](https://releasebot.io/updates/anthropic)
 
 - **2026-07-10** Anthropic reset the 5-hour and weekly usage limits for all users (Pro, Max, Team, Enterprise) following outages on July 3, 6, and 8. A temporary 50% weekly limit boost expires July 13. [Winzheng](https://www.winzheng.com/en/article/anthropic-claude-usage-limit-reset-subagent-fix)

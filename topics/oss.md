@@ -7,6 +7,12 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-22** `bojieli/ai-agent-book` surged to 4,624 new GitHub stars today, the highest single-day count seen for this repo -- a full-text companion to the Chinese-language "深入理解 AI Agent" book on AI agent engineering. [GitHub](https://github.com/bojieli/ai-agent-book)
+
+- **2026-07-22** `diegosouzapw/OmniRoute` hit 2,034 new stars today (up from 1,343 on July 20) -- multi-provider AI gateway with token optimization. [GitHub](https://github.com/diegosouzapw/OmniRoute)
+
+- **2026-07-22** `tirth8205/code-review-graph` at 1,925 new stars today -- local-first codebase intelligence graph for MCP and CLI. [GitHub](https://github.com/tirth8205/code-review-graph)
+
 - **2026-07-20** `diegosouzapw/OmniRoute` at 1,343 new stars today (20.9K total): MIT-licensed AI gateway routing across 268+ providers and 500+ models with auto-fallback and token optimization. [GitHub](https://github.com/diegosouzapw/OmniRoute)
 
 - **2026-07-20** `tirth8205/code-review-graph` continues surging: 1,876 new stars today vs 663 on July 19, now at 22.5K total. Local-first codebase intelligence graph for MCP and CLI tools. [GitHub](https://github.com/tirth8205/code-review-graph)

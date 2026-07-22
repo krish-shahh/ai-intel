@@ -10,6 +10,8 @@ Sam Altman is co-founder and CEO of OpenAI, the company behind ChatGPT and the G
 
 ## Recent
 
+- **2026-07-21** Plans to brief the Trump administration and Congress this week on the "next wave" of OpenAI models ahead of an imminent launch, as the US finalizes a formal AI safety-review framework. Meetings will cover how the models affect work and how government and private sector can collaborate on oversight. [Bloomberg](https://www.bloomberg.com/news/articles/2026-07-21/openai-s-altman-to-brief-us-officials-on-next-wave-of-ai-models)
+
 - **2026-07-16** Posted: "we did not have our best last 12 months ever, which is mostly my fault, but we are about to have our best 12 months to date." Rare candid admission from Altman amid executive turnover and IPO timing pressure. [X](https://x.com/sama/status/2077817060068057493)
 
 - **2026-07-15** Warned on X that GPT-5.6 Sol demand is "insane" and that "hiccups" in service may be coming despite "heroic work" from the inference team. [Axios](https://www.axios.com/2026/07/14/sam-altman-chat-gpt-sol-ultra-warning)
