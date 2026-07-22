@@ -1,0 +1,42 @@
+name: Deterministic sweep
+
+# Pure HTTP fetch + filter (Hacker News, Polymarket, best-effort Reddit) —
+# no LLM involved. Runs on GitHub's runners so the brief routines can Read
+# the result instead of redoing dozens of raw fetches themselves every run.
+
+on:
+  schedule:
+    - cron: '17 */4 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Run sweep
+        run: python3 .github/scripts/sweep.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sweep-latest.json
+          if git diff --cached --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git commit -m "sweep: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          for i in 1 2 3; do
+            git push origin main && exit 0
+            git pull --rebase origin main
+          done
+          echo "push failed after retries" >&2
+          exit 1
