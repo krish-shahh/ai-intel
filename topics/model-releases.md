@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-07-21** Google launched Gemini 3.6 Flash ($1.50/$7.50 per M tokens, 17% fewer output tokens than 3.5 Flash, Computer Use built in), Gemini 3.5 Flash-Lite ($0.30/$2.50), and Gemini 3.5 Flash Cyber (security-tuned, government-only). Knowledge cutoff updated from January 2025 to March 2026. Google also confirmed Gemini 4 pretraining has started; Gemini 3.5 Pro remains unshipped. Benchmarks: 58.7% SWE-Bench Pro vs 55.1% for 3.5 Flash. [Google blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) · [Coursiv](https://coursiv.io/blog/gemini-3-6-flash)
+
 - **2026-07-21** claude-mythos-preview officially retired today; API calls to the model now fail. Migrate to `claude-mythos-5`. [Anthropic docs](https://platform.claude.com/docs/en/about-claude/model-deprecations)
 
 - **2026-07-19** Alibaba previewed Qwen3.8-Max at WAIC Shanghai: 2.4T-param multimodal model, claims near-Claude-Fable-5 performance. No independent benchmarks. Open weights "coming soon" with no date. API available at 10% intro pricing via Token Plan and QoderWork. Arrives two days after Kimi K3, extending China's open-weight arms race. [MarkTechPost](https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/)

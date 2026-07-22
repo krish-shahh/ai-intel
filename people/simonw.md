@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-21** Published an annotated transcript from his AI Engineer World's Fair fireside chat with Cat Wu and Thariq Shihipar from Anthropic's [[claude-code]] team, covering how Claude Code's agent loops work and how the team builds. [simonwillison.net](https://simonwillison.net/2026/Jul/21/cat-and-thariq/)
+
 - **2026-07-19** Surfaced that Claude Code switched its runtime to Bun, the JavaScript runtime written in Rust. Became the top HN AI story on July 21 (391 points, 554 comments). [simonwillison.net](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/) · [HN](https://news.ycombinator.com/item?id=48966569)
 
 - **2026-07-21** Linked Nativ -- a Mac-native app for running local AI models with a clean desktop UI. [simonwillison.net](https://simonwillison.net/2026/Jul/21/nativ/)
