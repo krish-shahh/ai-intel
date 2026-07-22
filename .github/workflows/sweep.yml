@@ -22,6 +22,9 @@ jobs:
           ref: main
 
       - name: Run sweep
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: python3 .github/scripts/sweep.py
 
       - name: Commit and push if changed

@@ -5,7 +5,9 @@ Pure HTTP fetch + filter, no LLM involved. Writes data/sweep-latest.json,
 which the morning/evening brief routines read instead of redoing these
 same raw fetches themselves every run.
 """
+import base64
 import json
+import os
 import re
 import time
 import urllib.error
@@ -28,13 +30,38 @@ SUBREDDITS = [
 HN_TERMS = ["AI agent", "LLM", "Claude", "Anthropic", "OpenAI", "machine learning"]
 
 
-def fetch_json(url, timeout=15):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+def fetch_json(url, headers=None, timeout=15):
+    req = urllib.request.Request(url, headers=headers or {"User-Agent": UA})
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return json.loads(resp.read().decode("utf-8"))
     except Exception as e:
         print(f"  skip {url}: {e}")
+        return None
+
+
+def reddit_oauth_token():
+    """App-only OAuth (client_credentials) — Reddit's sanctioned API, no personal
+    login or cookies needed. Anonymous public .json scraping is blocked from cloud
+    IPs (confirmed); this hits oauth.reddit.com instead, a different, non-blocked
+    path. Needs a free 'script' app registered at reddit.com/prefs/apps. Returns
+    None (not an error) if REDDIT_CLIENT_ID/SECRET aren't set — caller falls back."""
+    client_id = os.environ.get("REDDIT_CLIENT_ID")
+    client_secret = os.environ.get("REDDIT_CLIENT_SECRET")
+    if not client_id or not client_secret:
+        return None
+    basic = base64.b64encode(f"{client_id}:{client_secret}".encode()).decode()
+    req = urllib.request.Request(
+        "https://www.reddit.com/api/v1/access_token",
+        data=b"grant_type=client_credentials",
+        headers={"Authorization": f"Basic {basic}", "User-Agent": UA},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return json.loads(resp.read().decode("utf-8")).get("access_token")
+    except Exception as e:
+        print(f"  reddit oauth token request failed: {e}")
         return None
 
 
@@ -49,11 +76,19 @@ def tracked_names():
 
 
 def sweep_reddit(cutoff_ts):
+    token = reddit_oauth_token()
+    if token:
+        print("  using authenticated oauth.reddit.com (app-only)")
+        base_url, suffix, headers = "https://oauth.reddit.com", "", {"Authorization": f"Bearer {token}", "User-Agent": UA}
+    else:
+        print("  no REDDIT_CLIENT_ID/SECRET set — trying anonymous public endpoint (usually blocked from cloud IPs)")
+        base_url, suffix, headers = "https://www.reddit.com", ".json", {"User-Agent": UA}
+
     seen, items = set(), []
     for sub in SUBREDDITS:
-        for endpoint in (f"r/{sub}/new.json?limit=50", f"r/{sub}/top.json?t=day&limit=25"):
-            data = fetch_json(f"https://www.reddit.com/{endpoint}")
-            time.sleep(1)
+        for endpoint in (f"r/{sub}/new{suffix}?limit=50", f"r/{sub}/top{suffix}?t=day&limit=25"):
+            data = fetch_json(f"{base_url}/{endpoint}", headers=headers)
+            time.sleep(1 if not token else 0.3)
             if not data:
                 continue
             for child in data.get("data", {}).get("children", []):

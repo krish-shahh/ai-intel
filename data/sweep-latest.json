@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T06:30:34.215973+00:00",
+  "generated_at": "2026-07-22T06:39:51.159688+00:00",
   "window_hours": 14,
   "reddit": [],
   "hn": [],
@@ -31,7 +31,7 @@
     {
       "question": "Will China invades Taiwan before GTA VI?",
       "outcomePrices": "[\"0.505\", \"0.495\"]",
-      "volume": 1918998.1411270683,
+      "volume": 1919001.2587730684,
       "slug": "will-china-invades-taiwan-before-gta-vi-716-644"
     },
     {
@@ -85,7 +85,7 @@
     {
       "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.1985\", \"0.8015\"]",
-      "volume": 26541728.675782282,
+      "volume": 26541796.46472428,
       "slug": "will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568"
     },
     {
@@ -103,7 +103,7 @@
     {
       "question": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0495\", \"0.9505\"]",
-      "volume": 9171047.169534165,
+      "volume": 9171052.839534165,
       "slug": "will-josh-shapiro-win-the-2028-democratic-presidential-nomination-977"
     },
     {
@@ -121,7 +121,7 @@
     {
       "question": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0695\", \"0.9305\"]",
-      "volume": 12584197.011316929,
+      "volume": 12584205.201316928,
       "slug": "will-kamala-harris-win-the-2028-democratic-presidential-nomination-641"
     },
     {
@@ -163,7 +163,7 @@
     {
       "question": "Will Cory Booker win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0055\", \"0.9945\"]",
-      "volume": 25338582.12707894,
+      "volume": 25338582.25707894,
       "slug": "will-corey-booker-win-the-2028-democratic-presidential-nomination-125"
     },
     {
@@ -193,7 +193,7 @@
     {
       "question": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 35502744.04369595,
+      "volume": 35502744.25369595,
       "slug": "will-gina-raimondo-win-the-2028-democratic-presidential-nomination-676"
     },
     {
@@ -211,7 +211,7 @@
     {
       "question": "Will John Fetterman win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 24321757.584779203,
+      "volume": 24321822.064779203,
       "slug": "will-john-fetterman-win-the-2028-democratic-presidential-nomination-941"
     },
     {
@@ -259,7 +259,7 @@
     {
       "question": "Will LeBron James win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0045\", \"0.9955\"]",
-      "volume": 43726340.79143678,
+      "volume": 43726382.91193677,
       "slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination"
     },
     {
@@ -271,7 +271,7 @@
     {
       "question": "Will George Clooney win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 42865582.07421547,
+      "volume": 42865584.44121547,
       "slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination"
     },
     {
@@ -295,7 +295,7 @@
     {
       "question": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0045\", \"0.9955\"]",
-      "volume": 54147708.77836909,
+      "volume": 54147710.74836909,
       "slug": "will-oprah-winfrey-win-the-2028-democratic-presidential-nomination"
     },
     {
