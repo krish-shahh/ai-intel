@@ -1,0 +1,28 @@
+# Read by both brief routines each run. Edit freely — no code changes needed.
+# Controls story selection scoring, section limits, and reading-time target.
+
+reading_time_minutes: 5
+
+priorities:
+  - coding agents
+  - model releases
+  - open-source models
+  - developer tools
+  - AI research
+
+deprioritize:
+  - funding without product impact
+  - executive gossip
+  - generic AI tutorials
+  - consumer image generators
+  - sponsored launches
+
+companies:
+  openai: 3
+  anthropic: 3
+  google_deepmind: 3
+  meta: 2
+  xai: 1
+
+minimum_score: 9
+max_tools: 5
