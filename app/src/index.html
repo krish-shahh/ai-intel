@@ -9,19 +9,26 @@
 <body>
   <header id="topbar">
     <div class="brand">ai<i>·</i>intel</div>
-    <nav id="switch">
-      <button data-v="dashboard" class="active">Dashboard</button>
+    <nav id="switch" aria-label="Primary views">
+      <button data-v="dashboard" class="active" aria-current="page">Dashboard</button>
       <button data-v="graph">Graph</button>
       <button data-v="files">Files</button>
     </nav>
     <div class="tools">
-      <span id="sync" title="Last sync">…</span>
-      <input id="search" type="text" placeholder="Search notes…" spellcheck="false" />
-      <button id="refresh" title="Pull now">⟳</button>
+      <span id="sync" role="status" aria-live="polite" title="Last sync">…</span>
+      <button id="commandtrigger" type="button" aria-haspopup="dialog" aria-controls="commandpalette"><span>Search or run a command</span><kbd aria-hidden="true">⌘K</kbd></button>
+      <button id="refresh" aria-label="Pull latest updates" title="Pull latest updates">⟳</button>
     </div>
-    <div id="quickopen" hidden></div>
   </header>
   <main id="view"></main>
+  <div id="commandpalette" class="command-backdrop" role="dialog" aria-modal="true" aria-labelledby="commandtitle" hidden>
+    <div class="command-shell">
+      <h2 id="commandtitle" class="sr-only">Command palette</h2>
+      <div class="command-input-row"><span aria-hidden="true">⌕</span><input id="commandinput" type="text" placeholder="Type a command or search…" aria-label="Type a command or search" aria-controls="commandlist" aria-autocomplete="list" autocomplete="off" spellcheck="false" /></div>
+      <div id="commandlist" class="command-list" role="listbox" aria-label="Commands and notes"></div>
+      <div class="command-footer"><span><kbd>↑</kbd><kbd>↓</kbd> navigate</span><span><kbd>↵</kbd> open</span><span><kbd>esc</kbd> close</span></div>
+    </div>
+  </div>
   <script src="graph.js"></script>
   <script src="renderer.js"></script>
 </body>
