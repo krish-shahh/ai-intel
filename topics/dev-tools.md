@@ -7,6 +7,12 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-24** DeepSeek retired deepseek-chat and deepseek-reasoner today at 15:59 UTC; API calls to those IDs now return errors. Migrate to deepseek-v4-pro or deepseek-v4-flash on the same base URL and key. [DEV Community](https://dev.to/agdex_ai/deepseek-v4-api-migration-guide-everything-before-the-july-24-2026-deadline-4m30) · [byteiota](https://byteiota.com/deepseek-api-migration-july-2026/)
+
+- **2026-07-24** OmniRoute (MIT) reached 27k+ GitHub stars: AI gateway routing across 500+ models from 268+ providers with 18 routing strategies and auto-fallback; 90+ providers have a free tier. Practical OpenRouter alternative with no cost floor. [GitHub](https://github.com/diegosouzapw/OmniRoute) · [review](https://rohitraj.tech/en/notes/omniroute-ai-gateway-review-2026)
+
+- **2026-07-24** Microsoft Research SkillOpt (MIT, May 2026) trending today (+337 GitHub stars): trains reusable natural-language skill documents for frozen LLM agents via trajectory-driven edits with no weight updates. Demonstrated 25%+ performance gains across six benchmarks; works with Claude Code, Codex, and smaller models. [GitHub](https://github.com/microsoft/SkillOpt) · [MSFT Research blog](https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/)
+
 - **2026-07-22** OpenAI launched Presence: enterprise agent platform for voice and chat, with policies, guardrails, SOPs, simulations, and a Codex-powered improvement loop. Limited GA for eligible enterprise customers; resolves 75% of OpenAI's own inbound support without humans. Competes with Salesforce Agentforce, ServiceNow AI Agents. [OpenAI](https://openai.com/index/introducing-openai-presence/) · [VentureBeat](https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots)
 
 - **2026-07-18** Microsoft's Project Perception is expected to launch this month: a multi-model AI security tool that routes vulnerability-detection tasks across Anthropic, OpenAI, and Microsoft models to minimize cost. Positioned as a cheaper alternative to Anthropic's Mythos for enterprise security scanning. [TechRepublic](https://www.techrepublic.com/article/news-microsoft-project-perception-ai-security-tool/) · [NewsBytesApp](https://www.newsbytesapp.com/news/science/microsoft-to-launch-project-perception-ai-cybersecurity-platform-this-month/tldr)
