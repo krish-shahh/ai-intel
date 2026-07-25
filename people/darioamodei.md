@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-07-24** Anthropic launched Claude Opus 5: approaches Fable 5 performance at half the price ($5/$25 per million tokens), same as Opus 4.8; adds effort-toggle (low/medium/high) per request; available on API, Bedrock, Google Cloud, Microsoft Foundry, Claude.ai, Claude Code, and Cowork. [Anthropic](https://www.anthropic.com/news/claude-opus-5) · [TechCrunch](https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-07-24/anthropic-unveils-more-cost-efficient-model-for-everyday-tasks)
+
 - **2026-07-22** Endpoints.news reports Anthropic is 100 days into a life-sciences push: Nobel Prize hires, active M&A, and structured programs in biopharma and drug discovery. Amodei told Stat News the original biotech vision may not be publicly visible "for a decade." [Endpoints.news](https://endpoints.news/anthropics-life-sciences-plans-mystery-programs-nobel-hires-ma-and-big-ambition/) · [Stat News](https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/)
 
 - **2026-07-21** Anthropic spent $1.97M on federal lobbying in Q2 2026 (up 26% QoQ), outspending Nvidia and OpenAI, with H1 2026 total already exceeding all of 2025. Focus areas: export controls, AI safety standards, DoD procurement, and Energy Dept Genesis Mission. Context: Commerce Dept imposed an 18-day export ban on Fable 5 and Mythos 5 in June, driving the surge. [Axios](https://www.axios.com/2026/07/21/anthropic-ramps-up-lobbying-spending-ai-policy-fights) · [CNBC](https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html)

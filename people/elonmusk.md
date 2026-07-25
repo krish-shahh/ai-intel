@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-07-24** Endorsed Jensen Huang's "Open Weights and American AI Leadership" letter on X on the day Huang made his first-ever X post -- a coordinated push against the AI Kill Switch Act. [Seeking Alpha](https://seekingalpha.com/news/4618138-nvidia-ceo-huang-joins-x-signs-letter-to-congress-on-open-ai-models)
+
 - **2026-07-18** SpaceXAI open-sourced Grok Build (Apache 2.0) after an AI-safety researcher published wire-level evidence that Grok CLI v0.2.93 had been silently uploading complete Git repos — including secrets — to a Google Cloud bucket, 26,000x more data than tasks required. Musk promised to delete all stored user data. The in-CLI privacy toggle did nothing; the kill was a silent server-side flag pushed with no changelog. The open-source release is a squashed monorepo mirror; external contributions are closed. [WinBuzzer](https://winbuzzer.com/2026/07/18/spacexai-open-sources-grok-build-after-upload-backlash-xcxwbn/) · [Axios](https://www.axios.com/2026/07/14/spacexai-grok-customer-data) · [MarkTechPost](https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/)
 
 - **2026-07-13** [[sama]] publicly called out SpaceX's orbital data center pitch, saying it "is not going to be a serious business anytime soon." Musk's space compute plans are central to SpaceX's $2T valuation. [TechCrunch](https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/)
