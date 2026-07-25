@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-25** `alibaba/open-code-review` at 1,066 new GitHub stars today: Alibaba's internal code review tool now MIT-licensed and open; hybrid deterministic + LLM-agent architecture, line-level comments, built-in security rules (NPE, thread safety, XSS, SQL injection), OpenAI and Anthropic compatible. [GitHub](https://github.com/alibaba/open-code-review)
+
+- **2026-07-24** `citrolabs/ego-lite` hit #1 on GitHub overall trending (986 stars today on July 25): shared-state browser for humans and AI agents; agents inherit cookies and logins without credential passing; team's own benchmarks show 2.5x faster than Vercel's agent-browser on complex automation tasks; MIT license. [GitHub](https://github.com/citrolabs/ego-lite) · [runtimewire](https://runtimewire.com/article/ego-lite-reaches-github-trending-1-marking-a-surge-in-ai-agent-tool-interest)
+
 - **2026-07-22** `bojieli/ai-agent-book` surged to 4,624 new GitHub stars today, the highest single-day count seen for this repo -- a full-text companion to the Chinese-language "深入理解 AI Agent" book on AI agent engineering. [GitHub](https://github.com/bojieli/ai-agent-book)
 
 - **2026-07-22** `diegosouzapw/OmniRoute` hit 2,034 new stars today (up from 1,343 on July 20) -- multi-provider AI gateway with token optimization. [GitHub](https://github.com/diegosouzapw/OmniRoute)
