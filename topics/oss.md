@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-26** `VectifyAI/PageIndex` trending today (34.5K stars, +180 today): vectorless reasoning-based RAG -- retrieves relevant chunks by having a model reason about relevance instead of nearest-neighbor embedding search; eliminates the embedding model dependency and index-rebuild step from a standard RAG pipeline. [GitHub](https://github.com/VectifyAI/PageIndex)
+
 - **2026-07-25** `alibaba/open-code-review` at 1,066 new GitHub stars today: Alibaba's internal code review tool now MIT-licensed and open; hybrid deterministic + LLM-agent architecture, line-level comments, built-in security rules (NPE, thread safety, XSS, SQL injection), OpenAI and Anthropic compatible. [GitHub](https://github.com/alibaba/open-code-review)
 
 - **2026-07-24** `citrolabs/ego-lite` hit #1 on GitHub overall trending (986 stars today on July 25): shared-state browser for humans and AI agents; agents inherit cookies and logins without credential passing; team's own benchmarks show 2.5x faster than Vercel's agent-browser on complex automation tasks; MIT license. [GitHub](https://github.com/citrolabs/ego-lite) · [runtimewire](https://runtimewire.com/article/ego-lite-reaches-github-trending-1-marking-a-surge-in-ai-agent-tool-interest)
