@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-07-24** Called open-source AI "a red herring" as Anthropic declined to sign a 50-company coalition letter (led by Nvidia, Microsoft, Meta) urging Washington not to restrict open-weight models. OpenAI eventually signed; Anthropic and Amazon are the two notable holdouts among US labs. Directly at odds with the Karpathy profile bio incident the same week. [CNBC](https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html) · [Forbes](https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/)
+
 - **2026-07-24** Anthropic launched Claude Opus 5: approaches Fable 5 performance at half the price ($5/$25 per million tokens), same as Opus 4.8; adds effort-toggle (low/medium/high) per request; available on API, Bedrock, Google Cloud, Microsoft Foundry, Claude.ai, Claude Code, and Cowork. [Anthropic](https://www.anthropic.com/news/claude-opus-5) · [TechCrunch](https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-07-24/anthropic-unveils-more-cost-efficient-model-for-everyday-tasks)
 
 - **2026-07-22** Endpoints.news reports Anthropic is 100 days into a life-sciences push: Nobel Prize hires, active M&A, and structured programs in biopharma and drug discovery. Amodei told Stat News the original biotech vision may not be publicly visible "for a decade." [Endpoints.news](https://endpoints.news/anthropics-life-sciences-plans-mystery-programs-nobel-hires-ma-and-big-ambition/) · [Stat News](https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/)
