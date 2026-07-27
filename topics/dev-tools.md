@@ -7,6 +7,10 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-27** Nvidia in talks to backstop $250B in OpenAI data-center financing per WSJ: SoftBank-built 10-gigawatt campus in southern Ohio; Nvidia also discussing up to $350B in chip purchase backing; total project cost >$500B. First step toward OpenAI infrastructure independence from Microsoft, Amazon, and Oracle. [Reuters](https://www.investing.com/news/stock-market-news/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-wsj-reports-4812926) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says)
+
+- **2026-07-27** OpenCode v1.18.5 released: improves Claude adaptive thinking handling across more response shapes; fixes OpenAI response-phase handling that could break conversations mid-session. [GitHub](https://github.com/anomalyco/opencode/releases)
+
 - **2026-07-24** DeepSeek retired deepseek-chat and deepseek-reasoner today at 15:59 UTC; API calls to those IDs now return errors. Migrate to deepseek-v4-pro or deepseek-v4-flash on the same base URL and key. [DEV Community](https://dev.to/agdex_ai/deepseek-v4-api-migration-guide-everything-before-the-july-24-2026-deadline-4m30) · [byteiota](https://byteiota.com/deepseek-api-migration-july-2026/)
 
 - **2026-07-24** OmniRoute (MIT) reached 27k+ GitHub stars: AI gateway routing across 500+ models from 268+ providers with 18 routing strategies and auto-fallback; 90+ providers have a free tier. Practical OpenRouter alternative with no cost floor. [GitHub](https://github.com/diegosouzapw/OmniRoute) · [review](https://rohitraj.tech/en/notes/omniroute-ai-gateway-review-2026)
