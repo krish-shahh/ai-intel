@@ -7,6 +7,12 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-27** Kimi K3 weights released at midnight UTC under Modified MIT license; vLLM confirmed day-0 support via upstream KDA prefix caching patch contributed by Moonshot; ~594GB MXFP4 download requiring 8+ H100 80GB; community hallucination benchmarking begins. [kimi.com](https://www.kimi.com/blog/kimi-k3) · [vLLM](https://x.com/vllm_project/status/2077840545171538114)
+
+- **2026-07-27** `ComposioHQ/awesome-claude-skills` +440 stars today: curated directory of 1000+ production-ready Claude Skills across workflow categories. [GitHub](https://github.com/ComposioHQ/awesome-claude-skills)
+
+- **2026-07-27** `virgiliojr94/book-to-skill` +417 stars today: converts technical PDFs/EPUBs to Claude Code skills with chapter-level on-demand loading. [GitHub](https://github.com/virgiliojr94/book-to-skill)
+
 - **2026-07-26** `VectifyAI/PageIndex` trending today (34.5K stars, +180 today): vectorless reasoning-based RAG -- retrieves relevant chunks by having a model reason about relevance instead of nearest-neighbor embedding search; eliminates the embedding model dependency and index-rebuild step from a standard RAG pipeline. [GitHub](https://github.com/VectifyAI/PageIndex)
 
 - **2026-07-25** `alibaba/open-code-review` at 1,066 new GitHub stars today: Alibaba's internal code review tool now MIT-licensed and open; hybrid deterministic + LLM-agent architecture, line-level comments, built-in security rules (NPE, thread safety, XSS, SQL injection), OpenAI and Anthropic compatible. [GitHub](https://github.com/alibaba/open-code-review)

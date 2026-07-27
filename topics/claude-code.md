@@ -7,6 +7,10 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-07-27** `ComposioHQ/awesome-claude-skills` +440 stars today: curated directory of 1000+ production-ready Claude Skills across workflow categories -- useful first stop before building a skill from scratch. [GitHub](https://github.com/ComposioHQ/awesome-claude-skills)
+
+- **2026-07-27** `virgiliojr94/book-to-skill` +417 stars today: converts technical PDFs/EPUBs to Claude Code skills with chapter-level on-demand loading; reduces context burn for reference books. [GitHub](https://github.com/virgiliojr94/book-to-skill)
+
 - **2026-07-24** Anthropic upgraded Claude Voice Mode from Haiku-only to user's selected model (Opus, Sonnet, or Haiku), added connected-tool reach into Gmail, Google Calendar, Slack, Canva, and Notion via voice commands, and expanded language support to 10 languages. Beta rollout to all Claude users; free tier is Haiku plus single-app only, paid unlocks all models and multi-app. [TechCrunch](https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/) · [Unite.AI](https://www.unite.ai/anthropic-brings-opus-and-sonnet-to-claude-voice-mode/)
 
 - **2026-07-22** Anthropic introduced the `agent-memory-2026-07-22` API version, replacing `managed-agents-2026-04-01` for all memory store calls; sending both headers returns HTTP 400. Python (0.116.0), TypeScript (0.110.0), Go (1.56.0), Java (2.48.0), Ruby (1.55.0), PHP (0.36.0), C# (12.35.0), and CLI (1.16.0) SDKs all updated. [Releasebot](https://releasebot.io/updates/anthropic)

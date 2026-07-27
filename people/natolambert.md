@@ -10,6 +10,8 @@ Nathan Lambert is an AI researcher specializing in reinforcement learning from h
 
 ## Recent
 
+- **2026-07-27** Kimi K3 weights released at midnight UTC today; community benchmarking on the actual weights begins; his pre-release estimate of "3-5 months" open-to-closed frontier gap -- and the 51% hallucination rate flagged by Artificial Analysis -- now both face independent replication. [interconnects.ai](https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation)
+
 - **2026-07-24** Published "Kimi K3: The open-weights escalation" on Interconnects: argues the open-to-closed frontier gap has moved from "6-9 months" to "3-5 months"; calls K3 (#3 on Artificial Analysis Intelligence Index, #1 in Frontend Code Arena) the strongest open model yet; frames the accelerating Chinese open-weight release cadence as a structural shift, not an anomaly. [interconnects.ai](https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation)
 
 - **2026-07-05** Posted "GLM-5.2 is the step change for open agents" on Interconnects — argues GLM-5.2 is the "DeepSeek moment" for open agents: first open model competing with frontier proprietary on agentic coding, with the open-to-closed capability lag now ~6-8 months. [post](https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open) · [tweet](https://x.com/natolambert/status/2069073545632813193)
