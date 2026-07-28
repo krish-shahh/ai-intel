@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-28** `moeru-ai/airi` +796 GitHub stars today: self-hosted AI companion with real-time voice chat, Minecraft and Factorio gameplay, and Web/macOS/Windows support; uses WebGPU/WebAssembly; supports 25+ LLM backends including local Ollama. [GitHub](https://github.com/moeru-ai/airi)
+
 - **2026-07-27** Kimi K3 GGUFs: at least three Q4_K_M quantizations appeared on HuggingFace within hours of the weight drop; llama.cpp cannot use them correctly because Kimi Delta Attention (KDA) is not yet implemented in mainline; vLLM has day-0 KDA support in progress; hardware floor even for quantized is 8+ H100 80GB; first independent hallucination validation not yet started. [llama.cpp #26041](https://github.com/ggml-org/llama.cpp/discussions/26041) · [HuggingFace gtest23](https://huggingface.co/gtest23/K3-Q4-GGUF) · [vLLM](https://vllm.ai/blog/2026-07-22-kimi-k3-preview)
 
 - **2026-07-27** Kimi K3 weights released at midnight UTC under Modified MIT license; vLLM confirmed day-0 support via upstream KDA prefix caching patch contributed by Moonshot; ~594GB MXFP4 download requiring 8+ H100 80GB; community hallucination benchmarking begins. [kimi.com](https://www.kimi.com/blog/kimi-k3) · [vLLM](https://x.com/vllm_project/status/2077840545171538114)
