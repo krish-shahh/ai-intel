@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-07-28** MCP 2026-07-28 spec ships: stateless core (drops initialize handshake and Mcp-Session-Id header), Tasks redesigned as a first-class async extension, MCP Apps adds inline interactive HTML UIs served over the same JSON-RPC path, auth hardened with six changes including iss validation per RFC 9207; Roots, Sampling, and Logging deprecated with 12-month support window. Existing MCP servers relying on session state need migration. [MCP Blog](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/) · [AAIF migration guide](https://aaif.io/blog/mcp-2026-07-28-whats-changing-and-how-to-migrate) · [WorkOS auth analysis](https://workos.com/blog/mcp-2026-spec-agent-authentication)
+
 - **2026-07-27** Nvidia in talks to backstop $250B in OpenAI data-center financing per WSJ: SoftBank-built 10-gigawatt campus in southern Ohio; Nvidia also discussing up to $350B in chip purchase backing; total project cost >$500B. First step toward OpenAI infrastructure independence from Microsoft, Amazon, and Oracle. [Reuters](https://www.investing.com/news/stock-market-news/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-wsj-reports-4812926) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says)
 
 - **2026-07-27** OpenCode v1.18.5 released: improves Claude adaptive thinking handling across more response shapes; fixes OpenAI response-phase handling that could break conversations mid-session. [GitHub](https://github.com/anomalyco/opencode/releases)
