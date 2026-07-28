@@ -1,65 +1,55 @@
 {
-  "generated_at": "2026-07-28T06:42:19.254898+00:00",
+  "generated_at": "2026-07-28T10:46:19.728180+00:00",
   "window_hours": 14,
   "reddit": [],
-  "hn": [
-    {
-      "title": "Jensen Huang's first post on Twitter is in defense of open access to AI models",
-      "url": "https://www.pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta/",
-      "hn_thread": "https://news.ycombinator.com/item?id=49073267",
-      "points": 49,
-      "num_comments": 18,
-      "created_at": "2026-07-27T17:56:20Z",
-      "matched_term": "Jensen Huang"
-    }
-  ],
+  "hn": [],
   "polymarket": [
     {
       "question": "New Rihanna Album before GTA VI?",
       "outcomePrices": "[\"0.505\", \"0.495\"]",
-      "volume": 878112.610759025,
+      "volume": 878207.0283990254,
       "slug": "new-rhianna-album-before-gta-vi-926"
     },
     {
       "question": "New Playboi Carti Album before GTA VI?",
       "outcomePrices": "[\"0.505\", \"0.495\"]",
-      "volume": 751696.4430389645,
+      "volume": 751763.7489099653,
       "slug": "new-playboi-carti-album-before-gta-vi-421"
     },
     {
       "question": "Will Jesus Christ return before GTA VI?",
       "outcomePrices": "[\"0.495\", \"0.505\"]",
-      "volume": 11882472.242624704,
+      "volume": 11882508.621047702,
       "slug": "will-jesus-christ-return-before-gta-vi-665"
     },
     {
       "question": "Trump out as President before GTA VI?",
       "outcomePrices": "[\"0.495\", \"0.505\"]",
-      "volume": 707621.1951150086,
+      "volume": 707634.6051150087,
       "slug": "trump-out-as-president-before-gta-vi-846"
     },
     {
       "question": "Will China invades Taiwan before GTA VI?",
       "outcomePrices": "[\"0.505\", \"0.495\"]",
-      "volume": 1925943.487049064,
+      "volume": 1926053.7176330637,
       "slug": "will-china-invades-taiwan-before-gta-vi-716-644"
     },
     {
       "question": "Will bitcoin hit $1m before GTA VI?",
       "outcomePrices": "[\"0.4985\", \"0.5015\"]",
-      "volume": 4758424.168054691,
+      "volume": 4758456.76539769,
       "slug": "will-bitcoin-hit-1m-before-gta-vi-872-424"
     },
     {
       "question": "Will Harvey Weinstein be sentenced to no prison time?",
-      "outcomePrices": "[\"0.98\", \"0.02\"]",
+      "outcomePrices": "[\"0.9795\", \"0.0205\"]",
       "volume": 395296.89495200285,
       "slug": "will-harvey-weinstein-be-sentenced-to-no-prison-time"
     },
     {
       "question": "Will Harvey Weinstein be sentenced to less than 5 years in prison?",
-      "outcomePrices": "[\"0.005\", \"0.995\"]",
-      "volume": 148234.08690400032,
+      "outcomePrices": "[\"0.0045\", \"0.9955\"]",
+      "volume": 148354.0769040003,
       "slug": "will-harvey-weinstein-be-sentenced-to-less-than-5-years-in-prison"
     },
     {
@@ -88,32 +78,32 @@
     },
     {
       "question": "Xi Jinping out before 2027?",
-      "outcomePrices": "[\"0.0475\", \"0.9525\"]",
-      "volume": 11574950.543793006,
+      "outcomePrices": "[\"0.0465\", \"0.9535\"]",
+      "volume": 11575647.136834005,
       "slug": "xi-jinping-out-before-2027"
     },
     {
       "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.1935\", \"0.8065\"]",
-      "volume": 26591388.57108329,
+      "volume": 26591578.913033284,
       "slug": "will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568"
     },
     {
       "question": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.133\", \"0.867\"]",
-      "volume": 14056504.03065613,
+      "outcomePrices": "[\"0.1315\", \"0.8685\"]",
+      "volume": 14062020.44065613,
       "slug": "will-alexandria-ocasio-cortez-win-the-2028-democratic-presidential-nomination-653"
     },
     {
       "question": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0565\", \"0.9435\"]",
-      "volume": 11694865.09724857,
+      "volume": 11694925.55110657,
       "slug": "will-pete-buttigieg-win-the-2028-democratic-presidential-nomination-687"
     },
     {
       "question": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0485\", \"0.9515\"]",
-      "volume": 9389739.486760167,
+      "volume": 9389981.884572167,
       "slug": "will-josh-shapiro-win-the-2028-democratic-presidential-nomination-977"
     },
     {
@@ -130,170 +120,170 @@
     },
     {
       "question": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0875\", \"0.9125\"]",
-      "volume": 12796662.903248921,
+      "outcomePrices": "[\"0.0865\", \"0.9135\"]",
+      "volume": 12797233.12270692,
       "slug": "will-kamala-harris-win-the-2028-democratic-presidential-nomination-641"
     },
     {
       "question": "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0155\", \"0.9845\"]",
-      "volume": 11833829.174760988,
+      "volume": 11833857.356093988,
       "slug": "will-gretchen-whitmer-win-the-2028-democratic-presidential-nomination-676"
     },
     {
       "question": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0245\", \"0.9755\"]",
-      "volume": 12825929.335112918,
+      "outcomePrices": "[\"0.0255\", \"0.9745\"]",
+      "volume": 12826052.755112918,
       "slug": "will-andy-beshear-win-the-2028-democratic-presidential-nomination-832"
     },
     {
       "question": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.1405\", \"0.8595\"]",
-      "volume": 12363926.72983988,
+      "outcomePrices": "[\"0.137\", \"0.863\"]",
+      "volume": 12365585.49890388,
       "slug": "will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885"
     },
     {
       "question": "Will Mark Cuban win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0055\", \"0.9945\"]",
-      "volume": 22743835.732451703,
+      "volume": 22743964.6092517,
       "slug": "will-mark-cuban-win-the-2028-democratic-presidential-nomination-329"
     },
     {
       "question": "Will J.B. Pritzker win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0105\", \"0.9895\"]",
-      "volume": 15212437.685986822,
+      "volume": 15212439.075986821,
       "slug": "will-jb-pritzker-win-the-2028-democratic-presidential-nomination-288"
     },
     {
       "question": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0055\", \"0.9945\"]",
-      "volume": 31859852.711243328,
+      "volume": 31861674.064243324,
       "slug": "will-raphael-warnock-win-the-2028-democratic-presidential-nomination-914"
     },
     {
       "question": "Will Cory Booker win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0055\", \"0.9945\"]",
-      "volume": 25432741.613173936,
+      "volume": 25432742.70317393,
       "slug": "will-corey-booker-win-the-2028-democratic-presidential-nomination-125"
     },
     {
       "question": "Will Tim Walz win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0025\", \"0.9975\"]",
-      "volume": 42707398.81126716,
+      "volume": 42707403.24776716,
       "slug": "will-tim-walz-win-the-2028-democratic-presidential-nomination-475"
     },
     {
       "question": "Will Michelle Obama win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0095\", \"0.9905\"]",
-      "volume": 26009270.44194433,
+      "volume": 26009370.44194433,
       "slug": "will-michelle-obama-win-the-2028-democratic-presidential-nomination-777"
     },
     {
       "question": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0225\", \"0.9775\"]",
-      "volume": 16817425.520661406,
+      "volume": 16817578.68370541,
       "slug": "will-mark-kelly-win-the-2028-democratic-presidential-nomination-479"
     },
     {
       "question": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0235\", \"0.9765\"]",
-      "volume": 14330455.91830993,
+      "volume": 14330490.718309931,
       "slug": "will-rahm-emanuel-win-the-2028-democratic-presidential-nomination-299"
     },
     {
       "question": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 35520014.86099496,
+      "volume": 35520017.10632796,
       "slug": "will-gina-raimondo-win-the-2028-democratic-presidential-nomination-676"
     },
     {
       "question": "Will Zohran Mamdani win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0045\", \"0.9955\"]",
-      "volume": 38538798.943434626,
+      "volume": 38538844.43418461,
       "slug": "will-zohran-mamdani-win-the-2028-democratic-presidential-nomination-445"
     },
     {
       "question": "Will Roy Cooper win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0065\", \"0.9935\"]",
-      "volume": 31305591.179476406,
+      "volume": 31305619.465642408,
       "slug": "will-roy-cooper-win-the-2028-democratic-presidential-nomination-286"
     },
     {
       "question": "Will John Fetterman win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 24337878.95507319,
+      "volume": 24337926.390739188,
       "slug": "will-john-fetterman-win-the-2028-democratic-presidential-nomination-941"
     },
     {
       "question": "Will Jared Polis win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0025\", \"0.9975\"]",
-      "volume": 27150608.32149184,
+      "volume": 27152294.97749184,
       "slug": "will-jared-polis-win-the-2028-democratic-presidential-nomination-837"
     },
     {
       "question": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0225\", \"0.9775\"]",
-      "volume": 24546263.28342129,
+      "volume": 24556291.513421286,
       "slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518"
     },
     {
       "question": "Will Barack Obama win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 33813034.773666635,
+      "volume": 33813092.79299963,
       "slug": "will-barack-obama-win-the-2028-democratic-presidential-nomination-265"
     },
     {
       "question": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 43461027.48950485,
+      "volume": 43461288.68783686,
       "slug": "will-hillary-clinton-win-the-2028-democratic-presidential-nomination"
     },
     {
       "question": "Will Liz Cheney win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0025\", \"0.9975\"]",
-      "volume": 38279378.668826036,
+      "outcomePrices": "[\"0.003\", \"0.997\"]",
+      "volume": 38280975.75532604,
       "slug": "will-liz-cheney-win-the-2028-democratic-presidential-nomination-551"
     },
     {
       "question": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0065\", \"0.9935\"]",
-      "volume": 52536652.94357825,
+      "volume": 52536822.49291124,
       "slug": "will-bernie-sanders-win-the-2028-democratic-presidential-nomination-879"
     },
     {
       "question": "Will Phil Murphy win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 41969025.90855662,
+      "volume": 41969027.51855662,
       "slug": "will-phil-murphy-win-the-2028-democratic-presidential-nomination-611"
     },
     {
       "question": "Will LeBron James win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0045\", \"0.9955\"]",
-      "volume": 43734660.48418683,
+      "volume": 43734678.712436825,
       "slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination"
     },
     {
       "question": "Will Hunter Biden win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0055\", \"0.9945\"]",
-      "volume": 43854743.846399814,
+      "volume": 43855052.053199805,
       "slug": "will-person-a-win-the-2028-democratic-presidential-nomination"
     },
     {
       "question": "Will George Clooney win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 42872477.02884354,
+      "volume": 42872740.463508524,
       "slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination"
     },
     {
       "question": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0085\", \"0.9915\"]",
-      "volume": 50124330.371794365,
+      "volume": 50124350.13129437,
       "slug": "will-chelsea-clinton-win-the-2028-democratic-presidential-nomination"
     },
     {
       "question": "Will MrBeast win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0025\", \"0.9975\"]",
-      "volume": 40292956.69578483,
+      "volume": 40293101.90878483,
       "slug": "will-mrbeast-win-the-2028-democratic-presidential-nomination"
     },
     {
@@ -305,13 +295,13 @@
     {
       "question": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0045\", \"0.9955\"]",
-      "volume": 54167390.726869084,
+      "volume": 54174147.4598691,
       "slug": "will-oprah-winfrey-win-the-2028-democratic-presidential-nomination"
     },
     {
       "question": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
       "outcomePrices": "[\"0.0025\", \"0.9975\"]",
-      "volume": 48395489.27637499,
+      "volume": 48396627.08287498,
       "slug": "will-andrew-yang-win-the-2028-democratic-presidential-nomination"
     }
   ]
