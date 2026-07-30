@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^5.0.1",
     "markdown-it-multimd-table": "^4.2.3"
   }
 }

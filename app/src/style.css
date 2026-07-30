@@ -11,6 +11,7 @@
   --topic: #e0883b;
   --ok: #3fb950;
   --err: #e5534b;
+  --bias-left: #4c8bf5;
   --serif: "Iowan Old Style", "Charter", Georgia, Cambria, ui-serif, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
   --mono: ui-monospace, "SF Mono", Menlo, monospace;
@@ -150,6 +151,11 @@ button:focus-visible, input:focus-visible, summary:focus-visible, a:focus-visibl
 .source-link.visited { color: color-mix(in srgb, var(--accent) 55%, var(--muted)); }
 .source-link[data-source="primary"] { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
 .source-count { display: inline-block; margin-left: 8px; color: var(--muted); font-size: .76em; white-space: nowrap; }
+.prose a[class*="bias-"] { position: relative; padding-left: 11px; }
+.prose a[class*="bias-"]::before { content: ''; position: absolute; left: 0; top: 50%; width: 6px; height: 6px; border-radius: 50%; transform: translateY(-50%); }
+.prose a.bias-left::before, .prose a.bias-lean-left::before { background: var(--bias-left); }
+.prose a.bias-right::before, .prose a.bias-lean-right::before { background: var(--err); }
+.prose a.bias-center::before { background: var(--muted); }
 .brief-nav { max-width: 760px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); }
 .brief-nav button { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; border: 0; border-radius: 8px; background: transparent; color: var(--ink); padding: 8px; text-align: left; cursor: pointer; }
 .brief-nav button:hover { background: var(--panel-2); }

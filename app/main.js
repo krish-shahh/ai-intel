@@ -4,6 +4,7 @@ const fs = require('fs');
 const { exec } = require('child_process');
 const MarkdownIt = require('markdown-it');
 const multimdTable = require('markdown-it-multimd-table');
+const markdownItAttrs = require('markdown-it-attrs');
 
 const PULL_INTERVAL_MS = 10 * 60 * 1000; // auto-pull every 10 minutes
 let pullTimer = null;
@@ -35,7 +36,8 @@ function resolveVault() {
 }
 
 const md = new MarkdownIt({ html: false, linkify: true, typographer: true })
-  .use(multimdTable, { multiline: false, rowspan: false, headerless: false, multibody: true });
+  .use(multimdTable, { multiline: false, rowspan: false, headerless: false, multibody: true })
+  .use(markdownItAttrs);
 
 let win = null;
 // The app lives at <vault>/app, so the vault is the parent directory by default.
