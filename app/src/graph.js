@@ -31,6 +31,7 @@ window.ForceGraph = function (canvas, initialData, onOpen) {
     nodes = nextNodes; links = nextLinks; byId = nextById; nbr = nextNbr;
     drag = drag && byId[drag.id] ? byId[drag.id] : null;
     hover = hover && byId[hover.id] ? byId[hover.id] : null;
+    selected = selected && byId[selected.id] ? byId[selected.id] : null;
     dragging = !!drag;
   }
 
@@ -43,7 +44,7 @@ window.ForceGraph = function (canvas, initialData, onOpen) {
   let W = 0, H = 0;
   const dpr = Math.max(1, window.devicePixelRatio || 1);
   const cam = { x: 0, y: 0, z: 1 };
-  let hover = null, drag = null, dragOffset = null, dragging = false, panning = false, down = null, raf = null;
+  let hover = null, selected = null, drag = null, dragOffset = null, dragging = false, panning = false, down = null, raf = null;
   let alpha = 1;
   const ALPHA_MIN = 0.001, ALPHA_DECAY = 0.012;
   const hiddenTypes = new Set();
@@ -115,6 +116,10 @@ window.ForceGraph = function (canvas, initialData, onOpen) {
       const s = toScreen(n), r = radius(n) * cam.z;
       const dim = hover && hover !== n && !(nbr[hover.id] && nbr[hover.id].has(n.id));
       const color = col[typeOf(n)] || '#888';
+      if (n === selected) {
+        ctx.globalAlpha = 0.55; ctx.strokeStyle = color; ctx.lineWidth = 2;
+        ctx.beginPath(); ctx.arc(s.x, s.y, r + 6, 0, Math.PI * 2); ctx.stroke(); ctx.lineWidth = 1;
+      }
       ctx.beginPath(); ctx.arc(s.x, s.y, r, 0, 7);
       if (n.kind === 'cluster') {
         ctx.globalAlpha = (dim ? 0.22 : 1) * 0.3; ctx.fillStyle = color; ctx.fill();
@@ -198,5 +203,28 @@ window.ForceGraph = function (canvas, initialData, onOpen) {
     destroy() { cancelAnimationFrame(raf); ro.disconnect(); },
     toggleType(t) { hiddenTypes.has(t) ? hiddenTypes.delete(t) : hiddenTypes.add(t); return hiddenTypes.has(t); },
     update(newData) { place(newData); alpha = 1; },
+    connections(id) { return nbr[id]?.size || 0; },
+    find(q) { return nodes.find((n) => `${n.label} ${n.id}`.toLowerCase().includes(q)); },
+    focus(id) {
+      const node = byId[id];
+      if (!node) return null;
+      selected = node;
+      cam.x = -node.x * cam.z; cam.y = -node.y * cam.z;
+      return node;
+    },
+    fit() {
+      const visible = nodes.filter((n) => !hiddenTypes.has(typeOf(n)));
+      if (!visible.length || !W || !H) return;
+      const xs = visible.map((n) => n.x), ys = visible.map((n) => n.y);
+      const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
+      const spanX = Math.max(120, maxX - minX), spanY = Math.max(120, maxY - minY);
+      cam.z = Math.max(0.3, Math.min(1.6, Math.min((W - 160) / spanX, (H - 120) / spanY)));
+      cam.x = -((minX + maxX) / 2) * cam.z; cam.y = -((minY + maxY) / 2) * cam.z;
+    },
+    reset() {
+      const r = 90 + Math.sqrt(nodes.length) * 32;
+      nodes.forEach((n, i) => { const a = i / Math.max(1, nodes.length) * Math.PI * 2; n.x = Math.cos(a) * r; n.y = Math.sin(a) * r; n.vx = n.vy = 0; });
+      cam.x = 0; cam.y = 0; cam.z = 1; selected = null; alpha = 1;
+    },
   };
 };

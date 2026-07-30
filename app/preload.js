@@ -5,6 +5,8 @@ contextBridge.exposeInMainWorld('vault', {
   pick: () => ipcRenderer.invoke('vault:pick'),
   pull: () => ipcRenderer.invoke('vault:pull'),
   status: () => ipcRenderer.invoke('vault:status'),
+  loadPreferences: () => ipcRenderer.invoke('preferences:load'),
+  savePreferences: (preferences) => ipcRenderer.invoke('preferences:save', preferences),
   openExternal: (url) => ipcRenderer.send('open:external', url),
   onChanged: (cb) => ipcRenderer.on('vault:changed', cb),
   onPull: (cb) => ipcRenderer.on('vault:pull', (_e, d) => cb(d)),

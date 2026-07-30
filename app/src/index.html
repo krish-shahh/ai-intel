@@ -8,11 +8,12 @@
 </head>
 <body>
   <header id="topbar">
-    <div class="brand">ai<i>·</i>intel</div>
+    <div class="brand"><img src="mark.svg" alt="" aria-hidden="true"><span>ai<i>·</i>intel</span></div>
     <nav id="switch" aria-label="Primary views">
       <button data-v="dashboard" class="active" aria-current="page">Dashboard</button>
       <button data-v="graph">Graph</button>
       <button data-v="files">Files</button>
+      <button data-v="settings">Settings</button>
     </nav>
     <div class="tools">
       <span id="sync" role="status" aria-live="polite" title="Last sync">…</span>
@@ -20,6 +21,7 @@
       <button id="refresh" aria-label="Pull latest updates" title="Pull latest updates">⟳</button>
     </div>
   </header>
+  <div id="readingprogress" aria-hidden="true"><span></span></div>
   <main id="view"></main>
   <div id="commandpalette" class="command-backdrop" role="dialog" aria-modal="true" aria-labelledby="commandtitle" hidden>
     <div class="command-shell">

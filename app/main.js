@@ -3,6 +3,7 @@ const path = require('path');
 const fs = require('fs');
 const { exec } = require('child_process');
 const MarkdownIt = require('markdown-it');
+const multimdTable = require('markdown-it-multimd-table');
 
 const PULL_INTERVAL_MS = 10 * 60 * 1000; // auto-pull every 10 minutes
 let pullTimer = null;
@@ -17,7 +18,13 @@ const EXEC_ENV = {
 const cfgFile = () => path.join(app.getPath('userData'), 'config.json');
 const isVault = (p) => { try { return fs.existsSync(path.join(p, 'briefs')) || fs.existsSync(path.join(p, 'people')); } catch (e) { return false; } };
 function loadConfig() { try { return JSON.parse(fs.readFileSync(cfgFile(), 'utf8')); } catch (e) { return {}; } }
-function saveConfig(c) { try { fs.mkdirSync(path.dirname(cfgFile()), { recursive: true }); fs.writeFileSync(cfgFile(), JSON.stringify(c)); } catch (e) {} }
+function saveConfig(c) {
+  try {
+    fs.mkdirSync(path.dirname(cfgFile()), { recursive: true });
+    fs.writeFileSync(cfgFile(), JSON.stringify({ ...loadConfig(), ...c }, null, 2));
+    return true;
+  } catch (e) { return false; }
+}
 function resolveVault() {
   const saved = loadConfig().vaultPath;
   if (saved && isVault(saved)) return saved;
@@ -27,7 +34,8 @@ function resolveVault() {
   return path.resolve(__dirname, '..');
 }
 
-const md = new MarkdownIt({ html: false, linkify: true, typographer: true });
+const md = new MarkdownIt({ html: false, linkify: true, typographer: true })
+  .use(multimdTable, { multiline: false, rowspan: false, headerless: false, multibody: true });
 
 let win = null;
 // The app lives at <vault>/app, so the vault is the parent directory by default.
@@ -207,6 +215,8 @@ ipcMain.handle('vault:pick', async () => {
 });
 ipcMain.handle('vault:pull', () => gitPull('manual'));
 ipcMain.handle('vault:status', async () => ({ git: await gitInfo(), ci: await ciInfo() }));
+ipcMain.handle('preferences:load', () => loadConfig().preferences || {});
+ipcMain.handle('preferences:save', (_e, preferences) => ({ ok: saveConfig({ preferences }) }));
 ipcMain.on('open:external', (_e, url) => { if (/^https?:/.test(url)) shell.openExternal(url); });
 
 app.whenReady().then(() => { vaultPath = resolveVault(); createWindow(); });

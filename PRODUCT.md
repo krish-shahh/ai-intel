@@ -31,3 +31,7 @@ Avoid generic SaaS dashboards, ornamental card grids, news-feed clutter, gratuit
 ## Accessibility & Inclusion
 
 Formal compliance certification is not a project requirement. Maintain comfortable contrast in light and dark environments, visible keyboard focus, sensible semantics, reduced-motion behavior, and readable type as baseline product quality.
+
+## Deferred Ideas
+
+- Revisit per-story feedback after the brief generator can consume it. Useful, Already knew, and Less like this should affect novelty thresholds and editorial weighting rather than merely storing inert local ratings.

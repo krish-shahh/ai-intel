@@ -1,0 +1,42 @@
+# Outlet bias/reliability reference, in the spirit of Ground News' source ratings.
+# Read by both brief routines. Sourced from well-established public consensus
+# (AllSides / Ad Fontes Media / Media Bias Fact Check) rather than invented —
+# but media bias ratings are inherently contestable, so treat these as a rough
+# signal, not gospel. Not exhaustive: for an outlet not listed here, either skip
+# the bias tag entirely or say "unrated" — never guess confidently.
+#
+# bias: Left / Lean Left / Center / Lean Right / Right
+# reliability: High / Mixed / Low
+
+outlets:
+  Reuters: { bias: Center, reliability: High }
+  AP: { bias: Center, reliability: High }
+  Associated Press: { bias: Center, reliability: High }
+  Bloomberg: { bias: Center, reliability: High }
+  Axios: { bias: Center, reliability: High }
+  CNBC: { bias: Center, reliability: High }
+  Fortune: { bias: Center, reliability: High }
+  Forbes: { bias: Center, reliability: Mixed }
+  TechCrunch: { bias: Center, reliability: High }
+  Ars Technica: { bias: Center, reliability: High }
+  The Verge: { bias: Lean Left, reliability: High }
+  Wired: { bias: Lean Left, reliability: High }
+  Business Insider: { bias: Lean Left, reliability: Mixed }
+  CNN: { bias: Lean Left, reliability: Mixed }
+  New York Times: { bias: Lean Left, reliability: High }
+  NYT: { bias: Lean Left, reliability: High }
+  Washington Post: { bias: Lean Left, reliability: High }
+  Politico: { bias: Lean Left, reliability: High }
+  Wall Street Journal: { bias: Lean Right, reliability: High }
+  WSJ: { bias: Lean Right, reliability: High }
+  Fox News: { bias: Right, reliability: Mixed }
+  New York Post: { bias: Lean Right, reliability: Mixed }
+  TechTimes: { bias: Center, reliability: Mixed }
+  Decrypt: { bias: Center, reliability: Mixed }
+  Benzinga: { bias: Center, reliability: Mixed }
+  Seeking Alpha: { bias: Center, reliability: Mixed }
+  Yahoo Finance: { bias: Center, reliability: Mixed }
+  MarkTechPost: { bias: Center, reliability: Mixed }
+  The Decoder: { bias: Center, reliability: Mixed }
+  Neowin: { bias: Center, reliability: Mixed }
+  MacRumors: { bias: Center, reliability: Mixed }

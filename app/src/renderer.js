@@ -18,9 +18,26 @@ let FILE_HISTORY_INDEX = -1;
 let READER_SCROLL = new Map();
 let COMMAND_RETURN_FOCUS = null;
 let TREE_FOCUS_KEY = null;
+let TREE_SCOPE = 'all';
+let GRAPH_RANGE = 'all';
+let GRAPH_SELECTED = null;
+let PENDING_GRAPH_FOCUS = null;
+let PREFS = {};
 
 const LAST_READ_KEY = 'ai-intel:last-read-brief';
 const LAST_FILE_KEY = 'ai-intel:last-file';
+const READER_SCROLL_KEY = 'ai-intel:reader-scroll';
+const VISITED_LINKS_KEY = 'ai-intel:visited-links';
+const DEFAULT_PREFS = {
+  readingMinutes: 5,
+  priorities: 'coding agents\nmodel releases\nopen-source models\ndeveloper tools\nAI research',
+  hiddenTopics: 'funding without product impact\nexecutive gossip\ngeneric AI tutorials\nsponsored launches',
+  companyWeights: 'OpenAI: 3\nAnthropic: 3\nGoogle DeepMind: 3\nMeta: 2\nxAI: 1',
+  minimumScore: 9,
+  morningLimit: 12,
+  eveningLimit: 12,
+  theme: 'system',
+};
 
 const cap = (s) => (s ? s[0].toUpperCase() + s.slice(1) : '');
 function fmtDate(d, long) {
@@ -57,7 +74,10 @@ function noteTitle(n) {
 }
 
 async function load() {
-  const v = await window.vault.load();
+  const [v, savedPrefs] = await Promise.all([window.vault.load(), window.vault.loadPreferences()]);
+  PREFS = { ...DEFAULT_PREFS, ...savedPrefs };
+  applyTheme();
+  try { READER_SCROLL = new Map(Object.entries(JSON.parse(localStorage.getItem(READER_SCROLL_KEY) || '{}'))); } catch (e) { READER_SCROLL = new Map(); }
   DATA.vaultPath = v.vaultPath; DATA.notes = v.notes; DATA.tree = v.tree;
   const by = (t) => v.notes.filter((n) => n.top === t);
   DATA.briefs = by('briefs').sort((a, b) => (b.data.date || '').localeCompare(a.data.date || '') || a.name.localeCompare(b.name));
@@ -75,11 +95,21 @@ async function load() {
   }
   render();
 }
+function applyTheme() {
+  document.documentElement.dataset.theme = PREFS.theme || 'system';
+}
+async function savePreferences() {
+  applyTheme();
+  await window.vault.savePreferences(PREFS);
+}
+function saveReaderScroll() {
+  localStorage.setItem(READER_SCROLL_KEY, JSON.stringify(Object.fromEntries(READER_SCROLL)));
+}
 function selectNote(note, record = true) {
   if (!note) return;
   if (CURRENT && CURRENT.path === note.path && VIEW === 'files') return;
   const previousReader = document.querySelector('.reader');
-  if (CURRENT && previousReader) READER_SCROLL.set(CURRENT.path, previousReader.scrollTop);
+  if (CURRENT && previousReader) { READER_SCROLL.set(CURRENT.path, previousReader.scrollTop); saveReaderScroll(); }
   CURRENT = note;
   localStorage.setItem(LAST_FILE_KEY, note.path);
   if (record) {
@@ -102,7 +132,7 @@ function moveFileHistory(delta) {
 }
 function setView(v) {
   const reader = document.querySelector('.reader');
-  if (VIEW === 'files' && CURRENT && reader) READER_SCROLL.set(CURRENT.path, reader.scrollTop);
+  if (VIEW === 'files' && CURRENT && reader) { READER_SCROLL.set(CURRENT.path, reader.scrollTop); saveReaderScroll(); }
   VIEW = v;
   render();
 }
@@ -118,6 +148,52 @@ function markCaughtUp() {
   localStorage.setItem(LAST_READ_KEY, latest.slug);
   render();
 }
+function sourceKind(url) {
+  const host = url.hostname.replace(/^www\./, '');
+  if (/reddit\.com|news\.ycombinator\.com|x\.com|twitter\.com/.test(host)) return 'community';
+  if (/github\.com|arxiv\.org|openai\.com|anthropic\.com|deepmind\.google|ai\.google|meta\.com/.test(host)) return 'primary';
+  return 'independent';
+}
+function enhanceBrief(article, note) {
+  if (!article || !note) return;
+  let visited;
+  try { visited = new Set(JSON.parse(localStorage.getItem(VISITED_LINKS_KEY) || '[]')); } catch (e) { visited = new Set(); }
+  article.querySelectorAll('a[href]').forEach((link) => {
+    const href = link.getAttribute('href') || '';
+    if (!/^https?:/.test(href)) return;
+    try {
+      const url = new URL(href);
+      const kind = sourceKind(url);
+      link.classList.add('source-link');
+      if (visited.has(href)) link.classList.add('visited');
+      link.dataset.source = kind;
+      link.title = `${kind[0].toUpperCase() + kind.slice(1)} source · ${url.hostname}`;
+    } catch (e) {}
+  });
+  article.querySelectorAll(':scope > ul > li, :scope > ol > li').forEach((item) => {
+    const links = item.querySelectorAll('a[href^="http"]');
+    if (links.length) {
+      const kinds = [...new Set([...links].map((link) => link.dataset.source).filter(Boolean))];
+      const detail = [`${links.length} source${links.length === 1 ? '' : 's'}`, ...kinds].join(' · ');
+      item.insertAdjacentHTML('beforeend', `<span class="source-count">${esc(detail)}</span>`);
+    }
+  });
+}
+function briefFooter(note) {
+  const index = DATA.briefs.findIndex((brief) => brief.path === note.path);
+  if (index < 0) return '';
+  const newer = DATA.briefs[index - 1];
+  const older = DATA.briefs[index + 1];
+  return `<nav class="brief-nav" aria-label="Brief navigation">${older ? `<button type="button" data-open="${esc(older.slug)}"><small>Older brief</small><span>${esc(briefLabel(older))}</span></button>` : '<span></span>'}${newer ? `<button type="button" data-open="${esc(newer.slug)}" class="next"><small>Newer brief</small><span>${esc(briefLabel(newer))}</span></button>` : '<span></span>'}</nav>`;
+}
+function updateReadingProgress(scroller) {
+  const bar = $('#readingprogress span');
+  if (!bar) return;
+  if (!scroller) { bar.style.transform = 'scaleX(0)'; return; }
+  const max = scroller.scrollHeight - scroller.clientHeight;
+  const progress = max > 0 ? Math.min(1, scroller.scrollTop / max) : 1;
+  bar.style.transform = `scaleX(${progress})`;
+}
 
 /* ---------------- Dashboard ---------------- */
 function Dashboard() {
@@ -131,15 +207,23 @@ function Dashboard() {
     `<button class="brow" type="button" data-open="${esc(b.slug)}"><span>${esc(fmtDate(b.data.date) || b.slug)}</span><span class="s">${esc(b.data.session || '')}</span></button>`
   ).join('') || '<div class="how">No briefs yet.</div>';
 
+  const chip = (n, count) => `<button class="chip" type="button" data-open="${esc(n.slug)}">${esc(noteTitle(n))}${count ? `<b>${count}</b>` : ''}</button>`;
+  const topBy = (arr, counts, n) => [...arr].filter((p) => counts[p.slug]).sort((a, b) => counts[b.slug] - counts[a.slug]).slice(0, n);
+  const pc = mentions('people'), tc = mentions('topics');
+  const topPeople = topBy(DATA.people, pc, 5);
+  const topTopics = topBy(DATA.topics, tc, 5);
+
   wrap.appendChild(elem('aside', 'rail', `
     <div class="rblk session"><div class="lbl">Reading session</div><div class="session-state">${esc(sessionLabel)}</div><div class="cad">Next brief ${esc(nr)}</div></div>
     <div class="rblk history"><div class="lbl">Recent</div><div class="blist">${recent}</div></div>
+    ${topPeople.length ? `<div class="rblk"><div class="lbl">Top people</div><div class="chips">${topPeople.map((p) => chip(p, pc[p.slug])).join('')}</div></div>` : ''}
+    ${topTopics.length ? `<div class="rblk"><div class="lbl">Top topics</div><div class="chips">${topTopics.map((t) => chip(t, tc[t.slug])).join('')}</div></div>` : ''}
     <details class="health rblk foot"><summary><span>System health</span><span class="health-summary" id="healthsummary">Checking</span></summary><div class="status" id="statusblk"><div class="srow ok2"><span class="sdot"></span>Checking status…</div></div></details>`));
 
   const chips = (slugs) => slugs
     .map((slug) => SLUG[slug])
     .filter(Boolean)
-    .map((p) => `<button class="chip" type="button" data-open="${esc(p.slug)}">${esc(noteTitle(p))}</button>`).join('');
+    .map((p) => chip(p)).join('');
 
   const canvas = elem('section', 'canvas');
   if (latest) {
@@ -151,10 +235,12 @@ function Dashboard() {
       <div class="browse">
         ${(latest.data.people || []).length ? `<div class="lbl">People in this brief</div><div class="chips">${chips(latest.data.people)}</div>` : ''}
         ${(latest.data.topics || []).length ? `<div class="lbl">Topics in this brief</div><div class="chips">${chips(latest.data.topics)}</div>` : ''}
-      </div>`;
+      </div>${briefFooter(latest)}`;
+    enhanceBrief(canvas.querySelector('.prose'), latest);
   } else {
     canvas.innerHTML = `<div class="empty">No briefs yet — the first one lands ${esc(nr)}.</div>`;
   }
+  canvas.addEventListener('scroll', () => updateReadingProgress(canvas), { passive: true });
   wrap.appendChild(canvas);
   return wrap;
 }
@@ -189,7 +275,8 @@ function buildGraphData() {
   DATA.topics.forEach((t) => add('topic:' + t.slug, t.data.title || t.slug, 'topic'));
 
   const months = new Map();
-  for (const b of DATA.briefs) {
+  const cutoff = GRAPH_RANGE === 'all' ? null : new Date(Date.now() - Number(GRAPH_RANGE) * 86400000).toISOString().slice(0, 10);
+  for (const b of DATA.briefs.filter((brief) => !cutoff || (brief.data.date || '') >= cutoff)) {
     if (!b.data.date) continue;
     const mk = monthKey(b.data.date), wk = weekKey(b.data.date);
     if (!months.has(mk)) months.set(mk, new Map());
@@ -235,10 +322,33 @@ function buildGraphData() {
   }
   return { nodes, links };
 }
+function showGraphInspector(node) {
+  GRAPH_SELECTED = node;
+  const panel = document.querySelector('.graph-inspector');
+  if (!panel || !node) return;
+  const type = node.baseType || node.type;
+  const note = node.kind === 'leaf' ? SLUG[node.id.split(':').slice(1).join(':')] : null;
+  const connections = GRAPH?.connections(node.id) || 0;
+  panel.hidden = false;
+  panel.innerHTML = `<button type="button" class="inspector-close" data-graph-action="close-inspector" aria-label="Close inspector">×</button><div class="lbl">${esc(type)}</div><h2>${esc(node.label)}</h2><p>${node.kind === 'cluster' ? `${node.count} briefs in this cluster` : `${connections} connection${connections === 1 ? '' : 's'}`}</p>${note ? `<button type="button" class="primary-action" data-open="${esc(note.slug)}">Open note</button>` : ''}`;
+}
+function showInGraph(slug) {
+  const note = SLUG[slug];
+  if (!note) return;
+  GRAPH_RANGE = 'all';
+  if (note.top === 'briefs') {
+    EXPANDED_MONTH = monthKey(note.data.date || note.slug);
+    EXPANDED_WEEK = weekKey(note.data.date || note.slug);
+    PENDING_GRAPH_FOCUS = `brief:${note.slug}`;
+  } else PENDING_GRAPH_FOCUS = `${note.top === 'people' ? 'person' : 'topic'}:${note.slug}`;
+  setView('graph');
+}
 function Graph() {
   const wrap = elem('div', 'graphwrap');
   const cv = elem('canvas');
   wrap.appendChild(cv);
+  wrap.appendChild(elem('div', 'graph-tools', `<div class="graph-search"><input type="text" data-graph-search placeholder="Find a person, topic, or brief…" aria-label="Find a graph node"><kbd>↵</kbd></div><div class="range-switch" aria-label="Graph time range">${['7', '30', 'all'].map((range) => `<button type="button" data-graph-range="${range}" class="${GRAPH_RANGE === range ? 'active' : ''}">${range === 'all' ? 'All' : `${range}d`}</button>`).join('')}</div><button type="button" data-graph-action="fit">Fit</button><button type="button" data-graph-action="reset">Reset</button>`));
+  wrap.appendChild(elem('aside', 'graph-inspector'));
   const legend = elem('div', 'legend', `
     <div class="row" data-gtype="brief"><span class="swatch" style="background:var(--brief)"></span>Briefs</div>
     <div class="row" data-gtype="person"><span class="swatch" style="background:var(--person)"></span>People</div>
@@ -251,7 +361,8 @@ function Graph() {
     row.classList.toggle('off', GRAPH.toggleType(row.dataset.gtype));
   });
   const onNodeClick = (n) => {
-    if (n.kind !== 'cluster') { openNote(n.id.split(':').slice(1).join(':')); return; }
+    showGraphInspector(n);
+    if (n.kind !== 'cluster') return;
     if (n.type === 'month') {
       const mk = n.id.slice('month:'.length);
       EXPANDED_MONTH = EXPANDED_MONTH === mk ? null : mk;
@@ -266,6 +377,20 @@ function Graph() {
   requestAnimationFrame(() => {
     if (GRAPH) GRAPH.destroy();
     GRAPH = window.ForceGraph(cv, buildGraphData(), onNodeClick);
+    GRAPH.fit();
+    if (PENDING_GRAPH_FOCUS) {
+      const node = GRAPH.focus(PENDING_GRAPH_FOCUS);
+      if (node) showGraphInspector(node);
+      PENDING_GRAPH_FOCUS = null;
+    }
+  });
+  const search = wrap.querySelector('[data-graph-search]');
+  search.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    const q = search.value.trim().toLowerCase();
+    if (!q || !GRAPH) return;
+    const node = GRAPH.find(q);
+    if (node) { GRAPH.focus(node.id); showGraphInspector(node); search.value = node.label; }
   });
   return wrap;
 }
@@ -316,7 +441,10 @@ function countFiles(node) {
 function renderTreeRows(rowsEl) {
   const q = TREE_FILTER.trim().toLowerCase();
   const rows = [];
-  if (DATA.tree) treeRows(DATA.tree, 0, rows, q);
+  if (DATA.tree) {
+    const root = TREE_SCOPE === 'all' ? DATA.tree : { ...DATA.tree, children: (DATA.tree.children || []).filter((child) => child.path === TREE_SCOPE) };
+    treeRows(root, 0, rows, q);
+  }
   rowsEl.innerHTML = rows.join('') || `<div class="how">${q ? 'No matches.' : 'Empty vault.'}</div>`;
   const nodes = rowsEl.querySelectorAll('.tnode');
   const focused = TREE_FOCUS_KEY && rowsEl.querySelector(`[data-path="${CSS.escape(TREE_FOCUS_KEY)}"], [data-dir="${CSS.escape(TREE_FOCUS_KEY)}"]`);
@@ -378,6 +506,7 @@ function Files() {
   filterInput.setAttribute('aria-label', 'Filter files');
   filterInput.value = TREE_FILTER;
   filterWrap.appendChild(filterInput);
+  filterWrap.appendChild(elem('div', 'tree-scopes', ['all', 'briefs', 'people', 'topics'].map((scope) => `<button type="button" data-tree-scope="${scope}" class="${TREE_SCOPE === scope ? 'active' : ''}">${cap(scope)}</button>`).join('')));
 
   const rowsEl = elem('div', 'treerows');
   renderTreeRows(rowsEl);
@@ -392,19 +521,46 @@ function Files() {
   tree.appendChild(rowsEl);
 
   const reader = elem('section', 'reader');
-  reader.addEventListener('scroll', () => { if (CURRENT) READER_SCROLL.set(CURRENT.path, reader.scrollTop); }, { passive: true });
+  reader.addEventListener('scroll', () => {
+    if (CURRENT) READER_SCROLL.set(CURRENT.path, reader.scrollTop);
+    updateReadingProgress(reader);
+  }, { passive: true });
   if (CURRENT) {
     const sub = CURRENT.top === 'briefs'
       ? `${esc(fmtDate(CURRENT.data.date, true))} · ${esc(cap(CURRENT.data.session || ''))}`
       : '';
     const backlinks = noteBacklinks(CURRENT);
     const metaParts = [sub, `${backlinks} backlink${backlinks === 1 ? '' : 's'}`].filter(Boolean).join(' · ');
-    reader.innerHTML = `<div class="reader-toolbar"><div class="history-controls"><button type="button" data-history="-1" aria-label="Previous note" title="Previous note" ${FILE_HISTORY_INDEX <= 0 ? 'disabled' : ''}>←</button><button type="button" data-history="1" aria-label="Next note" title="Next note" ${FILE_HISTORY_INDEX >= FILE_HISTORY.length - 1 ? 'disabled' : ''}>→</button></div><span class="file-kind">${esc(CURRENT.top || 'note')}</span></div><h1 class="rhead">${esc(noteTitle(CURRENT))}</h1><div class="rmeta">${esc(metaParts)}</div><div class="reader-layout"><article class="prose reader-body">${CURRENT.html}</article><aside class="outline" aria-label="Document outline"></aside></div>`;
+    reader.innerHTML = `<div class="reader-toolbar"><div class="history-controls"><button type="button" data-history="-1" aria-label="Previous note" title="Previous note" ${FILE_HISTORY_INDEX <= 0 ? 'disabled' : ''}>←</button><button type="button" data-history="1" aria-label="Next note" title="Next note" ${FILE_HISTORY_INDEX >= FILE_HISTORY.length - 1 ? 'disabled' : ''}>→</button></div><div class="reader-actions"><button type="button" data-show-graph="${esc(CURRENT.slug)}">Show in graph</button><span class="file-kind">${esc(CURRENT.top || 'note')}</span></div></div><h1 class="rhead">${esc(noteTitle(CURRENT))}</h1><div class="rmeta">${esc(metaParts)}</div><div class="reader-layout"><div><article class="prose reader-body">${CURRENT.html}</article>${CURRENT.top === 'briefs' ? briefFooter(CURRENT) : ''}</div><aside class="outline" aria-label="Document outline"></aside></div>`;
+    if (CURRENT.top === 'briefs') enhanceBrief(reader.querySelector('.reader-body'), CURRENT);
     addReaderOutline(reader);
   } else {
     reader.innerHTML = `<div class="empty">Select a note.</div>`;
   }
   wrap.appendChild(tree); wrap.appendChild(reader);
+  return wrap;
+}
+
+/* ---------------- Settings ---------------- */
+function Settings() {
+  const wrap = elem('section', 'settings');
+  wrap.innerHTML = `<div class="settings-head"><div><div class="eyebrow">Local preferences</div><h1>Settings</h1><p>Tune the reader and keep your editorial profile in one private place on this Mac.</p></div><span class="save-state" id="savestate"></span></div>
+    <form id="settingsform">
+      <section><h2>Reading</h2><div class="setting-grid"><label><span>Target reading time</span><input name="readingMinutes" type="number" min="2" max="20" value="${PREFS.readingMinutes}"><small>Minutes per brief</small></label><label><span>Theme</span><select name="theme"><option value="system" ${PREFS.theme === 'system' ? 'selected' : ''}>System</option><option value="light" ${PREFS.theme === 'light' ? 'selected' : ''}>Light</option><option value="dark" ${PREFS.theme === 'dark' ? 'selected' : ''}>Dark</option></select><small>Applied immediately</small></label><label><span>Minimum story score</span><input name="minimumScore" type="number" min="0" max="15" value="${PREFS.minimumScore}"><small>Higher means less noise</small></label></div></section>
+      <section><h2>Brief limits</h2><div class="setting-grid"><label><span>Morning items</span><input name="morningLimit" type="number" min="3" max="30" value="${PREFS.morningLimit}"></label><label><span>Evening items</span><input name="eveningLimit" type="number" min="3" max="30" value="${PREFS.eveningLimit}"></label></div></section>
+      <section><h2>Editorial priorities</h2><div class="setting-columns"><label><span>Prioritize</span><textarea name="priorities" rows="7">${esc(PREFS.priorities)}</textarea><small>One topic per line</small></label><label><span>Deprioritize</span><textarea name="hiddenTopics" rows="7">${esc(PREFS.hiddenTopics)}</textarea><small>One topic per line</small></label></div></section>
+      <section><h2>Company weights</h2><label><span>Company: weight</span><textarea name="companyWeights" rows="6">${esc(PREFS.companyWeights)}</textarea><small>Use 0–3. This keeps your intended source mix explicit and ready for generator integration.</small></label></section>
+      <div class="settings-footer"><button type="submit" class="primary-action">Save preferences</button></div>
+    </form>`;
+  const form = wrap.querySelector('#settingsform');
+  form.addEventListener('change', (e) => { if (e.target.name === 'theme') { PREFS.theme = e.target.value; applyTheme(); } });
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const values = Object.fromEntries(new FormData(form));
+    PREFS = { ...PREFS, ...values, readingMinutes: Number(values.readingMinutes), minimumScore: Number(values.minimumScore), morningLimit: Number(values.morningLimit), eveningLimit: Number(values.eveningLimit) };
+    const state = wrap.querySelector('#savestate'); state.textContent = 'Saving…';
+    await savePreferences(); state.textContent = 'Saved locally';
+  });
   return wrap;
 }
 
@@ -420,7 +576,7 @@ function render() {
   const prevRows = view.querySelector('.treerows');
   const treeScroll = prevRows ? prevRows.scrollTop : null;
   view.innerHTML = '';
-  view.appendChild(VIEW === 'dashboard' ? Dashboard() : VIEW === 'graph' ? Graph() : Files());
+  view.appendChild(VIEW === 'dashboard' ? Dashboard() : VIEW === 'graph' ? Graph() : VIEW === 'files' ? Files() : Settings());
   if (VIEW === 'files') {
     const rowsEl = view.querySelector('.treerows');
     if (rowsEl) {
@@ -429,9 +585,14 @@ function render() {
       if (sel) sel.scrollIntoView({ block: 'nearest' });
     }
     const reader = view.querySelector('.reader');
-    if (reader && CURRENT) reader.scrollTop = READER_SCROLL.get(CURRENT.path) || 0;
+    if (reader && CURRENT) { reader.scrollTop = Number(READER_SCROLL.get(CURRENT.path) || 0); updateReadingProgress(reader); }
   }
-  if (VIEW === 'dashboard') refreshStatus();
+  if (VIEW !== 'dashboard' && VIEW !== 'files') updateReadingProgress(null);
+  if (VIEW === 'dashboard') {
+    const canvas = view.querySelector('.canvas');
+    if (canvas) updateReadingProgress(canvas);
+    refreshStatus();
+  }
 }
 
 /* live CI + sync status (replaces the old static blurb) */
@@ -484,6 +645,12 @@ function renderCommandPalette(q = '') {
     { label: 'Go to Dashboard', hint: '⌘1', command: 'view:dashboard' },
     { label: 'Go to Graph', hint: '⌘2', command: 'view:graph' },
     { label: 'Go to Files', hint: '⌘3', command: 'view:files' },
+    { label: 'Open Settings', hint: '⌘4', command: 'view:settings' },
+    { label: 'Open latest brief', hint: '', command: 'latest' },
+    { label: 'Mark latest brief caught up', hint: '', command: 'caught-up' },
+    { label: `Use ${PREFS.theme === 'dark' ? 'light' : 'dark'} theme`, hint: '', command: 'toggle-theme' },
+    { label: 'Show last 7 days in graph', hint: '', command: 'graph:7' },
+    { label: 'Show last 30 days in graph', hint: '', command: 'graph:30' },
     { label: 'Pull latest updates', hint: '', command: 'pull' },
   ].filter((item) => !query || item.label.toLowerCase().includes(query));
   const notes = [...DATA.briefs, ...DATA.people, ...DATA.topics]
@@ -525,10 +692,14 @@ function moveQuickSelection(delta) {
   });
   options[QUICK_INDEX].scrollIntoView({ block: 'nearest' });
 }
-function runCommand(command) {
+async function runCommand(command) {
   closeCommandPalette();
   if (command.startsWith('view:')) setView(command.slice(5));
   if (command === 'pull') pullNow();
+  if (command === 'latest' && DATA.briefs[0]) openNote(DATA.briefs[0].slug);
+  if (command === 'caught-up') markCaughtUp();
+  if (command === 'toggle-theme') { PREFS.theme = PREFS.theme === 'dark' ? 'light' : 'dark'; await savePreferences(); }
+  if (command.startsWith('graph:')) { GRAPH_RANGE = command.slice(6); setView('graph'); }
 }
 
 document.addEventListener('click', (e) => {
@@ -537,6 +708,19 @@ document.addEventListener('click', (e) => {
   const command = e.target.closest('[data-command]');
   if (command) { runCommand(command.dataset.command); return; }
   if (e.target.closest('[data-caught-up]')) { markCaughtUp(); return; }
+  const scope = e.target.closest('[data-tree-scope]');
+  if (scope) { TREE_SCOPE = scope.dataset.treeScope; render(); return; }
+  const showGraph = e.target.closest('[data-show-graph]');
+  if (showGraph) { showInGraph(showGraph.dataset.showGraph); return; }
+  const graphRange = e.target.closest('[data-graph-range]');
+  if (graphRange) { GRAPH_RANGE = graphRange.dataset.graphRange; render(); return; }
+  const graphAction = e.target.closest('[data-graph-action]');
+  if (graphAction) {
+    if (graphAction.dataset.graphAction === 'fit') GRAPH?.fit();
+    if (graphAction.dataset.graphAction === 'reset') GRAPH?.reset();
+    if (graphAction.dataset.graphAction === 'close-inspector') document.querySelector('.graph-inspector').hidden = true;
+    return;
+  }
   if (e.target.closest('[data-retry-status]')) { refreshStatus(); return; }
   const history = e.target.closest('[data-history]');
   if (history) { moveFileHistory(Number(history.dataset.history)); return; }
@@ -551,6 +735,10 @@ document.addEventListener('click', (e) => {
     const href = a.getAttribute('href') || '';
     if (href.startsWith('#note:')) { e.preventDefault(); openNote(decodeURIComponent(href.slice(6))); }
     else if (/^https?:/.test(href)) { e.preventDefault(); window.vault.openExternal(href); }
+    if (/^https?:/.test(href)) {
+      let visited; try { visited = new Set(JSON.parse(localStorage.getItem(VISITED_LINKS_KEY) || '[]')); } catch (e2) { visited = new Set(); }
+      visited.add(href); localStorage.setItem(VISITED_LINKS_KEY, JSON.stringify([...visited].slice(-500))); a.classList.add('visited');
+    }
     return;
   }
   if (e.target.id === 'commandpalette') closeCommandPalette();
@@ -611,10 +799,12 @@ $('#commandinput').addEventListener('keydown', (e) => {
 window.addEventListener('keydown', (e) => {
   if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); $('#commandpalette').hidden ? openCommandPalette() : closeCommandPalette(); }
   if (e.key === 'Escape' && !$('#commandpalette').hidden) closeCommandPalette();
-  if ((e.metaKey || e.ctrlKey) && ['1', '2', '3'].includes(e.key)) {
-    e.preventDefault(); setView({ 1: 'dashboard', 2: 'graph', 3: 'files' }[e.key]);
+  if ((e.metaKey || e.ctrlKey) && ['1', '2', '3', '4'].includes(e.key)) {
+    e.preventDefault(); setView({ 1: 'dashboard', 2: 'graph', 3: 'files', 4: 'settings' }[e.key]);
   }
 });
+
+window.addEventListener('beforeunload', () => { saveReaderScroll(); });
 
 window.vault.onChanged(() => load());
 setInterval(() => { if (VIEW === 'dashboard') refreshStatus(); }, 60000);

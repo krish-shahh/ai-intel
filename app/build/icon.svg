@@ -1,43 +1,16 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#21212c"/>
-      <stop offset="1" stop-color="#0e0e13"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="51%" r="46%">
-      <stop offset="0" stop-color="#7c6cff" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#7c6cff" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="sq"><rect x="88" y="88" width="848" height="848" rx="190"/></clipPath>
-  </defs>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="72" y="72" width="880" height="880" rx="220" fill="#16161D"/>
+  <rect x="73" y="73" width="878" height="878" rx="219" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="2"/>
 
-  <g clip-path="url(#sq)">
-    <rect x="88" y="88" width="848" height="848" fill="url(#bg)"/>
-    <circle cx="512" cy="524" r="300" fill="url(#glow)"/>
+  <!-- Editorial signal: raw inputs converge into a useful trajectory. -->
+  <path d="M252 660L420 532L574 608L772 360" stroke="#F2F0EA" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- edges from hub -->
-    <g stroke="#7c6cff" stroke-opacity="0.55" stroke-width="11" stroke-linecap="round">
-      <line x1="512" y1="524" x2="356" y2="356"/>
-      <line x1="512" y1="524" x2="692" y2="334"/>
-      <line x1="512" y1="524" x2="716" y2="628"/>
-      <line x1="512" y1="524" x2="372" y2="694"/>
-    </g>
-    <!-- secondary edges -->
-    <g stroke="#ffffff" stroke-opacity="0.12" stroke-width="6" stroke-linecap="round">
-      <line x1="356" y1="356" x2="692" y2="334"/>
-      <line x1="716" y1="628" x2="372" y2="694"/>
-    </g>
+  <circle cx="252" cy="660" r="60" fill="#16161D" stroke="#F2F0EA" stroke-width="34"/>
+  <circle cx="420" cy="532" r="60" fill="#16161D" stroke="#F2F0EA" stroke-width="34"/>
+  <circle cx="574" cy="608" r="86" fill="#7C6CFF"/>
+  <circle cx="574" cy="608" r="86" stroke="#C8C0FF" stroke-opacity=".58" stroke-width="8"/>
+  <circle cx="772" cy="360" r="60" fill="#16161D" stroke="#F2F0EA" stroke-width="34"/>
 
-    <!-- satellite nodes (person / topic / brief / muted) -->
-    <circle cx="356" cy="356" r="42" fill="#36b6a4"/>
-    <circle cx="692" cy="334" r="42" fill="#e0883b"/>
-    <circle cx="716" cy="628" r="42" fill="#8e7bff"/>
-    <circle cx="372" cy="694" r="36" fill="#9aa0ad"/>
-
-    <!-- hub -->
-    <circle cx="512" cy="524" r="82" fill="#7c6cff"/>
-    <circle cx="512" cy="524" r="82" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="5"/>
-  </g>
-
-  <rect x="88" y="88" width="848" height="848" rx="190" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2"/>
+  <!-- Quiet framing ticks make the mark feel like an instrument, not a social graph. -->
+  <path d="M228 302V230H300M724 794H796V722" stroke="#7C6CFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -12,10 +12,19 @@
   "build": {
     "appId": "com.krishshah.aiintel",
     "productName": "ai-intel",
-    "files": ["main.js", "preload.js", "src/**/*"],
-    "directories": { "output": "dist" },
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
     "mac": {
-      "target": ["dmg", "zip"],
+      "target": [
+        "dmg",
+        "zip"
+      ],
       "category": "public.app-category.productivity",
       "icon": "build/icon.icns"
     }
@@ -25,6 +34,7 @@
     "electron-builder": "^25.1.8"
   },
   "dependencies": {
-    "markdown-it": "^14.1.0"
+    "markdown-it": "^14.1.0",
+    "markdown-it-multimd-table": "^4.2.3"
   }
 }
