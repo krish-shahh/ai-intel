@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-07-30** `different-ai/openwork` trending on GitHub (18k+ total stars): open-source desktop AI agent built on OpenCode, positioned as a Claude Cowork alternative; users supply their own API key (Anthropic, OpenAI, or Ollama); granular folder-level permission controls; no subscription required. [GitHub](https://github.com/different-ai/openwork)
+
 - **2026-07-29** `bradautomates/claude-video` 988 stars today (vs 434 on July 28) -- still accelerating; multimodal Claude pipeline for video frame extraction, audio transcription, and visual analysis. [GitHub](https://github.com/bradautomates/claude-video)
 
 - **2026-07-29** `agentscope-ai/QwenPaw` trending at 769 Python stars today -- local/cloud personal AI assistant with extensible tool capabilities. [GitHub](https://github.com/agentscope-ai/QwenPaw)
