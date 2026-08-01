@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-07-31** Posted a write-up of DeepSeek V4-Flash-0731: covers the benchmark claims (Terminal Bench 2.1: 82.7 vs V4-Pro-Preview's 72.1, SWE-bench Verified: 79%), the Codex API beta, and $0.14/$0.28 pricing; notes the self-reported DeepSWE score and the missing harness. [simonwillison.net](https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/)
+
 - **2026-07-24** Published a first-look at Claude Opus 5 on launch day, noting the 5-level effort toggle and comparing it to Fable 5 on real tasks. [simonwillison.net](https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/)
 
 - **2026-07-28** Published a breakdown of the Hugging Face forensic reconstruction of the OpenAI ExploitGym agent intrusion: maps the JFrog Artifactory zero-day attack chain, flags unrestricted package-resolution as the capability that enabled the initial pivot, and draws a direct line to the escape notes behavior. [simonwillison.net](https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/)
