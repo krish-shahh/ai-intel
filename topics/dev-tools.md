@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-08-03** Anthropic legacy Workbench and experimental prompt tools APIs retire August 17, 2026; prompts do not migrate automatically, requiring manual migration before the deadline. [explainx.ai](https://www.explainx.ai/blog/claude-usage-limits-2026-timeline-explained)
+
 - **2026-08-02** different-ai/openwork trending today (585 new stars, 20k total): free open-source desktop app (macOS/Windows/Linux) that wraps OpenCode and lets teams share skills, MCP servers, plugins, and model configs as a single importable link. YC Spring 2026 batch; positioned as a self-hosted alternative to Claude Cowork for teams that want vendor-neutral portability across Claude Code, Codex, and Cursor. [GitHub](https://github.com/different-ai/openwork) · [openworklabs.com](https://openworklabs.com)
 
 - **2026-07-28** MCP 2026-07-28 spec ships: stateless core (drops initialize handshake and Mcp-Session-Id header), Tasks redesigned as a first-class async extension, MCP Apps adds inline interactive HTML UIs served over the same JSON-RPC path, auth hardened with six changes including iss validation per RFC 9207; Roots, Sampling, and Logging deprecated with 12-month support window. Existing MCP servers relying on session state need migration. [MCP Blog](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/) · [AAIF migration guide](https://aaif.io/blog/mcp-2026-07-28-whats-changing-and-how-to-migrate) · [WorkOS auth analysis](https://workos.com/blog/mcp-2026-spec-agent-authentication)

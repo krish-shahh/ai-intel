@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-08-03** `NousResearch/hermes-agent` v0.19.1 (released early August) trending with 468 stars today, 224K total; self-improving OSS agent framework that writes reusable skills from completed tasks, persists memory across sessions, and supports 14+ messaging platforms. Nous Research is closing a $75M raise at a $1.5B valuation. [GitHub](https://github.com/NousResearch/hermes-agent) · [TechCrunch](https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/)
+
+- **2026-08-03** `Panniantong/Agent-Reach` trending with 659 stars today (64K total): zero-API-fee CLI giving agents read/search access to Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu with automatic fallback when one path is blocked. [GitHub](https://github.com/Panniantong/Agent-Reach) · [trendshift](https://trendshift.io/repositories/24387)
+
 - **2026-07-30** `different-ai/openwork` trending on GitHub (18k+ total stars): open-source desktop AI agent built on OpenCode, positioned as a Claude Cowork alternative; users supply their own API key (Anthropic, OpenAI, or Ollama); granular folder-level permission controls; no subscription required. [GitHub](https://github.com/different-ai/openwork)
 
 - **2026-07-29** `bradautomates/claude-video` 988 stars today (vs 434 on July 28) -- still accelerating; multimodal Claude pipeline for video frame extraction, audio transcription, and visual analysis. [GitHub](https://github.com/bradautomates/claude-video)
