@@ -10,6 +10,10 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-08-04** xAI's `grok-voice-latest` alias flips to Voice Think Fast 2.0 on August 5: 0.70s time-to-first-audio (down from 1.25s), 82.9% on Artificial Analysis speech benchmark; any code pinned to the alias will behave differently after the switch. [xAI](https://x.ai/news/grok-voice-think-fast-2)
+
+- **2026-08-03** Grok 4.6 expected around August 7 per early coverage: same V9 1.5T-param foundation as Grok 4.5 with improved SFT/RL; no API pricing or benchmark details confirmed yet. [aitoolsreview.co.uk](https://aitoolsreview.co.uk/insights/grok-4-6-grok-4-7-release-date)
+
 - **2026-08-02** EU Commission's GPAI enforcement powers went live today, concurrent with ongoing DSA formal proceedings against X over the Grok chatbot's failure to mitigate deepfake and synthetic CSAM risks. EU is now "looking very seriously" at further action. [EC press corner](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_203) (primary) · [The Record](https://therecord.media/eu-grok-regulation-deepfake) (independent)
 
 - **2026-07-24** Endorsed Jensen Huang's "Open Weights and American AI Leadership" letter on X on the day Huang made his first-ever X post -- a coordinated push against the AI Kill Switch Act. [Seeking Alpha](https://seekingalpha.com/news/4618138-nvidia-ceo-huang-joins-x-signs-letter-to-congress-on-open-ai-models)

@@ -7,6 +7,12 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-08-04** `lyogavin/airllm` +1,085 stars today: runs 70B models on a single 4GB GPU via progressive layer offloading to system RAM; updated for Llama 3.x and current Mistral formats. Throughput is ~1-2 tokens/sec -- useful when VRAM is the constraint, not speed. [GitHub](https://github.com/lyogavin/airllm)
+
+- **2026-08-04** `antirez/ds4` +384 stars today: C-based local inference engine for DeepSeek V4 Flash and Pro targeting Metal, CUDA, and ROCm with no Python runtime dependency; from Redis creator Salvatore Sanfilippo. [GitHub](https://github.com/antirez/ds4)
+
+- **2026-08-04** `esengine/DeepSeek-Reasonix` +883 stars today: DeepSeek-native terminal coding agent in Go, routes tasks to V4 Flash at $0.14/M; timed with V4 Flash GA. Positioned as a Claude Code or Codex alternative on sub-$0.20/M inference. [GitHub](https://github.com/esengine/DeepSeek-Reasonix)
+
 - **2026-08-03** `NousResearch/hermes-agent` v0.19.1 (released early August) trending with 468 stars today, 224K total; self-improving OSS agent framework that writes reusable skills from completed tasks, persists memory across sessions, and supports 14+ messaging platforms. Nous Research is closing a $75M raise at a $1.5B valuation. [GitHub](https://github.com/NousResearch/hermes-agent) · [TechCrunch](https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/)
 
 - **2026-08-03** `Panniantong/Agent-Reach` trending with 659 stars today (64K total): zero-API-fee CLI giving agents read/search access to Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu with automatic fallback when one path is blocked. [GitHub](https://github.com/Panniantong/Agent-Reach) · [trendshift](https://trendshift.io/repositories/24387)

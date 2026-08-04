@@ -10,6 +10,8 @@ Andrej Karpathy is an AI researcher and educator who was a founding member of Op
 
 ## Recent
 
+- **2026-08-02** Showed Claude Opus building a procedural 3D Lord of the Rings world from one paragraph -- roughly 5,500 lines of Three.js, about two hours of agentic runtime, playable at karpathy.ai/lotr-movie. Framed it as evidence AI has moved past simple prompts into sustained creative construction. [Benzinga](https://www.benzinga.com/markets/tech/26/08/60861644/andrej-karpathy-says-ai-has-moved-beyond-simple-prompts-after-claude-opus-builds-3d-lord-of-the-rings-world)
+
 - **2026-07-26** Removed Anthropic affiliation from X bio, sparking rapid speculation of departure. Denied it within hours ("weird misinformation"), attributing the change to a routine profile update. Incident coincided with Anthropic's public refusal to sign the 50-company open-weights coalition letter, creating visible tension given his history as an open-source advocate. [BigGo Finance](https://finance.biggo.com/news/13c252bd-88f1-457d-af3a-3dc60bf5d281) · [EU 36Kr](https://eu.36kr.com/en/p/3911859358717321)
 
 - **2026-06-28** An updated CLAUDE.md attributed to Karpathy began circulating today, expanding the original 4 rules to 10 with a new agent self-check protocol for coding loops. He has not confirmed it publicly. The original 4-rule file already hit 100K GitHub stars. [TechTimes](https://www.techtimes.com/articles/319214/20260628/karpathy-claudemd-grows-ten-rules-new-self-check-protocol-ai-coding-loops.htm) · [Raytar on X](https://x.com/Raytar/status/2070577723089768500)

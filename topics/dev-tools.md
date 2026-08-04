@@ -7,9 +7,15 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-08-04** xAI's `grok-voice-latest` API alias switches to Voice Think Fast 2.0 on August 5: 0.70s time-to-first-audio (down from 1.25s), 82.9% on Artificial Analysis speech benchmark; any pipeline pinned to the alias will behave differently after the flip with no breaking change to the endpoint. [xAI](https://x.ai/news/grok-voice-think-fast-2)
+
 - **2026-08-03** Anthropic legacy Workbench and experimental prompt tools APIs retire August 17, 2026; prompts do not migrate automatically, requiring manual migration before the deadline. [explainx.ai](https://www.explainx.ai/blog/claude-usage-limits-2026-timeline-explained)
 
+- **2026-08-01** Microsoft Copilot Pro (consumer subscription tier) ended August 1; enterprise Copilot products continue unchanged. [llm-stats.com](https://llm-stats.com/llm-updates)
+
 - **2026-08-02** different-ai/openwork trending today (585 new stars, 20k total): free open-source desktop app (macOS/Windows/Linux) that wraps OpenCode and lets teams share skills, MCP servers, plugins, and model configs as a single importable link. YC Spring 2026 batch; positioned as a self-hosted alternative to Claude Cowork for teams that want vendor-neutral portability across Claude Code, Codex, and Cursor. [GitHub](https://github.com/different-ai/openwork) · [openworklabs.com](https://openworklabs.com)
+
+- **2026-07-28** xAI Grok 4.5 is now available in GitHub Copilot: selectable in VS Code, the Copilot CLI, and GitHub.com; 500K context window, $2/$6 per M tokens. [GitHub Changelog](https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot/)
 
 - **2026-07-28** MCP 2026-07-28 spec ships: stateless core (drops initialize handshake and Mcp-Session-Id header), Tasks redesigned as a first-class async extension, MCP Apps adds inline interactive HTML UIs served over the same JSON-RPC path, auth hardened with six changes including iss validation per RFC 9207; Roots, Sampling, and Logging deprecated with 12-month support window. Existing MCP servers relying on session state need migration. [MCP Blog](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/) · [AAIF migration guide](https://aaif.io/blog/mcp-2026-07-28-whats-changing-and-how-to-migrate) · [WorkOS auth analysis](https://workos.com/blog/mcp-2026-spec-agent-authentication)
 
