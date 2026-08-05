@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-08-05** Grok Voice Think Fast 2.0 went live today: `grok-voice-latest` now points to Think Fast 2.0; TTFA 0.70s (from 1.25s); price raised from $0.05 to $0.08/min; 82.9% on Artificial Analysis speech benchmark. Code pinned to the alias now behaves differently. [xAI](https://x.ai/news/grok-voice-think-fast-2) (primary)
+
 - **2026-08-04** xAI's `grok-voice-latest` alias flips to Voice Think Fast 2.0 on August 5: 0.70s time-to-first-audio (down from 1.25s), 82.9% on Artificial Analysis speech benchmark; any code pinned to the alias will behave differently after the switch. [xAI](https://x.ai/news/grok-voice-think-fast-2)
 
 - **2026-08-03** Grok 4.6 expected around August 7 per early coverage: same V9 1.5T-param foundation as Grok 4.5 with improved SFT/RL; no API pricing or benchmark details confirmed yet. [aitoolsreview.co.uk](https://aitoolsreview.co.uk/insights/grok-4-6-grok-4-7-release-date)

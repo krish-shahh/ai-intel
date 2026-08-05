@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-08-05** Anthropic API: mid-conversation tool changes now in beta on Fable 5, Mythos 5, Opus 4.8, and Opus 5 -- add or remove tools between turns while preserving prompt cache via `mid-conversation-tool-changes-2026-07-01` beta header; Admin API also now in beta for Enterprise orgs. Experimental prompt tools APIs (`/v1/experimental/generate_prompt`, `improve_prompt`, `templatize_prompt`) and the Workbench retire August 17. [Anthropic release notes](https://platform.claude.com/docs/en/release-notes/overview) (primary)
+
 - **2026-07-24** Opus 5 is now the default Opus model in Claude Code as of the API launch; background `/code-review` ships alongside (runs review asynchronously, richer screen-reader output); EnterWorktree now prompts before entering worktrees outside `.claude/worktrees/`. [Gradually changelog](https://www.gradually.ai/en/changelogs/claude-code/) · [Releasebot](https://releasebot.io/updates/anthropic/claude-code)
 
 - **2026-07-27** `ComposioHQ/awesome-claude-skills` +440 stars today: curated directory of 1000+ production-ready Claude Skills across workflow categories -- useful first stop before building a skill from scratch. [GitHub](https://github.com/ComposioHQ/awesome-claude-skills)
