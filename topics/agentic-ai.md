@@ -7,7 +7,9 @@ Agentic AI covers systems where LLMs plan and act over multiple steps with tools
 
 ## Notes
 
-- **2026-08-05** TencentCloud/TencentDB-Agent-Memory reached trending #1 on GitHub (1,111 stars today): newly open-sourced team-level persistent memory hub for AI agents, turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) shared and governed across agents and frameworks. [GitHub](https://github.com/TencentCloud/TencentDB-Agent-Memory) (primary)
+- **2026-08-05** TencentCloud/TencentDB-Agent-Memory reached trending #1 on GitHub (+1,891 stars today): newly open-sourced team-level persistent memory hub for AI agents, turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) shared and governed across agents and frameworks. [GitHub](https://github.com/TencentCloud/TencentDB-Agent-Memory) (primary)
+
+- **2026-08-03** Cloudflare released @cloudflare/computer in early preview: open-source agent runtime giving each AI agent a dedicated virtual computer with a SQLite-backed virtual file system, shell execution, and Git access; dynamically switches between lightweight isolates and full Linux containers; all operations gated and audited by default; integrates natively with Cloudflare Workers. [GitHub](https://github.com/cloudflare/computer) · [Cloudflare blog](https://blog.cloudflare.com/cloudflare-computer/) (primary)
 
 - **2026-08-03** NousResearch Hermes Agent v0.20.0 "The Herald Release": major open-source agent runtime update with A2A v1.0 inter-agent protocol, real-time voice (streaming TTS, barge-in, on-device wake words), desktop artifact previews with plugin SDK, signed outbound webhooks, grounded research with verifiable citations. ~3,650 commits from 650+ contributors. [GitHub release](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) (primary)
 

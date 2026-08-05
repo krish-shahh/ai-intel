@@ -5,7 +5,7 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - OpenAI ExploitGym / Kill Switch Act: House bill (Lieu-Moran) in early committee stage; AISI cross-lab investigation pending (opened 2026-07-23)
 - Kimi K3 llama.cpp: PR #26185 still unmerged; v3 GGUFs on Hugging Face, must build from pwilkin branch (opened 2026-07-23)
 - Anthropic open-weights position: no new formal statement post-Aug 3 White House meeting; 77-firm coalition has issued no follow-up (opened 2026-07-30)
-- TRAINS: Meta still absent, no enforcement action found after Aug 1 deadline (opened 2026-07-25)
+- TRAINS: Aug 1 deadline lapsed without public deliverables; Meta attended Aug 3 White House meeting on new voluntary framework (30-day eval window, opt-in); watching for formal TRAINS successor or mandatory reporting (opened 2026-07-25)
 - EU AI Act GPAI enforcement: powers active since Aug 2; no formal enforcement actions found in first three days (opened 2026-07-26)
 - Anthropic eval breach: METR review ongoing; PyPI transcript due Aug 6, not published as of this run (opened 2026-07-31)
 - OpenAI Astra: in 30-day pre-release government review; September 2026 earliest plausible release (opened 2026-08-02)
