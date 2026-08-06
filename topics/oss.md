@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-08-06** `huangruiteng/loopx` open-sourced this week: lightweight state kernel for long-running AI agent teams -- durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs; agent-agnostic across Claude Code, Codex, and other runners. Two documented continuous trajectories at 220+ and 272+ continuous hours. +854 stars today, 36k total. [GitHub](https://github.com/huangruiteng/loopx)
+
 - **2026-08-04** `lyogavin/airllm` +1,085 stars today: runs 70B models on a single 4GB GPU via progressive layer offloading to system RAM; updated for Llama 3.x and current Mistral formats. Throughput is ~1-2 tokens/sec -- useful when VRAM is the constraint, not speed. [GitHub](https://github.com/lyogavin/airllm)
 
 - **2026-08-04** `antirez/ds4` +384 stars today: C-based local inference engine for DeepSeek V4 Flash and Pro targeting Metal, CUDA, and ROCm with no Python runtime dependency; from Redis creator Salvatore Sanfilippo. [GitHub](https://github.com/antirez/ds4)

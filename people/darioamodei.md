@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-08-06** Anthropic's promised PyPI incident transcript (due within one week of July 30) was not published as of today; deadline passed without the lightly redacted transcript appearing on the Anthropic newsroom. METR review ongoing. [Anthropic](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) (primary)
+
 - **2026-08-05** Anthropic confirmed it is building an in-house chip design team to co-design silicon and Claude models together, targeting roughly 50% reduction in per-token inference cost. No fabrication partner or production timeline disclosed; existing AWS, Google, Nvidia, and AMD partnerships remain active. [TechTimes](https://www.techtimes.com/articles/323238/20260805/anthropic-confirms-house-chip-team-co-design-bet-could-cut-claude-inference-costs-half.htm) · [qz.com](https://qz.com/anthropic-custom-ai-chip-design-team-claude-080526)
 
 - **2026-08-03** Anthropic attended White House meeting where the Trump administration presented a finalized voluntary AI cybersecurity testing framework; framework is opt-in with a 30-day government early-access evaluation window; no mandatory reporting. Follows July 28 Anthropic open-weights position paper and ongoing TRAINS negotiations. [CNBC](https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html)

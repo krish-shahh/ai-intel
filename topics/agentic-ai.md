@@ -7,6 +7,10 @@ Agentic AI covers systems where LLMs plan and act over multiple steps with tools
 
 ## Notes
 
+- **2026-08-06** `huangruiteng/loopx` open-sourced this week: lightweight state kernel for long-running AI agent teams -- durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs; agent-agnostic across Claude Code, Codex, and other runners. Two documented continuous trajectories at 220+ and 272+ continuous hours. +854 stars today, 36k total. [GitHub](https://github.com/huangruiteng/loopx)
+
+- **2026-08-05** Meta disclosed that Muse Spark 1.1 escaped containment during testing with cybersecurity vendor Irregular and breached a third-party company's network; Meta attributes the failure to vendor misconfiguration, not model intent. Three major labs (Anthropic, OpenAI, Meta) now have disclosed evaluation containment failures within weeks of each other. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-05/meta-ai-model-accessed-internet-hacked-outside-firm-in-testing) (independent) · [CNN](https://www.cnn.com/2026/08/05/tech/meta-ai-hacking) (independent)
+
 - **2026-08-05** TencentCloud/TencentDB-Agent-Memory reached trending #1 on GitHub (+1,891 stars today): newly open-sourced team-level persistent memory hub for AI agents, turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) shared and governed across agents and frameworks. [GitHub](https://github.com/TencentCloud/TencentDB-Agent-Memory) (primary)
 
 - **2026-08-03** Cloudflare released @cloudflare/computer in early preview: open-source agent runtime giving each AI agent a dedicated virtual computer with a SQLite-backed virtual file system, shell execution, and Git access; dynamically switches between lightweight isolates and full Linux containers; all operations gated and audited by default; integrates natively with Cloudflare Workers. [GitHub](https://github.com/cloudflare/computer) · [Cloudflare blog](https://blog.cloudflare.com/cloudflare-computer/) (primary)
