@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-08-07** `PrimeIntellect-ai/prime-agent` hit +2,271 stars (GitHub trending #1 today): self-improving RLM agent for coding workflows and long-running autonomous tasks; the self-improvement loop is an emerging design pattern alongside the depth-3 subagent nesting now available in Claude Code. [GitHub](https://github.com/PrimeIntellect-ai/prime-agent)
+
+- **2026-08-07** Skills directory convergence: mattpocock/skills (+2,180), addyosmani/agent-skills (+1,131), google/skills (+305), and android/skills (+43) all hit trending simultaneously; multiple orgs publishing versioned skill-pack directories for AI coding agents under the same structural SKILL.md format, suggesting a de facto standard is emerging. [mattpocock/skills](https://github.com/mattpocock/skills) · [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+
 - **2026-08-06** `huangruiteng/loopx` open-sourced this week: lightweight state kernel for long-running AI agent teams -- durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs; agent-agnostic across Claude Code, Codex, and other runners. Two documented continuous trajectories at 220+ and 272+ continuous hours. +854 stars today, 36k total. [GitHub](https://github.com/huangruiteng/loopx)
 
 - **2026-08-04** `lyogavin/airllm` +1,085 stars today: runs 70B models on a single 4GB GPU via progressive layer offloading to system RAM; updated for Llama 3.x and current Mistral formats. Throughput is ~1-2 tokens/sec -- useful when VRAM is the constraint, not speed. [GitHub](https://github.com/lyogavin/airllm)
