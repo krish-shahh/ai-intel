@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-08-05** Anthropic inference hooks launched in beta for Claude Enterprise: routes every employee prompt through the org's own DLP server for allow-or-deny before Claude generates; covers chat, Claude Code, Cowork, and MCP connectors in one config; integrates with Netskope, Palo Alto, Zscaler, and Proofpoint; response-side enforcement is planned but not yet available. [Anthropic blog](https://claude.com/blog/claude-enterprise-inference-hooks) (primary) · [The Next Web](https://thenextweb.com/news/anthropic-inference-hooks-dlp-claude-enterprise) (independent)
+
 - **2026-08-04** xAI's `grok-voice-latest` API alias switches to Voice Think Fast 2.0 on August 5: 0.70s time-to-first-audio (down from 1.25s), 82.9% on Artificial Analysis speech benchmark; any pipeline pinned to the alias will behave differently after the flip with no breaking change to the endpoint. [xAI](https://x.ai/news/grok-voice-think-fast-2)
 
 - **2026-08-03** Anthropic legacy Workbench and experimental prompt tools APIs retire August 17, 2026; prompts do not migrate automatically, requiring manual migration before the deadline. [explainx.ai](https://www.explainx.ai/blog/claude-usage-limits-2026-timeline-explained)
