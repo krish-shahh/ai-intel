@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-08-08** Claude Code v2.1.224: self-hosted environments beta (Claude Team/Enterprise can run agent sessions on their own runners inside their own network, not on Anthropic-hosted infra); cross-session messaging via SendMessage across machines on macOS and Linux; subagent spawn cap removed. [Anthropic blog](https://claude.com/blog/run-claude-code-sessions-on-your-own-compute) · [MacRumors](https://www.macrumors.com/2026/08/08/claude-code-adds-cross-session-messaging/)
+
 - **2026-08-07** Claude Code v2.1.221 (Aug 3): Focus view collapses tool activity into compact summaries; subagents can now spawn nested subagents up to depth 3 (was 1); /code-review runs as a background subagent so it no longer consumes conversation context. [changelog](https://releasebot.io/updates/anthropic/claude-code)
 
 - **2026-08-05** Anthropic API: mid-conversation tool changes now in beta on Fable 5, Mythos 5, Opus 4.8, and Opus 5 -- add or remove tools between turns while preserving prompt cache via `mid-conversation-tool-changes-2026-07-01` beta header; Admin API also now in beta for Enterprise orgs. Experimental prompt tools APIs (`/v1/experimental/generate_prompt`, `improve_prompt`, `templatize_prompt`) and the Workbench retire August 17. [Anthropic release notes](https://platform.claude.com/docs/en/release-notes/overview) (primary)
