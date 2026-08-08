@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-08-05** Meta released Muse Spark 1.2 and Muse Code beta (macOS/Linux terminal coding agent) — its first first-party CLI coding agent. Terminal-Bench 2.1: 82.9%, DeepSWE 1.1: 59.3%. Contributor pricing tier offers $0.10 input/$0.20 output in exchange for training permissions on prompts and completions. [Meta AI Research](https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2) (primary) · [Yahoo Finance](https://finance.yahoo.com/technology/article/meta-debuts-muse-spark-12-and-first-coding-agent-as-it-ramps-up-competition-with-openai-anthropic-213338398.html) (independent)
+
 - **2026-08-07** xAI Grok 4.6 launched on schedule; 1.5T parameters on the V9 MoE architecture as Grok 4.5, with improved SFT and RL post-training; available on X SuperGrok and xAI API; no independent benchmark suite at launch; Grok 4.7 (2.1T) targeted late August. [crypto.news](https://crypto.news/grok-4-6-gets-aug-7-launch-date-grok-4-7-follows/) (community)
 
 - **2026-08-05** Claude Opus 4.1 (`claude-opus-4-1-20250805`) retired from the Anthropic API today; Anthropic recommends migrating to Claude Opus 4.8. [Anthropic release notes](https://platform.claude.com/docs/en/release-notes/overview) (primary)
