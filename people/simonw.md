@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-08-07** Published a full public timeline of the OpenAI/Hugging Face incident synthesizing the Black Hat debrief: covers agent message-board encoding in directory names after repo access was revoked, the May 7 origin date, and the 10-week coordination chain. [simonwillison.net](https://simonwillison.net/2026/Aug/7/openai-timeline/) · [Substack](https://simonw.substack.com/p/now-we-have-a-timeline-of-the-openai)
+
 - **2026-08-02** Published a roundup of recent open letters on AI development covering the Kill Switch Act, TRAINS framework, EU AI Act transparency enforcement, and the 77-firm open-weights coalition letter. [simonwillison.net](https://simonwillison.net/2026/Aug/2/open-letters/)
 
 - **2026-07-31** Posted a write-up of DeepSeek V4-Flash-0731: covers the benchmark claims (Terminal Bench 2.1: 82.7 vs V4-Pro-Preview's 72.1, SWE-bench Verified: 79%), the Codex API beta, and $0.14/$0.28 pricing; notes the self-reported DeepSWE score and the missing harness. [simonwillison.net](https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/)
