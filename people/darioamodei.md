@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-08-07** Anthropic updated Fable 5's biology safeguard logic, cutting biology-related fallbacks by ~85% for everyday health and educational queries; healthcare professional support expanded. Dual-use biology (virology, toxicology, molecular design) still falls back to Opus 5. Expected reduction across surfaces: Claude.ai -67%, Cowork -55%, Claude Code -17%, Platform -7%. [Unite.AI](https://www.unite.ai/anthropic-retunes-fable-5s-biology-safeguards-cutting-blocked-queries-85/) (independent)
+
 - **2026-08-06** Anthropic's promised PyPI incident transcript (due within one week of July 30) was not published as of today; deadline passed without the lightly redacted transcript appearing on the Anthropic newsroom. METR review ongoing. [Anthropic](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) (primary)
 
 - **2026-08-05** Anthropic confirmed it is building an in-house chip design team to co-design silicon and Claude models together, targeting roughly 50% reduction in per-token inference cost. No fabrication partner or production timeline disclosed; existing AWS, Google, Nvidia, and AMD partnerships remain active. [TechTimes](https://www.techtimes.com/articles/323238/20260805/anthropic-confirms-house-chip-team-co-design-bet-could-cut-claude-inference-costs-half.htm) · [qz.com](https://qz.com/anthropic-custom-ai-chip-design-team-claude-080526)
