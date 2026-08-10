@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-08-09** Auto mode becomes default on August 14 for Pro, Max, and Team plans. In auto mode, Claude Code runs without per-action approvals unless an action is irreversible, destructive, or targets outside the user's environment. Anthropic cites 97% human approval rate on old prompts and a 1,053-user study showing auto mode caught 89% of harmful actions vs 13.6% for humans. Safety classifier is now free (previously required extra compute billing). Enterprise, API, Bedrock, GCP, and Foundry remain opt-in; Anthropic plans to roll out the default to those surfaces over the next month. [Anthropic blog](https://claude.com/blog/auto-mode-default-in-claude-code) · [TechCrunch](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/) · [HN](https://news.ycombinator.com/item?id=49239021)
+
 - **2026-08-08** Claude Code v2.1.224: self-hosted environments beta (Claude Team/Enterprise can run agent sessions on their own runners inside their own network, not on Anthropic-hosted infra); cross-session messaging via SendMessage across machines on macOS and Linux; subagent spawn cap removed. [Anthropic blog](https://claude.com/blog/run-claude-code-sessions-on-your-own-compute) · [MacRumors](https://www.macrumors.com/2026/08/08/claude-code-adds-cross-session-messaging/)
 
 - **2026-08-07** Claude Code v2.1.221 (Aug 3): Focus view collapses tool activity into compact summaries; subagents can now spawn nested subagents up to depth 3 (was 1); /code-review runs as a background subagent so it no longer consumes conversation context. [changelog](https://releasebot.io/updates/anthropic/claude-code)

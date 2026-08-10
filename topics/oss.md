@@ -7,6 +7,12 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-08-10** Meta Muse Glimmer 30B released on Hugging Face under Apache 2.0: 30B open-weight model distilled from Muse Spark 1.2, targeted at local agent workflows, single consumer GPU. [Hugging Face](https://huggingface.co/meta-models/Muse-Glimmer-30B) · [Meta AI Research](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model)
+
+- **2026-08-10** `msitarzewski/agency-agents` +1,352 stars today (141k total): shell-script AI agency with specialized expert agent delegation. [GitHub](https://github.com/msitarzewski/agency-agents)
+
+- **2026-08-10** `addyosmani/agent-skills` +659 stars today (85k total): production-grade engineering skills for AI coding agents; patterns for tool use, error handling, and structured output. [GitHub](https://github.com/addyosmani/agent-skills)
+
 - **2026-08-07** `PrimeIntellect-ai/prime-agent` hit +2,271 stars (GitHub trending #1 today): self-improving RLM agent for coding workflows and long-running autonomous tasks; the self-improvement loop is an emerging design pattern alongside the depth-3 subagent nesting now available in Claude Code. [GitHub](https://github.com/PrimeIntellect-ai/prime-agent)
 
 - **2026-08-07** Skills directory convergence: mattpocock/skills (+2,180), addyosmani/agent-skills (+1,131), google/skills (+305), and android/skills (+43) all hit trending simultaneously; multiple orgs publishing versioned skill-pack directories for AI coding agents under the same structural SKILL.md format, suggesting a de facto standard is emerging. [mattpocock/skills](https://github.com/mattpocock/skills) · [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)

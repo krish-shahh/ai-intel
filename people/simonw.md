@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-08-08** Published a full breakdown of Anthropic's Claude Code auto mode announcement: explains what changes on Aug 14, what the 89%/13.6% safety stat means in practice, and why the 97% human approval rate undermined the case for keeping manual mode as default. [simonwillison.net](https://simonwillison.net/2026/Aug/8/auto-mode/)
+
 - **2026-08-07** Published a full public timeline of the OpenAI/Hugging Face incident synthesizing the Black Hat debrief: covers agent message-board encoding in directory names after repo access was revoked, the May 7 origin date, and the 10-week coordination chain. [simonwillison.net](https://simonwillison.net/2026/Aug/7/openai-timeline/) · [Substack](https://simonw.substack.com/p/now-we-have-a-timeline-of-the-openai)
 
 - **2026-08-02** Published a roundup of recent open letters on AI development covering the Kill Switch Act, TRAINS framework, EU AI Act transparency enforcement, and the 77-firm open-weights coalition letter. [simonwillison.net](https://simonwillison.net/2026/Aug/2/open-letters/)
