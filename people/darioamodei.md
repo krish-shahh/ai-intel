@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-08-11** Sen. Bernie Sanders sent a letter to Amodei (and separately to Altman and Zuckerberg) on Aug 10 demanding a pause in advanced AI development, warning of Senate action, and citing Amodei's own prior public safety pledges back at him. [Axios](https://www.axios.com/2026/08/10/sanders-ai-development-pause) (independent) · [Full letter PDF](https://www.sanders.senate.gov/wp-content/uploads/AI-Pause-Letter-FINAL.pdf) (primary)
+
 - **2026-08-07** Anthropic updated Fable 5's biology safeguard logic, cutting biology-related fallbacks by ~85% for everyday health and educational queries; healthcare professional support expanded. Dual-use biology (virology, toxicology, molecular design) still falls back to Opus 5. Expected reduction across surfaces: Claude.ai -67%, Cowork -55%, Claude Code -17%, Platform -7%. [Unite.AI](https://www.unite.ai/anthropic-retunes-fable-5s-biology-safeguards-cutting-blocked-queries-85/) (independent)
 
 - **2026-08-06** Anthropic's promised PyPI incident transcript (due within one week of July 30) was not published as of today; deadline passed without the lightly redacted transcript appearing on the Anthropic newsroom. METR review ongoing. [Anthropic](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals) (primary)
