@@ -10,6 +10,8 @@ Ethan Mollick is an associate professor at the Wharton School of the University 
 
 ## Recent
 
+- **2026-08-10** Announced "Co-Existence: The Next Phase of AI" (Penguin/Random House, Oct 20, 2026) -- a follow-up to Co-Intelligence (2024 NYT bestseller). Also named to TIME100 Creators 2026. [co-existence.ai](https://co-existence.ai/) · [TIME](https://time.com/collection/time100-creators/2026/ethan-mollick/)
+
 - **2026-07-16** Updated his "harbor towns through history" benchmark to add Kimi K3, Inkling, and GPT-5.6 Pro, then made the interactive simulations publicly playable. [X](https://x.com/emollick/status/2077840214223982975)
 
 - **2026-07-15** Flagged the anti-slop paradox: reading a viral "anti-slop" markdown file for AI agents, he found it was "basically 100% AI written" and would "hyperstition your outputs into mega-slop." Bottom line: build your own skills/instructions with a real sense of taste rather than importing an AI-generated template. [X](https://x.com/emollick/status/2077226285919531191)
