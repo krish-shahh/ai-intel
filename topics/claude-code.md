@@ -17,6 +17,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 - **2026-07-24** Opus 5 is now the default Opus model in Claude Code as of the API launch; background `/code-review` ships alongside (runs review asynchronously, richer screen-reader output); EnterWorktree now prompts before entering worktrees outside `.claude/worktrees/`. [Gradually changelog](https://www.gradually.ai/en/changelogs/claude-code/) · [Releasebot](https://releasebot.io/updates/anthropic/claude-code)
 
+- **2026-08-12** `cathrynlavery/diagram-design` trending +1,616 stars today: 29 editorial diagram types (architecture, flowchart, sequence, ER, Gantt, swimlane, etc.) as self-contained HTML with inline SVG; no Mermaid dependency, no CDN; installs as a Claude Code skill or plugin; 60-second brand-extraction onboarding applies your palette and fonts. [GitHub](https://github.com/cathrynlavery/diagram-design)
+
 - **2026-07-27** `ComposioHQ/awesome-claude-skills` +440 stars today: curated directory of 1000+ production-ready Claude Skills across workflow categories -- useful first stop before building a skill from scratch. [GitHub](https://github.com/ComposioHQ/awesome-claude-skills)
 
 - **2026-07-27** `virgiliojr94/book-to-skill` +417 stars today: converts technical PDFs/EPUBs to Claude Code skills with chapter-level on-demand loading; reduces context burn for reference books. [GitHub](https://github.com/virgiliojr94/book-to-skill)

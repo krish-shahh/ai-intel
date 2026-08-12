@@ -10,6 +10,8 @@ Sam Altman is co-founder and CEO of OpenAI, the company behind ChatGPT and the G
 
 ## Recent
 
+- **2026-08-12** OpenAI's reasoning API affected by cross-session encrypted CoT replay vulnerability (arXiv:2608.09867): encrypted thinking blocks from stronger models could be replayed into weaker OpenAI models to extract hidden reasoning verbatim. All three major providers (OpenAI, Anthropic, Google) were affected; OpenAI deployed server-side mitigations. [arXiv:2608.09867](https://arxiv.org/abs/2608.09867) (primary) · [The Hacker News](https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html) (independent)
+
 - **2026-08-10** OpenAI launched GPT-5.6-Cyber and expanded Daybreak into two tiers: Blue (frontier general-purpose models for approved defenders) and Red (GPT-5.6-Cyber, a purpose-trained exploit-research model scoring 95% on OpenAI's internal ACCR vs 1.5% for Sol). OpenAI used the model to find two previously unknown V8 sandbox-escape vulnerabilities before publication. Both models assessed as High for cyber capability, below the Critical threshold. [OpenAI](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/) (primary) · [Axios](https://www.axios.com/2026/08/10/openai-gpt-astra-restrictions-safety-hacking-defenders) (independent)
 
 - **2026-08-10** Sen. Bernie Sanders sent a letter to Altman (and separately to Amodei and Zuckerberg) on Aug 10 demanding a pause in advanced AI development, warning of Senate action, and citing Altman's own prior public safety pledges back at him. [Axios](https://www.axios.com/2026/08/10/sanders-ai-development-pause) (independent) · [Full letter PDF](https://www.sanders.senate.gov/wp-content/uploads/AI-Pause-Letter-FINAL.pdf) (primary)

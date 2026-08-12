@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-08-12** `enable_grok_4_6_announcement` flag found in grok.com frontend, currently set to false; indicates a broader public announcement is being prepared but has not fired. Partial rollout since Aug 7; Musk confirmed wider release "this week" as of Aug 11. [tbreak.com](https://tbreak.com/grok-4-6-4-7-xai-release-date-specs/)
+
 - **2026-08-07** Grok 4.6 launched on schedule; 1.5T-parameter model on the same V9 MoE foundation as Grok 4.5 with significantly improved SFT and RL post-training; available on X SuperGrok and xAI API; Grok 4.7 (2.1T) targeted for late August. [crypto.news](https://crypto.news/grok-4-6-gets-aug-7-launch-date-grok-4-7-follows/)
 
 - **2026-08-05** Grok Voice Think Fast 2.0 went live today: `grok-voice-latest` now points to Think Fast 2.0; TTFA 0.70s (from 1.25s); price raised from $0.05 to $0.08/min; 82.9% on Artificial Analysis speech benchmark. Code pinned to the alias now behaves differently. [xAI](https://x.ai/news/grok-voice-think-fast-2) (primary)

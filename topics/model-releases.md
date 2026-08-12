@@ -7,7 +7,7 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
-- **2026-08-12** Qwen 3.8 Max open weights: Alibaba's stated "week of Aug 10" release window for open-sourcing Qwen 3.8-Max weights passed without a Hugging Face publish as of Aug 12; no updated timeline from Alibaba. [Developers Digest](https://www.developersdigest.tech/blog/qwen-3-8-max-release-2026) (independent)
+- **2026-08-12** Qwen 3.8 Max open weights: community source @ElainaNotes confirmed a 10:00 AM UTC+8 drop today; Alibaba's official window runs Aug 10-16; no official weights repo confirmed on HuggingFace as of morning brief; quantized fork already exists; license still undisclosed. Model is 2.4T MoE (95B active), 1M context. Company-reported OSWorld-Verified 86.1 (above Claude Fable 5 85.0 and GPT-5.6 Sol Max 83.2 per Alibaba). [X/@ElainaNotes](https://x.com/ElainaNotes/status/2085272920746831899) (community) · [Developers Digest](https://www.developersdigest.tech/blog/qwen-3-8-max-release-2026) (independent)
 
 - **2026-08-10** OpenAI expanded Daybreak and released GPT-5.6-Cyber: purpose-trained for vuln research and exploit chains; Daybreak Blue gates frontier general-purpose models for defenders, Daybreak Red gates GPT-5.6-Cyber for advanced security work. ACCR: 95% vs 1.5% for Sol. OpenAI found two previously unknown V8 heap-sandbox-escape vulnerabilities using the model. Both models below Critical threshold per OpenAI's own Preparedness Framework. [OpenAI](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/) (primary) · [Neowin](https://www.neowin.net/news/openai-launches-gpt-56-cyber-and-expands-daybreak-with-red-and-blue-access-tiers/) (independent)
 
