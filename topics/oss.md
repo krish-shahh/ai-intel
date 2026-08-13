@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-08-13** `cactus-compute/needle` Needle2 trending today (+768 stars): 14MB, 45M-parameter agentic model for on-device tool calling and task routing; runs in 28MB RAM; 500 tok/s on Raspberry Pi 5; trades wins with FunctionGemma 270M and Apple FM at 5x-70x smaller. [GitHub](https://github.com/cactus-compute/needle) · [HuggingFace](https://huggingface.co/Cactus-Compute/needle)
+
+- **2026-08-13** `anthropics/skills` trending today (+569 stars): canonical public spec and examples for the Claude Agent Skills system; SKILL.md-based folders Claude loads at inference time; same backend as Skills in Claude Code and Cowork. [GitHub](https://github.com/anthropics/skills)
+
 - **2026-08-10** Meta Muse Glimmer 30B released on Hugging Face under Apache 2.0: 30B open-weight model distilled from Muse Spark 1.2, targeted at local agent workflows, single consumer GPU. [Hugging Face](https://huggingface.co/meta-models/Muse-Glimmer-30B) · [Meta AI Research](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model)
 
 - **2026-08-10** `msitarzewski/agency-agents` +1,352 stars today (141k total): shell-script AI agency with specialized expert agent delegation. [GitHub](https://github.com/msitarzewski/agency-agents)
