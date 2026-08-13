@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-08-12** Grok 4.6 launched publicly: 1.5T-parameter V9 MoE, 500K-token context, $2/$6 per million input/output tokens. Artificial Analysis composite score 1753 ELO, matching GPT-5.6 Sol Max. Musk called it a "banger." Available on API, Grok Build, Cursor, OpenRouter, Vercel, Cloudflare. Grok 4.7 (2.1T) still targeted "within weeks." [unite.ai](https://www.unite.ai/spacexai-launches-grok-4-6-for-long-running-agents/) · [kingy.ai](https://kingy.ai/blog/grok-4-6-price-benchmarks-api-cursor-context-window/)
+
 - **2026-08-12** `enable_grok_4_6_announcement` flag found in grok.com frontend, currently set to false; indicates a broader public announcement is being prepared but has not fired. Partial rollout since Aug 7; Musk confirmed wider release "this week" as of Aug 11. [tbreak.com](https://tbreak.com/grok-4-6-4-7-xai-release-date-specs/)
 
 - **2026-08-07** Grok 4.6 launched on schedule; 1.5T-parameter model on the same V9 MoE foundation as Grok 4.5 with significantly improved SFT and RL post-training; available on X SuperGrok and xAI API; Grok 4.7 (2.1T) targeted for late August. [crypto.news](https://crypto.news/grok-4-6-gets-aug-7-launch-date-grok-4-7-follows/)
