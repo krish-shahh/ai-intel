@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-08-14** `cathrynlavery/diagram-design` +4,475 stars today (14.6K total): 29 self-contained HTML+SVG editorial diagram types built for Claude Code, Codex, and Pi; no external dependencies, no Mermaid, no shadows. Strong practitioner signal that AI-native diagram tooling has a real gap. [GitHub](https://github.com/cathrynlavery/diagram-design)
+
 - **2026-08-13** `cactus-compute/needle` Needle2 trending today (+768 stars): 14MB, 45M-parameter agentic model for on-device tool calling and task routing; runs in 28MB RAM; 500 tok/s on Raspberry Pi 5; trades wins with FunctionGemma 270M and Apple FM at 5x-70x smaller. [GitHub](https://github.com/cactus-compute/needle) · [HuggingFace](https://huggingface.co/Cactus-Compute/needle)
 
 - **2026-08-13** `anthropics/skills` trending today (+569 stars): canonical public spec and examples for the Claude Agent Skills system; SKILL.md-based folders Claude loads at inference time; same backend as Skills in Claude Code and Cowork. [GitHub](https://github.com/anthropics/skills)
