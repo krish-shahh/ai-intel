@@ -7,6 +7,10 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-08-15** `cactus-compute/needle` +551 stars today (5,882 total): Needle 2, a 14MB 45M-parameter agentic model for on-device tool calling; runs a full session in 28MB RAM; 500 tok/s on Raspberry Pi 5. [GitHub](https://github.com/cactus-compute/needle)
+
+- **2026-08-15** `MakazhanAlpamys/Soup` v3 trending (+303 stars, 1,459 total): fine-tunes LLMs from a single YAML config using layer streaming; trains an 8B model at 119.6 tok/s in 3.32 GB peak VRAM on a 4GB laptop GPU; supports SFT, DPO, GRPO, KTO plus eval, gating, and export. [GitHub](https://github.com/MakazhanAlpamys/Soup)
+
 - **2026-08-14** `semantica-agi/semantica` trending #1 on GitHub this week (+1,183 stars today, 7,320 total): graph-native infrastructure for context and accountability in AI agent systems; deterministic audit layer with no LLM required for provenance or graph construction; first reached #1 Aug 10, sustained trending through Aug 14; resonates directly after the July-August wave of eval-breach disclosures. [GitHub](https://github.com/semantica-agi/semantica) · [trendshift](https://trendshift.io/repositories/18986)
 
 - **2026-08-14** `cathrynlavery/diagram-design` +4,475 stars today (14.6K total): 29 self-contained HTML+SVG editorial diagram types built for Claude Code, Codex, and Pi; no external dependencies, no Mermaid, no shadows. Strong practitioner signal that AI-native diagram tooling has a real gap. [GitHub](https://github.com/cathrynlavery/diagram-design)
