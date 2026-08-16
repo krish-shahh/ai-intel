@@ -13,3 +13,4 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - Demis Hassabis / Google DeepMind: Kavukcuoglu now SVP; Discovery Loop launched Aug 5; watching Gemini roadmap and talent pipeline impact (opened 2026-08-11)
 - Anthropic / Decart AI acquisition: $6B talks ongoing; no close or collapse reported (opened 2026-08-14)
 - Grok 4.7 (2.1T params): tracking early September; earliest plausible window ~Sep 2 (3-4 weeks from Aug 12 per Musk) (opened 2026-08-14)
+- GLM-5.3 weights: safety evaluation and hardening in progress; ~2-week release window from Aug 14, targeting late August / early September (opened 2026-08-16)
