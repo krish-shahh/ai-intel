@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-08-17** [[model-releases]] Kimi K3 llama.cpp PR #26185 merged into master Aug 15 by ngxson; hybrid KDA + MLA attention, cross-layer residual attention, MXFP4 quantization verified lossless; token-for-token parity with reference impl confirmed on CPU and GPU [GitHub PR](https://github.com/ggml-org/llama.cpp/pull/26185) (primary)
+
 - **2026-08-15** `cactus-compute/needle` +551 stars today (5,882 total): Needle 2, a 14MB 45M-parameter agentic model for on-device tool calling; runs a full session in 28MB RAM; 500 tok/s on Raspberry Pi 5. [GitHub](https://github.com/cactus-compute/needle)
 
 - **2026-08-15** `MakazhanAlpamys/Soup` v3 trending (+303 stars, 1,459 total): fine-tunes LLMs from a single YAML config using layer streaming; trains an 8B model at 119.6 tok/s in 3.32 GB peak VRAM on a 4GB laptop GPU; supports SFT, DPO, GRPO, KTO plus eval, gating, and export. [GitHub](https://github.com/MakazhanAlpamys/Soup)
