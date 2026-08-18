@@ -2,10 +2,8 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
 import { Home, Newspaper, Users, Building2, Tags, Network } from 'lucide-react';
 import { Dock, DockIcon } from '@/components/ui/dock';
-import { cn } from '@/lib/utils';
 
 const TABS = [
   { href: '/', label: 'Home', icon: Home, match: (p: string) => p === '/' },
@@ -16,32 +14,12 @@ const TABS = [
   { href: '/graph', label: 'Graph', icon: Network, match: (p: string) => p.startsWith('/graph') },
 ];
 
-// Matches the desktop breakpoint used across globals.css for repositioning the dock-wrap.
-function useIsDesktop() {
-  const [isDesktop, setIsDesktop] = useState(false);
-  useEffect(() => {
-    const mq = window.matchMedia('(min-width: 720px)');
-    setIsDesktop(mq.matches);
-    const onChange = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
-    mq.addEventListener('change', onChange);
-    return () => mq.removeEventListener('change', onChange);
-  }, []);
-  return isDesktop;
-}
-
 export function DockNav() {
   const pathname = usePathname();
-  const isDesktop = useIsDesktop();
 
   return (
     <div className="dock-wrap">
-      <Dock
-        iconSize={44}
-        iconMagnification={56}
-        iconDistance={100}
-        orientation={isDesktop ? 'vertical' : 'horizontal'}
-        className={cn('dock-shell', isDesktop && 'h-max w-[58px] flex-col')}
-      >
+      <Dock iconSize={44} iconMagnification={56} iconDistance={100} className="dock-shell">
         {TABS.map(({ href, label, icon: Icon, match }) => {
           const active = match(pathname);
           return (

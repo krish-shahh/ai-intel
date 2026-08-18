@@ -20,7 +20,6 @@ export interface DockProps extends VariantProps<typeof dockVariants> {
   disableMagnification?: boolean
   iconDistance?: number
   direction?: "top" | "middle" | "bottom"
-  orientation?: "horizontal" | "vertical"
   children: React.ReactNode
 }
 
@@ -43,12 +42,11 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
       disableMagnification = DEFAULT_DISABLEMAGNIFICATION,
       iconDistance = DEFAULT_DISTANCE,
       direction = "middle",
-      orientation = "horizontal",
       ...props
     },
     ref
   ) => {
-    const mousePos = useMotionValue(Infinity)
+    const mouseX = useMotionValue(Infinity)
 
     const renderChildren = () => {
       return React.Children.map(children, (child) => {
@@ -58,8 +56,7 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
         ) {
           return React.cloneElement(child, {
             ...child.props,
-            mousePos: mousePos,
-            orientation,
+            mouseX: mouseX,
             size: iconSize,
             magnification: iconMagnification,
             disableMagnification: disableMagnification,
@@ -73,8 +70,8 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
     return (
       <motion.div
         ref={ref}
-        onMouseMove={(e) => mousePos.set(orientation === "vertical" ? e.pageY : e.pageX)}
-        onMouseLeave={() => mousePos.set(Infinity)}
+        onMouseMove={(e) => mouseX.set(e.pageX)}
+        onMouseLeave={() => mouseX.set(Infinity)}
         {...props}
         className={cn(dockVariants({ className }), {
           "items-start": direction === "top",
@@ -98,8 +95,7 @@ export interface DockIconProps extends Omit<
   magnification?: number
   disableMagnification?: boolean
   distance?: number
-  mousePos?: MotionValue<number>
-  orientation?: "horizontal" | "vertical"
+  mouseX?: MotionValue<number>
   className?: string
   children?: React.ReactNode
   props?: PropsWithChildren
@@ -110,21 +106,18 @@ const DockIcon = ({
   magnification = DEFAULT_MAGNIFICATION,
   disableMagnification,
   distance = DEFAULT_DISTANCE,
-  mousePos,
-  orientation = "horizontal",
+  mouseX,
   className,
   children,
   ...props
 }: DockIconProps) => {
   const ref = useRef<HTMLDivElement>(null)
   const padding = Math.max(6, size * 0.2)
-  const defaultMousePos = useMotionValue(Infinity)
+  const defaultMouseX = useMotionValue(Infinity)
 
-  const distanceCalc = useTransform(mousePos ?? defaultMousePos, (val: number) => {
-    const bounds = ref.current?.getBoundingClientRect() ?? { x: 0, y: 0, width: 0, height: 0 }
-    return orientation === "vertical"
-      ? val - bounds.y - bounds.height / 2
-      : val - bounds.x - bounds.width / 2
+  const distanceCalc = useTransform(mouseX ?? defaultMouseX, (val: number) => {
+    const bounds = ref.current?.getBoundingClientRect() ?? { x: 0, width: 0 }
+    return val - bounds.x - bounds.width / 2
   })
 
   const targetSize = disableMagnification ? size : magnification

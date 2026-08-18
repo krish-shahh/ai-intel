@@ -101,17 +101,16 @@ main {
 }
 
 @media (min-width: 720px) {
-  body { padding-bottom: 0; padding-left: 92px; }
-  main { padding: calc(28px + env(safe-area-inset-top)) 24px 100px; }
+  body { padding-bottom: 0; }
+  /* Extra top padding clears the top-left dock (~80px tall including its
+     magnification headroom) instead of the default 28px used on mobile. */
+  main { padding: calc(110px + env(safe-area-inset-top)) 24px 100px; }
 
   .dock-wrap {
-    top: 0; right: auto;
-    align-items: center;
-    padding-bottom: 0;
-    /* Centers the 58px dock within the 92px left margin, so the gap from the
-       viewport edge to the dock equals the gap from the dock to main's text
-       (92px margin - 58px dock - main's own 24px inner padding, halved). */
-    padding-left: max(29px, env(safe-area-inset-left));
+    left: 0; right: auto; bottom: auto;
+    top: max(16px, env(safe-area-inset-top));
+    justify-content: flex-start;
+    padding: 0 0 0 max(16px, env(safe-area-inset-left));
   }
 }
 
