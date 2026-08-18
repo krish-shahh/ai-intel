@@ -67,9 +67,14 @@ export function createForceGraph(
     canvas.width = W * dpr; canvas.height = H * dpr;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   }
-  const radius = (n: SimNode) => 4 + Math.min(11, n.deg * 1.7) + (n.type === 'brief' ? 1 : 2);
+  const radius = (n: SimNode) => (n.type === 'brief' ? 3 + Math.min(6, n.deg) : 6 + Math.min(12, n.deg * 1.7));
   const toScreen = (n: { x: number; y: number }) => ({ x: W / 2 + cam.x + n.x * cam.z, y: H / 2 + cam.y + n.y * cam.z });
   const fromScreen = (px: number, py: number) => ({ x: (px - W / 2 - cam.x) / cam.z, y: (py - H / 2 - cam.y) / cam.z });
+
+  // Repulsion scales up with node count so dense "All"-range graphs (150+ briefs)
+  // spread out instead of settling into one unreadable clump.
+  const REPULSE = 3400 + nodes.length * 12;
+  const MAX_INTERACT_DIST = 500 + Math.min(300, nodes.length * 2);
 
   function tick() {
     if (alpha < ALPHA_MIN) return;
@@ -79,8 +84,8 @@ export function createForceGraph(
         const b = nodes[j];
         const dx = a.x - b.x, dy = a.y - b.y;
         const d2 = Math.max(dx * dx + dy * dy, 100), d = Math.sqrt(d2);
-        if (d > 500) continue;
-        const f = 3400 / d2, fx = (dx / d) * f, fy = (dy / d) * f;
+        if (d > MAX_INTERACT_DIST) continue;
+        const f = REPULSE / d2, fx = (dx / d) * f, fy = (dy / d) * f;
         a.vx += fx; a.vy += fy; b.vx -= fx; b.vy -= fy;
       }
     }
@@ -88,7 +93,7 @@ export function createForceGraph(
       const a = byId[l.source], b = byId[l.target];
       const dx = b.x - a.x, dy = b.y - a.y;
       const d = Math.sqrt(dx * dx + dy * dy) || 0.01;
-      const rest = 110, k = 0.012;
+      const rest = 130, k = 0.012;
       const f = (d - rest) * k, fx = (dx / d) * f, fy = (dy / d) * f;
       a.vx += fx; a.vy += fy; b.vx -= fx; b.vy -= fy;
     }
@@ -125,10 +130,16 @@ export function createForceGraph(
         ctx.beginPath(); ctx.arc(s.x, s.y, r + 6, 0, Math.PI * 2); ctx.stroke(); ctx.lineWidth = 1;
       }
       ctx.beginPath(); ctx.arc(s.x, s.y, r, 0, Math.PI * 2 + 1);
-      ctx.globalAlpha = dim ? 0.25 : 1; ctx.fillStyle = color; ctx.fill();
-      if (n === hover || n.deg >= 3 || cam.z > 1.5) {
+      ctx.globalAlpha = dim ? 0.25 : (n.type === 'brief' ? 0.7 : 1);
+      ctx.fillStyle = color; ctx.fill();
+      // Briefs are dated slugs, not meaningful to skim, and there are far more of
+      // them than entities — labeling every one is what turned the graph into text
+      // soup. Only entity nodes (person/company/topic) get an always-on label; a
+      // brief's label appears only when you're actually interacting with it.
+      const showLabel = n.type !== 'brief' ? (n === hover || n.deg >= 1) : (n === hover || n === selected);
+      if (showLabel) {
         ctx.fillStyle = inkCol; ctx.globalAlpha = dim ? 0.35 : 0.92;
-        ctx.font = '11px -apple-system, system-ui, sans-serif';
+        ctx.font = n.type === 'brief' ? '10px -apple-system, system-ui, sans-serif' : '600 11px -apple-system, system-ui, sans-serif';
         ctx.fillText(n.label, s.x + r + 5, s.y + 4);
       }
     }
@@ -228,6 +239,17 @@ export function createForceGraph(
   const ro = new ResizeObserver(resize);
   ro.observe(canvas);
   resize();
+
+  function fit() {
+    const visible = nodes.filter((n) => !hiddenTypes.has(typeOf(n)));
+    if (!visible.length || !W || !H) return;
+    const xs = visible.map((n) => n.x), ys = visible.map((n) => n.y);
+    const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
+    const spanX = Math.max(120, maxX - minX), spanY = Math.max(120, maxY - minY);
+    cam.z = Math.max(0.3, Math.min(1.6, Math.min((W - 120) / spanX, (H - 100) / spanY)));
+    cam.x = -((minX + maxX) / 2) * cam.z; cam.y = -((minY + maxY) / 2) * cam.z;
+  }
+  fit();
   loop();
 
   return {
@@ -244,15 +266,7 @@ export function createForceGraph(
       hiddenTypes.has(t) ? hiddenTypes.delete(t) : hiddenTypes.add(t);
       return hiddenTypes.has(t);
     },
-    fit() {
-      const visible = nodes.filter((n) => !hiddenTypes.has(typeOf(n)));
-      if (!visible.length || !W || !H) return;
-      const xs = visible.map((n) => n.x), ys = visible.map((n) => n.y);
-      const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
-      const spanX = Math.max(120, maxX - minX), spanY = Math.max(120, maxY - minY);
-      cam.z = Math.max(0.3, Math.min(1.6, Math.min((W - 120) / spanX, (H - 100) / spanY)));
-      cam.x = -((minX + maxX) / 2) * cam.z; cam.y = -((minY + maxY) / 2) * cam.z;
-    },
+    fit,
     reset() {
       const r = 60 + Math.sqrt(nodes.length) * 14;
       nodes.forEach((n, i) => { const a = (i / Math.max(1, nodes.length)) * Math.PI * 2; n.x = Math.cos(a) * r; n.y = Math.sin(a) * r; n.vx = n.vy = 0; });

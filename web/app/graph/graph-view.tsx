@@ -16,7 +16,7 @@ export function GraphView({ data }: { data: GraphData }) {
   const router = useRouter();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const handleRef = useRef<ForceGraphHandle | null>(null);
-  const [range, setRange] = useState<(typeof RANGES)[number]['key']>('90');
+  const [range, setRange] = useState<(typeof RANGES)[number]['key']>('30');
   const [hidden, setHidden] = useState<Set<GraphNodeType>>(new Set());
   const [selected, setSelected] = useState<GraphNode | null>(null);
 
