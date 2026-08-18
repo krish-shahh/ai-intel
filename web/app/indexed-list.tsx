@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useMemo, useRef, useState } from 'react';
+import { useCallback, useMemo, useRef, useState } from 'react';
 
 export interface IndexedItem {
   slug: string;
@@ -16,6 +16,9 @@ export interface IndexedItem {
 export function IndexedList({ items, placeholder }: { items: IndexedItem[]; placeholder: string }) {
   const [query, setQuery] = useState('');
   const listRef = useRef<HTMLDivElement>(null);
+  const scrubberRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [pointerY, setPointerY] = useState(0);
 
   const groups = useMemo(() => {
     const order: string[] = [];
@@ -43,13 +46,42 @@ export function IndexedList({ items, placeholder }: { items: IndexedItem[]; plac
     el?.scrollIntoView({ block: 'start', behavior: 'auto' });
   }
 
-  function handleScrubberPointer(e: React.PointerEvent<HTMLDivElement>) {
-    const strip = e.currentTarget;
-    const rect = strip.getBoundingClientRect();
-    const y = Math.min(Math.max(e.clientY - rect.top, 0), rect.height - 1);
-    const idx = Math.floor((y / rect.height) * groups.length);
-    const target = groups[Math.min(idx, groups.length - 1)];
-    if (target) jumpTo(target.group);
+  const indexFromClientY = useCallback(
+    (clientY: number) => {
+      const bar = scrubberRef.current;
+      if (!bar) return null;
+      const rect = bar.getBoundingClientRect();
+      const relativeY = Math.min(rect.height - 1, Math.max(0, clientY - rect.top));
+      return Math.min(groups.length - 1, Math.floor((relativeY / rect.height) * groups.length));
+    },
+    [groups.length]
+  );
+
+  const updateFromClientY = useCallback(
+    (clientY: number) => {
+      const idx = indexFromClientY(clientY);
+      if (idx === null) return;
+      setPointerY(clientY);
+      setActiveIndex((prev) => {
+        if (idx !== prev) jumpTo(groups[idx].group);
+        return idx;
+      });
+    },
+    [indexFromClientY, groups]
+  );
+
+  function handlePointerDown(e: React.PointerEvent<HTMLDivElement>) {
+    e.currentTarget.setPointerCapture(e.pointerId);
+    updateFromClientY(e.clientY);
+  }
+
+  function handlePointerMove(e: React.PointerEvent<HTMLDivElement>) {
+    if (activeIndex === null) return;
+    updateFromClientY(e.clientY);
+  }
+
+  function endScrub() {
+    setActiveIndex(null);
   }
 
   return (
@@ -81,17 +113,40 @@ export function IndexedList({ items, placeholder }: { items: IndexedItem[]; plac
       </div>
 
       {showScrubber && (
-        <div
-          className="scrubber"
-          onPointerDown={(e) => { e.currentTarget.setPointerCapture(e.pointerId); handleScrubberPointer(e); }}
-          onPointerMove={(e) => { if (e.buttons === 1 || e.pointerType === 'touch') handleScrubberPointer(e); }}
-        >
-          {groups.map(({ group, short }) => (
-            <button key={group} type="button" className="scrubber-letter" onClick={() => jumpTo(group)} tabIndex={-1}>
-              {short}
-            </button>
-          ))}
-        </div>
+        <>
+          <div
+            ref={scrubberRef}
+            className="scrubber"
+            onPointerDown={handlePointerDown}
+            onPointerMove={handlePointerMove}
+            onPointerUp={endScrub}
+            onPointerCancel={endScrub}
+          >
+            {groups.map(({ group, short }, i) => (
+              <button
+                key={group}
+                type="button"
+                className={activeIndex === i ? 'scrubber-letter scrubber-letter-active' : 'scrubber-letter'}
+                onClick={() => jumpTo(group)}
+                tabIndex={-1}
+              >
+                {short}
+              </button>
+            ))}
+          </div>
+
+          {activeIndex !== null && scrubberRef.current && (
+            <div
+              className="scrubber-bubble"
+              style={{
+                top: pointerY,
+                left: scrubberRef.current.getBoundingClientRect().left,
+              }}
+            >
+              {groups[activeIndex].short}
+            </div>
+          )}
+        </>
       )}
     </div>
   );
