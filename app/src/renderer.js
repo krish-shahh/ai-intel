@@ -2,7 +2,7 @@ const $ = (s, r = document) => r.querySelector(s);
 const elem = (t, c, h) => { const e = document.createElement(t); if (c) e.className = c; if (h != null) e.innerHTML = h; return e; };
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]));
 
-let DATA = { briefs: [], people: [], topics: [], notes: [], tree: null, vaultPath: '' };
+let DATA = { briefs: [], people: [], topics: [], companies: [], notes: [], tree: null, vaultPath: '' };
 let SLUG = {};
 let PATHMAP = {};
 let COLLAPSED = new Set();
@@ -68,6 +68,7 @@ function briefLabel(b) {
 function noteTitle(n) {
   if (!n) return '';
   if (n.top === 'people') return n.data.name || n.slug;
+  if (n.top === 'companies') return n.data.name || n.slug;
   if (n.top === 'topics') return n.data.title || n.slug;
   if (n.top === 'briefs') return cap(n.data.session || '') + ' brief';
   return n.name;
@@ -83,6 +84,7 @@ async function load() {
   DATA.briefs = by('briefs').sort((a, b) => (b.data.date || '').localeCompare(a.data.date || '') || a.name.localeCompare(b.name));
   DATA.people = by('people').sort((a, b) => a.name.localeCompare(b.name));
   DATA.topics = by('topics').sort((a, b) => a.name.localeCompare(b.name));
+  DATA.companies = by('companies').sort((a, b) => a.name.localeCompare(b.name));
   SLUG = {}; PATHMAP = {};
   for (const n of v.notes) { PATHMAP[n.path] = n; if (!SLUG[n.slug]) SLUG[n.slug] = n; }
   const savedPath = localStorage.getItem(LAST_FILE_KEY);
@@ -209,14 +211,16 @@ function Dashboard() {
 
   const chip = (n, count) => `<button class="chip" type="button" data-open="${esc(n.slug)}">${esc(noteTitle(n))}${count ? `<b>${count}</b>` : ''}</button>`;
   const topBy = (arr, counts, n) => [...arr].filter((p) => counts[p.slug]).sort((a, b) => counts[b.slug] - counts[a.slug]).slice(0, n);
-  const pc = mentions('people'), tc = mentions('topics');
+  const pc = mentions('people'), tc = mentions('topics'), cc = mentions('companies');
   const topPeople = topBy(DATA.people, pc, 5);
   const topTopics = topBy(DATA.topics, tc, 5);
+  const topCompanies = topBy(DATA.companies, cc, 5);
 
   wrap.appendChild(elem('aside', 'rail', `
     <div class="rblk session"><div class="lbl">Reading session</div><div class="session-state">${esc(sessionLabel)}</div><div class="cad">Next brief ${esc(nr)}</div></div>
     <div class="rblk history"><div class="lbl">Recent</div><div class="blist">${recent}</div></div>
     ${topPeople.length ? `<div class="rblk"><div class="lbl">Top people</div><div class="chips">${topPeople.map((p) => chip(p, pc[p.slug])).join('')}</div></div>` : ''}
+    ${topCompanies.length ? `<div class="rblk"><div class="lbl">Top companies</div><div class="chips">${topCompanies.map((c) => chip(c, cc[c.slug])).join('')}</div></div>` : ''}
     ${topTopics.length ? `<div class="rblk"><div class="lbl">Top topics</div><div class="chips">${topTopics.map((t) => chip(t, tc[t.slug])).join('')}</div></div>` : ''}
     <details class="health rblk foot"><summary><span>System health</span><span class="health-summary" id="healthsummary">Checking</span></summary><div class="status" id="statusblk"><div class="srow ok2"><span class="sdot"></span>Checking status…</div></div></details>`));
 
@@ -230,10 +234,11 @@ function Dashboard() {
     canvas.innerHTML = `
       <div class="eyebrow">${esc(sessionLabel)}</div>
       <h1 class="title">${esc(cap(latest.data.session))} brief</h1>
-      <div class="briefline"><div class="meta">${esc(fmtDate(latest.data.date, true))} · ${(latest.data.people || []).length} people · ${(latest.data.topics || []).length} topics</div>${unread.length ? '<button class="caught-up" type="button" data-caught-up>Mark caught up</button>' : '<span class="caught-label">Caught up</span>'}</div>
+      <div class="briefline"><div class="meta">${esc(fmtDate(latest.data.date, true))} · ${(latest.data.people || []).length} people · ${(latest.data.companies || []).length} companies · ${(latest.data.topics || []).length} topics</div>${unread.length ? '<button class="caught-up" type="button" data-caught-up>Mark caught up</button>' : '<span class="caught-label">Caught up</span>'}</div>
       <article class="prose">${latest.html}</article>
       <div class="browse">
         ${(latest.data.people || []).length ? `<div class="lbl">People in this brief</div><div class="chips">${chips(latest.data.people)}</div>` : ''}
+        ${(latest.data.companies || []).length ? `<div class="lbl">Companies in this brief</div><div class="chips">${chips(latest.data.companies)}</div>` : ''}
         ${(latest.data.topics || []).length ? `<div class="lbl">Topics in this brief</div><div class="chips">${chips(latest.data.topics)}</div>` : ''}
       </div>${briefFooter(latest)}`;
     enhanceBrief(canvas.querySelector('.prose'), latest);
@@ -264,14 +269,16 @@ function weekLabel(key) {
 function briefRefs(b, have) {
   const refs = new Set();
   (b.data.people || []).forEach((s) => have.has('person:' + s) && refs.add('person:' + s));
+  (b.data.companies || []).forEach((s) => have.has('company:' + s) && refs.add('company:' + s));
   (b.data.topics || []).forEach((s) => have.has('topic:' + s) && refs.add('topic:' + s));
-  (b.links || []).forEach((s) => { if (have.has('person:' + s)) refs.add('person:' + s); else if (have.has('topic:' + s)) refs.add('topic:' + s); });
+  (b.links || []).forEach((s) => { if (have.has('person:' + s)) refs.add('person:' + s); else if (have.has('company:' + s)) refs.add('company:' + s); else if (have.has('topic:' + s)) refs.add('topic:' + s); });
   return refs;
 }
 function buildGraphData() {
   const nodes = [], links = [], have = new Set();
   const add = (id, label, type) => { if (!have.has(id)) { have.add(id); nodes.push({ id, label, type, kind: 'leaf' }); } };
   DATA.people.forEach((p) => add('person:' + p.slug, p.data.name || p.slug, 'person'));
+  DATA.companies.forEach((c) => add('company:' + c.slug, c.data.name || c.slug, 'company'));
   DATA.topics.forEach((t) => add('topic:' + t.slug, t.data.title || t.slug, 'topic'));
 
   const months = new Map();
@@ -340,7 +347,7 @@ function showInGraph(slug) {
     EXPANDED_MONTH = monthKey(note.data.date || note.slug);
     EXPANDED_WEEK = weekKey(note.data.date || note.slug);
     PENDING_GRAPH_FOCUS = `brief:${note.slug}`;
-  } else PENDING_GRAPH_FOCUS = `${note.top === 'people' ? 'person' : 'topic'}:${note.slug}`;
+  } else PENDING_GRAPH_FOCUS = `${note.top === 'people' ? 'person' : note.top === 'companies' ? 'company' : 'topic'}:${note.slug}`;
   setView('graph');
 }
 function Graph() {
@@ -352,6 +359,7 @@ function Graph() {
   const legend = elem('div', 'legend', `
     <div class="row" data-gtype="brief"><span class="swatch" style="background:var(--brief)"></span>Briefs</div>
     <div class="row" data-gtype="person"><span class="swatch" style="background:var(--person)"></span>People</div>
+    <div class="row" data-gtype="company"><span class="swatch" style="background:var(--company)"></span>Companies</div>
     <div class="row" data-gtype="topic"><span class="swatch" style="background:var(--topic)"></span>Topics</div>`);
   wrap.appendChild(legend);
   wrap.appendChild(elem('div', 'ghint', 'drag to pan · scroll to zoom · click a cluster to expand · click a note to open · click legend to filter'));
@@ -506,7 +514,7 @@ function Files() {
   filterInput.setAttribute('aria-label', 'Filter files');
   filterInput.value = TREE_FILTER;
   filterWrap.appendChild(filterInput);
-  filterWrap.appendChild(elem('div', 'tree-scopes', ['all', 'briefs', 'people', 'topics'].map((scope) => `<button type="button" data-tree-scope="${scope}" class="${TREE_SCOPE === scope ? 'active' : ''}">${cap(scope)}</button>`).join('')));
+  filterWrap.appendChild(elem('div', 'tree-scopes', ['all', 'briefs', 'people', 'companies', 'topics'].map((scope) => `<button type="button" data-tree-scope="${scope}" class="${TREE_SCOPE === scope ? 'active' : ''}">${cap(scope)}</button>`).join('')));
 
   const rowsEl = elem('div', 'treerows');
   renderTreeRows(rowsEl);

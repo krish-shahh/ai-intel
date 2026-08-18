@@ -9,6 +9,8 @@ priorities:
   - open-source models
   - developer tools
   - AI research
+  - AI datacenter buildout (compute, memory, networking, power, cooling)
+  - semiconductor supply chain (foundry capacity, HBM/DRAM pricing, export controls)
 
 deprioritize:
   - funding without product impact
@@ -23,6 +25,14 @@ companies:
   google_deepmind: 3
   meta: 2
   xai: 1
+  nvidia: 3
+  tsmc: 2
+  amd: 2
+  broadcom: 2
+  sk_hynix: 1
+  micron: 1
+  arista_networks: 1
+  vertiv: 1
 
 minimum_score: 9
 max_tools: 5

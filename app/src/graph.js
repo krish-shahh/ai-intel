@@ -37,7 +37,7 @@ window.ForceGraph = function (canvas, initialData, onOpen) {
 
   const cs = getComputedStyle(document.documentElement);
   const v = (k, f) => (cs.getPropertyValue(k).trim() || f);
-  const col = { brief: v('--brief', '#7c6cff'), person: v('--person', '#36b6a4'), topic: v('--topic', '#e0883b') };
+  const col = { brief: v('--brief', '#7c6cff'), person: v('--person', '#36b6a4'), company: v('--company', '#5b8dd6'), topic: v('--topic', '#e0883b') };
   const lineCol = v('--line', '#2b2b33');
   const inkCol = v('--ink', '#e8e8ec');
 

@@ -21,7 +21,7 @@ flowchart TD
 ```
 
 Each run:
-1. Reads `people/` and `topics/` as the **source of truth** for what to track.
+1. Reads `people/`, `companies/`, and `topics/` as the **source of truth** for what to track.
 2. Searches across multiple sources for the last ~10h:
    - **X/Twitter** and the **web** via search
    - **Reddit** — pulled as structured JSON (`r/<sub>/new.json`, filtered by `created_utc`)
@@ -38,7 +38,7 @@ Each run:
    evening briefs don't repeat each other.
 5. Writes a scannable digest to `briefs/<date>-<session>.md` — TL;DR, light section
    headers, one-line bullets in a plain voice, every bullet ending in a real source link.
-6. Appends dated, sourced notes to the relevant `people/` and `topics/` pages.
+6. Appends dated, sourced notes to the relevant `people/`, `companies/`, and `topics/` pages.
 7. Commits and pushes the brief to `main` first, then the page updates as a second commit.
 
 ## Folder structure
@@ -48,6 +48,7 @@ Each run:
 .github/workflows/          notify.yml · linkcheck.yml · heartbeat.yml
 briefs/                     Dated digests: YYYY-MM-DD-{morning,evening}.md
 people/                     One page per tracked person (name, handle, tags:[person])
+companies/                  One page per tracked public company (name, ticker, layer, tags:[company])
 topics/                     One page per topic (title, tags:[topic])
 app/                        Desktop reader app (Electron: dashboard, graph, files)
 README.md                   This file
@@ -58,6 +59,11 @@ README.md                   This file
   filename (no `.md`) is the wikilink slug, e.g. `[[karpathy]]`. Each page carries a
   short bio and links the handle to that person's X profile; the routine appends dated,
   sourced notes under `## Recent`.
+- **`companies/`** works the same way for public companies across the AI hardware/datacenter
+  supply chain -- compute, memory, networking, storage, power, cooling, and building & site
+  (see [[ai-datacenter-stack]]) -- plus the TMT names around them. Add a `companies/<slug>.md`
+  with `name`, `ticker`, `layer`, `tags: [company]`; the routine tracks stock-moving news
+  (earnings, capex guidance, supply agreements) alongside product news, same as people/.
 - **`topics/`** works the same way for themes; its filenames are the topic slugs.
 
 ## Automation
