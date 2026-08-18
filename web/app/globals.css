@@ -101,8 +101,18 @@ main {
 }
 
 @media (min-width: 720px) {
-  body { padding-bottom: 0; }
+  body { padding-bottom: 0; padding-left: 92px; }
   main { padding: calc(28px + env(safe-area-inset-top)) 24px 100px; }
+
+  .dock-wrap {
+    top: 0; right: auto;
+    align-items: center;
+    padding-bottom: 0;
+    /* Centers the 58px dock within the 92px left margin, so the gap from the
+       viewport edge to the dock equals the gap from the dock to main's text
+       (92px margin - 58px dock - main's own 24px inner padding, halved). */
+    padding-left: max(29px, env(safe-area-inset-left));
+  }
 }
 
 .list-row {

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useCallback, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 export interface IndexedItem {
   slug: string;
@@ -19,6 +19,14 @@ export function IndexedList({ items, placeholder }: { items: IndexedItem[]; plac
   const scrubberRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [pointerY, setPointerY] = useState(0);
+  const [barLeft, setBarLeft] = useState(0);
+
+  // Cache the bar's geometry once per drag instead of measuring on every
+  // pointermove/render — repeated getBoundingClientRect() calls during a fast
+  // swipe force synchronous layout and were the source of the mobile stutter.
+  const barRectRef = useRef<{ top: number; height: number } | null>(null);
+  const pendingYRef = useRef<number | null>(null);
+  const rafRef = useRef<number | null>(null);
 
   const groups = useMemo(() => {
     const order: string[] = [];
@@ -46,11 +54,10 @@ export function IndexedList({ items, placeholder }: { items: IndexedItem[]; plac
     el?.scrollIntoView({ block: 'start', behavior: 'auto' });
   }
 
-  const updateFromClientY = useCallback(
+  const applyClientY = useCallback(
     (clientY: number) => {
-      const bar = scrubberRef.current;
-      if (!bar) return;
-      const rect = bar.getBoundingClientRect();
+      const rect = barRectRef.current;
+      if (!rect) return;
       const relativeY = Math.min(rect.height - 1, Math.max(0, clientY - rect.top));
       const idx = Math.min(groups.length - 1, Math.floor((relativeY / rect.height) * groups.length));
       const slotH = rect.height / groups.length;
@@ -63,19 +70,47 @@ export function IndexedList({ items, placeholder }: { items: IndexedItem[]; plac
     [groups]
   );
 
+  // Coalesce rapid pointermove events (mobile can fire well above 60Hz) into
+  // one state update per animation frame, so a fast swipe can't get the
+  // React tree and the touch position out of sync.
+  const scheduleUpdate = useCallback(
+    (clientY: number) => {
+      pendingYRef.current = clientY;
+      if (rafRef.current !== null) return;
+      rafRef.current = requestAnimationFrame(() => {
+        rafRef.current = null;
+        if (pendingYRef.current !== null) applyClientY(pendingYRef.current);
+      });
+    },
+    [applyClientY]
+  );
+
   function handlePointerDown(e: React.PointerEvent<HTMLDivElement>) {
     e.currentTarget.setPointerCapture(e.pointerId);
-    updateFromClientY(e.clientY);
+    const rect = e.currentTarget.getBoundingClientRect();
+    barRectRef.current = { top: rect.top, height: rect.height };
+    setBarLeft(rect.left);
+    applyClientY(e.clientY);
   }
 
   function handlePointerMove(e: React.PointerEvent<HTMLDivElement>) {
-    if (activeIndex === null) return;
-    updateFromClientY(e.clientY);
+    if (!barRectRef.current) return;
+    scheduleUpdate(e.clientY);
   }
 
   function endScrub() {
     setActiveIndex(null);
+    barRectRef.current = null;
+    pendingYRef.current = null;
+    if (rafRef.current !== null) {
+      cancelAnimationFrame(rafRef.current);
+      rafRef.current = null;
+    }
   }
+
+  useEffect(() => () => {
+    if (rafRef.current !== null) cancelAnimationFrame(rafRef.current);
+  }, []);
 
   return (
     <div className="indexed-list">
@@ -128,14 +163,8 @@ export function IndexedList({ items, placeholder }: { items: IndexedItem[]; plac
             ))}
           </div>
 
-          {activeIndex !== null && scrubberRef.current && (
-            <div
-              className="scrubber-bubble"
-              style={{
-                top: pointerY,
-                left: scrubberRef.current.getBoundingClientRect().left,
-              }}
-            >
+          {activeIndex !== null && (
+            <div className="scrubber-bubble" style={{ top: pointerY, left: barLeft }}>
               {groups[activeIndex].short}
             </div>
           )}
