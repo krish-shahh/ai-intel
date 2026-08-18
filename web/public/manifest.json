@@ -1,0 +1,9 @@
+{
+  "name": "ai-intel",
+  "short_name": "ai-intel",
+  "description": "A self-writing AI intel wiki: the people, companies, and ideas moving the AI world.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#16161a",
+  "theme_color": "#16161a"
+}
