@@ -13,27 +13,6 @@ export interface IndexedItem {
   groupShort?: string;
 }
 
-// Bubble silhouette: a Gaussian bell curve rotated 90°, so width-from-the-strip
-// tapers smoothly from 0 at top/bottom (flush, "attached" to the letter column)
-// to a peak bulge at the vertical center. Precomputed once — the shape never
-// changes, only its screen position does.
-const BUBBLE_W = 84;
-const BUBBLE_H = 168;
-function buildBellPath(w: number, h: number): string {
-  const cy = h / 2;
-  const sigma = h / 6.2;
-  const steps = 48;
-  let d = `M ${w} 0`;
-  for (let i = 1; i <= steps; i++) {
-    const y = (i / steps) * h;
-    const x = w - w * Math.exp(-((y - cy) ** 2) / (2 * sigma * sigma));
-    d += ` L ${x.toFixed(2)} ${y.toFixed(2)}`;
-  }
-  d += ` L ${w} ${h} Z`;
-  return d;
-}
-const BELL_PATH = buildBellPath(BUBBLE_W, BUBBLE_H);
-
 export function IndexedList({ items, placeholder }: { items: IndexedItem[]; placeholder: string }) {
   const [query, setQuery] = useState('');
   const listRef = useRef<HTMLDivElement>(null);
@@ -67,28 +46,21 @@ export function IndexedList({ items, placeholder }: { items: IndexedItem[]; plac
     el?.scrollIntoView({ block: 'start', behavior: 'auto' });
   }
 
-  const indexFromClientY = useCallback(
-    (clientY: number) => {
-      const bar = scrubberRef.current;
-      if (!bar) return null;
-      const rect = bar.getBoundingClientRect();
-      const relativeY = Math.min(rect.height - 1, Math.max(0, clientY - rect.top));
-      return Math.min(groups.length - 1, Math.floor((relativeY / rect.height) * groups.length));
-    },
-    [groups.length]
-  );
-
   const updateFromClientY = useCallback(
     (clientY: number) => {
-      const idx = indexFromClientY(clientY);
-      if (idx === null) return;
-      setPointerY(clientY);
+      const bar = scrubberRef.current;
+      if (!bar) return;
+      const rect = bar.getBoundingClientRect();
+      const relativeY = Math.min(rect.height - 1, Math.max(0, clientY - rect.top));
+      const idx = Math.min(groups.length - 1, Math.floor((relativeY / rect.height) * groups.length));
+      const slotH = rect.height / groups.length;
+      setPointerY(rect.top + slotH * (idx + 0.5));
       setActiveIndex((prev) => {
         if (idx !== prev) jumpTo(groups[idx].group);
         return idx;
       });
     },
-    [indexFromClientY, groups]
+    [groups]
   );
 
   function handlePointerDown(e: React.PointerEvent<HTMLDivElement>) {
@@ -161,13 +133,10 @@ export function IndexedList({ items, placeholder }: { items: IndexedItem[]; plac
               className="scrubber-bubble"
               style={{
                 top: pointerY,
-                left: scrubberRef.current.getBoundingClientRect().left - BUBBLE_W + 12,
-                width: BUBBLE_W,
-                height: BUBBLE_H,
-                clipPath: `path('${BELL_PATH}')`,
+                left: scrubberRef.current.getBoundingClientRect().left,
               }}
             >
-              <span className="scrubber-bubble-text">{groups[activeIndex].short}</span>
+              {groups[activeIndex].short}
             </div>
           )}
         </>
