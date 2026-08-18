@@ -1,0 +1,16 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="72" y="72" width="880" height="880" rx="220" fill="#16161D"/>
+  <rect x="73" y="73" width="878" height="878" rx="219" stroke="#FFFFFF" stroke-opacity=".09" stroke-width="2"/>
+
+  <!-- Editorial signal: raw inputs converge into a useful trajectory. -->
+  <path d="M252 660L420 532L574 608L772 360" stroke="#F2F0EA" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="252" cy="660" r="60" fill="#16161D" stroke="#F2F0EA" stroke-width="34"/>
+  <circle cx="420" cy="532" r="60" fill="#16161D" stroke="#F2F0EA" stroke-width="34"/>
+  <circle cx="574" cy="608" r="86" fill="#7C6CFF"/>
+  <circle cx="574" cy="608" r="86" stroke="#C8C0FF" stroke-opacity=".58" stroke-width="8"/>
+  <circle cx="772" cy="360" r="60" fill="#16161D" stroke="#F2F0EA" stroke-width="34"/>
+
+  <!-- Quiet framing ticks make the mark feel like an instrument, not a social graph. -->
+  <path d="M228 302V230H300M724 794H796V722" stroke="#7C6CFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

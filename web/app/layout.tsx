@@ -3,9 +3,21 @@ import './globals.css';
 import { DockNav } from './dock-nav';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ai-intel-delta.vercel.app'),
   title: 'ai-intel',
-  description: 'A self-writing AI intel wiki: people, companies, and topics moving the AI world.',
+  description: 'A self-writing AI intel wiki: the people, companies, and ideas moving the AI world.',
   manifest: '/manifest.json',
+  openGraph: {
+    title: 'ai-intel',
+    description: 'A self-writing AI intel wiki: the people, companies, and ideas moving the AI world.',
+    siteName: 'ai-intel',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ai-intel',
+    description: 'A self-writing AI intel wiki: the people, companies, and ideas moving the AI world.',
+  },
 };
 
 export const viewport: Viewport = {
@@ -19,9 +31,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <header className="topbar">
-          <a href="/" className="brand"><span>ai</span>-intel</a>
-        </header>
         <main>{children}</main>
         <DockNav />
       </body>
