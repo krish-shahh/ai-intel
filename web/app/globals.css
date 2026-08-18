@@ -1,3 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: var(--bg);
+  --color-panel: var(--panel);
+  --color-panel-2: var(--panel-2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-brief: var(--brief);
+  --color-person: var(--person);
+  --color-company: var(--company);
+  --color-topic: var(--topic);
+}
+
 :root {
   --bg: #f7f7f3;
   --panel: #fbfbf7;
@@ -40,6 +56,8 @@ body {
   -webkit-font-smoothing: antialiased;
   padding-bottom: calc(var(--tab-bar-h) + env(safe-area-inset-bottom));
 }
+:root[data-theme="light"], :root { color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { color-scheme: dark; } }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -63,36 +81,31 @@ main {
 
 .lbl { font-size: .68em; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 
-.tabbar {
+.dock-wrap {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-  display: flex;
-  background: var(--panel);
-  border-top: 1px solid var(--line);
-  padding-bottom: env(safe-area-inset-bottom);
+  display: flex; justify-content: center;
+  padding-bottom: max(10px, env(safe-area-inset-bottom));
+  pointer-events: none;
 }
-.tabbar a {
-  flex: 1;
-  display: flex; flex-direction: column; align-items: center; gap: 2px;
-  padding: 9px 4px 8px;
-  color: var(--muted);
-  font-size: .72em;
-  text-decoration: none;
+.dock-shell {
+  pointer-events: auto;
+  margin: 0 !important;
+  background: color-mix(in srgb, var(--panel) 85%, transparent) !important;
+  border-color: var(--line) !important;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .16);
 }
-.tabbar a.active { color: var(--accent); }
-.tabbar .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: 0; }
-.tabbar a.active .dot { opacity: 1; }
+.dock-icon { color: var(--muted); }
+.dock-icon-active { color: var(--accent); }
+.dock-link {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; height: 100%; color: inherit;
+}
 
 @media (min-width: 720px) {
-  .tabbar { display: none; }
   body { padding-bottom: 0; }
   .topbar { padding-left: 24px; padding-right: 24px; }
-  .topbar nav { display: flex; gap: 18px; }
-  .topbar nav a { color: var(--muted); font-size: .92em; }
-  .topbar nav a.active { color: var(--ink); font-weight: 600; }
-  main { padding: 28px 24px 48px; }
+  main { padding: 28px 24px 100px; }
 }
-.topbar nav { display: none; }
-@media (min-width: 720px) { .topbar nav { display: flex; } }
 
 .list-row {
   display: block;

@@ -10,13 +10,16 @@ export default function HomePage() {
   }
 
   const { older } = getBriefNeighbors(brief.slug);
+  const people = (brief.data.people as string[]) || [];
+  const companies = (brief.data.companies as string[]) || [];
+  const topics = (brief.data.topics as string[]) || [];
 
   return (
     <article>
-      <div className="eyebrow">Latest brief · {cap(brief.data.session)}</div>
-      <h1 className="pagetitle">{fmtDate(brief.data.date, true)}</h1>
+      <div className="eyebrow">Latest brief · {cap(brief.data.session as string)}</div>
+      <h1 className="pagetitle">{fmtDate(brief.data.date as string, true)}</h1>
       <div className="subtitle">
-        {(brief.data.people || []).length} people · {(brief.data.companies || []).length} companies · {(brief.data.topics || []).length} topics
+        {people.length} people · {companies.length} companies · {topics.length} topics
       </div>
       <div className="prose" dangerouslySetInnerHTML={{ __html: brief.html }} />
       <nav className="brief-nav" aria-label="Brief navigation">
@@ -34,3 +37,5 @@ export default function HomePage() {
     </article>
   );
 }
+
+export const revalidate = 300;
