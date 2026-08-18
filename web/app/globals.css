@@ -196,13 +196,16 @@ main {
 
 .scrubber-bubble {
   position: fixed; z-index: 30;
-  display: flex; align-items: center; justify-content: center;
-  width: 64px; height: 64px; border-radius: 50%;
-  background: rgba(20, 20, 25, .92); color: #fff;
-  font-family: var(--serif); font-size: 1.6em; font-weight: 600;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, .3);
-  transform: translate(-100%, -50%) translateX(-14px);
+  background: rgba(20, 20, 25, .92);
+  filter: drop-shadow(0 8px 20px rgba(0, 0, 0, .32));
+  transform: translateY(-50%);
   pointer-events: none;
+}
+.scrubber-bubble-text {
+  position: absolute; top: 50%; left: 30%;
+  transform: translate(-50%, -50%);
+  color: #fff; font-family: var(--serif); font-size: 1.5em; font-weight: 600;
+  white-space: nowrap;
 }
 
 @media (min-width: 720px) {
