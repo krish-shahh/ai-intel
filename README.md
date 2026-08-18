@@ -1,23 +1,30 @@
 # ai-intel
 
 A **self-writing AI intel wiki**: a living knowledge base about the people,
-projects, and ideas moving the AI world. Two scheduled cloud agents read what
-happened across X, Reddit, Hacker News, Polymarket, GitHub, and the web twice a
-day, write a short brief, update the relevant people/topic pages, push to `main`,
-and ping your phone. It's built to be browsed as an [Obsidian](https://obsidian.md) vault.
+companies, and ideas moving the AI world — software, and the hardware/compute/
+datacenter stack underneath it. Two scheduled cloud agents read what happened
+across X, Reddit, Hacker News, Polymarket, GitHub, and the web twice a day,
+write a short brief, update the relevant people/company/topic pages, push to
+`main`, and ping your phone with a link to a hosted, mobile-optimized web app.
+It's also built to be browsed as an [Obsidian](https://obsidian.md) vault.
+
+**Live:** [ai-krish.vercel.app](https://ai-krish.vercel.app)
 
 ## How it works
 
 ```mermaid
 flowchart TD
-    R["⏰ Cloud routines<br/>9am &amp; 8pm EST"] -->|search X · Reddit · HN · Polymarket · GitHub · web| W["Write digest brief<br/>+ update people/topics"]
+    R["⏰ Cloud routines<br/>9am &amp; 8pm EST"] -->|search X · Reddit · HN · Polymarket · GitHub · web| W["Write digest brief<br/>+ update people/companies/topics"]
     W -->|commit &amp; push| M[("main branch")]
     M --> N["notify.yml<br/>→ ntfy push 🔔"]
     M --> L["linkcheck.yml<br/>→ flag dead links"]
     H["heartbeat.yml<br/>scheduled"] -.->|brief missing| N
     M -->|git auto-pull| A["🖥️ Desktop app<br/>dashboard · graph · files · CI status"]
+    M -->|auto-deploy| B["🌐 Web app (Vercel)<br/>mobile-optimized, live from git"]
+    N -->|links to| B
     N --> U["📱 You"]
     A --> U
+    B --> U
 ```
 
 Each run:
@@ -51,19 +58,22 @@ people/                     One page per tracked person (name, handle, tags:[per
 companies/                  One page per tracked public company (name, ticker, layer, tags:[company])
 topics/                     One page per topic (title, tags:[topic])
 app/                        Desktop reader app (Electron: dashboard, graph, files)
+web/                        Hosted reader app (Next.js: briefs, people, companies, topics, graph)
 README.md                   This file
 ```
 
-- **`people/` is the whitelist.** Add a `people/<slug>.md` with `name`, `handle`,
-  `tags: [person]` and the next run tracks them. Remove the file to stop. The
-  filename (no `.md`) is the wikilink slug, e.g. `[[karpathy]]`. Each page carries a
-  short bio and links the handle to that person's X profile; the routine appends dated,
-  sourced notes under `## Recent`.
-- **`companies/`** works the same way for public companies across the AI hardware/datacenter
-  supply chain -- compute, memory, networking, storage, power, cooling, and building & site
-  (see [[ai-datacenter-stack]]) -- plus the TMT names around them. Add a `companies/<slug>.md`
-  with `name`, `ticker`, `layer`, `tags: [company]`; the routine tracks stock-moving news
-  (earnings, capex guidance, supply agreements) alongside product news, same as people/.
+- **`people/` and `companies/` are starting whitelists, not hard limits.** Add a
+  `people/<slug>.md` (`name`, `handle`, `tags: [person]`) or `companies/<slug>.md`
+  (`name`, `ticker`, `layer`, `tags: [company]`) and the next run tracks them; remove
+  the file to stop. The filename (no `.md`) is the wikilink slug, e.g. `[[karpathy]]`.
+  Beyond the seeded list, the routine also **auto-discovers** newly relevant people and
+  companies it encounters while researching (e.g. a new lab founder, a newly public
+  supplier) and creates a stub page for them the same way, so coverage grows on its own.
+  Each page carries a short bio; the routine appends dated, sourced notes under `## Recent`.
+- **`companies/`** covers public companies across the AI hardware/datacenter supply chain --
+  compute, memory, networking, storage, power, cooling, and building & site (see
+  [[ai-datacenter-stack]]) -- plus the TMT names around them. The routine tracks
+  stock-moving news (earnings, capex guidance, supply agreements) alongside product news.
 - **`topics/`** works the same way for themes; its filenames are the topic slugs.
 
 ## Automation
@@ -71,8 +81,8 @@ README.md                   This file
 - **Routines** (claude.ai/code): two scheduled agents, **8:00 AM** and **8:00 PM
   EST**. Manage at https://claude.ai/code/routines.
 - **`notify.yml`** — on each new brief, sends an [ntfy.sh](https://ntfy.sh) push
-  (topic `ai-intel`) with a one-line summary + link; tap opens the brief.
-  Subscribe in the ntfy app to topic `ai-intel`.
+  (topic `ai-intel`) with a one-line summary + link to the brief on the hosted
+  web app; tap opens it. Subscribe in the ntfy app to topic `ai-intel`.
 - **`linkcheck.yml`** — verifies the brief's source links resolve; alerts on
   dead/invented ones (404/410/unreachable).
 - **`heartbeat.yml`** — shortly after each window, alerts if the expected brief
@@ -103,6 +113,28 @@ point it at your own interests:
    public and the workflows just `curl` them.
 6. **(Optional) the desktop app** — `cd app && npm install && npm start`. Its CI
    panel uses the [GitHub CLI](https://cli.github.com) (`gh auth login`).
+7. **(Optional) the web app** — deploy [`web/`](web/) to [Vercel](https://vercel.com)
+   (Root Directory: `web`) for a hosted, mobile-optimized reader. It reads the same
+   markdown at build time, so it redeploys automatically on every push to `main`.
+   Point `notify.yml`'s `WEB_APP_URL` at your deployment so notifications link there.
+
+## Web app
+
+A hosted Next.js reader lives in [`web/`](web/) — the mobile-first way to read this
+wiki, deployed on [Vercel](https://vercel.com) and rebuilt automatically on every
+push to `main`. Same five views as the desktop app, tuned for a phone:
+
+- **Briefs / People / Companies / Topics** — searchable list pages with an
+  iOS-Contacts-style index scrubber for fast alphabetical/date jumping.
+- **Graph** — a touch-friendly (pinch-to-zoom, tap-to-open) force-directed map of
+  briefs ↔ people ↔ companies ↔ topics, filterable by date range and node type.
+- A bottom dock (glass/blur effect) replaces a nav bar; PWA metadata (favicon,
+  Open Graph/Twitter cards) is generated from the desktop app's icon.
+
+```bash
+cd web && npm install && npm run dev   # run locally at localhost:3000
+npm run build                           # production build (what Vercel runs)
+```
 
 ## Desktop app
 

@@ -3,7 +3,7 @@ import './globals.css';
 import { DockNav } from './dock-nav';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ai-intel-delta.vercel.app'),
+  metadataBase: new URL('https://ai-krish.vercel.app'),
   title: 'ai-intel',
   description: 'A self-writing AI intel wiki: the people, companies, and ideas moving the AI world.',
   manifest: '/manifest.json',
