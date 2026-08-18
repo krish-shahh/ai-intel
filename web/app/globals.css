@@ -102,16 +102,7 @@ main {
 
 @media (min-width: 720px) {
   body { padding-bottom: 0; }
-  /* Extra top padding clears the top-left dock (~80px tall including its
-     magnification headroom) instead of the default 28px used on mobile. */
-  main { padding: calc(110px + env(safe-area-inset-top)) 24px 100px; }
-
-  .dock-wrap {
-    left: 0; right: auto; bottom: auto;
-    top: max(16px, env(safe-area-inset-top));
-    justify-content: flex-start;
-    padding: 0 0 0 max(16px, env(safe-area-inset-left));
-  }
+  main { padding: calc(28px + env(safe-area-inset-top)) 24px 100px; }
 }
 
 .list-row {
