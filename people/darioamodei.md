@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-08-18** Anthropic's pre-IPO revolving credit facility is on track to exceed $10B, up from $2.5B a year ago; banks are bidding for top underwriting tiers ahead of the expected IPO. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-18/anthropic-pre-ipo-credit-facility-set-to-climb-past-10-billion) (independent)
+
 - **2026-08-18** Anthropic revenue run rate confirmed at $65B annualized as of July 2026, up from $47B in May and $9B at end-2025; Q2 2026 revenue was roughly $11.5B vs. $787M in Q2 2025; IPO now expected as early as October. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo) (independent) · [CNBC](https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html) (independent)
 
 - **2026-08-17** Anthropic published a detailed technical explainer for its statistical text watermarking system (active since Aug 2); confirms word-choice distributions are biased to embed a detectable signal. Daring Fireball published a rebuttal calling it "a perversion of writing," marking the start of a public creator backlash. Separately, Claude API, claude.ai, and Claude Code reported down as of ~3 hours before this entry. [Anthropic](https://www.anthropic.com/news/claude-text-watermark) (primary) · [Daring Fireball](https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing) (independent) · [HN outage thread](https://news.ycombinator.com/item?id=49324068) (community)

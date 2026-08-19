@@ -7,6 +7,10 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-08-18** Anthropic confirmed a multi-service outage (Mythos 5, Fable 5, Opus 5, Sonnet 5, Haiku 4.5) starting ~16:46 UTC; 2,000+ Downdetector reports, most citing Claude Code specifically; resolved by ~19:53 UTC the same day. [Bleeping Computer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services) (independent) · [GV Wire](https://gvwire.com/2026/08/18/claude-ai-goes-down-for-thousands-tuesday-downdetector-shows) (independent)
+
+- **2026-08-18** v2.1.235 shipped: optional spellcheck for prompt input, a prompt-cache invalidation fix, fixes for nested markdown list indentation and multi-line prompt highlight offsets, a Shift+Tab permission-prompt fix, notebook cell permission dialogs, and background cloud session perf work. [changelog](https://code.claude.com/docs/en/changelog) (primary)
+
 - **2026-08-17** Anthropic published a detailed technical explainer for the statistical watermarking system that has been active in Claude output since Aug 2 (initial announcement Aug 11). Confirms word-choice distributions are statistically biased to embed a hidden signal -- not just metadata tagging. Public backlash started with Daring Fireball calling it "a perversion of writing." Separately, Claude API, claude.ai, and Claude Code were reported down as of roughly 15:00 UTC (HN "Claude Is Down" thread). [Anthropic watermark explainer](https://www.anthropic.com/news/claude-text-watermark) (primary) · [Daring Fireball](https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing) (independent) · [HN outage](https://news.ycombinator.com/item?id=49324068) (community)
 
 - **2026-08-14** Claude Code auto mode confirmed live today as the default permission model for Pro, Max, and Team accounts; enterprise, API, Bedrock, GCP, and Foundry surfaces remain opt-in with rollout continuing over the next month. [TechCrunch](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/) (independent)

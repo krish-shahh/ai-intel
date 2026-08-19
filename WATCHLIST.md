@@ -18,3 +18,5 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - Claude text watermarking: live since Aug 2; watching for enterprise reaction and regulatory response (opened 2026-08-17)
 - Stripe / OpenRouter integration: closed Aug 16; watching for OpenRouter API changes, pricing shifts, and any neutrality guarantees (opened 2026-08-18)
 - OpenAI Preparedness dissolution: watching whether reassigned staff retain veto authority over new-model releases and whether any external review body fills the gap (opened 2026-08-18)
+- Anthropic pre-IPO credit facility: on track to exceed $10B; watching for final size and IPO timing signal (opened 2026-08-19)
+- AI infrastructure capex durability: WSJ's $3T off-balance-sheet commitment estimate is fueling a power/cooling stock selloff; watching for hyperscaler responses or balance-sheet disclosures (opened 2026-08-19)
