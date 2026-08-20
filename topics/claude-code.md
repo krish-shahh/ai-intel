@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-08-19** v2.1.236 shipped: new `ANTHROPIC_DEFAULT_MODEL` env var for setting the default model, `notify_when_idle` for cross-session messaging (macOS/Linux), enhanced sandbox wildcard read-deny precedence on macOS. v2.1.237 followed: fixed prompt caching for sessions using an LLM gateway or custom base URL, added a built-in "Concise" output style. [changelog](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) (primary)
+
 - **2026-08-18** Anthropic confirmed a multi-service outage (Mythos 5, Fable 5, Opus 5, Sonnet 5, Haiku 4.5) starting ~16:46 UTC; 2,000+ Downdetector reports, most citing Claude Code specifically; resolved by ~19:53 UTC the same day. [Bleeping Computer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services) (independent) · [GV Wire](https://gvwire.com/2026/08/18/claude-ai-goes-down-for-thousands-tuesday-downdetector-shows) (independent)
 
 - **2026-08-18** v2.1.235 shipped: optional spellcheck for prompt input, a prompt-cache invalidation fix, fixes for nested markdown list indentation and multi-line prompt highlight offsets, a Shift+Tab permission-prompt fix, notebook cell permission dialogs, and background cloud session perf work. [changelog](https://code.claude.com/docs/en/changelog) (primary)
