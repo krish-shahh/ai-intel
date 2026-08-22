@@ -10,3 +10,4 @@ Broadcom designs custom AI accelerators (ASICs) for hyperscalers -- including Go
 ## Recent
 
 - **2026-08-18** AVGO fell 3.33% amid rising bond yields and a broader reassessment of the AI capex trade. [TradingKey](https://www.tradingkey.com/news/market-movers/262115383-market-movers-avgo-20260818) (independent)
+- **2026-08-20** In talks with Blackstone and Apollo to raise $60B+ in debt (possibly up to $100B with a junior tranche) to finance AI chip supply for Anthropic and other customers; terms still in flux. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal) (independent)
