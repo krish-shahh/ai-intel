@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-08-21** Jensen Huang met Rebellions co-founder Sunghyun Park in Santa Clara to discuss a possible technical partnership, investment, or acquisition of the Korean NPU startup (~$2.3B valuation). Talks are early-stage; any acquisition-shaped outcome would likely draw US and Korean antitrust scrutiny given NVIDIA's existing compute share. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-21/nvidia-in-talks-with-chip-startup-rebellions-for-potential-deal) (independent) · [Dataconomy](https://dataconomy.com/2026/08/21/nvidia-explores-potential-partnership-or-acquisition-with/) (independent)
+
 - **2026-08-19** First H200 shipments reached mainland China: ByteDance and Tencent each received roughly 10,000 units, the first meaningful movement of the chips into mainland China since export approval last December. Beijing has been steering firms to keep the chips in Hong Kong instead to protect domestic chipmakers. [Tom's Hardware](https://www.tomshardware.com/pc-components/gpus/first-nvidia-h200-shipments-reach-bytedance-and-tencent-as-beijing-loosens-its-import-block) (independent) · [Benzinga](https://www.benzinga.com/markets/tech/26/08/61293582/nvidias-h200-chips-are-flowing-into-china-again-bytedance-tencent-get-around-10000-each-report-says) (independent)
 
 - **2026-08-19** NVDA stabilized near $219, halting a three-day slide, ahead of FOMC minutes and the Aug 26 Q2 FY27 earnings call. [GuruFocus](https://www.gurufocus.com/news/8930236/ai-chip-stocks-stage-rebound-nvidia-amd-lead-recovery-ahead-of-micron-earnings-shock) (independent)

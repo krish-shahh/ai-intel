@@ -10,5 +10,7 @@ Jensen Huang is co-founder and CEO of NVIDIA, which he has led since founding it
 
 ## Recent
 
+- **2026-08-21** Met Rebellions co-founder and CEO Sunghyun Park in Santa Clara to discuss a possible technical partnership, investment, or acquisition of the Korean NPU startup, valued around $2.3B. Talks are early-stage. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-21/nvidia-in-talks-with-chip-startup-rebellions-for-potential-deal) (independent) · [Dataconomy](https://dataconomy.com/2026/08/21/nvidia-explores-potential-partnership-or-acquisition-with/) (independent)
+
 - **2026-07-24** Made his first-ever X post to cosign "Open Weights and American AI Leadership," a letter signed by NVIDIA, Meta, Microsoft, Palantir, and 21 other organizations, directed at Congress in response to the AI Kill Switch Act. Argued open models strengthen safety and enable national AI sovereignty. Elon Musk endorsed the letter the same day. OpenAI and Anthropic did not sign. [Fortune](https://fortune.com/2026/07/24/jensen-huang-open-source-letter-nvidia-kimi/) · [Seeking Alpha](https://seekingalpha.com/news/4618138-nvidia-ceo-huang-joins-x-signs-letter-to-congress-on-open-ai-models) · [Decrypt](https://decrypt.co/374282/nvidia-meta-microsoft-washington-dont-kill-open-source-ai)
 

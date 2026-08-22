@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-08-21** Anthropic now expects its IPO to match or beat SpaceX's record raise ($75-86B) and is adding Citigroup as a fourth underwriter alongside Morgan Stanley, Goldman Sachs, and JPMorgan; a public filing could come as soon as end of August, with valuation talk near $2T. [Bloomberg](https://www.bloomberg.com/news/newsletters/2026-08-21/anthropic-expects-to-match-or-top-spacex-s-record-ipo-size) (independent) · [Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/anthropic-expects-match-spacex-record-175602035.html) (independent) · [TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262123046-anthropic-plans-add-citigroup-as-top-tier-ipo-underwriter-tradingkey) (independent)
+
 - **2026-08-18** Anthropic's pre-IPO revolving credit facility is on track to exceed $10B, up from $2.5B a year ago; banks are bidding for top underwriting tiers ahead of the expected IPO. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-18/anthropic-pre-ipo-credit-facility-set-to-climb-past-10-billion) (independent)
 
 - **2026-08-18** Anthropic revenue run rate confirmed at $65B annualized as of July 2026, up from $47B in May and $9B at end-2025; Q2 2026 revenue was roughly $11.5B vs. $787M in Q2 2025; IPO now expected as early as October. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo) (independent) · [CNBC](https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html) (independent)
