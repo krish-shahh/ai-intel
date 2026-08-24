@@ -13,7 +13,7 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - Demis Hassabis / Google DeepMind: Kavukcuoglu now SVP; watching Gemini roadmap and talent pipeline impact (opened 2026-08-11)
 - Anthropic / Decart AI acquisition: still nearing signing at roughly $7B, mostly in Anthropic stock, ahead of the September IPO push; not yet closed [Calcalist](https://www.calcalistech.com/ctechnews/article/b1evv3aufg) (independent) (opened 2026-08-14)
 - Grok 4.7 (2.1T): supplemental training ongoing; window slipped to early September (opened 2026-08-14)
-- GLM-5.3 weights: still held back for safety hardening, drop expected around Aug 28; no public CVE yet for the Cursor finding (opened 2026-08-17)
+- GLM-5.3 weights: still held back for safety hardening, official drop expected around Aug 28; a stealth preview build ("Ox Alpha" on OpenRouter/OpenCode) is increasingly fingerprinted as an early GLM-5.3 variant, unconfirmed by Zhipu; no public CVE yet for the Cursor finding (opened 2026-08-17)
 - OpenAI IPO: CFO Friar publicly committed to a 2027 timeline (or sooner) on Aug 19; confidential S-1 still filed since May, public prospectus not yet posted; now racing Anthropic's faster-moving filing (opened 2026-08-17)
 - Claude text watermarking: live since Aug 2; watching for enterprise reaction and regulatory response (opened 2026-08-17)
 - Stripe / OpenRouter integration: closed Aug 16; watching for OpenRouter API changes, pricing shifts, and any neutrality guarantees (opened 2026-08-18)
@@ -25,3 +25,4 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - OpenAI Private Safety Processing: in preview with select enterprise/API customers; broader rollout and technical white paper expected September (opened 2026-08-20)
 - Nvidia / Rebellions: early-stage talks on partnership, investment, or acquisition of the Korean NPU startup; watching for antitrust reaction given Nvidia's dominant compute share (opened 2026-08-21)
 - Broadcom in talks with Blackstone and Apollo to raise $60B+ (potentially up to $100B including a junior tranche) in debt to finance AI chip supply for Anthropic and others; terms still in flux [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal) (independent) (opened 2026-08-20)
+- Ox Alpha stealth model: operator still unconfirmed; prompts reportedly retained with no disclosed policy; free-access window said to close around Aug 24-27 (opened 2026-08-24)
