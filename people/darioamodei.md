@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-08-24** Claude platform hit its seventh outage this month: elevated errors on Mythos 5, Fable 5, Opus 5, and Opus 4.8 across claude.ai, the API, Claude Code, and Cowork from 05:06 to 08:30 UTC; no root cause disclosed. Prior incidents this month: Aug 5, 12, 13, 16, 18, 20. [Bleeping Computer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services) (independent) · [Notebookcheck](https://www.notebookcheck.net/Claude-faces-another-outage-as-errors-hit-multiple-models.1376666.0.html) (independent)
+
 - **2026-08-21** Anthropic now expects its IPO to match or beat SpaceX's record raise ($75-86B) and is adding Citigroup as a fourth underwriter alongside Morgan Stanley, Goldman Sachs, and JPMorgan; a public filing could come as soon as end of August, with valuation talk near $2T. [Bloomberg](https://www.bloomberg.com/news/newsletters/2026-08-21/anthropic-expects-to-match-or-top-spacex-s-record-ipo-size) (independent) · [Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/anthropic-expects-match-spacex-record-175602035.html) (independent) · [TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262123046-anthropic-plans-add-citigroup-as-top-tier-ipo-underwriter-tradingkey) (independent)
 
 - **2026-08-18** Anthropic's pre-IPO revolving credit facility is on track to exceed $10B, up from $2.5B a year ago; banks are bidding for top underwriting tiers ahead of the expected IPO. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-18/anthropic-pre-ipo-credit-facility-set-to-climb-past-10-billion) (independent)
