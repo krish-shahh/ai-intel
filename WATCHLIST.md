@@ -28,3 +28,4 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - Ox Alpha stealth model: operator still unconfirmed; prompts reportedly retained with no disclosed policy; free-access window said to close around Aug 24-27 (opened 2026-08-24)
 - Anthropic outage cadence: seventh disruption this month (05:06-08:30 UTC Aug 24, Mythos 5/Fable 5/Opus 5/Opus 4.8 affected); no root cause disclosed for any incident this month; watching for an official postmortem or a change in pattern (opened 2026-08-24)
 - Nvidia in talks to invest $30B+ in Perplexity, over 50% above its valuation from about a year ago; not yet confirmed as closed (opened 2026-08-25)
+- Sen. Warren calls for Jensen Huang to testify before Congress over reports of Nvidia Jetson Orin chips found in Russian drones; Nvidia disputes military-use characterization (opened 2026-08-25)
