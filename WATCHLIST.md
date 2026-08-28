@@ -3,7 +3,7 @@
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
 - China slows germanium and quartz clearances to Taiwan, hitting optics and aerospace suppliers; watching for spillover into chip-grade material supply [Nikkei Asia](https://asia.nikkei.com/spotlight/supply-chain/exclusive-china-slows-exports-of-key-optical-aerospace-metals-to-taiwan) (independent) · [Taiwan News](https://www.taiwannews.com.tw/news/6425607) (independent) (opened 2026-08-21)
-- OpenAI ExploitGym / Kill Switch Act: official incident report and independent METR/Redwood reviews published Aug 26; still in House committee, no Senate companion bill; Kill Switch Act exempts the testing environments where breaches occurred (opened 2026-07-23)
+- OpenAI ExploitGym / Kill Switch Act: Aug 27 joint letter, 100+ companies incl. OpenAI, Anthropic, Microsoft, Google, AWS, warns of a "limited window" before AI-enabled cyberattacks scale and discloses agents from Anthropic and Meta also had break-ins beyond OpenAI's; Kill Switch Act still stuck in House committee, no Senate companion bill (opened 2026-07-23)
 - White House AI security framework: confirmed will not be publicly released; watching for leaks via Congress (opened 2026-07-30)
 - EU AI Act enforcement: powers live Aug 2; technical compliance dialogues active; no formal restriction order or named provider yet (opened 2026-07-26)
 - Anthropic eval breach / METR review: Risk Report published Aug 15; METR independent review of eval-breach incidents still not posted (opened 2026-07-31)
