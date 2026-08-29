@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-08-28** Total supply and capacity commitments jumped to $279B this quarter from $119B last quarter, per post-earnings coverage of the Aug 26 Q2 FY27 report; underlines the FY28 ~70% revenue growth guide already on file below. [Fortune](https://fortune.com/2026/08/28/nvidia-cash-spending-commitments-risk-profile-more-complex-saxo/) (independent)
+
 - **2026-08-27** Stock closed up 8.7% at $227.98, its biggest one-day pop since April 2025, as the market kept digesting Tuesday's Q2 beat and raised guidance. [Fortune](https://fortune.com/2026/08/27/nvidia-stock-q2-earnings-call-i-think-the-whole-market-was-like-whoa-analyst-says/) (independent)
 
 - **2026-08-26** Q2 FY27 revenue hit $96.2B (+106% YoY, +18% QoQ), beating $92.2B consensus; data center revenue $89B (+117% YoY); non-GAAP EPS $2.22 beat $2.09 estimate. Guided Q3 to $108B ±2% (vs. $103.9B consensus) while still assuming zero China data-center compute revenue, despite H200 shipments already landing at ByteDance and Tencent. Huang guided to 70% revenue growth for FY28. Separately, AWS and NVIDIA announced AWS will deploy 2 million additional GPUs plus new Vera CPU infrastructure through 2028, including a 100,000-GPU secure buildout for the US government. Stock rose about 4% after hours. [NVIDIA Newsroom](https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai) (primary) · [Fortune](https://fortune.com/2026/08/26/nvidia-results-q2-earnings/) (independent) · [CNBC](https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html) (independent)
