@@ -7,6 +7,8 @@ Model releases tracks new frontier and open models as they ship, along with thei
 
 ## Notes
 
+- **2026-08-29** GLM-5.3's flagship 753B-parameter weights are now publicly downloadable on Hugging Face (zai-org/GLM-5.3), closing the ~2-week safety-hardening delay past the original Aug 28 target. The license is no longer MIT. [Hugging Face](https://huggingface.co/zai-org/GLM-5.3) · [The New Stack](https://thenewstack.io/zai-glm-weights-license/) (independent)
+
 - **2026-08-28** Tencent Hunyuan released and open-sourced Hy4 preview (Apache 2.0): 770B total / 49B active MoE, 1M-token context. Tencent says it can coordinate multiple [[codex]] sessions in parallel and beat Codex alone on eight benchmarks; claims a narrow edge over GLM-5.3 and Kimi K3 on an internal 203-task, 163-expert blind eval (2.99/4.00 vs 2.92 and 2.94). No independent benchmark reproduction yet. Available via Tencent Cloud, OpenRouter, and Hugging Face. [Tencent](https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/) (primary) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-28/tencent-touts-new-ai-model-it-claims-outperforms-z-ai-moonshot) (independent)
 
 - **2026-08-26** Z.ai confirmed Ox Alpha, the stealth model that had been flooding OpenRouter and OpenCode's free tier since ~Aug 20, was its own GLM-5.3-Flash: 320B MoE, 18B active parameters, 1M-token context, text/image/video input. Weights are now public under an MIT license with official API pricing live, ending the free-access route. The flagship GLM-5.3's own weights remain withheld for safety hardening, still on track for around Aug 28. [Kingy AI](https://kingy.ai/blog/ox-alpha-free-opencode-stealth-model/) (community)
