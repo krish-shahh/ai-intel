@@ -17,7 +17,7 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - Claude text watermarking: live since Aug 2; watching for enterprise reaction and regulatory response (opened 2026-08-17)
 - Stripe / OpenRouter integration: closed Aug 16; watching for OpenRouter API changes, pricing shifts, and any neutrality guarantees (opened 2026-08-18)
 - OpenAI Preparedness dissolution: watching whether reassigned staff retain veto authority over new-model releases and whether any external review body fills the gap (opened 2026-08-18)
-- Anthropic IPO: pitching investors on a $30T+ TAM claim and a valuation near $2T on a raise above $100B; public S-1 could arrive as early as late August, debut targeted as early as September or October (opened 2026-08-19)
+- Anthropic IPO: pitching investors on a $30T+ TAM claim and a valuation near $2T on a raise above $100B; targeting a public listing as early as October, broader window late 2026; no public S-1 yet (opened 2026-08-19)
 - AI infrastructure capex durability: AWS's 2 million-GPU, multi-year commitment to Nvidia is one hyperscaler answer to the durability question; still watching for further balance-sheet disclosures (opened 2026-08-19)
 - OpenAI vs Anthropic revenue race: Anthropic's annualized revenue reportedly hit ~$65B by end of July; OpenAI's CFO citing a 35% QTD run-rate rise and 50% enterprise growth as its Q3 counter (opened 2026-08-19)
 - OpenAI Private Safety Processing: in preview with select enterprise/API customers; broader rollout and technical white paper expected September (opened 2026-08-20)
