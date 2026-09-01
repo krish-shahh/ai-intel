@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-08-31** Agreed to invest $3.5B via convertible bonds into MediaTek (see [[mediatek]]), its largest direct investment outside the US. MediaTek adopts NVLink Fusion to build custom accelerators and AI-vehicle silicon for Nvidia's rack-scale systems. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-31/nvidia-to-invest-3-5-billion-in-chipmaker-mediatek) (independent) · [TechCrunch](https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/) (independent)
+
 - **2026-08-28** Total supply and capacity commitments jumped to $279B this quarter from $119B last quarter, per post-earnings coverage of the Aug 26 Q2 FY27 report; underlines the FY28 ~70% revenue growth guide already on file below. [Fortune](https://fortune.com/2026/08/28/nvidia-cash-spending-commitments-risk-profile-more-complex-saxo/) (independent)
 
 - **2026-08-27** Stock closed up 8.7% at $227.98, its biggest one-day pop since April 2025, as the market kept digesting Tuesday's Q2 beat and raised guidance. [Fortune](https://fortune.com/2026/08/27/nvidia-stock-q2-earnings-call-i-think-the-whole-market-was-like-whoa-analyst-says/) (independent)
