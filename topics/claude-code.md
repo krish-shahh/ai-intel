@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-08-31** Another outage: degraded performance on claude.ai and Claude Code from 16:55 to 19:16 UTC, resolved same day. [Claude Status](https://status.claude.com/) (primary)
+
 - **2026-08-26** `anthropics/claude-plugins-official` is trending on GitHub today: Anthropic's own curated, official directory of Claude Code plugins, distinct from the earlier community-run mirror. [GitHub](https://github.com/anthropics/claude-plugins-official)
 
 - **2026-08-24** Seventh outage this month: elevated errors on Mythos 5, Fable 5, Opus 5, and Opus 4.8 across claude.ai, the API, Claude Code, and Cowork from 05:06 to 08:30 UTC; no root cause disclosed. [Bleeping Computer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services) (independent) · [Notebookcheck](https://www.notebookcheck.net/Claude-faces-another-outage-as-errors-hit-multiple-models.1376666.0.html) (independent)
