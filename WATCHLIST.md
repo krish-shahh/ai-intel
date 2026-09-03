@@ -12,7 +12,7 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - California Frontier AI Safety Act: passed Assembly Aug 10; awaiting governor signature by Sep 30, still not signed (opened 2026-08-11)
 - Demis Hassabis / Google DeepMind: Kavukcuoglu now SVP; watching Gemini roadmap and talent pipeline impact (opened 2026-08-11)
 - Anthropic / Decart AI acquisition: still in talks, roughly $6-7B, mostly Anthropic stock; could sign as soon as next month, ahead of the September IPO push; not yet closed [Calcalist](https://www.calcalistech.com/ctechnews/article/b1evv3aufg) (independent) (opened 2026-08-14)
-- Grok 4.7 (2.1T): supplemental SpaceX-data training run ongoing; window still early September (Sep 2-9), no confirmed date or benchmark card from xAI (opened 2026-08-14)
+- Grok 4.7 (2.1T): supplemental SpaceX-data training run ongoing; window now around Sep 11-12 per Musk's Sept 2 post, still no confirmed benchmark card from xAI (opened 2026-08-14)
 - OpenAI IPO: CFO Friar publicly committed to a 2027 timeline (or sooner); confidential S-1 still filed since June, public prospectus not yet posted; racing Anthropic's faster-moving filing (opened 2026-08-17)
 - Claude text watermarking: live since Aug 2; watching for enterprise reaction and regulatory response (opened 2026-08-17)
 - Stripe / OpenRouter integration: closed Aug 16; watching for OpenRouter API changes, pricing shifts, and any neutrality guarantees (opened 2026-08-18)
@@ -30,3 +30,4 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - OpenAI/Cursor cutoff: proposed Nov 12 shutoff of Cursor's direct OpenAI model access, tied to OpenAI's change-of-control clause after SpaceX's $60B Anysphere acquisition and to Astra's cyber-capability evaluation; Anthropic has pledged more Claude compute in response and Cursor's CEO says OpenAI models are only ~5% of its traffic, but watching whether the cutoff sticks or gets renegotiated before Nov 12 [OpenAI](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/) (primary) (opened 2026-08-29)
 - Nvidia / MediaTek: $3.9B convertible-bond deal (Alphabet also participating alongside Nvidia's $3.5B); watching for the ~Sep 8 close and how deep the NVLink Fusion integration goes (opened 2026-09-01)
 - Broadcom's FY27/FY28 AI semiconductor guidance ($115B/$230B) leans heavily on Anthropic staying its largest XPU customer; watching for confirmation of actual custom-silicon shipment volumes as quarters land (opened 2026-09-03)
+- NVIDIA / Hugging Face: $12.9B acquisition confirmed Sept 3, expected to close H1 2027 pending regulatory approval; watching for antitrust scrutiny and open-source community reaction to NVIDIA ownership of the model hub (opened 2026-09-03)

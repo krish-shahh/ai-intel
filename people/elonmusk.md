@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-09-02** Said Grok 4.7 (2.1T params) is now targeted for around Sep 11-12, slipping from the earlier Sep 2-9 window, citing supplemental training on SpaceX engineering data. [BigGo Finance](https://finance.biggo.com/news/cdeb763e-3e82-4f0b-82bd-4f473881bf08) (independent) · [NextBigFuture](https://www.nextbigfuture.com/2026/09/spacexai-grok-4-7-releases-september-12.html) (independent)
+
 - **2026-08-29** OpenAI said it will end Cursor's direct access to its models by November 12, following SpaceX's completed $60B acquisition of Cursor's parent Anysphere. OpenAI cited a pattern of Musk-affiliated companies (Twitter, xAI) violating its terms of service as the reason. [OpenAI](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/) (primary) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition) (independent)
 
 - **2026-08-29** Hours after OpenAI's cutoff announcement, [[darioamodei]]'s Anthropic said it would increase Claude compute in Cursor. Cursor CEO Michael Truell said OpenAI models account for only about 5% of Cursor's traffic, limiting the practical fallout. [Tom Brown on X](https://x.com/NotTomBrown/status/2093541294027280657) (primary) · [WCCFTech](https://wccftech.com/anthropic-pounces-as-openai-abandons-spacexs-cursor-vowing-to-increase-claude-compute-even-as-openai-cites-contract-distrust/) (independent)

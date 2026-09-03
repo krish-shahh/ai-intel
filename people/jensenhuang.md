@@ -10,6 +10,8 @@ Jensen Huang is co-founder and CEO of NVIDIA, which he has led since founding it
 
 ## Recent
 
+- **2026-09-03** Confirmed NVIDIA's $12.9B acquisition of Hugging Face, saying it will "remain an open platform for the entire AI ecosystem" and that NVIDIA compute won't be required to build on or deploy through it. [TechCrunch](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/) (independent) · [CNBC](https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html) (independent)
+
 - **2026-08-26** NVIDIA beat Q2 FY27 estimates ($96.2B revenue, +106% YoY) and guided Q3 to $108B, still excluding China data-center revenue; Huang forecast 70% revenue growth for FY28 and announced AWS will buy 2 million more GPUs plus Vera CPUs through 2028. [NVIDIA Newsroom](https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai) (primary) · [Fortune](https://fortune.com/2026/08/26/nvidia-results-q2-earnings/) (independent)
 
 - **2026-08-25** Sen. Elizabeth Warren called for Huang to testify before Congress after reports that Nvidia Jetson Orin modules were found in Russian drones; Nvidia says the modules are consumer-grade and not designed for military use. [Benzinga](https://www.benzinga.com/markets/tech/26/08/61400006/elizabeth-warren-jensen-huang-one-million-mar-a-lago-nvidia-russian-drones) (independent) · [IANS](https://ianslive.in/us-senator-calls-for-congressional-action-over-reports-of-nvidia-chips-powering-russian-drones--20260825033603) (independent)

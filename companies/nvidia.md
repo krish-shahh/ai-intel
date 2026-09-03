@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-09-03** Confirmed acquisition of Hugging Face for ~$12.93B (~$11.9B to shareholders plus up to $1B in retention equity), NVIDIA's second-biggest purchase after Groq assets. Deal expected to close H1 2027 pending regulatory approval. Huang says NVIDIA compute won't be required to build on or deploy through Hugging Face. [NVIDIA 8-K filing](https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000078/nvda-20260902.htm) (primary) · [TechCrunch](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/) (independent)
+
 - **2026-09-01** Alphabet also bought into MediaTek's $3.9B convertible bond offering (see [[mediatek]]) alongside Nvidia's $3.5B, undisclosed amount; deal expected to close around Sep 8. [CryptoBriefing](https://cryptobriefing.com/alphabet-mediatek-convertible-bond-ai/) (independent)
 
 - **2026-08-31** Agreed to invest $3.5B via convertible bonds into MediaTek (see [[mediatek]]), its largest direct investment outside the US. MediaTek adopts NVLink Fusion to build custom accelerators and AI-vehicle silicon for Nvidia's rack-scale systems. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-31/nvidia-to-invest-3-5-billion-in-chipmaker-mediatek) (independent) · [TechCrunch](https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/) (independent)
