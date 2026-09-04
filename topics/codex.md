@@ -7,6 +7,8 @@ Codex is OpenAI's coding agent for writing, editing, and running code across a c
 
 ## Notes
 
+- **2026-09-03** Codex CLI v0.153.0: vim mode gets undo/redo (`u` / `Ctrl+R`) that preserves drafts and attachments, plus a plugin CLI to list, install, and remove plugins from remote marketplaces. [GitHub release](https://github.com/openai/codex/releases/tag/rust-v0.153.0) (primary)
+
 - **2026-07-24** OpenAI shipped GPT-Live full-duplex voice control for Codex and ChatGPT Work in the desktop app (macOS and Windows). Users can now dispatch and coordinate multiple Codex agents simultaneously by voice while agents run in parallel. Rolling out to Plus, Pro, Business, Edu, and Enterprise plans. [OpenAI on X](https://x.com/OpenAI/status/2080378182469857576) · [VentureBeat](https://venturebeat.com/orchestration/agentic-coding-goes-hands-free-as-openai-brings-gpt-lives-full-duplex-voice-control-to-codex-and-chatgpt-on-the-desktop)
 
 - **2026-07-15** OpenAI's Codex CLI began encrypting the prompts sent to sub-agents, sparking a 408-point HN thread (240 comments) about agentic transparency and what operators can actually audit in automated pipelines. [GitHub issue](https://github.com/openai/codex/issues/28058) · [HN](https://news.ycombinator.com/item?id=48905028)

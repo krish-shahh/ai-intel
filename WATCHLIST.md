@@ -7,7 +7,6 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - White House AI security framework: confirmed will not be publicly released; watching for leaks via Congress (opened 2026-07-30)
 - EU AI Act enforcement: powers live Aug 2; technical compliance dialogues active; no formal restriction order or named provider yet (opened 2026-07-26)
 - Anthropic eval breach / METR review: Risk Report published Aug 15; METR independent review of eval-breach incidents still not posted (opened 2026-07-31)
-- OpenAI Astra: crossed OpenAI's "Critical" cybersecurity threshold per company announcement; offensive capability restricted to vetted partners via Daybreak Blue, general release timing still not confirmed (opened 2026-08-02)
 - Meta Muse Spark 1.1 breach: formal post-mortem and regulatory response still pending (opened 2026-08-06)
 - California Frontier AI Safety Act: passed Assembly Aug 10; awaiting governor signature by Sep 30, still not signed (opened 2026-08-11)
 - Demis Hassabis / Google DeepMind: Kavukcuoglu now SVP; watching Gemini roadmap and talent pipeline impact (opened 2026-08-11)

@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-09-03** v2.1.260 shipped: a live Diff Panel (`/diff`) shows uncommitted changes beside the conversation in fullscreen; `/cost` and the status line's `prompt_cache` field now surface a likely cause for cache misses (tool defs or system prompt changed, idle past TTL); `/reload-plugins` added for headless sessions. [changelog](https://code.claude.com/docs/en/changelog) (primary)
+
 - **2026-08-31** Another outage: degraded performance on claude.ai and Claude Code from 16:55 to 19:16 UTC, resolved same day. [Claude Status](https://status.claude.com/) (primary)
 
 - **2026-08-26** `anthropics/claude-plugins-official` is trending on GitHub today: Anthropic's own curated, official directory of Claude Code plugins, distinct from the earlier community-run mirror. [GitHub](https://github.com/anthropics/claude-plugins-official)

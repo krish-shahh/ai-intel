@@ -11,3 +11,4 @@ Greg Brockman is a co-founder, president, and chairman of OpenAI, and previously
 ## Recent
 
 - **2026-06-24** Greg Brockman and [[sama]] received the first Jalapeño inference chips from Broadcom CEO Hock Tan at the joint OpenAI + Broadcom announcement. Brockman: "By designing more of the stack ourselves, we can serve more intelligence with greater efficiency." [TechCrunch](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/) · [OpenAI](https://openai.com/index/openai-broadcom-jalapeno-inference-chip/)
+- **2026-09-03** On the launch of GPT-6 Astra, Brockman called it a "generational leap" and floated it as a possible arrival of AGI, even as OpenAI confirmed the model triggered internal cybersecurity safeguards that keep offensive capabilities restricted. [OpenAI](https://openai.com/index/gpt-6-astra/) · [Axios](https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman)
