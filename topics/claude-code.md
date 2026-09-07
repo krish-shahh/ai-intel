@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-09-06** `affaan-m/ECC` trending on GitHub (+1,485 stars today, 251K+ total): a large third-party framework bundling 68 agents, 286 skills, 94 commands, and hooks into one "coordinated engineering system" for Claude Code and other harnesses (plan, test, implement, review, verify, remember, improve). [GitHub](https://github.com/affaan-m/ECC)
+
 - **2026-09-03** v2.1.260 shipped: a live Diff Panel (`/diff`) shows uncommitted changes beside the conversation in fullscreen; `/cost` and the status line's `prompt_cache` field now surface a likely cause for cache misses (tool defs or system prompt changed, idle past TTL); `/reload-plugins` added for headless sessions. [changelog](https://code.claude.com/docs/en/changelog) (primary)
 
 - **2026-08-31** Another outage: degraded performance on claude.ai and Claude Code from 16:55 to 19:16 UTC, resolved same day. [Claude Status](https://status.claude.com/) (primary)
