@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-09-08** Tencent's Hunyuan team open-sourced AuK, a 1.5B MIT-licensed zero-shot TTS/speech-editing model, and published Gander, a 9B full-duplex omni-interaction agent for streaming audio, video, and text. [AuK repo](https://github.com/Tencent-Hunyuan/AuK) · [Gander paper](https://arxiv.org/abs/2609.08977)
+
 - **2026-08-17** [[model-releases]] Kimi K3 llama.cpp PR #26185 merged into master Aug 15 by ngxson; hybrid KDA + MLA attention, cross-layer residual attention, MXFP4 quantization verified lossless; token-for-token parity with reference impl confirmed on CPU and GPU [GitHub PR](https://github.com/ggml-org/llama.cpp/pull/26185) (primary)
 
 - **2026-08-15** `cactus-compute/needle` +551 stars today (5,882 total): Needle 2, a 14MB 45M-parameter agentic model for on-device tool calling; runs a full session in 28MB RAM; 500 tok/s on Raspberry Pi 5. [GitHub](https://github.com/cactus-compute/needle)

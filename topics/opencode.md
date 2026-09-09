@@ -7,6 +7,8 @@ OpenCode is an open-source, model-agnostic terminal coding agent built by Anomal
 
 ## Notes
 
+- **2026-09-09** v1.18.30: adds a system prompt tuned for GPT-6 "Astra," fixes Bedrock DeepSeek model-ID resolution, updates Azure/OpenAI provider SDKs. [GitHub releases](https://github.com/anomalyco/opencode/releases)
+
 - **2026-09-06** anomalyco/opencode back on GitHub's daily trending list (+552 stars today), amid continued interest in provider-agnostic coding agents. [GitHub](https://github.com/anomalyco/opencode)
 
 - **2026-08-13** v1.18.18: fixes Kimi K3 system prompt handling and xhigh reasoning effort for xAI models. [GitHub releases](https://github.com/anomalyco/opencode/releases)
