@@ -10,6 +10,8 @@ Boris Cherny is the creator and head of Claude Code, Anthropic's command-line co
 
 ## Recent
 
+- **2026-09-11** Said production code written by Claude should be held to a higher bar than human-written code, and that Anthropic has guardrails in place to enforce that. [Simon Willison](https://simonwillison.net/2026/Sep/11/boris-cherny/) (community relay of a primary quote)
+
 - **2026-06-11** Told Fortune he hasn't written a line of code by hand in 8 months; Claude Code writes, reviews, and security-scans itself and has started generating its own feature ideas by scanning GitHub issues and Slack. [Fortune](https://fortune.com/2026/06/11/anthropic-claude-boris-cherny-doesnt-write-code-by-hand-anymore/)
 - **2026-06-10** Fortune interview on Anthropic hiring criteria: generalists over specialists, low-ego collaborators, empiricists who defer to customer data over internal conviction. [Fortune](https://fortune.com/2026/06/10/architect-behind-claude-code-boris-cherny-reveals-three-things-anthropic-looks-for-good-hire-low-ego-must/)
 - **2026-06-08** At Fortune Brainstorm Tech (Aspen): manages hundreds to tens of thousands of AI agents on a given morning; Claude Code orchestrates sub-agents that are themselves Claude instances. [Fortune](https://fortune.com/2026/06/08/anthropics-boris-cherny-creator-of-claude-code-says-there-are-days-he-manages-tens-of-thousands-of-ai-agents-at-once/)

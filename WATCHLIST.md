@@ -10,7 +10,7 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - Meta Muse Spark 1.1 breach: formal post-mortem and regulatory response still pending (opened 2026-08-06)
 - California Frontier AI Safety Act: passed Assembly Aug 10; awaiting governor signature by Sep 30, still not signed (opened 2026-08-11)
 - Demis Hassabis / Google DeepMind: Kavukcuoglu now SVP; watching Gemini roadmap and talent pipeline impact (opened 2026-08-11)
-- Grok 4.7 (2.1T): supplemental SpaceX-data training run ongoing; window still around Sep 11-12 per Musk's Sept 2 post, still no launch page, API model ID, or benchmark card from xAI as of this window (opened 2026-08-14)
+- Grok 4.7 (2.1T): Musk says Sept 11 it needs "a few more days to cook" due to an RL tuning issue, no new date set, still no launch page, API model ID, or benchmark card from xAI (opened 2026-08-14)
 - OpenAI IPO: CFO Friar publicly committed to a 2027 timeline (or sooner); confidential S-1 still filed since June, public prospectus not yet posted; racing Anthropic's faster-moving filing (opened 2026-08-17)
 - Claude text watermarking: live since Aug 2; watching for enterprise reaction and regulatory response (opened 2026-08-17)
 - Stripe / OpenRouter integration: closed Aug 16; watching for OpenRouter API changes, pricing shifts, and any neutrality guarantees (opened 2026-08-18)
