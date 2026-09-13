@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-09-12** Publicly endorsed [[darioamodei]]'s "pace the frontier" plan to slow AI development, replying "Dario is right" alongside [[sama]]'s endorsement. [TechCrunch](https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/){.bias-center title="Center"} (independent)
+
 - **2026-09-11** Confirmed Grok 4.7 (2.1T) slipped past its Sep 11-12 target window: replying to a follower, said it "needs a few more days to cook" because an RL tuning issue is making it give up early on hard tasks and skip rigorous self-checking. No new date set. [Elon Musk](https://x.com/elonmusk/status/2098462085973741960) (primary) · [TeslaNorth](https://teslanorth.com/2026/09/11/grok-4-7-few-more-days/) (independent)
 
 - **2026-09-02** Said Grok 4.7 (2.1T params) is now targeted for around Sep 11-12, slipping from the earlier Sep 2-9 window, citing supplemental training on SpaceX engineering data. [BigGo Finance](https://finance.biggo.com/news/cdeb763e-3e82-4f0b-82bd-4f473881bf08) (independent) · [NextBigFuture](https://www.nextbigfuture.com/2026/09/spacexai-grok-4-7-releases-september-12.html) (independent)
