@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-09-14** NVDA fell about 2% premarket as AI and chip stocks slid broadly (Broadcom, Intel, Marvell down 3-7%; SK Hynix off over 6% in Seoul; SoftBank down 10-11% in Tokyo) after [[darioamodei]]'s pacing essay plus [[sama]] and [[elonmusk]]'s public backing raised doubts about near-term AI growth. Separately, Reuters reported Nvidia is in talks to anchor Anthropic's IPO with up to $10B, a deal that could value the offering near $2-2.3T. [CNBC](https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html){.bias-center title="Center"} (independent) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-11/nvidia-in-talks-to-invest-up-to-10b-in-anthropic-ipo-reuters) (independent)
+
 - **2026-09-09** Zankore, an Nvidia-backed AI infrastructure platform in Indonesia (also backed by Indosat Ooredoo Hutchison and Nokia), signed a $3.1B loan to fund GPU deployment, targeting 200MW capacity by H1 2027. [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-09/nvidia-backed-firm-in-indonesia-signs-3-1-billion-gpu-loan) (independent)
 
 - **2026-09-03** Confirmed acquisition of Hugging Face for ~$12.93B (~$11.9B to shareholders plus up to $1B in retention equity), NVIDIA's second-biggest purchase after Groq assets. Deal expected to close H1 2027 pending regulatory approval. Huang says NVIDIA compute won't be required to build on or deploy through Hugging Face. [NVIDIA 8-K filing](https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000078/nvda-20260902.htm) (primary) · [TechCrunch](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/) (independent)

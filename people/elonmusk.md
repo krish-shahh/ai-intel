@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-09-14** White House PCAST chair [[davidsacks]] publicly called the "pace the frontier" push Musk endorsed a "cartel," accusing the labs of seeking an antitrust exemption. [CDM](https://cdm.press/news/business/2026/09/13/amodei-altman-and-musk-all-want-to-slow-down-ai-david-sacks-says-they-are-building-a-cartel/) (independent)
+
 - **2026-09-12** Publicly endorsed [[darioamodei]]'s "pace the frontier" plan to slow AI development, replying "Dario is right" alongside [[sama]]'s endorsement. [TechCrunch](https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/){.bias-center title="Center"} (independent)
 
 - **2026-09-11** Confirmed Grok 4.7 (2.1T) slipped past its Sep 11-12 target window: replying to a follower, said it "needs a few more days to cook" because an RL tuning issue is making it give up early on hard tasks and skip rigorous self-checking. No new date set. [Elon Musk](https://x.com/elonmusk/status/2098462085973741960) (primary) · [TeslaNorth](https://teslanorth.com/2026/09/11/grok-4-7-few-more-days/) (independent)
