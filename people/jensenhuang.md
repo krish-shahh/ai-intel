@@ -10,6 +10,8 @@ Jensen Huang is co-founder and CEO of NVIDIA, which he has led since founding it
 
 ## Recent
 
+- **2026-09-14** Trump phoned Huang live onstage at the All-In Summit while he was discussing [[darioamodei]]'s pacing essay, saying a slowdown is "not going to happen... It's a hoax"; Huang agreed, "We're not going to let that happen, sir," breaking with [[elonmusk]] and Sam Altman's public support for pacing. [TechCrunch](https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/){.bias-center title="Center"} (independent) · [Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/trump-phones-jensen-huang-live-201154915.html){.bias-center title="Center"} (independent)
+
 - **2026-09-06** Posted "AGI has arrived," crediting OpenAI's GPT-6 Astra (says it trained on ~100K NVIDIA Grace Blackwell NVLink72 systems) and touting 400K more GPUs coming online. First cited 300K GPUs, then deleted that post and reposted with the lower figure. OpenAI itself has not made an AGI claim. [Jensen Huang on X](https://x.com/JensenHuang/status/2096700264569090384)
 
 - **2026-09-03** Confirmed NVIDIA's $12.9B acquisition of Hugging Face, saying it will "remain an open platform for the entire AI ecosystem" and that NVIDIA compute won't be required to build on or deploy through it. [TechCrunch](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/) (independent) · [CNBC](https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html) (independent)
