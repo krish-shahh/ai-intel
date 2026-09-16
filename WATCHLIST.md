@@ -2,7 +2,7 @@
 
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
-- AI/chip stock reaction to the pacing push: extended to a second day Sept 15, PHLX index -5.9%, Nvidia/Broadcom/Micron/Marvell all down, now compounded by 10-year yields above 5% and the Fed's Sept 16 rate decision; watching whether it continues past the Fed announcement (opened 2026-09-14)
+- AI/chip stock reaction to the pacing push: extended to a second day Sept 15, PHLX index -5.9%, Nvidia/Broadcom/Micron/Marvell all down, 10-year yields above 5%; Fed rate decision lands today (Sept 16) at 2pm ET with a hike widely expected, first in three years; watching whether chip stocks stabilize or extend the selloff (opened 2026-09-14)
 - David Sacks vs. the pacing coalition: escalated sharply Sept 14 when Trump called Jensen Huang onstage at the All-In Summit and dismissed a slowdown as "a hoax," with Huang agreeing; watching whether the administration formalizes this stance or Sacks' "cartel" framing gets any regulatory traction (opened 2026-09-14)
 - China slows germanium and quartz clearances to Taiwan, hitting optics and aerospace suppliers; watching for spillover into chip-grade material supply (opened 2026-08-21)
 - OpenAI ExploitGym / Kill Switch Act: Aug 27 joint letter, 100+ companies incl. OpenAI, Anthropic, Microsoft, Google, AWS, warns of a "limited window" before AI-enabled cyberattacks scale; Kill Switch Act still stuck in House committee, no Senate companion bill (opened 2026-07-23)
@@ -13,7 +13,7 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - California Frontier AI Safety Act: passed Assembly Aug 10; awaiting governor signature by Sep 30, still not signed (opened 2026-08-11)
 - Demis Hassabis / Google DeepMind: Kavukcuoglu now SVP; watching Gemini roadmap and talent pipeline impact (opened 2026-08-11)
 - Grok 4.7 (2.1T): Musk says Sept 11 it needs "a few more days to cook" due to an RL tuning issue; still no launch page, API model ID, or benchmark card from xAI (opened 2026-08-14)
-- OpenAI IPO: Altman rules out a 2026 listing, citing safety/alignment work; CFO Friar's 2027-or-sooner timeline stands; confidential S-1 still filed since June, public prospectus not yet posted; racing Anthropic's faster-moving filing (opened 2026-08-17)
+- OpenAI IPO: Altman rules out a 2026 listing, citing safety/alignment work; CFO Friar's 2027-or-sooner timeline stands; now also weighing a pre-IPO funding round above $1.2T valuation; confidential S-1 still filed since June, public prospectus not yet posted; racing Anthropic's faster-moving filing (opened 2026-08-17)
 - Claude text watermarking: live since Aug 2; watching for enterprise reaction and regulatory response (opened 2026-08-17)
 - Stripe / OpenRouter integration: closed Aug 16; watching for OpenRouter API changes, pricing shifts, and any neutrality guarantees (opened 2026-08-18)
 - OpenAI Preparedness dissolution: watching whether reassigned staff retain veto authority over new-model releases and whether any external review body fills the gap (opened 2026-08-18)
