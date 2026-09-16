@@ -9,6 +9,8 @@ Broadcom designs custom AI accelerators (ASICs) for hyperscalers -- including Go
 
 ## Recent
 
+- **2026-09-15** Selloff extended to a second straight day: PHLX Semiconductor Index -5.9%, AVGO -4%, [[nvidia]] -3.4%, [[micron]] over 5%, Marvell -7%, as the pacing-debate selloff compounded with the 10-year Treasury yield breaking above 5% ahead of the Fed's Sept 16 rate decision. [TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262167442-ai-chip-stocks-plummet-nvda-mu-avgo-fall-gold-prices-drop-4300-tradingkey) (independent) · [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/marvell-falls-7-ai-pacing-164330714.html) (independent)
+
 - **2026-09-14** AVGO fell about 3% premarket alongside a broad AI/chip stock slide (Nvidia, Intel, Marvell, SK Hynix, Samsung, SoftBank all down) after [[darioamodei]]'s pacing essay plus [[sama]] and [[elonmusk]]'s public backing raised doubts about near-term AI growth. [CNBC](https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html){.bias-center title="Center"} (independent)
 
 - **2026-08-18** AVGO fell 3.33% amid rising bond yields and a broader reassessment of the AI capex trade. [TradingKey](https://www.tradingkey.com/news/market-movers/262115383-market-movers-avgo-20260818) (independent)

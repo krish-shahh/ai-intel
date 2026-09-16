@@ -2,8 +2,8 @@
 
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
+- AI/chip stock reaction to the pacing push: extended to a second day Sept 15, PHLX index -5.9%, Nvidia/Broadcom/Micron/Marvell all down, now compounded by 10-year yields above 5% and the Fed's Sept 16 rate decision; watching whether it continues past the Fed announcement (opened 2026-09-14)
 - David Sacks vs. the pacing coalition: escalated sharply Sept 14 when Trump called Jensen Huang onstage at the All-In Summit and dismissed a slowdown as "a hoax," with Huang agreeing; watching whether the administration formalizes this stance or Sacks' "cartel" framing gets any regulatory traction (opened 2026-09-14)
-- AI/chip stock reaction to the pacing push: broad Monday selloff across Nvidia, Broadcom, Intel, Marvell, SK Hynix, Samsung, and SoftBank; watching whether it persists or reverses (opened 2026-09-14)
 - China slows germanium and quartz clearances to Taiwan, hitting optics and aerospace suppliers; watching for spillover into chip-grade material supply (opened 2026-08-21)
 - OpenAI ExploitGym / Kill Switch Act: Aug 27 joint letter, 100+ companies incl. OpenAI, Anthropic, Microsoft, Google, AWS, warns of a "limited window" before AI-enabled cyberattacks scale; Kill Switch Act still stuck in House committee, no Senate companion bill (opened 2026-07-23)
 - White House AI security framework: confirmed will not be publicly released; watching for leaks via Congress (opened 2026-07-30)
