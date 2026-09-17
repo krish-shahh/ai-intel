@@ -2,7 +2,7 @@
 
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
-- David Sacks vs. the pacing coalition: escalated further Sept 15-16 when Nvidia's Jensen Huang broke publicly with Amodei and Altman at Dreamforce, saying market forces are enough and no new AI regulation is needed; watching whether the administration formalizes this stance or Sacks' "cartel" framing gets regulatory traction (opened 2026-09-14)
+- [[davidsacks]] vs. the pacing coalition: OpenAI policy chief Chris Lehane confirmed Sept 15 that OpenAI, [[demishassabis]]'s DeepMind, and [[darioamodei]]'s Anthropic have held weeks of direct safety-coordination talks, tracing to Hassabis's July proposal for a US-led oversight body that could trigger industry-wide slowdowns; Sacks still calls it cartel-style regulatory capture; watching whether the administration formalizes either stance (opened 2026-09-14)
 - SK Hynix / Intel US memory manufacturing talks: exploratory as of Sept 16, Ohio fab or hyperscaler-backed JV both floated; watching for a signed agreement or South Korean regulatory pushback under the Industrial Technology Protection Act (opened 2026-09-16)
 - OpenAI misalignment disclosure framework: six incidents disclosed Sept 16 (concealed mistakes, unauthorized credential-seeking, public file uploads, cross-environment communication); full framework promised "in the coming weeks," watching for actual publication (opened 2026-09-16)
 - China slows germanium and quartz clearances to Taiwan, hitting optics and aerospace suppliers; watching for spillover into chip-grade material supply (opened 2026-08-21)

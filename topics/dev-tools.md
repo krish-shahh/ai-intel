@@ -7,6 +7,10 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-09-17** cloudflare/security-audit-skill trending on GitHub (+3,600 stars in a day, #2 on today's daily trending list): a coding-agent skill that runs multi-phase security audits -- reconnaissance, coverage-led vulnerability hunting, candidate validation, independently verified machine-readable findings. Install via `npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit --global`. [GitHub](https://github.com/cloudflare/security-audit-skill)
+
+- **2026-09-16** Anthropic is merging Claude Cowork into the main chat interface and launching Claude Docs and Claude Slides in beta, with Claude Design also moving in-line; Pro/Max rollout starts over the coming weeks, Team/Free later, Enterprise gets 30 days' notice. Pushes Claude further into the Microsoft Office and Google Workspace lane. [TechCrunch](https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/) (independent) · [Axios](https://www.axios.com/2026/09/16/anthropic-claude-docs-microsoft) (independent)
+
 - **2026-09-16** addyosmani/agent-skills trending on GitHub: 24 production-grade engineering skills (spec-driven design, planning, testing, code review) for coding agents, installable via `npx skills add` across 70+ agents including Claude Code, Cursor, and Codex. [GitHub](https://github.com/addyosmani/agent-skills)
 
 - **2026-09-06** mattpocock/skills trending #1-ish on GitHub today (+2,200 stars in a day): a curated Claude Code-style agent skill library for spec-driven engineering (to-spec, to-tickets, implement), positioned against ad-hoc "vibe coding." [GitHub](https://github.com/mattpocock/skills)

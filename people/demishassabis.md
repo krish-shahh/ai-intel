@@ -10,5 +10,7 @@ Demis Hassabis is co-founder and CEO of Google DeepMind, formed from the 2023 me
 
 ## Recent
 
+- **2026-09-15** OpenAI policy chief Chris Lehane confirmed OpenAI, DeepMind, and [[darioamodei]]'s Anthropic have held weeks of direct safety-coordination talks, tracing back to a July proposal from Hassabis for a US-led oversight body that could vet frontier models and trigger industry-wide slowdowns; [[sama]] and [[elonmusk]] have voiced support, while [[davidsacks]] calls the broader push cartel-style regulatory capture. [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety){.bias-center title="Center"} (independent)
+
 - **2026-08-05** Stepped back from CEO role to become chairman of Google DeepMind and Alphabet's chief scientist; Koray Kavukcuoglu (CTO/chief AI architect) assumes operational SVP role reporting directly to Pichai. Jeff Dean and Sanjay Ghemawat simultaneously departed after 27 years to launch Discovery Loop with Oriol Vinyals and Quoc Le. [Fortune](https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai) · [CNBC](https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html)
 
