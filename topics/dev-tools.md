@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-09-16** addyosmani/agent-skills trending on GitHub: 24 production-grade engineering skills (spec-driven design, planning, testing, code review) for coding agents, installable via `npx skills add` across 70+ agents including Claude Code, Cursor, and Codex. [GitHub](https://github.com/addyosmani/agent-skills)
+
 - **2026-09-06** mattpocock/skills trending #1-ish on GitHub today (+2,200 stars in a day): a curated Claude Code-style agent skill library for spec-driven engineering (to-spec, to-tickets, implement), positioned against ad-hoc "vibe coding." [GitHub](https://github.com/mattpocock/skills)
 
 - **2026-08-17** Claude text watermarking (SynthID-Text) is live in all Claude API outputs since Aug 2; applies globally -- API, Claude Code, AWS, Google Cloud, Microsoft Foundry. A detection API is coming. Files also get C2PA signed-provenance manifests. Triggered by EU AI Act Article 50(2). Older models will get watermarking added over the coming months. [Anthropic](https://www.anthropic.com/news/claude-text-watermark) (primary) · [TechCrunch](https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/) (independent) · [Decrypt](https://decrypt.co/375594/anthropic-quietly-watermarking-ai-claude-output-builders-break) (independent)
