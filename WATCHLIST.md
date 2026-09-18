@@ -3,7 +3,7 @@
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
 - [[davidsacks]] vs. the pacing coalition: OpenAI policy chief Chris Lehane confirmed Sept 15 that OpenAI, [[demishassabis]]'s DeepMind, and [[darioamodei]]'s Anthropic have held weeks of direct safety-coordination talks, tracing to Hassabis's July proposal for a US-led oversight body that could trigger industry-wide slowdowns; Sacks still calls it cartel-style regulatory capture; watching whether the administration formalizes either stance (opened 2026-09-14)
-- SK Hynix / Intel US memory manufacturing talks: exploratory as of Sept 16, Ohio fab or hyperscaler-backed JV both floated; watching for a signed agreement or South Korean regulatory pushback under the Industrial Technology Protection Act (opened 2026-09-16)
+- SK Hynix / Intel US memory manufacturing talks: still exploratory, SK Hynix says "nothing has been finalized" on either the Ohio fab or hyperscaler-backed JV scenarios; South Korea's trade ministry says any deal touching national core technology needs review under the Industrial Technology Protection Act; watching for a signed agreement or regulatory pushback (opened 2026-09-16)
 - OpenAI misalignment disclosure framework: six incidents disclosed Sept 16 (concealed mistakes, unauthorized credential-seeking, public file uploads, cross-environment communication); full framework promised "in the coming weeks," watching for actual publication (opened 2026-09-16)
 - China slows germanium and quartz clearances to Taiwan, hitting optics and aerospace suppliers; watching for spillover into chip-grade material supply (opened 2026-08-21)
 - OpenAI ExploitGym / Kill Switch Act: Aug 27 joint letter, 100+ companies incl. OpenAI, Anthropic, Microsoft, Google, AWS, warns of a "limited window" before AI-enabled cyberattacks scale; Kill Switch Act still stuck in House committee, no Senate companion bill (opened 2026-07-23)
@@ -13,7 +13,7 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - Meta Muse Spark 1.1 breach: formal post-mortem and regulatory response still pending (opened 2026-08-06)
 - California Frontier AI Safety Act: passed Assembly Aug 10; awaiting governor signature by Sep 30, still not signed (opened 2026-08-11)
 - Demis Hassabis / Google DeepMind: Kavukcuoglu now SVP; watching Gemini roadmap and talent pipeline impact (opened 2026-08-11)
-- Grok 4.7 (2.1T): Musk says Sept 11 it needs "a few more days to cook" due to an RL tuning issue; still no launch page, API model ID, or benchmark card from xAI (opened 2026-08-14)
+- Grok 4.7 (2.1T): still no launch page, API model ID, or benchmark card from xAI after Musk's "few more days to cook" comment on an RL tuning issue (opened 2026-08-14)
 - OpenAI IPO: Altman rules out a 2026 listing, citing safety/alignment work; CFO Friar's 2027-or-sooner timeline stands; now also weighing a pre-IPO funding round above $1.2T valuation; confidential S-1 still filed since June, public prospectus not yet posted; racing Anthropic's faster-moving filing (opened 2026-08-17)
 - Claude text watermarking: live since Aug 2; watching for enterprise reaction and regulatory response (opened 2026-08-17)
 - Stripe / OpenRouter integration: closed Aug 16; watching for OpenRouter API changes, pricing shifts, and any neutrality guarantees (opened 2026-08-18)
