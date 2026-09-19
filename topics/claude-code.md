@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-09-19** v2.1.278 shipped: Enterprise, Bedrock, Vertex, Foundry, and gateway users now default to a server-side auto-mode classifier, dropping the classifier-overhead billing; opt out with `CLAUDE_CODE_AUTO_MODE_SERVER=0`; a new "Auto mode server" row was added to `/status`. [changelog](https://code.claude.com/docs/en/changelog) (primary)
+
 - **2026-09-14** Temporary 50% weekly-limit boost (live since May) ends today; replaced by a permanent 25% increase over the original baseline, a net ~17% cut from current usage. Anthropic's announcement led with the 25% gain, drew backlash for burying the cut, and was deleted and reposted with the 17% reduction spelled out directly. [BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) (independent) · [TestingCatalog](https://x.com/testingcatalog/status/2093733995380891917) (community)
 
 - **2026-09-06** `affaan-m/ECC` trending on GitHub (+1,485 stars today, 251K+ total): a large third-party framework bundling 68 agents, 286 skills, 94 commands, and hooks into one "coordinated engineering system" for Claude Code and other harnesses (plan, test, implement, review, verify, remember, improve). [GitHub](https://github.com/affaan-m/ECC)
