@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-09-18** Published "probably gonna eat you," arguing dismissing today's LLM progress as uninteresting is like a geneticist ignoring genetics breakthroughs. [simonwillison.net](https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/)
+
 - **2026-09-06** Linked OpenAI's "Research acceleration" post and chief scientist Jakub Pachocki's "An Alien Mind" essay together, calling it OpenAI's "RSI day." [simonwillison.net](https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/)
 
 - **2026-08-16** Published hands-on notes on Qwen 3.8 27B: ran it through standard tests and flagged that the model defaults to excessive reasoning, overthinking simple tasks unless explicitly instructed otherwise. [simonwillison.net](https://simonwillison.net/2026/Aug/16/qwen-38-27b/)

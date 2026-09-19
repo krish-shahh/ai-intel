@@ -10,6 +10,8 @@ Jensen Huang is co-founder and CEO of NVIDIA, which he has led since founding it
 
 ## Recent
 
+- **2026-09-18** Told CBS there's "0% chance" AI causes world-ending catastrophe by 2030 and repeated his opposition to a coordinated AI slowdown. [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-18/nvidia-ceo-says-there-s-0-chance-that-world-will-end-in-2030){.bias-center title="Center"} (independent)
+
 - **2026-09-15** At Salesforce's Dreamforce, broke publicly with [[darioamodei]] and Sam Altman on AI safety pacing: told a 12,000-person crowd that market forces already keep AI companies in check and new regulation isn't needed, while Amodei repeated his slowdown call and Altman said safety must come before capability "with no qualifier." [CNBC](https://www.cnbc.com/2026/09/15/nvidia-and-anthropic-ceos-diverge-on-ai-safety-at-dreamforce.html){.bias-center title="Center"} (independent) · [The Tribune](https://www.tribuneindia.com/news/anthropic/pace-yourself-until-youre-confident-jensen-huang-sam-altman-dario-amodei-bat-for-ai-safety-and-transparency) (independent)
 
 - **2026-09-14** Trump phoned Huang live onstage at the All-In Summit while he was discussing [[darioamodei]]'s pacing essay, saying a slowdown is "not going to happen... It's a hoax"; Huang agreed, "We're not going to let that happen, sir," breaking with [[elonmusk]] and Sam Altman's public support for pacing. [TechCrunch](https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/){.bias-center title="Center"} (independent) · [Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/trump-phones-jensen-huang-live-201154915.html){.bias-center title="Center"} (independent)
