@@ -7,6 +7,8 @@ The physical supply chain underneath AI: compute (GPUs, AI accelerators, CPUs, D
 
 ## Notes
 
+- **2026-09-20** [[cxmt]], China's top domestic DRAM maker, announced its fifth-generation (G5) platform entered mass production at an 11.95nm active-area half-pitch, with two new 24Gb LPDDR5X parts and roughly 50% more dies per wafer than the prior generation, narrowing the process gap with [[sk-hynix]] and [[micron]] on legacy-node DRAM. [Seoul Economic Daily/Reuters](https://en.sedaily.com/international/2026/09/20/chinas-cxmt-starts-mass-production-on-5th-generation-dram) (independent)
+
 - **2026-09-09** Zankore, an [[nvidia]]-backed AI infrastructure platform in Indonesia (also backed by Indosat Ooredoo Hutchison and Nokia), signed a $3.1B loan to fund GPU deployment, targeting 200MW capacity by H1 2027 — another data point in the wave of debt-financed GPU buildout outside the US. [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-09/nvidia-backed-firm-in-indonesia-signs-3-1-billion-gpu-loan) (independent)
 
 - **2026-08-18** Stripe closed the acquisition of AI model gateway OpenRouter for more than $7B (Bloomberg Aug 16). OpenRouter routes ~8M users across ~400 models. Deal values OpenRouter at ~5x its Series B mark from three months ago. Stripe now owns both the billing rail and the routing layer above it, which changes the distribution surface for every AI-app-adjacent business already on Stripe. [Bloomberg](https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion) (independent) · [TechCrunch](https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/) (independent)

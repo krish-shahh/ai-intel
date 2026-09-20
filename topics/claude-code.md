@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-09-20** AIR Security disclosed Plugin4Shell, a zero-click SHA-pinning bypass in Claude Code's plugin installer (also hitting Codex, GitHub Copilot, and Gemini CLI): an attacker-controlled plugin repo can swap in malicious code after the commit-SHA pin check passes, running with the local privileges of the agent. Anthropic's fix shipped quietly in v2.1.179 (verified by AIR back in June) ahead of the September 17 public disclosure. [AIR Security](https://www.air.security/blog-posts/plugin4shell) (primary) · [The Hacker News](https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html) (independent)
+
 - **2026-09-19** v2.1.278 shipped: Enterprise, Bedrock, Vertex, Foundry, and gateway users now default to a server-side auto-mode classifier, dropping the classifier-overhead billing; opt out with `CLAUDE_CODE_AUTO_MODE_SERVER=0`; a new "Auto mode server" row was added to `/status`. [changelog](https://code.claude.com/docs/en/changelog) (primary)
 
 - **2026-09-14** Temporary 50% weekly-limit boost (live since May) ends today; replaced by a permanent 25% increase over the original baseline, a net ~17% cut from current usage. Anthropic's announcement led with the 25% gain, drew backlash for burying the cut, and was deleted and reposted with the 17% reduction spelled out directly. [BleepingComputer](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) (independent) · [TestingCatalog](https://x.com/testingcatalog/status/2093733995380891917) (community)

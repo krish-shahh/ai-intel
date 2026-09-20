@@ -7,6 +7,8 @@ Codex is OpenAI's coding agent for writing, editing, and running code across a c
 
 ## Notes
 
+- **2026-09-20** AIR Security disclosed Plugin4Shell, a zero-click SHA-pinning bypass affecting Codex's plugin installer alongside Claude Code, GitHub Copilot, and Gemini CLI: an attacker-controlled plugin repo can swap in malicious code after the commit-SHA pin check passes. OpenAI patched it in Codex 0.146.0; GitHub Copilot remains unpatched and Google opted to deprecate Gemini CLI instead of fixing it. [AIR Security](https://www.air.security/blog-posts/plugin4shell) (primary) · [The Hacker News](https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html) (independent)
+
 - **2026-09-11** A Russian-speaking threat actor ran hundreds of AI agents built on Codex paired with a DeepSeek model (plus Mimikatz, Certipy, Rubeus, Impacket) to exploit two PaperCut NG/MF CVEs, compromising 440+ servers across 395 organizations in 48 countries; went from empty workspace to code execution in under 4 hours, breaching 11 orgs in 26 seconds once at full speed. [The Hacker News](https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html) · [BleepingComputer](https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/)
 
 - **2026-09-03** Codex CLI v0.153.0: vim mode gets undo/redo (`u` / `Ctrl+R`) that preserves drafts and attachments, plus a plugin CLI to list, install, and remove plugins from remote marketplaces. [GitHub release](https://github.com/openai/codex/releases/tag/rust-v0.153.0) (primary)
