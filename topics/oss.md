@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-09-22** `dream-num/univer` ("Office Harness for AI Agents," unifies spreadsheets, docs, slides, and PDF into one runtime agents can drive) and `superdesigndev/treg` (credential and secrets registry for agent API keys) both surged on GitHub's daily trending page, +255 and +230 stars respectively. [GitHub Trending](https://github.com/trending?since=daily)
+
 - **2026-09-21** `cloudflare/security-audit-skill` kept surging (+2,428 stars today, ~18,000 total), still the biggest single-day gainer on GitHub's daily trending page two days running. Also trending today: `addyosmani/agent-skills` (+736, ~97.7k total) and `trycua/cua` (+1,018, ~25k total), an open-source computer-use agent platform. [GitHub Trending](https://github.com/trending?since=daily)
 
 - **2026-09-08** Tencent's Hunyuan team open-sourced AuK, a 1.5B MIT-licensed zero-shot TTS/speech-editing model, and published Gander, a 9B full-duplex omni-interaction agent for streaming audio, video, and text. [AuK repo](https://github.com/Tencent-Hunyuan/AuK) · [Gander paper](https://arxiv.org/abs/2609.08977)

@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-09-22** `davila7/claude-code-templates` (CLI for configuring and monitoring Claude Code projects) added 64 stars on GitHub's daily trending page. [GitHub Trending](https://github.com/trending/python?since=daily)
+
 - **2026-09-21** `anthropics/claude-code` topped GitHub's daily trending list again, past 147k total stars (+419 today). [GitHub Trending](https://github.com/trending?since=daily)
 
 - **2026-09-20** AIR Security disclosed Plugin4Shell, a zero-click SHA-pinning bypass in Claude Code's plugin installer (also hitting Codex, GitHub Copilot, and Gemini CLI): an attacker-controlled plugin repo can swap in malicious code after the commit-SHA pin check passes, running with the local privileges of the agent. Anthropic's fix shipped quietly in v2.1.179 (verified by AIR back in June) ahead of the September 17 public disclosure. [AIR Security](https://www.air.security/blog-posts/plugin4shell) (primary) · [The Hacker News](https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html) (independent)
