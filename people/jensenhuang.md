@@ -10,6 +10,8 @@ Jensen Huang is co-founder and CEO of NVIDIA, which he has led since founding it
 
 ## Recent
 
+- **2026-09-24** Among the tech CEOs attending Trump's state dinner for Xi Jinping at the White House; USTR Jamieson Greer said AI chip export controls are explicitly off today's summit agenda, so no change expected to Blackwell/Rubin restrictions. [CNBC](https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html) (independent)
+
 - **2026-09-18** Told CBS there's "0% chance" AI causes world-ending catastrophe by 2030 and repeated his opposition to a coordinated AI slowdown. [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-18/nvidia-ceo-says-there-s-0-chance-that-world-will-end-in-2030){.bias-center title="Center"} (independent)
 
 - **2026-09-15** At Salesforce's Dreamforce, broke publicly with [[darioamodei]] and Sam Altman on AI safety pacing: told a 12,000-person crowd that market forces already keep AI companies in check and new regulation isn't needed, while Amodei repeated his slowdown call and Altman said safety must come before capability "with no qualifier." [CNBC](https://www.cnbc.com/2026/09/15/nvidia-and-anthropic-ceos-diverge-on-ai-safety-at-dreamforce.html){.bias-center title="Center"} (independent) · [The Tribune](https://www.tribuneindia.com/news/anthropic/pace-yourself-until-youre-confident-jensen-huang-sam-altman-dario-amodei-bat-for-ai-safety-and-transparency) (independent)

@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-09-24** At today's Trump-Xi White House summit, USTR Jamieson Greer confirmed AI chip export controls are explicitly off the agenda; the outcome analysts expect is a new AI-incident communication channel between the two governments, not any change to Blackwell/Rubin restrictions. [CNBC](https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html) (independent)
+
 - **2026-09-19** Published SkillSpector, an open-source security scanner for Claude Code, Codex, and MCP skills, as part of its Verified Skills pipeline that scans, evaluates, and signs agent skills before they're published to NVIDIA's skills catalog. [GitHub](https://github.com/NVIDIA/SkillSpector)
 
 - **2026-09-16** Fed hiked rates to 3.75%-4% (first hike since 2023); Nasdaq closed nearly flat (25,978.42, -0.01%) after a session that swung over 400 points, and chip stocks stabilized following a report that [[sk-hynix]] is in talks with Intel on US memory manufacturing. [CNBC](https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html) (independent) · [BBNTimes](https://www.bbntimes.com/technology/nasdaq-today-closes-nearly-flat-at-25-978-42-as-tech-shrugs-off-fed-hike) (independent)
