@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-09-25** vectorize-io/hindsight trending on GitHub: open source agent memory system splitting memory into world facts, experiences, opinions with confidence scores, and reflective observations via retain/recall/reflect calls; claims SOTA on the LongMemEval benchmark, independently reproduced by Virginia Tech's Sanghani Center and Washington Post researchers. [GitHub](https://github.com/vectorize-io/hindsight) · [blog](https://vectorize.io/blog/introducing-hindsight-agent-memory-that-works-like-human-memory)
+
 - **2026-09-19** cloudflare/security-audit-skill still near the top of GitHub's daily trending two days after its debut here (+3,162 stars today), the independent re-verification step remains the differentiator from other audit skills. [GitHub](https://github.com/cloudflare/security-audit-skill)
 
 - **2026-09-17** cloudflare/security-audit-skill trending on GitHub (+3,600 stars in a day, #2 on today's daily trending list): a coding-agent skill that runs multi-phase security audits -- reconnaissance, coverage-led vulnerability hunting, candidate validation, independently verified machine-readable findings. Install via `npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit --global`. [GitHub](https://github.com/cloudflare/security-audit-skill)
