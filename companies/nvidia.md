@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-09-27** `NVIDIA/Model-Optimizer` (quantization, distillation, and pruning toolkit for cutting inference cost) picked up meaningful GitHub trending traction today, +301 stars. [GitHub](https://github.com/NVIDIA/Model-Optimizer)
+
 - **2026-09-24** At today's Trump-Xi White House summit, USTR Jamieson Greer confirmed AI chip export controls are explicitly off the agenda; the outcome analysts expect is a new AI-incident communication channel between the two governments, not any change to Blackwell/Rubin restrictions. [CNBC](https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html) (independent)
 
 - **2026-09-19** Published SkillSpector, an open-source security scanner for Claude Code, Codex, and MCP skills, as part of its Verified Skills pipeline that scans, evaluates, and signs agent skills before they're published to NVIDIA's skills catalog. [GitHub](https://github.com/NVIDIA/SkillSpector)
