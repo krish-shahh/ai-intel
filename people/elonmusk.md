@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-09-25** Said xAI's Memphis-area Colossus 2 cluster (currently 110K GB200 + 440K GB300 Nvidia chips) could more than double its chip count by year-end: another 220K GB300 units due next week, 220K more in November, and a further 220K "if we have luck" in December, which would put the site past 1.2M chips and above xAI's stated 1M-GPU target for 2026. [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-25/elon-musk-aims-to-double-colossus-2-s-nvidia-chips-by-year-end) (independent)
+
 - **2026-09-21** Grok 4.7 (2.1T) finally launched, about two weeks past the original Sep 18 target, at unchanged $2/$6 per million token pricing. On Artificial Analysis's combined intelligence index it scores 46 versus 53 for both Claude Fable 5.1 and GPT-6, and it trails badly on agentic coding (26% on Terminal-Bench 4.0 vs GPT-6 Astra's 60% and Claude's 55%); most of xAI's headline gains came from testing at a higher reasoning-effort setting than Grok 4.6 used. [xAI](https://x.ai/news/grok-4-7) (primary) · [Artificial Analysis](https://artificialanalysis.ai/models/grok-4-7) (independent) · [The Decoder](https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6/) (independent)
 
 - **2026-09-14** White House PCAST chair [[davidsacks]] publicly called the "pace the frontier" push Musk endorsed a "cartel," accusing the labs of seeking an antitrust exemption. [CDM](https://cdm.press/news/business/2026/09/13/amodei-altman-and-musk-all-want-to-slow-down-ai-david-sacks-says-they-are-building-a-cartel/) (independent)
