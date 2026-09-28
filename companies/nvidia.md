@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-09-28** China's MIIT reportedly signals it will let ByteDance and Alibaba buy the new RTX Pro 5500 workstation chip (Blackwell-based, 84GB GDDR7, positioned outside the datacenter category US export controls target). Reporting originates with The Information; Reuters says it can't independently verify, and neither MIIT nor NVIDIA nor the buyers have confirmed. [Seeking Alpha](https://seekingalpha.com/news/4647403-china-may-allow-alibaba-bytedance-to-buy-nvidia-s-new-rtx-pro-5500-chips) (independent)
+
 - **2026-09-27** `NVIDIA/Model-Optimizer` (quantization, distillation, and pruning toolkit for cutting inference cost) picked up meaningful GitHub trending traction today, +301 stars. [GitHub](https://github.com/NVIDIA/Model-Optimizer)
 
 - **2026-09-24** At today's Trump-Xi White House summit, USTR Jamieson Greer confirmed AI chip export controls are explicitly off the agenda; the outcome analysts expect is a new AI-incident communication channel between the two governments, not any change to Blackwell/Rubin restrictions. [CNBC](https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html) (independent)
