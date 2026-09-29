@@ -10,6 +10,8 @@ Jensen Huang is co-founder and CEO of NVIDIA, which he has led since founding it
 
 ## Recent
 
+- **2026-09-28** On CNBC, called Chinese AI-model distillation "competition," not theft, pushing back on the White House's framing; said Nvidia's data-center revenue rose 117% to $89B last quarter. [CNBC](https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html){.bias-center title="Center"} (independent, HN: 72 points/78 comments)
+
 - **2026-09-24** Among the tech CEOs attending Trump's state dinner for Xi Jinping at the White House; USTR Jamieson Greer said AI chip export controls are explicitly off today's summit agenda, so no change expected to Blackwell/Rubin restrictions. [CNBC](https://www.cnbc.com/2026/09/24/trump-xi-china-summit-ai-export-control-nvidia-huawei-alibaba-.html) (independent)
 
 - **2026-09-18** Told CBS there's "0% chance" AI causes world-ending catastrophe by 2030 and repeated his opposition to a coordinated AI slowdown. [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-18/nvidia-ceo-says-there-s-0-chance-that-world-will-end-in-2030){.bias-center title="Center"} (independent)
