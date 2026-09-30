@@ -9,6 +9,8 @@ Micron is the largest US-based memory maker and a growing HBM supplier, competin
 
 ## Recent
 
+- **2026-09-30** Reports fiscal Q4 2026 earnings after market close today; guidance called for ~$50B revenue (vs $11.3B a year ago), ~$31 adjusted EPS, and ~86% gross margin, driven by AI/HBM demand. Comes right after Bloomberg-sourced reports that SK Hynix's Solidigm unit is weighing a US IPO, which triggered a same-day selloff in Micron, SK Hynix, and Samsung shares. [Investing.com](https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385) (independent)
+
 - **2026-09-20** [[cxmt]], China's top domestic DRAM maker, said its fifth-generation (G5) platform entered mass production at 11.95nm with two new 24Gb LPDDR5X parts, narrowing the legacy-node process gap with Micron and SK Hynix just as AI demand keeps DRAM pricing tight. [Seoul Economic Daily/Reuters](https://en.sedaily.com/international/2026/09/20/chinas-cxmt-starts-mass-production-on-5th-generation-dram) (independent)
 
 - **2026-09-15** MU fell over 5% as the PHLX Semiconductor Index dropped 5.9% in a second straight day of AI-pacing-debate selloff, alongside [[nvidia]] -3.4%, [[broadcom]] -4%, and Marvell -7%, compounded by the 10-year Treasury yield breaking above 5% ahead of the Fed's Sept 16 rate decision. [TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262167442-ai-chip-stocks-plummet-nvda-mu-avgo-fall-gold-prices-drop-4300-tradingkey) (independent) · [Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/marvell-falls-7-ai-pacing-164330714.html) (independent)
