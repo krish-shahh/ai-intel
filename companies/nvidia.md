@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-09-29** [[jensenhuang]] signed the White House Accord on Superintelligence alongside [[darioamodei]], [[gdb]], [[elonmusk]], Zuckerberg, and Pichai; Trump also signed an executive order renaming AI "Super Intelligence" across the federal government. Separately, OpenShell (the runtime behind Nvidia's Open Agent Safety Platform below) is now trending on GitHub, +990 stars in a day. [White House](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/) (primary) · [GitHub](https://github.com/trending?since=daily)
+
 - **2026-09-29** Launched the Open Agent Safety Platform: OpenShell, an open-source sandboxed runtime that enforces agent permissions from outside the agent process, paired with Sentry monitoring on BlueField-4 DPUs. Supports Claude Code, Codex, OpenCode, GitHub Copilot CLI, and OpenClaw; early adopters include Cadence, Slack, and Gecko Robotics. [NVIDIA Newsroom](https://nvidianews.nvidia.com/news/open-agent-safety-platform) (primary) · [NVIDIA Technical Blog](https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/) (primary)
 
 - **2026-09-28** Board authorized an additional $150B in share repurchases, the largest single buyback increase in company history, bringing total remaining authorization to $235B. [NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase) (primary) · [CNBC](https://www.cnbc.com/2026/09/28/nvidia-share-buyback-plan-gets-150-billion-boost.html) (independent)
