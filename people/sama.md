@@ -10,6 +10,8 @@ Sam Altman is co-founder and CEO of OpenAI, the company behind ChatGPT and the G
 
 ## Recent
 
+- **2026-09-30** The FTC is preparing civil investigative demands to compel documents and executive testimony from OpenAI, Anthropic, and evaluator METR over AI safety risks; reporting ties the probe to incidents including OpenAI's agent breakout that hacked Hugging Face. Neither company immediately responded to requests for comment. [CNBC](https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html){.bias-center title="Center"} (independent) · [Washington Post](https://www.washingtonpost.com/technology/2026/09/30/ftc-launches-broad-investigation-into-anthropic-openai/){.bias-lean-left title="Lean left"} (independent)
+
 - **2026-09-30** OpenAI is reportedly in talks to raise at least $30B in a new round at a $1.4T valuation, up from the $852B post-money set in March, citing 70% revenue growth since July past a $40B annualized run rate. Altman still ruling out a 2026 IPO, targeting 2027. [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-29/openai-targets-30-billion-in-new-funding-at-1-4-trillion-value) (independent) · [TechCrunch](https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/) (independent)
 
 - **2026-09-29** Led OpenAI's DevDay keynote, shipping always-on "Dots" agents (built on the existing Astra model), a managed Agents API, an "Ultrafast" inference tier up to 8x faster in Codex, and a $500/month Pro tier — no new flagship model, with GPT-6.1 Astra's release still paused. [OpenAI](https://openai.com/index/devday-2026-recap/) (primary) · [Axios](https://www.axios.com/2026/09/29/openai-dev-day-2026-dots-space-sol) (independent)
