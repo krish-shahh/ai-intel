@@ -9,6 +9,8 @@ SK Hynix is the leading supplier of High Bandwidth Memory (HBM), the stacked-DRA
 
 ## Recent
 
+- **2026-10-01** Explicitly denies any decision has been made on a reported Solidigm (its NAND/SSD unit) US IPO, after Bloomberg-sourced reports of a near-$100B valuation triggered a same-day selloff across SK Hynix, Micron, and Samsung shares around Micron's record Sept 30 earnings. [Korea Times](https://www.koreatimes.co.kr/business/companies/20261001/sk-hynix-reiterates-no-decision-on-solidigms-us-ipo) (independent)
+
 - **2026-09-28** Publicly denies any confirmed plans on the reported Intel Ohio memory deal: "no specific plans or arrangements have been finalized at this time." Intel calls the reporting "speculation" but confirms it's still investing to ready the Ohio site. [Unite.AI](https://www.unite.ai/sk-hynix-says-no-plans-confirmed-on-reported-intel-us-memory-talks/) (independent)
 
 - **2026-09-20** [[cxmt]], China's top domestic DRAM maker, said its fifth-generation (G5) platform entered mass production at 11.95nm with two new 24Gb LPDDR5X parts, narrowing the legacy-node process gap with SK Hynix and Micron just as AI demand keeps DRAM pricing tight. [Seoul Economic Daily/Reuters](https://en.sedaily.com/international/2026/09/20/chinas-cxmt-starts-mass-production-on-5th-generation-dram) (independent)

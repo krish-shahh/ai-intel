@@ -10,6 +10,8 @@ Simon Willison is a British programmer and open source developer, best known as 
 
 ## Recent
 
+- **2026-10-01** Flagged Matthew Green's essay questioning whether sandboxing can really contain rogue AI agents, relevant as OpenAI's own sandbox-escape incidents continue. [simonwillison.net](https://simonwillison.net/2026/Oct/1/matthew-green/) · [original essay](https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/)
+
 - **2026-09-18** Published "probably gonna eat you," arguing dismissing today's LLM progress as uninteresting is like a geneticist ignoring genetics breakthroughs. [simonwillison.net](https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/)
 
 - **2026-09-06** Linked OpenAI's "Research acceleration" post and chief scientist Jakub Pachocki's "An Alien Mind" essay together, calling it OpenAI's "RSI day." [simonwillison.net](https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/)
