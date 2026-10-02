@@ -9,6 +9,8 @@ SK Hynix is the leading supplier of High Bandwidth Memory (HBM), the stacked-DRA
 
 ## Recent
 
+- **2026-09-30** TrendForce raised its 2027 HBM price outlook to a 121% year-over-year jump, with 36GB HBM4 modules seen rising from roughly $600 to about $1,300; says SK Hynix and Samsung are both pushing harder on price in current 2027 negotiations than in prior rounds, taking a more aggressive stance than [[micron]]. [Seoul Economic Daily](https://en.sedaily.com/finance/2026/10/01/hbm-prices-to-more-than-double-in-2027-on-supply-crunch) (independent)
+
 - **2026-10-01** Explicitly denies any decision has been made on a reported Solidigm (its NAND/SSD unit) US IPO, after Bloomberg-sourced reports of a near-$100B valuation triggered a same-day selloff across SK Hynix, Micron, and Samsung shares around Micron's record Sept 30 earnings. [Korea Times](https://www.koreatimes.co.kr/business/companies/20261001/sk-hynix-reiterates-no-decision-on-solidigms-us-ipo) (independent)
 
 - **2026-09-28** Publicly denies any confirmed plans on the reported Intel Ohio memory deal: "no specific plans or arrangements have been finalized at this time." Intel calls the reporting "speculation" but confirms it's still investing to ready the Ohio site. [Unite.AI](https://www.unite.ai/sk-hynix-says-no-plans-confirmed-on-reported-intel-us-memory-talks/) (independent)
