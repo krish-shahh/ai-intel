@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-10-01** [[ylecun]] called Amodei "deluded" and "crazy" for AI-doom warnings, said he has "zero concerns" about human extinction risk, and blamed recent rogue-agent incidents on poorly designed sandboxes rather than inherent AI danger. [Fortune](https://fortune.com/2026/10/01/yann-lecun-anthropic-ceo-dario-amodei-deluded-crazy-cybersecurity/) (independent)
+
 - **2026-10-01** Anthropic's confidential IPO filing, reviewed by Reuters, shows [[broadcom]] agreed to lend Anthropic up to $42B to help finance its five-year, $125.2B TPU lease; debt can convert to equity and Broadcom can designate a financing partner. Anthropic's own filing flags a conflict of interest since Broadcom is both chip supplier and financier, warning it could affect Anthropic's compute access and pricing. [Reuters via Investing.com](https://www.investing.com/news/stock-market-news/exclusivebroadcom-to-lendanthropic-up-to-42-billion-to-lease-its-chips-filing-says-4926853) (independent, filing-sourced) · [Benzinga](https://www.benzinga.com/markets/private-markets/26/10/62118633/anthropics-ipo-filing-reveals-a-42-billion-broadcom-lending-deal) (independent)
 
 - **2026-10-01** Barclays expanded its Anthropic partnership, rolling Claude out across global operations and targeting 50% developer adoption of Claude Code by end of 2026, rising to a majority of engineers in 2027; Claude already helps 16,000 Barclays staff and sorts 120,000 emails a day. [Anthropic](https://www.anthropic.com/news/barclays-scales-claude) (primary) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-10-01/barclays-expands-use-of-anthropic-s-claude-in-efficiency-push) (independent)

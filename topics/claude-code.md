@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-10-01** Shipped Mods: TypeScript functions that hook into Claude Code internals to rewrite prompts, block or retry tool calls, redact secrets, or replace built-in features (`/diff` now ships as a mod itself); installed via `/plugin`. Not sandboxed; Anthropic warns to use trusted sources only. [Anthropic blog](https://claude.com/blog/claude-code-mods) (primary) · [The New Stack](https://thenewstack.io/anthropic-claude-code-mods-plugins/) (independent)
+
 - **2026-09-27** `mvschwarz/openrig` trending on GitHub (+114 stars): a multi-agent harness that runs Claude Code and Codex side by side as one coordinated system, letting users route or compare work across both instead of picking one. [GitHub](https://github.com/mvschwarz/openrig)
 
 - **2026-09-22** `davila7/claude-code-templates` (CLI for configuring and monitoring Claude Code projects) added 64 stars on GitHub's daily trending page. [GitHub Trending](https://github.com/trending/python?since=daily)

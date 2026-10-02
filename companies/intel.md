@@ -9,6 +9,8 @@ Intel is a US semiconductor manufacturer and foundry operator, central to effort
 
 ## Recent
 
+- **2026-10-01/02** Added [[nvidia]]'s OpenShell agent-security runtime to its Xeon AI toolkit, a direct compute rival's safety layer becoming a dependency inside Intel's own AI stack; separately INTC jumped ~11-14% intraday partly on [[micron]]'s blowout earnings boosting AI-memory sentiment. [FX Leaders](https://fxleaders.com/news/2026/10/01/intel-stock-rally-micron-earnings-chip-sector) (independent)
+
 - **2026-09-28** Calls reports of an Ohio memory manufacturing deal with [[sk-hynix]] "speculation," though it confirms continued investment to ready the Ohio site; SK Hynix separately denies any confirmed plans. [Unite.AI](https://www.unite.ai/sk-hynix-says-no-plans-confirmed-on-reported-intel-us-memory-talks/) (independent)
 
 - **2026-09-16** In exploratory talks with [[sk-hynix]] to make memory chips in the US for the first time — either ceding part of its Ohio fab or forming a joint venture with cloud hyperscalers for secured HBM/DRAM supply. Intel stock jumped 5.2% premarket on the report. [TechCrunch](https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/) (independent) · [Benzinga](https://www.benzinga.com/markets/tech/26/09/61809557/sk-hynix-intel-mull-memory-chip-making-deal-in-ohio-as-us-pushes-semiconductor-production-report) (independent)
