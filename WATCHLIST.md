@@ -2,11 +2,12 @@
 
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
+
 - Nvidia chip smuggling to China: Bloomberg investigation plus a criminal charge over $300M+ in smuggled Nvidia-equipped servers, despite Nvidia's claim of cutting authorized Asian buyers by more than half; watching for further DOJ action and whether enforcement tightens (opened 2026-10-02)
 - OpenAI fired three safety researchers for allegedly leaking to an outside safety org; the org and the specific policy violated aren't named; watching for identification and any internal fallout (opened 2026-10-02)
 - Micron read-through: record FQ4 now printed ($54.23B revenue, $39.8B DRAM); watching Samsung's upcoming print and whether pricing holds into the $61.5B FQ1 2027 guide (opened 2026-10-02)
 - Trump's AI czar pick: reportedly Jay Clayton, could be named as soon as Oct 4; White House calls it "baseless speculation"; watching for an official announcement (opened 2026-09-20, updated 2026-10-02)
-- Broadcom's $42B financing facility for Anthropic (disclosed in Anthropic's IPO filing) covers roughly a third of its $125.2B TPU lease; Anthropic's own filing flags a conflict of interest since Broadcom is both chip supplier and financier; watching for the named financing partner (likely Blackstone/Apollo) and how pricing/access plays out as the deal executes (opened 2026-10-02)
+- Broadcom's $42B financing facility for Anthropic (disclosed in Anthropic's IPO filing) covers roughly a third of its $125.2B TPU lease; Anthropic's own filing flags a conflict of interest since Broadcom is both chip supplier and financier; watching for the named financing partner and how pricing/access plays out as the deal executes (opened 2026-10-02)
 - Barclays targets 50% of its software developers on Claude Code by end of 2026, broadening further into 2027; watching for a progress update partway through Q4 (opened 2026-10-02)
 - California signs SB 947 ("No Robo Bosses Act"), barring AI-only employment termination decisions, reversing a 2025 veto; watching for employer pushback or legal challenges (opened 2026-10-01)
 - [[davidsacks]] vs. the pacing coalition: Sacks is now publicly rebutting Sanders/Khanna criticism of the White House pact (see above); still watching whether the administration formalizes either stance and how the related antitrust suit proceeds (opened 2026-09-14, updated 2026-10-02)
