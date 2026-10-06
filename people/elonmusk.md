@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-10-05** His company SpaceXAI was subpoenaed to testify at the NYC Council's full-body AI safety hearing today; Anthropic, OpenAI, Google, and Meta sent reps and whistleblowers (including ex-Anthropic researcher [[jacobcoxon]]) testified, but no SpaceXAI representative is named among confirmed witnesses in reporting so far, so compliance is still unconfirmed. [Bloomberg](https://www.bloomberg.com/news/articles/2026-10-05/ex-anthropic-researcher-jacob-coxon-testifies-at-nyc-council-ai-hearing) (independent)
+
 - **2026-09-29** Signed the White House Accord on Superintelligence alongside [[darioamodei]], [[jensenhuang]], [[gdb]], Zuckerberg, and Pichai; Trump also signed an executive order renaming AI "Super Intelligence" across the federal government. [White House](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/) (primary)
 
 - **2026-09-25** Said xAI's Memphis-area Colossus 2 cluster (currently 110K GB200 + 440K GB300 Nvidia chips) could more than double its chip count by year-end: another 220K GB300 units due next week, 220K more in November, and a further 220K "if we have luck" in December, which would put the site past 1.2M chips and above xAI's stated 1M-GPU target for 2026. [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-25/elon-musk-aims-to-double-colossus-2-s-nvidia-chips-by-year-end) (independent)
