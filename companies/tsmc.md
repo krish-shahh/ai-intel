@@ -9,6 +9,8 @@ Taiwan Semiconductor Manufacturing Company is the foundry that actually fabricat
 
 ## Recent
 
+- **2026-10-08** September revenue printed at NT$511.86B, down 0.6% MoM but up 54.6% YoY; nine-month 2026 revenue reached NT$3,898.73B, up 41.1%. Back-of-envelope Q3 revenue (~$46.7B) would clear the top of the $44.6-45.8B guidance given in July. [SEC filing](https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm) (primary)
+
 - **2026-10-01** Cadence completed EDA tool certification and IP support for TSMC's A16, A14, N2P, and N3P process nodes; Cadence shares rose nearly 5% on the news. [ad-hoc-news.de](https://www.ad-hoc-news.de/boerse/news/corporate-news/cadence-expands-tsmc-partnership-and-cadence-design-systems-stock-gains/70210952) (independent)
 
 - **2026-10-01** Reportedly weighing additional investment in Texas on top of its existing $265B Arizona buildout, per Reuters sourcing; not yet confirmed by TSMC itself. [Reuters via Investing.com](https://www.investing.com/news/stock-market-news/tsmc-weighs-investment-in-texas-to-expand-us-chip-production-reuters-reports-4926170) (independent)
