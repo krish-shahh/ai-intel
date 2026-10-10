@@ -3,6 +3,7 @@
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
 
+- Anthropic's Oct 9 "unintended model actions" disclosure: internet access for all internal evals is cut until monitoring improves; Anthropic briefed the White House and the affected agencies (unnamed at their request); watching for when eval internet access is restored and whether any named agency responds publicly (opened 2026-10-10)
 - NYC Council's Oct 5 AI safety hearing produced a 10-bill package (third-party validation, mandatory kill switch, whistleblower bounty share, private right of action for AI harms); still proposals, no committee vote found yet; watching for a vote and industry pushback (opened 2026-10-06)
 - NYC Council subpoenaed [[elonmusk]]'s SpaceXAI to testify at the Oct 5 hearing; compliance or appearance still not confirmed in reporting; watching for confirmation and any enforcement step if it was a no-show (opened 2026-09-29, updated 2026-10-06)
 - Nvidia chip smuggling to China: Bloomberg investigation plus a criminal charge over $300M+ in smuggled Nvidia-equipped servers, despite Nvidia's claim of cutting authorized Asian buyers by more than half; watching for further DOJ action and whether enforcement tightens (opened 2026-10-02)
