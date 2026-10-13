@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-10-13 (reported)** SpaceXAI reportedly did not appear at the Oct 5 hearing despite the subpoena; the NYC Council says it will seek enforcement in state court if the company keeps ignoring it. Single secondary source, not yet independently corroborated. [LetsDataScience](https://letsdatascience.com/news/nyc-council-subpoenas-spacexai-for-ai-safety-hearing-d256f64c) (community)
+
 - **2026-10-05** His company SpaceXAI was subpoenaed to testify at the NYC Council's full-body AI safety hearing today; Anthropic, OpenAI, Google, and Meta sent reps and whistleblowers (including ex-Anthropic researcher [[jacobcoxon]]) testified, but no SpaceXAI representative is named among confirmed witnesses in reporting so far, so compliance is still unconfirmed. [Bloomberg](https://www.bloomberg.com/news/articles/2026-10-05/ex-anthropic-researcher-jacob-coxon-testifies-at-nyc-council-ai-hearing) (independent)
 
 - **2026-09-29** Signed the White House Accord on Superintelligence alongside [[darioamodei]], [[jensenhuang]], [[gdb]], Zuckerberg, and Pichai; Trump also signed an executive order renaming AI "Super Intelligence" across the federal government. [White House](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/) (primary)

@@ -9,6 +9,8 @@ Micron is the largest US-based memory maker and a growing HBM supplier, competin
 
 ## Recent
 
+- **2026-10-08** Samsung's Q3 2026 preliminary print landed: operating profit above ₩107 trillion (~$75B), up 782% year over year, on revenue slightly below consensus. Closes out the read-through question raised by Micron's own record FQ4 print; [[sk-hynix]]'s turn is next. [Pulse2](https://pulse2.com/samsung-guides-to-about-145-4-billion-krw-195-trillion-in-q3-2026-sales/) (independent)
+
 - **2026-10-02** The full FQ4 breakout: DRAM revenue hit a record $39.8B for the quarter, and guidance for FQ1 2027 is $61.5B. Coverage frames this as closing the DRAM revenue gap with [[sk-hynix]]. [Seoul Economic Daily](https://en.sedaily.com/finance/2026/10/02/micron-closes-in-on-sk-hynix-in-dram-after-record-quarter) (independent)
 
 - **2026-09-30** TrendForce raised its 2027 HBM price outlook to a 121% year-over-year jump, with 36GB HBM4 modules seen rising from roughly $600 to about $1,300; cites continued supply constraints, a growing mix of higher-priced HBM4, and HBM4e ramping in H2 2027. Quantifies the "higher year-over-year prices" Micron flagged in its own Q4 earnings. [Seoul Economic Daily](https://en.sedaily.com/finance/2026/10/01/hbm-prices-to-more-than-double-in-2027-on-supply-crunch) (independent)
