@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-10-15** mksglu/context-mode trending on GitHub (~29k stars): open-source MCP server that sandboxes AI coding-agent tool output (only the printed result enters the conversation, raw logs/API dumps stay out) and persists session memory in a per-project SQLite index with FTS5 search, so state survives context compaction. Works across 17 agent platforms via MCP and hooks, including Claude Code, Codex CLI, Cursor, and OpenCode; hook support is partial on some platforms (Zed, Antigravity). [GitHub](https://github.com/mksglu/context-mode)
+
 - **2026-09-25** vectorize-io/hindsight trending on GitHub: open source agent memory system splitting memory into world facts, experiences, opinions with confidence scores, and reflective observations via retain/recall/reflect calls; claims SOTA on the LongMemEval benchmark, independently reproduced by Virginia Tech's Sanghani Center and Washington Post researchers. [GitHub](https://github.com/vectorize-io/hindsight) · [blog](https://vectorize.io/blog/introducing-hindsight-agent-memory-that-works-like-human-memory)
 
 - **2026-09-19** cloudflare/security-audit-skill still near the top of GitHub's daily trending two days after its debut here (+3,162 stars today), the independent re-verification step remains the differentiator from other audit skills. [GitHub](https://github.com/cloudflare/security-audit-skill)
