@@ -3,6 +3,7 @@
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
 
+- Anthropic's Claude Duet research preview (built on Claude Opus 5.5, proactive personal agent running on its own VM/browser, waitlist for US Pro/Max): Anthropic promised a safety-architecture writeup "in the coming days" when it launched Oct 21; still not published (opened 2026-10-23)
 - Anthropic Public Benefit Fund: committed 5% of equity (growing 2% per 50% valuation increase) ahead of its IPO; the Long-Term Benefit Trust added physicist Christopher Stubbs as a fourth trustee and signed off on Anthropic's first Public Benefit Report this week; still watching for the disclosed valuation baseline (opened 2026-10-19, updated 2026-10-21)
 - Anthropic's Oct 9 "unintended model actions" disclosure: internet access for all internal evals is cut until monitoring improves; Anthropic briefed the White House and the affected agencies (unnamed at their request); watching for when eval internet access is restored and whether any named agency responds publicly (opened 2026-10-10)
 - Anthropic/METR independent-evaluator access: as of Oct 15, Anthropic has given a 6-person METR team "employee-like" Tier 3 access with near-unrestricted publication rights; still watching for METR's first published findings under this arrangement and whether other evaluators (SecureBio, Accenture/Faculty, Hugging Face) reach the same tier (opened 2026-07-31, updated 2026-10-16)
@@ -61,3 +62,4 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - NSA, CISA, and FBI advisory names six Chinese AI firms for industrial-scale distillation of US frontier models (opened 2026-09-08)
 - PaperCut agentic-AI attack (395 orgs breached via Codex+DeepSeek agent swarm): federal CISA remediation deadline passed with no compliance data or new incidents reported yet (opened 2026-09-12)
 - Pentagon in talks to lend AI cloud startup Fluidstack ~$5B via its Office of Strategic Capital; not yet finalized (opened 2026-09-13)
+
