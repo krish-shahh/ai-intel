@@ -9,4 +9,6 @@ Vertiv supplies the power and thermal infrastructure inside AI datacenters -- UP
 
 ## Recent
 
+- **2026-10-27** Closed its ~$1.45B acquisition of UtilityInnovation Group (microgrid and grid-interconnect power), with up to $1.15B more in EBITDA-linked earnouts, extending into the grid-interconnect bottleneck that constrains AI datacenter buildout speed. Deal first announced Sept 2, close confirmed via SEC 8-K. [SEC 8-K](https://www.sec.gov/Archives/edgar/data/0001674101/000162828026067393/vrt-20261027.htm) (primary) · [Vertiv](https://investors.vertiv.com/news/news-details/2026/Vertiv-Announces-Agreement-to-Acquire-UtilityInnovation-Group-to-Accelerate-Time-to-Power-for-AI-Data-Centers/) (primary)
+
 - **2026-08-18** VRT fell ~7% as power/cooling infrastructure names sold off hardest following a WSJ analysis estimating ~$3T in off-balance-sheet AI infrastructure commitments across nine major tech firms. [Sherwood News](https://sherwood.news/markets/ge-vernova-and-vertiv-are-giving-us-a-glimpse-into-the-future-of-the-ai-boom) (independent)

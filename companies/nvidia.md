@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-10-27** Committed $3B into Meta's $25B common-stock offering (traded today), part of a broader ~$95-97.5B Meta capital program for AI infrastructure; [[amd]] and [[broadcom]] are reportedly weighing stakes that could add up to $5B more combined. Chip vendors are now directly financing their largest customer's AI buildout. [SEC filing](https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431036/d116268dfwp.htm) (primary) · [CNBC](https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html) (independent)
+
 - **2026-10-01/02** A Bloomberg investigation found Nvidia chips still reaching China through a smuggling network with serial stickers removed; separately a California man was criminally charged for allegedly shipping $300M+ in Nvidia-chip-equipped servers to China. Nvidia says it has cut more than half its previously authorized Asian buyers. [Bloomberg](https://www.bloomberg.com/news/features/2026-10-01/nvidia-faces-questions-over-china-ai-chip-smuggling-cases){.bias-center title="Center"} (independent) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-10-02/man-charged-by-us-with-illegally-shipping-nvidia-chips-to-china){.bias-center title="Center"} (independent)
 
 - **2026-10-02** Morgan Stanley reinstated NVIDIA as its semiconductor "Top Pick" ($300 target) after meeting [[jensenhuang]] and CFO Colette Kress, citing a new product cycle and plans to double CPU revenue from $20B (2026) to $40B (2027). [GuruFocus](https://www.gurufocus.com/news/9107500/morgan-stanley-names-nvidia-nvda-top-semiconductor-pick-amid-new-product-cycle) (independent)

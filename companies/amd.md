@@ -9,6 +9,8 @@ AMD is the primary alternative to NVIDIA in AI accelerators, with its Instinct M
 
 ## Recent
 
+- **2026-10-27** Reportedly weighing a stake (alongside [[broadcom]]) that could add up to $5B combined into Meta's $25B equity raise for AI infrastructure; [[nvidia]] already committed $3B. [CNBC](https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html) (independent) · [Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/nvidia-picks-3b-stock-metas-074333095.html) (independent)
+
 - **2026-09-28** Signed a definitive agreement to acquire World Labs, Fei-Fei Li's spatial-intelligence research lab, to build out its AI hardware, software, and model-systems stack. [AMD Investor Relations](https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute) (primary)
 
 - **2026-09-14** AMD fell alongside a broad AI/chip stock slide (Nvidia, Broadcom, Intel, Marvell, SK Hynix, Samsung, SoftBank all down) after [[darioamodei]]'s pacing essay plus [[sama]] and [[elonmusk]]'s public backing raised doubts about near-term AI growth. [CNBC](https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html){.bias-center title="Center"} (independent)
