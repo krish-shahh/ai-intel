@@ -9,6 +9,8 @@ SK Hynix is the leading supplier of High Bandwidth Memory (HBM), the stacked-DRA
 
 ## Recent
 
+- **2026-10-28** Posted record Q3 2026 results: revenue crossed KRW 100 trillion for the first time, operating profit KRW 83.3 trillion on an 80% margin, a sixth straight record quarter. HBM4 moved to full-scale mass production and is expected to pass HBM3E in Q4. Management outlined roughly $75.4B in 2026 shareholder returns. [Fool.com transcript](https://www.fool.com/earnings/call-transcripts/2026/10/28/sk-hynix-skhy-q3-2026-earnings-call-transcript/) (primary) · [Investing.com](https://www.investing.com/news/company-news/sk-hynix-q3-2026-slides-revenue-tops-100t-80-margin-on-ai-boom-93CH-4977357) (independent)
+
 - **2026-10-08** Samsung's Q3 2026 preliminary print landed: operating profit above ₩107 trillion (~$75B), up 782% year over year, topping 100 trillion won for the first time on a quarterly basis. SK Hynix's own print is the next memory-pricing checkpoint after [[micron]]'s and Samsung's. [Pulse2](https://pulse2.com/samsung-guides-to-about-145-4-billion-krw-195-trillion-in-q3-2026-sales/) (independent)
 
 - **2026-09-30** TrendForce raised its 2027 HBM price outlook to a 121% year-over-year jump, with 36GB HBM4 modules seen rising from roughly $600 to about $1,300; says SK Hynix and Samsung are both pushing harder on price in current 2027 negotiations than in prior rounds, taking a more aggressive stance than [[micron]]. [Seoul Economic Daily](https://en.sedaily.com/finance/2026/10/01/hbm-prices-to-more-than-double-in-2027-on-supply-crunch) (independent)
