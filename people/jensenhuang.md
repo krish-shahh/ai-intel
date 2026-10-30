@@ -10,6 +10,8 @@ Jensen Huang is co-founder and CEO of NVIDIA, which he has led since founding it
 
 ## Recent
 
+- **2026-10-29** NY Post revived a months-old NYT investigation into Megaspeed, a Singapore firm tied to Chinese state-backed 7Road, over allegedly helping Chinese buyers evade export controls on roughly $2B of [[nvidia]] chips. The story frames Huang's social ties to a Megaspeed executive, from a 2024 Taipei bar meeting, as a "spy" angle, but adds no new facts beyond that framing; the Commerce Dept probe into Megaspeed was already open. [NY Post](https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/){.bias-lean-right title="Lean right"} (independent)
+
 - **2026-10-02** Morgan Stanley reinstated [[nvidia]] as its semiconductor "Top Pick" ($300 target) after meeting Huang and CFO Colette Kress, citing a new product cycle and plans to double CPU revenue from $20B (2026) to $40B (2027). [GuruFocus](https://www.gurufocus.com/news/9107500/morgan-stanley-names-nvidia-nvda-top-semiconductor-pick-amid-new-product-cycle) (independent)
 
 - **2026-09-29** Signed the White House Accord on Superintelligence alongside [[darioamodei]], [[gdb]], [[elonmusk]], Zuckerberg, and Pichai; Trump also signed an executive order renaming AI "Super Intelligence" across the federal government. Trump called it only "morally," not legally, binding. [White House](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/) (primary) · [CNN](https://www.cnn.com/2026/09/29/business/amodei-huang-karp-trump){.bias-lean-left title="Lean left"} (independent)
