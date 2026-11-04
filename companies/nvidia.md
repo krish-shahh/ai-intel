@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-11-04** NVIDIA/auto-ontology, an Apache 2.0 semantic layer that auto-builds an ontology between an AI agent and a data warehouse so agent-generated SQL grounds in approved definitions, is today's #2 gainer on GitHub's daily trending list (+2,053 stars). Defaults to NVIDIA NIM Nemotron models but accepts any OpenAI-compatible endpoint. [NGC listing](https://catalog.ngc.nvidia.com/orgs/nvidia/-/containers/auto-ontology/-) (primary) · [coverage](https://alphasignal.ai/news/nvidia-s-auto-ontology-stops-ai-agents-from-querying-the-wrong-data) (independent)
+
 - **2026-10-29** NY Post revived a months-old NYT investigation into Megaspeed, a Singapore firm tied to Chinese state-backed 7Road, over allegedly helping Chinese buyers evade export controls on roughly $2B of Nvidia chips, framing [[jensenhuang]]'s social ties to a Megaspeed executive as a "spy" angle. No new facts beyond that framing; the Commerce Dept probe was already open. [NY Post](https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/){.bias-lean-right title="Lean right"} (independent)
 
 - **2026-10-27** Committed $3B into Meta's $25B common-stock offering (traded today), part of a broader ~$95-97.5B Meta capital program for AI infrastructure; [[amd]] and [[broadcom]] are reportedly weighing stakes that could add up to $5B more combined. Chip vendors are now directly financing their largest customer's AI buildout. [SEC filing](https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431036/d116268dfwp.htm) (primary) · [CNBC](https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html) (independent)
