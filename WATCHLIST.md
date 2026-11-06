@@ -3,7 +3,7 @@
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
 
-- US midterm datacenter backlash: 40+ local ballot measures restricting or banning data centers passed Nov 3-4; watching whether this shows up in near-term capex guidance from [[nvidia]], [[amd]], or hyperscalers, or just stays a local zoning fight (opened 2026-11-05)
+- US midterm datacenter backlash: deepened into a direct chip-stock selloff Nov 5 — AMD -17%, Broadcom -10%, Nvidia -9%, Intel -8% — on election/regulatory fears; watching whether this shows up in actual capex guidance cuts or stays a trading reaction (opened 2026-11-05, updated 2026-11-06)
 - NY Post revived a months-old NYT investigation into Megaspeed, a Singapore firm tied to Chinese state-backed 7Road, over allegedly helping Chinese buyers evade export controls on roughly $2B of [[nvidia]] chips. Commerce Dept probe was already open; watching for an actual enforcement action (opened 2026-10-29)
 - DOJ reportedly investigating whether [[nvidia]]'s roughly $20B non-exclusive licensing deal with AI chip startup Groq was structured to dodge Hart-Scott-Rodino antitrust review; watching for a DOJ confirmation or any fine, and whether it widens the pending Hugging Face acquisition review (opened 2026-10-24)
 - Anthropic's Claude Duet research preview: dedicated safety-architecture writeup still hasn't published (opened 2026-10-23, updated 2026-10-24)

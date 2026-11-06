@@ -9,6 +9,8 @@ Intel is a US semiconductor manufacturer and foundry operator, central to effort
 
 ## Recent
 
+- **2026-11-05** INTC fell about 8% as part of a broad chip-stock selloff (AMD -17.3%, [[nvidia]] -9.3%, [[broadcom]] -10.4%) driven by election/regulatory fears over AI datacenter buildout following the midterm ballot measures. [24/7 Wall St.](https://247wallst.com/investing/2026/11/05/amd-tumbles-13-nvidia-slides-7-as-ai-regulation-fears-hit-chip-stocks-intel-sinks-8/) (independent)
+
 - **2026-10-01/02** Added [[nvidia]]'s OpenShell agent-security runtime to its Xeon AI toolkit, a direct compute rival's safety layer becoming a dependency inside Intel's own AI stack; separately INTC jumped ~11-14% intraday partly on [[micron]]'s blowout earnings boosting AI-memory sentiment. [FX Leaders](https://fxleaders.com/news/2026/10/01/intel-stock-rally-micron-earnings-chip-sector) (independent)
 
 - **2026-09-28** Calls reports of an Ohio memory manufacturing deal with [[sk-hynix]] "speculation," though it confirms continued investment to ready the Ohio site; SK Hynix separately denies any confirmed plans. [Unite.AI](https://www.unite.ai/sk-hynix-says-no-plans-confirmed-on-reported-intel-us-memory-talks/) (independent)
