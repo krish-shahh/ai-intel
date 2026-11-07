@@ -9,6 +9,8 @@ Broadcom designs custom AI accelerators (ASICs) for hyperscalers -- including Go
 
 ## Recent
 
+- **2026-11-06** AVGO lagged the chip-stock rebound, up under 1% versus AMD's 8-11% and Nvidia/Intel's 3-6% gains, a day after the broader Nov 5 selloff. [24/7 Wall St.](https://247wallst.com/investing/2026/11/06/amd-jumps-8-intel-and-nvidia-climb-5-as-chip-stocks-rebound-from-worst-sell-off-since-2020/) (independent)
+
 - **2026-11-05** AVGO closed down 10.4% to $291.53 as part of the broader chip-stock selloff tied to midterm datacenter-regulation fears (AMD -17.3%, [[nvidia]] -9.3%, [[intel]] -8%); one report also flagged Broadcom's $63B Anthropic financing structure as a company-specific concern feeding the drop. [The Motley Fool](https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nvidia-slides-on-ai-chip-selloff-as-election-uncertainty-weighs/) (independent) · [Investing.com](https://www.investing.com/news/stock-market-news/why-is-broadcom-stock-tumbling-today-93CH-5005156) (independent)
 
 - **2026-10-27** The previously unnamed financing partner for the $42B Anthropic chip-lease loan below is now identified: Bank of America, Blackstone, Citi, and Morgan Stanley are backing a $63B SPV to buy Broadcom XPUs and networking gear and lease them to Anthropic, with deliveries starting 2027. [Broadcom](https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce) (primary) · [Digitimes](https://www.digitimes.com/news/a20261027VL222/broadcom-anthropic-funding-financing-finance.html) (independent)

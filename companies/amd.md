@@ -9,6 +9,8 @@ AMD is the primary alternative to NVIDIA in AI accelerators, with its Instinct M
 
 ## Recent
 
+- **2026-11-06** AMD jumped 8-11% as chip stocks rebounded from Nov 5's selloff, the PHLX Semiconductor Index up about 4% after a 12% plunge the day before; sector still net negative on the week. [24/7 Wall St.](https://247wallst.com/investing/2026/11/06/amd-jumps-8-intel-and-nvidia-climb-5-as-chip-stocks-rebound-from-worst-sell-off-since-2020/) (independent)
+
 - **2026-11-05** Closed down 17.3% to $404.40 as the midterm datacenter backlash turned into a direct chip-stock selloff -- traders pricing in a Democratic-controlled Congress tightening AI/datacenter rules, despite AMD having just posted record Q3 datacenter revenue. [The Motley Fool](https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nvidia-slides-on-ai-chip-selloff-as-election-uncertainty-weighs/) (independent) · [24/7 Wall St.](https://247wallst.com/investing/2026/11/05/amd-tumbles-13-nvidia-slides-7-as-ai-regulation-fears-hit-chip-stocks-intel-sinks-8/) (independent)
 
 - **2026-11-04** Q3 data-center revenue grew 97% YoY to $8.55B, beating estimates, and raised its 2027 outlook; stock jumped premarket. Lands the same day Nov 3-4 midterm election results triggered a wave of local ballot measures restricting new AI datacenters, a direct test of capex durability against new siting/political risk. [Investing.com](https://www.investing.com/news/stock-market-news/amd-shares-jump-as-aidriven-datacenter-strength-fuels-growth-outlook-4998022) (independent)

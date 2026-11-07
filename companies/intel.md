@@ -9,6 +9,8 @@ Intel is a US semiconductor manufacturer and foundry operator, central to effort
 
 ## Recent
 
+- **2026-11-06** INTC climbed 3-6% as chip stocks rebounded from Nov 5's selloff; sector still net negative on the week. [24/7 Wall St.](https://247wallst.com/investing/2026/11/06/amd-jumps-8-intel-and-nvidia-climb-5-as-chip-stocks-rebound-from-worst-sell-off-since-2020/) (independent)
+
 - **2026-11-05** INTC fell about 8% as part of a broad chip-stock selloff (AMD -17.3%, [[nvidia]] -9.3%, [[broadcom]] -10.4%) driven by election/regulatory fears over AI datacenter buildout following the midterm ballot measures. [24/7 Wall St.](https://247wallst.com/investing/2026/11/05/amd-tumbles-13-nvidia-slides-7-as-ai-regulation-fears-hit-chip-stocks-intel-sinks-8/) (independent)
 
 - **2026-10-01/02** Added [[nvidia]]'s OpenShell agent-security runtime to its Xeon AI toolkit, a direct compute rival's safety layer becoming a dependency inside Intel's own AI stack; separately INTC jumped ~11-14% intraday partly on [[micron]]'s blowout earnings boosting AI-memory sentiment. [FX Leaders](https://fxleaders.com/news/2026/10/01/intel-stock-rally-micron-earnings-chip-sector) (independent)
