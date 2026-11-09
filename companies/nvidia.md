@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-11-08** CEO [[jensenhuang]] admitted an affair with Alice Huang, a Megaspeed executive US intelligence reportedly concluded was a recruited Chinese intelligence asset; the board opened an independent investigation, and a closed-door congressional briefing is set for Nov 18, the day after Nvidia's next earnings report. [Washington Post](https://www.washingtonpost.com/technology/2026/11/08/read-jensen-huangs-letter-nvidia-about-his-affair-with-suspected-chinese-spy/){.bias-lean-left title="Lean left"} (primary) · [CNBC](https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html){.bias-center title="Center"} (independent)
+
 - **2026-11-06** NVIDIA's `auto-ontology` repo surged +2,015 stars on GitHub's daily trending page (9.0k total). It builds a queryable context layer over enterprise metadata -- business terms, relationships, reviewed SQL -- so agents can answer data questions with traceable queries; ships with MCP/REST interfaces and NIM model support. [GitHub](https://github.com/NVIDIA/auto-ontology) (primary)
 
 - **2026-11-06** NVDA rebounded about 3-6% as chip stocks broadly recovered from Nov 5's selloff; Broadcom lagged at under 1%, sector still net negative on the week. [24/7 Wall St.](https://247wallst.com/investing/2026/11/06/amd-jumps-8-intel-and-nvidia-climb-5-as-chip-stocks-rebound-from-worst-sell-off-since-2020/) (independent)

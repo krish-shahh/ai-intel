@@ -2,9 +2,9 @@
 
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
-
-- US midterm datacenter backlash: Nov 5 selloff (AMD -17%, Broadcom -10%, Nvidia -9%, Intel -8%) bounced back Nov 6 (AMD +8-11%, Intel/Nvidia +3-6%, Broadcom <1%, SOX +4%), sector still net negative on the week; watching whether this becomes a capex guidance issue or stays a trading swing (opened 2026-11-05, updated 2026-11-07)
-- NY Post revived a months-old NYT investigation into Megaspeed, a Singapore firm tied to Chinese state-backed 7Road, over allegedly helping Chinese buyers evade export controls on roughly $2B of [[nvidia]] chips. Commerce Dept probe was already open; watching for an actual enforcement action (opened 2026-10-29)
+- Jensen Huang affair / Megaspeed espionage allegations: watching for the Nvidia board's investigation findings and the outcome of the Nov 18 closed-door congressional briefing (opened 2026-10-29, updated 2026-11-09)
+- Anthropic's IPO: S-1 public since Oct 26 with price range and share count still blank; watching for the amended S-1 with pricing (earliest Nov 13) and a confirmed listing date (reports point to around Nov 16) (opened 2026-10-04, updated 2026-11-09)
+- US midterm datacenter backlash: Nov 5 selloff (AMD -17%, Broadcom -10%, Nvidia -9%, Intel -8%) bounced back Nov 6, sector still net negative on the week; watching whether this becomes a capex guidance issue or stays a trading swing (opened 2026-11-05, updated 2026-11-07)
 - DOJ reportedly investigating whether [[nvidia]]'s roughly $20B non-exclusive licensing deal with AI chip startup Groq was structured to dodge Hart-Scott-Rodino antitrust review; watching for a DOJ confirmation or any fine, and whether it widens the pending Hugging Face acquisition review (opened 2026-10-24)
 - Anthropic's Claude Duet research preview: dedicated safety-architecture writeup still hasn't published (opened 2026-10-23, updated 2026-10-24)
 - Anthropic Public Benefit Fund: still watching for the disclosed valuation baseline (opened 2026-10-19, updated 2026-10-21)
@@ -18,7 +18,6 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - Meta's ~$95-97.5B capital program: still watching for Broadcom's share of the up-to-$5B tranche and the final program size (opened 2026-10-27, updated 2026-11-02)
 - Broadcom's $63B SPV financing for Anthropic: still watching how lease pricing and access terms play out (opened 2026-10-02, updated 2026-10-27)
 - [[tsmc]] additional Texas investment: still watching for a direct answer from management, contingent on the advanced-manufacturing tax credit (opened 2026-10-01, updated 2026-10-15)
-- Anthropic's IPO: amended S-1/A landed Nov 2 with the $895.4B compute/lease commitment figure; still no official price range, share count, or confirmed listing date; secondary reporting floats a roadshow around Nov 9-10 and a debut before Thanksgiving, valuation chatter at $1.5-2T; still watching for real pricing terms and the shareholder vote on the Founder LLC's 50.1% voting-control structure (opened 2026-10-04, updated 2026-11-04)
 - Barclays targets 50% of its software developers on Claude Code by end of 2026; watching for a progress update partway through Q4 (opened 2026-10-02)
 - California signs SB 947 ("No Robo Bosses Act"); watching for employer pushback or legal challenges (opened 2026-10-01)
 - [[davidsacks]] vs. the pacing coalition: still watching whether the administration formalizes either stance and how the related antitrust suit proceeds (opened 2026-09-14, updated 2026-10-02)
