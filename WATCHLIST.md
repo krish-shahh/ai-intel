@@ -2,8 +2,8 @@
 
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
+- Anthropic's IPO: roadshow launched Nov 10 with price range set at $70-$78/share (825M shares, Nasdaq "ANT"); watching for the final pricing, expected around Nov 18, and the first trading day, expected Nov 19 (opened 2026-10-04, updated 2026-11-10)
 - Jensen Huang affair / Megaspeed espionage allegations: now reportedly a DOJ criminal matter after Nvidia's GC contacted Commerce investigators; watching for DOJ or Commerce to confirm on record, and the outcome of the Nov 18 closed-door congressional briefing (opened 2026-10-29, updated 2026-11-10)
-- Anthropic's IPO: S-1 public since Oct 26 with price range and share count still blank; roadshow couldn't start before Nov 10; watching for the amended S-1 with pricing (earliest Nov 13) and a confirmed listing date (reports point to around Nov 16) (opened 2026-10-04, updated 2026-11-09)
 - US midterm datacenter backlash: Nov 5 selloff (AMD -17%, Broadcom -10%, Nvidia -9%, Intel -8%) bounced back Nov 6, sector still net negative on the week; watching whether this becomes a capex guidance issue or stays a trading swing (opened 2026-11-05, updated 2026-11-07)
 - DOJ reportedly investigating whether [[nvidia]]'s roughly $20B non-exclusive licensing deal with AI chip startup Groq was structured to dodge Hart-Scott-Rodino antitrust review; watching for a DOJ confirmation or any fine, and whether it widens the pending Hugging Face acquisition review (opened 2026-10-24)
 - Anthropic's Claude Duet research preview: dedicated safety-architecture writeup still hasn't published (opened 2026-10-23, updated 2026-10-24)

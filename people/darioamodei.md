@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-11-10** Anthropic launched its IPO roadshow: 825,000,000 Class A shares offered (801,351,354 by the company, 23,648,646 by selling stockholders) at an expected $70.00-$78.00/share, with underwriters holding a 30-day option on 123,750,000 more shares; targets a Nasdaq Global Select Market listing as "ANT." Top-of-range raise would be about $64B before fees; reports point to pricing around Nov 18 and trading starting Nov 19. [Anthropic](https://www.anthropic.com/news/roadshow-launch) (primary) · [CNBC](https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html) (independent)
+
 - **2026-11-02** Anthropic filed an amended S-1/A, lifting total committed spend under compute purchase and lease agreements to $895.4B (from ~$245B in the original S-1), with $447.5B expected before end-2030 and $69.8B due in the next 12 months. Still no price range or share count set. [SEC S-1/A](https://www.sec.gov/Archives/edgar/data/0002130357/000162828026068676/anthropicpbc-sx1ax1.htm) (primary)
 
 - **2026-10-27** The S-1 also discloses $518B in compute commitments (about 80% non-cancellable) over roughly 10 years and names TSMC dependency as a key supply-chain risk even for partner-designed chips; prediction markets now put 2026-listing odds near 72-76%. [SEC](https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm) (primary) · [CNBC](https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html) (independent)
