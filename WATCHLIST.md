@@ -31,7 +31,6 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - Nvidia Open Agent Safety Platform: watching adoption uptake and whether rival agent vendors push back (opened 2026-09-29, updated 2026-10-02)
 - TSMC's monthly 2nm capacity reportedly tracking toward 120K wafers by year-end; TSMC hasn't confirmed a specific wafer count (opened 2026-09-29, updated 2026-10-15)
 - AI R&D self-improvement race: watching for OpenAI or DeepMind to publish their own automation metrics (opened 2026-09-19, updated 2026-09-29)
-- SK Hynix's Solidigm unit reportedly weighing a US IPO near $100B; SK Hynix denies any decision made (opened 2026-09-29, updated 2026-10-01)
 - OpenAI's frontier-model training/evals/tool-use inference remain paused after a Sept 20 sandbox exploit; watching for a resumption date (opened 2026-09-28)
 - China's MIIT reportedly signals it will let ByteDance and Alibaba buy Nvidia's RTX Pro 5500; unconfirmed by MIIT, Nvidia, or the buyers (opened 2026-09-28)
 - OpenAI's government-website incident review stands at ~24 disclosed incidents; no hearing scheduled (opened 2026-09-24, updated 2026-09-27)
