@@ -7,6 +7,8 @@ Codex is OpenAI's coding agent for writing, editing, and running code across a c
 
 ## Notes
 
+- **2026-11-12** `openai/codex-security` surged on GitHub's daily trending page (+663 stars, 12.1k total): OpenAI's security CLI/SDK (`@openai/codex-security`) that scans a repo, path, or git diff for vulnerabilities, validates findings, drafts patches and SECURITY.md policies, and exports SARIF/JSON/CSV; also runs as a plugin inside Codex sessions. Connects to Linear, Jira, and GitHub for findings. [GitHub](https://github.com/openai/codex-security) (primary)
+
 - **2026-09-27** `mvschwarz/openrig` trending on GitHub (+114 stars): a multi-agent harness that runs Codex and Claude Code side by side as one coordinated system, letting users route or compare work across both instead of picking one. [GitHub](https://github.com/mvschwarz/openrig)
 
 - **2026-09-20** AIR Security disclosed Plugin4Shell, a zero-click SHA-pinning bypass affecting Codex's plugin installer alongside Claude Code, GitHub Copilot, and Gemini CLI: an attacker-controlled plugin repo can swap in malicious code after the commit-SHA pin check passes. OpenAI patched it in Codex 0.146.0; GitHub Copilot remains unpatched and Google opted to deprecate Gemini CLI instead of fixing it. [AIR Security](https://www.air.security/blog-posts/plugin4shell) (primary) · [The Hacker News](https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html) (independent)
