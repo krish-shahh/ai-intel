@@ -1,354 +1,1430 @@
 {
-  "generated_at": "2026-11-13T01:07:49.979830+00:00",
+  "generated_at": "2026-11-13T06:19:35.151721+00:00",
   "window_hours": 14,
+  "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
+  "source_fetched_at": {
+    "newsapi": "2026-11-13T06:19:35.151721+00:00"
+  },
+  "counts": {
+    "reddit": 0,
+    "hackernews": 2,
+    "polymarket": 0,
+    "rss": 26,
+    "arxiv": 0,
+    "sec_edgar": 3,
+    "github": 0,
+    "github_trending": 13,
+    "gdelt": 0,
+    "newsapi": 100,
+    "mediastack": 0
+  },
+  "items": [
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "published_at": "2026-11-12T17:36:40+00:00",
+      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.29,
+        "recommended": true,
+        "relevance_confidence": 0.58,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.06,
+          "3": 0.52,
+          "4": 0.4
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.91,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.05,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.93,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "published_at": "2026-11-12T21:27:10+00:00",
+      "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.22,
+        "recommended": true,
+        "relevance_confidence": 0.77,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.03,
+          "3": 0.72,
+          "4": 0.25
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.92,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.06,
+          "policy_business": 0.94,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "title": "Google’s new Gemini model is better at understanding complicated questions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "published_at": "2026-11-12T21:55:32+00:00",
+      "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.08,
+        "recommended": true,
+        "relevance_confidence": 0.87,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.04,
+          "3": 0.84,
+          "4": 0.12
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 1.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:CopilotKit/OpenBot",
+      "source": "github_trending",
+      "source_id": "CopilotKit/OpenBot",
+      "title": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.06,
+        "recommended": true,
+        "relevance_confidence": 0.72,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.13,
+          "3": 0.67,
+          "4": 0.2
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.76,
+        "topic_probabilities": {
+          "ai_models_research": 0.81,
+          "developer_tools": 0.19,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:ggml-org/llama.cpp",
+      "source": "github_trending",
+      "source_id": "ggml-org/llama.cpp",
+      "title": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "LLM inference in C/C++",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.04,
+        "recommended": true,
+        "relevance_confidence": 0.21,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.04,
+          "2": 0.26,
+          "3": 0.31,
+          "4": 0.39
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.54,
+        "topic_probabilities": {
+          "ai_models_research": 0.63,
+          "developer_tools": 0.37,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "published_at": "2026-11-12T19:27:45+00:00",
+      "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.04,
+        "recommended": true,
+        "relevance_confidence": 0.88,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.05,
+          "3": 0.86,
+          "4": 0.09
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 1.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "published_at": "2026-11-12T22:42:51+00:00",
+      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.97,
+        "recommended": true,
+        "relevance_confidence": 0.73,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.12,
+          "3": 0.7,
+          "4": 0.15
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.87,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.1,
+          "policy_business": 0.9,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:QwenLM/qwen-code",
+      "source": "github_trending",
+      "source_id": "QwenLM/qwen-code",
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "An open-source AI coding agent that lives in your terminal.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.96,
+        "recommended": true,
+        "relevance_confidence": 0.72,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.19,
+          "3": 0.66,
+          "4": 0.15
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.47,
+        "topic_probabilities": {
+          "ai_models_research": 0.42,
+          "developer_tools": 0.58,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "published_at": "2026-11-12T17:00:52+00:00",
+      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.95,
+        "recommended": true,
+        "relevance_confidence": 0.72,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.15,
+          "3": 0.69,
+          "4": 0.14
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.76,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.81,
+          "policy_business": 0.19,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "source": "mit-tech-review-ai",
+      "source_id": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "published_at": "2026-11-12T20:16:24+00:00",
+      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
+      "name": "MIT Technology Review AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.93,
+        "recommended": true,
+        "relevance_confidence": 0.84,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.11,
+          "3": 0.82,
+          "4": 0.06
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.66,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.27,
+          "policy_business": 0.73,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "published_at": "2026-11-12T17:17:58+00:00",
+      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.81,
+        "recommended": true,
+        "relevance_confidence": 0.82,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.18,
+          "3": 0.8,
+          "4": 0.01
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.98,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "a16z-news:https://www.a16z.news/p/super-intelligence-era-critical-infrastructure",
+      "source": "a16z-news",
+      "source_id": "https://www.a16z.news/p/super-intelligence-era-critical-infrastructure",
+      "title": "Super Intelligence-Era Critical Infrastructure Cyber Defense Plan",
+      "url": "https://www.a16z.news/p/super-intelligence-era-critical-infrastructure",
+      "published_at": "2026-11-12T21:21:15+00:00",
+      "summary": "A Public-Private Partnership to Defend America’s Critical Infrastructure",
+      "name": "a16z News",
+      "kind": "newsletter",
+      "publisher": "a16z",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.8,
+        "recommended": true,
+        "relevance_confidence": 0.72,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.04,
+          "2": 0.19,
+          "3": 0.7,
+          "4": 0.07
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.8,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.84,
+          "other_technology": 0.14
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "published_at": "2026-11-12T18:39:23+00:00",
+      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.76,
+        "recommended": true,
+        "relevance_confidence": 0.36,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.16,
+          "2": 0.13,
+          "3": 0.43,
+          "4": 0.26
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.54,
+        "topic_probabilities": {
+          "ai_models_research": 0.07,
+          "developer_tools": 0.29,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.63,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:openai/codex-security",
+      "source": "github_trending",
+      "source_id": "openai/codex-security",
+      "title": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.69,
+        "recommended": true,
+        "relevance_confidence": 0.64,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.31,
+          "3": 0.6,
+          "4": 0.06
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.98,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:addyosmani/agent-skills",
+      "source": "github_trending",
+      "source_id": "addyosmani/agent-skills",
+      "title": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "Production-grade engineering skills for AI coding agents.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.63,
+        "recommended": true,
+        "relevance_confidence": 0.48,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.04,
+          "2": 0.41,
+          "3": 0.42,
+          "4": 0.13
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.5,
+        "topic_probabilities": {
+          "ai_models_research": 0.4,
+          "developer_tools": 0.6,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "published_at": "2026-11-12T19:11:00+00:00",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.63,
+        "recommended": true,
+        "relevance_confidence": 0.7,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.34,
+          "3": 0.65,
+          "4": 0.0
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.92,
+        "topic_probabilities": {
+          "ai_models_research": 0.94,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.04,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "github_trending:sponsors/ashhart",
+      "source": "github_trending",
+      "source_id": "sponsors/ashhart",
+      "title": "sponsors/ashhart",
+      "url": "https://github.com/sponsors/ashhart",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.61,
+        "recommended": true,
+        "relevance_confidence": 0.59,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.38,
+          "3": 0.54,
+          "4": 0.05
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.4,
+        "topic_probabilities": {
+          "ai_models_research": 0.52,
+          "developer_tools": 0.47,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "published_at": "2026-11-12T22:22:28+00:00",
+      "summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.56,
+        "recommended": true,
+        "relevance_confidence": 0.62,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.41,
+          "3": 0.57,
+          "4": 0.0
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.92,
+        "topic_probabilities": {
+          "ai_models_research": 0.94,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.06,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:Alishahryar1/free-claude-code",
+      "source": "github_trending",
+      "source_id": "Alishahryar1/free-claude-code",
+      "title": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.42,
+        "recommended": true,
+        "relevance_confidence": 0.45,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.11,
+          "2": 0.4,
+          "3": 0.45,
+          "4": 0.04
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.66,
+        "topic_probabilities": {
+          "ai_models_research": 0.27,
+          "developer_tools": 0.73,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "title": "Jensen Huang agrees to testify before Congress",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "published_at": "2026-11-12T16:36:37+00:00",
+      "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.42,
+        "recommended": true,
+        "relevance_confidence": 0.28,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.22,
+          "2": 0.22,
+          "3": 0.4,
+          "4": 0.14
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.81,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.02,
+          "policy_business": 0.85,
+          "other_technology": 0.13
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "published_at": "2026-11-12T17:00:00+00:00",
+      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.37,
+        "recommended": true,
+        "relevance_confidence": 0.64,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.57,
+          "3": 0.4,
+          "4": 0.0
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.96,
+        "topic_probabilities": {
+          "ai_models_research": 0.97,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.02,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "github_trending:GoogleChrome/modern-web-guidance-src",
+      "source": "github_trending",
+      "source_id": "GoogleChrome/modern-web-guidance-src",
+      "title": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "Keep your coding agent up to date with the latest web best practices",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.29,
+        "recommended": true,
+        "relevance_confidence": 0.57,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.11,
+          "2": 0.54,
+          "3": 0.3,
+          "4": 0.05
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.98,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
+      "title": "‘It’s a mistake’: reactions from tech leaders on Jensen Huang’s resignation",
+      "url": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
+      "published_at": "2026-11-12T21:45:00+00:00",
+      "summary": "Nvidia announced this morning that Jensen Huang has resigned as CEO following reports of two affairs, including one with an alleged Chinese spy and one with a direct report. The situation surrounding Huang has unfolded quickly, with The New York Times only reporting on Friday that Huang and the suspected spy were \"close\" before other […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.14,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.37,
+          "2": 0.18,
+          "3": 0.27,
+          "4": 0.15
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.62,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.05,
+          "policy_business": 0.25,
+          "other_technology": 0.7
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+      "title": "Humble Bundle redesign removes two-factor verification from settings",
+      "url": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+      "published_at": "2026-11-12T23:30:52+00:00",
+      "summary": "The Humble Bundle storefront for buying games and other software recently got a new look, but on the settings page, it no longer offers a way to add or update two-factor verification methods, as reported by Kotaku. PC Gamer also points out that there are Humble Bundle support pages discussing two-factor verification, and the writer […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.08,
+        "recommended": true,
+        "relevance_confidence": 0.62,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.18,
+          "2": 0.55,
+          "3": 0.27,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.01,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.99
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+      "title": "Microsoft Outlook is still down",
+      "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+      "published_at": "2026-11-12T23:24:13+00:00",
+      "summary": "Since just before 1PM ET on Thursday, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing elevated load across multiple regions, which […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.07,
+        "recommended": true,
+        "relevance_confidence": 0.64,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.18,
+          "2": 0.57,
+          "3": 0.25,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.02,
+          "policy_business": 0.0,
+          "other_technology": 0.98
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
+      "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
+      "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
+      "published_at": "2026-11-12T23:43:22+00:00",
+      "summary": "Starting Thursday, Whoop members can share their data from its wearables on the app's new Whoop Humans social network. Users can make their metrics, activities, and achievements visible to other Whoop wearers, post Story-like \"Moments\" with photos and captions, and add comments and reactions on other members' posts. Whoop claims its platform is \"entirely human,\" […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.04,
+        "recommended": true,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.17,
+          "2": 0.61,
+          "3": 0.22,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.99
+        }
+      }
+    },
+    {
+      "id": "github_trending:meta/astryx",
+      "source": "github_trending",
+      "source_id": "meta/astryx",
+      "title": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "An open source design system that's fully customizable and agent ready",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.98,
+        "recommended": false,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.2,
+          "2": 0.62,
+          "3": 0.18,
+          "4": 0.0
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 1.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "published_at": "2026-11-12T21:35:00+00:00",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.8,
+        "recommended": false,
+        "relevance_confidence": 0.26,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.52,
+          "2": 0.13,
+          "3": 0.21,
+          "4": 0.1
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.34,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.13,
+          "policy_business": 0.47,
+          "other_technology": 0.4
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+      "title": "Donald Trump really wants Tim Cook to run Nvidia",
+      "url": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+      "published_at": "2026-11-13T00:46:07+00:00",
+      "summary": "Jensen Huang resigned this morning as Nvidia's CEO following reports of affairs, including one with an alleged Chinese spy. Right now, the company is being led by its CFO on an interim basis. But President Donald Trump is already throwing around one person he thinks should take over the chipmaking giant: former Apple CEO Tim […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.76,
+        "recommended": false,
+        "relevance_confidence": 0.26,
+        "relevance_probabilities": {
+          "0": 0.07,
+          "1": 0.51,
+          "2": 0.11,
+          "3": 0.22,
+          "4": 0.09
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.35,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.48,
+          "policy_business": 0.35,
+          "other_technology": 0.17
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature",
+      "title": "Xbox owners are getting more customizations for backgrounds and the Guide menu",
+      "url": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature",
+      "published_at": "2026-11-12T23:00:00+00:00",
+      "summary": "Microsoft is starting to test new customization options for Xbox consoles today. Xbox Insiders will be able to start testing new rotating backgrounds, new library options for digital games, and the ability to move the Xbox Guide menu to the right-hand side. \"Xbox Insiders can now save favorite dynamic backgrounds and shuffle through them automatically,\" […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.59,
+        "recommended": false,
+        "relevance_confidence": 0.58,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.44,
+          "2": 0.51,
+          "3": 0.04,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "hackernews:50477231",
+      "source": "hackernews",
+      "source_id": "50477231",
+      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "published_at": "2026-11-13T02:16:24+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50477231",
+      "points": 356,
+      "comments": 270,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.58,
+        "recommended": false,
+        "relevance_confidence": 0.48,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.55,
+          "2": 0.25,
+          "3": 0.16,
+          "4": 0.01
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.5,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.24,
+          "policy_business": 0.6,
+          "other_technology": 0.16
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
+      "title": "Here are the 25 original Xbox games you can now play on PC",
+      "url": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
+      "published_at": "2026-11-12T21:00:00+00:00",
+      "summary": "For the 25th anniversary of Xbox, Microsoft is beginning to make good on its paid \"next-gen game preservation\" promise. Starting today, you can play 25 different original Xbox games on your Windows PC, as long as you have (or are willing to pay) for digital copies. In July, Microsoft originally launched the idea with just […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.58,
+        "recommended": false,
+        "relevance_confidence": 0.5,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.5,
+          "2": 0.39,
+          "3": 0.1,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.94,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.05,
+          "other_technology": 0.95
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "published_at": "2026-11-12T16:32:33+00:00",
+      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.57,
+        "recommended": false,
+        "relevance_confidence": 0.37,
+        "relevance_probabilities": {
+          "0": 0.09,
+          "1": 0.57,
+          "2": 0.09,
+          "3": 0.17,
+          "4": 0.08
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.62,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.23,
+          "policy_business": 0.7,
+          "other_technology": 0.07
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
+      "title": "The Oura Ring 4 is almost as good as the newer model, but $150 cheaper",
+      "url": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
+      "published_at": "2026-11-12T21:28:53+00:00",
+      "summary": "The previous-generation Oura Ring 4 is on sale for as low as $249 at Amazon, Best Buy, and Target, $100 off the retail price, and the first big discount on the device since July. The price varies a bit by size and color, with most silver and black models in stock at the lowest price […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.44,
+        "recommended": false,
+        "relevance_confidence": 0.61,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.56,
+          "2": 0.39,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:nvm-sh/nvm",
+      "source": "github_trending",
+      "source_id": "nvm-sh/nvm",
+      "title": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.34,
+        "recommended": false,
+        "relevance_confidence": 0.64,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.62,
+          "2": 0.3,
+          "3": 0.03,
+          "4": 0.01
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 1.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:sponsors/nodejs",
+      "source": "github_trending",
+      "source_id": "sponsors/nodejs",
+      "title": "sponsors/nodejs",
+      "url": "https://github.com/sponsors/nodejs",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.19,
+        "recommended": false,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.09,
+          "1": 0.68,
+          "2": 0.17,
+          "3": 0.05,
+          "4": 0.01
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 1.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:we-promise/sure",
+      "source": "github_trending",
+      "source_id": "we-promise/sure",
+      "title": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "The personal finance app for everyone (by everyone)",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.14,
+        "recommended": false,
+        "relevance_confidence": 0.77,
+        "relevance_probabilities": {
+          "0": 0.07,
+          "1": 0.74,
+          "2": 0.17,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.61,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.69,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.31
+        }
+      }
+    },
+    {
+      "id": "github_trending:pookjw/HermesEnabler",
+      "source": "github_trending",
+      "source_id": "pookjw/HermesEnabler",
+      "title": "pookjw/HermesEnabler",
+      "url": "https://github.com/pookjw/HermesEnabler",
+      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "summary": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.13,
+        "recommended": false,
+        "relevance_confidence": 0.82,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.8,
+          "2": 0.15,
+          "3": 0.01,
+          "4": 0.0
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.7,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.76,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.24
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "published_at": "2026-11-12T20:26:47+00:00",
+      "summary": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.86,
+        "recommended": false,
+        "relevance_confidence": 0.81,
+        "relevance_probabilities": {
+          "0": 0.18,
+          "1": 0.78,
+          "2": 0.03,
+          "3": 0.01,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.87,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.02,
+          "policy_business": 0.08,
+          "other_technology": 0.9
+        }
+      }
+    },
+    {
+      "id": "hackernews:50473868",
+      "source": "hackernews",
+      "source_id": "50473868",
+      "title": "Jensen Huang Third Affair Allegations Revealed",
+      "url": "https://www.forbes.com/sites/alisondurkee/2026/11/12/jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says/",
+      "published_at": "2026-11-12T20:36:59+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50473868",
+      "points": 58,
+      "comments": 2,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.68,
+        "recommended": false,
+        "relevance_confidence": 0.71,
+        "relevance_probabilities": {
+          "0": 0.34,
+          "1": 0.65,
+          "2": 0.01,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.91,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.02,
+          "policy_business": 0.05,
+          "other_technology": 0.93
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
+      "title": "Xbox announces Wolfenstein 3",
+      "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
+      "published_at": "2026-11-13T00:11:44+00:00",
+      "summary": "It's been nearly a decade since Bethesda's MachineGames released Wolfenstein II: The New Colossus in 2017, and now Xbox is ready to announce a sequel from the studio. Wolfenstein 3 was officially announced today, just days after Bethesda also confirmed that the next Elder Scrolls game will be called The Elder Scrolls VI: Sentinel. In […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.58,
+        "recommended": false,
+        "relevance_confidence": 0.62,
+        "relevance_probabilities": {
+          "0": 0.44,
+          "1": 0.54,
+          "2": 0.02,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.99
+        }
+      }
+    }
+  ],
   "reddit": [],
   "hn": [
     {
-      "title": "Anthropic IPO",
-      "url": "https://ipo.anthropic.com/us/",
-      "hn_thread": "https://news.ycombinator.com/item?id=50465829",
-      "points": 807,
-      "num_comments": 801,
-      "created_at": "2026-11-12T11:46:41Z",
-      "matched_term": "Anthropic"
+      "id": "hackernews:50477231",
+      "source": "hackernews",
+      "source_id": "50477231",
+      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "published_at": "2026-11-13T02:16:24+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50477231",
+      "points": 356,
+      "comments": 270,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.58,
+        "recommended": false,
+        "relevance_confidence": 0.48,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.55,
+          "2": 0.25,
+          "3": 0.16,
+          "4": 0.01
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.5,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.24,
+          "policy_business": 0.6,
+          "other_technology": 0.16
+        }
+      }
     },
     {
-      "title": "Jensen Huang resigns",
-      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "hn_thread": "https://news.ycombinator.com/item?id=50467087",
-      "points": 2891,
-      "num_comments": 2736,
-      "created_at": "2026-11-12T13:52:29Z",
-      "matched_term": "Jensen Huang"
-    },
-    {
-      "title": "Jensen Huang resigns as Nvidia CEO immediately",
-      "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
-      "hn_thread": "https://news.ycombinator.com/item?id=50467132",
-      "points": 374,
-      "num_comments": 14,
-      "created_at": "2026-11-12T13:56:11Z",
-      "matched_term": "Jensen Huang"
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
-      "url": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
-      "hn_thread": "https://news.ycombinator.com/item?id=50467139",
-      "points": 168,
-      "num_comments": 5,
-      "created_at": "2026-11-12T13:56:38Z",
-      "matched_term": "Jensen Huang"
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
-      "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
-      "hn_thread": "https://news.ycombinator.com/item?id=50467191",
-      "points": 72,
-      "num_comments": 2,
-      "created_at": "2026-11-12T14:00:54Z",
-      "matched_term": "Jensen Huang"
+      "id": "hackernews:50473868",
+      "source": "hackernews",
+      "source_id": "50473868",
+      "title": "Jensen Huang Third Affair Allegations Revealed",
+      "url": "https://www.forbes.com/sites/alisondurkee/2026/11/12/jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says/",
+      "published_at": "2026-11-12T20:36:59+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50473868",
+      "points": 58,
+      "comments": 2,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.68,
+        "recommended": false,
+        "relevance_confidence": 0.71,
+        "relevance_probabilities": {
+          "0": 0.34,
+          "1": 0.65,
+          "2": 0.01,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.91,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.02,
+          "policy_business": 0.05,
+          "other_technology": 0.93
+        }
+      }
     }
   ],
-  "polymarket": [
-    {
-      "question": "Xi Jinping out before 2027?",
-      "outcomePrices": "[\"0.0165\", \"0.9835\"]",
-      "volume": 17271931.389751002,
-      "slug": "xi-jinping-out-before-2027"
-    },
-    {
-      "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.101\", \"0.899\"]",
-      "volume": 28717768.794958007,
-      "slug": "will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568"
-    },
-    {
-      "question": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.1455\", \"0.8545\"]",
-      "volume": 15995612.014929006,
-      "slug": "will-alexandria-ocasio-cortez-win-the-2028-democratic-presidential-nomination-653"
-    },
-    {
-      "question": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0545\", \"0.9455\"]",
-      "volume": 12427336.940506,
-      "slug": "will-pete-buttigieg-win-the-2028-democratic-presidential-nomination-687"
-    },
-    {
-      "question": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.048\", \"0.952\"]",
-      "volume": 10650059.238082003,
-      "slug": "will-josh-shapiro-win-the-2028-democratic-presidential-nomination-977"
-    },
-    {
-      "question": "Will Wes Moore win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0235\", \"0.9765\"]",
-      "volume": 18772171.950133998,
-      "slug": "will-wes-moore-win-the-2028-democratic-presidential-nomination-714"
-    },
-    {
-      "question": "Will Stephen A. Smith win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 23552084.883688997,
-      "slug": "will-stephen-a-smith-win-the-2028-democratic-presidential-nomination-914"
-    },
-    {
-      "question": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0535\", \"0.9465\"]",
-      "volume": 14820659.892834,
-      "slug": "will-kamala-harris-win-the-2028-democratic-presidential-nomination-641"
-    },
-    {
-      "question": "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0075\", \"0.9925\"]",
-      "volume": 12279005.124056999,
-      "slug": "will-gretchen-whitmer-win-the-2028-democratic-presidential-nomination-676"
-    },
-    {
-      "question": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0395\", \"0.9605\"]",
-      "volume": 13727502.334094997,
-      "slug": "will-andy-beshear-win-the-2028-democratic-presidential-nomination-832"
-    },
-    {
-      "question": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.2635\", \"0.7365\"]",
-      "volume": 14991525.867732996,
-      "slug": "will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885"
-    },
-    {
-      "question": "Will Mark Cuban win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 23932296.678838994,
-      "slug": "will-mark-cuban-win-the-2028-democratic-presidential-nomination-329"
-    },
-    {
-      "question": "Will J.B. Pritzker win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0145\", \"0.9855\"]",
-      "volume": 16001533.272272,
-      "slug": "will-jb-pritzker-win-the-2028-democratic-presidential-nomination-288"
-    },
-    {
-      "question": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.032\", \"0.968\"]",
-      "volume": 34645279.15977,
-      "slug": "will-raphael-warnock-win-the-2028-democratic-presidential-nomination-914"
-    },
-    {
-      "question": "Will Cory Booker win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0075\", \"0.9925\"]",
-      "volume": 26870204.096908994,
-      "slug": "will-corey-booker-win-the-2028-democratic-presidential-nomination-125"
-    },
-    {
-      "question": "Will Tim Walz win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 44403365.365150005,
-      "slug": "will-tim-walz-win-the-2028-democratic-presidential-nomination-475"
-    },
-    {
-      "question": "Will Michelle Obama win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0055\", \"0.9945\"]",
-      "volume": 26851556.111516,
-      "slug": "will-michelle-obama-win-the-2028-democratic-presidential-nomination-777"
-    },
-    {
-      "question": "Will Mark Kelly win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.021\", \"0.979\"]",
-      "volume": 18285317.185317002,
-      "slug": "will-mark-kelly-win-the-2028-democratic-presidential-nomination-479"
-    },
-    {
-      "question": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0085\", \"0.9915\"]",
-      "volume": 15057212.415226996,
-      "slug": "will-rahm-emanuel-win-the-2028-democratic-presidential-nomination-299"
-    },
-    {
-      "question": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 36207635.47974001,
-      "slug": "will-gina-raimondo-win-the-2028-democratic-presidential-nomination-676"
-    },
-    {
-      "question": "Will Zohran Mamdani win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 39105882.304609984,
-      "slug": "will-zohran-mamdani-win-the-2028-democratic-presidential-nomination-445"
-    },
-    {
-      "question": "Will Roy Cooper win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 32584816.327205,
-      "slug": "will-roy-cooper-win-the-2028-democratic-presidential-nomination-286"
-    },
-    {
-      "question": "Will John Fetterman win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 26137801.436977003,
-      "slug": "will-john-fetterman-win-the-2028-democratic-presidential-nomination-941"
-    },
-    {
-      "question": "Will Jared Polis win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 27631853.645757996,
-      "slug": "will-jared-polis-win-the-2028-democratic-presidential-nomination-837"
-    },
-    {
-      "question": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0025\", \"0.9975\"]",
-      "volume": 24969284.097111005,
-      "slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518"
-    },
-    {
-      "question": "Will Barack Obama win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 34514588.13336299,
-      "slug": "will-barack-obama-win-the-2028-democratic-presidential-nomination-265"
-    },
-    {
-      "question": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0025\", \"0.9975\"]",
-      "volume": 44441348.898839995,
-      "slug": "will-hillary-clinton-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Liz Cheney win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 39000031.522622,
-      "slug": "will-liz-cheney-win-the-2028-democratic-presidential-nomination-551"
-    },
-    {
-      "question": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0025\", \"0.9975\"]",
-      "volume": 52983558.701074,
-      "slug": "will-bernie-sanders-win-the-2028-democratic-presidential-nomination-879"
-    },
-    {
-      "question": "Will Phil Murphy win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 43054595.991866,
-      "slug": "will-phil-murphy-win-the-2028-democratic-presidential-nomination-611"
-    },
-    {
-      "question": "Will LeBron James win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 44358064.16109501,
-      "slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Hunter Biden win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 44960211.35442801,
-      "slug": "will-person-a-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will George Clooney win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 43930882.159233,
-      "slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0075\", \"0.9925\"]",
-      "volume": 51134319.39146101,
-      "slug": "will-chelsea-clinton-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will MrBeast win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.001\", \"0.999\"]",
-      "volume": 41386654.410662994,
-      "slug": "will-mrbeast-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Dwayne 'The Rock' Johnson win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.007\", \"0.993\"]",
-      "volume": 12579981.629563002,
-      "slug": "will-dwayne-the-rock-johnson-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 54667909.185758,
-      "slug": "will-oprah-winfrey-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 49284155.24289,
-      "slug": "will-andrew-yang-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Beto O’Rourke win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 43073241.414077,
-      "slug": "will-beto-orourke-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 43010719.53573799,
-      "slug": "will-kim-kardashian-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Chris Murphy win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0025\", \"0.9975\"]",
-      "volume": 17787462.152954005,
-      "slug": "will-chris-murphy-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Jasmine Crockett win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 36539013.401614,
-      "slug": "will-jasmine-crockett-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Ruben Gallego win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0035\", \"0.9965\"]",
-      "volume": 9418071.622281998,
-      "slug": "will-ruben-gallego-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Ro Khanna win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0245\", \"0.9755\"]",
-      "volume": 11897227.097461997,
-      "slug": "will-ro-khanna-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will James Talarico win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.02\", \"0.98\"]",
-      "volume": 11978045.511442002,
-      "slug": "will-james-talarico-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Graham Platner win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 8664801.839157999,
-      "slug": "will-graham-platner-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Abigail Spanberger win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 3203181.7981659994,
-      "slug": "will-abigail-spanberger-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Hakeem Jeffries win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0015\", \"0.9985\"]",
-      "volume": 2631060.357166,
-      "slug": "will-hakeem-jeffries-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Elissa Slotkin win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0025\", \"0.9975\"]",
-      "volume": 2209440.3002200006,
-      "slug": "will-elissa-slotkin-win-the-2028-democratic-presidential-nomination"
-    },
-    {
-      "question": "Will Adam Schiff win the 2028 Democratic presidential nomination?",
-      "outcomePrices": "[\"0.0005\", \"0.9995\"]",
-      "volume": 717184.8868330001,
-      "slug": "will-adam-schiff-win-the-2028-democratic-presidential-nomination"
-    }
-  ]
+  "polymarket": []
 }
