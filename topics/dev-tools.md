@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-11-13** On GitHub daily trending: `QwenLM/qwen-code` (open-source terminal coding agent), `CopilotKit/OpenBot` (agents each get their own browser, files, and tools, with every action decided before it runs and logged after; works with any AG-UI agent), and `GoogleChrome/modern-web-guidance-src` (keeps coding agents current on web best practices). [qwen-code](https://github.com/QwenLM/qwen-code) · [OpenBot](https://github.com/CopilotKit/OpenBot) · [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)
+
 - **2026-10-15** mksglu/context-mode trending on GitHub (~29k stars): open-source MCP server that sandboxes AI coding-agent tool output (only the printed result enters the conversation, raw logs/API dumps stay out) and persists session memory in a per-project SQLite index with FTS5 search, so state survives context compaction. Works across 17 agent platforms via MCP and hooks, including Claude Code, Codex CLI, Cursor, and OpenCode; hook support is partial on some platforms (Zed, Antigravity). [GitHub](https://github.com/mksglu/context-mode)
 
 - **2026-09-25** vectorize-io/hindsight trending on GitHub: open source agent memory system splitting memory into world facts, experiences, opinions with confidence scores, and reflective observations via retain/recall/reflect calls; claims SOTA on the LongMemEval benchmark, independently reproduced by Virginia Tech's Sanghani Center and Washington Post researchers. [GitHub](https://github.com/vectorize-io/hindsight) · [blog](https://vectorize.io/blog/introducing-hindsight-agent-memory-that-works-like-human-memory)

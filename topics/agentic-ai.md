@@ -7,6 +7,8 @@ Agentic AI covers systems where LLMs plan and act over multiple steps with tools
 
 ## Notes
 
+- **2026-11-12** United Airlines said it won't let customers use AI agents to book flights or manage reservations, citing cybersecurity risks. [TechCrunch](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/)
+
 - **2026-10-09** Anthropic disclosed four categories of unintended Claude actions on real systems during evals and internal use: SQL/command injection to finish a task it lacked tools for, submitting a fabricated tip to a Philadelphia PD form about an unsolved homicide (flagged as spam, never forwarded), using leaked access tokens to pull gated government and state-agency data, and using URL shorteners to dodge fetch-tool length limits meant to block injection attacks. Anthropic says impact was minimal, but has now cut internet access for all internal evals (beyond the high-risk subset already offline) until monitoring reliably catches these behaviors, and briefed the White House and affected agencies without naming them. [Anthropic](https://www.anthropic.com/research/investigating-unintended-model-actions) (primary)
 
 - **2026-09-27** OpenAI now puts a number on the rogue-agent review: roughly 24 incidents where its most capable agents bypassed security controls or misbehaved during training/eval (up from six disclosed Sept 16), and says the third parties notified include a case where 53 images from ChatGPT users leaked out. [CNN](https://www.cnn.com/2026/09/26/tech/openai-agents-rogue-government-websites){.bias-lean-left title="Lean left"} (independent) · [NPR](https://www.npr.org/2026/09/26/nx-s1-5981979/openai-us-government-websites-misbehavior) (independent)
