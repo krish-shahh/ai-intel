@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T06:19:35.151721+00:00",
+  "generated_at": "2026-11-13T12:16:31.597100+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
@@ -7,209 +7,49 @@
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 2,
+    "hackernews": 1,
     "polymarket": 0,
-    "rss": 26,
+    "rss": 11,
     "arxiv": 0,
-    "sec_edgar": 3,
+    "sec_edgar": 5,
     "github": 0,
-    "github_trending": 13,
+    "github_trending": 12,
     "gdelt": 0,
-    "newsapi": 100,
+    "newsapi": 0,
     "mediastack": 0
   },
   "items": [
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "published_at": "2026-11-12T17:36:40+00:00",
-      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
-      "name": "TechCrunch AI",
+      "id": "tldr-dev:https://tldr.tech/dev/2026-11-13",
+      "source": "tldr-dev",
+      "source_id": "https://tldr.tech/dev/2026-11-13",
+      "title": "Gemini Hydrogen arrives ⚡️, Resend moves to Go 📬, GraphQL gets an HTTP spec 🌐",
+      "url": "https://tldr.tech/dev/2026-11-13",
+      "published_at": "2026-11-13T00:00:00+00:00",
+      "summary": "",
+      "name": "TLDR Dev",
+      "kind": "newsletter",
+      "publisher": "TLDR",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.29,
+        "relevance_score": 3.12,
         "recommended": true,
-        "relevance_confidence": 0.58,
+        "relevance_confidence": 0.62,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.02,
-          "2": 0.06,
-          "3": 0.52,
-          "4": 0.4
+          "1": 0.03,
+          "2": 0.11,
+          "3": 0.57,
+          "4": 0.29
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.91,
+        "topic": "developer_tools",
+        "topic_confidence": 0.68,
         "topic_probabilities": {
-          "ai_models_research": 0.02,
-          "developer_tools": 0.05,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.93,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-      "published_at": "2026-11-12T21:27:10+00:00",
-      "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.22,
-        "recommended": true,
-        "relevance_confidence": 0.77,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.03,
-          "3": 0.72,
-          "4": 0.25
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.06,
-          "policy_business": 0.94,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-      "title": "Google’s new Gemini model is better at understanding complicated questions",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-      "published_at": "2026-11-12T21:55:32+00:00",
-      "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.08,
-        "recommended": true,
-        "relevance_confidence": 0.87,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.04,
-          "3": 0.84,
-          "4": 0.12
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 1.0,
-          "developer_tools": 0.0,
+          "ai_models_research": 0.2,
+          "developer_tools": 0.74,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "github_trending:CopilotKit/OpenBot",
-      "source": "github_trending",
-      "source_id": "CopilotKit/OpenBot",
-      "title": "CopilotKit/OpenBot",
-      "url": "https://github.com/CopilotKit/OpenBot",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
-      "summary": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.06,
-        "recommended": true,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.13,
-          "3": 0.67,
-          "4": 0.2
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.76,
-        "topic_probabilities": {
-          "ai_models_research": 0.81,
-          "developer_tools": 0.19,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "github_trending:ggml-org/llama.cpp",
-      "source": "github_trending",
-      "source_id": "ggml-org/llama.cpp",
-      "title": "ggml-org/llama.cpp",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
-      "summary": "LLM inference in C/C++",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.04,
-        "recommended": true,
-        "relevance_confidence": 0.21,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.04,
-          "2": 0.26,
-          "3": 0.31,
-          "4": 0.39
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.54,
-        "topic_probabilities": {
-          "ai_models_research": 0.63,
-          "developer_tools": 0.37,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-      "published_at": "2026-11-12T19:27:45+00:00",
-      "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.04,
-        "recommended": true,
-        "relevance_confidence": 0.88,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.05,
-          "3": 0.86,
-          "4": 0.09
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 1.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
+          "other_technology": 0.06
         }
       }
     },
@@ -246,32 +86,32 @@
       }
     },
     {
-      "id": "github_trending:QwenLM/qwen-code",
+      "id": "github_trending:alibaba/open-code-review",
       "source": "github_trending",
-      "source_id": "QwenLM/qwen-code",
-      "title": "QwenLM/qwen-code",
-      "url": "https://github.com/QwenLM/qwen-code",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
-      "summary": "An open-source AI coding agent that lives in your terminal.",
+      "source_id": "alibaba/open-code-review",
+      "title": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
+      "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.96,
+        "relevance_score": 2.95,
         "recommended": true,
-        "relevance_confidence": 0.72,
+        "relevance_confidence": 0.78,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.0,
-          "2": 0.19,
-          "3": 0.66,
-          "4": 0.15
+          "1": 0.01,
+          "2": 0.14,
+          "3": 0.75,
+          "4": 0.1
         },
         "topic": "developer_tools",
-        "topic_confidence": 0.47,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
-          "ai_models_research": 0.42,
-          "developer_tools": 0.58,
+          "ai_models_research": 0.0,
+          "developer_tools": 1.0,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
@@ -279,163 +119,34 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "published_at": "2026-11-12T17:00:52+00:00",
-      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-      "name": "TechCrunch AI",
+      "id": "github_trending:ChromeDevTools/chrome-devtools-mcp",
+      "source": "github_trending",
+      "source_id": "ChromeDevTools/chrome-devtools-mcp",
+      "title": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
+      "summary": "Chrome DevTools for coding agents",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.95,
+        "relevance_score": 2.72,
         "recommended": true,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.02,
-          "2": 0.15,
-          "3": 0.69,
-          "4": 0.14
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.76,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.81,
-          "policy_business": 0.19,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-      "source": "mit-tech-review-ai",
-      "source_id": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-      "published_at": "2026-11-12T20:16:24+00:00",
-      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
-      "name": "MIT Technology Review AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.93,
-        "recommended": true,
-        "relevance_confidence": 0.84,
+        "relevance_confidence": 0.68,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.01,
-          "2": 0.11,
-          "3": 0.82,
+          "2": 0.31,
+          "3": 0.62,
           "4": 0.06
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.66,
+        "topic": "developer_tools",
+        "topic_confidence": 0.96,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.27,
-          "policy_business": 0.73,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "published_at": "2026-11-12T17:17:58+00:00",
-      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.81,
-        "recommended": true,
-        "relevance_confidence": 0.82,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.18,
-          "3": 0.8,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.98,
-        "topic_probabilities": {
-          "ai_models_research": 0.02,
-          "developer_tools": 0.0,
+          "ai_models_research": 0.03,
+          "developer_tools": 0.97,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.98,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "a16z-news:https://www.a16z.news/p/super-intelligence-era-critical-infrastructure",
-      "source": "a16z-news",
-      "source_id": "https://www.a16z.news/p/super-intelligence-era-critical-infrastructure",
-      "title": "Super Intelligence-Era Critical Infrastructure Cyber Defense Plan",
-      "url": "https://www.a16z.news/p/super-intelligence-era-critical-infrastructure",
-      "published_at": "2026-11-12T21:21:15+00:00",
-      "summary": "A Public-Private Partnership to Defend America’s Critical Infrastructure",
-      "name": "a16z News",
-      "kind": "newsletter",
-      "publisher": "a16z",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.8,
-        "recommended": true,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.04,
-          "2": 0.19,
-          "3": 0.7,
-          "4": 0.07
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.8,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.84,
-          "other_technology": 0.14
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "published_at": "2026-11-12T18:39:23+00:00",
-      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.76,
-        "recommended": true,
-        "relevance_confidence": 0.36,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.16,
-          "2": 0.13,
-          "3": 0.43,
-          "4": 0.26
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.54,
-        "topic_probabilities": {
-          "ai_models_research": 0.07,
-          "developer_tools": 0.29,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.63,
+          "policy_business": 0.0,
           "other_technology": 0.0
         }
       }
@@ -446,7 +157,7 @@
       "source_id": "openai/codex-security",
       "title": "openai/codex-security",
       "url": "https://github.com/openai/codex-security",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
       "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -468,104 +179,6 @@
           "ai_models_research": 0.02,
           "developer_tools": 0.98,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "github_trending:addyosmani/agent-skills",
-      "source": "github_trending",
-      "source_id": "addyosmani/agent-skills",
-      "title": "addyosmani/agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
-      "summary": "Production-grade engineering skills for AI coding agents.",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.63,
-        "recommended": true,
-        "relevance_confidence": 0.48,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.04,
-          "2": 0.41,
-          "3": 0.42,
-          "4": 0.13
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.5,
-        "topic_probabilities": {
-          "ai_models_research": 0.4,
-          "developer_tools": 0.6,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "published_at": "2026-11-12T19:11:00+00:00",
-      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.63,
-        "recommended": true,
-        "relevance_confidence": 0.7,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.34,
-          "3": 0.65,
-          "4": 0.0
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.94,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.04,
-          "other_technology": 0.02
-        }
-      }
-    },
-    {
-      "id": "github_trending:sponsors/ashhart",
-      "source": "github_trending",
-      "source_id": "sponsors/ashhart",
-      "title": "sponsors/ashhart",
-      "url": "https://github.com/sponsors/ashhart",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
-      "summary": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.61,
-        "recommended": true,
-        "relevance_confidence": 0.59,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.03,
-          "2": 0.38,
-          "3": 0.54,
-          "4": 0.05
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.4,
-        "topic_probabilities": {
-          "ai_models_research": 0.52,
-          "developer_tools": 0.47,
-          "hardware_datacenters": 0.01,
           "policy_business": 0.0,
           "other_technology": 0.0
         }
@@ -604,99 +217,35 @@
       }
     },
     {
-      "id": "github_trending:Alishahryar1/free-claude-code",
+      "id": "github_trending:ZhuLinsen/daily_stock_analysis",
       "source": "github_trending",
-      "source_id": "Alishahryar1/free-claude-code",
-      "title": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
-      "summary": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "source_id": "ZhuLinsen/daily_stock_analysis",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
+      "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.42,
+        "relevance_score": 2.36,
         "recommended": true,
-        "relevance_confidence": 0.45,
+        "relevance_confidence": 0.57,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.11,
-          "2": 0.4,
-          "3": 0.45,
-          "4": 0.04
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.66,
-        "topic_probabilities": {
-          "ai_models_research": 0.27,
-          "developer_tools": 0.73,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-      "title": "Jensen Huang agrees to testify before Congress",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-      "published_at": "2026-11-12T16:36:37+00:00",
-      "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.42,
-        "recommended": true,
-        "relevance_confidence": 0.28,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.22,
-          "2": 0.22,
-          "3": 0.4,
-          "4": 0.14
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.81,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.02,
-          "policy_business": 0.85,
-          "other_technology": 0.13
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-      "published_at": "2026-11-12T17:00:00+00:00",
-      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.37,
-        "recommended": true,
-        "relevance_confidence": 0.64,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.03,
-          "2": 0.57,
-          "3": 0.4,
-          "4": 0.0
+          "1": 0.07,
+          "2": 0.49,
+          "3": 0.43,
+          "4": 0.01
         },
         "topic": "ai_models_research",
-        "topic_confidence": 0.96,
+        "topic_confidence": 0.51,
         "topic_probabilities": {
-          "ai_models_research": 0.97,
-          "developer_tools": 0.0,
+          "ai_models_research": 0.61,
+          "developer_tools": 0.36,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.02,
-          "other_technology": 0.01
+          "policy_business": 0.0,
+          "other_technology": 0.03
         }
       }
     },
@@ -706,7 +255,7 @@
       "source_id": "GoogleChrome/modern-web-guidance-src",
       "title": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
       "summary": "Keep your coding agent up to date with the latest web best practices",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -734,34 +283,35 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
-      "title": "‘It’s a mistake’: reactions from tech leaders on Jensen Huang’s resignation",
-      "url": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
-      "published_at": "2026-11-12T21:45:00+00:00",
-      "summary": "Nvidia announced this morning that Jensen Huang has resigned as CEO following reports of two affairs, including one with an alleged Chinese spy and one with a direct report. The situation surrounding Huang has unfolded quickly, with The New York Times only reporting on Friday that Huang and the suspected spy were \"close\" before other […]",
-      "name": "The Verge",
+      "id": "github_trending:tailscale/tailcat",
+      "source": "github_trending",
+      "source_id": "tailscale/tailcat",
+      "title": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
+      "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.14,
+        "relevance_score": 2.1,
         "recommended": true,
-        "relevance_confidence": 0.0,
+        "relevance_confidence": 0.68,
         "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.37,
-          "2": 0.18,
-          "3": 0.27,
-          "4": 0.15
+          "0": 0.0,
+          "1": 0.14,
+          "2": 0.62,
+          "3": 0.24,
+          "4": 0.0
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.62,
+        "topic": "developer_tools",
+        "topic_confidence": 0.94,
         "topic_probabilities": {
           "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.05,
-          "policy_business": 0.25,
-          "other_technology": 0.7
+          "developer_tools": 0.95,
+          "hardware_datacenters": 0.04,
+          "policy_business": 0.0,
+          "other_technology": 0.01
         }
       }
     },
@@ -804,7 +354,7 @@
       "title": "Microsoft Outlook is still down",
       "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
       "published_at": "2026-11-12T23:24:13+00:00",
-      "summary": "Since just before 1PM ET on Thursday, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing elevated load across multiple regions, which […]",
+      "summary": "Microsoft Outlook continues to be unavailable for people, businesses, and public services across the globe, leaving people unable to access their email, either through the web or apps. Reports around the issue starting rolling in at around 1PM ET on Thursday, with Microsoft since confirming that the outage is impacting Microsoft 365 features that interact […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
@@ -862,32 +412,32 @@
       }
     },
     {
-      "id": "github_trending:meta/astryx",
+      "id": "github_trending:backnotprop/plannotator",
       "source": "github_trending",
-      "source_id": "meta/astryx",
-      "title": "meta/astryx",
-      "url": "https://github.com/meta/astryx",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
-      "summary": "An open source design system that's fully customizable and agent ready",
+      "source_id": "backnotprop/plannotator",
+      "title": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
+      "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.98,
+        "relevance_score": 1.95,
         "recommended": false,
         "relevance_confidence": 0.68,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.2,
+          "1": 0.21,
           "2": 0.62,
-          "3": 0.18,
+          "3": 0.17,
           "4": 0.0
         },
         "topic": "developer_tools",
-        "topic_confidence": 1.0,
+        "topic_confidence": 0.79,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 1.0,
+          "ai_models_research": 0.17,
+          "developer_tools": 0.83,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
@@ -895,34 +445,35 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "published_at": "2026-11-12T21:35:00+00:00",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "name": "TechCrunch AI",
+      "id": "github_trending:tradermonty/claude-trading-skills",
+      "source": "github_trending",
+      "source_id": "tradermonty/claude-trading-skills",
+      "title": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
+      "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.8,
+        "relevance_score": 1.94,
         "recommended": false,
-        "relevance_confidence": 0.26,
+        "relevance_confidence": 0.59,
         "relevance_probabilities": {
-          "0": 0.04,
-          "1": 0.52,
-          "2": 0.13,
-          "3": 0.21,
-          "4": 0.1
+          "0": 0.01,
+          "1": 0.25,
+          "2": 0.53,
+          "3": 0.2,
+          "4": 0.01
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.34,
+        "topic": "developer_tools",
+        "topic_confidence": 0.59,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.13,
-          "policy_business": 0.47,
-          "other_technology": 0.4
+          "ai_models_research": 0.28,
+          "developer_tools": 0.67,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.05
         }
       }
     },
@@ -955,6 +506,73 @@
           "hardware_datacenters": 0.48,
           "policy_business": 0.35,
           "other_technology": 0.17
+        }
+      }
+    },
+    {
+      "id": "github_trending:Likely7/Veyra-NRVideo",
+      "source": "github_trending",
+      "source_id": "Likely7/Veyra-NRVideo",
+      "title": "Likely7/Veyra-NRVideo",
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
+      "summary": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.67,
+        "recommended": false,
+        "relevance_confidence": 0.43,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.47,
+          "2": 0.37,
+          "3": 0.15,
+          "4": 0.0
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.56,
+        "topic_probabilities": {
+          "ai_models_research": 0.2,
+          "developer_tools": 0.65,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.15
+        }
+      }
+    },
+    {
+      "id": "tldr-tech:https://tldr.tech/tech/2026-11-13",
+      "source": "tldr-tech",
+      "source_id": "https://tldr.tech/tech/2026-11-13",
+      "title": "Jensen Huang resigns 💼, SpaceX Tesla merger progress 🤝, state of slop 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-13",
+      "published_at": "2026-11-13T00:00:00+00:00",
+      "summary": "",
+      "name": "TLDR",
+      "kind": "newsletter",
+      "publisher": "TLDR",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.62,
+        "recommended": false,
+        "relevance_confidence": 0.41,
+        "relevance_probabilities": {
+          "0": 0.05,
+          "1": 0.55,
+          "2": 0.17,
+          "3": 0.2,
+          "4": 0.03
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.37,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.03,
+          "hardware_datacenters": 0.08,
+          "policy_business": 0.37,
+          "other_technology": 0.5
         }
       }
     },
@@ -999,8 +617,8 @@
       "published_at": "2026-11-13T02:16:24+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50477231",
-      "points": 356,
-      "comments": 270,
+      "points": 646,
+      "comments": 483,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -1026,164 +644,102 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
-      "title": "Here are the 25 original Xbox games you can now play on PC",
-      "url": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
-      "published_at": "2026-11-12T21:00:00+00:00",
-      "summary": "For the 25th anniversary of Xbox, Microsoft is beginning to make good on its paid \"next-gen game preservation\" promise. Starting today, you can play 25 different original Xbox games on your Windows PC, as long as you have (or are willing to pay) for digital copies. In July, Microsoft originally launched the idea with just […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.58,
-        "recommended": false,
-        "relevance_confidence": 0.5,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.5,
-          "2": 0.39,
-          "3": 0.1,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.05,
-          "other_technology": 0.95
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-      "published_at": "2026-11-12T16:32:33+00:00",
-      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-      "name": "TechCrunch AI",
+      "id": "github_trending:sponsors/louislam",
+      "source": "github_trending",
+      "source_id": "sponsors/louislam",
+      "title": "sponsors/louislam",
+      "url": "https://github.com/sponsors/louislam",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
+      "summary": "A fancy self-hosted monitoring tool",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
         "relevance_score": 1.57,
         "recommended": false,
-        "relevance_confidence": 0.37,
-        "relevance_probabilities": {
-          "0": 0.09,
-          "1": 0.57,
-          "2": 0.09,
-          "3": 0.17,
-          "4": 0.08
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.62,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.23,
-          "policy_business": 0.7,
-          "other_technology": 0.07
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
-      "title": "The Oura Ring 4 is almost as good as the newer model, but $150 cheaper",
-      "url": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
-      "published_at": "2026-11-12T21:28:53+00:00",
-      "summary": "The previous-generation Oura Ring 4 is on sale for as low as $249 at Amazon, Best Buy, and Target, $100 off the retail price, and the first big discount on the device since July. The price varies a bit by size and color, with most silver and black models in stock at the lowest price […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.44,
-        "recommended": false,
-        "relevance_confidence": 0.61,
+        "relevance_confidence": 0.5,
         "relevance_probabilities": {
           "0": 0.02,
-          "1": 0.56,
-          "2": 0.39,
-          "3": 0.03,
+          "1": 0.46,
+          "2": 0.46,
+          "3": 0.06,
           "4": 0.0
         },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
+        "topic": "developer_tools",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.98,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "sec_edgar:000104617926000801",
+      "source": "sec_edgar",
+      "source_id": "000104617926000801",
+      "title": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD filed 6-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/tsm-fsx20261113x6k.htm",
+      "published_at": "2026-11-13T00:00:00+00:00",
+      "summary": "",
+      "ticker": "TSM",
+      "form": "6-K",
+      "cik": "0001046179",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.55,
+        "recommended": false,
+        "relevance_confidence": 0.43,
+        "relevance_probabilities": {
+          "0": 0.06,
+          "1": 0.52,
+          "2": 0.26,
+          "3": 0.12,
+          "4": 0.04
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.77,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
+          "hardware_datacenters": 0.82,
+          "policy_business": 0.17,
+          "other_technology": 0.01
         }
       }
     },
     {
-      "id": "github_trending:nvm-sh/nvm",
+      "id": "github_trending:block/buzz",
       "source": "github_trending",
-      "source_id": "nvm-sh/nvm",
-      "title": "nvm-sh/nvm",
-      "url": "https://github.com/nvm-sh/nvm",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
-      "summary": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "source_id": "block/buzz",
+      "title": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
+      "summary": "A hive mind communication platform",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.34,
-        "recommended": false,
-        "relevance_confidence": 0.64,
-        "relevance_probabilities": {
-          "0": 0.04,
-          "1": 0.62,
-          "2": 0.3,
-          "3": 0.03,
-          "4": 0.01
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 1.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "github_trending:sponsors/nodejs",
-      "source": "github_trending",
-      "source_id": "sponsors/nodejs",
-      "title": "sponsors/nodejs",
-      "url": "https://github.com/sponsors/nodejs",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
-      "summary": "Node.js JavaScript runtime ✨🐢🚀✨",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.19,
+        "relevance_score": 1.37,
         "recommended": false,
         "relevance_confidence": 0.68,
         "relevance_probabilities": {
-          "0": 0.09,
-          "1": 0.68,
-          "2": 0.17,
-          "3": 0.05,
-          "4": 0.01
+          "0": 0.01,
+          "1": 0.64,
+          "2": 0.32,
+          "3": 0.03,
+          "4": 0.0
         },
         "topic": "developer_tools",
-        "topic_confidence": 1.0,
+        "topic_confidence": 0.85,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 1.0,
+          "ai_models_research": 0.01,
+          "developer_tools": 0.88,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
-          "other_technology": 0.0
+          "other_technology": 0.11
         }
       }
     },
@@ -1193,7 +749,7 @@
       "source_id": "we-promise/sure",
       "title": "we-promise/sure",
       "url": "https://github.com/we-promise/sure",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
+      "published_at": "2026-11-13T12:18:07.520965+00:00",
       "summary": "The personal finance app for everyone (by everyone)",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1221,102 +777,36 @@
       }
     },
     {
-      "id": "github_trending:pookjw/HermesEnabler",
-      "source": "github_trending",
-      "source_id": "pookjw/HermesEnabler",
-      "title": "pookjw/HermesEnabler",
-      "url": "https://github.com/pookjw/HermesEnabler",
-      "published_at": "2026-11-13T06:21:06.032742+00:00",
-      "summary": "Enable Hermès Watch Faces on any Apple Watch devices",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.13,
-        "recommended": false,
-        "relevance_confidence": 0.82,
-        "relevance_probabilities": {
-          "0": 0.04,
-          "1": 0.8,
-          "2": 0.15,
-          "3": 0.01,
-          "4": 0.0
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.7,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.76,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.24
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
-      "title": "Jensen Huang was having a third affair, Reuters reports",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
-      "published_at": "2026-11-12T20:26:47+00:00",
-      "summary": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.86,
-        "recommended": false,
-        "relevance_confidence": 0.81,
-        "relevance_probabilities": {
-          "0": 0.18,
-          "1": 0.78,
-          "2": 0.03,
-          "3": 0.01,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.87,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.02,
-          "policy_business": 0.08,
-          "other_technology": 0.9
-        }
-      }
-    },
-    {
-      "id": "hackernews:50473868",
-      "source": "hackernews",
-      "source_id": "50473868",
-      "title": "Jensen Huang Third Affair Allegations Revealed",
-      "url": "https://www.forbes.com/sites/alisondurkee/2026/11/12/jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says/",
-      "published_at": "2026-11-12T20:36:59+00:00",
+      "id": "sec_edgar:000162828026073564",
+      "source": "sec_edgar",
+      "source_id": "000162828026073564",
+      "title": "Vertiv Holdings Co filed 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026073564/vrt-20261113.htm",
+      "published_at": "2026-11-13T00:00:00+00:00",
       "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50473868",
-      "points": 58,
-      "comments": 2,
-      "matched_term": "Jensen Huang",
+      "ticker": "VRT",
+      "form": "8-K",
+      "cik": "0001674101",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.68,
+        "relevance_score": 0.95,
         "recommended": false,
-        "relevance_confidence": 0.71,
+        "relevance_confidence": 0.59,
         "relevance_probabilities": {
-          "0": 0.34,
-          "1": 0.65,
-          "2": 0.01,
-          "3": 0.0,
+          "0": 0.27,
+          "1": 0.55,
+          "2": 0.14,
+          "3": 0.04,
           "4": 0.0
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.91,
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.46,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.02,
-          "policy_business": 0.05,
-          "other_technology": 0.93
+          "hardware_datacenters": 0.57,
+          "policy_business": 0.37,
+          "other_technology": 0.06
         }
       }
     },
@@ -1351,6 +841,38 @@
           "other_technology": 0.99
         }
       }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "title": "Let’s talk about Jensen Huang’s many affairs!",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "published_at": "2026-11-13T12:00:00+00:00",
+      "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.54,
+        "recommended": false,
+        "relevance_confidence": 0.61,
+        "relevance_probabilities": {
+          "0": 0.47,
+          "1": 0.53,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.68,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.11,
+          "policy_business": 0.14,
+          "other_technology": 0.74
+        }
+      }
     }
   ],
   "reddit": [],
@@ -1364,8 +886,8 @@
       "published_at": "2026-11-13T02:16:24+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50477231",
-      "points": 356,
-      "comments": 270,
+      "points": 646,
+      "comments": 483,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -1387,41 +909,6 @@
           "hardware_datacenters": 0.24,
           "policy_business": 0.6,
           "other_technology": 0.16
-        }
-      }
-    },
-    {
-      "id": "hackernews:50473868",
-      "source": "hackernews",
-      "source_id": "50473868",
-      "title": "Jensen Huang Third Affair Allegations Revealed",
-      "url": "https://www.forbes.com/sites/alisondurkee/2026/11/12/jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says/",
-      "published_at": "2026-11-12T20:36:59+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50473868",
-      "points": 58,
-      "comments": 2,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.68,
-        "recommended": false,
-        "relevance_confidence": 0.71,
-        "relevance_probabilities": {
-          "0": 0.34,
-          "1": 0.65,
-          "2": 0.01,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.91,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.02,
-          "policy_business": 0.05,
-          "other_technology": 0.93
         }
       }
     }
