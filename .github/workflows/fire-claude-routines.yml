@@ -1,0 +1,69 @@
+name: Fire Claude Code routines
+
+on:
+  # GitHub cron uses UTC. These paired UTC times preserve 9am and 8pm
+  # America/New_York across standard and daylight time. The job filters by NY hour.
+  schedule:
+    - cron: "15 13 * * *"
+    - cron: "15 14 * * *"
+    - cron: "15 0 * * *"
+    - cron: "15 1 * * *"
+  workflow_dispatch:
+    inputs:
+      routine:
+        description: Which routine to fire
+        type: choice
+        options:
+          - morning
+          - evening
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  fire:
+    if: ${{ vars.CLAUDE_ROUTINES_VIA_API == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Select routine for this New York time
+        id: target
+        env:
+          REQUESTED_ROUTINE: ${{ inputs.routine }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "routine=$REQUESTED_ROUTINE" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          local_hour="$(TZ=America/New_York date +%H)"
+          case "$local_hour" in
+            09) echo "routine=morning" >> "$GITHUB_OUTPUT" ;;
+            20) echo "routine=evening" >> "$GITHUB_OUTPUT" ;;
+            *) echo "No routine is due at New York hour $local_hour; skipping." ;;
+          esac
+
+      - name: Fire morning brief
+        if: ${{ steps.target.outputs.routine == 'morning' }}
+        env:
+          ROUTINE_FIRE_TOKEN: ${{ secrets.CLAUDE_AI_INTEL_ROUTINE_FIRE_TOKEN }}
+        run: |
+          test -n "$ROUTINE_FIRE_TOKEN" || { echo "Missing CLAUDE_AI_INTEL_ROUTINE_FIRE_TOKEN"; exit 1; }
+          curl --fail-with-body --silent --show-error -X POST "https://api.anthropic.com/v1/claude_code/routines/trig_013QRJRw6QVAX6B25b3Mxcgy/fire" \
+            -H "Authorization: Bearer $ROUTINE_FIRE_TOKEN" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "Content-Type: application/json" \
+            --data '{"text":"Run mode: morning"}'
+
+      - name: Fire evening brief
+        if: ${{ steps.target.outputs.routine == 'evening' }}
+        env:
+          ROUTINE_FIRE_TOKEN: ${{ secrets.CLAUDE_AI_INTEL_ROUTINE_FIRE_TOKEN }}
+        run: |
+          test -n "$ROUTINE_FIRE_TOKEN" || { echo "Missing CLAUDE_AI_INTEL_ROUTINE_FIRE_TOKEN"; exit 1; }
+          curl --fail-with-body --silent --show-error -X POST "https://api.anthropic.com/v1/claude_code/routines/trig_013QRJRw6QVAX6B25b3Mxcgy/fire" \
+            -H "Authorization: Bearer $ROUTINE_FIRE_TOKEN" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "Content-Type: application/json" \
+            --data '{"text":"Run mode: evening"}'

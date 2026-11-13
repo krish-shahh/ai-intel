@@ -1,6 +1,11 @@
 # Obsidian local app/workspace settings (per-machine, not part of the wiki)
 .obsidian/
 
+# Local collector credentials; commit only the placeholder template.
+.env
+.env.*
+!.env.example
+
 # Claude Code local settings
 .claude/settings.local.json
 

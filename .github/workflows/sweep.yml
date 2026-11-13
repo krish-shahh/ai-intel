@@ -1,8 +1,6 @@
 name: Deterministic sweep
 
-# Pure HTTP fetch + filter (Hacker News, Polymarket, best-effort Reddit) —
-# no LLM involved. Runs on GitHub's runners so the brief routines can Read
-# the result instead of redoing dozens of raw fetches themselves every run.
+# Deterministic API and RSS collection; no LLM web search. Runs every four hours.
 
 on:
   schedule:
@@ -25,6 +23,13 @@ jobs:
         env:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          MEDIASTACK_KEY: ${{ secrets.MEDIASTACK_KEY }}
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+          JEV_MAX_ITEMS_PER_SWEEP: 100
+          JEV_MIN_RELEVANCE_SCORE: 2
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: python3 .github/scripts/sweep.py
 
       - name: Commit and push if changed

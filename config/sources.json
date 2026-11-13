@@ -1,0 +1,83 @@
+{
+  "feeds": [
+    {
+      "id": "nvidia-developer-blog",
+      "name": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/feed/"
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+    },
+    {
+      "id": "ars-technica-technology",
+      "name": "Ars Technica Technology",
+      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+    },
+    {
+      "id": "mit-tech-review-ai",
+      "name": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+    },
+    {
+      "id": "the-verge",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml"
+    },
+    {
+      "id": "ieee-spectrum-ai",
+      "name": "IEEE Spectrum AI",
+      "url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+    },
+    {
+      "id": "a16z-news",
+      "name": "a16z News",
+      "url": "https://www.a16z.news/feed",
+      "kind": "newsletter",
+      "publisher": "a16z"
+    },
+    {
+      "id": "a16z-ai-policy-brief",
+      "name": "a16z AI Policy Brief",
+      "url": "https://a16zpolicy.substack.com/feed",
+      "kind": "newsletter",
+      "publisher": "a16z"
+    },
+    {
+      "id": "a16z-dispatches-frontier",
+      "name": "a16z Dispatches from the Frontier",
+      "url": "https://a16zfrontier.substack.com/feed",
+      "kind": "newsletter",
+      "publisher": "a16z"
+    },
+    {
+      "id": "tldr-tech",
+      "name": "TLDR",
+      "url": "https://tldr.tech/api/rss/tech",
+      "kind": "newsletter",
+      "publisher": "TLDR"
+    },
+    {
+      "id": "tldr-ai",
+      "name": "TLDR AI",
+      "url": "https://tldr.tech/api/rss/ai",
+      "kind": "newsletter",
+      "publisher": "TLDR"
+    },
+    {
+      "id": "tldr-dev",
+      "name": "TLDR Dev",
+      "url": "https://tldr.tech/api/rss/dev",
+      "kind": "newsletter",
+      "publisher": "TLDR"
+    },
+    {
+      "id": "tldr-hardware",
+      "name": "TLDR Hardware",
+      "url": "https://tldr.tech/api/rss/hardware",
+      "kind": "newsletter",
+      "publisher": "TLDR"
+    }
+  ]
+}
