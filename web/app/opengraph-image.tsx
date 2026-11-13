@@ -35,7 +35,7 @@ export default function OpengraphImage() {
           <div style={{ fontSize: 64, fontWeight: 600, letterSpacing: '-0.02em' }}>ai-intel</div>
         </div>
         <div style={{ fontSize: 32, color: '#9a9aa6', maxWidth: 820, lineHeight: 1.4 }}>
-          A self-writing AI intel wiki: the people, companies, and ideas moving the AI world.
+          Collects AI and tech updates from APIs, RSS, and research feeds, then turns them into cited briefs and linked wiki pages.
         </div>
       </div>
     ),

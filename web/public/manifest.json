@@ -1,7 +1,7 @@
 {
   "name": "ai-intel",
   "short_name": "ai-intel",
-  "description": "A self-writing AI intel wiki: the people, companies, and ideas moving the AI world.",
+  "description": "Collects AI and tech updates from APIs, RSS, and research feeds, then turns them into cited briefs and linked wiki pages.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#16161a",
