@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-14T00:54:21.036388+00:00",
+  "generated_at": "2026-11-14T11:32:32.769907+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-13T19:51:53.172573+00:00"
+    "newsapi": "2026-11-14T11:32:32.769907+00:00"
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 4,
+    "hackernews": 2,
     "polymarket": 0,
-    "rss": 26,
+    "rss": 4,
     "arxiv": 0,
     "sec_edgar": 2,
     "github": 0,
     "github_trending": 12,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 98,
     "mediastack": 0
   },
   "items": [
@@ -52,303 +52,12 @@
       }
     },
     {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/feed/",
-      "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
-      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/feed/",
-      "published_at": "2026-11-13T17:00:00+00:00",
-      "summary": "Running a frontier-scale model locally means keeping all its weights in GPU memory; the largest models no longer fit on one machine. Two NVIDIA DGX Stations...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.26,
-        "recommended": true,
-        "relevance_confidence": 0.73,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.03,
-          "3": 0.67,
-          "4": 0.3
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.49,
-        "topic_probabilities": {
-          "ai_models_research": 0.59,
-          "developer_tools": 0.31,
-          "hardware_datacenters": 0.1,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "published_at": "2026-11-13T18:40:30+00:00",
-      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.18,
-        "recommended": true,
-        "relevance_confidence": 0.73,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.06,
-          "3": 0.69,
-          "4": 0.24
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.41,
-        "topic_probabilities": {
-          "ai_models_research": 0.23,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.53,
-          "policy_business": 0.24,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "published_at": "2026-11-13T16:00:12+00:00",
-      "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.13,
-        "recommended": true,
-        "relevance_confidence": 0.86,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.02,
-          "3": 0.83,
-          "4": 0.15
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.99,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "hackernews:50482992",
-      "source": "hackernews",
-      "source_id": "50482992",
-      "title": "Jensen Huang Admitted He Was Facing an \"Avalanche\" of Excess Wafers and Memory",
-      "url": "https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/",
-      "published_at": "2026-11-13T13:08:48+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50482992",
-      "points": 68,
-      "comments": 77,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.1,
-        "recommended": true,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.09,
-          "3": 0.68,
-          "4": 0.22
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.95,
-          "policy_business": 0.05,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "published_at": "2026-11-13T19:37:57+00:00",
-      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.04,
-        "recommended": true,
-        "relevance_confidence": 0.82,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.08,
-          "3": 0.79,
-          "4": 0.13
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.75,
-        "topic_probabilities": {
-          "ai_models_research": 0.18,
-          "developer_tools": 0.02,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.8,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "ars-technica-technology:https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-      "source": "ars-technica-technology",
-      "source_id": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
-      "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-      "published_at": "2026-11-13T16:26:32+00:00",
-      "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
-      "name": "Ars Technica Technology",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.02,
-        "recommended": true,
-        "relevance_confidence": 0.8,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.09,
-          "3": 0.77,
-          "4": 0.13
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.98,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.02,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.98
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "published_at": "2026-11-13T20:45:10+00:00",
-      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.0,
-        "recommended": true,
-        "relevance_confidence": 0.88,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.07,
-          "3": 0.86,
-          "4": 0.07
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.94,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.05,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/feed/",
-      "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
-      "url": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/feed/",
-      "published_at": "2026-11-13T18:57:10+00:00",
-      "summary": "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA)...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.98,
-        "recommended": true,
-        "relevance_confidence": 0.81,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.12,
-          "3": 0.77,
-          "4": 0.11
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.6,
-        "topic_probabilities": {
-          "ai_models_research": 0.27,
-          "developer_tools": 0.68,
-          "hardware_datacenters": 0.05,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/feed/",
-      "title": "Adapt Human Motion for Robots with NVIDIA SOMA Retargeter",
-      "url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/feed/",
-      "published_at": "2026-11-13T17:00:00+00:00",
-      "summary": "Human motion offers roboticists a great starting point for teaching humanoid robots how to move. A human demonstration captures the coordination and timing...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.96,
-        "recommended": true,
-        "relevance_confidence": 0.83,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.12,
-          "3": 0.8,
-          "4": 0.08
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.62,
-        "topic_probabilities": {
-          "ai_models_research": 0.7,
-          "developer_tools": 0.28,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.02
-        }
-      }
-    },
-    {
       "id": "github_trending:alibaba/open-code-review",
       "source": "github_trending",
       "source_id": "alibaba/open-code-review",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -372,38 +81,6 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/microcredentials-trustworthy-ai",
-      "source": "ieee-spectrum-ai",
-      "source_id": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
-      "title": "How Microcredentials Help Engineers Build Trustworthy AI",
-      "url": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
-      "published_at": "2026-11-13T19:00:03+00:00",
-      "summary": "Engineering teams are moving at breakneck speed to integrate artificial intelligence, but they are running into a formidable new barrier: compliance issues. Translating high-level AI ethics , governance , and auditing into daily operational workflows has become one of the industry’s toughest challenges. “AI ethics” refers to the principles developers use to govern and operate workflows. “Governance” refers to the rules and procedures an organization establishes for AI workflows and how they interact with organizational data. Auditing is the process of assessing and validating systems to ensure safety, fairness, transparency, and legal compliance. Technology leads and systems engineers are responsible for adhering to a structured set of guidelines for standards and processes usually issued by a governing body such as the European Union , the U.S. National Institute of Standards and Technology , and the International Organization for Standardization . The regulations aim to mitigate issues such as systemic bias , security vulnerabilities, and transparency risks, but they also highlight a critical skills gap. Most traditional computer science, software, and electrical engineering degree programs were built around technical design and system architecture. They do not yet include training in AI auditing, data tracking, or safety protocols for how AI systems interact with people and other technologies. Expecting mid-career engineers to leave their job to attend a full-time two- or four-year program to learn about the topics is not feasible. Yet treating safety and governance as an afterthought can lead to costly product delays, legal exposure, and broken public trust. Targeted microcredential programs can bridge the knowledge gap by helping engineers build skills in compliance, AI ethics, and governance. The benefits of microcredentials Skills-based microcredentials represent the mastery of expertise gained through a learning program. To earn them, learners must demonstrate the skill through a validation assessment. The microcredentials can be stacked, showing a growing skill set in a defined area and allowing learners to earn several microcredentials in one program. Microcredentials also allow engineers to upskill and master critical competencies, such as bias mitigation, algorithmic transparency, and risk auditing, without interrupting their career. Through rigorous skills-validation assessments, microcredentials give tech leaders verifiable proof that their teams can audit systems effectively before deployment. For engineering organizations, microcredentialing creates an agile upskilling pathway. It connects software engineering and hardware design directly to regulatory frameworks, empowering teams to certify systems for safety and compliance within their development life cycles. Translating standards into microcredentials Bridging technical capability and ethical responsibility requires a trusted foundation. IEEE has long been a pioneer in socio-technical standards , most notably through the IEEE 7000 series for ethics in AI system design, a framework created to address ethical considerations during the development life cycle. The IEEE Credentialing Program translates the organization’s world-class standards into actionable, industry-aligned microcredentials. For more than three decades, IEEE has set the gold standard for technical validation and professional certification. By pairing cutting-edge AI governance standards with targeted microcredential programs, IEEE provides engineers and IT leaders with clear, standardized road maps to build systems that are not just technically advanced but also safe, compliant, and worthy of public trust. To learn more about the credentialing program, explore the offerings or connect with an IEEE expert .",
-      "name": "IEEE Spectrum AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.95,
-        "recommended": true,
-        "relevance_confidence": 0.7,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.19,
-          "3": 0.65,
-          "4": 0.15
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.91,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.04,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.93,
-          "other_technology": 0.02
         }
       }
     },
@@ -440,44 +117,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
-      "title": "Jensen Huang was reckless with the environment, too",
-      "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
-      "published_at": "2026-11-13T17:44:22+00:00",
-      "summary": "Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-after chips have triggered a new wave of water- and chemical-intensive factories, drained power grids from inside massive data centers, and set the stage for a looming e-waste problem. Under Huang's […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.81,
-        "recommended": true,
-        "relevance_confidence": 0.7,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.25,
-          "3": 0.65,
-          "4": 0.09
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.98,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.98,
-          "policy_business": 0.01,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
       "id": "github_trending:ChromeDevTools/chrome-devtools-mcp",
       "source": "github_trending",
       "source_id": "ChromeDevTools/chrome-devtools-mcp",
       "title": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "Chrome DevTools for coding agents",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -505,44 +150,12 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
-      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-      "published_at": "2026-11-13T14:44:48+00:00",
-      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.7,
-        "recommended": true,
-        "relevance_confidence": 0.75,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.28,
-          "3": 0.71,
-          "4": 0.0
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.96,
-        "topic_probabilities": {
-          "ai_models_research": 0.97,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.03
-        }
-      }
-    },
-    {
       "id": "github_trending:openai/codex-security",
       "source": "github_trending",
       "source_id": "openai/codex-security",
       "title": "openai/codex-security",
       "url": "https://github.com/openai/codex-security",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -570,34 +183,37 @@
       }
     },
     {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/feed/",
-      "title": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
-      "url": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/feed/",
-      "published_at": "2026-11-13T21:17:17+00:00",
-      "summary": "Imaging black holes is challenging because they are distant and appear tiny in the sky—for example, M87*’s observed ring spans just 42 microarcseconds. The...",
-      "name": "NVIDIA Developer Blog",
+      "id": "hackernews:50493251",
+      "source": "hackernews",
+      "source_id": "50493251",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "published_at": "2026-11-14T02:52:59+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50493251",
+      "points": 632,
+      "comments": 369,
+      "matched_term": "NVIDIA",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.64,
+        "relevance_score": 2.63,
         "recommended": true,
         "relevance_confidence": 0.58,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.08,
-          "2": 0.27,
-          "3": 0.58,
+          "1": 0.1,
+          "2": 0.23,
+          "3": 0.6,
           "4": 0.07
         },
-        "topic": "developer_tools",
-        "topic_confidence": 0.79,
+        "topic": "policy_business",
+        "topic_confidence": 0.8,
         "topic_probabilities": {
-          "ai_models_research": 0.02,
-          "developer_tools": 0.83,
-          "hardware_datacenters": 0.07,
-          "policy_business": 0.0,
-          "other_technology": 0.08
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.16,
+          "policy_business": 0.84,
+          "other_technology": 0.0
         }
       }
     },
@@ -634,110 +250,12 @@
       }
     },
     {
-      "id": "a16z-news:https://www.a16z.news/p/big-pharma-can-rival-big-software",
-      "source": "a16z-news",
-      "source_id": "https://www.a16z.news/p/big-pharma-can-rival-big-software",
-      "title": "Big Pharma Can Rival Big Software",
-      "url": "https://www.a16z.news/p/big-pharma-can-rival-big-software",
-      "published_at": "2026-11-13T15:03:24+00:00",
-      "summary": "AI Will Make Pharma Even Bigger",
-      "name": "a16z News",
-      "kind": "newsletter",
-      "publisher": "a16z",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.57,
-        "recommended": true,
-        "relevance_confidence": 0.63,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.04,
-          "2": 0.35,
-          "3": 0.6,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.84,
-        "topic_probabilities": {
-          "ai_models_research": 0.11,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.87,
-          "other_technology": 0.02
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-      "published_at": "2026-11-13T12:52:19+00:00",
-      "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.53,
-        "recommended": true,
-        "relevance_confidence": 0.52,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.09,
-          "2": 0.34,
-          "3": 0.51,
-          "4": 0.06
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.75,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.2,
-          "policy_business": 0.8,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
-      "title": "Microsoft’s massive Outlook outage might be over",
-      "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
-      "published_at": "2026-11-13T16:17:11+00:00",
-      "summary": "Service is recovering for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state on Friday morning, some people (including Verge staffers) reported that access to their emails had been restored, though the flow of Outlook mail […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.42,
-        "recommended": true,
-        "relevance_confidence": 0.54,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.06,
-          "2": 0.47,
-          "3": 0.45,
-          "4": 0.02
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/ZhuLinsen",
       "source": "github_trending",
       "source_id": "sponsors/ZhuLinsen",
       "title": "sponsors/ZhuLinsen",
       "url": "https://github.com/sponsors/ZhuLinsen",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -770,7 +288,7 @@
       "source_id": "GoogleChrome/modern-web-guidance-src",
       "title": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "Keep your coding agent up to date with the latest web best practices",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -798,79 +316,12 @@
       }
     },
     {
-      "id": "hackernews:50483480",
-      "source": "hackernews",
-      "source_id": "50483480",
-      "title": "Eli Lilly CEO pushes back on Dario Amodei's medical claims",
-      "url": "https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest",
-      "published_at": "2026-11-13T13:51:27+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50483480",
-      "points": 263,
-      "comments": 364,
-      "matched_term": "Dario Amodei",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.18,
-        "recommended": true,
-        "relevance_confidence": 0.3,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.23,
-          "2": 0.34,
-          "3": 0.41,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.49,
-        "topic_probabilities": {
-          "ai_models_research": 0.31,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.59,
-          "other_technology": 0.1
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-      "title": "Jensen Huang didn’t show confidence in his successor, report says",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-      "published_at": "2026-11-13T12:28:23+00:00",
-      "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.11,
-        "recommended": true,
-        "relevance_confidence": 0.52,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.23,
-          "2": 0.44,
-          "3": 0.32,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.76,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.07,
-          "policy_business": 0.81,
-          "other_technology": 0.12
-        }
-      }
-    },
-    {
       "id": "github_trending:tailscale/tailcat",
       "source": "github_trending",
       "source_id": "tailscale/tailcat",
       "title": "tailscale/tailcat",
       "url": "https://github.com/tailscale/tailcat",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -898,12 +349,47 @@
       }
     },
     {
+      "id": "hackernews:50492993",
+      "source": "hackernews",
+      "source_id": "50492993",
+      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "published_at": "2026-11-14T02:21:36+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50492993",
+      "points": 203,
+      "comments": 47,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.01,
+        "recommended": true,
+        "relevance_confidence": 0.14,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.35,
+          "2": 0.28,
+          "3": 0.34,
+          "4": 0.02
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.95,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.03,
+          "policy_business": 0.96,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
       "id": "github_trending:backnotprop/plannotator",
       "source": "github_trending",
       "source_id": "backnotprop/plannotator",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -936,7 +422,7 @@
       "source_id": "tradermonty/claude-trading-skills",
       "title": "tradermonty/claude-trading-skills",
       "url": "https://github.com/tradermonty/claude-trading-skills",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -964,76 +450,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
-      "title": "The new Apple TV has a YouTube problem",
-      "url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
-      "published_at": "2026-11-13T16:55:57+00:00",
-      "summary": "People who received the brand new Apple TV 4k today saw some strange error messages as soon as they opened the YouTube app. As the first units arrived, the app was initially only showing a black screen with a QR code and an error message saying \"YouTube is not yet available on this device.\" In […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.9,
-        "recommended": false,
-        "relevance_confidence": 0.7,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.23,
-          "2": 0.64,
-          "3": 0.13,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "published_at": "2026-11-13T15:58:00+00:00",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.76,
-        "recommended": false,
-        "relevance_confidence": 0.29,
-        "relevance_probabilities": {
-          "0": 0.05,
-          "1": 0.51,
-          "2": 0.15,
-          "3": 0.22,
-          "4": 0.07
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.36,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.12,
-          "policy_business": 0.39,
-          "other_technology": 0.49
-        }
-      }
-    },
-    {
       "id": "github_trending:Likely7/Veyra-NRVideo",
       "source": "github_trending",
       "source_id": "Likely7/Veyra-NRVideo",
       "title": "Likely7/Veyra-NRVideo",
       "url": "https://github.com/Likely7/Veyra-NRVideo",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1061,44 +483,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
-      "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
-      "url": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
-      "published_at": "2026-11-13T18:10:41+00:00",
-      "summary": "The Nape Pro was Keychron's first trackball device that was introduced at CES 2026 with a slim and compact design allowing it to be positioned right up against a keyboard. The company's new T1 HE instead looks more like other trackball mice already available from companies like Logitech and Kensington with a 34mm ball positioned […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.66,
-        "recommended": false,
-        "relevance_confidence": 0.63,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.37,
-          "2": 0.57,
-          "3": 0.05,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/louislam",
       "source": "github_trending",
       "source_id": "sponsors/louislam",
       "title": "sponsors/louislam",
       "url": "https://github.com/sponsors/louislam",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "A fancy self-hosted monitoring tool",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1131,7 +521,7 @@
       "source_id": "block/buzz",
       "title": "block/buzz",
       "url": "https://github.com/block/buzz",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "A hive mind communication platform",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1159,76 +549,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
-      "title": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
-      "url": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
-      "published_at": "2026-11-13T17:12:56+00:00",
-      "summary": "Last week, Camp Snap launched a miniaturized version of its screen-free CS-8 video camera that was half the size of the original with a smaller grip designed to be easier for kids to hold. But it turns out the company wasn't done shrinking its hardware. Camp Snap's new CS-8 Micro is even smaller than the […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.37,
-        "recommended": false,
-        "relevance_confidence": 0.65,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.62,
-          "2": 0.32,
-          "3": 0.04,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
-      "title": "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
-      "url": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
-      "published_at": "2026-11-13T20:30:00+00:00",
-      "summary": "Bluetooth speakers are often boring boxes in plain colors, but not this one! As part of Nothing’s ongoing early Black Friday promo, you can grab its unique, milk carton-shaped CMF Speaker S from Amazon and Nothing for just $39. That’s a solid $20 discount and the lowest price we’ve seen on Nothing’s newfangled wireless speaker, […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.21,
-        "recommended": false,
-        "relevance_confidence": 0.78,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.75,
-          "2": 0.22,
-          "3": 0.01,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
       "id": "github_trending:we-promise/sure",
       "source": "github_trending",
       "source_id": "we-promise/sure",
       "title": "we-promise/sure",
       "url": "https://github.com/we-promise/sure",
-      "published_at": "2026-11-14T00:56:00.064903+00:00",
+      "published_at": "2026-11-14T11:34:11.289308+00:00",
       "summary": "The personal finance app for everyone (by everyone)",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1256,48 +582,13 @@
       }
     },
     {
-      "id": "hackernews:50483391",
-      "source": "hackernews",
-      "source_id": "50483391",
-      "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
-      "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
-      "published_at": "2026-11-13T13:45:06+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50483391",
-      "points": 71,
-      "comments": 12,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.07,
-        "recommended": false,
-        "relevance_confidence": 0.86,
-        "relevance_probabilities": {
-          "0": 0.05,
-          "1": 0.86,
-          "2": 0.06,
-          "3": 0.03,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.52,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.32,
-          "policy_business": 0.62,
-          "other_technology": 0.06
-        }
-      }
-    },
-    {
       "id": "the-verge:https://www.theverge.com/news/1033489/faa-ground-stop",
       "source": "the-verge",
       "source_id": "https://www.theverge.com/news/1033489/faa-ground-stop",
-      "title": "FAA ground stop shuts down flights nationwide",
+      "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
       "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
-      "published_at": "2026-11-13T23:47:27+00:00",
-      "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. The FAA tweeted just after 5PM ET that, \"There has been a temporary telecommunications outage - out of […]",
+      "published_at": "2026-11-14T01:53:04+00:00",
+      "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights will resume. It's unclear how […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
@@ -1321,214 +612,77 @@
           "other_technology": 0.89
         }
       }
-    },
-    {
-      "id": "hackernews:50489489",
-      "source": "hackernews",
-      "source_id": "50489489",
-      "title": "David Sacks Is Fucked Too",
-      "url": "https://daringfireball.net/linked/2026/11/13/sacks",
-      "published_at": "2026-11-13T20:52:52+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50489489",
-      "points": 10,
-      "comments": 2,
-      "matched_term": "David Sacks",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.71,
-        "recommended": false,
-        "relevance_confidence": 0.67,
-        "relevance_probabilities": {
-          "0": 0.34,
-          "1": 0.61,
-          "2": 0.04,
-          "3": 0.01,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.46,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.42,
-          "other_technology": 0.57
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
-      "title": "Here’s how you can save on your GTA VI preorder ahead of launch",
-      "url": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
-      "published_at": "2026-11-13T19:14:38+00:00",
-      "summary": "The long-awaited launch of GTA VI is around the corner, happening next Friday, November 19th. While discounts on the game itself will be rare for some time, there’s a clever workaround to save you a few bucks on your digital copy. We found discounts on gift cards for both Sony PlayStation and Microsoft Xbox Series […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.59,
-        "recommended": false,
-        "relevance_confidence": 0.64,
-        "relevance_probabilities": {
-          "0": 0.42,
-          "1": 0.57,
-          "2": 0.01,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
     }
   ],
   "reddit": [],
   "hn": [
     {
-      "id": "hackernews:50489489",
+      "id": "hackernews:50492993",
       "source": "hackernews",
-      "source_id": "50489489",
-      "title": "David Sacks Is Fucked Too",
-      "url": "https://daringfireball.net/linked/2026/11/13/sacks",
-      "published_at": "2026-11-13T20:52:52+00:00",
+      "source_id": "50492993",
+      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50489489",
-      "points": 10,
-      "comments": 2,
-      "matched_term": "David Sacks",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.71,
-        "recommended": false,
-        "relevance_confidence": 0.67,
-        "relevance_probabilities": {
-          "0": 0.34,
-          "1": 0.61,
-          "2": 0.04,
-          "3": 0.01,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.46,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.42,
-          "other_technology": 0.57
-        }
-      }
-    },
-    {
-      "id": "hackernews:50483391",
-      "source": "hackernews",
-      "source_id": "50483391",
-      "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
-      "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
-      "published_at": "2026-11-13T13:45:06+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50483391",
-      "points": 71,
-      "comments": 12,
+      "thread_url": "https://news.ycombinator.com/item?id=50492993",
+      "points": 203,
+      "comments": 47,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.07,
-        "recommended": false,
-        "relevance_confidence": 0.86,
-        "relevance_probabilities": {
-          "0": 0.05,
-          "1": 0.86,
-          "2": 0.06,
-          "3": 0.03,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.52,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.32,
-          "policy_business": 0.62,
-          "other_technology": 0.06
-        }
-      }
-    },
-    {
-      "id": "hackernews:50482992",
-      "source": "hackernews",
-      "source_id": "50482992",
-      "title": "Jensen Huang Admitted He Was Facing an \"Avalanche\" of Excess Wafers and Memory",
-      "url": "https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/",
-      "published_at": "2026-11-13T13:08:48+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50482992",
-      "points": 68,
-      "comments": 77,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.1,
+        "relevance_score": 2.01,
         "recommended": true,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.09,
-          "3": 0.68,
-          "4": 0.22
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.95,
-          "policy_business": 0.05,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "hackernews:50483480",
-      "source": "hackernews",
-      "source_id": "50483480",
-      "title": "Eli Lilly CEO pushes back on Dario Amodei's medical claims",
-      "url": "https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest",
-      "published_at": "2026-11-13T13:51:27+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50483480",
-      "points": 263,
-      "comments": 364,
-      "matched_term": "Dario Amodei",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.18,
-        "recommended": true,
-        "relevance_confidence": 0.3,
+        "relevance_confidence": 0.14,
         "relevance_probabilities": {
           "0": 0.01,
-          "1": 0.23,
-          "2": 0.34,
-          "3": 0.41,
-          "4": 0.01
+          "1": 0.35,
+          "2": 0.28,
+          "3": 0.34,
+          "4": 0.02
         },
         "topic": "policy_business",
-        "topic_confidence": 0.49,
+        "topic_confidence": 0.95,
         "topic_probabilities": {
-          "ai_models_research": 0.31,
+          "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.59,
-          "other_technology": 0.1
+          "hardware_datacenters": 0.03,
+          "policy_business": 0.96,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "hackernews:50493251",
+      "source": "hackernews",
+      "source_id": "50493251",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "published_at": "2026-11-14T02:52:59+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50493251",
+      "points": 632,
+      "comments": 369,
+      "matched_term": "NVIDIA",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.63,
+        "recommended": true,
+        "relevance_confidence": 0.58,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.1,
+          "2": 0.23,
+          "3": 0.6,
+          "4": 0.07
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.8,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.16,
+          "policy_business": 0.84,
+          "other_technology": 0.0
         }
       }
     }
