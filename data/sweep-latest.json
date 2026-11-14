@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:51:53.172573+00:00",
+  "generated_at": "2026-11-14T00:54:21.036388+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
@@ -7,18 +7,50 @@
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 3,
+    "hackernews": 4,
     "polymarket": 0,
-    "rss": 22,
+    "rss": 26,
     "arxiv": 0,
     "sec_edgar": 2,
     "github": 0,
     "github_trending": 12,
-    "gdelt": 46,
-    "newsapi": 98,
+    "gdelt": 0,
+    "newsapi": 0,
     "mediastack": 0
   },
   "items": [
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "published_at": "2026-11-13T22:43:00+00:00",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.43,
+        "recommended": true,
+        "relevance_confidence": 0.57,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.02,
+          "3": 0.5,
+          "4": 0.47
+        },
+        "topic": "policy_business",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 1.0,
+          "other_technology": 0.0
+        }
+      }
+    },
     {
       "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/feed/",
       "source": "nvidia-developer-blog",
@@ -52,44 +84,10 @@
       }
     },
     {
-      "id": "gdelt:https://www.bostonglobe.com/2026/11/12/business/nvidia-ceo-resigns-heres-what-we-know/",
-      "source": "gdelt",
-      "source_id": "https://www.bostonglobe.com/2026/11/12/business/nvidia-ceo-resigns-heres-what-we-know/",
-      "title": "Jensen Huang resigns as Nvidia CEO : Here what we know",
-      "url": "https://www.bostonglobe.com/2026/11/12/business/nvidia-ceo-resigns-heres-what-we-know/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/NHKB6PJSQQDUC7L252RKHSNFPI.jpg?auth=d6c20230e42625d6fb8387807ed4200d5e2669ea6402b4ba250efc6f800212cd",
-      "domain": "bostonglobe.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.23,
-        "recommended": true,
-        "relevance_confidence": 0.36,
-        "relevance_probabilities": {
-          "0": 0.05,
-          "1": 0.1,
-          "2": 0.04,
-          "3": 0.19,
-          "4": 0.62
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.62,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.19,
-          "policy_business": 0.7,
-          "other_technology": 0.11
-        }
-      }
-    },
-    {
       "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
       "source": "techcrunch-ai",
       "source_id": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
       "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
       "published_at": "2026-11-13T18:40:30+00:00",
       "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
@@ -150,40 +148,6 @@
       }
     },
     {
-      "id": "gdelt:https://www.crn.com/news/networking/2026/cisco-ceo-sees-multi-billion-dollar-networking-super-cycle-as-agentic-ai-demand-surges",
-      "source": "gdelt",
-      "source_id": "https://www.crn.com/news/networking/2026/cisco-ceo-sees-multi-billion-dollar-networking-super-cycle-as-agentic-ai-demand-surges",
-      "title": "Cisco CEO Sees Multi - Billion - Dollar Networking Super Cycle As Agentic AI Demand Surges",
-      "url": "https://www.crn.com/news/networking/2026/cisco-ceo-sees-multi-billion-dollar-networking-super-cycle-as-agentic-ai-demand-surges",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.crn.com/news/networking/2026/media_1e1eac2cbd9cf5afff6871190a886ad414c6b39c6.png?&format=pjpg&optimize=medium",
-      "domain": "crn.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.11,
-        "recommended": true,
-        "relevance_confidence": 0.73,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.02,
-          "2": 0.07,
-          "3": 0.7,
-          "4": 0.21
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.86,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.89,
-          "policy_business": 0.11,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
       "id": "hackernews:50482992",
       "source": "hackernews",
       "source_id": "50482992",
@@ -192,8 +156,8 @@
       "published_at": "2026-11-13T13:08:48+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50482992",
-      "points": 67,
-      "comments": 76,
+      "points": 68,
+      "comments": 77,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -214,6 +178,38 @@
           "developer_tools": 0.0,
           "hardware_datacenters": 0.95,
           "policy_business": 0.05,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "published_at": "2026-11-13T19:37:57+00:00",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.04,
+        "recommended": true,
+        "relevance_confidence": 0.82,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.08,
+          "3": 0.79,
+          "4": 0.13
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.75,
+        "topic_probabilities": {
+          "ai_models_research": 0.18,
+          "developer_tools": 0.02,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.8,
           "other_technology": 0.0
         }
       }
@@ -251,6 +247,38 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "published_at": "2026-11-13T20:45:10+00:00",
+      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.0,
+        "recommended": true,
+        "relevance_confidence": 0.88,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.07,
+          "3": 0.86,
+          "4": 0.07
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.92,
+        "topic_probabilities": {
+          "ai_models_research": 0.94,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.05,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
       "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/feed/",
       "source": "nvidia-developer-blog",
       "source_id": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/feed/",
@@ -278,40 +306,6 @@
           "developer_tools": 0.68,
           "hardware_datacenters": 0.05,
           "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.click2houston.com/business/2026/11/13/bessent-blames-commerces-lutnick-for-not-restricting-nvidia-chip-exports-to-china/",
-      "source": "gdelt",
-      "source_id": "https://www.click2houston.com/business/2026/11/13/bessent-blames-commerces-lutnick-for-not-restricting-nvidia-chip-exports-to-china/",
-      "title": "Bessent blames Lutnick Commerce Department for not restricting Nvidia chips to China",
-      "url": "https://www.click2houston.com/business/2026/11/13/bessent-blames-commerces-lutnick-for-not-restricting-nvidia-chip-exports-to-china/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/3ZZH5RHGARCWNLDLIPR2TFAOMM.jpg?api_key=click2houston_85fdeb57f8cd3635",
-      "domain": "click2houston.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.96,
-        "recommended": true,
-        "relevance_confidence": 0.75,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.03,
-          "2": 0.11,
-          "3": 0.73,
-          "4": 0.13
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.82,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.14,
-          "policy_business": 0.86,
           "other_technology": 0.0
         }
       }
@@ -354,7 +348,7 @@
       "source_id": "alibaba/open-code-review",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -414,36 +408,34 @@
       }
     },
     {
-      "id": "gdelt:https://www.crn.com/news/cloud/2026/microsoft-outage-millions-and-millions-of-dollars-lost-partners-say-as-microsoft-finds-no-evidence-of-malicious-activity",
-      "source": "gdelt",
-      "source_id": "https://www.crn.com/news/cloud/2026/microsoft-outage-millions-and-millions-of-dollars-lost-partners-say-as-microsoft-finds-no-evidence-of-malicious-activity",
-      "title": "Microsoft Outage : Millions And Millions Of Dollars Lost , Partners Say , As Microsoft Finds No Evidence Of Malicious Activity",
-      "url": "https://www.crn.com/news/cloud/2026/microsoft-outage-millions-and-millions-of-dollars-lost-partners-say-as-microsoft-finds-no-evidence-of-malicious-activity",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.crn.com/news/cloud/2026/media_13f91b5460b888212418685013fed1fc5bdf1a497.jpg?&format=pjpg&optimize=medium",
-      "domain": "crn.com",
-      "language": "English",
-      "country": "United States",
+      "id": "the-verge:https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "published_at": "2026-11-13T23:49:11+00:00",
+      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.83,
+        "relevance_score": 2.89,
         "recommended": true,
-        "relevance_confidence": 0.64,
+        "relevance_confidence": 0.84,
         "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.06,
-          "2": 0.16,
-          "3": 0.65,
-          "4": 0.12
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.13,
+          "3": 0.82,
+          "4": 0.04
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.8,
+        "topic": "policy_business",
+        "topic_confidence": 0.91,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.09,
-          "policy_business": 0.07,
-          "other_technology": 0.84
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.93,
+          "other_technology": 0.07
         }
       }
     },
@@ -480,80 +472,12 @@
       }
     },
     {
-      "id": "gdelt:https://www.koreatimes.co.kr/business/20261113/nvidia-reaffirms-planned-gpu-supply-to-s-korea-despite-huangs-exit-minister",
-      "source": "gdelt",
-      "source_id": "https://www.koreatimes.co.kr/business/20261113/nvidia-reaffirms-planned-gpu-supply-to-s-korea-despite-huangs-exit-minister",
-      "title": "Nvidia reaffirms planned GPU supply to S . Korea despite Huang exit : minister",
-      "url": "https://www.koreatimes.co.kr/business/20261113/nvidia-reaffirms-planned-gpu-supply-to-s-korea-despite-huangs-exit-minister",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://newsimg.koreatimes.co.kr/2026/11/13/493b85d1-b540-445e-ae41-ce16bdc5f601.jpg",
-      "domain": "koreatimes.co.kr",
-      "language": "English",
-      "country": "South Korea",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.76,
-        "recommended": true,
-        "relevance_confidence": 0.7,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.05,
-          "2": 0.19,
-          "3": 0.69,
-          "4": 0.07
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.49,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.59,
-          "policy_business": 0.41,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.ubergizmo.com/2026/11/google-gemini-live-carplay/",
-      "source": "gdelt",
-      "source_id": "https://www.ubergizmo.com/2026/11/google-gemini-live-carplay/",
-      "title": "Google Brings Gemini Live To Apple CarPlay",
-      "url": "https://www.ubergizmo.com/2026/11/google-gemini-live-carplay/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "",
-      "domain": "ubergizmo.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.73,
-        "recommended": true,
-        "relevance_confidence": 0.63,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.05,
-          "2": 0.23,
-          "3": 0.63,
-          "4": 0.08
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.76,
-        "topic_probabilities": {
-          "ai_models_research": 0.81,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.18
-        }
-      }
-    },
-    {
       "id": "github_trending:ChromeDevTools/chrome-devtools-mcp",
       "source": "github_trending",
       "source_id": "ChromeDevTools/chrome-devtools-mcp",
       "title": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "Chrome DevTools for coding agents",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -618,7 +542,7 @@
       "source_id": "openai/codex-security",
       "title": "openai/codex-security",
       "url": "https://github.com/openai/codex-security",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -646,68 +570,66 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1032920/apple-smart-home-collection-release-ship-dates-available-pricing",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1032920/apple-smart-home-collection-release-ship-dates-available-pricing",
-      "title": "Apple announces release dates for the first Apple Home Collection smart devices",
-      "url": "https://www.theverge.com/tech/1032920/apple-smart-home-collection-release-ship-dates-available-pricing",
-      "published_at": "2026-11-13T15:22:14+00:00",
-      "summary": "The first few smart home devices and accessories that Apple co-developed with LG Electronics and Schneider Electric for its new Apple Home Collection are now available for preorder through the company's online store, with delivery expected in mid-December. Apple announced the collection a month ago as part of a stronger push into the smart home […]",
-      "name": "The Verge",
+      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/feed/",
+      "source": "nvidia-developer-blog",
+      "source_id": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/feed/",
+      "title": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
+      "url": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/feed/",
+      "published_at": "2026-11-13T21:17:17+00:00",
+      "summary": "Imaging black holes is challenging because they are distant and appear tiny in the sky—for example, M87*’s observed ring spans just 42 microarcseconds. The...",
+      "name": "NVIDIA Developer Blog",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.59,
+        "relevance_score": 2.64,
         "recommended": true,
-        "relevance_confidence": 0.62,
+        "relevance_confidence": 0.58,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.03,
-          "2": 0.37,
+          "1": 0.08,
+          "2": 0.27,
           "3": 0.58,
-          "4": 0.02
+          "4": 0.07
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.98,
+        "topic": "developer_tools",
+        "topic_confidence": 0.79,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.02,
-          "other_technology": 0.98
+          "ai_models_research": 0.02,
+          "developer_tools": 0.83,
+          "hardware_datacenters": 0.07,
+          "policy_business": 0.0,
+          "other_technology": 0.08
         }
       }
     },
     {
-      "id": "gdelt:https://ic2.utexas.edu/news/ic%C2%B2-institute-dell-med-launch-ai-learning-lab-to-examine-ais-impact-on-clinical-reasoning-and-inform-medical-education/",
-      "source": "gdelt",
-      "source_id": "https://ic2.utexas.edu/news/ic%C2%B2-institute-dell-med-launch-ai-learning-lab-to-examine-ais-impact-on-clinical-reasoning-and-inform-medical-education/",
-      "title": "IC² Institute , Dell Med Launch AI Learning Lab to Examine AI Impact on Clinical Reasoning and Inform Medical Education",
-      "url": "https://ic2.utexas.edu/news/ic%C2%B2-institute-dell-med-launch-ai-learning-lab-to-examine-ais-impact-on-clinical-reasoning-and-inform-medical-education/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://ic2.utexas.edu/wp-content/uploads/2026/06/Learning-Lab-.png",
-      "domain": "ic2.utexas.edu",
-      "language": "English",
-      "country": "United States",
+      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/feed/",
+      "source": "nvidia-developer-blog",
+      "source_id": "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/feed/",
+      "title": "Faster Scientific Simulations with New FP64 Algorithms in NVIDIA cuBLAS",
+      "url": "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/feed/",
+      "published_at": "2026-11-13T22:13:51+00:00",
+      "summary": "Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general...",
+      "name": "NVIDIA Developer Blog",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.58,
+        "relevance_score": 2.57,
         "recommended": true,
-        "relevance_confidence": 0.64,
+        "relevance_confidence": 0.55,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.04,
-          "2": 0.34,
-          "3": 0.61,
-          "4": 0.01
+          "1": 0.08,
+          "2": 0.32,
+          "3": 0.54,
+          "4": 0.06
         },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.26,
+        "topic": "developer_tools",
+        "topic_confidence": 0.79,
         "topic_probabilities": {
-          "ai_models_research": 0.41,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.27,
-          "other_technology": 0.32
+          "ai_models_research": 0.0,
+          "developer_tools": 0.83,
+          "hardware_datacenters": 0.14,
+          "policy_business": 0.0,
+          "other_technology": 0.03
         }
       }
     },
@@ -778,74 +700,6 @@
       }
     },
     {
-      "id": "gdelt:https://www.record-bee.com/2026/11/13/california-teachers-urge-3-year-pause-on-ai-use-in-k-8-schools/",
-      "source": "gdelt",
-      "source_id": "https://www.record-bee.com/2026/11/13/california-teachers-urge-3-year-pause-on-ai-use-in-k-8-schools/",
-      "title": "California teachers urge 3 - year pause on AI use in K - 8 schools",
-      "url": "https://www.record-bee.com/2026/11/13/california-teachers-urge-3-year-pause-on-ai-use-in-k-8-schools/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.record-bee.com/wp-content/uploads/2025/10/classroom.jpg",
-      "domain": "record-bee.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.47,
-        "recommended": true,
-        "relevance_confidence": 0.55,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.07,
-          "2": 0.39,
-          "3": 0.53,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.98,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.98,
-          "other_technology": 0.02
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.whio.com/news/trending/microsoft-sees-improvements-global-outage/NPZZKB6SQVDABP6WWLYCECHWLA/",
-      "source": "gdelt",
-      "source_id": "https://www.whio.com/news/trending/microsoft-sees-improvements-global-outage/NPZZKB6SQVDABP6WWLYCECHWLA/",
-      "title": "Microsoft reports early stabilization amid ongoing global service outage",
-      "url": "https://www.whio.com/news/trending/microsoft-sees-improvements-global-outage/NPZZKB6SQVDABP6WWLYCECHWLA/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://cmg-cmg-tv-10040-prod.cdn.arcpublishing.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fcmg%2FMDKGIOFUKFCSVHGVZQVZCEQAWM.jpg?auth=2320d2a777e0484876bff2d27aad3838040da7cf92a0da0ad69cb75c72bc9d15&smart=true",
-      "domain": "whio.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.46,
-        "recommended": true,
-        "relevance_confidence": 0.43,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.11,
-          "2": 0.37,
-          "3": 0.44,
-          "4": 0.07
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.84,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.12,
-          "policy_business": 0.01,
-          "other_technology": 0.87
-        }
-      }
-    },
-    {
       "id": "the-verge:https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
       "source": "the-verge",
       "source_id": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
@@ -878,46 +732,12 @@
       }
     },
     {
-      "id": "gdelt:https://www.mprnews.org/story/2026/11/13/minneapolis-city-council-votes-to-require-casebycase-approval-of-new-data-centers",
-      "source": "gdelt",
-      "source_id": "https://www.mprnews.org/story/2026/11/13/minneapolis-city-council-votes-to-require-casebycase-approval-of-new-data-centers",
-      "title": "Minneapolis City Council votes to require case - by - case approval of new data centers",
-      "url": "https://www.mprnews.org/story/2026/11/13/minneapolis-city-council-votes-to-require-casebycase-approval-of-new-data-centers",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://img.apmcdn.org/2617c3aae3c638d043d6ddcdb22839e46c08301c/widescreen/e0a9cf-20261111-community-members-gather-for-the-no-data-center-rally213-2000.jpg",
-      "domain": "mprnews.org",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.41,
-        "recommended": true,
-        "relevance_confidence": 0.49,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.1,
-          "2": 0.4,
-          "3": 0.49,
-          "4": 0.01
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.41,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.53,
-          "policy_business": 0.47,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/ZhuLinsen",
       "source": "github_trending",
       "source_id": "sponsors/ZhuLinsen",
       "title": "sponsors/ZhuLinsen",
       "url": "https://github.com/sponsors/ZhuLinsen",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -945,182 +765,12 @@
       }
     },
     {
-      "id": "gdelt:https://790waeb.iheart.com/content/2026-11-13-microsoft-says-services-are-recovering-after-global-outage-impacting-millions/",
-      "source": "gdelt",
-      "source_id": "https://790waeb.iheart.com/content/2026-11-13-microsoft-says-services-are-recovering-after-global-outage-impacting-millions/",
-      "title": "Microsoft Says Services Are Recovering After Global Outage Impacting Millions",
-      "url": "https://790waeb.iheart.com/content/2026-11-13-microsoft-says-services-are-recovering-after-global-outage-impacting-millions/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://i.iheart.com/v3/re/assets.getty/6af74833346858aa50ce8657?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "domain": "790waeb.iheart.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.39,
-        "recommended": true,
-        "relevance_confidence": 0.42,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.13,
-          "2": 0.37,
-          "3": 0.45,
-          "4": 0.04
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.86,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.1,
-          "policy_business": 0.01,
-          "other_technology": 0.89
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.dw.com/en/eu-leaders-urged-to-act-now-to-stay-ai-competitive-with-us-china/a-79937463",
-      "source": "gdelt",
-      "source_id": "https://www.dw.com/en/eu-leaders-urged-to-act-now-to-stay-ai-competitive-with-us-china/a-79937463",
-      "title": "AI : European leaders urged to act now to stay competitive",
-      "url": "https://www.dw.com/en/eu-leaders-urged-to-act-now-to-stay-ai-competitive-with-us-china/a-79937463",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://static.dw.com/image/79943441_6.jpg",
-      "domain": "dw.com",
-      "language": "English",
-      "country": "Germany",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.36,
-        "recommended": true,
-        "relevance_confidence": 0.44,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.1,
-          "2": 0.43,
-          "3": 0.45,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 1.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://600kcol.iheart.com/content/2026-11-13-microsoft-says-services-are-recovering-after-global-outage-impacting-millions/",
-      "source": "gdelt",
-      "source_id": "https://600kcol.iheart.com/content/2026-11-13-microsoft-says-services-are-recovering-after-global-outage-impacting-millions/",
-      "title": "Microsoft Says Services Are Recovering After Global Outage Impacting Millions",
-      "url": "https://600kcol.iheart.com/content/2026-11-13-microsoft-says-services-are-recovering-after-global-outage-impacting-millions/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://i.iheart.com/v3/re/assets.getty/6af74833346858aa50ce8657?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "domain": "600kcol.iheart.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.35,
-        "recommended": true,
-        "relevance_confidence": 0.39,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.14,
-          "2": 0.38,
-          "3": 0.43,
-          "4": 0.04
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.89,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.08,
-          "policy_business": 0.01,
-          "other_technology": 0.91
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://cedarnews.net/newstasks/1143179/tech-expert-explains-challenges-restoring-microsoft-programs/",
-      "source": "gdelt",
-      "source_id": "https://cedarnews.net/newstasks/1143179/tech-expert-explains-challenges-restoring-microsoft-programs/",
-      "title": "Tech expert explains challenges in restoring Microsoft programs , chances of another major outage",
-      "url": "https://cedarnews.net/newstasks/1143179/tech-expert-explains-challenges-restoring-microsoft-programs/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://cedarnews.net/wp-content/uploads/2026/09/cedarnews-1.png",
-      "domain": "cedarnews.net",
-      "language": "English",
-      "country": "Lebanon",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.32,
-        "recommended": true,
-        "relevance_confidence": 0.41,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.12,
-          "2": 0.42,
-          "3": 0.43,
-          "4": 0.02
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.04,
-          "hardware_datacenters": 0.02,
-          "policy_business": 0.0,
-          "other_technology": 0.94
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://veropatriot.iheart.com/content/2026-11-13-microsoft-says-services-are-recovering-after-global-outage-impacting-millions/",
-      "source": "gdelt",
-      "source_id": "https://veropatriot.iheart.com/content/2026-11-13-microsoft-says-services-are-recovering-after-global-outage-impacting-millions/",
-      "title": "Microsoft Says Services Are Recovering After Global Outage Impacting Millions",
-      "url": "https://veropatriot.iheart.com/content/2026-11-13-microsoft-says-services-are-recovering-after-global-outage-impacting-millions/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://i.iheart.com/v3/re/assets.getty/6af74833346858aa50ce8657?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "domain": "veropatriot.iheart.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.3,
-        "recommended": true,
-        "relevance_confidence": 0.36,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.16,
-          "2": 0.39,
-          "3": 0.41,
-          "4": 0.03
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.87,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.09,
-          "policy_business": 0.01,
-          "other_technology": 0.9
-        }
-      }
-    },
-    {
       "id": "github_trending:GoogleChrome/modern-web-guidance-src",
       "source": "github_trending",
       "source_id": "GoogleChrome/modern-web-guidance-src",
       "title": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "Keep your coding agent up to date with the latest web best practices",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1148,74 +798,6 @@
       }
     },
     {
-      "id": "gdelt:https://www.pressdemocrat.com/2026/11/13/microsoft-outage-progress-outlook-teams-email/",
-      "source": "gdelt",
-      "source_id": "https://www.pressdemocrat.com/2026/11/13/microsoft-outage-progress-outlook-teams-email/",
-      "title": "Microsoft reports progress restoring email , other services affected by outage",
-      "url": "https://www.pressdemocrat.com/2026/11/13/microsoft-outage-progress-outlook-teams-email/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.pressdemocrat.com/wp-content/uploads/2026/11/Microsoft-Outage__9733_a35604-1.jpg",
-      "domain": "pressdemocrat.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.29,
-        "recommended": true,
-        "relevance_confidence": 0.52,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.12,
-          "2": 0.45,
-          "3": 0.4,
-          "4": 0.02
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.04,
-          "policy_business": 0.0,
-          "other_technology": 0.96
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://techaeris.com/2026/11/13/ai-literacy-is-no-longer-optional/",
-      "source": "gdelt",
-      "source_id": "https://techaeris.com/2026/11/13/ai-literacy-is-no-longer-optional/",
-      "title": "AI Literacy Is No Longer Optional : Just Ask the Attackers",
-      "url": "https://techaeris.com/2026/11/13/ai-literacy-is-no-longer-optional/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://techaeris.com/wp-content/uploads/2026/11/AI-literacy-feature.jpg",
-      "domain": "techaeris.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.22,
-        "recommended": true,
-        "relevance_confidence": 0.56,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.14,
-          "2": 0.49,
-          "3": 0.35,
-          "4": 0.01
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.35,
-        "topic_probabilities": {
-          "ai_models_research": 0.18,
-          "developer_tools": 0.01,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.33,
-          "other_technology": 0.48
-        }
-      }
-    },
-    {
       "id": "hackernews:50483480",
       "source": "hackernews",
       "source_id": "50483480",
@@ -1224,8 +806,8 @@
       "published_at": "2026-11-13T13:51:27+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50483480",
-      "points": 253,
-      "comments": 346,
+      "points": 263,
+      "comments": 364,
       "matched_term": "Dario Amodei",
       "jev": {
         "model": "jev-1.14.0",
@@ -1247,40 +829,6 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.59,
           "other_technology": 0.1
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.selectscience.net/article/ai-in-molecular-diagnostics-at-amp-2026-shows-promise-for-cancer-care",
-      "source": "gdelt",
-      "source_id": "https://www.selectscience.net/article/ai-in-molecular-diagnostics-at-amp-2026-shows-promise-for-cancer-care",
-      "title": "AMP 2026 : AI for cancer diagnostics - SelectScience news",
-      "url": "https://www.selectscience.net/article/ai-in-molecular-diagnostics-at-amp-2026-shows-promise-for-cancer-care",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://cdn.sanity.io/images/f5b6mtfn/selectscience-prod/ddc74e0399212735a09266bd7b28d81b6b37269d-856x632.png?rect=0,92,856,449",
-      "domain": "selectscience.net",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.14,
-        "recommended": true,
-        "relevance_confidence": 0.53,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.18,
-          "2": 0.46,
-          "3": 0.34,
-          "4": 0.0
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.79,
-        "topic_probabilities": {
-          "ai_models_research": 0.83,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.04,
-          "other_technology": 0.13
         }
       }
     },
@@ -1322,7 +870,7 @@
       "source_id": "tailscale/tailcat",
       "title": "tailscale/tailcat",
       "url": "https://github.com/tailscale/tailcat",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1355,7 +903,7 @@
       "source_id": "backnotprop/plannotator",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1388,7 +936,7 @@
       "source_id": "tradermonty/claude-trading-skills",
       "title": "tradermonty/claude-trading-skills",
       "url": "https://github.com/tradermonty/claude-trading-skills",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1448,108 +996,6 @@
       }
     },
     {
-      "id": "gdelt:https://www.crn.com/news/ai/2026/nuix-hires-lori-cornmesser-to-drive-global-partner-ecosystem-growth",
-      "source": "gdelt",
-      "source_id": "https://www.crn.com/news/ai/2026/nuix-hires-lori-cornmesser-to-drive-global-partner-ecosystem-growth",
-      "title": "Nuix Hires Lori Cornmesser To Drive Global Partner Ecosystem Growth",
-      "url": "https://www.crn.com/news/ai/2026/nuix-hires-lori-cornmesser-to-drive-global-partner-ecosystem-growth",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.crn.com/news/ai/2026/media_1b3c23b692144fd874b6f469a126838b784079b11.jpg?&format=pjpg&optimize=medium",
-      "domain": "crn.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.89,
-        "recommended": false,
-        "relevance_confidence": 0.48,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.33,
-          "2": 0.4,
-          "3": 0.25,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.91,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.93,
-          "other_technology": 0.06
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.themarketsdaily.com/2026/11/13/advanced-micro-devices-nasdaqamd-stock-price-down-8-1-heres-what-happened.html",
-      "source": "gdelt",
-      "source_id": "https://www.themarketsdaily.com/2026/11/13/advanced-micro-devices-nasdaqamd-stock-price-down-8-1-heres-what-happened.html",
-      "title": "Advanced Micro Devices ( NASDAQ : AMD ) Stock Price Down 8 . 1 % – Here What Happened",
-      "url": "https://www.themarketsdaily.com/2026/11/13/advanced-micro-devices-nasdaqamd-stock-price-down-8-1-heres-what-happened.html",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "",
-      "domain": "themarketsdaily.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.81,
-        "recommended": false,
-        "relevance_confidence": 0.53,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.36,
-          "2": 0.45,
-          "3": 0.18,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.42,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.45,
-          "policy_business": 0.54,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.ncregister.com/cna/austrian-bishops-adopt-first-rules-for-ai-in-the-church",
-      "source": "gdelt",
-      "source_id": "https://www.ncregister.com/cna/austrian-bishops-adopt-first-rules-for-ai-in-the-church",
-      "title": "Austrian Bishops Adopt First Rules for AI in the Church",
-      "url": "https://www.ncregister.com/cna/austrian-bishops-adopt-first-rules-for-ai-in-the-church",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://publisher-assets.ncregister.com/pb-ncregister/swp/hv9hms/media/2026111309114_6323ed7b917ce76d97cef87e63789f895973d6e7ee5496bce64c73ca58728d5c.jpg",
-      "domain": "ncregister.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.77,
-        "recommended": false,
-        "relevance_confidence": 0.57,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.37,
-          "2": 0.48,
-          "3": 0.15,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.94,
-          "other_technology": 0.06
-        }
-      }
-    },
-    {
       "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
       "source": "techcrunch-ai",
       "source_id": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
@@ -1582,112 +1028,12 @@
       }
     },
     {
-      "id": "gdelt:https://www.universetoday.com/articles/shape-shifting-robotic-slugs-could-one-day-crawl-across-alien-worlds",
-      "source": "gdelt",
-      "source_id": "https://www.universetoday.com/articles/shape-shifting-robotic-slugs-could-one-day-crawl-across-alien-worlds",
-      "title": "Shape - Shifting Robotic Slugs Could One Day Crawl Across Alien Worlds",
-      "url": "https://www.universetoday.com/articles/shape-shifting-robotic-slugs-could-one-day-crawl-across-alien-worlds",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.universetoday.com/article_images/videoframe_126007_20261113_170944.png",
-      "domain": "universetoday.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.74,
-        "recommended": false,
-        "relevance_confidence": 0.57,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.35,
-          "2": 0.51,
-          "3": 0.12,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.crn.com/news/ai/2026/new-nuix-channel-chief-looks-to-improve-partner-experience-end-to-end",
-      "source": "gdelt",
-      "source_id": "https://www.crn.com/news/ai/2026/new-nuix-channel-chief-looks-to-improve-partner-experience-end-to-end",
-      "title": "New Nuix Channel Chief Looks To Improve Partner Experience End To End",
-      "url": "https://www.crn.com/news/ai/2026/new-nuix-channel-chief-looks-to-improve-partner-experience-end-to-end",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.crn.com/news/ai/2026/media_1defbe270d919482348a379b2aaf2a4edd8cc4e60.png?&format=pjpg&optimize=medium",
-      "domain": "crn.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.71,
-        "recommended": false,
-        "relevance_confidence": 0.37,
-        "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.42,
-          "2": 0.37,
-          "3": 0.18,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.8,
-        "topic_probabilities": {
-          "ai_models_research": 0.02,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.84,
-          "other_technology": 0.14
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1032141/paprika-4-recipe-grocery-pantry-app-update-subscription-hands-on",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1032141/paprika-4-recipe-grocery-pantry-app-update-subscription-hands-on",
-      "title": "My favorite recipe app just got a big upgrade — and a subscription fee",
-      "url": "https://www.theverge.com/tech/1032141/paprika-4-recipe-grocery-pantry-app-update-subscription-hands-on",
-      "published_at": "2026-11-13T16:00:00+00:00",
-      "summary": "Nearly 10 years after the launch of Paprika 3, the recipe-managing, pantry-organizing, grocery list-making app has gotten a big upgrade that adds more functionality to nearly every corner of the experience. I tested Paprika 4 for several weeks while it was in open beta, and the update recently launched across Android (the version I've been […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.69,
-        "recommended": false,
-        "relevance_confidence": 0.58,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.38,
-          "2": 0.51,
-          "3": 0.1,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
       "id": "github_trending:Likely7/Veyra-NRVideo",
       "source": "github_trending",
       "source_id": "Likely7/Veyra-NRVideo",
       "title": "Likely7/Veyra-NRVideo",
       "url": "https://github.com/Likely7/Veyra-NRVideo",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1747,46 +1093,12 @@
       }
     },
     {
-      "id": "gdelt:https://www.themarketsdaily.com/2026/11/13/head-to-head-review-nebius-group-nasdaqnbis-versus-wix-com-nasdaqwix.html",
-      "source": "gdelt",
-      "source_id": "https://www.themarketsdaily.com/2026/11/13/head-to-head-review-nebius-group-nasdaqnbis-versus-wix-com-nasdaqwix.html",
-      "title": "Head to Head Review : Nebius Group ( NASDAQ : NBIS ) versus Wix . com ( NASDAQ : WIX )",
-      "url": "https://www.themarketsdaily.com/2026/11/13/head-to-head-review-nebius-group-nasdaqnbis-versus-wix-com-nasdaqwix.html",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "",
-      "domain": "themarketsdaily.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.64,
-        "recommended": false,
-        "relevance_confidence": 0.39,
-        "relevance_probabilities": {
-          "0": 0.04,
-          "1": 0.46,
-          "2": 0.31,
-          "3": 0.19,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.73,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.78,
-          "other_technology": 0.2
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/louislam",
       "source": "github_trending",
       "source_id": "sponsors/louislam",
       "title": "sponsors/louislam",
       "url": "https://github.com/sponsors/louislam",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "A fancy self-hosted monitoring tool",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1819,7 +1131,7 @@
       "source_id": "block/buzz",
       "title": "block/buzz",
       "url": "https://github.com/block/buzz",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "A hive mind communication platform",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1879,36 +1191,34 @@
       }
     },
     {
-      "id": "gdelt:https://finchannel.com/modine-stock-jumps-31-before-open-on-reported-samsung-talks/141473/american-business-trends/stock-prices/2026/11/",
-      "source": "gdelt",
-      "source_id": "https://finchannel.com/modine-stock-jumps-31-before-open-on-reported-samsung-talks/141473/american-business-trends/stock-prices/2026/11/",
-      "title": "Modine Stock Jumps 31 % Before Open on Reported Samsung Talks",
-      "url": "https://finchannel.com/modine-stock-jumps-31-before-open-on-reported-samsung-talks/141473/american-business-trends/stock-prices/2026/11/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://finchannel.com/wp-content/uploads/2026/11/Modine-Stock-Jumps-31-Before-Open-on-Reported-Samsung-Talks.jpeg",
-      "domain": "finchannel.com",
-      "language": "English",
-      "country": "United States",
+      "id": "the-verge:https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
+      "title": "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
+      "url": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
+      "published_at": "2026-11-13T20:30:00+00:00",
+      "summary": "Bluetooth speakers are often boring boxes in plain colors, but not this one! As part of Nothing’s ongoing early Black Friday promo, you can grab its unique, milk carton-shaped CMF Speaker S from Amazon and Nothing for just $39. That’s a solid $20 discount and the lowest price we’ve seen on Nothing’s newfangled wireless speaker, […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.27,
+        "relevance_score": 1.21,
         "recommended": false,
-        "relevance_confidence": 0.53,
+        "relevance_confidence": 0.78,
         "relevance_probabilities": {
-          "0": 0.15,
-          "1": 0.56,
-          "2": 0.17,
-          "3": 0.12,
+          "0": 0.02,
+          "1": 0.75,
+          "2": 0.22,
+          "3": 0.01,
           "4": 0.0
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.76,
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.15,
-          "policy_business": 0.81,
-          "other_technology": 0.04
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     },
@@ -1918,7 +1228,7 @@
       "source_id": "we-promise/sure",
       "title": "we-promise/sure",
       "url": "https://github.com/we-promise/sure",
-      "published_at": "2026-11-13T19:53:28.591318+00:00",
+      "published_at": "2026-11-14T00:56:00.064903+00:00",
       "summary": "The personal finance app for everyone (by everyone)",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1946,108 +1256,6 @@
       }
     },
     {
-      "id": "gdelt:https://www.dailygazette.com/news/national/finance-guru-shares-golden-investing-rule-amid-nvidia-stock-crash/article_3a836678-0087-55c4-a72d-61964d74824c.html",
-      "source": "gdelt",
-      "source_id": "https://www.dailygazette.com/news/national/finance-guru-shares-golden-investing-rule-amid-nvidia-stock-crash/article_3a836678-0087-55c4-a72d-61964d74824c.html",
-      "title": "Finance guru shares golden investing rule amid Nvidia stock crash",
-      "url": "https://www.dailygazette.com/news/national/finance-guru-shares-golden-investing-rule-amid-nvidia-stock-crash/article_3a836678-0087-55c4-a72d-61964d74824c.html",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://bloximages.chicago2.vip.townnews.com/dailygazette.com/content/tncms/assets/v3/editorial/6/b3/6b3394e7-bd71-56f2-abbb-44ea3a31f598/6af7267575d93.image.jpg?crop=1280%2C672%2C0%2C24",
-      "domain": "dailygazette.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.14,
-        "recommended": false,
-        "relevance_confidence": 0.8,
-        "relevance_probabilities": {
-          "0": 0.05,
-          "1": 0.79,
-          "2": 0.13,
-          "3": 0.03,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.8,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.14,
-          "policy_business": 0.84,
-          "other_technology": 0.02
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.bostonglobe.com/2026/11/13/newsletters/massachusetts-drive-economic-development-power-play/",
-      "source": "gdelt",
-      "source_id": "https://www.bostonglobe.com/2026/11/13/newsletters/massachusetts-drive-economic-development-power-play/",
-      "title": "Massachusetts funding bill could boost research",
-      "url": "https://www.bostonglobe.com/2026/11/13/newsletters/massachusetts-drive-economic-development-power-play/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/Q4HZQTGF4FDEPG73FVW6VSPNZI.jpg?auth=093998427490847352ff8882659a7bd3b11216186f3bc10ff2c0a64fd7786e8b",
-      "domain": "bostonglobe.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.08,
-        "recommended": false,
-        "relevance_confidence": 0.64,
-        "relevance_probabilities": {
-          "0": 0.17,
-          "1": 0.62,
-          "2": 0.16,
-          "3": 0.05,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.96,
-          "other_technology": 0.04
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.fox26houston.com/news/spacex-starship-flight-15-texas-friday",
-      "source": "gdelt",
-      "source_id": "https://www.fox26houston.com/news/spacex-starship-flight-15-texas-friday",
-      "title": "SpaceX Starship Flight 15 from Texas set for Friday",
-      "url": "https://www.fox26houston.com/news/spacex-starship-flight-15-texas-friday",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://images.foxtv.com/static.fox26houston.com/www.fox26houston.com/content/uploads/2026/11/1280/720/gettyimages-2304322358-scaled.jpg?ve=1&tl=1",
-      "domain": "fox26houston.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.08,
-        "recommended": false,
-        "relevance_confidence": 0.63,
-        "relevance_probabilities": {
-          "0": 0.18,
-          "1": 0.6,
-          "2": 0.18,
-          "3": 0.04,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
       "id": "hackernews:50483391",
       "source": "hackernews",
       "source_id": "50483391",
@@ -2056,8 +1264,8 @@
       "published_at": "2026-11-13T13:45:06+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50483391",
-      "points": 60,
-      "comments": 10,
+      "points": 71,
+      "comments": 12,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -2083,102 +1291,69 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+      "id": "the-verge:https://www.theverge.com/news/1033489/faa-ground-stop",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-      "title": "The best early Black Friday deals you can already shop",
-      "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-      "published_at": "2026-11-13T15:49:27+00:00",
-      "summary": "The countdown to Black Friday is on, and the discounts are starting to appear. Although the shopping holiday isn’t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low price. […]",
+      "source_id": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "title": "FAA ground stop shuts down flights nationwide",
+      "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "published_at": "2026-11-13T23:47:27+00:00",
+      "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. The FAA tweeted just after 5PM ET that, \"There has been a temporary telecommunications outage - out of […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.05,
+        "relevance_score": 1.04,
         "recommended": false,
-        "relevance_confidence": 0.86,
+        "relevance_confidence": 0.62,
         "relevance_probabilities": {
-          "0": 0.06,
-          "1": 0.83,
-          "2": 0.11,
-          "3": 0.0,
+          "0": 0.21,
+          "1": 0.58,
+          "2": 0.17,
+          "3": 0.04,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.99,
+        "topic_confidence": 0.86,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
+          "hardware_datacenters": 0.02,
+          "policy_business": 0.09,
+          "other_technology": 0.89
         }
       }
     },
     {
-      "id": "gdelt:https://www.bankingnews.gr/diethni/articles/910933/cia-orchestrated-jensen-huang-s-ouster-to-seize-control-of-nvidia-s-ai-tech",
-      "source": "gdelt",
-      "source_id": "https://www.bankingnews.gr/diethni/articles/910933/cia-orchestrated-jensen-huang-s-ouster-to-seize-control-of-nvidia-s-ai-tech",
-      "title": "CIA orchestrated Jensen Huang ouster to seize control of Nvidia AI tech",
-      "url": "https://www.bankingnews.gr/diethni/articles/910933/cia-orchestrated-jensen-huang-s-ouster-to-seize-control-of-nvidia-s-ai-tech",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.bankingnews.gr/media/k2/items/cache/dcf641c15a5a3a6a4294dfd0c3ee9f6d_XL.jpg?v=2",
-      "domain": "bankingnews.gr",
-      "language": "English",
-      "country": "Greece",
+      "id": "hackernews:50489489",
+      "source": "hackernews",
+      "source_id": "50489489",
+      "title": "David Sacks Is Fucked Too",
+      "url": "https://daringfireball.net/linked/2026/11/13/sacks",
+      "published_at": "2026-11-13T20:52:52+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50489489",
+      "points": 10,
+      "comments": 2,
+      "matched_term": "David Sacks",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.81,
+        "relevance_score": 0.71,
         "recommended": false,
-        "relevance_confidence": 0.75,
+        "relevance_confidence": 0.67,
         "relevance_probabilities": {
-          "0": 0.25,
-          "1": 0.72,
-          "2": 0.01,
-          "3": 0.02,
+          "0": 0.34,
+          "1": 0.61,
+          "2": 0.04,
+          "3": 0.01,
           "4": 0.0
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.41,
+        "topic": "other_technology",
+        "topic_confidence": 0.46,
         "topic_probabilities": {
           "ai_models_research": 0.01,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.31,
-          "policy_business": 0.53,
-          "other_technology": 0.15
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.themarketsdaily.com/2026/11/13/chindata-group-nasdaqcd-stock-falls-8-8-heres-what-happened.html",
-      "source": "gdelt",
-      "source_id": "https://www.themarketsdaily.com/2026/11/13/chindata-group-nasdaqcd-stock-falls-8-8-heres-what-happened.html",
-      "title": "Chindata Group ( NASDAQ : CD ) Stock Falls 8 . 8 % – Here What Happened",
-      "url": "https://www.themarketsdaily.com/2026/11/13/chindata-group-nasdaqcd-stock-falls-8-8-heres-what-happened.html",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "",
-      "domain": "themarketsdaily.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.61,
-        "recommended": false,
-        "relevance_confidence": 0.5,
-        "relevance_probabilities": {
-          "0": 0.51,
-          "1": 0.41,
-          "2": 0.05,
-          "3": 0.03,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.87,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.9,
-          "other_technology": 0.09
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.42,
+          "other_technology": 0.57
         }
       }
     },
@@ -2213,618 +1388,42 @@
           "other_technology": 1.0
         }
       }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
-      "title": "The Verge’s 2026 gift guide for dads",
-      "url": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
-      "published_at": "2026-11-13T16:00:00+00:00",
-      "summary": "Gone are the days when you could just buy your father a random tie or some leather-clad alcohol vessel or a shaving kit. Dads want - nay, deserve - something memorable. Luckily for you, it's not that hard to find something special that he'll approve of, and we're here to guide you. We've curated this […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.57,
-        "recommended": false,
-        "relevance_confidence": 0.64,
-        "relevance_probabilities": {
-          "0": 0.43,
-          "1": 0.57,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.ign.com/articles/25-years-ago-kojima-made-the-perfect-metal-gear-solid-for-the-2020s",
-      "source": "gdelt",
-      "source_id": "https://www.ign.com/articles/25-years-ago-kojima-made-the-perfect-metal-gear-solid-for-the-2020s",
-      "title": "Metal Gear Solid 2 Was Ahead of Its Time",
-      "url": "https://www.ign.com/articles/25-years-ago-kojima-made-the-perfect-metal-gear-solid-for-the-2020s",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://assets-prd.ignimgs.com/2026/11/13/mgs2-retrospective-1794582279618.jpg?&format=jpg&auto=webp&quality=80",
-      "domain": "ign.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.51,
-        "recommended": false,
-        "relevance_confidence": 0.57,
-        "relevance_probabilities": {
-          "0": 0.52,
-          "1": 0.45,
-          "2": 0.03,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.pasadenastarnews.com/2026/11/13/8-gardening-and-garden-themed-gifts-for-the-holidays-from-tools-to-smart-tech/",
-      "source": "gdelt",
-      "source_id": "https://www.pasadenastarnews.com/2026/11/13/8-gardening-and-garden-themed-gifts-for-the-holidays-from-tools-to-smart-tech/",
-      "title": "8 gardening and garden - themed gifts for the holidays , from tools to smart tech",
-      "url": "https://www.pasadenastarnews.com/2026/11/13/8-gardening-and-garden-themed-gifts-for-the-holidays-from-tools-to-smart-tech/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.pasadenastarnews.com/wp-content/uploads/2026/11/Holiday_Gift_Guide_-_Gardening_12986-1.jpg",
-      "domain": "pasadenastarnews.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.41,
-        "recommended": false,
-        "relevance_confidence": 0.66,
-        "relevance_probabilities": {
-          "0": 0.59,
-          "1": 0.41,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.news-herald.com/2026/11/13/gardening-garden-themed-gifts/",
-      "source": "gdelt",
-      "source_id": "https://www.news-herald.com/2026/11/13/gardening-garden-themed-gifts/",
-      "title": "8 gardening & garden - themed gifts for the holidays , from tools to tech",
-      "url": "https://www.news-herald.com/2026/11/13/gardening-garden-themed-gifts/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.news-herald.com/wp-content/uploads/2026/11/Holiday_Gift_Guide_-_Gardening_12986-1.jpg",
-      "domain": "news-herald.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.29,
-        "recommended": false,
-        "relevance_confidence": 0.76,
-        "relevance_probabilities": {
-          "0": 0.71,
-          "1": 0.29,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.globaltimes.cn/page/202611/1374261.shtml",
-      "source": "gdelt",
-      "source_id": "https://www.globaltimes.cn/page/202611/1374261.shtml",
-      "title": "China , South Korea eye closer ties during FM talks",
-      "url": "https://www.globaltimes.cn/page/202611/1374261.shtml",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.globaltimes.cn/Portals/0/attachment/2026/2026-08-19/15a0cedd-04cf-4172-952a-05d920185fd9.jpeg",
-      "domain": "globaltimes.cn",
-      "language": "English",
-      "country": "China",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.27,
-        "recommended": false,
-        "relevance_confidence": 0.77,
-        "relevance_probabilities": {
-          "0": 0.75,
-          "1": 0.23,
-          "2": 0.02,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.4,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.48,
-          "other_technology": 0.52
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.santacruzsentinel.com/2026/11/13/gardening-garden-themed-gifts/",
-      "source": "gdelt",
-      "source_id": "https://www.santacruzsentinel.com/2026/11/13/gardening-garden-themed-gifts/",
-      "title": "8 gardening & garden - themed gifts for the holidays , from tools to tech",
-      "url": "https://www.santacruzsentinel.com/2026/11/13/gardening-garden-themed-gifts/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.santacruzsentinel.com/wp-content/uploads/2026/11/Holiday_Gift_Guide_-_Gardening_12986-1.jpg",
-      "domain": "santacruzsentinel.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.23,
-        "recommended": false,
-        "relevance_confidence": 0.81,
-        "relevance_probabilities": {
-          "0": 0.77,
-          "1": 0.23,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.fortmorgantimes.com/2026/11/13/gardening-garden-themed-gifts/",
-      "source": "gdelt",
-      "source_id": "https://www.fortmorgantimes.com/2026/11/13/gardening-garden-themed-gifts/",
-      "title": "8 gardening & garden - themed gifts for the holidays , from tools to tech",
-      "url": "https://www.fortmorgantimes.com/2026/11/13/gardening-garden-themed-gifts/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.fortmorgantimes.com/wp-content/uploads/2026/11/Holiday_Gift_Guide_-_Gardening_12986-1.jpg",
-      "domain": "fortmorgantimes.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.22,
-        "recommended": false,
-        "relevance_confidence": 0.82,
-        "relevance_probabilities": {
-          "0": 0.78,
-          "1": 0.22,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.orlandosentinel.com/2026/11/13/wholesale-inflation-declined-october/",
-      "source": "gdelt",
-      "source_id": "https://www.orlandosentinel.com/2026/11/13/wholesale-inflation-declined-october/",
-      "title": "Wholesale inflation declined in October yet remains elevated",
-      "url": "https://www.orlandosentinel.com/2026/11/13/wholesale-inflation-declined-october/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.orlandosentinel.com/wp-content/uploads/2026/11/Producer_Prices_91358-2.jpg",
-      "domain": "orlandosentinel.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.13,
-        "recommended": false,
-        "relevance_confidence": 0.88,
-        "relevance_probabilities": {
-          "0": 0.87,
-          "1": 0.12,
-          "2": 0.01,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.52,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.62,
-          "other_technology": 0.38
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.mining.com/press-release?id=6af74782f6300c82dfd412f3",
-      "source": "gdelt",
-      "source_id": "https://www.mining.com/press-release?id=6af74782f6300c82dfd412f3",
-      "title": "Press Release",
-      "url": "https://www.mining.com/press-release?id=6af74782f6300c82dfd412f3",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "",
-      "domain": "mining.com",
-      "language": "English",
-      "country": "Canada",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.12,
-        "recommended": false,
-        "relevance_confidence": 0.92,
-        "relevance_probabilities": {
-          "0": 0.9,
-          "1": 0.1,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.59,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.02,
-          "policy_business": 0.31,
-          "other_technology": 0.67
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://newsroomamerica.com/?before=121952",
-      "source": "gdelt",
-      "source_id": "https://newsroomamerica.com/?before=121952",
-      "title": "newsroomamerica . com",
-      "url": "https://newsroomamerica.com/?before=121952",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "",
-      "domain": "newsroomamerica.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.11,
-        "recommended": false,
-        "relevance_confidence": 0.92,
-        "relevance_probabilities": {
-          "0": 0.91,
-          "1": 0.09,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.05,
-          "other_technology": 0.95
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.fortmorgantimes.com/2026/11/13/wholesale-inflation-declined-october/",
-      "source": "gdelt",
-      "source_id": "https://www.fortmorgantimes.com/2026/11/13/wholesale-inflation-declined-october/",
-      "title": "Wholesale inflation declined in October yet remains elevated",
-      "url": "https://www.fortmorgantimes.com/2026/11/13/wholesale-inflation-declined-october/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.fortmorgantimes.com/wp-content/uploads/2026/11/Producer_Prices_91358-2.jpg",
-      "domain": "fortmorgantimes.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.1,
-        "recommended": false,
-        "relevance_confidence": 0.92,
-        "relevance_probabilities": {
-          "0": 0.91,
-          "1": 0.08,
-          "2": 0.01,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.51,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.61,
-          "other_technology": 0.39
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://gcaptain.com/cma-cgm-net-profit-more-than-triples-to-2-32-billion-as-freight-rates-surge/",
-      "source": "gdelt",
-      "source_id": "https://gcaptain.com/cma-cgm-net-profit-more-than-triples-to-2-32-billion-as-freight-rates-surge/",
-      "title": "CMA CGM Net Profit More Than Triples to $2 . 32 Billion as Freight Rates Surge",
-      "url": "https://gcaptain.com/cma-cgm-net-profit-more-than-triples-to-2-32-billion-as-freight-rates-surge/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://gcaptain.com/wp-content/uploads/2026/05/CMA-CGM-GRAND-PALAIS-2026-2-1.jpg",
-      "domain": "gcaptain.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.08,
-        "recommended": false,
-        "relevance_confidence": 0.94,
-        "relevance_probabilities": {
-          "0": 0.93,
-          "1": 0.07,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.8,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.84,
-          "other_technology": 0.16
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.aljazeera.com/news/2026/11/13/will-democrats-try-to-strip-us-israel-initiative-from-pentagon-funding",
-      "source": "gdelt",
-      "source_id": "https://www.aljazeera.com/news/2026/11/13/will-democrats-try-to-strip-us-israel-initiative-from-pentagon-funding",
-      "title": "Will Democrats try to strip US - Israel initiative from Pentagon funding ?",
-      "url": "https://www.aljazeera.com/news/2026/11/13/will-democrats-try-to-strip-us-israel-initiative-from-pentagon-funding",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.aljazeera.com/wp-content/uploads/2026/11/2020-10-10T024427Z_1497227507_RC2EFJ9D41ID_RTRMADP_3_HEALTH-CORONAVIRUS-USA-MILITARY-1794582086.jpg",
-      "domain": "aljazeera.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.05,
-        "recommended": false,
-        "relevance_confidence": 0.97,
-        "relevance_probabilities": {
-          "0": 0.96,
-          "1": 0.04,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.52,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.62,
-          "other_technology": 0.38
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.sloughobserver.co.uk/news/national/26726258.european-voice-ukraine-peace-talks-must-include-uk-taoiseach-says/",
-      "source": "gdelt",
-      "source_id": "https://www.sloughobserver.co.uk/news/national/26726258.european-voice-ukraine-peace-talks-must-include-uk-taoiseach-says/",
-      "title": "European voice in Ukraine peace talks must include united kingdom , Taoiseach says",
-      "url": "https://www.sloughobserver.co.uk/news/national/26726258.european-voice-ukraine-peace-talks-must-include-uk-taoiseach-says/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.sloughobserver.co.uk/resources/images/21716121.jpg?type=og-image",
-      "domain": "sloughobserver.co.uk",
-      "language": "English",
-      "country": "United Kingdom",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.01,
-        "recommended": false,
-        "relevance_confidence": 1.0,
-        "relevance_probabilities": {
-          "0": 1.0,
-          "1": 0.0,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.64,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.29,
-          "other_technology": 0.71
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.wharfedaleobserver.co.uk/news/national/26726258.european-voice-ukraine-peace-talks-must-include-uk-taoiseach-says/",
-      "source": "gdelt",
-      "source_id": "https://www.wharfedaleobserver.co.uk/news/national/26726258.european-voice-ukraine-peace-talks-must-include-uk-taoiseach-says/",
-      "title": "European voice in Ukraine peace talks must include united kingdom , Taoiseach says",
-      "url": "https://www.wharfedaleobserver.co.uk/news/national/26726258.european-voice-ukraine-peace-talks-must-include-uk-taoiseach-says/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.wharfedaleobserver.co.uk/resources/images/21716121.jpg?type=og-image",
-      "domain": "wharfedaleobserver.co.uk",
-      "language": "English",
-      "country": "United Kingdom",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.01,
-        "recommended": false,
-        "relevance_confidence": 0.99,
-        "relevance_probabilities": {
-          "0": 0.99,
-          "1": 0.01,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.6,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.32,
-          "other_technology": 0.68
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.cleveland19.com/2026/11/13/cleveland-browns-news-rumors-111326-no-monks-were-consulted/",
-      "source": "gdelt",
-      "source_id": "https://www.cleveland19.com/2026/11/13/cleveland-browns-news-rumors-111326-no-monks-were-consulted/",
-      "title": "Cleveland Browns News and Rumors 11 / 13 / 26 : No Monks Were Consulted",
-      "url": "https://www.cleveland19.com/2026/11/13/cleveland-browns-news-rumors-111326-no-monks-were-consulted/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://gray-woio-prod.gtv-cdn.com/resizer/v2/4ORRKUZ4N5AP5D6NMOQEGKQKKY.png?auth=c3d00c84ad7b74fc5af971df773420074106ce5c66ef346cb6bf8484fae51b0d&smart=true",
-      "domain": "cleveland19.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.01,
-        "recommended": false,
-        "relevance_confidence": 0.99,
-        "relevance_probabilities": {
-          "0": 0.99,
-          "1": 0.01,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.02,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.02,
-          "other_technology": 0.96
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.darlingtonandstocktontimes.co.uk/news/national/26726258.european-voice-ukraine-peace-talks-must-include-uk-taoiseach-says/",
-      "source": "gdelt",
-      "source_id": "https://www.darlingtonandstocktontimes.co.uk/news/national/26726258.european-voice-ukraine-peace-talks-must-include-uk-taoiseach-says/",
-      "title": "European voice in Ukraine peace talks must include united kingdom , Taoiseach says",
-      "url": "https://www.darlingtonandstocktontimes.co.uk/news/national/26726258.european-voice-ukraine-peace-talks-must-include-uk-taoiseach-says/",
-      "published_at": "2026-11-13T18:00:00+00:00",
-      "summary": "https://www.darlingtonandstocktontimes.co.uk/resources/images/21716121.jpg?type=og-image",
-      "domain": "darlingtonandstocktontimes.co.uk",
-      "language": "English",
-      "country": "United Kingdom",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.01,
-        "recommended": false,
-        "relevance_confidence": 0.99,
-        "relevance_probabilities": {
-          "0": 0.99,
-          "1": 0.01,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.59,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.33,
-          "other_technology": 0.67
-        }
-      }
     }
   ],
   "reddit": [],
   "hn": [
     {
-      "id": "hackernews:50482992",
+      "id": "hackernews:50489489",
       "source": "hackernews",
-      "source_id": "50482992",
-      "title": "Jensen Huang Admitted He Was Facing an \"Avalanche\" of Excess Wafers and Memory",
-      "url": "https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/",
-      "published_at": "2026-11-13T13:08:48+00:00",
+      "source_id": "50489489",
+      "title": "David Sacks Is Fucked Too",
+      "url": "https://daringfireball.net/linked/2026/11/13/sacks",
+      "published_at": "2026-11-13T20:52:52+00:00",
       "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50482992",
-      "points": 67,
-      "comments": 76,
-      "matched_term": "Jensen Huang",
+      "thread_url": "https://news.ycombinator.com/item?id=50489489",
+      "points": 10,
+      "comments": 2,
+      "matched_term": "David Sacks",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.1,
-        "recommended": true,
-        "relevance_confidence": 0.72,
+        "relevance_score": 0.71,
+        "recommended": false,
+        "relevance_confidence": 0.67,
         "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.09,
-          "3": 0.68,
-          "4": 0.22
+          "0": 0.34,
+          "1": 0.61,
+          "2": 0.04,
+          "3": 0.01,
+          "4": 0.0
         },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.94,
+        "topic": "other_technology",
+        "topic_confidence": 0.46,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
+          "ai_models_research": 0.01,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.95,
-          "policy_business": 0.05,
-          "other_technology": 0.0
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.42,
+          "other_technology": 0.57
         }
       }
     },
@@ -2837,8 +1436,8 @@
       "published_at": "2026-11-13T13:45:06+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50483391",
-      "points": 60,
-      "comments": 10,
+      "points": 71,
+      "comments": 12,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -2864,6 +1463,41 @@
       }
     },
     {
+      "id": "hackernews:50482992",
+      "source": "hackernews",
+      "source_id": "50482992",
+      "title": "Jensen Huang Admitted He Was Facing an \"Avalanche\" of Excess Wafers and Memory",
+      "url": "https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/",
+      "published_at": "2026-11-13T13:08:48+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50482992",
+      "points": 68,
+      "comments": 77,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.1,
+        "recommended": true,
+        "relevance_confidence": 0.72,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.09,
+          "3": 0.68,
+          "4": 0.22
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.94,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.95,
+          "policy_business": 0.05,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "hackernews:50483480",
       "source": "hackernews",
       "source_id": "50483480",
@@ -2872,8 +1506,8 @@
       "published_at": "2026-11-13T13:51:27+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50483480",
-      "points": 253,
-      "comments": 346,
+      "points": 263,
+      "comments": 364,
       "matched_term": "Dario Amodei",
       "jev": {
         "model": "jev-1.14.0",
