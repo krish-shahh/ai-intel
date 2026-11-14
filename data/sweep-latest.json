@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:32:32.769907+00:00",
+  "generated_at": "2026-11-14T18:10:13.703627+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
@@ -7,38 +7,38 @@
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 2,
+    "hackernews": 0,
     "polymarket": 0,
-    "rss": 4,
+    "rss": 9,
     "arxiv": 0,
-    "sec_edgar": 2,
+    "sec_edgar": 0,
     "github": 0,
-    "github_trending": 12,
+    "github_trending": 15,
     "gdelt": 0,
-    "newsapi": 98,
+    "newsapi": 0,
     "mediastack": 0
   },
   "items": [
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-      "published_at": "2026-11-13T22:43:00+00:00",
-      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-      "name": "TechCrunch AI",
+      "id": "the-verge:https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "published_at": "2026-11-14T15:00:00+00:00",
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.43,
+        "relevance_score": 3.02,
         "recommended": true,
-        "relevance_confidence": 0.57,
+        "relevance_confidence": 0.72,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.01,
-          "2": 0.02,
-          "3": 0.5,
-          "4": 0.47
+          "2": 0.13,
+          "3": 0.68,
+          "4": 0.18
         },
         "topic": "policy_business",
         "topic_confidence": 1.0,
@@ -52,12 +52,45 @@
       }
     },
     {
+      "id": "github_trending:QwenLM/qwen-code",
+      "source": "github_trending",
+      "source_id": "QwenLM/qwen-code",
+      "title": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "summary": "An open-source AI coding agent that lives in your terminal.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.97,
+        "recommended": true,
+        "relevance_confidence": 0.7,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.19,
+          "3": 0.64,
+          "4": 0.17
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.39,
+        "topic_probabilities": {
+          "ai_models_research": 0.49,
+          "developer_tools": 0.51,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "github_trending:alibaba/open-code-review",
       "source": "github_trending",
       "source_id": "alibaba/open-code-review",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -85,34 +118,34 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "id": "the-verge:https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "title": "Amazon has a plan to index the world’s online shopping data",
-      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "published_at": "2026-11-13T23:49:11+00:00",
-      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
+      "source_id": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
+      "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
+      "url": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
+      "published_at": "2026-11-14T14:18:36+00:00",
+      "summary": "Tesla is doubling, or perhaps tripling down on its bold claims of an autonomous future with the offer to \"select customers\" to purchase a Cybercab for \"personal use.\" But the gilded, steering-wheel-free two-seater will \"only be available in supported service areas\" - meaning you'll only be able to buy one if you live in one […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.89,
+        "relevance_score": 2.73,
         "recommended": true,
-        "relevance_confidence": 0.84,
+        "relevance_confidence": 0.74,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.01,
-          "2": 0.13,
-          "3": 0.82,
-          "4": 0.04
+          "2": 0.26,
+          "3": 0.7,
+          "4": 0.03
         },
         "topic": "policy_business",
-        "topic_confidence": 0.91,
+        "topic_confidence": 0.6,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.93,
-          "other_technology": 0.07
+          "policy_business": 0.68,
+          "other_technology": 0.32
         }
       }
     },
@@ -122,7 +155,7 @@
       "source_id": "ChromeDevTools/chrome-devtools-mcp",
       "title": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
       "summary": "Chrome DevTools for coding agents",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -150,32 +183,97 @@
       }
     },
     {
-      "id": "github_trending:openai/codex-security",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "published_at": "2026-11-14T16:34:15+00:00",
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.65,
+        "recommended": true,
+        "relevance_confidence": 0.57,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.1,
+          "2": 0.23,
+          "3": 0.58,
+          "4": 0.09
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.56,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.65,
+          "policy_business": 0.35,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:sponsors/ashhart",
       "source": "github_trending",
-      "source_id": "openai/codex-security",
-      "title": "openai/codex-security",
-      "url": "https://github.com/openai/codex-security",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
-      "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "source_id": "sponsors/ashhart",
+      "title": "sponsors/ashhart",
+      "url": "https://github.com/sponsors/ashhart",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "summary": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.69,
+        "relevance_score": 2.63,
         "recommended": true,
-        "relevance_confidence": 0.64,
+        "relevance_confidence": 0.62,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.37,
+          "3": 0.57,
+          "4": 0.04
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.49,
+        "topic_probabilities": {
+          "ai_models_research": 0.59,
+          "developer_tools": 0.4,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "github_trending:dream-num/univer",
+      "source": "github_trending",
+      "source_id": "dream-num/univer",
+      "title": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.55,
+        "recommended": true,
+        "relevance_confidence": 0.57,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.03,
-          "2": 0.31,
-          "3": 0.6,
-          "4": 0.06
+          "2": 0.42,
+          "3": 0.52,
+          "4": 0.03
         },
         "topic": "developer_tools",
-        "topic_confidence": 0.98,
+        "topic_confidence": 0.96,
         "topic_probabilities": {
-          "ai_models_research": 0.02,
-          "developer_tools": 0.98,
+          "ai_models_research": 0.03,
+          "developer_tools": 0.97,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
@@ -183,102 +281,100 @@
       }
     },
     {
-      "id": "hackernews:50493251",
-      "source": "hackernews",
-      "source_id": "50493251",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "published_at": "2026-11-14T02:52:59+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50493251",
-      "points": 632,
-      "comments": 369,
-      "matched_term": "NVIDIA",
+      "id": "github_trending:ag-ui-protocol/ag-ui",
+      "source": "github_trending",
+      "source_id": "ag-ui-protocol/ag-ui",
+      "title": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.63,
+        "relevance_score": 2.41,
         "recommended": true,
-        "relevance_confidence": 0.58,
+        "relevance_confidence": 0.57,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.1,
-          "2": 0.23,
-          "3": 0.6,
-          "4": 0.07
+          "1": 0.05,
+          "2": 0.5,
+          "3": 0.43,
+          "4": 0.02
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.8,
+        "topic": "developer_tools",
+        "topic_confidence": 0.75,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.16,
-          "policy_business": 0.84,
+          "ai_models_research": 0.2,
+          "developer_tools": 0.8,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
           "other_technology": 0.0
         }
       }
     },
     {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/feed/",
-      "title": "Faster Scientific Simulations with New FP64 Algorithms in NVIDIA cuBLAS",
-      "url": "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/feed/",
-      "published_at": "2026-11-13T22:13:51+00:00",
-      "summary": "Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.57,
-        "recommended": true,
-        "relevance_confidence": 0.55,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.08,
-          "2": 0.32,
-          "3": 0.54,
-          "4": 0.06
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.79,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.83,
-          "hardware_datacenters": 0.14,
-          "policy_business": 0.0,
-          "other_technology": 0.03
-        }
-      }
-    },
-    {
-      "id": "github_trending:sponsors/ZhuLinsen",
+      "id": "github_trending:Tencent/LoopForge",
       "source": "github_trending",
-      "source_id": "sponsors/ZhuLinsen",
-      "title": "sponsors/ZhuLinsen",
-      "url": "https://github.com/sponsors/ZhuLinsen",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
-      "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "source_id": "Tencent/LoopForge",
+      "title": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "summary": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
         "relevance_score": 2.39,
         "recommended": true,
-        "relevance_confidence": 0.56,
+        "relevance_confidence": 0.6,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.07,
-          "2": 0.47,
-          "3": 0.46,
+          "1": 0.05,
+          "2": 0.53,
+          "3": 0.41,
+          "4": 0.01
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.92,
+        "topic_probabilities": {
+          "ai_models_research": 0.06,
+          "developer_tools": 0.94,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "published_at": "2026-11-14T17:30:00+00:00",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.34,
+        "recommended": true,
+        "relevance_confidence": 0.62,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.06,
+          "2": 0.55,
+          "3": 0.39,
           "4": 0.0
         },
         "topic": "ai_models_research",
-        "topic_confidence": 0.75,
+        "topic_confidence": 0.45,
         "topic_probabilities": {
-          "ai_models_research": 0.8,
-          "developer_tools": 0.18,
+          "ai_models_research": 0.56,
+          "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.02
+          "policy_business": 0.43,
+          "other_technology": 0.01
         }
       }
     },
@@ -288,7 +384,7 @@
       "source_id": "GoogleChrome/modern-web-guidance-src",
       "title": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
       "summary": "Keep your coding agent up to date with the latest web best practices",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -316,80 +412,12 @@
       }
     },
     {
-      "id": "github_trending:tailscale/tailcat",
-      "source": "github_trending",
-      "source_id": "tailscale/tailcat",
-      "title": "tailscale/tailcat",
-      "url": "https://github.com/tailscale/tailcat",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
-      "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.1,
-        "recommended": true,
-        "relevance_confidence": 0.68,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.14,
-          "2": 0.62,
-          "3": 0.24,
-          "4": 0.0
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.95,
-          "hardware_datacenters": 0.04,
-          "policy_business": 0.0,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "hackernews:50492993",
-      "source": "hackernews",
-      "source_id": "50492993",
-      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-      "published_at": "2026-11-14T02:21:36+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50492993",
-      "points": 203,
-      "comments": 47,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.01,
-        "recommended": true,
-        "relevance_confidence": 0.14,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.35,
-          "2": 0.28,
-          "3": 0.34,
-          "4": 0.02
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.03,
-          "policy_business": 0.96,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
       "id": "github_trending:backnotprop/plannotator",
       "source": "github_trending",
       "source_id": "backnotprop/plannotator",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -422,7 +450,7 @@
       "source_id": "tradermonty/claude-trading-skills",
       "title": "tradermonty/claude-trading-skills",
       "url": "https://github.com/tradermonty/claude-trading-skills",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
       "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -455,7 +483,7 @@
       "source_id": "Likely7/Veyra-NRVideo",
       "title": "Likely7/Veyra-NRVideo",
       "url": "https://github.com/Likely7/Veyra-NRVideo",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
       "summary": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -483,12 +511,45 @@
       }
     },
     {
+      "id": "github_trending:sponsors/JuliusBrussee",
+      "source": "github_trending",
+      "source_id": "sponsors/JuliusBrussee",
+      "title": "sponsors/JuliusBrussee",
+      "url": "https://github.com/sponsors/JuliusBrussee",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.61,
+        "recommended": false,
+        "relevance_confidence": 0.48,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.46,
+          "2": 0.46,
+          "3": 0.08,
+          "4": 0.0
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.41,
+        "topic_probabilities": {
+          "ai_models_research": 0.53,
+          "developer_tools": 0.47,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/louislam",
       "source": "github_trending",
       "source_id": "sponsors/louislam",
       "title": "sponsors/louislam",
       "url": "https://github.com/sponsors/louislam",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
       "summary": "A fancy self-hosted monitoring tool",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -516,35 +577,163 @@
       }
     },
     {
-      "id": "github_trending:block/buzz",
+      "id": "the-verge:https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+      "title": "Work to replace old copper wire led to the FAA’s ground stop",
+      "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+      "published_at": "2026-11-14T17:44:28+00:00",
+      "summary": "At a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a \"remote FAA facility.\" The secretary said that this was \"routine maintenance,\" rather than the result of a major modernization effort. He […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.46,
+        "recommended": false,
+        "relevance_confidence": 0.53,
+        "relevance_probabilities": {
+          "0": 0.05,
+          "1": 0.55,
+          "2": 0.29,
+          "3": 0.11,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.45,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.18,
+          "policy_business": 0.26,
+          "other_technology": 0.56
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "published_at": "2026-11-14T12:00:00+00:00",
+      "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.35,
+        "recommended": false,
+        "relevance_confidence": 0.7,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.69,
+          "2": 0.26,
+          "3": 0.05,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.44,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.13,
+          "policy_business": 0.32,
+          "other_technology": 0.55
+        }
+      }
+    },
+    {
+      "id": "github_trending:martin-olivier/airgorah",
       "source": "github_trending",
-      "source_id": "block/buzz",
-      "title": "block/buzz",
-      "url": "https://github.com/block/buzz",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
-      "summary": "A hive mind communication platform",
+      "source_id": "martin-olivier/airgorah",
+      "title": "martin-olivier/airgorah",
+      "url": "https://github.com/martin-olivier/airgorah",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "summary": "A WiFi security auditing software",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.37,
+        "relevance_score": 1.32,
         "recommended": false,
-        "relevance_confidence": 0.68,
+        "relevance_confidence": 0.7,
         "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.64,
-          "2": 0.32,
-          "3": 0.03,
+          "0": 0.02,
+          "1": 0.66,
+          "2": 0.3,
+          "3": 0.02,
           "4": 0.0
         },
         "topic": "developer_tools",
-        "topic_confidence": 0.85,
+        "topic_confidence": 0.76,
         "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.88,
+          "ai_models_research": 0.0,
+          "developer_tools": 0.81,
+          "hardware_datacenters": 0.02,
+          "policy_business": 0.0,
+          "other_technology": 0.17
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+      "title": "A gadget to make your dumb house smarter",
+      "url": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+      "published_at": "2026-11-14T13:00:00+00:00",
+      "summary": "Hi, friends! Welcome to Installer No. 152, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, thank you for taking time away from Zelda to be here, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about school apps […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.27,
+        "recommended": false,
+        "relevance_confidence": 0.74,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.72,
+          "2": 0.23,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
-          "other_technology": 0.11
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
+      "title": "This tiny gamepad with dual analog thumbsticks pushes the limits of portable controllers",
+      "url": "https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
+      "published_at": "2026-11-14T14:00:00+00:00",
+      "summary": "As much as I appreciate the ingenious design of the Nintendo Switch's Joy-Con, my family and I can't stand using them as standalone gamepads. So when we travel with the Switch 2, we always bring at least one full-size gamepad, plus a couple of 8BitDo's Zero 2 controllers for games that don't use analog thumbsticks. […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.18,
+        "recommended": false,
+        "relevance_confidence": 0.78,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.75,
+          "2": 0.2,
+          "3": 0.01,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     },
@@ -554,7 +743,7 @@
       "source_id": "we-promise/sure",
       "title": "we-promise/sure",
       "url": "https://github.com/we-promise/sure",
-      "published_at": "2026-11-14T11:34:11.289308+00:00",
+      "published_at": "2026-11-14T18:11:41.282195+00:00",
       "summary": "The personal finance app for everyone (by everyone)",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -582,110 +771,39 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/news/1033489/faa-ground-stop",
+      "id": "the-verge:https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/news/1033489/faa-ground-stop",
-      "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
-      "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
-      "published_at": "2026-11-14T01:53:04+00:00",
-      "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights will resume. It's unclear how […]",
+      "source_id": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+      "title": "Here are our favorite deals from REI’s giant Holiday Sale",
+      "url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+      "published_at": "2026-11-14T15:00:00+00:00",
+      "summary": "Black Friday has become a shopping season of its own, with retailers once again offering discounts well ahead of the actual shopping holiday. We’ve already rounded up some of the best early Black Friday deals we’ve come across, but if you’re looking to save on outdoor gear or pick up something for an upcoming trip, […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.04,
+        "relevance_score": 0.1,
         "recommended": false,
-        "relevance_confidence": 0.62,
+        "relevance_confidence": 0.92,
         "relevance_probabilities": {
-          "0": 0.21,
-          "1": 0.58,
-          "2": 0.17,
-          "3": 0.04,
+          "0": 0.9,
+          "1": 0.1,
+          "2": 0.0,
+          "3": 0.0,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.86,
+        "topic_confidence": 0.94,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.02,
-          "policy_business": 0.09,
-          "other_technology": 0.89
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.05,
+          "other_technology": 0.95
         }
       }
     }
   ],
   "reddit": [],
-  "hn": [
-    {
-      "id": "hackernews:50492993",
-      "source": "hackernews",
-      "source_id": "50492993",
-      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-      "published_at": "2026-11-14T02:21:36+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50492993",
-      "points": 203,
-      "comments": 47,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.01,
-        "recommended": true,
-        "relevance_confidence": 0.14,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.35,
-          "2": 0.28,
-          "3": 0.34,
-          "4": 0.02
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.03,
-          "policy_business": 0.96,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "hackernews:50493251",
-      "source": "hackernews",
-      "source_id": "50493251",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "published_at": "2026-11-14T02:52:59+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50493251",
-      "points": 632,
-      "comments": 369,
-      "matched_term": "NVIDIA",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.63,
-        "recommended": true,
-        "relevance_confidence": 0.58,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.1,
-          "2": 0.23,
-          "3": 0.6,
-          "4": 0.07
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.8,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.16,
-          "policy_business": 0.84,
-          "other_technology": 0.0
-        }
-      }
-    }
-  ],
+  "hn": [],
   "polymarket": []
 }
