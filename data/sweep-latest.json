@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-14T18:10:13.703627+00:00",
+  "generated_at": "2026-11-14T23:57:26.872674+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-14T11:32:32.769907+00:00"
+    "newsapi": "2026-11-14T23:57:26.872674+00:00"
   },
   "counts": {
     "reddit": 0,
     "hackernews": 0,
     "polymarket": 0,
-    "rss": 9,
+    "rss": 12,
     "arxiv": 0,
     "sec_edgar": 0,
     "github": 0,
     "github_trending": 15,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 100,
     "mediastack": 0
   },
   "items": [
@@ -57,7 +57,7 @@
       "source_id": "QwenLM/qwen-code",
       "title": "QwenLM/qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "An open-source AI coding agent that lives in your terminal.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -90,7 +90,7 @@
       "source_id": "alibaba/open-code-review",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -155,7 +155,7 @@
       "source_id": "ChromeDevTools/chrome-devtools-mcp",
       "title": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "Chrome DevTools for coding agents",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -220,7 +220,7 @@
       "source_id": "sponsors/ashhart",
       "title": "sponsors/ashhart",
       "url": "https://github.com/sponsors/ashhart",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -253,7 +253,7 @@
       "source_id": "dream-num/univer",
       "title": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -286,7 +286,7 @@
       "source_id": "ag-ui-protocol/ag-ui",
       "title": "ag-ui-protocol/ag-ui",
       "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -319,7 +319,7 @@
       "source_id": "Tencent/LoopForge",
       "title": "Tencent/LoopForge",
       "url": "https://github.com/Tencent/LoopForge",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -384,7 +384,7 @@
       "source_id": "GoogleChrome/modern-web-guidance-src",
       "title": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "Keep your coding agent up to date with the latest web best practices",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -412,12 +412,44 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "published_at": "2026-11-14T21:41:22+00:00",
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.98,
+        "recommended": false,
+        "relevance_confidence": 0.18,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.35,
+          "2": 0.34,
+          "3": 0.29,
+          "4": 0.02
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.47,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.28,
+          "policy_business": 0.58,
+          "other_technology": 0.14
+        }
+      }
+    },
+    {
       "id": "github_trending:backnotprop/plannotator",
       "source": "github_trending",
       "source_id": "backnotprop/plannotator",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -450,7 +482,7 @@
       "source_id": "tradermonty/claude-trading-skills",
       "title": "tradermonty/claude-trading-skills",
       "url": "https://github.com/tradermonty/claude-trading-skills",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -478,12 +510,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+      "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+      "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+      "published_at": "2026-11-14T21:44:44+00:00",
+      "summary": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed 'chopstick' catches of its boosters before, but this is the first time the maneuver has successfully been executed on the Starship vehicle itself. SpaceX CEO Elon […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.89,
+        "recommended": false,
+        "relevance_confidence": 0.45,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.34,
+          "2": 0.38,
+          "3": 0.24,
+          "4": 0.02
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
       "id": "github_trending:Likely7/Veyra-NRVideo",
       "source": "github_trending",
       "source_id": "Likely7/Veyra-NRVideo",
       "title": "Likely7/Veyra-NRVideo",
       "url": "https://github.com/Likely7/Veyra-NRVideo",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -516,7 +580,7 @@
       "source_id": "sponsors/JuliusBrussee",
       "title": "sponsors/JuliusBrussee",
       "url": "https://github.com/sponsors/JuliusBrussee",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -549,7 +613,7 @@
       "source_id": "sponsors/louislam",
       "title": "sponsors/louislam",
       "url": "https://github.com/sponsors/louislam",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "A fancy self-hosted monitoring tool",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -646,7 +710,7 @@
       "source_id": "martin-olivier/airgorah",
       "title": "martin-olivier/airgorah",
       "url": "https://github.com/martin-olivier/airgorah",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "A WiFi security auditing software",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -743,7 +807,7 @@
       "source_id": "we-promise/sure",
       "title": "we-promise/sure",
       "url": "https://github.com/we-promise/sure",
-      "published_at": "2026-11-14T18:11:41.282195+00:00",
+      "published_at": "2026-11-14T23:58:56.376588+00:00",
       "summary": "The personal finance app for everyone (by everyone)",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -767,6 +831,38 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.31
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+      "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+      "url": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+      "published_at": "2026-11-14T19:47:40+00:00",
+      "summary": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027. An animated Magic: The Gathering series was first teased back in 2019 with Joe and Anthony Russo at […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.31,
+        "recommended": false,
+        "relevance_confidence": 0.74,
+        "relevance_probabilities": {
+          "0": 0.7,
+          "1": 0.29,
+          "2": 0.01,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.99
         }
       }
     },
