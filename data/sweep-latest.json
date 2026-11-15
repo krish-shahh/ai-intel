@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T15:40:53.167025+00:00",
+  "generated_at": "2026-11-15T21:03:39.285721+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
@@ -7,25 +7,57 @@
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 0,
+    "hackernews": 2,
     "polymarket": 0,
-    "rss": 3,
+    "rss": 9,
     "arxiv": 0,
     "sec_edgar": 0,
     "github": 0,
     "github_trending": 12,
-    "gdelt": 31,
-    "newsapi": 100,
+    "gdelt": 0,
+    "newsapi": 0,
     "mediastack": 0
   },
   "items": [
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "published_at": "2026-11-15T19:15:43+00:00",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.19,
+        "recommended": true,
+        "relevance_confidence": 0.74,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.04,
+          "3": 0.7,
+          "4": 0.25
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.94,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.05,
+          "policy_business": 0.95,
+          "other_technology": 0.0
+        }
+      }
+    },
     {
       "id": "github_trending:alibaba/open-code-review",
       "source": "github_trending",
       "source_id": "alibaba/open-code-review",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -58,7 +90,7 @@
       "source_id": "NVIDIA/SkillEvaluator",
       "title": "NVIDIA/SkillEvaluator",
       "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -91,7 +123,7 @@
       "source_id": "ggml-org/ggml",
       "title": "ggml-org/ggml",
       "url": "https://github.com/ggml-org/ggml",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "Tensor library for machine learning",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -119,46 +151,12 @@
       }
     },
     {
-      "id": "gdelt:https://www.thestar.com.my/news/nation/2026/11/15/anwar-warns-against-tech-giants-dominating-ai-development-governance",
-      "source": "gdelt",
-      "source_id": "https://www.thestar.com.my/news/nation/2026/11/15/anwar-warns-against-tech-giants-dominating-ai-development-governance",
-      "title": "Anwar warns against tech giants dominating AI development , governance",
-      "url": "https://www.thestar.com.my/news/nation/2026/11/15/anwar-warns-against-tech-giants-dominating-ai-development-governance",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://apicms.thestar.com.my/uploads/images/2026/11/15/4213262.jpg",
-      "domain": "thestar.com.my",
-      "language": "English",
-      "country": "Malaysia",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.73,
-        "recommended": true,
-        "relevance_confidence": 0.73,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.03,
-          "2": 0.23,
-          "3": 0.71,
-          "4": 0.03
-        },
-        "topic": "policy_business",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 1.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
       "id": "github_trending:ChromeDevTools/chrome-devtools-mcp",
       "source": "github_trending",
       "source_id": "ChromeDevTools/chrome-devtools-mcp",
       "title": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "Chrome DevTools for coding agents",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -186,70 +184,34 @@
       }
     },
     {
-      "id": "gdelt:http://www.thedailytimes.com/news/data-center-diaspora-democrats-blue-wave-wins-could-send-ai-buildout-out-of-us/article_d4f73402-6cf0-5101-9ba0-a99e495487bb.html",
-      "source": "gdelt",
-      "source_id": "http://www.thedailytimes.com/news/data-center-diaspora-democrats-blue-wave-wins-could-send-ai-buildout-out-of-us/article_d4f73402-6cf0-5101-9ba0-a99e495487bb.html",
-      "title": "Data center diaspora : Democrat blue wave wins could send AI buildout out of US | News",
-      "url": "http://www.thedailytimes.com/news/data-center-diaspora-democrats-blue-wave-wins-could-send-ai-buildout-out-of-us/article_d4f73402-6cf0-5101-9ba0-a99e495487bb.html",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://bloximages.chicago2.vip.townnews.com/thedailytimes.com/content/tncms/assets/v3/editorial/c/c6/cc69cf86-4a13-552b-9c09-5694dbfbd200/6af866a4164a0.image.jpg?crop=1024%2C538%2C0%2C72",
-      "domain": "thedailytimes.com",
-      "language": "English",
-      "country": "United States",
+      "id": "the-verge:https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+      "title": "Apple’s first smart glasses are coming together",
+      "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+      "published_at": "2026-11-15T16:59:16+00:00",
+      "summary": "Apple's smart glasses are among the worst-kept secrets in the tech world. Bloomberg's Mark Gurman says the company's first model, which will lack augmented reality features, will be announced at June's WWDC next year. They likely won't ship right away, however, with Gurman saying only that \"glasses shipments would begin before the end of the […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.68,
+        "relevance_score": 2.64,
         "recommended": true,
-        "relevance_confidence": 0.67,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.07,
-          "2": 0.18,
-          "3": 0.69,
-          "4": 0.05
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.51,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.61,
-          "policy_business": 0.39,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.thehindubusinessline.com/markets/sebi-to-issue-ai-norms-for-capital-markets-safeguard-investor-interests-pandey/article71704258.ece",
-      "source": "gdelt",
-      "source_id": "https://www.thehindubusinessline.com/markets/sebi-to-issue-ai-norms-for-capital-markets-safeguard-investor-interests-pandey/article71704258.ece",
-      "title": "SEBI to issue AI norms for capital markets , safeguard investor interests : Pandey",
-      "url": "https://www.thehindubusinessline.com/markets/sebi-to-issue-ai-norms-for-capital-markets-safeguard-investor-interests-pandey/article71704258.ece",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://bl-i.thgim.com/public/incoming/1aw7uy/article71704262.ece/alternates/LANDSCAPE_1200/SEBI-weighs-twoGL9GP2J76.4.jpg.jpg",
-      "domain": "thehindubusinessline.com",
-      "language": "English",
-      "country": "India",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.67,
-        "recommended": true,
-        "relevance_confidence": 0.72,
+        "relevance_confidence": 0.64,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.04,
-          "2": 0.25,
-          "3": 0.7,
-          "4": 0.01
+          "1": 0.02,
+          "2": 0.36,
+          "3": 0.59,
+          "4": 0.03
         },
-        "topic": "policy_business",
-        "topic_confidence": 1.0,
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 1.0,
-          "other_technology": 0.0
+          "policy_business": 0.01,
+          "other_technology": 0.99
         }
       }
     },
@@ -259,7 +221,7 @@
       "source_id": "dream-num/univer",
       "title": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -287,46 +249,12 @@
       }
     },
     {
-      "id": "gdelt:https://www.thehitavada.com/Encyc/2026/11/15/services-restored-after-hourslong-global-outage-microsoft.html",
-      "source": "gdelt",
-      "source_id": "https://www.thehitavada.com/Encyc/2026/11/15/services-restored-after-hourslong-global-outage-microsoft.html",
-      "title": "Services restored after hourslong global outage : Microsoft",
-      "url": "https://www.thehitavada.com/Encyc/2026/11/15/services-restored-after-hourslong-global-outage-microsoft.html",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://www.thehitavada.com/Encyc/2026/11/15/57_202611150844120416.png",
-      "domain": "thehitavada.com",
-      "language": "English",
-      "country": "India",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.45,
-        "recommended": true,
-        "relevance_confidence": 0.35,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.15,
-          "2": 0.3,
-          "3": 0.41,
-          "4": 0.12
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.91,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.01,
-          "hardware_datacenters": 0.06,
-          "policy_business": 0.0,
-          "other_technology": 0.93
-        }
-      }
-    },
-    {
       "id": "github_trending:ag-ui-protocol/ag-ui",
       "source": "github_trending",
       "source_id": "ag-ui-protocol/ag-ui",
       "title": "ag-ui-protocol/ag-ui",
       "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -359,7 +287,7 @@
       "source_id": "Tencent/LoopForge",
       "title": "Tencent/LoopForge",
       "url": "https://github.com/Tencent/LoopForge",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -392,7 +320,7 @@
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -420,80 +348,12 @@
       }
     },
     {
-      "id": "gdelt:https://www.texarkanagazette.com/news/2026/nov/14/voters-rejected-data-centers-many-will-be-built/",
-      "source": "gdelt",
-      "source_id": "https://www.texarkanagazette.com/news/2026/nov/14/voters-rejected-data-centers-many-will-be-built/",
-      "title": "Voters rejected data centers . Many will be built anyway .",
-      "url": "https://www.texarkanagazette.com/news/2026/nov/14/voters-rejected-data-centers-many-will-be-built/",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://wehco.media.clients.ellingtoncms.com/imports/adg/img/2026/11/15/214059254_213767827-09d8a488926c497fb76a368dc61177bd_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
-      "domain": "texarkanagazette.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.33,
-        "recommended": true,
-        "relevance_confidence": 0.52,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.11,
-          "2": 0.45,
-          "3": 0.42,
-          "4": 0.01
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.76,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.81,
-          "policy_business": 0.19,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/south-korea-probes-top-exam-scorer-after-ai-cheating-confession",
-      "source": "gdelt",
-      "source_id": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/south-korea-probes-top-exam-scorer-after-ai-cheating-confession",
-      "title": "South Korea probes top exam scorer after AI cheating confession",
-      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/south-korea-probes-top-exam-scorer-after-ai-cheating-confession",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://apicms.thestar.com.my/uploads/images/2026/11/15/4213325.jpg",
-      "domain": "thestar.com.my",
-      "language": "English",
-      "country": "Malaysia",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.33,
-        "recommended": true,
-        "relevance_confidence": 0.58,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.08,
-          "2": 0.51,
-          "3": 0.4,
-          "4": 0.01
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.55,
-        "topic_probabilities": {
-          "ai_models_research": 0.03,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.33,
-          "other_technology": 0.64
-        }
-      }
-    },
-    {
       "id": "github_trending:GoogleChrome/modern-web-guidance-src",
       "source": "github_trending",
       "source_id": "GoogleChrome/modern-web-guidance-src",
       "title": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "Keep your coding agent up to date with the latest web best practices",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -517,40 +377,6 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.freemalaysiatoday.com/category/highlight/2026/11/15/south-korean-police-probes-top-exam-scorer-after-ai-cheating-confession",
-      "source": "gdelt",
-      "source_id": "https://www.freemalaysiatoday.com/category/highlight/2026/11/15/south-korean-police-probes-top-exam-scorer-after-ai-cheating-confession",
-      "title": "South Korean police probes top exam scorer after AI cheating confession",
-      "url": "https://www.freemalaysiatoday.com/category/highlight/2026/11/15/south-korean-police-probes-top-exam-scorer-after-ai-cheating-confession",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/7db8b346-d1f8-4506-97aa-3de2d39043f9-Smart-glasses-EPA-15112026-.webp",
-      "domain": "freemalaysiatoday.com",
-      "language": "English",
-      "country": "Malaysia",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.28,
-        "recommended": true,
-        "relevance_confidence": 0.6,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.09,
-          "2": 0.53,
-          "3": 0.37,
-          "4": 0.01
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.65,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.27,
-          "other_technology": 0.72
         }
       }
     },
@@ -587,80 +413,12 @@
       }
     },
     {
-      "id": "gdelt:https://www.theguardian.com/money/2026/nov/15/captcha-scam-computer-malicious-software",
-      "source": "gdelt",
-      "source_id": "https://www.theguardian.com/money/2026/nov/15/captcha-scam-computer-malicious-software",
-      "title": "Prove you are not a robot : how the Captcha scam captures your computer | Money",
-      "url": "https://www.theguardian.com/money/2026/nov/15/captcha-scam-computer-malicious-software",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://i.guim.co.uk/img/media/5bdb2471a5767826c1725b205b85b8d90e4b4f77/480_0_4800_3840/master/4800.jpg?&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e0c6d5fe6d90a69f0fabd08abb1914e3",
-      "domain": "theguardian.com",
-      "language": "English",
-      "country": "United Kingdom",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.17,
-        "recommended": true,
-        "relevance_confidence": 0.55,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.17,
-          "2": 0.47,
-          "3": 0.35,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.aol.com/articles/nvidia-earnings-along-baggage-top-023700000.html",
-      "source": "gdelt",
-      "source_id": "https://www.aol.com/articles/nvidia-earnings-along-baggage-top-023700000.html",
-      "title": "Nvidia earnings along with the baggage top next week markets",
-      "url": "https://www.aol.com/articles/nvidia-earnings-along-baggage-top-023700000.html",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://hermes.media.static.aol.com/media/2026/11/15/f493f734-35a4-36c8-85cf-2de889b8dd28/df81711f-881a-4762-a267-7e5480019b58.jpg",
-      "domain": "aol.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.12,
-        "recommended": true,
-        "relevance_confidence": 0.38,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.27,
-          "2": 0.33,
-          "3": 0.33,
-          "4": 0.05
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.75,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.19,
-          "policy_business": 0.8,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/elementalsouls",
       "source": "github_trending",
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -688,36 +446,34 @@
       }
     },
     {
-      "id": "gdelt:https://www.heraldscotland.com/news/26728286.ai-errors-spark-calls-scrap-scotlands-school-curriculum-reforms/",
-      "source": "gdelt",
-      "source_id": "https://www.heraldscotland.com/news/26728286.ai-errors-spark-calls-scrap-scotlands-school-curriculum-reforms/",
-      "title": "AI errors spark calls to scrap Scotland school curriculum reforms",
-      "url": "https://www.heraldscotland.com/news/26728286.ai-errors-spark-calls-scrap-scotlands-school-curriculum-reforms/",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://www.heraldscotland.com/resources/images/17780047.jpg?type=og-image",
-      "domain": "heraldscotland.com",
-      "language": "English",
-      "country": "United Kingdom",
+      "id": "the-verge:https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "published_at": "2026-11-15T20:43:49+00:00",
+      "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a path back to CEO, […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.0,
+        "relevance_score": 2.07,
         "recommended": true,
-        "relevance_confidence": 0.48,
+        "relevance_confidence": 0.49,
         "relevance_probabilities": {
-          "0": 0.02,
+          "0": 0.0,
           "1": 0.27,
-          "2": 0.39,
-          "3": 0.32,
-          "4": 0.0
+          "2": 0.41,
+          "3": 0.3,
+          "4": 0.02
         },
         "topic": "policy_business",
-        "topic_confidence": 0.64,
+        "topic_confidence": 0.77,
         "topic_probabilities": {
-          "ai_models_research": 0.07,
+          "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.71,
-          "other_technology": 0.22
+          "hardware_datacenters": 0.1,
+          "policy_business": 0.82,
+          "other_technology": 0.08
         }
       }
     },
@@ -727,7 +483,7 @@
       "source_id": "backnotprop/plannotator",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -760,7 +516,7 @@
       "source_id": "tradermonty/claude-trading-skills",
       "title": "tradermonty/claude-trading-skills",
       "url": "https://github.com/tradermonty/claude-trading-skills",
-      "published_at": "2026-11-15T15:42:22.334538+00:00",
+      "published_at": "2026-11-15T21:05:11.899487+00:00",
       "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -788,240 +544,72 @@
       }
     },
     {
-      "id": "gdelt:https://www.areanews.com.au/story/9391875/new-awards-show-celebrates-ai-music-and-its-creators/",
-      "source": "gdelt",
-      "source_id": "https://www.areanews.com.au/story/9391875/new-awards-show-celebrates-ai-music-and-its-creators/",
-      "title": "New awards show celebrates AI music and its creators",
-      "url": "https://www.areanews.com.au/story/9391875/new-awards-show-celebrates-ai-music-and-its-creators/",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://www.areanews.com.au/images/transform/v1/crop/frm/silverstone-feed-data/5f83390d-34f9-4d50-a2db-197feb36ff70.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
-      "domain": "areanews.com.au",
-      "language": "English",
-      "country": "Australia",
+      "id": "hackernews:50509883",
+      "source": "hackernews",
+      "source_id": "50509883",
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+      "published_at": "2026-11-15T19:31:11+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50509883",
+      "points": 60,
+      "comments": 37,
+      "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.93,
+        "relevance_score": 1.74,
         "recommended": false,
-        "relevance_confidence": 0.69,
+        "relevance_confidence": 0.3,
         "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.22,
-          "2": 0.63,
-          "3": 0.15,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.45,
-        "topic_probabilities": {
-          "ai_models_research": 0.16,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.28,
-          "other_technology": 0.56
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://econotimes.com/HD-Hyundai-and-Anduril-Plan-U-S-Testing-for-600-Ton-Vessel-in-2027-1777159",
-      "source": "gdelt",
-      "source_id": "https://econotimes.com/HD-Hyundai-and-Anduril-Plan-U-S-Testing-for-600-Ton-Vessel-in-2027-1777159",
-      "title": "HD Hyundai and Anduril Plan U . S . Testing for 600 - Ton Vessel in 2027",
-      "url": "https://econotimes.com/HD-Hyundai-and-Anduril-Plan-U-S-Testing-for-600-Ton-Vessel-in-2027-1777159",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://wfuxxvxhdynkhcrlavdu.supabase.co/storage/v1/object/public/article-media/articles/5341cfea3f243742b9511f76a6f51b3a716c8fe58c1bf2f83d6f5613276c9270.webp",
-      "domain": "econotimes.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.85,
-        "recommended": false,
-        "relevance_confidence": 0.21,
-        "relevance_probabilities": {
-          "0": 0.05,
-          "1": 0.36,
-          "2": 0.29,
-          "3": 0.29,
-          "4": 0.01
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.7,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.24,
-          "other_technology": 0.76
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.southernhighlandnews.com.au/story/9391875/new-awards-show-celebrates-ai-music-and-its-creators/",
-      "source": "gdelt",
-      "source_id": "https://www.southernhighlandnews.com.au/story/9391875/new-awards-show-celebrates-ai-music-and-its-creators/",
-      "title": "New awards show celebrates AI music and its creators",
-      "url": "https://www.southernhighlandnews.com.au/story/9391875/new-awards-show-celebrates-ai-music-and-its-creators/",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://www.southernhighlandnews.com.au/images/transform/v1/crop/frm/silverstone-feed-data/5f83390d-34f9-4d50-a2db-197feb36ff70.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
-      "domain": "southernhighlandnews.com.au",
-      "language": "English",
-      "country": "Australia",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.77,
-        "recommended": false,
-        "relevance_confidence": 0.67,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.31,
-          "2": 0.6,
-          "3": 0.09,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.39,
-        "topic_probabilities": {
-          "ai_models_research": 0.17,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.32,
-          "other_technology": 0.51
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.thehindubusinessline.com/economy/global-economy-to-grow-28-in-2027-buoyed-by-lower-oil-prices-and-ai-investments-goldman-sachs/article71704111.ece",
-      "source": "gdelt",
-      "source_id": "https://www.thehindubusinessline.com/economy/global-economy-to-grow-28-in-2027-buoyed-by-lower-oil-prices-and-ai-investments-goldman-sachs/article71704111.ece",
-      "title": "Global economy to grow 2 . 8 % in 2027 , buoyed by lower oil prices and AI investments : Goldman Sachs",
-      "url": "https://www.thehindubusinessline.com/economy/global-economy-to-grow-28-in-2027-buoyed-by-lower-oil-prices-and-ai-investments-goldman-sachs/article71704111.ece",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://bl-i.thgim.com/public/incoming/g1uya1/article71704126.ece/alternates/LANDSCAPE_1200/bl05-Think1-MidGOIFUGE2F.5.jpg.jpg",
-      "domain": "thehindubusinessline.com",
-      "language": "English",
-      "country": "India",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.75,
-        "recommended": false,
-        "relevance_confidence": 0.68,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.31,
-          "2": 0.62,
-          "3": 0.07,
-          "4": 0.0
+          "0": 0.04,
+          "1": 0.45,
+          "2": 0.26,
+          "3": 0.21,
+          "4": 0.04
         },
         "topic": "policy_business",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.94,
-          "other_technology": 0.05
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.muswellbrookchronicle.com.au/story/9391875/new-awards-show-celebrates-ai-music-and-its-creators/",
-      "source": "gdelt",
-      "source_id": "https://www.muswellbrookchronicle.com.au/story/9391875/new-awards-show-celebrates-ai-music-and-its-creators/",
-      "title": "New awards show celebrates AI music and its creators",
-      "url": "https://www.muswellbrookchronicle.com.au/story/9391875/new-awards-show-celebrates-ai-music-and-its-creators/",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://www.muswellbrookchronicle.com.au/images/transform/v1/crop/frm/silverstone-feed-data/5f83390d-34f9-4d50-a2db-197feb36ff70.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
-      "domain": "muswellbrookchronicle.com.au",
-      "language": "English",
-      "country": "Australia",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.66,
-        "recommended": false,
-        "relevance_confidence": 0.59,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.4,
-          "2": 0.52,
-          "3": 0.07,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.42,
-        "topic_probabilities": {
-          "ai_models_research": 0.2,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.26,
-          "other_technology": 0.54
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.afr.com/world/north-america/made-a-rookie-mistake-tech-bros-rally-behind-jensen-huang-20261115-p61e8w",
-      "source": "gdelt",
-      "source_id": "https://www.afr.com/world/north-america/made-a-rookie-mistake-tech-bros-rally-behind-jensen-huang-20261115-p61e8w",
-      "title": "Elon Musk and Silicon Valley tech bros rally behind ex - Nvidia CEO Jensen Huang",
-      "url": "https://www.afr.com/world/north-america/made-a-rookie-mistake-tech-bros-rally-behind-jensen-huang-20261115-p61e8w",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://static.ffx.io/images/$zoom_0.1331%2C$multiply_4%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_16/t_crop_custom/c_scale%2Cw_800%2Cq_88%2Cf_jpg/t_afr_no_label_no_age_social_wm/d768f3c453a7473ceb6f85776f7bf9ed089db5de",
-      "domain": "afr.com",
-      "language": "English",
-      "country": "Australia",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.63,
-        "recommended": false,
-        "relevance_confidence": 0.43,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.52,
-          "2": 0.28,
-          "3": 0.16,
-          "4": 0.02
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.46,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.57,
-          "policy_business": 0.29,
-          "other_technology": 0.13
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://econotimes.com/Ukraine-Uses-Stargate-Drone-to-Evacuate-Wounded-Soldier-30-Kilometers-1777160",
-      "source": "gdelt",
-      "source_id": "https://econotimes.com/Ukraine-Uses-Stargate-Drone-to-Evacuate-Wounded-Soldier-30-Kilometers-1777160",
-      "title": "Ukraine Uses Stargate Drone to Evacuate Wounded Soldier 30 Kilometers",
-      "url": "https://econotimes.com/Ukraine-Uses-Stargate-Drone-to-Evacuate-Wounded-Soldier-30-Kilometers-1777160",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://wfuxxvxhdynkhcrlavdu.supabase.co/storage/v1/object/public/article-media/articles/cfa81a281549b5f8ad87b7e2a8c06e0bdb58366d600ade9e329d1d19f009c3ff.webp",
-      "domain": "econotimes.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.52,
-        "recommended": false,
-        "relevance_confidence": 0.52,
-        "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.51,
-          "2": 0.37,
-          "3": 0.09,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
+        "topic_confidence": 0.56,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
+          "hardware_datacenters": 0.27,
+          "policy_business": 0.65,
+          "other_technology": 0.08
+        }
+      }
+    },
+    {
+      "id": "hackernews:50505905",
+      "source": "hackernews",
+      "source_id": "50505905",
+      "title": "Jensen Huang allegedly manufactured the GPU shortage",
+      "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+      "published_at": "2026-11-15T10:53:50+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50505905",
+      "points": 56,
+      "comments": 57,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.64,
+        "recommended": false,
+        "relevance_confidence": 0.44,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.52,
+          "2": 0.29,
+          "3": 0.17,
+          "4": 0.01
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.79,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.83,
+          "policy_business": 0.16,
+          "other_technology": 0.01
         }
       }
     },
@@ -1058,40 +646,6 @@
       }
     },
     {
-      "id": "gdelt:https://www.strategy-business.com/article/Leading-a-Bionic-Transformation",
-      "source": "gdelt",
-      "source_id": "https://www.strategy-business.com/article/Leading-a-Bionic-Transformation",
-      "title": "Leading a Bionic Transformation",
-      "url": "https://www.strategy-business.com/article/Leading-a-Bionic-Transformation",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "",
-      "domain": "strategy-business.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.35,
-        "recommended": false,
-        "relevance_confidence": 0.5,
-        "relevance_probabilities": {
-          "0": 0.13,
-          "1": 0.53,
-          "2": 0.21,
-          "3": 0.13,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.7,
-        "topic_probabilities": {
-          "ai_models_research": 0.04,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.76,
-          "other_technology": 0.19
-        }
-      }
-    },
-    {
       "id": "the-verge:https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
       "source": "the-verge",
       "source_id": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
@@ -1124,449 +678,174 @@
       }
     },
     {
-      "id": "gdelt:https://www.fox32chicago.com/news/how-data-centers-lost-big-midterm-elections",
-      "source": "gdelt",
-      "source_id": "https://www.fox32chicago.com/news/how-data-centers-lost-big-midterm-elections",
-      "title": "How data centers lost in the midterm elections",
-      "url": "https://www.fox32chicago.com/news/how-data-centers-lost-big-midterm-elections",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://images.foxtv.com/static.fox2detroit.com/www.fox2detroit.com/content/uploads/2026/11/1280/720/gettyimages-2302557983-scaled.jpg?ve=1&tl=1",
-      "domain": "fox32chicago.com",
-      "language": "English",
-      "country": "United States",
+      "id": "the-verge:https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale",
+      "title": "Fanttik’s S1 Pro electric screwdriver is $40 off in the run-up to Black Friday",
+      "url": "https://www.theverge.com/gadgets/1033620/fantikk-s1-pro-electric-screwdriver-black-friday-2026-deal-sale",
+      "published_at": "2026-11-15T17:00:00+00:00",
+      "summary": "Amazon’s early Black Friday promos are already underway, and we’ll be highlighting some of our favorites over the next few days on our Shopping page. Among them is the Fanttik S1 Pro Cordless Electric Screwdriver, which is currently matching its all-time low of $39.99 ($40 off) at Amazon for a limited time. Fanttik’s rechargeable tool […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.86,
+        "relevance_score": 0.61,
         "recommended": false,
-        "relevance_confidence": 0.57,
+        "relevance_confidence": 0.65,
         "relevance_probabilities": {
-          "0": 0.33,
-          "1": 0.54,
-          "2": 0.08,
-          "3": 0.05,
-          "4": 0.0
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.42,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.54,
-          "policy_business": 0.3,
-          "other_technology": 0.16
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.business-standard.com/companies/people/from-bicycle-parts-to-satellites-inside-sunil-mittal-s-50-year-journey-126111500180_1.html",
-      "source": "gdelt",
-      "source_id": "https://www.business-standard.com/companies/people/from-bicycle-parts-to-satellites-inside-sunil-mittal-s-50-year-journey-126111500180_1.html",
-      "title": "From bicycle parts to satellites : Inside Sunil Mittal 50 - year journey",
-      "url": "https://www.business-standard.com/companies/people/from-bicycle-parts-to-satellites-inside-sunil-mittal-s-50-year-journey-126111500180_1.html",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-08/29/thumb/fitandfill/1200X628/1693301091-803.jpg",
-      "domain": "business-standard.com",
-      "language": "English",
-      "country": "India",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.85,
-        "recommended": false,
-        "relevance_confidence": 0.64,
-        "relevance_probabilities": {
-          "0": 0.29,
-          "1": 0.59,
-          "2": 0.1,
-          "3": 0.02,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.39,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.48,
-          "other_technology": 0.51
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.dailymail.com/news/article-16281515/Family-owned-factory-stunned-realize-decades-old-niche-suddenly-started-flying-shelves-thousands.html",
-      "source": "gdelt",
-      "source_id": "https://www.dailymail.com/news/article-16281515/Family-owned-factory-stunned-realize-decades-old-niche-suddenly-started-flying-shelves-thousands.html",
-      "title": "Family - owned factory stunned to realize why decades - old niche part has suddenly started flying off the shelves by the thousands",
-      "url": "https://www.dailymail.com/news/article-16281515/Family-owned-factory-stunned-realize-decades-old-niche-suddenly-started-flying-shelves-thousands.html",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://i.dailymail.com/1s/2026/11/10/21/112428257-0-image-m-28_1794347716343.jpg",
-      "domain": "dailymail.com",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.47,
-        "recommended": false,
-        "relevance_confidence": 0.61,
-        "relevance_probabilities": {
-          "0": 0.59,
-          "1": 0.36,
-          "2": 0.04,
-          "3": 0.01,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.42,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.18,
-          "policy_business": 0.28,
-          "other_technology": 0.54
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/say-cheese-again-why-singapore039s-gen-zs-can039t-get-enough-of-photo-booths",
-      "source": "gdelt",
-      "source_id": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/say-cheese-again-why-singapore039s-gen-zs-can039t-get-enough-of-photo-booths",
-      "title": "Say cheese , again : Why Singapore Gen Zs cant get enough of photo booths",
-      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/say-cheese-again-why-singapore039s-gen-zs-can039t-get-enough-of-photo-booths",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://apicms.thestar.com.my/uploads/images/2026/11/15/4213276.jpg",
-      "domain": "thestar.com.my",
-      "language": "English",
-      "country": "Malaysia",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.4,
-        "recommended": false,
-        "relevance_confidence": 0.68,
-        "relevance_probabilities": {
-          "0": 0.61,
-          "1": 0.39,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece",
-      "source": "gdelt",
-      "source_id": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece",
-      "title": "Bitcoin tumbles to four - month low as liquidations accelerate",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://bl-i.thgim.com/public/incoming/24g1sp/article71704315.ece/alternates/LANDSCAPE_1200/iStock-924986096.jpg",
-      "domain": "thehindubusinessline.com",
-      "language": "English",
-      "country": "India",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.34,
-        "recommended": false,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.68,
-          "1": 0.31,
+          "0": 0.41,
+          "1": 0.58,
           "2": 0.01,
           "3": 0.0,
           "4": 0.0
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.46,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.57,
-          "other_technology": 0.43
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.freemalaysiatoday.com/category/world/2026/11/15/philippines-australia-sign-defence-pact-with-eye-on-china",
-      "source": "gdelt",
-      "source_id": "https://www.freemalaysiatoday.com/category/world/2026/11/15/philippines-australia-sign-defence-pact-with-eye-on-china",
-      "title": "Philippines , Australia sign defence cooperation pact",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/11/15/philippines-australia-sign-defence-pact-with-eye-on-china",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/c7187fa2-c260-4a89-9140-804990fdd3f4-Australia-philippines-defence-pact-signinging-EPA-15112026-.webp",
-      "domain": "freemalaysiatoday.com",
-      "language": "English",
-      "country": "Malaysia",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.22,
-        "recommended": false,
-        "relevance_confidence": 0.82,
-        "relevance_probabilities": {
-          "0": 0.8,
-          "1": 0.18,
-          "2": 0.02,
-          "3": 0.0,
-          "4": 0.0
-        },
         "topic": "other_technology",
-        "topic_confidence": 0.66,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.27,
-          "other_technology": 0.73
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     },
     {
-      "id": "gdelt:https://www.omanobserver.om/article/1199695/world/asia/study-hard-get-a-career-get-ahead-its-not-what-it-used-to-be",
-      "source": "gdelt",
-      "source_id": "https://www.omanobserver.om/article/1199695/world/asia/study-hard-get-a-career-get-ahead-its-not-what-it-used-to-be",
-      "title": "Study hard , get a career , get ahead ? It not what it used to be",
-      "url": "https://www.omanobserver.om/article/1199695/world/asia/study-hard-get-a-career-get-ahead-its-not-what-it-used-to-be",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://www.omanobserver.om/omanobserver/uploads/images/2026/11/15/thumbs/600x600/3578800.jpg",
-      "domain": "omanobserver.om",
-      "language": "English",
-      "country": "Oman",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "published_at": "2026-11-15T20:20:57+00:00",
+      "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+      "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.1,
+        "relevance_score": 0.58,
         "recommended": false,
-        "relevance_confidence": 0.92,
+        "relevance_confidence": 0.64,
         "relevance_probabilities": {
-          "0": 0.91,
-          "1": 0.09,
+          "0": 0.43,
+          "1": 0.57,
           "2": 0.0,
           "3": 0.0,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.69,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.25,
-          "other_technology": 0.75
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     },
     {
-      "id": "gdelt:https://www.aol.com/articles/travelers-face-hundreds-delays-cancellations-024555000.html",
-      "source": "gdelt",
-      "source_id": "https://www.aol.com/articles/travelers-face-hundreds-delays-cancellations-024555000.html",
-      "title": "Travelers face hundreds of delays , cancellations at Austin airport after FAA ground stop",
-      "url": "https://www.aol.com/articles/travelers-face-hundreds-delays-cancellations-024555000.html",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://hermes.media.static.aol.com/media/2026/11/15/f1eb4cc7-47f8-3dc1-8d37-acc8c1db8021/e3a9eecc-5640-4565-b6a7-bf54dea7aa83.png",
-      "domain": "aol.com",
-      "language": "English",
-      "country": "United States",
+      "id": "the-verge:https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
+      "title": "Rachelle Hampton won’t admit how long she spent charting the use of ‘murmur’ in Twilight",
+      "url": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "summary": "Rachelle Hampton is a writer and co-owner at Defector Media, and the host of Normal Gossip, a podcast of anonymous listener-submitted stories about everyday drama. Whether that's lies about luxury wool in a literal knitting circle, the impeachment of a hypocritical HOA president, or a COVID outbreak at a destination wedding with an absurd 25 […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.07,
+        "relevance_score": 0.14,
         "recommended": false,
-        "relevance_confidence": 0.95,
+        "relevance_confidence": 0.89,
         "relevance_probabilities": {
-          "0": 0.94,
-          "1": 0.06,
+          "0": 0.87,
+          "1": 0.13,
           "2": 0.0,
           "3": 0.0,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.74,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.21,
-          "other_technology": 0.79
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://nagalandpost.com/us-must-respect-indias-rightto-defend-itself-says-blinken/",
-      "source": "gdelt",
-      "source_id": "https://nagalandpost.com/us-must-respect-indias-rightto-defend-itself-says-blinken/",
-      "title": "US must respect India rightto defend itself , says Blinken",
-      "url": "https://nagalandpost.com/us-must-respect-indias-rightto-defend-itself-says-blinken/",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://nagalandpost.com/wp-content/uploads/2026/11/US-must-respect-India-right-to-defend-itself_result.webp",
-      "domain": "nagalandpost.com",
-      "language": "English",
-      "country": "",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.06,
-        "recommended": false,
-        "relevance_confidence": 0.96,
-        "relevance_probabilities": {
-          "0": 0.95,
-          "1": 0.05,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.69,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.25,
-          "other_technology": 0.75
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.aginfo.net/report/66584/20/Millions-for-Livestock-Disease-Study-and-Fewer-Beginning-Growers",
-      "source": "gdelt",
-      "source_id": "https://www.aginfo.net/report/66584/20/Millions-for-Livestock-Disease-Study-and-Fewer-Beginning-Growers",
-      "title": "Millions for Livestock Disease Study and Fewer Beginning Growers - AG INFORMATION NETWORK OF THE WEST",
-      "url": "https://www.aginfo.net/report/66584/20/Millions-for-Livestock-Disease-Study-and-Fewer-Beginning-Growers",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://www.aginfo.net/Assets/ProgramImages/program_5d7762e6eac46602655257_1920_1080.jpg",
-      "domain": "aginfo.net",
-      "language": "English",
-      "country": "United States",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.05,
-        "recommended": false,
-        "relevance_confidence": 0.96,
-        "relevance_probabilities": {
-          "0": 0.95,
-          "1": 0.05,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.62,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.3,
-          "other_technology": 0.7
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.heraldscotland.com/news/26729731.dumbed-down-scotlands-top-education-expert-savages-school-system/",
-      "source": "gdelt",
-      "source_id": "https://www.heraldscotland.com/news/26729731.dumbed-down-scotlands-top-education-expert-savages-school-system/",
-      "title": "Dumbed down Scotland top education expert savages school system",
-      "url": "https://www.heraldscotland.com/news/26729731.dumbed-down-scotlands-top-education-expert-savages-school-system/",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://www.heraldscotland.com/resources/images/21718762.jpg?type=og-image",
-      "domain": "heraldscotland.com",
-      "language": "English",
-      "country": "United Kingdom",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.04,
-        "recommended": false,
-        "relevance_confidence": 0.98,
-        "relevance_probabilities": {
-          "0": 0.97,
-          "1": 0.03,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.76,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.19,
-          "other_technology": 0.81
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://www.ynetnews.com/article/rjphlclrfe",
-      "source": "gdelt",
-      "source_id": "https://www.ynetnews.com/article/rjphlclrfe",
-      "title": "A Zelensky in Putin family ? Leaked records expose an awkward family secret",
-      "url": "https://www.ynetnews.com/article/rjphlclrfe",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/07/08/HyzEB4hmGx/HyzEB4hmGx_0_0_3000_1689_0_large.jpg",
-      "domain": "ynetnews.com",
-      "language": "English",
-      "country": "Israel",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.02,
-        "recommended": false,
-        "relevance_confidence": 0.98,
-        "relevance_probabilities": {
-          "0": 0.98,
-          "1": 0.02,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.05,
-          "other_technology": 0.95
-        }
-      }
-    },
-    {
-      "id": "gdelt:https://nagalandpost.com/bbbp-painting-winners-felicitated-at-childrens-day-programme/",
-      "source": "gdelt",
-      "source_id": "https://nagalandpost.com/bbbp-painting-winners-felicitated-at-childrens-day-programme/",
-      "title": "BBBP painting winners felicitated at Children Day programme",
-      "url": "https://nagalandpost.com/bbbp-painting-winners-felicitated-at-childrens-day-programme/",
-      "published_at": "2026-11-15T07:45:00+00:00",
-      "summary": "https://nagalandpost.com/wp-content/uploads/2026/11/DC-Kohima-B.-Henok-Buchem-with-officials-winners-and-participants-of-Painting-Competition.-DIPR.webp",
-      "domain": "nagalandpost.com",
-      "language": "English",
-      "country": "",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.0,
-        "recommended": false,
-        "relevance_confidence": 1.0,
-        "relevance_probabilities": {
-          "0": 1.0,
-          "1": 0.0,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     }
   ],
   "reddit": [],
-  "hn": [],
+  "hn": [
+    {
+      "id": "hackernews:50509883",
+      "source": "hackernews",
+      "source_id": "50509883",
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+      "published_at": "2026-11-15T19:31:11+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50509883",
+      "points": 60,
+      "comments": 37,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.74,
+        "recommended": false,
+        "relevance_confidence": 0.3,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.45,
+          "2": 0.26,
+          "3": 0.21,
+          "4": 0.04
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.56,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.27,
+          "policy_business": 0.65,
+          "other_technology": 0.08
+        }
+      }
+    },
+    {
+      "id": "hackernews:50505905",
+      "source": "hackernews",
+      "source_id": "50505905",
+      "title": "Jensen Huang allegedly manufactured the GPU shortage",
+      "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+      "published_at": "2026-11-15T10:53:50+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50505905",
+      "points": 56,
+      "comments": 57,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.64,
+        "recommended": false,
+        "relevance_confidence": 0.44,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.52,
+          "2": 0.29,
+          "3": 0.17,
+          "4": 0.01
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.79,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.83,
+          "policy_business": 0.16,
+          "other_technology": 0.01
+        }
+      }
+    }
+  ],
   "polymarket": []
 }
