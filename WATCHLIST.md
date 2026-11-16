@@ -2,8 +2,8 @@
 
 Unresolved threads carried across briefs. Each routine reads this before searching, checks these first for progress, and rewrites this file after publishing. An item moves out of here and into "Since last brief" the moment it resolves.
 
-- Nvidia CEO succession: [[jensenhuang]] resigned Nov 12; CFO Colette Kress is interim CEO, Harvey C. Jones is the new board chair; watching for a permanent successor and Kress's first earnings call as CEO on Nov 17 (opened 2026-11-13)
-- Megaspeed espionage allegations against [[jensenhuang]]: resignation confirmed, but the underlying allegations are not; still watching for DOJ or Commerce to confirm on record, and whether the Nov 18 closed-door congressional briefing still happens now that he's no longer CEO (opened 2026-10-29, updated 2026-11-13)
+- Nvidia CEO succession: [[jensenhuang]] resigned Nov 12; CFO Colette Kress is interim CEO, Harvey C. Jones is the new board chair; Trump is publicly floating Tim Cook and employees are petitioning for Huang's return, but there's no board action; watching for a permanent successor and Kress's first earnings call as CEO on Nov 17 (opened 2026-11-13, updated 2026-11-13)
+- Megaspeed espionage allegations against [[jensenhuang]]: resignation confirmed, underlying allegations still not confirmed by DOJ or Commerce; Huang agreed to testify before Congress on Wednesday (Nov 18) under subpoena threat, and Democrats opened a second congressional investigation into Nvidia's China sales and Trump dealings; watching the testimony and whether it's the same session as the closed-door briefing (opened 2026-10-29, updated 2026-11-13)
 - Anthropic's IPO: roadshow launched Nov 10 with price range set at $70-$78/share (825M shares, Nasdaq "ANT"); watching for the final pricing, expected around Nov 18, and the first trading day, expected Nov 19 (opened 2026-10-04, updated 2026-11-10)
 - US midterm datacenter backlash: Nov 5 selloff (AMD -17%, Broadcom -10%, Nvidia -9%, Intel -8%) bounced back Nov 6, sector still net negative on the week; watching whether this becomes a capex guidance issue or stays a trading swing (opened 2026-11-05, updated 2026-11-07)
 - DOJ reportedly investigating whether [[nvidia]]'s roughly $20B non-exclusive licensing deal with AI chip startup Groq was structured to dodge Hart-Scott-Rodino antitrust review; watching for a DOJ confirmation or any fine, and whether it widens the pending Hugging Face acquisition review (opened 2026-10-24)
@@ -13,7 +13,7 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - Anthropic/METR independent-evaluator access: watching for METR's first published findings under Tier 3 access and whether other evaluators reach the same tier (opened 2026-07-31, updated 2026-10-16)
 - NYC Council's 10-bill AI safety package: still proposals, no committee vote found yet (opened 2026-10-06)
 - NYC Council subpoena of [[elonmusk]]'s SpaceXAI: watching whether staff-size and whistleblower questions get followed up (opened 2026-09-29, updated 2026-10-19)
-- Nvidia chip smuggling to China: watching for further DOJ action and whether enforcement tightens (opened 2026-10-02)
+- Nvidia chip smuggling to China: Rep. Bill Foster says Nvidia privately told him Chip Security Act tracking is technically feasible, while an industry group called it potentially infeasible; watching for further DOJ action and whether the Chip Security Act moves (opened 2026-10-02, updated 2026-11-13)
 - OpenAI fired three safety researchers (Wang, Korbak, Balesni); still watching for the outside organization's name and any internal fallout (opened 2026-10-02, updated 2026-10-14)
 - [[micron]] / [[sk-hynix]] memory read-through: watching whether pricing holds into Micron's $60-63B FQ1 2027 guide (opened 2026-10-02, updated 2026-10-29)
 - Meta's ~$95-97.5B capital program: still watching for Broadcom's share of the up-to-$5B tranche and the final program size (opened 2026-10-27, updated 2026-11-02)
@@ -57,7 +57,7 @@ Unresolved threads carried across briefs. Each routine reads this before searchi
 - [[nvidia]] in talks to invest $30B+ in Perplexity; still unconfirmed (opened 2026-08-25)
 - Sen. Warren calls for [[jensenhuang]] to testify over Nvidia Jetson Orin chips found in Russian drones (opened 2026-08-25)
 - OpenAI/Cursor cutoff: proposed Nov 12 shutoff of Cursor's direct OpenAI model access; watching whether it sticks or gets renegotiated (opened 2026-08-29)
-- NVIDIA / Hugging Face: $12.9B acquisition under mandatory antitrust review in the US, EU, and likely UK; close could slip into 2027 (opened 2026-09-03, updated 2026-10-31)
+- NVIDIA / Hugging Face: $12.9B acquisition under mandatory antitrust review in the US, EU, and likely UK; close could slip into 2027; Huang's exit has press questioning Nvidia's open-source commitment, and Hugging Face's CEO says it will keep pushing for open source; no change to deal terms reported (opened 2026-09-03, updated 2026-11-13)
 - Broadcom's FY27/FY28 AI semiconductor guidance leans heavily on Anthropic staying its largest XPU customer; watching for confirmation of actual custom-silicon shipment volumes (opened 2026-09-03, updated 2026-10-27)
 - OpenAI rogue agent swarm (DseWiki): Congress's Stop Rogue AI Act still pending, no independent post-incident investigation announced (opened 2026-09-06)
 - Sony Music Publishing and Warner Chappell sue Anthropic and [[darioamodei]] personally for copyright infringement (opened 2026-08-28)
