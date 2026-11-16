@@ -41,20 +41,23 @@ flowchart LR
     Prompt[Versioned prompt and skill<br/>no discovery search] --> Claude
     Records --> Claude
     Claude --> Output[Briefs and linked wiki pages<br/>people · companies · topics]
-    Output --> Push[Commit and push to main]
+    Output --> Branch[Routine commits to claude/* branch]
+    Branch --> Publish[GitHub Action validates generated files and copies them to main]
   end
 
-  Push --> Notify[ntfy notifications]
-  Push --> Linkcheck[Source link checks]
-  Heartbeat[Missed-run heartbeat] -. checks .-> Push
-  Push --> Web[Next.js reader<br/>Vercel deployment]
-  Push --> Desktop[Electron reader<br/>auto-pulls from GitHub]
+  Publish --> Notify[ntfy notifications]
+  Publish --> Linkcheck[Source link checks]
+  Heartbeat[Missed-run heartbeat] -. checks .-> Publish
+  Publish --> Web[Next.js reader<br/>Vercel deployment]
+  Publish --> Desktop[Electron reader<br/>auto-pulls from GitHub]
 ```
 
 GitHub Actions schedules the API-only Claude routine. The routine has no timer of its
 own. Its task prompt and Claude skill live in the repo; collected records are the only
-story-discovery input. The graph comes from links among briefs, people, companies, and
-topics.
+story-discovery input. The routine writes to its `claude/*` branch; a narrowly scoped
+publisher action copies the brief and wiki changes onto `main`, where the readers and
+notifications pick them up. The graph comes from links among briefs, people, companies,
+and topics.
 
 ## Set up
 

@@ -4,14 +4,23 @@ name: Brief heartbeat
 # Shortly after each scheduled brief window, confirm the expected brief landed;
 # if not, send a high-priority ntfy alert so silence never hides a failure.
 #
-# Routine schedule (UTC): morning 13:00 (8am EST), evening 01:00 (8pm EST).
-# We check ~1.5h later to allow for run time + GitHub's cron slack.
+# Check about 75 minutes after the selected morning/evening cron. Paired UTC
+# schedules account for daylight saving; use the scheduled cron, not runner
+# start time, so queue delays do not make us check the wrong brief.
 
 on:
   schedule:
-    - cron: '30 14 * * *'   # after the 13:00 UTC morning run
-    - cron: '30 2 * * *'    # after the 01:00 UTC evening run
-  workflow_dispatch: {}
+    - cron: '30 13 * * *'
+    - cron: '30 14 * * *'
+    - cron: '30 0 * * *'
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+    inputs:
+      session:
+        description: Brief session to check
+        type: choice
+        options: [morning, evening]
+        required: true
 
 env:
   NTFY_TOPIC: ai-intel
@@ -25,11 +34,28 @@ jobs:
       - name: Confirm the expected brief landed
         run: |
           set -uo pipefail
-          today="$(date -u +%F)"
-          hour="$(date -u +%H)"
-          # The 14:30 run checks morning; the 02:30 run checks evening.
-          if [ "${hour}" -ge 12 ]; then session="morning"; else session="evening"; fi
-          f="briefs/${today}-${session}.md"
+          schedule="${{ github.event.schedule }}"
+          ny_offset="$(TZ=America/New_York date +%z)"
+          if [ -z "$schedule" ]; then
+            session="${{ inputs.session }}"
+            brief_date="$(TZ=America/New_York date +%F)"
+          else
+            case "${schedule}|${ny_offset}" in
+              '30 13 * * *|-0400'|'30 14 * * *|-0500')
+                session="morning"
+                brief_date="$(date -u +%F)"
+                ;;
+              '30 0 * * *|-0400'|'30 1 * * *|-0500')
+                session="evening"
+                brief_date="$(date -u -d yesterday +%F)"
+                ;;
+              *)
+                echo "No heartbeat is due for schedule ${schedule} at New York offset ${ny_offset}; skipping."
+                exit 0
+                ;;
+            esac
+          fi
+          f="briefs/${brief_date}-${session}.md"
 
           if [ -f "${f}" ]; then
             echo "OK: ${f} is present."
@@ -41,6 +67,6 @@ jobs:
             -H "Title: ai-intel — ${session} brief MISSING" \
             -H "Priority: high" \
             -H "Tags: rotating_light" \
-            -d "No ${session} brief for ${today} landed. The routine likely failed — check https://claude.ai/code/routines" \
+            -d "No ${session} brief for ${brief_date} landed. The routine likely failed — check https://claude.ai/code/routines" \
             "https://ntfy.sh/${NTFY_TOPIC}" || true
           exit 1

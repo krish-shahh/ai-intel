@@ -31,17 +31,21 @@ jobs:
         env:
           REQUESTED_ROUTINE: ${{ inputs.routine }}
           EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE_CRON: ${{ github.event.schedule }}
         run: |
+          set -euo pipefail
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             echo "routine=$REQUESTED_ROUTINE" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          local_hour="$(TZ=America/New_York date +%H)"
-          case "$local_hour" in
-            09) echo "routine=morning" >> "$GITHUB_OUTPUT" ;;
-            20) echo "routine=evening" >> "$GITHUB_OUTPUT" ;;
-            *) echo "No routine is due at New York hour $local_hour; skipping." ;;
+          # GitHub cron is UTC. Select the candidate for the current DST offset,
+          # using the scheduled cron value so GitHub queue delays don't skip it.
+          ny_offset="$(TZ=America/New_York date +%z)"
+          case "${SCHEDULE_CRON}|${ny_offset}" in
+            '15 13 * * *|-0400'|'15 14 * * *|-0500') echo "routine=morning" >> "$GITHUB_OUTPUT" ;;
+            '15 0 * * *|-0400'|'15 1 * * *|-0500') echo "routine=evening" >> "$GITHUB_OUTPUT" ;;
+            *) echo "No routine is due for schedule ${SCHEDULE_CRON} at New York offset ${ny_offset}; skipping." ;;
           esac
 
       - name: Fire morning brief

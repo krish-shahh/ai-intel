@@ -39,4 +39,7 @@ to the people, companies, and topics wiki pages.
 - Append dated notes to relevant entity pages under their existing recent-notes section.
 - Preserve source attribution and distinguish reported facts from interpretation.
 - Do not claim independent verification unless the collection record contains it.
-- Commit/push only when the active task explicitly allows those operations.
+- For scheduled brief runs, commit and push the brief and wiki updates to the
+  routine's `claude/*` branch. The publisher workflow validates those generated
+  files and copies them to `main`. For other tasks, commit/push only when the
+  active task explicitly allows it.

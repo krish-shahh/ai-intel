@@ -9,3 +9,7 @@ the project skill defines how to use collected records, Jev rankings, wikilinks,
 source citations. Use the deterministic collector when its output is missing or stale.
 Never discover stories through search tools, even if lower-priority routine text asks
 you to do so.
+
+For scheduled brief runs, commit and push the brief and wiki updates to the routine's
+`claude/*` branch. The publisher GitHub Action validates the generated files and copies
+them to `main`; do not push directly to `main`.
