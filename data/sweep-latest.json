@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-15T21:03:39.285721+00:00",
+  "generated_at": "2026-11-16T06:38:17.182039+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-15T15:40:53.167025+00:00"
+    "newsapi": "2026-11-16T06:38:17.182039+00:00"
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 2,
+    "hackernews": 3,
     "polymarket": 0,
-    "rss": 9,
+    "rss": 11,
     "arxiv": 0,
     "sec_edgar": 0,
     "github": 0,
     "github_trending": 12,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 99,
     "mediastack": 0
   },
   "items": [
@@ -57,7 +57,7 @@
       "source_id": "alibaba/open-code-review",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -85,12 +85,76 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "published_at": "2026-11-15T23:30:00+00:00",
+      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.9,
+        "recommended": true,
+        "relevance_confidence": 0.88,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.12,
+          "3": 0.85,
+          "4": 0.03
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.45,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.44,
+          "policy_business": 0.56,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "published_at": "2026-11-16T01:26:56+00:00",
+      "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.85,
+        "recommended": true,
+        "relevance_confidence": 0.84,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.17,
+          "3": 0.81,
+          "4": 0.02
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.99,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "github_trending:NVIDIA/SkillEvaluator",
       "source": "github_trending",
       "source_id": "NVIDIA/SkillEvaluator",
       "title": "NVIDIA/SkillEvaluator",
       "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -123,7 +187,7 @@
       "source_id": "ggml-org/ggml",
       "title": "ggml-org/ggml",
       "url": "https://github.com/ggml-org/ggml",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "Tensor library for machine learning",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -156,7 +220,7 @@
       "source_id": "ChromeDevTools/chrome-devtools-mcp",
       "title": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "Chrome DevTools for coding agents",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -180,6 +244,38 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "title": "Apple launches new app to study how people use AI for health",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "published_at": "2026-11-16T01:30:00+00:00",
+      "summary": "Apple's new app for a study will answer everyday medical questions",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.71,
+        "recommended": true,
+        "relevance_confidence": 0.72,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.29,
+          "3": 0.67,
+          "4": 0.03
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.91,
+        "topic_probabilities": {
+          "ai_models_research": 0.93,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.03,
+          "other_technology": 0.04
         }
       }
     },
@@ -221,7 +317,7 @@
       "source_id": "dream-num/univer",
       "title": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -249,12 +345,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+      "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+      "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+      "published_at": "2026-11-15T21:05:02+00:00",
+      "summary": "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor to SpaceX's Starlink, but it has struggled to get off the ground so far, putting only a small portion of the necessary satellites to challenge Starlink […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.49,
+        "recommended": true,
+        "relevance_confidence": 0.52,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.11,
+          "2": 0.32,
+          "3": 0.53,
+          "4": 0.04
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.95,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.03,
+          "other_technology": 0.96
+        }
+      }
+    },
+    {
       "id": "github_trending:ag-ui-protocol/ag-ui",
       "source": "github_trending",
       "source_id": "ag-ui-protocol/ag-ui",
       "title": "ag-ui-protocol/ag-ui",
       "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -287,7 +415,7 @@
       "source_id": "Tencent/LoopForge",
       "title": "Tencent/LoopForge",
       "url": "https://github.com/Tencent/LoopForge",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -315,12 +443,47 @@
       }
     },
     {
+      "id": "hackernews:50511982",
+      "source": "hackernews",
+      "source_id": "50511982",
+      "title": "Jensen Huang might return to Nvidia as CEO",
+      "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+      "published_at": "2026-11-15T23:24:53+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50511982",
+      "points": 158,
+      "comments": 156,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.34,
+        "recommended": true,
+        "relevance_confidence": 0.19,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.26,
+          "2": 0.23,
+          "3": 0.33,
+          "4": 0.16
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.71,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.17,
+          "policy_business": 0.77,
+          "other_technology": 0.06
+        }
+      }
+    },
+    {
       "id": "github_trending:google-labs-code/stitch-skills",
       "source": "github_trending",
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -353,7 +516,7 @@
       "source_id": "GoogleChrome/modern-web-guidance-src",
       "title": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "Keep your coding agent up to date with the latest web best practices",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -381,34 +544,69 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
-      "title": "An overview of Jensen Huang’s messy days",
-      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
-      "published_at": "2026-11-15T13:00:00+00:00",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October […]",
-      "name": "The Verge",
+      "id": "hackernews:50511722",
+      "source": "hackernews",
+      "source_id": "50511722",
+      "title": "Samsung, SK Hynix, and Micron Fail to Get DRAM Antitrust Suit Dismissed",
+      "url": "https://www.techpowerup.com/354863/samsung-sk-hynix-and-micron-fail-to-get-dram-antitrust-suit-dismissed",
+      "published_at": "2026-11-15T22:49:17+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50511722",
+      "points": 11,
+      "comments": 1,
+      "matched_term": "SK Hynix",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.26,
+        "relevance_score": 2.29,
         "recommended": true,
-        "relevance_confidence": 0.19,
+        "relevance_confidence": 0.38,
         "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.29,
-          "2": 0.21,
-          "3": 0.36,
-          "4": 0.12
+          "0": 0.0,
+          "1": 0.17,
+          "2": 0.38,
+          "3": 0.43,
+          "4": 0.02
         },
         "topic": "policy_business",
-        "topic_confidence": 0.51,
+        "topic_confidence": 0.64,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.26,
-          "policy_business": 0.61,
-          "other_technology": 0.13
+          "hardware_datacenters": 0.28,
+          "policy_business": 0.71,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "published_at": "2026-11-15T21:56:35+00:00",
+      "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.2,
+        "recommended": true,
+        "relevance_confidence": 0.51,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.19,
+          "2": 0.45,
+          "3": 0.32,
+          "4": 0.04
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.52,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.62,
+          "policy_business": 0.38,
+          "other_technology": 0.0
         }
       }
     },
@@ -418,7 +616,7 @@
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -483,7 +681,7 @@
       "source_id": "backnotprop/plannotator",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -516,7 +714,7 @@
       "source_id": "tradermonty/claude-trading-skills",
       "title": "tradermonty/claude-trading-skills",
       "url": "https://github.com/tradermonty/claude-trading-skills",
-      "published_at": "2026-11-15T21:05:11.899487+00:00",
+      "published_at": "2026-11-16T06:39:49.924963+00:00",
       "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -552,8 +750,8 @@
       "published_at": "2026-11-15T19:31:11+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50509883",
-      "points": 60,
-      "comments": 37,
+      "points": 120,
+      "comments": 109,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -575,105 +773,6 @@
           "hardware_datacenters": 0.27,
           "policy_business": 0.65,
           "other_technology": 0.08
-        }
-      }
-    },
-    {
-      "id": "hackernews:50505905",
-      "source": "hackernews",
-      "source_id": "50505905",
-      "title": "Jensen Huang allegedly manufactured the GPU shortage",
-      "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
-      "published_at": "2026-11-15T10:53:50+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50505905",
-      "points": 56,
-      "comments": 57,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.64,
-        "recommended": false,
-        "relevance_confidence": 0.44,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.52,
-          "2": 0.29,
-          "3": 0.17,
-          "4": 0.01
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.79,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.83,
-          "policy_business": 0.16,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
-      "title": "The Sony Aibo was a robot revolution dressed like a dog",
-      "url": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
-      "published_at": "2026-11-15T13:57:30+00:00",
-      "summary": "In the 1990s, Sony was absolutely convinced that we were on the precipice of a robot takeover. Pretty soon, the company decided, we'd all be living among countless humanoid robots. Some would be our coworkers; others would be our friends; and at least one would be our pet. And \"pet\" was exactly what Sony was […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.5,
-        "recommended": false,
-        "relevance_confidence": 0.59,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.52,
-          "2": 0.47,
-          "3": 0.01,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.02,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.04,
-          "other_technology": 0.94
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
-      "title": "LG’s budget-friendly B6E OLED TV is up to 50 percent off this weekend",
-      "url": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
-      "published_at": "2026-11-15T14:00:00+00:00",
-      "summary": "LG’s B6E was already one of the most affordable OLED TVs you could buy, but it’s an even better deal now that it’s included as part of Best Buy’s latest doorbuster event. Now through the end of today, November 15th, the 55-inch model is 50 percent off, dropping it to an all-time low of $699.99 […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.13,
-        "recommended": false,
-        "relevance_confidence": 0.77,
-        "relevance_probabilities": {
-          "0": 0.08,
-          "1": 0.73,
-          "2": 0.18,
-          "3": 0.01,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
         }
       }
     },
@@ -742,22 +841,22 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
+      "id": "the-verge:https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
-      "title": "Rachelle Hampton won’t admit how long she spent charting the use of ‘murmur’ in Twilight",
-      "url": "https://www.theverge.com/entertainment/1033895/rachelle-hampton-normal-gossip-interview",
-      "published_at": "2026-11-15T16:00:00+00:00",
-      "summary": "Rachelle Hampton is a writer and co-owner at Defector Media, and the host of Normal Gossip, a podcast of anonymous listener-submitted stories about everyday drama. Whether that's lies about luxury wool in a literal knitting circle, the impeachment of a hypocritical HOA president, or a COVID outbreak at a destination wedding with an absurd 25 […]",
+      "source_id": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review",
+      "title": "Listen to this: Armand Hammer’s Snakes & Ladders",
+      "url": "https://www.theverge.com/entertainment/1034013/armand-hammers-snakes-ladders-review",
+      "published_at": "2026-11-15T21:49:22+00:00",
+      "summary": "I open with this caveat: I haven't had a ton of time to digest the surprise Armand Hammer record that dropped this week. Billy Woods and Elucid rarely miss, though, and my initial reaction is that Snakes & Ladders ranks among their best. It doesn't have the seamless throughline production-wise that their collabs with Alchemist […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.14,
+        "relevance_score": 0.0,
         "recommended": false,
-        "relevance_confidence": 0.89,
+        "relevance_confidence": 1.0,
         "relevance_probabilities": {
-          "0": 0.87,
-          "1": 0.13,
+          "0": 1.0,
+          "1": 0.0,
           "2": 0.0,
           "3": 0.0,
           "4": 0.0
@@ -777,6 +876,41 @@
   "reddit": [],
   "hn": [
     {
+      "id": "hackernews:50511982",
+      "source": "hackernews",
+      "source_id": "50511982",
+      "title": "Jensen Huang might return to Nvidia as CEO",
+      "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+      "published_at": "2026-11-15T23:24:53+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50511982",
+      "points": 158,
+      "comments": 156,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.34,
+        "recommended": true,
+        "relevance_confidence": 0.19,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.26,
+          "2": 0.23,
+          "3": 0.33,
+          "4": 0.16
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.71,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.17,
+          "policy_business": 0.77,
+          "other_technology": 0.06
+        }
+      }
+    },
+    {
       "id": "hackernews:50509883",
       "source": "hackernews",
       "source_id": "50509883",
@@ -785,8 +919,8 @@
       "published_at": "2026-11-15T19:31:11+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50509883",
-      "points": 60,
-      "comments": 37,
+      "points": 120,
+      "comments": 109,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -812,36 +946,36 @@
       }
     },
     {
-      "id": "hackernews:50505905",
+      "id": "hackernews:50511722",
       "source": "hackernews",
-      "source_id": "50505905",
-      "title": "Jensen Huang allegedly manufactured the GPU shortage",
-      "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
-      "published_at": "2026-11-15T10:53:50+00:00",
+      "source_id": "50511722",
+      "title": "Samsung, SK Hynix, and Micron Fail to Get DRAM Antitrust Suit Dismissed",
+      "url": "https://www.techpowerup.com/354863/samsung-sk-hynix-and-micron-fail-to-get-dram-antitrust-suit-dismissed",
+      "published_at": "2026-11-15T22:49:17+00:00",
       "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50505905",
-      "points": 56,
-      "comments": 57,
-      "matched_term": "Jensen Huang",
+      "thread_url": "https://news.ycombinator.com/item?id=50511722",
+      "points": 11,
+      "comments": 1,
+      "matched_term": "SK Hynix",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.64,
-        "recommended": false,
-        "relevance_confidence": 0.44,
+        "relevance_score": 2.29,
+        "recommended": true,
+        "relevance_confidence": 0.38,
         "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.52,
-          "2": 0.29,
-          "3": 0.17,
-          "4": 0.01
+          "0": 0.0,
+          "1": 0.17,
+          "2": 0.38,
+          "3": 0.43,
+          "4": 0.02
         },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.79,
+        "topic": "policy_business",
+        "topic_confidence": 0.64,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.83,
-          "policy_business": 0.16,
+          "hardware_datacenters": 0.28,
+          "policy_business": 0.71,
           "other_technology": 0.01
         }
       }
