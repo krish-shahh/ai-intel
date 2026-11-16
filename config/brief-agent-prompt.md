@@ -12,8 +12,8 @@ brief-writing skill.
 - Repository file tools: read collected records, preferences, watchlist, briefs, and
   tracked entity pages; write the new brief and evidence-backed page updates.
 - Git: commit and push the completed brief and wiki edits to the routine's
-  `claude/*` branch. The `Publish Claude routine output` GitHub Action validates
-  those generated files and publishes them onto `main`; do not try to push to
+  `claude/*` branch. The publisher job in `.github/workflows/fire-claude-routines.yml`
+  validates those generated files and publishes them onto `main`; do not push to
   `main` directly.
 
 The collector is the only story-discovery tool. It calls the configured source APIs
