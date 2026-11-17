@@ -7,6 +7,8 @@ Codex is OpenAI's coding agent for writing, editing, and running code across a c
 
 ## Notes
 
+- **2026-11-17** `Tencent/LoopForge` trending on GitHub: self-hosted workflows that orchestrate CodeBuddy, Codex, and Claude Code with scripts and human approval gates. [GitHub](https://github.com/Tencent/LoopForge)
+
 - **2026-11-12** `openai/codex-security` surged on GitHub's daily trending page (+663 stars, 12.1k total): OpenAI's security CLI/SDK (`@openai/codex-security`) that scans a repo, path, or git diff for vulnerabilities, validates findings, drafts patches and SECURITY.md policies, and exports SARIF/JSON/CSV; also runs as a plugin inside Codex sessions. Connects to Linear, Jira, and GitHub for findings. [GitHub](https://github.com/openai/codex-security) (primary)
 
 - **2026-09-27** `mvschwarz/openrig` trending on GitHub (+114 stars): a multi-agent harness that runs Codex and Claude Code side by side as one coordinated system, letting users route or compare work across both instead of picking one. [GitHub](https://github.com/mvschwarz/openrig)
