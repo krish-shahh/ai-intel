@@ -1,31 +1,447 @@
 {
-  "generated_at": "2026-11-17T13:31:00.488618+00:00",
+  "generated_at": "2026-11-17T23:31:21.714866+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-17T02:57:03.982100+00:00"
+    "newsapi": "2026-11-17T23:31:21.714866+00:00"
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 0,
+    "hackernews": 2,
     "polymarket": 0,
-    "rss": 7,
+    "rss": 39,
     "arxiv": 0,
-    "sec_edgar": 0,
+    "sec_edgar": 1,
     "github": 0,
     "github_trending": 15,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 100,
     "mediastack": 0
   },
   "items": [
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "published_at": "2026-11-17T22:29:05+00:00",
+      "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.32,
+        "recommended": true,
+        "relevance_confidence": 0.7,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.02,
+          "3": 0.64,
+          "4": 0.34
+        },
+        "topic": "policy_business",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 1.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "title": "Nvidia says its open-source AI strategy remains intact after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "published_at": "2026-11-17T23:04:35+00:00",
+      "summary": "Nvidia's interim CEO reaffirmed its open-source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.31,
+        "recommended": true,
+        "relevance_confidence": 0.42,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.06,
+          "2": 0.04,
+          "3": 0.39,
+          "4": 0.5
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.96,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.02,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.97,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/feed/",
+      "source": "nvidia-developer-blog",
+      "source_id": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/feed/",
+      "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
+      "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/feed/",
+      "published_at": "2026-11-17T17:30:00+00:00",
+      "summary": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,...",
+      "name": "NVIDIA Developer Blog",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.24,
+        "recommended": true,
+        "relevance_confidence": 0.76,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.02,
+          "3": 0.71,
+          "4": 0.27
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 1.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "published_at": "2026-11-17T14:50:58+00:00",
+      "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.24,
+        "recommended": true,
+        "relevance_confidence": 0.76,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.02,
+          "3": 0.71,
+          "4": 0.27
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.99,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/optical-computing-ai",
+      "source": "ieee-spectrum-ai",
+      "source_id": "https://spectrum.ieee.org/optical-computing-ai",
+      "title": "AI Is Giving Optical Computing Another Shot",
+      "url": "https://spectrum.ieee.org/optical-computing-ai",
+      "published_at": "2026-11-17T14:00:03+00:00",
+      "summary": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now totals US $2.22 billion, up from $0.4 billion in 2022. One projection suggests that the market will continue to grow exponentially in the coming years. The reason for this sudden surge will surprise no one: AI. In particular, AI inference—the process of using AI models to respond to user queries—has driven much of the construction of huge, power-hungry data centers, and relatively energy-efficient optical systems are seen as a potential way forward. “Most of the interest in [photonics] is driven by the fact that AI inference has literally become limited by power, and in a rather striking manner,” says Peter McMahon , associate professor of applied and engineering physics at Cornell University, in Ithaca, N.Y., who has researched optical computing for over a decade. Optics, at least on paper, carries the promise of doing the same math as today’s GPUs at a drastically lower level of power. Switching from electronics to optics would be a pretty radical solution. Nevertheless, like mushrooms after a rainstorm, optical-computing startups are popping up in the United States, China, Germany, and Israel. And while competing against such GPU makers as Nvidia is an ambitious goal, the investment in optical computing has spurred development of complementary approaches, such as designing alternative AI algorithms, taking on scientific computing, and enhancing in-network computing. Optalysys, based in England, is inserting optical-computing elements into the networking path, where data centers already use light. The company’s basic on-chip optical element, shown in the inset, is a Fourier transform calculator. Optalysys “I think it would be good for the technology if many of these companies made a good run at it,” says Logan Wright , assistant professor of applied physics at Yale University, in New Haven, Conn., and a former postdoc in McMahon’s lab. “I think that the technology that will be developed through this would be really, really useful, and enable photonic systems that maybe don’t get on this wave of AI but would be capable of doing really quite special things.” Optics to inference’s rescue? Inference makes up the bulk of AI energy use. The industry is already spending billions of dollars designing advanced GPUs and other chips to run inference as efficiently as possible. At the heart of the inference computation is one operation, done countless times a second: matrix-vector multiplication. Back in 1978, optical-computing pioneer Joseph W. Goodman and his coworkers proposed a method for doing matrix-vector multiplication with light. The setup was relatively simple. Let’s say a vector of length N needs to be multiplied by a matrix of size N by N . N light-emitting diodes, all in a row, encode the elements of the vector into the intensity of light—the brighter the light from an individual diode, the greater the value that diode encodes. Then, a cylindrical lens spreads out the light vertically, essentially copying the vector N times. The light then passes through an attenuator of N by N pixels. At each pixel, the light is attenuated according to the corresponding value at that location in the matrix. Passing the light through the attenuator performs the multiplication. Finally, a cylindrical lens oriented perpendicular to the first lens re-collects the light from each row, summing it up. The final vector is measured by a row of detectors. VECTOR-MATRIX MULTIPLICATION The most computationally expensive part of common AI today is vector-matrix (or matrix-matrix) multiplication. For a vector of length N (here, N = 3), it takes N 2 (here, 9) multiplication steps and three accumulation steps—multiple additions at once. The argument for why optics might be advantageous over electronics goes something like this: Multiplying a matrix of size N by N by a vector of length N takes N 2 multiplication steps. In electronics, each multiplication takes some energy, so the total energy used scales as N 2 . In optics, however, the multiplication step is passive: As long as the matrix stays the same, passing light through the attenuator costs almost no energy. The only cost is encoding the vector into light and reading out the answer, but the vector is of length N , not N 2 . So the energy used will scale as N , not N 2 , as bigger vectors and matrices are multiplied. Since Goodman’s 1978 proposal, the quality of the available optical elements has improved dramatically. Indeed, in 2022, a team of researchers at Cornell led by McMahon demonstrated an optical neural network that consumed less than one photon of energy—approximately 2.5 x 10 -19 joules—per multiplication operation. In a standard computer, a single multiply operation can take between 10 -14 and 10 -12 joules, which suggests that optics could possibly reduce energy use by a factor of 100,000. But McMahon cautions against such extrapolation. First, the cost of encoding data into optics was not included in the calculation. Even if the scaling is favorable with light, in practice it’s not just the scaling that matters, it’s also the coefficients. Let’s say the energy cost of doing one multiplication with electronics is 1 picojoule, and the cost to encode one vector element with optics is 1,000 picojoules. The electronic approach still wins if the length N of the vector is fewer than 1,000 elements. McMahon says this example is not far off from reality: “One of the key questions is, How big do you have to make the system before you start winning? Lots of people have done this calculation for various kinds of neural networks. The very rough answer is somewhere between N equals 1,000 and N equals 10,000.” It’s also important to keep in mind a computing principle known as Amdahl’s law . “Amdahl’s law shouldn’t even be called a law. It’s a simple piece of common sense,” McMahon says. “If you have something that’s going to accelerate a computation, and it can accelerate 90 percent of the code, but there’s 10 percent of the code that it can’t accelerate, then the maximum possible speedup you can get is 10x.” With AI inferencing, the point is to save energy, not time. But Amdahl’s observation still applies. What fraction of today’s AI inferencing code can be better handled with optics is a complicated question that varies by approach. But it’s not 100 percent. Matrix-vector multiplication, or matrix-matrix multiplication, is only part of the inference workload—there are other, nonlinear operations that need to be performed on the data. Taking all of these caveats into account, optical-computing companies today are aiming for a 10- to 80-fold improvement in energy efficiency over today’s GPUs. The question is whether they can deliver on that promise at scale before traditional electronics catches up to those gains. Bridging the gap in free space The startup Lumai , based in Oxford, England, has taken perhaps the most direct inspiration from Goodman and his team. Lumai’s head of product, Phillip Burr , declares that a free-space approach, where the light travels through air rather than on-chip waveguides, is what will enable the company’s tech to beat GPUs. Instead of the fixed attenuator used in Goodman’s proposal, Lumai is using a modern programmable device called a spatial light modulator—a pixelated membrane akin to a fancy liquid-crystal display that can modulate both the intensity and phase of light. The rest of the design is more sophisticated in practice but similar in principle to Goodman’s design: A vector is encoded into light, copied N times via a lens, passed through the spatial light modulator, collected with another lens, and the result is converted back to digital electronics. The electronics then handle the nonlinear functions. “A full vector-matrix multiply completes in a single optical cycle,” Burr says. To accurately compare the energy expenditures of the optical and GPU approaches, you must first specify which part of the workload you’re considering. Modern inference is often split into two phases: prefill , where the input query is processed and propagated through the model, and decode , where the output is generated one word (or token) at a time. Prefill is the more computationally intensive of the two. It basically involves doing vector-matrix multiplications for the same matrix over and over. Decode also involves vector-matrix multiplies, but not as intensively—the time-consuming part of decode is reading the necessary matrices in and out of memory. Vector-matrix multiplication with free-space optics The Goodman optical computer is the simplest version of a photonic vector-matrix multiplier. Here, the vector elements are encoded into the intensity of light from three light sources, such as LEDs. Then, a cylindrical lens spreads the light vertically. The matrix elements are encoded into the opacity of an attenuator, such that when light passes through each pixel it is multiplied (attenuated) by that matrix value. Finally, another cylindrical lens collects the light horizontally, performing the accumulation step, and a photodetector measures the output vector. Lumai, and other companies in the space, are focusing on the compute-intensive prefill phase of inference. Lumai claims that its Iris Nova optical server, made available for evaluation in April 2026, is a proof of concept, and its next-generation Iris Aura server will do prefill using roughly one-tenth of the energy a GPU would use. The startup Neurophos , based in Austin, Texas, is putting a different spin on the Goodman computer design. To pack more punch into a small device, the company is leveraging its expertise in metamaterials—complex structures that can manipulate light at scales smaller than a single wavelength. The structures it has designed are bigger than a wavelength but still quite small—just several micrometers per side. “The equivalent of the optical transistor that you can get from standard silicon photonics today is like 2 millimeters long,” says Patrick Bowen , CEO of Neurophos. “You just can’t fit enough [of] them on-chip to get a compute density that remotely competes with the latest and greatest [that] TSMC [Taiwan Semiconductor Manufacturing Co.] does.” Bowen’s team designed metamaterial-based modulators that can be programmed to manipulate the phase and intensity of light at the micrometer scale, resulting in an array of 1,000 by 1,000 modulators in a square chip with 5-mm sides. According to Bowen, Neurophos’s modulators switch over 10,000 times as fast as a standard liquid-crystal spatial light modulators do. Bowen also claims a performance advantage over Nvidia’s Blackwell GPU: “We’re targeting 50 times Blackwell B200’s speed and 35 times its energy efficiency, and have a road map to reach 250 times the speed and roughly 90 times the energy efficiency in subsequent generations.” The approach is CMOS-compatible, Bowen says, which should allow Neurophos to manufacture its chips on the semiconductor industry’s existing high-volume production lines. The company is currently choosing a site for a production facility ahead of its rack deliveries to customers in 2028. Both Lumai and Neurophos are betting they’ll get their products to market before traditional CMOS can catch up to their energy savings. “Silicon will keep improving, but digital efficiency gains now come slowly and at rising cost,” Burr says. “Optics offers a different scaling relationship, in which efficiency improves as matrices grow. Larger models, longer context windows, and agentic workloads are all pushing prefill in that direction.” Bridging the gap on-chip Free-space optics carries the promise of almost energy-free multiplication, as in Goodman’s design. But another big advance in optics since Goodman’s work in the 1970s is integrated photonics, which allows you to guide and manipulate light on-chip. “The name of the game is to do as large a vector size as possible to maximize the benefit of using optics, and for that reason the free-space approaches are promising,” says Yale’s Logan Wright. “But it’s still fundamentally harder” to use the free-space approach, “because there’s just so much less infrastructure than in silicon photonics.” Other companies—like Shanghai-based Lightelligence and Q.ANT , based in Stuttgart, Germany—are trading the 3D advantage of free-space optics for the manufacturability of photonics integrated directly onto a silicon chip. “There is a good reason that free-space optics are usually limited to 1,000 units a year,” says Q.ANT’s CEO and founder, Michael Förtsch . “The reason for this is lens inspection, assembly strategy, and so on. Semiconductor-manufacturable integrated photonic circuits are at this point way more promising to reach volume production.” Vector-matrix multiplication with integrated photonics One way to do vector-matrix multiplication with light on-chip involves encoding vector elements into the amplitudes of pulses of light, traveling sequentially through a waveguide. The multiplication is performed by Mach-Zehnder interferometers: A waveguide splits in two, and the phase of light traveling through one of the paths is shifted by a controlled voltage. When the two paths reunite, the resulting light intensity depends on that phase shift, performing a multiplication. Encoding the matrix elements into the phase shifts turns this into vector-matrix multiplication. A photodetector then collects the light from all three pulses, performing the accumulation step. In Q.ANT’s approach, the input data is encoded into the phase and amplitude of light pulses via on-chip modulators. A vector in this scheme is represented as a sequence of such pulses, each representing one vector element. The light is guided around the chip with waveguides. The basic computational element is an interferometer: A waveguide splits into two paths, and the light beam traveling down one path is subjected to a phase shift, controlled by a set voltage. When the two paths recombine, the resulting interference performs a computation. Then, photodetectors and analog-to-digital converters turn the result back into digital data. The serialized vector-matrix multiplication approach is slower than Goodman’s computer, where the whole calculation happens at once. However, the slower speed can be mitigated by using multiple wavelengths at once, effectively encoding multiple vectors into light simultaneously. Q.ANT’s Native Processing Server is already being used in research institutions like the Leibniz Supercomputing Centre in Munich and the Jülich Supercomputing Centre in Jülich, both in Germany. Earlier this year, the company announced a commercial sale to the cloud provider Ionos. Similarly, Lightelligence’s PACE2 processor is capable of multiplying 128-by-128-element matrices. In a paper released in 2025, the company described vector-matrix multiplication at a 1-gigahertz frequency and 3-nanosecond latency, claiming two orders of magnitude lower latency than with traditional GPUs. The energy advantage is yet to be conclusively demonstrated, however, and Q.ANT’s Förtsch admits there is still a ways to go. The main issue is the energy cost of analog-to-digital conversion and back. As long as a fast, low-energy converter does not exist, Förtsch says, “we don’t see realistic chances that…a general vector-matrix multiplication machine in optics makes sense.” Beyond matrix-vector multiplication Not everyone in the field is focused on matrix-vector multiplication, despite it being all the rage in the AI inference world. In fact, while the optical vector-matrix multiply idea goes back to the 1970s, other computations with optics have been investigated as far back as the 1950s. For example, a Fourier transform—a common operation that decomposes a complex wave or signal into its constituent frequencies—can be done in optics with a single lens. “A digital chip has to approximate [Fourier transforms] in many small steps, using hundreds to thousands of transistors and more compute cycles,” says Q.ANT’s Förtsch. “Models that use such nonlinear functions can reach the same or better accuracy with fewer parameters and fewer operations.” Even though Q.ANT’s optical processor has been used for traditional vector-matrix multiplication, the company believes its greatest advantages lie in alternative AI architectures that leverage more complex functions. “Tasks such as image classification and segmentation rely heavily on operations like Fourier series, transformations, and other nonlinear functions, which photonics handles natively. We see similar potential in generative AI, especially image and video generation,” Förtsch says. The Israel-based startup LightSolver is also targeting algorithms that are a more natural fit for its device. “If you look at propagating electromagnetic waves, essentially, they are running differential equations in their nature,” says Ruti Ben-Shlomi , CEO and cofounder of LightSolver. She says differential equations can be solved much faster and with higher energy efficiency on the company’s laser processing unit (LPU) than on a traditional computer. LightSolver’s LPU is an interesting twist on the Goodman optical-computer design. It has input light, a programmable membrane in the form of a spatial light modulator, and output light, but the whole thing is placed in a cavity, where light bounces back and forth many times before reaching a steady state. In addition, the team places a gain medium inside the cavity. This gain medium functions much like those found inside a laser, causing the bouncing light to build up in intensity. LightSolver, a startup based in Israel, is using free-space optics to quickly solve differential equations by harnessing the natural properties of light. LightSolver Once a particular problem is encoded into the modulator, the gain medium is stimulated to emit random photons. They bounce back and forth, increasing in intensity when passing through the gain medium again, experiencing preprogrammed changes through the modulator and interacting with one another until they reach a steady state—the solution. Then, a simple camera takes a picture of the steady-state result. Using emulation, the LightSolver team recently showed that their LPU can solve differential equations 40 to 80,000 times as fast as a GPU, depending on the workflow. They are now working on explicitly benchmarking the energy improvements. LightSolver’s team is currently working on AI applications for its LPU as well, using the company’s own algorithm to do image generation from text. “We’re not doing vector-matrix multiplication very fast. We are doing something different. We need to assume that the way you train the model, and you then do inference, is completely different. But if you do it differently, you’ll be able to do image generation with dramatic energy-consumption decrease and speedup,” Ben-Shlomi says. LightSolver has a working prototype of its LPU, and the team is working on a larger, rack-mountable box. Computing in transit Yet another way to leverage light’s particular strengths is being pursued by Optalysys , a startup based in Leeds, England. Nick New , founder and chief product officer, has a background in free-space optics, and so he understood that taking a Fourier transform is very easy to do with light. The key idea behind Optalysys’s technology is taking that Fourier capability of optics in free space and making it work on-chip. “Rather than using a lens these days, we have our own component, which is a passive component in the plane of the silicon that does that same job,” New says. And by cleverly designing that component with multiple outputs, the team figured out how to perform different operations as well. “Because of how the Fourier transform response is generated, you can actually pull out different mathematical operations from it,” New says. “We can produce very large, high-precision digital functions at superhigh efficiencies, using our analog photonics approach.” “We’re effectively adding processing to where there is none right now.” —Nick New, Optalysis Instead of redesigning an accelerator from scratch, Optalysys is targeting a piece of the AI workload that’s often already in the optical domain: networking. In the data center, racks of computers are connected to each other with fiber optics, and the optical connections are increasingly getting closer and closer to the GPUs and CPUs themselves. Some computations already happen while the data is en route. These computations, which include combining results from multiple GPUs, are executed inside network switch cards. But the cards naturally use power to do that math. With passive optical components, these computations could be done essentially for free. New says that in addition to communication between GPUs, Optalysys’s technology could be used to facilitate a GPU’s communication with memory, doing things like compression and format conversion on the fly. Going back to AI inference, this approach could improve the decode part of the workload. Unlike prefill, decode is memory bound: The most costly part is shuffling model data in and out of memory. “We’re more focused on the memory-bound applications, which fits very well with this principle of adding processing into the communication path,” New says. “We’re effectively adding processing to where there is none right now.” The likely future of optical computing How likely are optical computers to replace GPUs in the data center? Yale’s Wright is not too optimistic. “The direction of algorithm development is not going to be a direction that is automatically favorable for optics,” he says. “In fact, it’s most likely to go in the opposite direction, because [AI model developers] want it to work better on GPUs.” However, even if our AI queries aren’t going to be computed in light in the next few years, that investment in the technology won’t be in vain. Says Wright, “The reason that I and many other people in the field are at least somewhat optimistic is that there’s real investment from companies like Nvidia and TSMC in developing co-packaged silicon photonics—not for computing, but for circuit switching and interconnects, and that just kind of opens the door to do a little bit more in the future.” Whether that technology ends up crunching vector-matrix multiplication, doing bespoke simulations, or performing in-network computations, the computing ecosystem seems ripe for a variety of approaches. “We see the data center of the future as heterogeneous: CPUs, GPUs and photonic NPUs [native processing units] each take on the tasks they are best suited for,” says Q.ANT’s Förtsch. “Running each task on the most efficient hardware can significantly reduce energy use and operating costs.”",
+      "name": "IEEE Spectrum AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.19,
+        "recommended": true,
+        "relevance_confidence": 0.81,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.02,
+          "3": 0.77,
+          "4": 0.21
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.99,
+          "policy_business": 0.01,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "published_at": "2026-11-17T19:02:20+00:00",
+      "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.11,
+        "recommended": true,
+        "relevance_confidence": 0.88,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.02,
+          "3": 0.85,
+          "4": 0.13
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 1.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "published_at": "2026-11-17T14:05:30+00:00",
+      "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.09,
+        "recommended": true,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.1,
+          "3": 0.63,
+          "4": 0.25
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.99,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+      "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
+      "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+      "published_at": "2026-11-17T14:00:00+00:00",
+      "summary": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.06,
+        "recommended": true,
+        "relevance_confidence": 0.9,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.03,
+          "3": 0.88,
+          "4": 0.09
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.6,
+        "topic_probabilities": {
+          "ai_models_research": 0.3,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.68,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "published_at": "2026-11-17T17:20:41+00:00",
+      "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.01,
+        "recommended": true,
+        "relevance_confidence": 0.85,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.08,
+          "3": 0.82,
+          "4": 0.1
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 1.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "published_at": "2026-11-17T16:44:15+00:00",
+      "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.01,
+        "recommended": true,
+        "relevance_confidence": 0.6,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.04,
+          "2": 0.15,
+          "3": 0.56,
+          "4": 0.25
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.69,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.17,
+          "policy_business": 0.75,
+          "other_technology": 0.08
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "published_at": "2026-11-17T18:48:23+00:00",
+      "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.98,
+        "recommended": true,
+        "relevance_confidence": 0.92,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.06,
+          "3": 0.9,
+          "4": 0.04
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.52,
+        "topic_probabilities": {
+          "ai_models_research": 0.62,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.37,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "published_at": "2026-11-17T19:32:11+00:00",
+      "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.96,
+        "recommended": true,
+        "relevance_confidence": 0.92,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.07,
+          "3": 0.9,
+          "4": 0.03
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.46,
+        "topic_probabilities": {
+          "ai_models_research": 0.43,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.57,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/ieee-ethics-ai-systems",
+      "source": "ieee-spectrum-ai",
+      "source_id": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+      "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+      "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+      "published_at": "2026-11-17T19:00:03+00:00",
+      "summary": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many people, but the IEEE Standards Association has been working for the past decade on ways to prioritize the responsible development of AI systems. In 2016 IEEE SA launched the IEEE Global Initiative for Ethical Considerations in Autonomous and Intelligent Systems (A/IS) and published the Ethically Aligned Design report. EAD ’s mission is to encourage everyone involved in designing autonomous and intelligent systems to prioritize human well-being by applying ethical considerations for the benefit of humanity. Developed by a multidisciplinary community of experts from around the world, the report outlined eight foundational principles for A/IS. They include human rights, people’s well-being, and transparency. More than 100 leading AI ethics experts provided input. EAD ’s Version II report was released in 2017. Both versions solicited public input and received hundreds of pages of feedback, according to John C. Havens , who was the global initiative’s founding executive director, and is now the global director for IEEE Planet Positive 2030 . And by 2019, there were more than 400 contributors and the community continues to grow. “ Ethically Aligned Design was the first of its kind in the sense of a report that was more than a list of principles and from an organization with the credibility of IEEE,” Havens says. “At the time it was released, there wasn’t anything like it.” Since its launch, a series of standards has been developed to provide practical guidelines on designing, building, and deploying technology that prioritizes human values. Several AI ethics certification programs have been introduced. This year marks the 10th anniversary of EAD ’s first draft. To celebrate, IEEE SA recently launched a website , a podcast series , and a blog that reflect on the report’s achievements and impact. Eight guiding principles The word ethics is often used interchangeably with morality , but that is not the case in responsible AI systems design, according to EAD ’s first version. The report includes insights from classical ethics traditions and value-based design methodologies to offer actionable recommendations for engineers developing AI tools. The report established eight foundational general principles for designing autonomous systems: respecting human rights, prioritizing increased well-being as success criteria for development, empowering individuals with data agency to have control over their identity, effectiveness, transparency, accountability, awareness of misuse, and competence for the system creators. The principles shift applied ethics to the design stage of AI systems, compared with being a concern after they’re released, the authors wrote. A suite of standards The IEEE 7000 series of standards has been developed based on EAD ’s framework. Currently the series consists of 29 projects, 11 of which have been published, and more are still being added. They cover topics such as ethical system design model process ( IEEE 7000-2021 ), AI system transparency ( IEEE 7001-2021 ), data privacy ( IEEE 7002-2022 ), algorithmic bias considerations ( IEEE 7003 -2024), the impact on people’s well-being ( IEEE 7010-2020 ), machine-readable personal privacy requirements ( IEEE 7012-2025 ), and systems that mimic human empathy ( IEEE 7014-2024 ). AI ethics certifications IEEE SA offers a suite of ethics in AI programs including IEEE CertifAIEd , which includes two certifications : one for individuals and one for products. The professional certification provides individuals with skills to assess autonomous and intelligent systems for adherence to IEEE’s methodology and ethics criteria. “ Ethically Aligned Design was the first of its kind in the sense of a report that was more than a list of principles and from an organization with the credibility of IEEE.” —John C. Havens, founding executive director of the global initiative The product certification program assesses whether an organization’s AI tool or system conforms to the criteria in the IEEE Ontological Specifications. A CertifiAIEd assessor evaluates the product to ensure it meets the criteria. Upon completion of the assessment, the owner submits it to the IEEE Conformity Assessment Program , which can certify it and issue the certification mark. IEEE SA also recently released its Responsible AI for Children certification program . This program certifies that AI products for children have been independently tested and verified to meet design and ethics requirements. New industry connections group The IEEE Artificial Intelligence Systems (AIS) for Global Flourishing Collaborative Industry Collections group was formed to provide the resources, knowledge, and tools needed to prioritize people’s well-being to developers of AI systems. It has more than 200 members. The collaborative describes its work as a practical, systems-level framework for responsible technology design that translates flourishing into applied methods, metrics, and tools that can be used throughout the AIS lifecycle. The group is establishing guidelines for how to design, evaluate, and govern systems that can measurably improve human well-being and ecological sustainability. Subcommittees are focused on cognition, education, faith, planetary care, spirituality, and other issues. “The group is building directly off the well-being chapter of Ethically Aligned Design and the IEEE 7010 standard (Recommended Practice for Assessing the Impact of Autonomous and Intelligent Systems on Human Well-Being),” Havens says. “That’s on purpose because if human and planetary flourishing aren’t addressed first in design, then human well-being and planetary sustainability are afterthoughts.” Podcasts and blogs To mark the 10-year anniversary, IEEE SA created the five-part “ Ethically Aligned Design : 10 Years of Impact” podcast series . It launched on 21 October. New episodes are being released every two weeks. The episodes center around the vision for EAD , the process for selecting its foundational principles, and how they were translated into the IEEE 7000 standards. The first podcast, “Origins of Ethically Aligned Design,” explored early efforts to make ethics a practical part of AI and autonomous system design. The experts discussed challenges, debates, global collaboration, and the real-world impact that helped move responsible technology from ethical principles toward actionable standards and practices. The second podcast, “The Chapters and Committees” focuses on the multidisciplinary groups that worked on turning broad human values into practical guidance for AI and autonomous systems. The podcast discussions serve as material for a thought leadership program that also includes blog articles about the IEEE 7000 series and educational resources to continue to raise awareness and support of this groundbreaking work.",
+      "name": "IEEE Spectrum AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.96,
+        "recommended": true,
+        "relevance_confidence": 0.74,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.17,
+          "3": 0.69,
+          "4": 0.14
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.98,
+          "other_technology": 0.01
+        }
+      }
+    },
     {
       "id": "github_trending:alibaba/open-code-review",
       "source": "github_trending",
       "source_id": "alibaba/open-code-review",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -53,34 +469,66 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
       "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-      "published_at": "2026-11-16T23:32:32+00:00",
-      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "source_id": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+      "published_at": "2026-11-17T17:32:25+00:00",
+      "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
       "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.85,
+        "relevance_score": 2.93,
         "recommended": true,
-        "relevance_confidence": 0.82,
+        "relevance_confidence": 0.92,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.01,
-          "2": 0.17,
-          "3": 0.79,
-          "4": 0.03
+          "1": 0.0,
+          "2": 0.08,
+          "3": 0.91,
+          "4": 0.01
         },
-        "topic": "policy_business",
+        "topic": "ai_models_research",
         "topic_confidence": 0.99,
         "topic_probabilities": {
-          "ai_models_research": 0.01,
+          "ai_models_research": 0.99,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.99,
-          "other_technology": 0.0
+          "policy_business": 0.0,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "published_at": "2026-11-17T22:42:27+00:00",
+      "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.86,
+        "recommended": true,
+        "relevance_confidence": 0.52,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.09,
+          "2": 0.15,
+          "3": 0.54,
+          "4": 0.21
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.8,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.1,
+          "policy_business": 0.84,
+          "other_technology": 0.06
         }
       }
     },
@@ -90,7 +538,7 @@
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -118,34 +566,194 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
-      "title": "Uber and Zipline’s drone delivery service takes flight in Houston",
-      "url": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
-      "published_at": "2026-11-17T13:00:00+00:00",
-      "summary": "Uber Eats is officially launching drone delivery in partnership with Zipline starting Tuesday. The initial rollout begins in the Houston suburb of Spring, Texas, with Dallas next in line and dozens of additional US cities planned. The rollout comes after Uber and Zipline first announced their tie-up, including an investment in Zipline by Uber, back […]",
-      "name": "The Verge",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "published_at": "2026-11-17T18:04:16+00:00",
+      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.8,
+        "recommended": true,
+        "relevance_confidence": 0.83,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.2,
+          "3": 0.8,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.8,
+        "topic_probabilities": {
+          "ai_models_research": 0.16,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.84,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/feed/",
+      "source": "nvidia-developer-blog",
+      "source_id": "https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/feed/",
+      "title": "Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins",
+      "url": "https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/feed/",
+      "published_at": "2026-11-17T17:00:00+00:00",
+      "summary": "Quantum processors are being integrated into supercomputing centers worldwide. National programs in North America, Europe, and Asia are driving the installation...",
+      "name": "NVIDIA Developer Blog",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.73,
+        "recommended": true,
+        "relevance_confidence": 0.63,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.29,
+          "3": 0.59,
+          "4": 0.09
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.95,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.03,
+          "hardware_datacenters": 0.96,
+          "policy_business": 0.0,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "ars-technica-technology:https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
+      "source": "ars-technica-technology",
+      "source_id": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
+      "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+      "url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
+      "published_at": "2026-11-17T22:32:16+00:00",
+      "summary": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
+      "name": "Ars Technica Technology",
       "jev": {
         "model": "jev-1.14.0",
         "relevance_score": 2.71,
         "recommended": true,
-        "relevance_confidence": 0.72,
+        "relevance_confidence": 0.7,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.03,
-          "2": 0.25,
-          "3": 0.69,
+          "1": 0.02,
+          "2": 0.29,
+          "3": 0.66,
           "4": 0.03
         },
         "topic": "other_technology",
-        "topic_confidence": 0.37,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.5,
-          "other_technology": 0.5
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "ars-technica-technology:https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+      "source": "ars-technica-technology",
+      "source_id": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+      "published_at": "2026-11-17T14:00:29+00:00",
+      "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+      "name": "Ars Technica Technology",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.71,
+        "recommended": true,
+        "relevance_confidence": 0.65,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.06,
+          "2": 0.24,
+          "3": 0.64,
+          "4": 0.06
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.99,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+      "published_at": "2026-11-17T16:32:55+00:00",
+      "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.7,
+        "recommended": true,
+        "relevance_confidence": 0.75,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.28,
+          "3": 0.71,
+          "4": 0.0
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.99,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "published_at": "2026-11-17T21:40:59+00:00",
+      "summary": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying the board \"does not intend to reinstate Huang […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.67,
+        "recommended": true,
+        "relevance_confidence": 0.53,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.12,
+          "2": 0.2,
+          "3": 0.56,
+          "4": 0.12
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.85,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.09,
+          "policy_business": 0.88,
+          "other_technology": 0.03
         }
       }
     },
@@ -155,7 +763,7 @@
       "source_id": "google-research/paper-orchestra",
       "title": "google-research/paper-orchestra",
       "url": "https://github.com/google-research/paper-orchestra",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -179,6 +787,102 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
+      "title": "Nvidia says it does not intend to reinstate Jensen Huang as CEO",
+      "url": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
+      "published_at": "2026-11-17T22:05:05+00:00",
+      "summary": "Starting Nvidia's quarterly earnings call on Tuesday, new board chair Harvey Jones said that when former CEO Jensen Huang resigned, \"the Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO.\" Jones added, \"We will not be addressing or taking questions on today's call regarding the circumstances of Jensen's resignation […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.66,
+        "recommended": true,
+        "relevance_confidence": 0.33,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.18,
+          "2": 0.15,
+          "3": 0.41,
+          "4": 0.24
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.79,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.07,
+          "policy_business": 0.83,
+          "other_technology": 0.1
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+      "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "published_at": "2026-11-17T15:00:00+00:00",
+      "summary": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.63,
+        "recommended": true,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.36,
+          "3": 0.63,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.56,
+        "topic_probabilities": {
+          "ai_models_research": 0.35,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.65,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "published_at": "2026-11-17T14:26:46+00:00",
+      "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.62,
+        "recommended": true,
+        "relevance_confidence": 0.65,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.07,
+          "2": 0.26,
+          "3": 0.65,
+          "4": 0.02
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.99,
+          "other_technology": 0.01
         }
       }
     },
@@ -215,12 +919,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
+      "title": "Instagram is helping creators crack down on copycat videos",
+      "url": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
+      "published_at": "2026-11-17T20:46:31+00:00",
+      "summary": "Instagram is beginning to roll out a \"content protection\" feature that lets creators see and review copies of their videos posted to the platform. \"For eligible creators who enroll, content protection is a tool that automatically looks out for visual matches of your original videos, alerts you when we find a match across Instagram and […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.59,
+        "recommended": true,
+        "relevance_confidence": 0.65,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.38,
+          "3": 0.6,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.46,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.01,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.57,
+          "other_technology": 0.4
+        }
+      }
+    },
+    {
       "id": "github_trending:dream-num/univer",
       "source": "github_trending",
       "source_id": "dream-num/univer",
       "title": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -248,12 +984,44 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+      "title": "As decision model use skyrockets, is customization the next frontier?",
+      "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+      "published_at": "2026-11-17T18:10:00+00:00",
+      "summary": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.5,
+        "recommended": true,
+        "relevance_confidence": 0.58,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.44,
+          "3": 0.53,
+          "4": 0.0
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 1.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "github_trending:ag-ui-protocol/ag-ui",
       "source": "github_trending",
       "source_id": "ag-ui-protocol/ag-ui",
       "title": "ag-ui-protocol/ag-ui",
       "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -286,7 +1054,7 @@
       "source_id": "Tencent/LoopForge",
       "title": "Tencent/LoopForge",
       "url": "https://github.com/Tencent/LoopForge",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -319,7 +1087,7 @@
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -347,12 +1115,46 @@
       }
     },
     {
+      "id": "a16z-news:https://www.a16z.news/p/investing-in-first-person-labs",
+      "source": "a16z-news",
+      "source_id": "https://www.a16z.news/p/investing-in-first-person-labs",
+      "title": "Investing in First Person Labs",
+      "url": "https://www.a16z.news/p/investing-in-first-person-labs",
+      "published_at": "2026-11-17T15:10:59+00:00",
+      "summary": "a16z invests in First Person Labs",
+      "name": "a16z News",
+      "kind": "newsletter",
+      "publisher": "a16z",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.33,
+        "recommended": true,
+        "relevance_confidence": 0.42,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.12,
+          "2": 0.42,
+          "3": 0.44,
+          "4": 0.01
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.95,
+        "topic_probabilities": {
+          "ai_models_research": 0.03,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.96,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
       "id": "github_trending:mvanhorn/last30days-skill",
       "source": "github_trending",
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -380,12 +1182,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "published_at": "2026-11-17T21:00:55+00:00",
+      "summary": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.28,
+        "recommended": true,
+        "relevance_confidence": 0.65,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.07,
+          "2": 0.58,
+          "3": 0.35,
+          "4": 0.0
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.45,
+        "topic_probabilities": {
+          "ai_models_research": 0.56,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.1,
+          "other_technology": 0.34
+        }
+      }
+    },
+    {
       "id": "github_trending:cursor/plugins",
       "source": "github_trending",
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -413,12 +1247,47 @@
       }
     },
     {
+      "id": "hackernews:50534044",
+      "source": "hackernews",
+      "source_id": "50534044",
+      "title": "Jensen Huang says he’s open to returning in first statement since resignation",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+      "published_at": "2026-11-17T16:40:38+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50534044",
+      "points": 95,
+      "comments": 171,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.22,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.32,
+          "2": 0.22,
+          "3": 0.27,
+          "4": 0.16
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.54,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.12,
+          "policy_business": 0.63,
+          "other_technology": 0.24
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/obra",
       "source": "github_trending",
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -451,7 +1320,7 @@
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -479,36 +1348,66 @@
       }
     },
     {
-      "id": "tldr-tech:https://tldr.tech/tech/2026-11-17",
-      "source": "tldr-tech",
-      "source_id": "https://tldr.tech/tech/2026-11-17",
-      "title": "Trump backs Huang 💼, Instagram Direct 💬, formal verification limits 👨‍💻",
-      "url": "https://tldr.tech/tech/2026-11-17",
-      "published_at": "2026-11-17T00:00:00+00:00",
-      "summary": "",
-      "name": "TLDR",
-      "kind": "newsletter",
-      "publisher": "TLDR",
+      "id": "the-verge:https://www.theverge.com/tech/1036045/ifixit-teardown-apple-homeview-smart-home-hub",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1036045/ifixit-teardown-apple-homeview-smart-home-hub",
+      "title": "iFixit’s Apple HomeView teardown reveals a device that will be difficult to repair",
+      "url": "https://www.theverge.com/tech/1036045/ifixit-teardown-apple-homeview-smart-home-hub",
+      "published_at": "2026-11-17T22:25:41+00:00",
+      "summary": "After finding recent versions of Apple's iPads and HomePods much easier to disassemble for battery replacements or other repairs, iFixit assumed it would be the same story for Apple's new HomeView hub that looks like a seven-inch tablet stuck to a smart speaker. The reality was much different and by the time they got the […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.97,
-        "recommended": false,
-        "relevance_confidence": 0.12,
+        "relevance_score": 2.03,
+        "recommended": true,
+        "relevance_confidence": 0.68,
         "relevance_probabilities": {
-          "0": 0.04,
-          "1": 0.32,
-          "2": 0.28,
-          "3": 0.34,
-          "4": 0.02
+          "0": 0.0,
+          "1": 0.18,
+          "2": 0.62,
+          "3": 0.2,
+          "4": 0.0
         },
-        "topic": "developer_tools",
-        "topic_confidence": 0.16,
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
         "topic_probabilities": {
-          "ai_models_research": 0.13,
-          "developer_tools": 0.33,
-          "hardware_datacenters": 0.02,
-          "policy_business": 0.27,
-          "other_technology": 0.25
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
+      "title": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
+      "url": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
+      "published_at": "2026-11-17T22:32:50+00:00",
+      "summary": "Nvidia's quarterly earnings call on Tuesday was its first with CFO and interim CEO Colette Kress at the helm alongside the company's first board chair, Harvey C. Jones. The leadership change followed Jensen Huang's resignation last week after reports he had multiple affairs - including one with former Megaspeed executive and alleged Chinese asset Alice […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.96,
+        "recommended": false,
+        "relevance_confidence": 0.15,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.38,
+          "2": 0.25,
+          "3": 0.28,
+          "4": 0.06
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.64,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.07,
+          "policy_business": 0.71,
+          "other_technology": 0.22
         }
       }
     },
@@ -518,7 +1417,7 @@
       "source_id": "backnotprop/plannotator",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -551,7 +1450,7 @@
       "source_id": "sponsors/affaan-m",
       "title": "sponsors/affaan-m",
       "url": "https://github.com/sponsors/affaan-m",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -579,68 +1478,100 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
-      "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
-      "url": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
-      "published_at": "2026-11-16T23:35:58+00:00",
-      "summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to the UK's Crown Prosecution Service (CPS). Kurtaj, who is now 21, hacked BT/EE sometime between August and November 2021, and starting in early November […]",
-      "name": "The Verge",
+      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "source": "mit-tech-review-ai",
+      "source_id": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "title": "Research Reports",
+      "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "published_at": "2026-11-17T14:39:46+00:00",
+      "summary": "To access a report, click on the corresponding image below.",
+      "name": "MIT Technology Review AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.75,
+        "relevance_score": 1.95,
         "recommended": false,
-        "relevance_confidence": 0.58,
+        "relevance_confidence": 0.15,
         "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.36,
-          "2": 0.51,
-          "3": 0.12,
-          "4": 0.0
+          "0": 0.04,
+          "1": 0.32,
+          "2": 0.32,
+          "3": 0.3,
+          "4": 0.02
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
+        "topic": "ai_models_research",
+        "topic_confidence": 0.82,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
+          "ai_models_research": 0.86,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
+          "policy_business": 0.02,
+          "other_technology": 0.12
         }
       }
     },
     {
-      "id": "tldr-dev:https://tldr.tech/dev/2026-11-17",
-      "source": "tldr-dev",
-      "source_id": "https://tldr.tech/dev/2026-11-17",
-      "title": "Smoother CSS corners 🔲, smaller Valkey indexes 🌳, your own AI crew 🤖",
-      "url": "https://tldr.tech/dev/2026-11-17",
-      "published_at": "2026-11-17T00:00:00+00:00",
-      "summary": "",
-      "name": "TLDR Dev",
+      "id": "a16z-news:https://www.a16z.news/p/the-boring-company-and-the-future",
+      "source": "a16z-news",
+      "source_id": "https://www.a16z.news/p/the-boring-company-and-the-future",
+      "title": "The Boring Company & the Future Underground",
+      "url": "https://www.a16z.news/p/the-boring-company-and-the-future",
+      "published_at": "2026-11-17T15:30:54+00:00",
+      "summary": "How cheaper tunneling could put traffic underground and finally make Elon Musk’s hyperloop possible",
+      "name": "a16z News",
       "kind": "newsletter",
-      "publisher": "TLDR",
+      "publisher": "a16z",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.73,
+        "relevance_score": 1.81,
         "recommended": false,
-        "relevance_confidence": 0.35,
+        "relevance_confidence": 0.48,
         "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.41,
-          "2": 0.37,
-          "3": 0.19,
+          "0": 0.02,
+          "1": 0.37,
+          "2": 0.4,
+          "3": 0.21,
           "4": 0.0
         },
-        "topic": "developer_tools",
-        "topic_confidence": 0.92,
+        "topic": "other_technology",
+        "topic_confidence": 0.98,
         "topic_probabilities": {
-          "ai_models_research": 0.04,
-          "developer_tools": 0.94,
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.02
+          "policy_business": 0.02,
+          "other_technology": 0.98
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "published_at": "2026-11-17T21:48:07+00:00",
+      "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.69,
+        "recommended": false,
+        "relevance_confidence": 0.33,
+        "relevance_probabilities": {
+          "0": 0.05,
+          "1": 0.52,
+          "2": 0.15,
+          "3": 0.24,
+          "4": 0.04
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.8,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.08,
+          "policy_business": 0.84,
+          "other_technology": 0.08
         }
       }
     },
@@ -650,7 +1581,7 @@
       "source_id": "getarcaneapp/arcane",
       "title": "getarcaneapp/arcane",
       "url": "https://github.com/getarcaneapp/arcane",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "Modern Docker Management, Designed for Everyone",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -678,24 +1609,56 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1034881/the-verge-best-of-2026",
+      "id": "the-verge:https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1034881/the-verge-best-of-2026",
-      "title": "The Verge Best of 2026",
-      "url": "https://www.theverge.com/gadgets/1034881/the-verge-best-of-2026",
-      "published_at": "2026-11-17T13:00:00+00:00",
-      "summary": "Hundreds of gadgets pass across our desks each year. Some leave their mark and get a full review or make it to the top of a buying guide. It's harder than it sounds to narrow down our favorites. Instead of simply picking products that scored highly, or only those that made it into our buying […]",
+      "source_id": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
+      "title": "The MacBook Neo is receiving a rare $50 discount ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
+      "published_at": "2026-11-17T21:46:20+00:00",
+      "summary": "If you’re looking for a new laptop or a gift for the student in your life, you can save $50 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $649 (Amazon, Best Buy, Target), while the 512GB model with Touch ID is […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.48,
+        "relevance_score": 1.37,
         "recommended": false,
-        "relevance_confidence": 0.6,
+        "relevance_confidence": 0.66,
         "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.55,
-          "2": 0.42,
+          "0": 0.02,
+          "1": 0.62,
+          "2": 0.33,
           "3": 0.03,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.99
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1035911/nike-shoes-tuned-air-sole-printing-variable-cushioning",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1035911/nike-shoes-tuned-air-sole-printing-variable-cushioning",
+      "title": "Nike’s new air sole technology can mix soft and firm cushioning",
+      "url": "https://www.theverge.com/tech/1035911/nike-shoes-tuned-air-sole-printing-variable-cushioning",
+      "published_at": "2026-11-17T21:38:08+00:00",
+      "summary": "In 2024, Nike announced its Air Max 1000 that were manufactured using a 3D-printing process resulting in a shoe that had a uniform silhouette but varying areas of support and flexibility throughout. The company is now doing something similar with its iconic air-filled soles using its new Tuned Air technology. While previously the level of […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.24,
+        "recommended": false,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.08,
+          "1": 0.65,
+          "2": 0.23,
+          "3": 0.04,
           "4": 0.0
         },
         "topic": "other_technology",
@@ -710,12 +1673,79 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "title": "Google joins the tech outage trend by announcing it’s not having one",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "published_at": "2026-11-17T21:34:50+00:00",
+      "summary": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.22,
+        "recommended": false,
+        "relevance_confidence": 0.8,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.77,
+          "2": 0.21,
+          "3": 0.01,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "hackernews:50533723",
+      "source": "hackernews",
+      "source_id": "50533723",
+      "title": "Jensen Huang Posts on X",
+      "url": "https://twitter.com/JensenHuang/status/2122726005219737649",
+      "published_at": "2026-11-17T16:23:55+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50533723",
+      "points": 86,
+      "comments": 78,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.15,
+        "recommended": false,
+        "relevance_confidence": 0.66,
+        "relevance_probabilities": {
+          "0": 0.13,
+          "1": 0.65,
+          "2": 0.16,
+          "3": 0.06,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.4,
+        "topic_probabilities": {
+          "ai_models_research": 0.11,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.17,
+          "policy_business": 0.2,
+          "other_technology": 0.52
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/sveltejs",
       "source": "github_trending",
       "source_id": "sponsors/sveltejs",
       "title": "sponsors/sveltejs",
       "url": "https://github.com/sponsors/sveltejs",
-      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "published_at": "2026-11-17T23:32:58.579236+00:00",
       "summary": "web development for the rest of us",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -741,9 +1771,144 @@
           "other_technology": 0.0
         }
       }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/entertainment/1036110/jeff-bezos-james-bond-casting-amazon",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/entertainment/1036110/jeff-bezos-james-bond-casting-amazon",
+      "title": "Jeff Bezos says he was ‘heavily involved’ in picking the new James Bond",
+      "url": "https://www.theverge.com/entertainment/1036110/jeff-bezos-james-bond-casting-amazon",
+      "published_at": "2026-11-17T22:38:41+00:00",
+      "summary": "Robert Pattinson's casting as James Bond made enough sense given his recent work with director Denis Villeneuve, who's making the franchise's next film over at Amazon. But it turns out that Amazon founder Jeff Bezos played a significant role in making the final decision, too. During Semafor's Silicon Valley and the World conference today, Bezos […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.81,
+        "recommended": false,
+        "relevance_confidence": 0.73,
+        "relevance_probabilities": {
+          "0": 0.25,
+          "1": 0.69,
+          "2": 0.05,
+          "3": 0.01,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.8,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.16,
+          "other_technology": 0.84
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/policy/1035869/whats-next-majority-democrats-conference-denver-jeffries",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/policy/1035869/whats-next-majority-democrats-conference-denver-jeffries",
+      "title": "Democrats try to figure out how not to get swept away by the blue wave",
+      "url": "https://www.theverge.com/policy/1035869/whats-next-majority-democrats-conference-denver-jeffries",
+      "published_at": "2026-11-17T20:30:00+00:00",
+      "summary": "On a harried Saturday afternoon at Denver International Airport, I had the good fortune of sitting just a few feet from Minneapolis Mayor Jacob Frey. It shouldn't have come as a surprise. He, I, and 3,500 or so others had just left \"What's Next,\" a conference organized by Majority Democrats, a group dedicated to charting […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.09,
+        "recommended": false,
+        "relevance_confidence": 0.92,
+        "relevance_probabilities": {
+          "0": 0.91,
+          "1": 0.09,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.84,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.13,
+          "other_technology": 0.87
+        }
+      }
     }
   ],
   "reddit": [],
-  "hn": [],
+  "hn": [
+    {
+      "id": "hackernews:50534044",
+      "source": "hackernews",
+      "source_id": "50534044",
+      "title": "Jensen Huang says he’s open to returning in first statement since resignation",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+      "published_at": "2026-11-17T16:40:38+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50534044",
+      "points": 95,
+      "comments": 171,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.22,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.32,
+          "2": 0.22,
+          "3": 0.27,
+          "4": 0.16
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.54,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.12,
+          "policy_business": 0.63,
+          "other_technology": 0.24
+        }
+      }
+    },
+    {
+      "id": "hackernews:50533723",
+      "source": "hackernews",
+      "source_id": "50533723",
+      "title": "Jensen Huang Posts on X",
+      "url": "https://twitter.com/JensenHuang/status/2122726005219737649",
+      "published_at": "2026-11-17T16:23:55+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50533723",
+      "points": 86,
+      "comments": 78,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.15,
+        "recommended": false,
+        "relevance_confidence": 0.66,
+        "relevance_probabilities": {
+          "0": 0.13,
+          "1": 0.65,
+          "2": 0.16,
+          "3": 0.06,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.4,
+        "topic_probabilities": {
+          "ai_models_research": 0.11,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.17,
+          "policy_business": 0.2,
+          "other_technology": 0.52
+        }
+      }
+    }
+  ],
   "polymarket": []
 }
