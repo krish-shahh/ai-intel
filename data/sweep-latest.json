@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-16T18:36:54.059264+00:00",
+  "generated_at": "2026-11-17T02:57:03.982100+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-16T06:38:17.182039+00:00"
+    "newsapi": "2026-11-17T02:57:03.982100+00:00"
   },
   "counts": {
     "reddit": 0,
     "hackernews": 2,
     "polymarket": 0,
-    "rss": 27,
+    "rss": 32,
     "arxiv": 0,
     "sec_edgar": 0,
     "github": 0,
     "github_trending": 15,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 100,
     "mediastack": 0
   },
   "items": [
@@ -52,34 +52,34 @@
       }
     },
     {
-      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
-      "source": "ieee-spectrum-ai",
-      "source_id": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
-      "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
-      "url": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
-      "published_at": "2026-11-16T10:00:01+00:00",
-      "summary": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are classified as zero-day vulnerabilities. The count may change following vendor and vulnerability-authority review, and some findings do not yet have CVE tracking numbers. Many of these tools help teams train, simulate, test, and operate robots. Weaknesses in them could influence the models teams build, the test results they trust, and the instructions sent to robots. These findings create two demands for robotics teams: responding as AI helps uncover weaknesses faster , and assessing how each one could affect robot safety and operations . What AI changes about vulnerability discovery Vulnerability discovery involves examining code, tracing how systems communicate, and testing whether a suspected weakness can actually be exploited. AI can accelerate parts of this work, helping researchers analyze more software in less time. Attackers could use similar capabilities. When the weakness is a zero-day — previously unknown and without an available fix — faster discovery can leave teams with little time to respond. While that exposure does not necessarily mean an attack has occurred, teams still need to determine whether they use the affected software and what an attacker could access or change. Where the findings sit across the robot lifecycle VicOne’s findings span three stages of the robotics lifecycle: development and training, simulation and validation, and deployment and runtime. Weaknesses at each stage could affect what a robot learns, how it is tested, and how it is controlled. Figure 1. In this research set, 75% of findings involved development, training, simulation, or validation tools, highlighting risks that can arise before a robot is deployed. VicOne The following scenarios show how a compromised component could influence the robot at each stage. Development and training: Hidden changes can reach the finished robot A team downloads a pretrained model to adapt for its robot. Loading a malicious file could give an attacker access to the training system, allowing changes to training data or the model itself. A manipulated model could behave normally during routine testing but respond incorrectly to a particular object, scene, or command after deployment. The risk can enter through a tool the team trusts, before anyone attacks the robot directly. Simulation and validation: A passing test could give false confidence Importing a compromised scene or robot model could give an attacker access to the simulation environment. With sufficient control, the attacker could alter simulated sensor readings, physical conditions, or test results. A robot could then appear to pass tests that should have exposed unsafe behavior, leading the team to approve it for real-world use on the basis of misleading evidence. Deployment and runtime: Operators could lose visibility or control An attacker could exploit weaknesses to change files that influence motion planning or send malicious map data that crashes the operator’s monitoring display. Compromising a remote-operation computer could also put the instructions sent to the robot at risk. Depending on the system and its safeguards, these weaknesses could alter robot movement or leave operators unable to see what is happening and respond promptly. These are potential consequences and not demonstrated outcomes for every finding. Actual effects depend on the attacker’s access, the system’s design, and whether other safeguards prevent the changes from reaching physical behavior. In a separate demonstration, VicOne researchers provide a concrete example of a weakness affecting a protective function. The researchers exploited a vulnerability to prevent a robot’s remote-stop command from working. The case shows why teams need to test whether safeguards remain effective when the software supporting them is compromised. Video 1. VicOne researchers demonstrate a vulnerability that prevents a robot’s remote-stop command from working. VicOne A published patch still needs to be proven safe AI can shorten the search for weaknesses, but a robotics team still needs to determine whether a fix is safe to deploy. Even after a software maintainer releases a patch, teams must identify affected systems, check compatibility, and verify that the update preserves intended behavior. An earlier successful test remains useful evidence. However, a newly discovered weakness may reveal conditions that test never examined. Three questions can help teams respond: Where do we use the affected software? Include training computers, simulation environments, and deployed robots. What could the weakness change? Assess whether it could affect models, test results, operator visibility, or robot behavior. How do we verify protection? Confirm that the fix addresses the weakness and that the updated system still operates as intended. When immediate updating is impractical, teams may need temporary safeguards, such as restricting access to an affected service, while a validated fix is prepared. From discovery to safer deployment As details from the 28 findings become available through coordinated disclosure, the next step is for robotics manufacturers is to connect each finding to its potential effect on development, deployment, and robot behavior. That work also requires understanding how threats could affect robot behavior and how to protect systems already in operation. VicOne Radeis helps teams identify potential zero-day vulnerabilities, assess AI model and system security, and use simulation to evaluate how these risks could affect robot behavior before deployment. VicOne Rthena supports threat detection and responses within approved policies during operation. Figure 2. Cybersecurity strengthens robot safety evidence throughout the lifecycle. VicOne helps teams test safety limits against manipulation before deployment and monitor the conditions behind safe behavior in operation. VicOne Faster vulnerability discovery matters when teams can turn findings into action: identify what needs attention, verify that safeguards still hold, and confirm that a fix does not introduce new risks. That is how cybersecurity strengthens robot safety as systems continue to change. For a deeper look how cybersecurity can affect robot safety, download our white paper, “ Why Robot Safety Depends on Cybersecurity: Protecting the Information That Safety Decisions Rely On .”",
-      "name": "IEEE Spectrum AI",
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+      "title": "California sues OpenAI over rogue AI hacking incidents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+      "published_at": "2026-11-16T20:46:01+00:00",
+      "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.56,
+        "relevance_score": 3.45,
         "recommended": true,
-        "relevance_confidence": 0.62,
+        "relevance_confidence": 0.6,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.0,
           "2": 0.01,
-          "3": 0.43,
-          "4": 0.56
+          "3": 0.52,
+          "4": 0.47
         },
-        "topic": "developer_tools",
-        "topic_confidence": 0.77,
+        "topic": "policy_business",
+        "topic_confidence": 0.94,
         "topic_probabilities": {
-          "ai_models_research": 0.06,
-          "developer_tools": 0.82,
+          "ai_models_research": 0.05,
+          "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.12
+          "policy_business": 0.95,
+          "other_technology": 0.0
         }
       }
     },
@@ -212,6 +212,38 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "published_at": "2026-11-16T20:07:13+00:00",
+      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.21,
+        "recommended": true,
+        "relevance_confidence": 0.81,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.01,
+          "3": 0.77,
+          "4": 0.22
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.98,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
       "source": "techcrunch-ai",
       "source_id": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
@@ -247,10 +279,10 @@
       "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
       "source": "techcrunch-ai",
       "source_id": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-      "title": "FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
+      "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
       "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
       "published_at": "2026-11-16T17:36:43+00:00",
-      "summary": "The FBI says that the open-source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+      "summary": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
       "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
@@ -272,38 +304,6 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.38
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-      "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
-      "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-      "published_at": "2026-11-16T12:30:00+00:00",
-      "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.03,
-        "recommended": true,
-        "relevance_confidence": 0.92,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.03,
-          "3": 0.91,
-          "4": 0.06
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.05,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.94,
-          "other_technology": 0.01
         }
       }
     },
@@ -377,7 +377,7 @@
       "source_id": "alibaba/open-code-review",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -405,34 +405,98 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "published_at": "2026-11-16T22:03:02+00:00",
+      "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.95,
+        "recommended": true,
+        "relevance_confidence": 0.69,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.15,
+          "3": 0.66,
+          "4": 0.16
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.74,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.2,
+          "policy_business": 0.79,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
-      "title": "Google Maps can now create trip itineraries for you",
-      "url": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
-      "published_at": "2026-11-16T14:00:00+00:00",
-      "summary": "Google is launching a new AI trip-planning feature for Maps that allows the app to create custom itineraries for you and provide real-time details about each stop. The update, which is rolling out to the Gemini-powered Ask Maps chatbot inside the app, lets you plan a one-day outing or a trip spanning several days. As […]",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+      "title": "US data centers now burn more electricity than a midsized country",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+      "published_at": "2026-11-16T20:27:58+00:00",
+      "summary": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of greenhouse gas emissions. The study homes in on hyperscale facilities - the […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.89,
+        "relevance_score": 2.88,
         "recommended": true,
-        "relevance_confidence": 0.88,
+        "relevance_confidence": 0.72,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.0,
-          "2": 0.13,
-          "3": 0.85,
-          "4": 0.02
+          "1": 0.01,
+          "2": 0.21,
+          "3": 0.68,
+          "4": 0.1
         },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.9,
+        "topic": "hardware_datacenters",
+        "topic_confidence": 1.0,
         "topic_probabilities": {
-          "ai_models_research": 0.92,
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 1.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "published_at": "2026-11-16T23:32:32+00:00",
+      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.85,
+        "recommended": true,
+        "relevance_confidence": 0.82,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.17,
+          "3": 0.79,
+          "4": 0.03
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.08
+          "policy_business": 0.99,
+          "other_technology": 0.0
         }
       }
     },
@@ -442,7 +506,7 @@
       "source_id": "NVIDIA/SkillEvaluator",
       "title": "NVIDIA/SkillEvaluator",
       "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -476,7 +540,7 @@
       "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
       "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
       "published_at": "2026-11-16T17:00:00+00:00",
-      "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning",
+      "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning.",
       "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
@@ -497,38 +561,6 @@
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
           "policy_business": 0.32,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
-      "title": "The Nvidia scandal isn’t slowing down",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
-      "published_at": "2026-11-16T13:00:00+00:00",
-      "summary": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpaced supply, leading AI CEOs to essentially bow at […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.81,
-        "recommended": true,
-        "relevance_confidence": 0.58,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.06,
-          "2": 0.23,
-          "3": 0.56,
-          "4": 0.15
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.56,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.65,
-          "policy_business": 0.35,
           "other_technology": 0.0
         }
       }
@@ -571,7 +603,7 @@
       "source_id": "ChromeDevTools/chrome-devtools-mcp",
       "title": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "Chrome DevTools for coding agents",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -604,7 +636,7 @@
       "source_id": "google-research/paper-orchestra",
       "title": "google-research/paper-orchestra",
       "url": "https://github.com/google-research/paper-orchestra",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -637,7 +669,7 @@
       "source_id": "sponsors/kajisho5",
       "title": "sponsors/kajisho5",
       "url": "https://github.com/sponsors/kajisho5",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -702,7 +734,7 @@
       "source_id": "dream-num/univer",
       "title": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -730,12 +762,44 @@
       }
     },
     {
+      "id": "ars-technica-technology:https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+      "source": "ars-technica-technology",
+      "source_id": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
+      "url": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+      "published_at": "2026-11-16T20:37:47+00:00",
+      "summary": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
+      "name": "Ars Technica Technology",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.49,
+        "recommended": true,
+        "relevance_confidence": 0.53,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.09,
+          "2": 0.35,
+          "3": 0.53,
+          "4": 0.03
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.87,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.09,
+          "policy_business": 0.9,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
       "id": "github_trending:ag-ui-protocol/ag-ui",
       "source": "github_trending",
       "source_id": "ag-ui-protocol/ag-ui",
       "title": "ag-ui-protocol/ag-ui",
       "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -766,7 +830,7 @@
       "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
       "source": "techcrunch-ai",
       "source_id": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-      "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
       "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
       "published_at": "2026-11-16T18:11:10+00:00",
       "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
@@ -795,34 +859,34 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability",
-      "title": "Audible is trying to make it easier to find audiobooks you’ll actually like",
-      "url": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability",
-      "published_at": "2026-11-16T14:00:00+00:00",
-      "summary": "Audible is introducing an AI-assisted synopsis feature that's designed to help users determine whether they'll enjoy an audiobook before they jump in and start listening to it. The new audio discovery feature combines audiobook samples, AI overviews, and author commentary to give users more information before choosing their next story, in addition to recommended audiobook […]",
-      "name": "The Verge",
+      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/accelerate-molecular-dynamics-simulations-with-accurate-flexible-primitives-using-nvidia-cupotential/feed/",
+      "source": "nvidia-developer-blog",
+      "source_id": "https://developer.nvidia.com/blog/accelerate-molecular-dynamics-simulations-with-accurate-flexible-primitives-using-nvidia-cupotential/feed/",
+      "title": "Accelerate Molecular Dynamics Simulations with Accurate, Flexible Primitives Using NVIDIA cuPotential",
+      "url": "https://developer.nvidia.com/blog/accelerate-molecular-dynamics-simulations-with-accurate-flexible-primitives-using-nvidia-cupotential/feed/",
+      "published_at": "2026-11-16T22:30:00+00:00",
+      "summary": "Molecular dynamics (MD) is an indispensable tool across physics, chemistry, biology, and materials science. Owing to its arithmetic structure, particularly the...",
+      "name": "NVIDIA Developer Blog",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.36,
+        "relevance_score": 2.38,
         "recommended": true,
-        "relevance_confidence": 0.63,
+        "relevance_confidence": 0.42,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.04,
-          "2": 0.56,
-          "3": 0.4,
-          "4": 0.0
+          "1": 0.16,
+          "2": 0.33,
+          "3": 0.47,
+          "4": 0.04
         },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.51,
+        "topic": "developer_tools",
+        "topic_confidence": 0.86,
         "topic_probabilities": {
-          "ai_models_research": 0.61,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.07,
-          "other_technology": 0.32
+          "ai_models_research": 0.0,
+          "developer_tools": 0.89,
+          "hardware_datacenters": 0.08,
+          "policy_business": 0.0,
+          "other_technology": 0.03
         }
       }
     },
@@ -832,7 +896,7 @@
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -860,12 +924,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+      "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+      "published_at": "2026-11-16T20:29:37+00:00",
+      "summary": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addressed the blue wave. \"I do think we've […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.32,
+        "recommended": true,
+        "relevance_confidence": 0.57,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.1,
+          "2": 0.49,
+          "3": 0.4,
+          "4": 0.01
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.49,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.59,
+          "policy_business": 0.41,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "github_trending:mvanhorn/last30days-skill",
       "source": "github_trending",
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -893,34 +989,34 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/transportation/1034039/faa-aviation-glitch-meltdown-ground-stop",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/transportation/1034039/faa-aviation-glitch-meltdown-ground-stop",
-      "title": "America’s air traffic control system couldn’t handle a single bad router",
-      "url": "https://www.theverge.com/transportation/1034039/faa-aviation-glitch-meltdown-ground-stop",
-      "published_at": "2026-11-16T14:43:48+00:00",
-      "summary": "Thirty minutes outside Atlanta, the pilot got on the intercom to announce that something was wrong. A communications issue with the Federal Aviation Administration was cascading across the country. The pilot didn't offer much detail except to say that the issue might affect gate access and connecting flights. For Amanda Khera, the timing couldn't be […]",
-      "name": "The Verge",
+      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+      "source": "mit-tech-review-ai",
+      "source_id": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+      "title": "The open-source movement wants Jensen Huang back",
+      "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+      "published_at": "2026-11-16T18:38:47+00:00",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia…",
+      "name": "MIT Technology Review AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.2,
+        "relevance_score": 2.11,
         "recommended": true,
-        "relevance_confidence": 0.48,
+        "relevance_confidence": 0.2,
         "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.19,
-          "2": 0.4,
-          "3": 0.38,
-          "4": 0.02
+          "0": 0.0,
+          "1": 0.31,
+          "2": 0.3,
+          "3": 0.35,
+          "4": 0.04
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.39,
+        "topic": "policy_business",
+        "topic_confidence": 0.69,
         "topic_probabilities": {
           "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.49,
-          "policy_business": 0.0,
-          "other_technology": 0.51
+          "developer_tools": 0.07,
+          "hardware_datacenters": 0.15,
+          "policy_business": 0.75,
+          "other_technology": 0.03
         }
       }
     },
@@ -957,44 +1053,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/entertainment/1034168/apple-tv-video-podcasts",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/entertainment/1034168/apple-tv-video-podcasts",
-      "title": "Apple TV is getting video podcasts you can watch for free",
-      "url": "https://www.theverge.com/entertainment/1034168/apple-tv-video-podcasts",
-      "published_at": "2026-11-16T14:45:56+00:00",
-      "summary": "Apple's streaming service will soon have a video podcasts section, the New York Times reports. It will start testing the feature in a developer release today, so expect a new update for iOS 27.3 beta testers to roll out in a few hours. Once it rolls out fully, the new video podcasts section will be […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.11,
-        "recommended": true,
-        "relevance_confidence": 0.68,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.14,
-          "2": 0.61,
-          "3": 0.25,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.96,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.03,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.97
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/elementalsouls",
       "source": "github_trending",
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1022,44 +1086,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1034355/trump-jensen-huang-nvidia-return",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1034355/trump-jensen-huang-nvidia-return",
-      "title": "Trump says it ‘certainly isn’t a bad idea’ for Jensen Huang to return to Nvidia",
-      "url": "https://www.theverge.com/tech/1034355/trump-jensen-huang-nvidia-return",
-      "published_at": "2026-11-16T16:39:36+00:00",
-      "summary": "Following Jensen Huang's resignation as Nvidia's CEO last week, Trump told reporters on Monday that he's open to seeing Huang return and that he's not certain that the woman Huang reportedly had an affair with was in fact a spy. \"I think having Jensen go back- a lot of people are asking Jensen, they think […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.99,
-        "recommended": false,
-        "relevance_confidence": 0.14,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.4,
-          "2": 0.22,
-          "3": 0.29,
-          "4": 0.07
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.49,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.29,
-          "policy_business": 0.59,
-          "other_technology": 0.12
-        }
-      }
-    },
-    {
       "id": "github_trending:backnotprop/plannotator",
       "source": "github_trending",
       "source_id": "backnotprop/plannotator",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1092,7 +1124,7 @@
       "source_id": "tradermonty/claude-trading-skills",
       "title": "tradermonty/claude-trading-skills",
       "url": "https://github.com/tradermonty/claude-trading-skills",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1116,6 +1148,38 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.05
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+      "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
+      "url": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+      "published_at": "2026-11-16T23:35:58+00:00",
+      "summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to the UK's Crown Prosecution Service (CPS). Kurtaj, who is now 21, hacked BT/EE sometime between August and November 2021, and starting in early November […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.75,
+        "recommended": false,
+        "relevance_confidence": 0.58,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.36,
+          "2": 0.51,
+          "3": 0.12,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.99
         }
       }
     },
@@ -1159,7 +1223,7 @@
       "source_id": "getarcaneapp/arcane",
       "title": "getarcaneapp/arcane",
       "url": "https://github.com/getarcaneapp/arcane",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "Modern Docker Management, Designed for Everyone",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1187,6 +1251,134 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "published_at": "2026-11-16T23:17:34+00:00",
+      "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.38,
+        "recommended": false,
+        "relevance_confidence": 0.63,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.73,
+          "2": 0.11,
+          "3": 0.09,
+          "4": 0.04
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.29,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.15,
+          "policy_business": 0.43,
+          "other_technology": 0.42
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+      "published_at": "2026-11-16T19:12:02+00:00",
+      "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.38,
+        "recommended": false,
+        "relevance_confidence": 0.57,
+        "relevance_probabilities": {
+          "0": 0.06,
+          "1": 0.62,
+          "2": 0.2,
+          "3": 0.11,
+          "4": 0.01
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.45,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.08,
+          "policy_business": 0.36,
+          "other_technology": 0.56
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+      "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+      "published_at": "2026-11-16T19:50:47+00:00",
+      "summary": "If you’re still sporting an Apple Watch that launched five or so years ago, now is a good time to upgrade. Apple’s latest smartwatch, the 42mm Apple Watch Series 12 with Wi-Fi and GPS connectivity, has dropped to a new all-time low of $329 at Amazon, Best Buy, and Walmart, beating the October Prime Day […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.34,
+        "recommended": false,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.64,
+          "2": 0.32,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.99
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+      "title": "United Airlines system outage disrupts departures just days after the big ground stop",
+      "url": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+      "published_at": "2026-11-16T22:54:59+00:00",
+      "summary": "Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departing flights are being disrupted by an outage. At 6:13PM ET, United said the problem has been fixed: Earlier today we experienced a technology-related issue that impacted some departing flights. The issue […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.33,
+        "recommended": false,
+        "relevance_confidence": 0.66,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.62,
+          "2": 0.31,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.95,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.03,
+          "other_technology": 0.96
+        }
+      }
+    },
+    {
       "id": "hackernews:50518567",
       "source": "hackernews",
       "source_id": "50518567",
@@ -1195,8 +1387,8 @@
       "published_at": "2026-11-16T15:24:09+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50518567",
-      "points": 147,
-      "comments": 138,
+      "points": 257,
+      "comments": 235,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -1222,12 +1414,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+      "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+      "published_at": "2026-11-16T20:41:28+00:00",
+      "summary": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\" […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.28,
+        "recommended": false,
+        "relevance_confidence": 0.75,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.73,
+          "2": 0.23,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.49,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.01,
+          "hardware_datacenters": 0.59,
+          "policy_business": 0.03,
+          "other_technology": 0.36
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/sveltejs",
       "source": "github_trending",
       "source_id": "sponsors/sveltejs",
       "title": "sponsors/sveltejs",
       "url": "https://github.com/sponsors/sveltejs",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "web development for the rest of us",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1255,44 +1479,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1034178/sony-playstation-5-ps5-accessories-monitor-dualsense-headset-deal-sale",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1034178/sony-playstation-5-ps5-accessories-monitor-dualsense-headset-deal-sale",
-      "title": "Sony’s PlayStation 5 accessories are cheaper ahead of Black Friday",
-      "url": "https://www.theverge.com/gadgets/1034178/sony-playstation-5-ps5-accessories-monitor-dualsense-headset-deal-sale",
-      "published_at": "2026-11-16T16:48:01+00:00",
-      "summary": "Several retailers are offering discounts on PlayStation 5 games, including deep price cuts on recent console-exclusive hits like Marvel’s Wolverine, Ghost of Yotei, Saros, and hundreds more. We’ll cover a bunch of those in the coming days, but this post is focused on the great hardware discounts that are happening, including $20 off the stellar […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.06,
-        "recommended": false,
-        "relevance_confidence": 0.8,
-        "relevance_probabilities": {
-          "0": 0.09,
-          "1": 0.77,
-          "2": 0.13,
-          "3": 0.01,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
-        }
-      }
-    },
-    {
       "id": "github_trending:DeanChensj/jiangshan-map",
       "source": "github_trending",
       "source_id": "DeanChensj/jiangshan-map",
       "title": "DeanChensj/jiangshan-map",
       "url": "https://github.com/DeanChensj/jiangshan-map",
-      "published_at": "2026-11-16T18:38:30.151795+00:00",
+      "published_at": "2026-11-17T02:58:41.777029+00:00",
       "summary": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1320,58 +1512,90 @@
       }
     },
     {
-      "id": "hackernews:50515620",
+      "id": "hackernews:50523459",
       "source": "hackernews",
-      "source_id": "50515620",
-      "title": "David Sacks Is Fucked Too",
-      "url": "https://daringfireball.net/linked/2026/11/13/sacks",
-      "published_at": "2026-11-16T09:19:53+00:00",
+      "source_id": "50523459",
+      "title": "OpenCode Browse",
+      "url": "https://opencode.ai/product/browse",
+      "published_at": "2026-11-16T21:20:37+00:00",
       "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50515620",
-      "points": 21,
-      "comments": 5,
-      "matched_term": "David Sacks",
+      "thread_url": "https://news.ycombinator.com/item?id=50523459",
+      "points": 137,
+      "comments": 62,
+      "matched_term": "OpenCode",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.72,
+        "relevance_score": 0.97,
         "recommended": false,
-        "relevance_confidence": 0.67,
+        "relevance_confidence": 0.61,
         "relevance_probabilities": {
-          "0": 0.34,
-          "1": 0.61,
-          "2": 0.04,
-          "3": 0.01,
+          "0": 0.25,
+          "1": 0.57,
+          "2": 0.14,
+          "3": 0.04,
           "4": 0.0
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.41,
+        "topic": "developer_tools",
+        "topic_confidence": 0.96,
         "topic_probabilities": {
           "ai_models_research": 0.01,
-          "developer_tools": 0.0,
+          "developer_tools": 0.97,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.46,
-          "other_technology": 0.53
+          "policy_business": 0.0,
+          "other_technology": 0.02
         }
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1028004/best-gifts-under-100-2026",
+      "id": "the-verge:https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1028004/best-gifts-under-100-2026",
-      "title": "The Verge’s guide to the best gifts under $100",
-      "url": "https://www.theverge.com/gadgets/1028004/best-gifts-under-100-2026",
-      "published_at": "2026-11-16T16:00:14+00:00",
-      "summary": "Even in an era of inflation like the one we're living through now, $100 can still buy a lot… if you know where to look. In fact, it's enough to get something useful and well-made, but not so pricey that it's likely to leave you with lingering guilt or lead to insurmountable debt. As reviewers, […]",
+      "source_id": "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
+      "title": "Some of our favorite PlayStation games are steeply discounted for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
+      "published_at": "2026-11-16T20:36:14+00:00",
+      "summary": "Black Friday is approaching, and some companies are already rolling out the discounts ahead of the big day. If you’re hunting for PlayStation 5 accessories, we’ve already rounded up some of our favorite controllers and headsets from Sony’s ongoing promotion. However, if you’re looking to expand your library, some of the PS5’s biggest titles are […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.66,
+        "relevance_score": 0.73,
         "recommended": false,
-        "relevance_confidence": 0.69,
+        "relevance_confidence": 0.74,
         "relevance_probabilities": {
-          "0": 0.36,
-          "1": 0.63,
-          "2": 0.01,
+          "0": 0.29,
+          "1": 0.69,
+          "2": 0.02,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.99
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death",
+      "title": "In Get Huge, the manosphere is here to make friends — with deadly consequences",
+      "url": "https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death",
+      "published_at": "2026-11-16T21:41:57+00:00",
+      "summary": "Before Clavicular and other manosphere streamers were introducing young guys to the concept of breaking their facial bones to become more attractive, there was an older generation of creators building massive followings with content focused on chemical biohacking. Were it not for steroid-obsessed influencers like Anthony \"Tony Huge\" Hughes launching YouTube channels over a decade […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.21,
+        "recommended": false,
+        "relevance_confidence": 0.83,
+        "relevance_probabilities": {
+          "0": 0.8,
+          "1": 0.2,
+          "2": 0.0,
           "3": 0.0,
           "4": 0.0
         },
@@ -1385,109 +1609,10 @@
           "other_technology": 1.0
         }
       }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/podcast/1034141/nj-midterm-sherill-democrats-musk-x-ai",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/podcast/1034141/nj-midterm-sherill-democrats-musk-x-ai",
-      "title": "Why NJ’s governor thinks Republicans are trapped in an X bubble",
-      "url": "https://www.theverge.com/podcast/1034141/nj-midterm-sherill-democrats-musk-x-ai",
-      "published_at": "2026-11-16T16:00:00+00:00",
-      "summary": "Today I’m talking with Mikie Sherrill, who’s been New Jersey governor for just a little under a year, and you’ll hear her say her election was a preview of the huge Democratic victories in these recent midterms because she ran on the dual themes of affordability and accountability. So I wanted to ask the governor […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.25,
-        "recommended": false,
-        "relevance_confidence": 0.8,
-        "relevance_probabilities": {
-          "0": 0.77,
-          "1": 0.22,
-          "2": 0.01,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.8,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.16,
-          "other_technology": 0.84
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1034192/robert-pattinson-james-bond",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1034192/robert-pattinson-james-bond",
-      "title": "Robert Pattinson is Amazon’s first James Bond",
-      "url": "https://www.theverge.com/tech/1034192/robert-pattinson-james-bond",
-      "published_at": "2026-11-16T15:19:34+00:00",
-      "summary": "Robert Pattinson will take on the role of James Bond in Amazon MGM's first film in the 007 franchise. The next James Bond film will be directed by Denis Villeneuve using a script written by Steven Knight, while Amy Pascal and David Heyman will produce. The upcoming James Bond film will be the first from […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.15,
-        "recommended": false,
-        "relevance_confidence": 0.89,
-        "relevance_probabilities": {
-          "0": 0.87,
-          "1": 0.13,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.91,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.07,
-          "other_technology": 0.93
-        }
-      }
     }
   ],
   "reddit": [],
   "hn": [
-    {
-      "id": "hackernews:50515620",
-      "source": "hackernews",
-      "source_id": "50515620",
-      "title": "David Sacks Is Fucked Too",
-      "url": "https://daringfireball.net/linked/2026/11/13/sacks",
-      "published_at": "2026-11-16T09:19:53+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50515620",
-      "points": 21,
-      "comments": 5,
-      "matched_term": "David Sacks",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.72,
-        "recommended": false,
-        "relevance_confidence": 0.67,
-        "relevance_probabilities": {
-          "0": 0.34,
-          "1": 0.61,
-          "2": 0.04,
-          "3": 0.01,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.41,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.46,
-          "other_technology": 0.53
-        }
-      }
-    },
     {
       "id": "hackernews:50518567",
       "source": "hackernews",
@@ -1497,8 +1622,8 @@
       "published_at": "2026-11-16T15:24:09+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50518567",
-      "points": 147,
-      "comments": 138,
+      "points": 257,
+      "comments": 235,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -1519,6 +1644,41 @@
           "developer_tools": 0.0,
           "hardware_datacenters": 0.41,
           "policy_business": 0.57,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "hackernews:50523459",
+      "source": "hackernews",
+      "source_id": "50523459",
+      "title": "OpenCode Browse",
+      "url": "https://opencode.ai/product/browse",
+      "published_at": "2026-11-16T21:20:37+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50523459",
+      "points": 137,
+      "comments": 62,
+      "matched_term": "OpenCode",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.97,
+        "recommended": false,
+        "relevance_confidence": 0.61,
+        "relevance_probabilities": {
+          "0": 0.25,
+          "1": 0.57,
+          "2": 0.14,
+          "3": 0.04,
+          "4": 0.0
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.96,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.97,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
           "other_technology": 0.02
         }
       }
