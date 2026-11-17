@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-11-17** `Tencent/LoopForge` trending on GitHub: self-hosted workflows that orchestrate CodeBuddy, Codex, and Claude Code with scripts and human approval gates. Google Labs' `stitch-skills`, also trending, says its Agent Skills work in Claude Code among other agents. [LoopForge](https://github.com/Tencent/LoopForge) · [stitch-skills](https://github.com/google-labs-code/stitch-skills)
+
 - **2026-10-01** Shipped Mods: TypeScript functions that hook into Claude Code internals to rewrite prompts, block or retry tool calls, redact secrets, or replace built-in features (`/diff` now ships as a mod itself); installed via `/plugin`. Not sandboxed; Anthropic warns to use trusted sources only. [Anthropic blog](https://claude.com/blog/claude-code-mods) (primary) · [The New Stack](https://thenewstack.io/anthropic-claude-code-mods-plugins/) (independent)
 
 - **2026-09-27** `mvschwarz/openrig` trending on GitHub (+114 stars): a multi-agent harness that runs Claude Code and Codex side by side as one coordinated system, letting users route or compare work across both instead of picking one. [GitHub](https://github.com/mvschwarz/openrig)

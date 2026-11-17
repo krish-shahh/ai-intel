@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-11-17** `jingyaogong/minimind` trending on GitHub: trains a 64M-parameter LLM from scratch, which the repo says takes about two hours (hardware not stated in the record). [GitHub](https://github.com/jingyaogong/minimind)
+
 - **2026-11-12** [[jensenhuang]]'s exit from [[nvidia]] has put its open-source posture in question, including the $12.9B Hugging Face acquisition, its open-weight models, and its lobbying against restrictions (TechCrunch analysis). Hugging Face's CEO pledged to keep fighting for open-source AI. [TechCrunch](https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/) · [TechCrunch](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/)
 
 - **2026-11-06** The agent-skills repo wave kept rolling on GitHub trending: `mattpocock/skills` (Matt Pocock's Claude Code skills from his own `.agents` directory) hit #1 daily trending at +2,070 stars (316k total), alongside `cloudflare/security-audit-skill` (+2,548, Cloudflare's own multi-phase security-audit skill) and `google/skills` (+534, 22.8k total). [mattpocock/skills](https://github.com/mattpocock/skills) (primary) · [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) (primary)
