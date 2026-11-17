@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-11-16** Listed among signatories of a petition to reinstate [[jensenhuang]] as [[nvidia]] CEO, per MIT Technology Review. [MIT Technology Review](https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/) (independent)
+
 - **2026-10-16** SpaceXAI finally gave its subpoenaed testimony to the NYC Council's Committee on Technology, represented by a government-affairs manager rather than a technical lead. Per MLex, questions about the size of its dedicated safety staff and the resignation of whistleblower engineer Devin Kim went unanswered. [MLex](https://www.mlex.com/mlex/articles/2539163/spacexai-s-belated-testimony-to-nyc-council-light-on-safety-specifics) (independent)
 
 - **2026-10-13 (reported)** SpaceXAI reportedly did not appear at the Oct 5 hearing despite the subpoena; the NYC Council says it will seek enforcement in state court if the company keeps ignoring it. Single secondary source, not yet independently corroborated. [LetsDataScience](https://letsdatascience.com/news/nyc-council-subpoenas-spacexai-for-ai-safety-hearing-d256f64c) (community)
