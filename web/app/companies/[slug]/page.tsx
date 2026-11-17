@@ -9,7 +9,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const item = getCollectionItem('companies', slug);
-  return item ? { title: `${item.data.name || slug} · ai-intel` } : {};
+  return item ? { title: `${item.data.name || slug}` } : {};
 }
 
 export default async function CompanyPage({ params }: { params: Promise<{ slug: string }> }) {

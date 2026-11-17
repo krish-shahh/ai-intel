@@ -3,7 +3,7 @@ import { getRecentBriefs } from '../../lib/vault';
 import { briefLabel } from '../../lib/format';
 import { IndexedList, type IndexedItem } from '../indexed-list';
 
-export const metadata: Metadata = { title: 'Briefs · ai-intel' };
+export const metadata: Metadata = { title: 'Briefs' };
 
 function monthLabel(date?: string): string {
   if (!date) return 'Undated';

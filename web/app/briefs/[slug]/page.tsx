@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const brief = getBrief(slug);
   if (!brief) return {};
-  return { title: `${briefLabel(brief)} · ai-intel` };
+  return { title: briefLabel(brief) };
 }
 
 export default async function BriefPage({ params }: { params: Promise<{ slug: string }> }) {

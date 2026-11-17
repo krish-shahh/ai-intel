@@ -1,4 +1,5 @@
 import type { Note } from './vault';
+import { briefLabel } from './format';
 
 export type GraphNodeType = 'brief' | 'person' | 'company' | 'topic';
 
@@ -44,7 +45,7 @@ export function buildGraphData(notes: Note[]): GraphData {
   for (const n of notes) {
     if (n.collection !== 'briefs') continue;
     const date = n.data.date as string | undefined;
-    add(`brief:${n.slug}`, n.slug, 'brief', `/briefs/${n.slug}`, date);
+    add(`brief:${n.slug}`, briefLabel(n), 'brief', `/briefs/${n.slug}`, date);
 
     const refs = [
       ...(((n.data.people as string[]) || []).map((s) => `person:${s}`)),

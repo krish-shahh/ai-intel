@@ -15,27 +15,15 @@ export default function OpengraphImage() {
           justifyContent: 'center',
           alignItems: 'flex-start',
           padding: '90px',
-          background: '#16161a',
-          color: '#e8e8ec',
-          fontFamily: 'sans-serif',
+          background: '#f4f5f6',
+          color: '#263b50',
+          fontFamily: 'Georgia, serif',
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: 24, marginBottom: 44 }}>
-          <svg width="76" height="76" viewBox="0 0 1024 1024" fill="none">
-            <rect x="72" y="72" width="880" height="880" rx="220" fill="#16161D" />
-            <rect x="73" y="73" width="878" height="878" rx="219" stroke="#FFFFFF" strokeOpacity=".09" strokeWidth="2" />
-            <path d="M252 660L420 532L574 608L772 360" stroke="#F2F0EA" strokeWidth="54" strokeLinecap="round" strokeLinejoin="round" />
-            <circle cx="252" cy="660" r="60" fill="#16161D" stroke="#F2F0EA" strokeWidth="34" />
-            <circle cx="420" cy="532" r="60" fill="#16161D" stroke="#F2F0EA" strokeWidth="34" />
-            <circle cx="574" cy="608" r="86" fill="#7C6CFF" />
-            <circle cx="574" cy="608" r="86" stroke="#C8C0FF" strokeOpacity=".58" strokeWidth="8" />
-            <circle cx="772" cy="360" r="60" fill="#16161D" stroke="#F2F0EA" strokeWidth="34" />
-            <path d="M228 302V230H300M724 794H796V722" stroke="#7C6CFF" strokeWidth="24" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          <div style={{ fontSize: 64, fontWeight: 600, letterSpacing: '-0.02em' }}>ai-intel</div>
-        </div>
-        <div style={{ fontSize: 32, color: '#9a9aa6', maxWidth: 820, lineHeight: 1.4 }}>
-          Collects AI and tech updates from APIs, RSS, and research feeds, then turns them into cited briefs and linked wiki pages.
+        <div style={{ fontSize: 24, color: '#667583', marginBottom: 28, fontFamily: 'sans-serif', letterSpacing: '0.08em', textTransform: 'uppercase' }}>Personal reading list</div>
+        <div style={{ fontSize: 72, fontWeight: 500, letterSpacing: '-0.04em' }}>AI &amp; technology</div>
+        <div style={{ fontSize: 30, color: '#65717d', maxWidth: 820, lineHeight: 1.4, marginTop: 18, fontFamily: 'sans-serif' }}>
+          A daily brief with sources and connected notes.
         </div>
       </div>
     ),

@@ -37,7 +37,13 @@ export function CollectionList({ name, heading }: { name: CollectionName; headin
 
   return (
     <>
-      <h1 className="pagetitle">{heading}</h1>
+      <div className="collection-heading">
+        <div>
+          <div className="eyebrow">Library</div>
+          <h1 className="pagetitle">{heading}</h1>
+        </div>
+        <span className="collection-count">{items.length} entries</span>
+      </div>
       {items.length === 0 ? (
         <div className="empty">Nothing tracked yet.</div>
       ) : (

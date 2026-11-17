@@ -52,7 +52,7 @@ function resolveVaultRoot(): string {
 
 const VAULT_ROOT = resolveVaultRoot();
 
-const md = new MarkdownIt({ html: false, linkify: true, typographer: true })
+const md = new MarkdownIt({ html: false, linkify: true, typographer: true, breaks: true })
   .use(multimdTable, { multiline: false, rowspan: false, headerless: false, multibody: true })
   .use(markdownItAttrs);
 
@@ -95,7 +95,10 @@ const loadAll = cache(function loadAll() {
 
   for (const name of COLLECTIONS) {
     for (const note of byCollection[name]) {
-      const withLinks = wikilinksToHref(note.rawBody, slugIndex);
+      const body = name === 'briefs'
+        ? note.rawBody.replace(/^(\s*)(What happened|Why it matters|Confidence|Sources):/gm, '$1**$2:**')
+        : note.rawBody;
+      const withLinks = wikilinksToHref(body, slugIndex);
       note.html = md.render(withLinks);
     }
   }

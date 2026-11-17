@@ -128,7 +128,7 @@ export function IndexedList({ items, placeholder }: { items: IndexedItem[]; plac
       <div className="indexed-list-body" ref={listRef}>
         {filtered.length === 0 && <div className="empty">No matches.</div>}
         {filtered.map(({ group, items: groupItems }) => (
-          <section key={group} data-group={group}>
+          <section key={group} data-group={group} className={groupItems.length > 8 ? 'directory-group directory-group-long' : 'directory-group'}>
             <div className="group-label">{group}</div>
             {groupItems.map((item) => (
               <Link key={item.slug} href={item.href} className="list-row">
