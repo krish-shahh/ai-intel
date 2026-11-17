@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T02:57:03.982100+00:00",
+  "generated_at": "2026-11-17T13:31:00.488618+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
@@ -7,377 +7,25 @@
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 2,
+    "hackernews": 0,
     "polymarket": 0,
-    "rss": 32,
+    "rss": 7,
     "arxiv": 0,
     "sec_edgar": 0,
     "github": 0,
     "github_trending": 15,
     "gdelt": 0,
-    "newsapi": 100,
+    "newsapi": 0,
     "mediastack": 0
   },
   "items": [
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-      "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
-      "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-      "published_at": "2026-11-16T15:02:34+00:00",
-      "summary": "Under the interim rule, the U.S. will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.83,
-        "recommended": true,
-        "relevance_confidence": 0.86,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.0,
-          "3": 0.17,
-          "4": 0.83
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.89,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.09,
-          "policy_business": 0.91,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "title": "California sues OpenAI over rogue AI hacking incidents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "published_at": "2026-11-16T20:46:01+00:00",
-      "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.45,
-        "recommended": true,
-        "relevance_confidence": 0.6,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.01,
-          "3": 0.52,
-          "4": 0.47
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.05,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.95,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
-      "source": "ieee-spectrum-ai",
-      "source_id": "https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
-      "title": "AI Companies Develop Decision Models to Avoid Hallucinations",
-      "url": "https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
-      "published_at": "2026-11-16T17:00:54+00:00",
-      "summary": "On 15 September, a startup called TypeSafe AI released a new AI model called Jev . The company’s broad, disruptive claims about Jev that turned heads: The company claimed that Jev, which it calls a “System One model” is cheaper, faster, and can’t hallucinate. TypeSafe AI’s marketing is an obvious shot across the bow of other AI companies and their large language models (LLMs), which, despite their capabilities in math and coding, are infamous for their cost and tendency to “hallucinate” factually incorrect replies. And the startup has certainly attracted both attention and investment. The company recently raised $870 million in funding at a valuation of $7.5 billion . But the most impressive metric of Jev’s success is arguably the many imitators it’s already spawned. Cloudflare, Amazon, OpenAI, and Microsoft quickly released “decision models” that imitate Jev’s capabilities. Start-ups, academic researchers, and independent enthusiasts have released dozens more. “I have to give Jev credit,” says Matt Mastracci , an independent developer who has trained and released several decision models including Djev , which Cloudflare cited as an inspiration for its own decision models . “It really brought decision models to the forefront. In six or seven weeks, we’ve seen dozens of models come out.” Jev’s Latency and Compute Advantages Most AI researchers would call Jev a decision model or decider model. TypeSafe AI’s branding of Jev as a System One model refers to a theory of cognition popularized by psychologist Daniel Kahneman in his book Thinking, Fast and Slow . In the book, Kahneman draws a line between fast, instinctive thought (System One) and slower, deliberate thought (System Two). TypeSafe AI argues that modern LLMs offer the second, but are too slow to provide the first. The company claims that Jev can provide end-to-end response latency between 70 and 500 milliseconds. By comparison, LLMs typically require at least several seconds, to provide a response, and more complicated tasks (like coding software from scratch) can take several hours. Independent testing backs up TypeSafe AI’s claims. A pre-print co-authored by Ramayya Krishnan , a professor of information systems at Carnegie Mellon University, along with several colleagues, found that Jev delivered a median latency of 150 milliseconds across several benchmarks designed to gauge decision accuracy, including RewardBench and JudgeBench . OpenAI’s most capable model at the time, GPT-6 Astra, delivered a median latency of 1.89 seconds. A faster reply is often a cheaper reply, because it requires less compute time, and that’s reflected in TypeSafe AI’s pricing. The startup charges US $0.042 per million input tokens and output tokens are free. By contrast, for GPT-6 Astra, ChatGPT charges $10 per million input tokens and $50 per million output tokens. Even GPT-6 Luna, a variant of GPT-6 designed for fast, inexpensive inference, costs $0.10 per million input tokens and $0.50 per million output tokens . Mastracci says that lower latency and costs open opportunities to tackle tasks LLMs currently can’t handle.“You can think of content moderation, such as moderating a fire hose of social media posts, or an extremely busy chat room.” Michelle Chen , a group product manager at Cloudflare (which has released its own decision models, including Clef and Claric ), is also bullish on what decision models can accomplish. “You can probably offload 80 percent of your typical LLM tasks to a System One model that is going to be so much faster and so much cheaper.” TypeSafe AI has offered few details about how Jev achieves its speed, but Jev’s open-weights imitators provide more transparency. For example, take Cloudflare’s Clef, an open-weights decision model which is free to download on Hugging Face . “With an LLM, when you’re generating an output token, it looks at all the previous tokens, and predicts the next output token,” explains Chen. This occurs in sequence, token after token, until an end token is reached. “Our decision models don’t do that. They just do a single forward pass, to generate one read of all the inputs, and then generate one output. That’s why it’s a lot faster.” How Decision Models Generalize Tasks Decision models based on an LLM, such as Clef (which is based on Alibaba’s Qwen LLM ), still contain the neurons and transformer-based model architecture of an LLM. They still input and output tokens. However, the portions of the model that turn these tokens into text have been changed to constrain the output. “Jev can only answer questions with a predefined, structured answer format,” says Zhongyu Wei , a professor at Fudan University who is also a co-author of a study that benchmarks decision models and introduces an open-weight alternative, SII-Decision . “We give it a question and options such as A, B and C, and it must choose from those options, returning probabilities alongside its choice.” In one sense, decision models are a return to classifiers , a type of model that, as the name implies, learn to sort data into classes. They’re used in a wide range of tasks, including spam filters and face detection. “These kinds of models are not new,” says Chen. “It’s almost like a rebranding.” But decision models offer a key upgrade over prior classifiers: generalization. Mastracci explains that classifiers were traditionally created through domain-specific training. Decision models, though, retain the general intelligence of an LLM, and that makes them applicable to many situations. “You can pick it up off the shelf, you point it at your problem, and it works,” says Mastracci. Cloudflare is putting this advantage into practice. Before decision models, teams looking to use a classifier model had to “get a lot of data, stand up a machine learning team, and fine-tune” a model for the task, Chen says. Decision models eliminate this requirement, so one decision model can be used in many domains. Examples include flagging spam pull requests in Cloudflare’s GitHub documentation repository, catching spam and phishing emails, spotting phishing domains, detecting prompt-injection attacks on LLMs, and reading emails about internet backbone outages to judge whether they’ll affect Cloudflare’s services. Decision models are well suited for quick judgements on data like emails, messages, or documents. Source: TypeSafe AI Do Decision Models Really Stop Hallucinations? In programming, “type-safe” languages are designed so that operations mixing incompatible kinds of data—adding a number to a string, say—are rejected before the program runs rather than producing a bad result later. Decision models are similar in that they prevent the model from generating an unexpected reply. TypeSafe AI’s name makes the connection between type-safe programming and decision models part of the company’s marketing, and it builds on that to make a startling claim: Jev will never hallucinate. This is, strictly speaking, true. LLMs hallucinate because they calculate probabilities for tokens repeatedly across a huge vocabulary of possibilities and output many tokens. This leaves room for less probable tokens to lead a response astray, or for the model to deliver tokens that are probable based on the model’s training, but not correct in the context of the reply. Decision models, by contrast, only calculate probabilities among the pre-determined possibilities, and the most probable is chosen. This eliminates hallucination. However, Carnegie Mellon’s Krishnan cautions that “eliminating hallucinations in the output does not eliminate errors in decision-making.” He and his co-authors tested Jev by asking it to determine if answers to questions were correct. Jev performed well when the judgment could be easily reached by reading the prompt, but performance dropped off when the judgment required math or involved a logic puzzle. Wei and his co-authors report similar results in their own research. They found the best decision models can slightly beat the accuracy of LLMs when asked questions about document understanding, and score close to LLMs when asked questions related to tool use (such as choosing the correct software tool to call to perform a user’s task). However, decision models fall behind when asked questions in domains that require topic expertise, including medicine, finance, and law. “I think reasoning is a key factor,” says Wei. Reasoning allows an LLM to work though its response before it provides a final answer to the user. However, Wei adds that reasoning alone doesn’t explain the domain gaps in all cases, as some LLMs performed well even without reasoning. Wei says the methods used to train decision models can also be a factor, and used decision-specific training for SII-Decision. Yet decision models and LLMs don’t have to be competitors. Krishnan and his colleagues also tested passing Jev’s low-confidence answers to GPT-6 for additional consideration. The combination of models slightly beat the accuracy of GPT-6 alone, and did so at 41 percent of the cost. Wei thinks this “hybrid architecture” will become common. “The decision model can call an LLM to give a more detailed explanation. And an LLM can call a decision model for a quick judgment. I think that’s very flexible.”",
-      "name": "IEEE Spectrum AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.45,
-        "recommended": true,
-        "relevance_confidence": 0.6,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.01,
-          "3": 0.52,
-          "4": 0.47
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.99,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1/feed/",
-      "title": "NVIDIA Vera Rubin NVL72 Achieves up to 2x Blackwell Ultra Performance in MLPerf Training v6.1",
-      "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1/feed/",
-      "published_at": "2026-11-16T16:00:00+00:00",
-      "summary": "As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and the agents they power. MLPerf...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.42,
-        "recommended": true,
-        "relevance_confidence": 0.61,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.02,
-          "3": 0.53,
-          "4": 0.45
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.65,
-        "topic_probabilities": {
-          "ai_models_research": 0.28,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.72,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/feed/",
-      "title": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0",
-      "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/feed/",
-      "published_at": "2026-11-16T16:00:00+00:00",
-      "summary": "Agentic workloads are demanding more from inference systems. AI agents carry growing conversation histories across turns and generate a mix of reasoning, tool...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.34,
-        "recommended": true,
-        "relevance_confidence": 0.69,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.01,
-          "3": 0.63,
-          "4": 0.36
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.61,
-        "topic_probabilities": {
-          "ai_models_research": 0.69,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.31,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-      "source": "mit-tech-review-ai",
-      "source_id": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-      "title": "Building trustworthy AI by fencing it in, not predicting it",
-      "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-      "published_at": "2026-11-16T16:04:28+00:00",
-      "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do…",
-      "name": "MIT Technology Review AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.32,
-        "recommended": true,
-        "relevance_confidence": 0.71,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.01,
-          "3": 0.65,
-          "4": 0.34
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.95,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.05,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "published_at": "2026-11-16T20:07:13+00:00",
-      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.21,
-        "recommended": true,
-        "relevance_confidence": 0.81,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.01,
-          "3": 0.77,
-          "4": 0.22
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.98,
-        "topic_probabilities": {
-          "ai_models_research": 0.02,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.98,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
-      "title": "OpenAI will embed safety researchers to investigate AI subversion",
-      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
-      "published_at": "2026-11-16T17:02:43+00:00",
-      "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.13,
-        "recommended": true,
-        "relevance_confidence": 0.88,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.01,
-          "3": 0.85,
-          "4": 0.14
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.86,
-        "topic_probabilities": {
-          "ai_models_research": 0.89,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.11,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-      "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
-      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-      "published_at": "2026-11-16T17:36:43+00:00",
-      "summary": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.05,
-        "recommended": true,
-        "relevance_confidence": 0.8,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.08,
-          "3": 0.77,
-          "4": 0.14
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.44,
-        "topic_probabilities": {
-          "ai_models_research": 0.07,
-          "developer_tools": 0.55,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.38
-        }
-      }
-    },
-    {
-      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-      "source": "mit-tech-review-ai",
-      "source_id": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-      "title": "Building AI that can work across the enterprise",
-      "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-      "published_at": "2026-11-16T13:00:00+00:00",
-      "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,…",
-      "name": "MIT Technology Review AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.0,
-        "recommended": true,
-        "relevance_confidence": 0.83,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.1,
-          "3": 0.8,
-          "4": 0.1
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.66,
-        "topic_probabilities": {
-          "ai_models_research": 0.27,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.73,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain/feed/",
-      "title": "Post-Training NVIDIA Nemotron to Increase Accuracy in Your Scientific Domain",
-      "url": "https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain/feed/",
-      "published_at": "2026-11-16T16:00:00+00:00",
-      "summary": "Agentic AI is reshaping scientific research and innovation. Researchers communicate complex scientific hypotheses in natural language and let autonomous agents...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.98,
-        "recommended": true,
-        "relevance_confidence": 0.8,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.11,
-          "3": 0.77,
-          "4": 0.11
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 1.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
     {
       "id": "github_trending:alibaba/open-code-review",
       "source": "github_trending",
       "source_id": "alibaba/open-code-review",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -399,70 +47,6 @@
           "ai_models_research": 0.0,
           "developer_tools": 1.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-      "published_at": "2026-11-16T22:03:02+00:00",
-      "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.95,
-        "recommended": true,
-        "relevance_confidence": 0.69,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.03,
-          "2": 0.15,
-          "3": 0.66,
-          "4": 0.16
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.74,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.2,
-          "policy_business": 0.79,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
-      "title": "US data centers now burn more electricity than a midsized country",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
-      "published_at": "2026-11-16T20:27:58+00:00",
-      "summary": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of greenhouse gas emissions. The study homes in on hyperscale facilities - the […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.88,
-        "recommended": true,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.21,
-          "3": 0.68,
-          "4": 0.1
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 1.0,
           "policy_business": 0.0,
           "other_technology": 0.0
         }
@@ -501,132 +85,67 @@
       }
     },
     {
-      "id": "github_trending:NVIDIA/SkillEvaluator",
+      "id": "github_trending:jingyaogong/minimind",
       "source": "github_trending",
-      "source_id": "NVIDIA/SkillEvaluator",
-      "title": "NVIDIA/SkillEvaluator",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
-      "summary": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "source_id": "jingyaogong/minimind",
+      "title": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "summary": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
         "relevance_score": 2.84,
         "recommended": true,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.23,
-          "3": 0.67,
-          "4": 0.09
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.87,
-        "topic_probabilities": {
-          "ai_models_research": 0.9,
-          "developer_tools": 0.1,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
-      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-      "published_at": "2026-11-16T17:00:00+00:00",
-      "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.81,
-        "recommended": true,
-        "relevance_confidence": 0.79,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.2,
-          "3": 0.76,
-          "4": 0.03
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.6,
-        "topic_probabilities": {
-          "ai_models_research": 0.68,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.32,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-      "title": "Google Maps can now build trip itineraries with real-time details about each stop",
-      "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-      "published_at": "2026-11-16T14:48:13+00:00",
-      "summary": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.76,
-        "recommended": true,
-        "relevance_confidence": 0.79,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.24,
-          "3": 0.75,
-          "4": 0.01
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.8,
-        "topic_probabilities": {
-          "ai_models_research": 0.84,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.16
-        }
-      }
-    },
-    {
-      "id": "github_trending:ChromeDevTools/chrome-devtools-mcp",
-      "source": "github_trending",
-      "source_id": "ChromeDevTools/chrome-devtools-mcp",
-      "title": "ChromeDevTools/chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
-      "summary": "Chrome DevTools for coding agents",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.72,
-        "recommended": true,
         "relevance_confidence": 0.68,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.01,
-          "2": 0.31,
-          "3": 0.62,
-          "4": 0.06
+          "2": 0.25,
+          "3": 0.63,
+          "4": 0.11
         },
-        "topic": "developer_tools",
-        "topic_confidence": 0.96,
+        "topic": "ai_models_research",
+        "topic_confidence": 1.0,
         "topic_probabilities": {
-          "ai_models_research": 0.03,
-          "developer_tools": 0.97,
+          "ai_models_research": 1.0,
+          "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
+      "title": "Uber and Zipline’s drone delivery service takes flight in Houston",
+      "url": "https://www.theverge.com/transportation/1034794/uber-eats-zipline-drone-delivery-launch-texas-houston-dallas",
+      "published_at": "2026-11-17T13:00:00+00:00",
+      "summary": "Uber Eats is officially launching drone delivery in partnership with Zipline starting Tuesday. The initial rollout begins in the Houston suburb of Spring, Texas, with Dallas next in line and dozens of additional US cities planned. The rollout comes after Uber and Zipline first announced their tie-up, including an investment in Zipline by Uber, back […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.71,
+        "recommended": true,
+        "relevance_confidence": 0.72,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.25,
+          "3": 0.69,
+          "4": 0.03
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.37,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.5,
+          "other_technology": 0.5
         }
       }
     },
@@ -636,7 +155,7 @@
       "source_id": "google-research/paper-orchestra",
       "title": "google-research/paper-orchestra",
       "url": "https://github.com/google-research/paper-orchestra",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
       "summary": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -664,67 +183,34 @@
       }
     },
     {
-      "id": "github_trending:sponsors/kajisho5",
-      "source": "github_trending",
-      "source_id": "sponsors/kajisho5",
-      "title": "sponsors/kajisho5",
-      "url": "https://github.com/sponsors/kajisho5",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
-      "summary": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
+      "id": "ieee-spectrum-ai:https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
+      "source": "ieee-spectrum-ai",
+      "source_id": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
+      "title": "Understand How Satellite Links Shape IoT Device Design and Testing",
+      "url": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
+      "published_at": "2026-11-17T11:00:04+00:00",
+      "summary": "How 3GPP Releases 15, 16, and 17 brought satellite access into 5G NR, NB-IoT, and eMTC. Why satellite links suit IoT devices that send small, infrequent, and delay-tolerant messages. Where non-terrestrial networks (NTN) add value, including asset tracking, agriculture, public safety, and offshore operations. How power efficiency, RF signaling, and antenna design shape satellite-connected device development. Why long propagation delay, Doppler shift, and intermittent coverage make static test methods insufficient. Which measurements show deployment readiness, such as transmit power, modulation accuracy, spectral emissions, receiver sensitivity, and block error rate (BLER). How emulated satellite conditions help verify synchronization, signaling, HARQ behavior, mobility, and interoperability. Download this free whitepaper now!",
+      "name": "IEEE Spectrum AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.64,
+        "relevance_score": 2.62,
         "recommended": true,
-        "relevance_confidence": 0.67,
+        "relevance_confidence": 0.56,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.02,
-          "2": 0.34,
-          "3": 0.62,
-          "4": 0.02
+          "1": 0.05,
+          "2": 0.35,
+          "3": 0.52,
+          "4": 0.08
         },
-        "topic": "developer_tools",
-        "topic_confidence": 0.95,
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.44,
         "topic_probabilities": {
-          "ai_models_research": 0.04,
-          "developer_tools": 0.96,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
-      "title": "Audible turns to AI to help users discover audiobooks",
-      "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
-      "published_at": "2026-11-16T15:52:19+00:00",
-      "summary": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.61,
-        "recommended": true,
-        "relevance_confidence": 0.68,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.37,
-          "3": 0.62,
-          "4": 0.0
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.87,
-        "topic_probabilities": {
-          "ai_models_research": 0.9,
+          "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.07,
-          "other_technology": 0.03
+          "hardware_datacenters": 0.55,
+          "policy_business": 0.0,
+          "other_technology": 0.45
         }
       }
     },
@@ -734,7 +220,7 @@
       "source_id": "dream-num/univer",
       "title": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
       "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -762,44 +248,12 @@
       }
     },
     {
-      "id": "ars-technica-technology:https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
-      "source": "ars-technica-technology",
-      "source_id": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
-      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
-      "url": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
-      "published_at": "2026-11-16T20:37:47+00:00",
-      "summary": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
-      "name": "Ars Technica Technology",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.49,
-        "recommended": true,
-        "relevance_confidence": 0.53,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.09,
-          "2": 0.35,
-          "3": 0.53,
-          "4": 0.03
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.87,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.09,
-          "policy_business": 0.9,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
       "id": "github_trending:ag-ui-protocol/ag-ui",
       "source": "github_trending",
       "source_id": "ag-ui-protocol/ag-ui",
       "title": "ag-ui-protocol/ag-ui",
       "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
       "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -827,66 +281,35 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
-      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-      "published_at": "2026-11-16T18:11:10+00:00",
-      "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
-      "name": "TechCrunch AI",
+      "id": "github_trending:Tencent/LoopForge",
+      "source": "github_trending",
+      "source_id": "Tencent/LoopForge",
+      "title": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "summary": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.4,
+        "relevance_score": 2.39,
         "recommended": true,
-        "relevance_confidence": 0.6,
+        "relevance_confidence": 0.58,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.04,
-          "2": 0.53,
-          "3": 0.42,
-          "4": 0.01
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.52,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.62,
-          "policy_business": 0.37,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/accelerate-molecular-dynamics-simulations-with-accurate-flexible-primitives-using-nvidia-cupotential/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/accelerate-molecular-dynamics-simulations-with-accurate-flexible-primitives-using-nvidia-cupotential/feed/",
-      "title": "Accelerate Molecular Dynamics Simulations with Accurate, Flexible Primitives Using NVIDIA cuPotential",
-      "url": "https://developer.nvidia.com/blog/accelerate-molecular-dynamics-simulations-with-accurate-flexible-primitives-using-nvidia-cupotential/feed/",
-      "published_at": "2026-11-16T22:30:00+00:00",
-      "summary": "Molecular dynamics (MD) is an indispensable tool across physics, chemistry, biology, and materials science. Owing to its arithmetic structure, particularly the...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.38,
-        "recommended": true,
-        "relevance_confidence": 0.42,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.16,
-          "2": 0.33,
-          "3": 0.47,
-          "4": 0.04
+          "1": 0.05,
+          "2": 0.52,
+          "3": 0.41,
+          "4": 0.02
         },
         "topic": "developer_tools",
-        "topic_confidence": 0.86,
+        "topic_confidence": 0.92,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.89,
-          "hardware_datacenters": 0.08,
+          "ai_models_research": 0.06,
+          "developer_tools": 0.94,
+          "hardware_datacenters": 0.0,
           "policy_business": 0.0,
-          "other_technology": 0.03
+          "other_technology": 0.0
         }
       }
     },
@@ -896,7 +319,7 @@
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -924,44 +347,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
-      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
-      "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
-      "published_at": "2026-11-16T20:29:37+00:00",
-      "summary": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addressed the blue wave. \"I do think we've […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.32,
-        "recommended": true,
-        "relevance_confidence": 0.57,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.1,
-          "2": 0.49,
-          "3": 0.4,
-          "4": 0.01
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.49,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.59,
-          "policy_business": 0.41,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
       "id": "github_trending:mvanhorn/last30days-skill",
       "source": "github_trending",
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -989,65 +380,67 @@
       }
     },
     {
-      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-      "source": "mit-tech-review-ai",
-      "source_id": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-      "title": "The open-source movement wants Jensen Huang back",
-      "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-      "published_at": "2026-11-16T18:38:47+00:00",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia…",
-      "name": "MIT Technology Review AI",
+      "id": "github_trending:cursor/plugins",
+      "source": "github_trending",
+      "source_id": "cursor/plugins",
+      "title": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "summary": "Cursor plugin specification and official plugins",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.11,
+        "relevance_score": 2.23,
         "recommended": true,
-        "relevance_confidence": 0.2,
+        "relevance_confidence": 0.62,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.31,
-          "2": 0.3,
-          "3": 0.35,
-          "4": 0.04
+          "1": 0.11,
+          "2": 0.58,
+          "3": 0.28,
+          "4": 0.03
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.69,
+        "topic": "developer_tools",
+        "topic_confidence": 0.99,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.07,
-          "hardware_datacenters": 0.15,
-          "policy_business": 0.75,
-          "other_technology": 0.03
+          "ai_models_research": 0.01,
+          "developer_tools": 0.99,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
         }
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-      "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
-      "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-      "published_at": "2026-11-16T17:10:00+00:00",
-      "summary": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
-      "name": "TechCrunch AI",
+      "id": "github_trending:sponsors/obra",
+      "source": "github_trending",
+      "source_id": "sponsors/obra",
+      "title": "sponsors/obra",
+      "url": "https://github.com/sponsors/obra",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "summary": "An agentic skills framework & software development methodology that works.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.11,
+        "relevance_score": 2.08,
         "recommended": true,
-        "relevance_confidence": 0.61,
+        "relevance_confidence": 0.62,
         "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.18,
-          "2": 0.53,
-          "3": 0.29,
-          "4": 0.0
+          "0": 0.01,
+          "1": 0.17,
+          "2": 0.56,
+          "3": 0.25,
+          "4": 0.01
         },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.66,
+        "topic": "developer_tools",
+        "topic_confidence": 0.77,
         "topic_probabilities": {
-          "ai_models_research": 0.73,
-          "developer_tools": 0.0,
+          "ai_models_research": 0.18,
+          "developer_tools": 0.82,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.27,
+          "policy_business": 0.0,
           "other_technology": 0.0
         }
       }
@@ -1058,7 +451,7 @@
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1086,12 +479,46 @@
       }
     },
     {
+      "id": "tldr-tech:https://tldr.tech/tech/2026-11-17",
+      "source": "tldr-tech",
+      "source_id": "https://tldr.tech/tech/2026-11-17",
+      "title": "Trump backs Huang 💼, Instagram Direct 💬, formal verification limits 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-17",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "summary": "",
+      "name": "TLDR",
+      "kind": "newsletter",
+      "publisher": "TLDR",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.97,
+        "recommended": false,
+        "relevance_confidence": 0.12,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.32,
+          "2": 0.28,
+          "3": 0.34,
+          "4": 0.02
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.16,
+        "topic_probabilities": {
+          "ai_models_research": 0.13,
+          "developer_tools": 0.33,
+          "hardware_datacenters": 0.02,
+          "policy_business": 0.27,
+          "other_technology": 0.25
+        }
+      }
+    },
+    {
       "id": "github_trending:backnotprop/plannotator",
       "source": "github_trending",
       "source_id": "backnotprop/plannotator",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1119,35 +546,35 @@
       }
     },
     {
-      "id": "github_trending:tradermonty/claude-trading-skills",
+      "id": "github_trending:sponsors/affaan-m",
       "source": "github_trending",
-      "source_id": "tradermonty/claude-trading-skills",
-      "title": "tradermonty/claude-trading-skills",
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
-      "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "source_id": "sponsors/affaan-m",
+      "title": "sponsors/affaan-m",
+      "url": "https://github.com/sponsors/affaan-m",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.94,
+        "relevance_score": 1.95,
         "recommended": false,
-        "relevance_confidence": 0.59,
+        "relevance_confidence": 0.54,
         "relevance_probabilities": {
           "0": 0.01,
-          "1": 0.25,
-          "2": 0.53,
-          "3": 0.2,
+          "1": 0.28,
+          "2": 0.47,
+          "3": 0.23,
           "4": 0.01
         },
-        "topic": "developer_tools",
-        "topic_confidence": 0.59,
+        "topic": "ai_models_research",
+        "topic_confidence": 0.44,
         "topic_probabilities": {
-          "ai_models_research": 0.28,
-          "developer_tools": 0.67,
+          "ai_models_research": 0.55,
+          "developer_tools": 0.45,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
-          "other_technology": 0.05
+          "other_technology": 0.0
         }
       }
     },
@@ -1184,36 +611,36 @@
       }
     },
     {
-      "id": "a16z-news:https://www.a16z.news/p/the-dream-of-the-1990s-is-alive-again",
-      "source": "a16z-news",
-      "source_id": "https://www.a16z.news/p/the-dream-of-the-1990s-is-alive-again",
-      "title": "The Dream of the 1990s Is Alive Again in Cybersecurity",
-      "url": "https://www.a16z.news/p/the-dream-of-the-1990s-is-alive-again",
-      "published_at": "2026-11-16T15:02:26+00:00",
-      "summary": "History is indeed repeating itself, which is actually good news",
-      "name": "a16z News",
+      "id": "tldr-dev:https://tldr.tech/dev/2026-11-17",
+      "source": "tldr-dev",
+      "source_id": "https://tldr.tech/dev/2026-11-17",
+      "title": "Smoother CSS corners 🔲, smaller Valkey indexes 🌳, your own AI crew 🤖",
+      "url": "https://tldr.tech/dev/2026-11-17",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "summary": "",
+      "name": "TLDR Dev",
       "kind": "newsletter",
-      "publisher": "a16z",
+      "publisher": "TLDR",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.69,
+        "relevance_score": 1.73,
         "recommended": false,
-        "relevance_confidence": 0.41,
+        "relevance_confidence": 0.35,
         "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.43,
-          "2": 0.42,
-          "3": 0.14,
+          "0": 0.03,
+          "1": 0.41,
+          "2": 0.37,
+          "3": 0.19,
           "4": 0.0
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.94,
+        "topic": "developer_tools",
+        "topic_confidence": 0.92,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.01,
+          "ai_models_research": 0.04,
+          "developer_tools": 0.94,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.04,
-          "other_technology": 0.95
+          "policy_business": 0.0,
+          "other_technology": 0.02
         }
       }
     },
@@ -1223,7 +650,7 @@
       "source_id": "getarcaneapp/arcane",
       "title": "getarcaneapp/arcane",
       "url": "https://github.com/getarcaneapp/arcane",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
       "summary": "Modern Docker Management, Designed for Everyone",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1251,197 +678,34 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "id": "the-verge:https://www.theverge.com/gadgets/1034881/the-verge-best-of-2026",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-      "published_at": "2026-11-16T23:17:34+00:00",
-      "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the […]",
+      "source_id": "https://www.theverge.com/gadgets/1034881/the-verge-best-of-2026",
+      "title": "The Verge Best of 2026",
+      "url": "https://www.theverge.com/gadgets/1034881/the-verge-best-of-2026",
+      "published_at": "2026-11-17T13:00:00+00:00",
+      "summary": "Hundreds of gadgets pass across our desks each year. Some leave their mark and get a full review or make it to the top of a buying guide. It's harder than it sounds to narrow down our favorites. Instead of simply picking products that scored highly, or only those that made it into our buying […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.38,
+        "relevance_score": 1.48,
         "recommended": false,
-        "relevance_confidence": 0.63,
+        "relevance_confidence": 0.6,
         "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.73,
-          "2": 0.11,
-          "3": 0.09,
-          "4": 0.04
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.29,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.15,
-          "policy_business": 0.43,
-          "other_technology": 0.42
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
-      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-      "published_at": "2026-11-16T19:12:02+00:00",
-      "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.38,
-        "recommended": false,
-        "relevance_confidence": 0.57,
-        "relevance_probabilities": {
-          "0": 0.06,
-          "1": 0.62,
-          "2": 0.2,
-          "3": 0.11,
-          "4": 0.01
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.45,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.08,
-          "policy_business": 0.36,
-          "other_technology": 0.56
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
-      "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
-      "url": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
-      "published_at": "2026-11-16T19:50:47+00:00",
-      "summary": "If you’re still sporting an Apple Watch that launched five or so years ago, now is a good time to upgrade. Apple’s latest smartwatch, the 42mm Apple Watch Series 12 with Wi-Fi and GPS connectivity, has dropped to a new all-time low of $329 at Amazon, Best Buy, and Walmart, beating the October Prime Day […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.34,
-        "recommended": false,
-        "relevance_confidence": 0.68,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.64,
-          "2": 0.32,
-          "3": 0.02,
+          "0": 0.0,
+          "1": 0.55,
+          "2": 0.42,
+          "3": 0.03,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.99,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
-      "title": "United Airlines system outage disrupts departures just days after the big ground stop",
-      "url": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
-      "published_at": "2026-11-16T22:54:59+00:00",
-      "summary": "Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departing flights are being disrupted by an outage. At 6:13PM ET, United said the problem has been fixed: Earlier today we experienced a technology-related issue that impacted some departing flights. The issue […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.33,
-        "recommended": false,
-        "relevance_confidence": 0.66,
-        "relevance_probabilities": {
-          "0": 0.04,
-          "1": 0.62,
-          "2": 0.31,
-          "3": 0.03,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.03,
-          "other_technology": 0.96
-        }
-      }
-    },
-    {
-      "id": "hackernews:50518567",
-      "source": "hackernews",
-      "source_id": "50518567",
-      "title": "Nvidia was in trouble before the Jensen Huang mess",
-      "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-      "published_at": "2026-11-16T15:24:09+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50518567",
-      "points": 257,
-      "comments": 235,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.32,
-        "recommended": false,
-        "relevance_confidence": 0.64,
-        "relevance_probabilities": {
-          "0": 0.06,
-          "1": 0.65,
-          "2": 0.21,
-          "3": 0.08,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.46,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.41,
-          "policy_business": 0.57,
-          "other_technology": 0.02
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
-      "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
-      "published_at": "2026-11-16T20:41:28+00:00",
-      "summary": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\" […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.28,
-        "recommended": false,
-        "relevance_confidence": 0.75,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.73,
-          "2": 0.23,
-          "3": 0.03,
-          "4": 0.0
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.49,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.01,
-          "hardware_datacenters": 0.59,
-          "policy_business": 0.03,
-          "other_technology": 0.36
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     },
@@ -1451,7 +715,7 @@
       "source_id": "sponsors/sveltejs",
       "title": "sponsors/sveltejs",
       "url": "https://github.com/sponsors/sveltejs",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
+      "published_at": "2026-11-17T13:32:35.670724+00:00",
       "summary": "web development for the rest of us",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1477,212 +741,9 @@
           "other_technology": 0.0
         }
       }
-    },
-    {
-      "id": "github_trending:DeanChensj/jiangshan-map",
-      "source": "github_trending",
-      "source_id": "DeanChensj/jiangshan-map",
-      "title": "DeanChensj/jiangshan-map",
-      "url": "https://github.com/DeanChensj/jiangshan-map",
-      "published_at": "2026-11-17T02:58:41.777029+00:00",
-      "summary": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.01,
-        "recommended": false,
-        "relevance_confidence": 0.66,
-        "relevance_probabilities": {
-          "0": 0.2,
-          "1": 0.61,
-          "2": 0.17,
-          "3": 0.02,
-          "4": 0.0
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.74,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.79,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.21
-        }
-      }
-    },
-    {
-      "id": "hackernews:50523459",
-      "source": "hackernews",
-      "source_id": "50523459",
-      "title": "OpenCode Browse",
-      "url": "https://opencode.ai/product/browse",
-      "published_at": "2026-11-16T21:20:37+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50523459",
-      "points": 137,
-      "comments": 62,
-      "matched_term": "OpenCode",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.97,
-        "recommended": false,
-        "relevance_confidence": 0.61,
-        "relevance_probabilities": {
-          "0": 0.25,
-          "1": 0.57,
-          "2": 0.14,
-          "3": 0.04,
-          "4": 0.0
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.96,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.97,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.02
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
-      "title": "Some of our favorite PlayStation games are steeply discounted for Black Friday",
-      "url": "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
-      "published_at": "2026-11-16T20:36:14+00:00",
-      "summary": "Black Friday is approaching, and some companies are already rolling out the discounts ahead of the big day. If you’re hunting for PlayStation 5 accessories, we’ve already rounded up some of our favorite controllers and headsets from Sony’s ongoing promotion. However, if you’re looking to expand your library, some of the PS5’s biggest titles are […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.73,
-        "recommended": false,
-        "relevance_confidence": 0.74,
-        "relevance_probabilities": {
-          "0": 0.29,
-          "1": 0.69,
-          "2": 0.02,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death",
-      "title": "In Get Huge, the manosphere is here to make friends — with deadly consequences",
-      "url": "https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death",
-      "published_at": "2026-11-16T21:41:57+00:00",
-      "summary": "Before Clavicular and other manosphere streamers were introducing young guys to the concept of breaking their facial bones to become more attractive, there was an older generation of creators building massive followings with content focused on chemical biohacking. Were it not for steroid-obsessed influencers like Anthony \"Tony Huge\" Hughes launching YouTube channels over a decade […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.21,
-        "recommended": false,
-        "relevance_confidence": 0.83,
-        "relevance_probabilities": {
-          "0": 0.8,
-          "1": 0.2,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
     }
   ],
   "reddit": [],
-  "hn": [
-    {
-      "id": "hackernews:50518567",
-      "source": "hackernews",
-      "source_id": "50518567",
-      "title": "Nvidia was in trouble before the Jensen Huang mess",
-      "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-      "published_at": "2026-11-16T15:24:09+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50518567",
-      "points": 257,
-      "comments": 235,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.32,
-        "recommended": false,
-        "relevance_confidence": 0.64,
-        "relevance_probabilities": {
-          "0": 0.06,
-          "1": 0.65,
-          "2": 0.21,
-          "3": 0.08,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.46,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.41,
-          "policy_business": 0.57,
-          "other_technology": 0.02
-        }
-      }
-    },
-    {
-      "id": "hackernews:50523459",
-      "source": "hackernews",
-      "source_id": "50523459",
-      "title": "OpenCode Browse",
-      "url": "https://opencode.ai/product/browse",
-      "published_at": "2026-11-16T21:20:37+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50523459",
-      "points": 137,
-      "comments": 62,
-      "matched_term": "OpenCode",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.97,
-        "recommended": false,
-        "relevance_confidence": 0.61,
-        "relevance_probabilities": {
-          "0": 0.25,
-          "1": 0.57,
-          "2": 0.14,
-          "3": 0.04,
-          "4": 0.0
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.96,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.97,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.02
-        }
-      }
-    }
-  ],
+  "hn": [],
   "polymarket": []
 }
