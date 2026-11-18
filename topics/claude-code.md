@@ -7,6 +7,8 @@ Claude Code is Anthropic's command-line coding agent. It runs in the terminal an
 
 ## Notes
 
+- **2026-11-18** IEEE Spectrum reports Seeker Entertainment co-founder Travis McGeathy used Claude Code to make the defunct Unreal Engine 5.7 game KinForge playable without AWS in about four hours of mostly hands-off work, adding peer-to-peer internet/LAN play and, unprompted, persistent save states. Epic Games COO Daniel Vogel says Epic is "pivoting hard towards velocity" in response. [IEEE Spectrum](https://spectrum.ieee.org/epic-games-unreal-engine-ai) (independent)
+
 - **2026-11-17** `Tencent/LoopForge` trending on GitHub: self-hosted workflows that orchestrate CodeBuddy, Codex, and Claude Code with scripts and human approval gates. Google Labs' `stitch-skills`, also trending, says its Agent Skills work in Claude Code among other agents. [LoopForge](https://github.com/Tencent/LoopForge) · [stitch-skills](https://github.com/google-labs-code/stitch-skills)
 
 - **2026-10-01** Shipped Mods: TypeScript functions that hook into Claude Code internals to rewrite prompts, block or retry tool calls, redact secrets, or replace built-in features (`/diff` now ships as a mod itself); installed via `/plugin`. Not sandboxed; Anthropic warns to use trusted sources only. [Anthropic blog](https://claude.com/blog/claude-code-mods) (primary) · [The New Stack](https://thenewstack.io/anthropic-claude-code-mods-plugins/) (independent)

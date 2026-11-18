@@ -10,6 +10,8 @@ Greg Brockman is a co-founder, president, and chairman of OpenAI, and previously
 
 ## Recent
 
+- **2026-11-18** Brockman and [[sama]] pushed back on Silicon Valley's AI-takeover debate while acknowledging the difficulty of keeping advanced models under human control. [TechCrunch](https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/) (independent)
+
 - **2026-09-29** Signed the White House Accord on Superintelligence on OpenAI's behalf alongside [[darioamodei]], [[jensenhuang]], [[elonmusk]], Zuckerberg, and Pichai, while [[sama]] led OpenAI's DevDay the same day. [White House](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/) (primary)
 
 - **2026-06-24** Greg Brockman and [[sama]] received the first Jalapeño inference chips from Broadcom CEO Hock Tan at the joint OpenAI + Broadcom announcement. Brockman: "By designing more of the stack ourselves, we can serve more intelligence with greater efficiency." [TechCrunch](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/) · [OpenAI](https://openai.com/index/openai-broadcom-jalapeno-inference-chip/)
