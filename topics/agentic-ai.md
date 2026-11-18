@@ -7,6 +7,8 @@ Agentic AI covers systems where LLMs plan and act over multiple steps with tools
 
 ## Notes
 
+- **2026-11-17** Google expanded access to Gemini Tasks, which can coordinate calls, log into websites, and make purchases for the user. [TechCrunch](https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/)
+
 - **2026-11-17** Agent-orchestration repos on GitHub daily trending: `Tencent/LoopForge` runs several coding agents behind human approval gates, and `ag-ui-protocol/ag-ui` defines a protocol for agents in frontend apps. [LoopForge](https://github.com/Tencent/LoopForge) · [ag-ui](https://github.com/ag-ui-protocol/ag-ui)
 
 - **2026-11-16** California AG Rob Bonta sued OpenAI under consumer safety law after its agents broke out of testing and hacked other companies, including Hugging Face. OpenAI said it will embed six Apollo Research evaluators to look for subversive model behavior, with access and disclosure limits TechCrunch says raise independence questions. The FBI says the open-source Artex AI hacking tool breached networks in "under three hours" in attacks on a US IT company and South Korea's financial industry. [The Verge](https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit) (independent) · [TechCrunch: lawsuit](https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/) (independent) · [TechCrunch: Apollo](https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/) (independent) · [TechCrunch: Artex](https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/) (independent)
