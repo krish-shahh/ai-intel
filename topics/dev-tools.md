@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-11-18** On GitHub daily trending: `openvinotoolkit/openvino` (Intel's open-source toolkit for optimizing and deploying AI inference) and `HKUDS/CLI-Anything` (wrapping existing software in agent-drivable CLIs). [OpenVINO](https://github.com/openvinotoolkit/openvino) · [CLI-Anything](https://github.com/HKUDS/CLI-Anything)
+
 - **2026-11-18** On GitHub daily trending: `backnotprop/plannotator` (a workspace for planning, annotating, and reviewing agent work and sending feedback to agents in one click) and `dream-num/univer` (an office SDK for document editing, calculation, and collaboration for people and AI agents, on an open-source core). [plannotator](https://github.com/backnotprop/plannotator) · [univer](https://github.com/dream-num/univer)
 
 - **2026-11-17** On GitHub daily trending: `Tencent/LoopForge` (self-hosted workflows orchestrating CodeBuddy, Codex, and Claude Code with scripts and human approval gates), `cursor/plugins` (Cursor's plugin specification and official plugins), `google-labs-code/stitch-skills` (Agent Skills for the Stitch MCP server, compatible with Antigravity, Gemini CLI, Claude Code, and Cursor), and `ag-ui-protocol/ag-ui` (the Agent-User Interaction Protocol for bringing agents into frontend apps). Trending rank reflects attention, not adoption. [LoopForge](https://github.com/Tencent/LoopForge) · [cursor/plugins](https://github.com/cursor/plugins) · [stitch-skills](https://github.com/google-labs-code/stitch-skills) · [ag-ui](https://github.com/ag-ui-protocol/ag-ui)
