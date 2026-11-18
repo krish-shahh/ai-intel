@@ -7,6 +7,8 @@ Open source software tracks notable open releases in AI: models, agents, and too
 
 ## Notes
 
+- **2026-11-17** [[nvidia]]'s interim CEO Colette Kress reaffirmed the company's open-source AI strategy and its plan to acquire Hugging Face after Jensen Huang's exit. [TechCrunch](https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/)
+
 - **2026-11-17** `jingyaogong/minimind` trending on GitHub: trains a 64M-parameter LLM from scratch, which the repo says takes about two hours (hardware not stated in the record). [GitHub](https://github.com/jingyaogong/minimind)
 
 - **2026-11-12** [[jensenhuang]]'s exit from [[nvidia]] has put its open-source posture in question, including the $12.9B Hugging Face acquisition, its open-weight models, and its lobbying against restrictions (TechCrunch analysis). Hugging Face's CEO pledged to keep fighting for open-source AI. [TechCrunch](https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/) · [TechCrunch](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/)
