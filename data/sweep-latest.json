@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T23:31:21.714866+00:00",
+  "generated_at": "2026-11-18T07:35:44.176462+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
@@ -7,15 +7,15 @@
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 2,
+    "hackernews": 0,
     "polymarket": 0,
-    "rss": 39,
+    "rss": 25,
     "arxiv": 0,
     "sec_edgar": 1,
     "github": 0,
     "github_trending": 15,
-    "gdelt": 0,
-    "newsapi": 100,
+    "gdelt": 75,
+    "newsapi": 0,
     "mediastack": 0
   },
   "items": [
@@ -55,10 +55,10 @@
       "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
       "source": "techcrunch-ai",
       "source_id": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
-      "title": "Nvidia says its open-source AI strategy remains intact after Jensen Huang’s exit",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
       "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
       "published_at": "2026-11-17T23:04:35+00:00",
-      "summary": "Nvidia's interim CEO reaffirmed its open-source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
       "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
@@ -79,102 +79,6 @@
           "developer_tools": 0.02,
           "hardware_datacenters": 0.0,
           "policy_business": 0.97,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/feed/",
-      "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
-      "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/feed/",
-      "published_at": "2026-11-17T17:30:00+00:00",
-      "summary": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.24,
-        "recommended": true,
-        "relevance_confidence": 0.76,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.02,
-          "3": 0.71,
-          "4": 0.27
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 1.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
-      "published_at": "2026-11-17T14:50:58+00:00",
-      "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.24,
-        "recommended": true,
-        "relevance_confidence": 0.76,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.02,
-          "3": 0.71,
-          "4": 0.27
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.99,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/optical-computing-ai",
-      "source": "ieee-spectrum-ai",
-      "source_id": "https://spectrum.ieee.org/optical-computing-ai",
-      "title": "AI Is Giving Optical Computing Another Shot",
-      "url": "https://spectrum.ieee.org/optical-computing-ai",
-      "published_at": "2026-11-17T14:00:03+00:00",
-      "summary": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now totals US $2.22 billion, up from $0.4 billion in 2022. One projection suggests that the market will continue to grow exponentially in the coming years. The reason for this sudden surge will surprise no one: AI. In particular, AI inference—the process of using AI models to respond to user queries—has driven much of the construction of huge, power-hungry data centers, and relatively energy-efficient optical systems are seen as a potential way forward. “Most of the interest in [photonics] is driven by the fact that AI inference has literally become limited by power, and in a rather striking manner,” says Peter McMahon , associate professor of applied and engineering physics at Cornell University, in Ithaca, N.Y., who has researched optical computing for over a decade. Optics, at least on paper, carries the promise of doing the same math as today’s GPUs at a drastically lower level of power. Switching from electronics to optics would be a pretty radical solution. Nevertheless, like mushrooms after a rainstorm, optical-computing startups are popping up in the United States, China, Germany, and Israel. And while competing against such GPU makers as Nvidia is an ambitious goal, the investment in optical computing has spurred development of complementary approaches, such as designing alternative AI algorithms, taking on scientific computing, and enhancing in-network computing. Optalysys, based in England, is inserting optical-computing elements into the networking path, where data centers already use light. The company’s basic on-chip optical element, shown in the inset, is a Fourier transform calculator. Optalysys “I think it would be good for the technology if many of these companies made a good run at it,” says Logan Wright , assistant professor of applied physics at Yale University, in New Haven, Conn., and a former postdoc in McMahon’s lab. “I think that the technology that will be developed through this would be really, really useful, and enable photonic systems that maybe don’t get on this wave of AI but would be capable of doing really quite special things.” Optics to inference’s rescue? Inference makes up the bulk of AI energy use. The industry is already spending billions of dollars designing advanced GPUs and other chips to run inference as efficiently as possible. At the heart of the inference computation is one operation, done countless times a second: matrix-vector multiplication. Back in 1978, optical-computing pioneer Joseph W. Goodman and his coworkers proposed a method for doing matrix-vector multiplication with light. The setup was relatively simple. Let’s say a vector of length N needs to be multiplied by a matrix of size N by N . N light-emitting diodes, all in a row, encode the elements of the vector into the intensity of light—the brighter the light from an individual diode, the greater the value that diode encodes. Then, a cylindrical lens spreads out the light vertically, essentially copying the vector N times. The light then passes through an attenuator of N by N pixels. At each pixel, the light is attenuated according to the corresponding value at that location in the matrix. Passing the light through the attenuator performs the multiplication. Finally, a cylindrical lens oriented perpendicular to the first lens re-collects the light from each row, summing it up. The final vector is measured by a row of detectors. VECTOR-MATRIX MULTIPLICATION The most computationally expensive part of common AI today is vector-matrix (or matrix-matrix) multiplication. For a vector of length N (here, N = 3), it takes N 2 (here, 9) multiplication steps and three accumulation steps—multiple additions at once. The argument for why optics might be advantageous over electronics goes something like this: Multiplying a matrix of size N by N by a vector of length N takes N 2 multiplication steps. In electronics, each multiplication takes some energy, so the total energy used scales as N 2 . In optics, however, the multiplication step is passive: As long as the matrix stays the same, passing light through the attenuator costs almost no energy. The only cost is encoding the vector into light and reading out the answer, but the vector is of length N , not N 2 . So the energy used will scale as N , not N 2 , as bigger vectors and matrices are multiplied. Since Goodman’s 1978 proposal, the quality of the available optical elements has improved dramatically. Indeed, in 2022, a team of researchers at Cornell led by McMahon demonstrated an optical neural network that consumed less than one photon of energy—approximately 2.5 x 10 -19 joules—per multiplication operation. In a standard computer, a single multiply operation can take between 10 -14 and 10 -12 joules, which suggests that optics could possibly reduce energy use by a factor of 100,000. But McMahon cautions against such extrapolation. First, the cost of encoding data into optics was not included in the calculation. Even if the scaling is favorable with light, in practice it’s not just the scaling that matters, it’s also the coefficients. Let’s say the energy cost of doing one multiplication with electronics is 1 picojoule, and the cost to encode one vector element with optics is 1,000 picojoules. The electronic approach still wins if the length N of the vector is fewer than 1,000 elements. McMahon says this example is not far off from reality: “One of the key questions is, How big do you have to make the system before you start winning? Lots of people have done this calculation for various kinds of neural networks. The very rough answer is somewhere between N equals 1,000 and N equals 10,000.” It’s also important to keep in mind a computing principle known as Amdahl’s law . “Amdahl’s law shouldn’t even be called a law. It’s a simple piece of common sense,” McMahon says. “If you have something that’s going to accelerate a computation, and it can accelerate 90 percent of the code, but there’s 10 percent of the code that it can’t accelerate, then the maximum possible speedup you can get is 10x.” With AI inferencing, the point is to save energy, not time. But Amdahl’s observation still applies. What fraction of today’s AI inferencing code can be better handled with optics is a complicated question that varies by approach. But it’s not 100 percent. Matrix-vector multiplication, or matrix-matrix multiplication, is only part of the inference workload—there are other, nonlinear operations that need to be performed on the data. Taking all of these caveats into account, optical-computing companies today are aiming for a 10- to 80-fold improvement in energy efficiency over today’s GPUs. The question is whether they can deliver on that promise at scale before traditional electronics catches up to those gains. Bridging the gap in free space The startup Lumai , based in Oxford, England, has taken perhaps the most direct inspiration from Goodman and his team. Lumai’s head of product, Phillip Burr , declares that a free-space approach, where the light travels through air rather than on-chip waveguides, is what will enable the company’s tech to beat GPUs. Instead of the fixed attenuator used in Goodman’s proposal, Lumai is using a modern programmable device called a spatial light modulator—a pixelated membrane akin to a fancy liquid-crystal display that can modulate both the intensity and phase of light. The rest of the design is more sophisticated in practice but similar in principle to Goodman’s design: A vector is encoded into light, copied N times via a lens, passed through the spatial light modulator, collected with another lens, and the result is converted back to digital electronics. The electronics then handle the nonlinear functions. “A full vector-matrix multiply completes in a single optical cycle,” Burr says. To accurately compare the energy expenditures of the optical and GPU approaches, you must first specify which part of the workload you’re considering. Modern inference is often split into two phases: prefill , where the input query is processed and propagated through the model, and decode , where the output is generated one word (or token) at a time. Prefill is the more computationally intensive of the two. It basically involves doing vector-matrix multiplications for the same matrix over and over. Decode also involves vector-matrix multiplies, but not as intensively—the time-consuming part of decode is reading the necessary matrices in and out of memory. Vector-matrix multiplication with free-space optics The Goodman optical computer is the simplest version of a photonic vector-matrix multiplier. Here, the vector elements are encoded into the intensity of light from three light sources, such as LEDs. Then, a cylindrical lens spreads the light vertically. The matrix elements are encoded into the opacity of an attenuator, such that when light passes through each pixel it is multiplied (attenuated) by that matrix value. Finally, another cylindrical lens collects the light horizontally, performing the accumulation step, and a photodetector measures the output vector. Lumai, and other companies in the space, are focusing on the compute-intensive prefill phase of inference. Lumai claims that its Iris Nova optical server, made available for evaluation in April 2026, is a proof of concept, and its next-generation Iris Aura server will do prefill using roughly one-tenth of the energy a GPU would use. The startup Neurophos , based in Austin, Texas, is putting a different spin on the Goodman computer design. To pack more punch into a small device, the company is leveraging its expertise in metamaterials—complex structures that can manipulate light at scales smaller than a single wavelength. The structures it has designed are bigger than a wavelength but still quite small—just several micrometers per side. “The equivalent of the optical transistor that you can get from standard silicon photonics today is like 2 millimeters long,” says Patrick Bowen , CEO of Neurophos. “You just can’t fit enough [of] them on-chip to get a compute density that remotely competes with the latest and greatest [that] TSMC [Taiwan Semiconductor Manufacturing Co.] does.” Bowen’s team designed metamaterial-based modulators that can be programmed to manipulate the phase and intensity of light at the micrometer scale, resulting in an array of 1,000 by 1,000 modulators in a square chip with 5-mm sides. According to Bowen, Neurophos’s modulators switch over 10,000 times as fast as a standard liquid-crystal spatial light modulators do. Bowen also claims a performance advantage over Nvidia’s Blackwell GPU: “We’re targeting 50 times Blackwell B200’s speed and 35 times its energy efficiency, and have a road map to reach 250 times the speed and roughly 90 times the energy efficiency in subsequent generations.” The approach is CMOS-compatible, Bowen says, which should allow Neurophos to manufacture its chips on the semiconductor industry’s existing high-volume production lines. The company is currently choosing a site for a production facility ahead of its rack deliveries to customers in 2028. Both Lumai and Neurophos are betting they’ll get their products to market before traditional CMOS can catch up to their energy savings. “Silicon will keep improving, but digital efficiency gains now come slowly and at rising cost,” Burr says. “Optics offers a different scaling relationship, in which efficiency improves as matrices grow. Larger models, longer context windows, and agentic workloads are all pushing prefill in that direction.” Bridging the gap on-chip Free-space optics carries the promise of almost energy-free multiplication, as in Goodman’s design. But another big advance in optics since Goodman’s work in the 1970s is integrated photonics, which allows you to guide and manipulate light on-chip. “The name of the game is to do as large a vector size as possible to maximize the benefit of using optics, and for that reason the free-space approaches are promising,” says Yale’s Logan Wright. “But it’s still fundamentally harder” to use the free-space approach, “because there’s just so much less infrastructure than in silicon photonics.” Other companies—like Shanghai-based Lightelligence and Q.ANT , based in Stuttgart, Germany—are trading the 3D advantage of free-space optics for the manufacturability of photonics integrated directly onto a silicon chip. “There is a good reason that free-space optics are usually limited to 1,000 units a year,” says Q.ANT’s CEO and founder, Michael Förtsch . “The reason for this is lens inspection, assembly strategy, and so on. Semiconductor-manufacturable integrated photonic circuits are at this point way more promising to reach volume production.” Vector-matrix multiplication with integrated photonics One way to do vector-matrix multiplication with light on-chip involves encoding vector elements into the amplitudes of pulses of light, traveling sequentially through a waveguide. The multiplication is performed by Mach-Zehnder interferometers: A waveguide splits in two, and the phase of light traveling through one of the paths is shifted by a controlled voltage. When the two paths reunite, the resulting light intensity depends on that phase shift, performing a multiplication. Encoding the matrix elements into the phase shifts turns this into vector-matrix multiplication. A photodetector then collects the light from all three pulses, performing the accumulation step. In Q.ANT’s approach, the input data is encoded into the phase and amplitude of light pulses via on-chip modulators. A vector in this scheme is represented as a sequence of such pulses, each representing one vector element. The light is guided around the chip with waveguides. The basic computational element is an interferometer: A waveguide splits into two paths, and the light beam traveling down one path is subjected to a phase shift, controlled by a set voltage. When the two paths recombine, the resulting interference performs a computation. Then, photodetectors and analog-to-digital converters turn the result back into digital data. The serialized vector-matrix multiplication approach is slower than Goodman’s computer, where the whole calculation happens at once. However, the slower speed can be mitigated by using multiple wavelengths at once, effectively encoding multiple vectors into light simultaneously. Q.ANT’s Native Processing Server is already being used in research institutions like the Leibniz Supercomputing Centre in Munich and the Jülich Supercomputing Centre in Jülich, both in Germany. Earlier this year, the company announced a commercial sale to the cloud provider Ionos. Similarly, Lightelligence’s PACE2 processor is capable of multiplying 128-by-128-element matrices. In a paper released in 2025, the company described vector-matrix multiplication at a 1-gigahertz frequency and 3-nanosecond latency, claiming two orders of magnitude lower latency than with traditional GPUs. The energy advantage is yet to be conclusively demonstrated, however, and Q.ANT’s Förtsch admits there is still a ways to go. The main issue is the energy cost of analog-to-digital conversion and back. As long as a fast, low-energy converter does not exist, Förtsch says, “we don’t see realistic chances that…a general vector-matrix multiplication machine in optics makes sense.” Beyond matrix-vector multiplication Not everyone in the field is focused on matrix-vector multiplication, despite it being all the rage in the AI inference world. In fact, while the optical vector-matrix multiply idea goes back to the 1970s, other computations with optics have been investigated as far back as the 1950s. For example, a Fourier transform—a common operation that decomposes a complex wave or signal into its constituent frequencies—can be done in optics with a single lens. “A digital chip has to approximate [Fourier transforms] in many small steps, using hundreds to thousands of transistors and more compute cycles,” says Q.ANT’s Förtsch. “Models that use such nonlinear functions can reach the same or better accuracy with fewer parameters and fewer operations.” Even though Q.ANT’s optical processor has been used for traditional vector-matrix multiplication, the company believes its greatest advantages lie in alternative AI architectures that leverage more complex functions. “Tasks such as image classification and segmentation rely heavily on operations like Fourier series, transformations, and other nonlinear functions, which photonics handles natively. We see similar potential in generative AI, especially image and video generation,” Förtsch says. The Israel-based startup LightSolver is also targeting algorithms that are a more natural fit for its device. “If you look at propagating electromagnetic waves, essentially, they are running differential equations in their nature,” says Ruti Ben-Shlomi , CEO and cofounder of LightSolver. She says differential equations can be solved much faster and with higher energy efficiency on the company’s laser processing unit (LPU) than on a traditional computer. LightSolver’s LPU is an interesting twist on the Goodman optical-computer design. It has input light, a programmable membrane in the form of a spatial light modulator, and output light, but the whole thing is placed in a cavity, where light bounces back and forth many times before reaching a steady state. In addition, the team places a gain medium inside the cavity. This gain medium functions much like those found inside a laser, causing the bouncing light to build up in intensity. LightSolver, a startup based in Israel, is using free-space optics to quickly solve differential equations by harnessing the natural properties of light. LightSolver Once a particular problem is encoded into the modulator, the gain medium is stimulated to emit random photons. They bounce back and forth, increasing in intensity when passing through the gain medium again, experiencing preprogrammed changes through the modulator and interacting with one another until they reach a steady state—the solution. Then, a simple camera takes a picture of the steady-state result. Using emulation, the LightSolver team recently showed that their LPU can solve differential equations 40 to 80,000 times as fast as a GPU, depending on the workflow. They are now working on explicitly benchmarking the energy improvements. LightSolver’s team is currently working on AI applications for its LPU as well, using the company’s own algorithm to do image generation from text. “We’re not doing vector-matrix multiplication very fast. We are doing something different. We need to assume that the way you train the model, and you then do inference, is completely different. But if you do it differently, you’ll be able to do image generation with dramatic energy-consumption decrease and speedup,” Ben-Shlomi says. LightSolver has a working prototype of its LPU, and the team is working on a larger, rack-mountable box. Computing in transit Yet another way to leverage light’s particular strengths is being pursued by Optalysys , a startup based in Leeds, England. Nick New , founder and chief product officer, has a background in free-space optics, and so he understood that taking a Fourier transform is very easy to do with light. The key idea behind Optalysys’s technology is taking that Fourier capability of optics in free space and making it work on-chip. “Rather than using a lens these days, we have our own component, which is a passive component in the plane of the silicon that does that same job,” New says. And by cleverly designing that component with multiple outputs, the team figured out how to perform different operations as well. “Because of how the Fourier transform response is generated, you can actually pull out different mathematical operations from it,” New says. “We can produce very large, high-precision digital functions at superhigh efficiencies, using our analog photonics approach.” “We’re effectively adding processing to where there is none right now.” —Nick New, Optalysis Instead of redesigning an accelerator from scratch, Optalysys is targeting a piece of the AI workload that’s often already in the optical domain: networking. In the data center, racks of computers are connected to each other with fiber optics, and the optical connections are increasingly getting closer and closer to the GPUs and CPUs themselves. Some computations already happen while the data is en route. These computations, which include combining results from multiple GPUs, are executed inside network switch cards. But the cards naturally use power to do that math. With passive optical components, these computations could be done essentially for free. New says that in addition to communication between GPUs, Optalysys’s technology could be used to facilitate a GPU’s communication with memory, doing things like compression and format conversion on the fly. Going back to AI inference, this approach could improve the decode part of the workload. Unlike prefill, decode is memory bound: The most costly part is shuffling model data in and out of memory. “We’re more focused on the memory-bound applications, which fits very well with this principle of adding processing into the communication path,” New says. “We’re effectively adding processing to where there is none right now.” The likely future of optical computing How likely are optical computers to replace GPUs in the data center? Yale’s Wright is not too optimistic. “The direction of algorithm development is not going to be a direction that is automatically favorable for optics,” he says. “In fact, it’s most likely to go in the opposite direction, because [AI model developers] want it to work better on GPUs.” However, even if our AI queries aren’t going to be computed in light in the next few years, that investment in the technology won’t be in vain. Says Wright, “The reason that I and many other people in the field are at least somewhat optimistic is that there’s real investment from companies like Nvidia and TSMC in developing co-packaged silicon photonics—not for computing, but for circuit switching and interconnects, and that just kind of opens the door to do a little bit more in the future.” Whether that technology ends up crunching vector-matrix multiplication, doing bespoke simulations, or performing in-network computations, the computing ecosystem seems ripe for a variety of approaches. “We see the data center of the future as heterogeneous: CPUs, GPUs and photonic NPUs [native processing units] each take on the tasks they are best suited for,” says Q.ANT’s Förtsch. “Running each task on the most efficient hardware can significantly reduce energy use and operating costs.”",
-      "name": "IEEE Spectrum AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.19,
-        "recommended": true,
-        "relevance_confidence": 0.81,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.02,
-          "3": 0.77,
-          "4": 0.21
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.99,
-          "policy_business": 0.01,
           "other_technology": 0.0
         }
       }
@@ -212,25 +116,91 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
       "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
-      "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
-      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
-      "published_at": "2026-11-17T14:05:30+00:00",
-      "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+      "source_id": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "published_at": "2026-11-17T23:37:48+00:00",
+      "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
       "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.09,
+        "relevance_score": 3.08,
         "recommended": true,
-        "relevance_confidence": 0.68,
+        "relevance_confidence": 0.22,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.13,
+          "2": 0.06,
+          "3": 0.35,
+          "4": 0.44
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.68,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.26,
+          "policy_business": 0.74,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.asiaone.com/money/nvidia-chair-says-board-will-not-rehire-huang-ceo",
+      "source": "gdelt",
+      "source_id": "https://www.asiaone.com/money/nvidia-chair-says-board-will-not-rehire-huang-ceo",
+      "title": "Nvidia chair says the board will not rehire Huang as CEO",
+      "url": "https://www.asiaone.com/money/nvidia-chair-says-board-will-not-rehire-huang-ceo",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Nov2026/181126_nvidia_reuters.JPG?itok=HbR0mW-5",
+      "domain": "asiaone.com",
+      "language": "English",
+      "country": "Singapore",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.03,
+        "recommended": true,
+        "relevance_confidence": 0.17,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.11,
+          "2": 0.08,
+          "3": 0.38,
+          "4": 0.4
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.85,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.05,
+          "policy_business": 0.88,
+          "other_technology": 0.07
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "published_at": "2026-11-18T01:44:21+00:00",
+      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.01,
+        "recommended": true,
+        "relevance_confidence": 0.74,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.02,
-          "2": 0.1,
-          "3": 0.63,
-          "4": 0.25
+          "1": 0.01,
+          "2": 0.13,
+          "3": 0.7,
+          "4": 0.16
         },
         "topic": "policy_business",
         "topic_confidence": 0.99,
@@ -240,102 +210,6 @@
           "hardware_datacenters": 0.01,
           "policy_business": 0.99,
           "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
-      "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
-      "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
-      "published_at": "2026-11-17T14:00:00+00:00",
-      "summary": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.06,
-        "recommended": true,
-        "relevance_confidence": 0.9,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.03,
-          "3": 0.88,
-          "4": 0.09
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.6,
-        "topic_probabilities": {
-          "ai_models_research": 0.3,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.68,
-          "other_technology": 0.02
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
-      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-      "published_at": "2026-11-17T17:20:41+00:00",
-      "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.01,
-        "recommended": true,
-        "relevance_confidence": 0.85,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.08,
-          "3": 0.82,
-          "4": 0.1
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 1.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
-      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
-      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
-      "published_at": "2026-11-17T16:44:15+00:00",
-      "summary": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.01,
-        "recommended": true,
-        "relevance_confidence": 0.6,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.04,
-          "2": 0.15,
-          "3": 0.56,
-          "4": 0.25
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.69,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.17,
-          "policy_business": 0.75,
-          "other_technology": 0.08
         }
       }
     },
@@ -441,7 +315,7 @@
       "source_id": "alibaba/open-code-review",
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -465,38 +339,6 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
-      "published_at": "2026-11-17T17:32:25+00:00",
-      "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.93,
-        "recommended": true,
-        "relevance_confidence": 0.92,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.08,
-          "3": 0.91,
-          "4": 0.01
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.99,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.01
         }
       }
     },
@@ -538,7 +380,7 @@
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -562,6 +404,40 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.10news.com/business/company-news/apple-launches-health-ai-study-with-app-that-answers-medical-questions",
+      "source": "gdelt",
+      "source_id": "https://www.10news.com/business/company-news/apple-launches-health-ai-study-with-app-that-answers-medical-questions",
+      "title": "Apple launches health AI study with app that answers medical questions",
+      "url": "https://www.10news.com/business/company-news/apple-launches-health-ai-study-with-app-that-answers-medical-questions",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://ewscripps.brightspotcdn.com/05/2d/71ef64264130ad2156a61df05582/ap25050594650703.jpg",
+      "domain": "10news.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.84,
+        "recommended": true,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.06,
+          "2": 0.16,
+          "3": 0.67,
+          "4": 0.11
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.94,
+        "topic_probabilities": {
+          "ai_models_research": 0.95,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.03,
+          "other_technology": 0.02
         }
       }
     },
@@ -598,38 +474,6 @@
       }
     },
     {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/feed/",
-      "title": "Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins",
-      "url": "https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/feed/",
-      "published_at": "2026-11-17T17:00:00+00:00",
-      "summary": "Quantum processors are being integrated into supercomputing centers worldwide. National programs in North America, Europe, and Asia are driving the installation...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.73,
-        "recommended": true,
-        "relevance_confidence": 0.63,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.03,
-          "2": 0.29,
-          "3": 0.59,
-          "4": 0.09
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.03,
-          "hardware_datacenters": 0.96,
-          "policy_business": 0.0,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
       "id": "ars-technica-technology:https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
       "source": "ars-technica-technology",
       "source_id": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
@@ -662,65 +506,35 @@
       }
     },
     {
-      "id": "ars-technica-technology:https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-      "source": "ars-technica-technology",
-      "source_id": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-      "published_at": "2026-11-17T14:00:29+00:00",
-      "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-      "name": "Ars Technica Technology",
+      "id": "gdelt:https://www.10news.com/business/nvidia-board-rules-out-jensen-huangs-return-as-ceo-during-earnings-call",
+      "source": "gdelt",
+      "source_id": "https://www.10news.com/business/nvidia-board-rules-out-jensen-huangs-return-as-ceo-during-earnings-call",
+      "title": "Nvidia board rules out Huang return , as chipmaker posts blowout quarter",
+      "url": "https://www.10news.com/business/nvidia-board-rules-out-jensen-huangs-return-as-ceo-during-earnings-call",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://ewscripps.brightspotcdn.com/2f/0c/b1097ccb4e529c96cff3cbd40625/ap26316465392119.jpg",
+      "domain": "10news.com",
+      "language": "English",
+      "country": "United States",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.71,
+        "relevance_score": 2.68,
         "recommended": true,
-        "relevance_confidence": 0.65,
+        "relevance_confidence": 0.52,
         "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.06,
-          "2": 0.24,
-          "3": 0.64,
-          "4": 0.06
+          "0": 0.01,
+          "1": 0.09,
+          "2": 0.23,
+          "3": 0.54,
+          "4": 0.13
         },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.99,
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.47,
         "topic_probabilities": {
-          "ai_models_research": 0.99,
+          "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
-      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
-      "published_at": "2026-11-17T16:32:55+00:00",
-      "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.7,
-        "recommended": true,
-        "relevance_confidence": 0.75,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.28,
-          "3": 0.71,
-          "4": 0.0
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.99,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
+          "hardware_datacenters": 0.58,
+          "policy_business": 0.41,
           "other_technology": 0.01
         }
       }
@@ -763,7 +577,7 @@
       "source_id": "google-research/paper-orchestra",
       "title": "google-research/paper-orchestra",
       "url": "https://github.com/google-research/paper-orchestra",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -823,98 +637,34 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
       "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
-      "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
-      "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
-      "published_at": "2026-11-17T15:00:00+00:00",
-      "summary": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+      "source_id": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "published_at": "2026-11-18T00:16:50+00:00",
+      "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
       "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.63,
+        "relevance_score": 2.59,
         "recommended": true,
-        "relevance_confidence": 0.68,
+        "relevance_confidence": 0.47,
         "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.36,
-          "3": 0.63,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.56,
-        "topic_probabilities": {
-          "ai_models_research": 0.35,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.65,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
-      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
-      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
-      "published_at": "2026-11-17T14:26:46+00:00",
-      "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.62,
-        "recommended": true,
-        "relevance_confidence": 0.65,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.07,
-          "2": 0.26,
-          "3": 0.65,
-          "4": 0.02
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.99,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "ieee-spectrum-ai:https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
-      "source": "ieee-spectrum-ai",
-      "source_id": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
-      "title": "Understand How Satellite Links Shape IoT Device Design and Testing",
-      "url": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
-      "published_at": "2026-11-17T11:00:04+00:00",
-      "summary": "How 3GPP Releases 15, 16, and 17 brought satellite access into 5G NR, NB-IoT, and eMTC. Why satellite links suit IoT devices that send small, infrequent, and delay-tolerant messages. Where non-terrestrial networks (NTN) add value, including asset tracking, agriculture, public safety, and offshore operations. How power efficiency, RF signaling, and antenna design shape satellite-connected device development. Why long propagation delay, Doppler shift, and intermittent coverage make static test methods insufficient. Which measurements show deployment readiness, such as transmit power, modulation accuracy, spectral emissions, receiver sensitivity, and block error rate (BLER). How emulated satellite conditions help verify synchronization, signaling, HARQ behavior, mobility, and interoperability. Download this free whitepaper now!",
-      "name": "IEEE Spectrum AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.62,
-        "recommended": true,
-        "relevance_confidence": 0.56,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.05,
-          "2": 0.35,
+          "0": 0.01,
+          "1": 0.14,
+          "2": 0.21,
           "3": 0.52,
-          "4": 0.08
+          "4": 0.12
         },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.44,
+        "topic": "policy_business",
+        "topic_confidence": 0.7,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.55,
-          "policy_business": 0.0,
-          "other_technology": 0.45
+          "hardware_datacenters": 0.24,
+          "policy_business": 0.76,
+          "other_technology": 0.0
         }
       }
     },
@@ -956,7 +706,7 @@
       "source_id": "dream-num/univer",
       "title": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -980,6 +730,40 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://macdailynews.com/2026/11/17/apple-blames-internal-update-for-icloud-outage-denies-cyberattack/",
+      "source": "gdelt",
+      "source_id": "https://macdailynews.com/2026/11/17/apple-blames-internal-update-for-icloud-outage-denies-cyberattack/",
+      "title": "Apple blames internal update for iCloud outage , denies cyberattack",
+      "url": "https://macdailynews.com/2026/11/17/apple-blames-internal-update-for-icloud-outage-denies-cyberattack/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://macdailynews.com/wp-content/uploads/2026/09/260915_icloud.png",
+      "domain": "macdailynews.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.52,
+        "recommended": true,
+        "relevance_confidence": 0.58,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.05,
+          "2": 0.38,
+          "3": 0.55,
+          "4": 0.02
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.91,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.06,
+          "policy_business": 0.01,
+          "other_technology": 0.93
         }
       }
     },
@@ -1016,12 +800,46 @@
       }
     },
     {
+      "id": "gdelt:https://www.fool.com/investing/2026/11/17/chevron-says-ai-has-already-captured-over-usd100-million-in-value-here-s-where-it-might-find-an-even-bigger-payoff/",
+      "source": "gdelt",
+      "source_id": "https://www.fool.com/investing/2026/11/17/chevron-says-ai-has-already-captured-over-usd100-million-in-value-here-s-where-it-might-find-an-even-bigger-payoff/",
+      "title": "Chevron Says AI Has Already Captured Over $100 Million in Value . Here Where It Might Find an Even Bigger Payoff .",
+      "url": "https://www.fool.com/investing/2026/11/17/chevron-says-ai-has-already-captured-over-usd100-million-in-value-here-s-where-it-might-find-an-even-bigger-payoff/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://cdn.content.foolcdn.com/images/1umn9qeh/production/a164a62defd5c9a1298e91210a3e6bae2fa85dfa-2119x1414.jpg",
+      "domain": "fool.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.47,
+        "recommended": true,
+        "relevance_confidence": 0.53,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.09,
+          "2": 0.34,
+          "3": 0.55,
+          "4": 0.01
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.98,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "github_trending:ag-ui-protocol/ag-ui",
       "source": "github_trending",
       "source_id": "ag-ui-protocol/ag-ui",
       "title": "ag-ui-protocol/ag-ui",
       "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1049,12 +867,46 @@
       }
     },
     {
+      "id": "gdelt:https://www.bnnbloomberg.ca/business/2026/11/17/nvidia-chairman-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo/",
+      "source": "gdelt",
+      "source_id": "https://www.bnnbloomberg.ca/business/2026/11/17/nvidia-chairman-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo/",
+      "title": "Jensen Huang signals interest in return to role as Nvidia CEO",
+      "url": "https://www.bnnbloomberg.ca/business/2026/11/17/nvidia-chairman-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.bnnbloomberg.ca/resizer/v2/4Y2R2LHAVMBOHAXDUJEY4TBBE4.jpg?smart=true&auth=7e7c9492637faa954fd92410af7ee45082c1beeafb286a14723d4d20d871a397",
+      "domain": "bnnbloomberg.ca",
+      "language": "English",
+      "country": "Canada",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.4,
+        "recommended": true,
+        "relevance_confidence": 0.28,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.19,
+          "2": 0.29,
+          "3": 0.37,
+          "4": 0.13
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.71,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.16,
+          "policy_business": 0.77,
+          "other_technology": 0.07
+        }
+      }
+    },
+    {
       "id": "github_trending:Tencent/LoopForge",
       "source": "github_trending",
       "source_id": "Tencent/LoopForge",
       "title": "Tencent/LoopForge",
       "url": "https://github.com/Tencent/LoopForge",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1082,12 +934,78 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "published_at": "2026-11-17T23:41:18+00:00",
+      "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked at […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.36,
+        "recommended": true,
+        "relevance_confidence": 0.58,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.07,
+          "2": 0.51,
+          "3": 0.41,
+          "4": 0.01
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.96,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.97,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://wspd.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "source": "gdelt",
+      "source_id": "https://wspd.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "title": "Nvidia Exceeds Q3 Expectations Amid CEO Huang Exit | NewsRadio 1370 AM & 92 . 9 FM WSPD",
+      "url": "https://wspd.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://i.iheart.com/v3/re/assets.getty/6afcc9bb44dd36386967908a?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+      "domain": "wspd.iheart.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.35,
+        "recommended": true,
+        "relevance_confidence": 0.28,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.24,
+          "2": 0.19,
+          "3": 0.43,
+          "4": 0.11
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.46,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.42,
+          "policy_business": 0.57,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
       "id": "github_trending:google-labs-code/stitch-skills",
       "source": "github_trending",
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1115,36 +1033,36 @@
       }
     },
     {
-      "id": "a16z-news:https://www.a16z.news/p/investing-in-first-person-labs",
-      "source": "a16z-news",
-      "source_id": "https://www.a16z.news/p/investing-in-first-person-labs",
-      "title": "Investing in First Person Labs",
-      "url": "https://www.a16z.news/p/investing-in-first-person-labs",
-      "published_at": "2026-11-17T15:10:59+00:00",
-      "summary": "a16z invests in First Person Labs",
-      "name": "a16z News",
-      "kind": "newsletter",
-      "publisher": "a16z",
+      "id": "gdelt:https://www.foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo",
+      "source": "gdelt",
+      "source_id": "https://www.foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo",
+      "title": "Nvidia releases first quarterly earnings report since Jensen Huang resignation",
+      "url": "https://www.foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/0/0/nvidia-entrance-sign-worker-01.jpg?ve=1&tl=1",
+      "domain": "foxbusiness.com",
+      "language": "English",
+      "country": "United States",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.33,
+        "relevance_score": 2.31,
         "recommended": true,
-        "relevance_confidence": 0.42,
+        "relevance_confidence": 0.0,
         "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.12,
-          "2": 0.42,
-          "3": 0.44,
-          "4": 0.01
+          "0": 0.06,
+          "1": 0.31,
+          "2": 0.12,
+          "3": 0.3,
+          "4": 0.21
         },
         "topic": "policy_business",
-        "topic_confidence": 0.95,
+        "topic_confidence": 0.75,
         "topic_probabilities": {
-          "ai_models_research": 0.03,
+          "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.96,
-          "other_technology": 0.01
+          "hardware_datacenters": 0.17,
+          "policy_business": 0.8,
+          "other_technology": 0.03
         }
       }
     },
@@ -1154,7 +1072,7 @@
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1178,6 +1096,40 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.guardian-series.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "source": "gdelt",
+      "source_id": "https://www.guardian-series.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
+      "url": "https://www.guardian-series.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.guardian-series.co.uk/resources/images/21731026.jpg?type=og-image",
+      "domain": "guardian-series.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.29,
+        "recommended": true,
+        "relevance_confidence": 0.08,
+        "relevance_probabilities": {
+          "0": 0.06,
+          "1": 0.3,
+          "2": 0.12,
+          "3": 0.32,
+          "4": 0.2
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.75,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.1,
+          "policy_business": 0.8,
+          "other_technology": 0.1
         }
       }
     },
@@ -1214,12 +1166,46 @@
       }
     },
     {
+      "id": "gdelt:https://www.lbc.co.uk/article/6cb488380be34d1cb233179be3e8e4b8-5HjdmTj_2/",
+      "source": "gdelt",
+      "source_id": "https://www.lbc.co.uk/article/6cb488380be34d1cb233179be3e8e4b8-5HjdmTj_2/",
+      "title": "Pupils who use AI to complete coursework face life - altering penalties – Ofqual",
+      "url": "https://www.lbc.co.uk/article/6cb488380be34d1cb233179be3e8e4b8-5HjdmTj_2/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://images.globalplayer.com/images/856451?crop=16_9&signature=8YRy0AofhvZxeciRyyPvJxV0GTI=",
+      "domain": "lbc.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.25,
+        "recommended": true,
+        "relevance_confidence": 0.34,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.18,
+          "2": 0.38,
+          "3": 0.41,
+          "4": 0.02
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.96,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.97,
+          "other_technology": 0.03
+        }
+      }
+    },
+    {
       "id": "github_trending:cursor/plugins",
       "source": "github_trending",
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1247,37 +1233,614 @@
       }
     },
     {
-      "id": "hackernews:50534044",
-      "source": "hackernews",
-      "source_id": "50534044",
-      "title": "Jensen Huang says he’s open to returning in first statement since resignation",
-      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
-      "published_at": "2026-11-17T16:40:38+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50534044",
-      "points": 95,
-      "comments": 171,
-      "matched_term": "Jensen Huang",
+      "id": "gdelt:https://www.hexham-courant.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "source": "gdelt",
+      "source_id": "https://www.hexham-courant.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
+      "url": "https://www.hexham-courant.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.hexham-courant.co.uk/resources/images/21731026.jpg?type=og-image",
+      "domain": "hexham-courant.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.22,
+        "relevance_score": 2.2,
         "recommended": true,
         "relevance_confidence": 0.0,
         "relevance_probabilities": {
+          "0": 0.09,
+          "1": 0.31,
+          "2": 0.1,
+          "3": 0.31,
+          "4": 0.19
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.79,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.08,
+          "policy_business": 0.83,
+          "other_technology": 0.09
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.bnnbloomberg.ca/markets/crypto/2026/11/17/popular-websites-compromised-in-bid-to-steal-crypto-target-iphone-users/",
+      "source": "gdelt",
+      "source_id": "https://www.bnnbloomberg.ca/markets/crypto/2026/11/17/popular-websites-compromised-in-bid-to-steal-crypto-target-iphone-users/",
+      "title": "Websites compromised in bid to steal crypto , target iPhone users",
+      "url": "https://www.bnnbloomberg.ca/markets/crypto/2026/11/17/popular-websites-compromised-in-bid-to-steal-crypto-target-iphone-users/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.bnnbloomberg.ca/resizer/v2/EJPSTGA765PUWRNBGODDGNKVOE.jpg?smart=true&auth=6c55a531f6a23d64c13cf03c595d640a32208538eb5be7ccd1bea7ad53c42fe2",
+      "domain": "bnnbloomberg.ca",
+      "language": "English",
+      "country": "Canada",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.2,
+        "recommended": true,
+        "relevance_confidence": 0.6,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.12,
+          "2": 0.53,
+          "3": 0.34,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://wjno.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "source": "gdelt",
+      "source_id": "https://wjno.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "title": "Nvidia Exceeds Q3 Expectations Amid CEO Huang Exit",
+      "url": "https://wjno.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://i.iheart.com/v3/re/assets.getty/6afcc9bb44dd36386967908a?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+      "domain": "wjno.iheart.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.2,
+        "recommended": true,
+        "relevance_confidence": 0.17,
+        "relevance_probabilities": {
           "0": 0.03,
+          "1": 0.31,
+          "2": 0.19,
+          "3": 0.37,
+          "4": 0.1
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.61,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.29,
+          "policy_business": 0.69,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.wiltsglosstandard.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "source": "gdelt",
+      "source_id": "https://www.wiltsglosstandard.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
+      "url": "https://www.wiltsglosstandard.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.wiltsglosstandard.co.uk/resources/images/21731026.jpg?type=og-image",
+      "domain": "wiltsglosstandard.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.18,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.09,
+          "1": 0.31,
+          "2": 0.12,
+          "3": 0.3,
+          "4": 0.18
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.71,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.11,
+          "policy_business": 0.77,
+          "other_technology": 0.12
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.thurrockgazette.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "source": "gdelt",
+      "source_id": "https://www.thurrockgazette.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
+      "url": "https://www.thurrockgazette.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.thurrockgazette.co.uk/resources/images/21731026.jpg?type=og-image",
+      "domain": "thurrockgazette.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.18,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.09,
           "1": 0.32,
-          "2": 0.22,
-          "3": 0.27,
-          "4": 0.16
+          "2": 0.1,
+          "3": 0.3,
+          "4": 0.19
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.69,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.12,
+          "policy_business": 0.75,
+          "other_technology": 0.13
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.thisiswiltshire.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "source": "gdelt",
+      "source_id": "https://www.thisiswiltshire.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
+      "url": "https://www.thisiswiltshire.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.thisiswiltshire.co.uk/resources/images/21731026.jpg?type=og-image",
+      "domain": "thisiswiltshire.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.17,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.1,
+          "1": 0.32,
+          "2": 0.1,
+          "3": 0.29,
+          "4": 0.19
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.75,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.1,
+          "policy_business": 0.8,
+          "other_technology": 0.1
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.ky3.com/2026/11/17/another-wipeout-hits-wall-street-nvidia-other-jittery-ai-stocks-swing-lower/",
+      "source": "gdelt",
+      "source_id": "https://www.ky3.com/2026/11/17/another-wipeout-hits-wall-street-nvidia-other-jittery-ai-stocks-swing-lower/",
+      "title": "Another wipeout hits Wall Street as Nvidia , other jittery AI stocks swing lower",
+      "url": "https://www.ky3.com/2026/11/17/another-wipeout-hits-wall-street-nvidia-other-jittery-ai-stocks-swing-lower/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://gray-ky3-prod.gtv-cdn.com/resizer/v2/7KQIZY7O4VCHJHY25A76R5FNJY.jpg?auth=845d3969b0a5b6bff91a7ccae822d83b2b0f77e7778c1ad57fc3a9b1f695427e&smart=true",
+      "domain": "ky3.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.17,
+        "recommended": true,
+        "relevance_confidence": 0.54,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.17,
+          "2": 0.47,
+          "3": 0.34,
+          "4": 0.01
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.94,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.05,
+          "policy_business": 0.95,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.ludlowadvertiser.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "source": "gdelt",
+      "source_id": "https://www.ludlowadvertiser.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
+      "url": "https://www.ludlowadvertiser.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.ludlowadvertiser.co.uk/resources/images/21731026.jpg?type=og-image",
+      "domain": "ludlowadvertiser.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.16,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.12,
+          "1": 0.29,
+          "2": 0.09,
+          "3": 0.29,
+          "4": 0.21
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.73,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.11,
+          "policy_business": 0.78,
+          "other_technology": 0.11
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://wflaorlando.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "source": "gdelt",
+      "source_id": "https://wflaorlando.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "title": "Nvidia Exceeds Q3 Expectations Amid CEO Huang Exit | Newsradio WFLA Orlando",
+      "url": "https://wflaorlando.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://i.iheart.com/v3/re/assets.getty/6afcc9bb44dd36386967908a?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+      "domain": "wflaorlando.iheart.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.16,
+        "recommended": true,
+        "relevance_confidence": 0.12,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.32,
+          "2": 0.19,
+          "3": 0.35,
+          "4": 0.1
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.6,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.3,
+          "policy_business": 0.68,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://newsradiowkcy.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "source": "gdelt",
+      "source_id": "https://newsradiowkcy.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "title": "Nvidia Exceeds Q3 Expectations Amid CEO Huang Exit | NewsRadio WKCY",
+      "url": "https://newsradiowkcy.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://i.iheart.com/v3/re/assets.getty/6afcc9bb44dd36386967908a?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+      "domain": "newsradiowkcy.iheart.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.16,
+        "recommended": true,
+        "relevance_confidence": 0.16,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.31,
+          "2": 0.18,
+          "3": 0.38,
+          "4": 0.09
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.59,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.31,
+          "policy_business": 0.67,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.kazu.org/npr-news/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "source": "gdelt",
+      "source_id": "https://www.kazu.org/npr-news/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "title": "Nvidia board says it does not intend to reinstate Jensen Huang as CEO",
+      "url": "https://www.kazu.org/npr-news/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/e0/bd/038464ef47e8aca105d3fd442b4d/gettyimages-2304269603.jpg",
+      "domain": "kazu.org",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.16,
+        "recommended": true,
+        "relevance_confidence": 0.13,
+        "relevance_probabilities": {
+          "0": 0.06,
+          "1": 0.28,
+          "2": 0.2,
+          "3": 0.36,
+          "4": 0.1
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.86,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.06,
+          "policy_business": 0.89,
+          "other_technology": 0.05
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.stroudnewsandjournal.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "source": "gdelt",
+      "source_id": "https://www.stroudnewsandjournal.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
+      "url": "https://www.stroudnewsandjournal.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.stroudnewsandjournal.co.uk/resources/images/21731026.jpg?type=og-image",
+      "domain": "stroudnewsandjournal.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.15,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.1,
+          "1": 0.31,
+          "2": 0.11,
+          "3": 0.31,
+          "4": 0.17
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.74,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.11,
+          "policy_business": 0.79,
+          "other_technology": 0.1
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://wilm.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "source": "gdelt",
+      "source_id": "https://wilm.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "title": "Nvidia Exceeds Q3 Expectations Amid CEO Huang Exit",
+      "url": "https://wilm.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://i.iheart.com/v3/re/assets.getty/6afcc9bb44dd36386967908a?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+      "domain": "wilm.iheart.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.14,
+        "recommended": true,
+        "relevance_confidence": 0.15,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.33,
+          "2": 0.19,
+          "3": 0.37,
+          "4": 0.08
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.66,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.25,
+          "policy_business": 0.73,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.richmondandtwickenhamtimes.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "source": "gdelt",
+      "source_id": "https://www.richmondandtwickenhamtimes.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
+      "url": "https://www.richmondandtwickenhamtimes.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.richmondandtwickenhamtimes.co.uk/resources/images/21731026.jpg?type=og-image",
+      "domain": "richmondandtwickenhamtimes.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.13,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.1,
+          "1": 0.32,
+          "2": 0.12,
+          "3": 0.28,
+          "4": 0.18
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.71,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.09,
+          "policy_business": 0.77,
+          "other_technology": 0.14
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.kccu.org/business/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "source": "gdelt",
+      "source_id": "https://www.kccu.org/business/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "title": "Nvidia board says it does not intend to reinstate Jensen Huang as CEO",
+      "url": "https://www.kccu.org/business/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/e0/bd/038464ef47e8aca105d3fd442b4d/gettyimages-2304269603.jpg",
+      "domain": "kccu.org",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.13,
+        "recommended": true,
+        "relevance_confidence": 0.11,
+        "relevance_probabilities": {
+          "0": 0.06,
+          "1": 0.3,
+          "2": 0.19,
+          "3": 0.35,
+          "4": 0.1
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.86,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.05,
+          "policy_business": 0.89,
+          "other_technology": 0.06
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.wral.com/news/ap/75cd5-in-closings-chinese-tech-giant-huawei-is-cast-by-prosecutors-as-a-villain-as-its-lawyer-disagrees/",
+      "source": "gdelt",
+      "source_id": "https://www.wral.com/news/ap/75cd5-in-closings-chinese-tech-giant-huawei-is-cast-by-prosecutors-as-a-villain-as-its-lawyer-disagrees/",
+      "title": "In closings , Chinese tech giant Huawei is cast by prosecutors as a villain as its lawyer disagrees",
+      "url": "https://www.wral.com/news/ap/75cd5-in-closings-chinese-tech-giant-huawei-is-cast-by-prosecutors-as-a-villain-as-its-lawyer-disagrees/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://images.wral.com/c6e3d7fd-986c-5afd-9562-f57cc9336e1f",
+      "domain": "wral.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.12,
+        "recommended": true,
+        "relevance_confidence": 0.43,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.24,
+          "2": 0.38,
+          "3": 0.32,
+          "4": 0.04
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.57,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.66,
+          "other_technology": 0.33
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://1019bigwaax.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "source": "gdelt",
+      "source_id": "https://1019bigwaax.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "title": "Nvidia Exceeds Q3 Expectations Amid CEO Huang Exit | News Radio 101 . 9 Big WAAX",
+      "url": "https://1019bigwaax.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://i.iheart.com/v3/re/assets.getty/6afcc9bb44dd36386967908a?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+      "domain": "1019bigwaax.iheart.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.12,
+        "recommended": true,
+        "relevance_confidence": 0.15,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.33,
+          "2": 0.19,
+          "3": 0.37,
+          "4": 0.08
         },
         "topic": "policy_business",
         "topic_confidence": 0.54,
         "topic_probabilities": {
-          "ai_models_research": 0.01,
+          "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.12,
+          "hardware_datacenters": 0.35,
           "policy_business": 0.63,
-          "other_technology": 0.24
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.borehamwoodtimes.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "source": "gdelt",
+      "source_id": "https://www.borehamwoodtimes.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
+      "url": "https://www.borehamwoodtimes.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.borehamwoodtimes.co.uk/resources/images/21731026.jpg?type=og-image",
+      "domain": "borehamwoodtimes.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.11,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.08,
+          "1": 0.36,
+          "2": 0.11,
+          "3": 0.28,
+          "4": 0.17
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.75,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.1,
+          "policy_business": 0.8,
+          "other_technology": 0.1
         }
       }
     },
@@ -1287,7 +1850,7 @@
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1320,7 +1883,7 @@
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1344,6 +1907,108 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://powertalk1460.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "source": "gdelt",
+      "source_id": "https://powertalk1460.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "title": "Nvidia Exceeds Q3 Expectations Amid CEO Huang Exit | PowerTalk 1460 AM & 101 . 1 FM",
+      "url": "https://powertalk1460.iheart.com/content/2026-11-17-nvidia-exceeds-q3-expectations-amid-ceo-huangs-exit/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://i.iheart.com/v3/re/assets.getty/6afcc9bb44dd36386967908a?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+      "domain": "powertalk1460.iheart.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.07,
+        "recommended": true,
+        "relevance_confidence": 0.06,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.34,
+          "2": 0.23,
+          "3": 0.33,
+          "4": 0.07
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.55,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.34,
+          "policy_business": 0.64,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.fool.com/investing/2026/11/17/nvidias-103-revenue-growth-took-a-backseat-to-its-internal-drama/",
+      "source": "gdelt",
+      "source_id": "https://www.fool.com/investing/2026/11/17/nvidias-103-revenue-growth-took-a-backseat-to-its-internal-drama/",
+      "title": "Nvidia 103 % Revenue Growth Took a Backseat to Its Internal Drama",
+      "url": "https://www.fool.com/investing/2026/11/17/nvidias-103-revenue-growth-took-a-backseat-to-its-internal-drama/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://cdn.content.foolcdn.com/images/1umn9qeh/production/47e15353727b9f5b86866a5556ec1fbd1e0e0009-2000x1200.jpg",
+      "domain": "fool.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.07,
+        "recommended": true,
+        "relevance_confidence": 0.44,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.28,
+          "2": 0.36,
+          "3": 0.33,
+          "4": 0.02
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.39,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.46,
+          "policy_business": 0.51,
+          "other_technology": 0.03
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.eveshamjournal.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "source": "gdelt",
+      "source_id": "https://www.eveshamjournal.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
+      "url": "https://www.eveshamjournal.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.eveshamjournal.co.uk/resources/images/21731026.jpg?type=og-image",
+      "domain": "eveshamjournal.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.07,
+        "recommended": true,
+        "relevance_confidence": 0.0,
+        "relevance_probabilities": {
+          "0": 0.09,
+          "1": 0.34,
+          "2": 0.12,
+          "3": 0.3,
+          "4": 0.15
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.7,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.12,
+          "policy_business": 0.76,
+          "other_technology": 0.12
         }
       }
     },
@@ -1376,6 +2041,108 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://news.prairiepublic.org/news-from-npr/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "source": "gdelt",
+      "source_id": "https://news.prairiepublic.org/news-from-npr/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "title": "Nvidia board says it does not intend to reinstate Jensen Huang as CEO",
+      "url": "https://news.prairiepublic.org/news-from-npr/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/e0/bd/038464ef47e8aca105d3fd442b4d/gettyimages-2304269603.jpg",
+      "domain": "news.prairiepublic.org",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.02,
+        "recommended": true,
+        "relevance_confidence": 0.03,
+        "relevance_probabilities": {
+          "0": 0.07,
+          "1": 0.35,
+          "2": 0.17,
+          "3": 0.31,
+          "4": 0.1
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.84,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.06,
+          "policy_business": 0.87,
+          "other_technology": 0.07
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.klcc.org/npr-news/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "source": "gdelt",
+      "source_id": "https://www.klcc.org/npr-news/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "title": "Nvidia board says it does not intend to reinstate Jensen Huang as CEO",
+      "url": "https://www.klcc.org/npr-news/2026-11-17/nvidia-board-says-it-does-not-intend-to-reinstate-jensen-huang-as-ceo",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/e0/bd/038464ef47e8aca105d3fd442b4d/gettyimages-2304269603.jpg",
+      "domain": "klcc.org",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.99,
+        "recommended": false,
+        "relevance_confidence": 0.08,
+        "relevance_probabilities": {
+          "0": 0.06,
+          "1": 0.37,
+          "2": 0.18,
+          "3": 0.31,
+          "4": 0.08
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.82,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.07,
+          "policy_business": 0.86,
+          "other_technology": 0.07
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.41nbc.com/apple-outage-marriott-technology-disruptions/",
+      "source": "gdelt",
+      "source_id": "https://www.41nbc.com/apple-outage-marriott-technology-disruptions/",
+      "title": "Apple outage disrupts Apple Music , App Store and other services",
+      "url": "https://www.41nbc.com/apple-outage-marriott-technology-disruptions/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.41nbc.com/content/uploads/2021/02/MGN_1280x960_91218P00-NNBEA-3.jpg",
+      "domain": "41nbc.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.97,
+        "recommended": false,
+        "relevance_confidence": 0.57,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.25,
+          "2": 0.5,
+          "3": 0.23,
+          "4": 0.01
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.96,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.03,
+          "policy_business": 0.0,
+          "other_technology": 0.97
         }
       }
     },
@@ -1417,7 +2184,7 @@
       "source_id": "backnotprop/plannotator",
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1450,7 +2217,7 @@
       "source_id": "sponsors/affaan-m",
       "title": "sponsors/affaan-m",
       "url": "https://github.com/sponsors/affaan-m",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1478,68 +2245,342 @@
       }
     },
     {
-      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
-      "source": "mit-tech-review-ai",
-      "source_id": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
-      "title": "Research Reports",
-      "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
-      "published_at": "2026-11-17T14:39:46+00:00",
-      "summary": "To access a report, click on the corresponding image below.",
-      "name": "MIT Technology Review AI",
+      "id": "gdelt:https://www.mercurynews.com/2026/11/17/lebron-james-trademark-lawsuit/",
+      "source": "gdelt",
+      "source_id": "https://www.mercurynews.com/2026/11/17/lebron-james-trademark-lawsuit/",
+      "title": "LeBron James sues makers of AI sports - betting app , saying they used his likeness and nickname",
+      "url": "https://www.mercurynews.com/2026/11/17/lebron-james-trademark-lawsuit/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.mercurynews.com/wp-content/uploads/2026/11/76ers_Pistons_Basketball_67832.jpg",
+      "domain": "mercurynews.com",
+      "language": "English",
+      "country": "United States",
       "jev": {
         "model": "jev-1.14.0",
         "relevance_score": 1.95,
         "recommended": false,
-        "relevance_confidence": 0.15,
+        "relevance_confidence": 0.53,
         "relevance_probabilities": {
-          "0": 0.04,
-          "1": 0.32,
-          "2": 0.32,
-          "3": 0.3,
-          "4": 0.02
+          "0": 0.01,
+          "1": 0.29,
+          "2": 0.45,
+          "3": 0.25,
+          "4": 0.0
         },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.82,
+        "topic": "policy_business",
+        "topic_confidence": 0.73,
         "topic_probabilities": {
-          "ai_models_research": 0.86,
+          "ai_models_research": 0.06,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.02,
-          "other_technology": 0.12
+          "policy_business": 0.78,
+          "other_technology": 0.16
         }
       }
     },
     {
-      "id": "a16z-news:https://www.a16z.news/p/the-boring-company-and-the-future",
-      "source": "a16z-news",
-      "source_id": "https://www.a16z.news/p/the-boring-company-and-the-future",
-      "title": "The Boring Company & the Future Underground",
-      "url": "https://www.a16z.news/p/the-boring-company-and-the-future",
-      "published_at": "2026-11-17T15:30:54+00:00",
-      "summary": "How cheaper tunneling could put traffic underground and finally make Elon Musk’s hyperloop possible",
-      "name": "a16z News",
-      "kind": "newsletter",
-      "publisher": "a16z",
+      "id": "gdelt:https://wjla.com/news/nation-world/linkedin-sees-more-interest-in-entrepreneurship-with-ai-helping-founders-get-their-start",
+      "source": "gdelt",
+      "source_id": "https://wjla.com/news/nation-world/linkedin-sees-more-interest-in-entrepreneurship-with-ai-helping-founders-get-their-start",
+      "title": "LinkedIn sees more interest in entrepreneurship , with AI helping founders get their start",
+      "url": "https://wjla.com/news/nation-world/linkedin-sees-more-interest-in-entrepreneurship-with-ai-helping-founders-get-their-start",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "",
+      "domain": "wjla.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.86,
+        "recommended": false,
+        "relevance_confidence": 0.69,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.25,
+          "2": 0.63,
+          "3": 0.12,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.77,
+        "topic_probabilities": {
+          "ai_models_research": 0.05,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.82,
+          "other_technology": 0.13
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://news.prairiepublic.org/news-from-npr/2026-11-17/air-travel-microsoft-banking-why-are-our-it-systems-failing",
+      "source": "gdelt",
+      "source_id": "https://news.prairiepublic.org/news-from-npr/2026-11-17/air-travel-microsoft-banking-why-are-our-it-systems-failing",
+      "title": "Air travel , Microsoft , banking : Why are our IT systems failing ?",
+      "url": "https://news.prairiepublic.org/news-from-npr/2026-11-17/air-travel-microsoft-banking-why-are-our-it-systems-failing",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "",
+      "domain": "news.prairiepublic.org",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.81,
+        "recommended": false,
+        "relevance_confidence": 0.29,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.39,
+          "2": 0.34,
+          "3": 0.24,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.92,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.01,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.05,
+          "other_technology": 0.94
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.newcastleherald.com.au/story/9393838/aussie-firms-cautioned-on-artificial-intelligence/",
+      "source": "gdelt",
+      "source_id": "https://www.newcastleherald.com.au/story/9393838/aussie-firms-cautioned-on-artificial-intelligence/",
+      "title": "Aussie firms cautioned on artificial intelligence",
+      "url": "https://www.newcastleherald.com.au/story/9393838/aussie-firms-cautioned-on-artificial-intelligence/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.newcastleherald.com.au/images/transform/v1/crop/frm/silverstone-feed-data/0e0f48db-41d3-48b2-984b-3ec860fb0157.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "domain": "newcastleherald.com.au",
+      "language": "English",
+      "country": "",
       "jev": {
         "model": "jev-1.14.0",
         "relevance_score": 1.81,
         "recommended": false,
         "relevance_confidence": 0.48,
         "relevance_probabilities": {
-          "0": 0.02,
+          "0": 0.04,
+          "1": 0.33,
+          "2": 0.41,
+          "3": 0.22,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.98,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.greeleytribune.com/2026/11/17/lebron-james-trademark-lawsuit/",
+      "source": "gdelt",
+      "source_id": "https://www.greeleytribune.com/2026/11/17/lebron-james-trademark-lawsuit/",
+      "title": "LeBron James sues makers of AI sports - betting app , saying they used his likeness and nickname",
+      "url": "https://www.greeleytribune.com/2026/11/17/lebron-james-trademark-lawsuit/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.greeleytribune.com/wp-content/uploads/2026/11/76ers_Pistons_Basketball_67832.jpg",
+      "domain": "greeleytribune.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.8,
+        "recommended": false,
+        "relevance_confidence": 0.52,
+        "relevance_probabilities": {
+          "0": 0.01,
           "1": 0.37,
-          "2": 0.4,
+          "2": 0.44,
+          "3": 0.18,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.71,
+        "topic_probabilities": {
+          "ai_models_research": 0.06,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.77,
+          "other_technology": 0.17
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.camdencourier.com.au/story/9393838/aussie-firms-cautioned-on-artificial-intelligence/",
+      "source": "gdelt",
+      "source_id": "https://www.camdencourier.com.au/story/9393838/aussie-firms-cautioned-on-artificial-intelligence/",
+      "title": "Aussie firms cautioned on artificial intelligence",
+      "url": "https://www.camdencourier.com.au/story/9393838/aussie-firms-cautioned-on-artificial-intelligence/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.camdencourier.com.au/images/transform/v1/crop/frm/silverstone-feed-data/0e0f48db-41d3-48b2-984b-3ec860fb0157.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "domain": "camdencourier.com.au",
+      "language": "English",
+      "country": "Australia",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.78,
+        "recommended": false,
+        "relevance_confidence": 0.48,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.34,
+          "2": 0.42,
+          "3": 0.2,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.98,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.yasstribune.com.au/story/9393838/aussie-firms-cautioned-on-artificial-intelligence/",
+      "source": "gdelt",
+      "source_id": "https://www.yasstribune.com.au/story/9393838/aussie-firms-cautioned-on-artificial-intelligence/",
+      "title": "Aussie firms cautioned on artificial intelligence",
+      "url": "https://www.yasstribune.com.au/story/9393838/aussie-firms-cautioned-on-artificial-intelligence/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.yasstribune.com.au/images/transform/v1/crop/frm/silverstone-feed-data/0e0f48db-41d3-48b2-984b-3ec860fb0157.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "domain": "yasstribune.com.au",
+      "language": "English",
+      "country": "Australia",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.76,
+        "recommended": false,
+        "relevance_confidence": 0.44,
+        "relevance_probabilities": {
+          "0": 0.05,
+          "1": 0.36,
+          "2": 0.38,
+          "3": 0.21,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.99,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.nbclosangeles.com/news/national-international/classified-nsa-network-down-no-indication-attack/3971889/",
+      "source": "gdelt",
+      "source_id": "https://www.nbclosangeles.com/news/national-international/classified-nsa-network-down-no-indication-attack/3971889/",
+      "title": "Classified NSA network went down , no indication it was an attack – NBC Los Angeles",
+      "url": "https://www.nbclosangeles.com/news/national-international/classified-nsa-network-down-no-indication-attack/3971889/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://media.nbclosangeles.com/2026/11/261117-nsa-getty.jpg?quality=85&strip=all",
+      "domain": "nbclosangeles.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.75,
+        "recommended": false,
+        "relevance_confidence": 0.57,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.36,
+          "2": 0.5,
+          "3": 0.13,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.73,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.22,
+          "policy_business": 0.0,
+          "other_technology": 0.78
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.klcc.org/npr-top-stories/2026-11-17/air-travel-microsoft-banking-why-are-our-it-systems-failing",
+      "source": "gdelt",
+      "source_id": "https://www.klcc.org/npr-top-stories/2026-11-17/air-travel-microsoft-banking-why-are-our-it-systems-failing",
+      "title": "Air travel , Microsoft , banking : Why are our IT systems failing ?",
+      "url": "https://www.klcc.org/npr-top-stories/2026-11-17/air-travel-microsoft-banking-why-are-our-it-systems-failing",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "",
+      "domain": "klcc.org",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.73,
+        "recommended": false,
+        "relevance_confidence": 0.34,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.42,
+          "2": 0.34,
           "3": 0.21,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.98,
+        "topic_confidence": 0.89,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.02,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.07,
+          "other_technology": 0.91
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.adn.com/business-economy/2026/11/17/apple-joins-a-parade-of-technology-hiccups-in-recent-days/",
+      "source": "gdelt",
+      "source_id": "https://www.adn.com/business-economy/2026/11/17/apple-joins-a-parade-of-technology-hiccups-in-recent-days/",
+      "title": "Apple joins a parade of technology hiccups in recent days",
+      "url": "https://www.adn.com/business-economy/2026/11/17/apple-joins-a-parade-of-technology-hiccups-in-recent-days/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.adn.com/resizer/v2/USEMNQFUBSTLQICYL4EFT4FFYA.jpg?smart=true&auth=fd9653fb96b65246b4ab3c99b993cb58ce57a024b86a3e3d2ba95d64d74d3b3e",
+      "domain": "adn.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.7,
+        "recommended": false,
+        "relevance_confidence": 0.53,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.41,
+          "2": 0.45,
+          "3": 0.13,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.96,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
+          "hardware_datacenters": 0.01,
           "policy_business": 0.02,
-          "other_technology": 0.98
+          "other_technology": 0.97
         }
       }
     },
@@ -1581,7 +2622,7 @@
       "source_id": "getarcaneapp/arcane",
       "title": "getarcaneapp/arcane",
       "url": "https://github.com/getarcaneapp/arcane",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "Modern Docker Management, Designed for Everyone",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1605,6 +2646,482 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.wral.com/consumer/5onyourside/protecting-your-digital-life-after-major-outages-november-2026/",
+      "source": "gdelt",
+      "source_id": "https://www.wral.com/consumer/5onyourside/protecting-your-digital-life-after-major-outages-november-2026/",
+      "title": "How to protect your digital life in the wake of multiple tech outages",
+      "url": "https://www.wral.com/consumer/5onyourside/protecting-your-digital-life-after-major-outages-november-2026/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://assets.wral.com/9bdbce5f-65c2-4eb2-a550-1dbfb8d9946a",
+      "domain": "wral.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.65,
+        "recommended": false,
+        "relevance_confidence": 0.6,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.38,
+          "2": 0.54,
+          "3": 0.06,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.02,
+          "policy_business": 0.0,
+          "other_technology": 0.98
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.nbcdfw.com/news/local/red-oak-residents-push-back-against-plans-for-more-data-centers/4107459/",
+      "source": "gdelt",
+      "source_id": "https://www.nbcdfw.com/news/local/red-oak-residents-push-back-against-plans-for-more-data-centers/4107459/",
+      "title": "Data center plans in Red Oak draw protest at joint city meeting – NBC 5 Dallas - Fort Worth",
+      "url": "https://www.nbcdfw.com/news/local/red-oak-residents-push-back-against-plans-for-more-data-centers/4107459/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://media.nbcdfw.com/2026/11/red-oak-data-center.png",
+      "domain": "nbcdfw.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.57,
+        "recommended": false,
+        "relevance_confidence": 0.48,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.46,
+          "2": 0.43,
+          "3": 0.08,
+          "4": 0.0
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.8,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.84,
+          "policy_business": 0.15,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.fool.com/investing/2026/11/17/ai-agents-vs-banks-who-will-win-i-m-betting-on-banks/",
+      "source": "gdelt",
+      "source_id": "https://www.fool.com/investing/2026/11/17/ai-agents-vs-banks-who-will-win-i-m-betting-on-banks/",
+      "title": "AI Agents vs . Banks : Who Will Win ? Im Betting on Banks .",
+      "url": "https://www.fool.com/investing/2026/11/17/ai-agents-vs-banks-who-will-win-i-m-betting-on-banks/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://cdn.content.foolcdn.com/images/1umn9qeh/production/4b00f135f5a31f87bc8ebcc25a56d0800f36e938-1280x720.png",
+      "domain": "fool.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.52,
+        "recommended": false,
+        "relevance_confidence": 0.53,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.55,
+          "2": 0.32,
+          "3": 0.11,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.89,
+        "topic_probabilities": {
+          "ai_models_research": 0.08,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.91,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.yasstribune.com.au/story/9393547/nvidia-chair-shuts-down-bring-back-huang-campaign/",
+      "source": "gdelt",
+      "source_id": "https://www.yasstribune.com.au/story/9393547/nvidia-chair-shuts-down-bring-back-huang-campaign/",
+      "title": "Nvidia chair shuts down bring back Huang campaign",
+      "url": "https://www.yasstribune.com.au/story/9393547/nvidia-chair-shuts-down-bring-back-huang-campaign/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.yasstribune.com.au/images/transform/v1/crop/frm/silverstone-feed-data/12d49218-8b5f-4891-a2ab-0429bc1738ff.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "domain": "yasstribune.com.au",
+      "language": "English",
+      "country": "Australia",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.52,
+        "recommended": false,
+        "relevance_confidence": 0.47,
+        "relevance_probabilities": {
+          "0": 0.06,
+          "1": 0.57,
+          "2": 0.18,
+          "3": 0.17,
+          "4": 0.02
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.4,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.28,
+          "policy_business": 0.52,
+          "other_technology": 0.19
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://nypost.com/2026/11/17/tech/experts-warn-gta-vi-scramble-could-cause-more-cyber-chaos-and-open-door-for-scams/",
+      "source": "gdelt",
+      "source_id": "https://nypost.com/2026/11/17/tech/experts-warn-gta-vi-scramble-could-cause-more-cyber-chaos-and-open-door-for-scams/",
+      "title": "Experts warn GTA VI scramble could cause more cyber chaos",
+      "url": "https://nypost.com/2026/11/17/tech/experts-warn-gta-vi-scramble-could-cause-more-cyber-chaos-and-open-door-for-scams/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://nypost.com/wp-content/uploads/sites/2/2026/11/Comp-GTA.jpg?quality=75&strip=all",
+      "domain": "nypost.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.47,
+        "recommended": false,
+        "relevance_confidence": 0.55,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.57,
+          "2": 0.28,
+          "3": 0.11,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.01,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.98
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.tonyskansascity.com/2026/11/kansas-city-data-center-ban-coming-soon.html",
+      "source": "gdelt",
+      "source_id": "https://www.tonyskansascity.com/2026/11/kansas-city-data-center-ban-coming-soon.html",
+      "title": "Kansas City Data Center Ban Coming Soon ???",
+      "url": "https://www.tonyskansascity.com/2026/11/kansas-city-data-center-ban-coming-soon.html",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "",
+      "domain": "tonyskansascity.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.47,
+        "recommended": false,
+        "relevance_confidence": 0.52,
+        "relevance_probabilities": {
+          "0": 0.06,
+          "1": 0.54,
+          "2": 0.28,
+          "3": 0.12,
+          "4": 0.0
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.57,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.66,
+          "policy_business": 0.34,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.kazu.org/npr-news/2026-11-17/air-travel-microsoft-banking-why-are-our-it-systems-failing",
+      "source": "gdelt",
+      "source_id": "https://www.kazu.org/npr-news/2026-11-17/air-travel-microsoft-banking-why-are-our-it-systems-failing",
+      "title": "Air travel , Microsoft , banking : Why are our IT systems failing ?",
+      "url": "https://www.kazu.org/npr-news/2026-11-17/air-travel-microsoft-banking-why-are-our-it-systems-failing",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "",
+      "domain": "kazu.org",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.45,
+        "recommended": false,
+        "relevance_confidence": 0.53,
+        "relevance_probabilities": {
+          "0": 0.06,
+          "1": 0.57,
+          "2": 0.24,
+          "3": 0.13,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.89,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.02,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.07,
+          "other_technology": 0.91
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://wjla.com/news/nation-world/americans-on-edge-after-string-of-outages-lawmakers-demand-answers-nsa",
+      "source": "gdelt",
+      "source_id": "https://wjla.com/news/nation-world/americans-on-edge-after-string-of-outages-lawmakers-demand-answers-nsa",
+      "title": "Americans on edge after string of outages , lawmakers demand answers",
+      "url": "https://wjla.com/news/nation-world/americans-on-edge-after-string-of-outages-lawmakers-demand-answers-nsa",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://wjla.com/resources/media2/16x9/3000/1320/0x155/90/f95de64a-fab1-461e-8883-861f4d6111df-GettyImages2304840726.jpg",
+      "domain": "wjla.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.42,
+        "recommended": false,
+        "relevance_confidence": 0.52,
+        "relevance_probabilities": {
+          "0": 0.09,
+          "1": 0.52,
+          "2": 0.29,
+          "3": 0.1,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.74,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.14,
+          "policy_business": 0.07,
+          "other_technology": 0.79
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.wral.com/news/ap/29695-cambridge-dictionary-chooses-human-as-word-of-the-year-in-response-to-ai-fears/",
+      "source": "gdelt",
+      "source_id": "https://www.wral.com/news/ap/29695-cambridge-dictionary-chooses-human-as-word-of-the-year-in-response-to-ai-fears/",
+      "title": "Cambridge Dictionary chooses human as word of the year in response to AI fears",
+      "url": "https://www.wral.com/news/ap/29695-cambridge-dictionary-chooses-human-as-word-of-the-year-in-response-to-ai-fears/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://images.wral.com/765aaf8a-b688-5170-81ce-b0d65f95f9a2",
+      "domain": "wral.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.42,
+        "recommended": false,
+        "relevance_confidence": 0.64,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.59,
+          "2": 0.38,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.86,
+        "topic_probabilities": {
+          "ai_models_research": 0.08,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.03,
+          "other_technology": 0.89
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.ksat.com/news/world/2026/11/18/cambridge-dictionary-chooses-human-as-word-of-the-year-in-response-to-ai-fears/",
+      "source": "gdelt",
+      "source_id": "https://www.ksat.com/news/world/2026/11/18/cambridge-dictionary-chooses-human-as-word-of-the-year-in-response-to-ai-fears/",
+      "title": "Cambridge Dictionary chooses human as word of the year in response to AI fears",
+      "url": "https://www.ksat.com/news/world/2026/11/18/cambridge-dictionary-chooses-human-as-word-of-the-year-in-response-to-ai-fears/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/LTWOK4YX6JDVZJL7WYJZR4UIMM.jpg?api_key=ksat_9a37fc89631abedf",
+      "domain": "ksat.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.39,
+        "recommended": false,
+        "relevance_confidence": 0.67,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.62,
+          "2": 0.36,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.84,
+        "topic_probabilities": {
+          "ai_models_research": 0.1,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.03,
+          "other_technology": 0.87
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.aol.co.uk/articles/cambridge-dictionary-announces-word-ai-000129000.html",
+      "source": "gdelt",
+      "source_id": "https://www.aol.co.uk/articles/cambridge-dictionary-announces-word-ai-000129000.html",
+      "title": "Cambridge Dictionary announces Word of the Year - and it link to AI",
+      "url": "https://www.aol.co.uk/articles/cambridge-dictionary-announces-word-ai-000129000.html",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://hermes.media.static.aol.com/media/2026/11/18/ba3547ab-c2e2-3c29-9fe9-733a7383bb2c/ba7bfead-aae4-4886-b0c2-17b3b9148376.webp",
+      "domain": "aol.co.uk",
+      "language": "English",
+      "country": "United Kingdom",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.39,
+        "recommended": false,
+        "relevance_confidence": 0.66,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.62,
+          "2": 0.34,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.79,
+        "topic_probabilities": {
+          "ai_models_research": 0.16,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.83
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.parkrecord.com/2026/11/17/heber-city-re-signs-it-contract-investigation-ongoing/",
+      "source": "gdelt",
+      "source_id": "https://www.parkrecord.com/2026/11/17/heber-city-re-signs-it-contract-investigation-ongoing/",
+      "title": "Heber City re - signs IT contract as cybersecurity investigation is ongoing",
+      "url": "https://www.parkrecord.com/2026/11/17/heber-city-re-signs-it-contract-investigation-ongoing/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://i0.wp.com/www.parkrecord.com/wp-content/uploads/2025/05/DSC_3320-scaled.jpg?fit=2560%2C1707&ssl=1",
+      "domain": "parkrecord.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.39,
+        "recommended": false,
+        "relevance_confidence": 0.6,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.59,
+          "2": 0.3,
+          "3": 0.07,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.59,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.33,
+          "other_technology": 0.67
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://whdh.com/news/apple-joins-a-parade-of-technology-hiccups-in-recent-days/",
+      "source": "gdelt",
+      "source_id": "https://whdh.com/news/apple-joins-a-parade-of-technology-hiccups-in-recent-days/",
+      "title": "Apple joins a parade of technology hiccups in recent days - Boston News , Weather , Sports",
+      "url": "https://whdh.com/news/apple-joins-a-parade-of-technology-hiccups-in-recent-days/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "",
+      "domain": "whdh.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.38,
+        "recommended": false,
+        "relevance_confidence": 0.65,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.63,
+          "2": 0.3,
+          "3": 0.05,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.01,
+          "other_technology": 0.98
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://abcnews.com/Technology/wireStory/cambridge-dictionary-chooses-human-word-year-response-ai-138231540",
+      "source": "gdelt",
+      "source_id": "https://abcnews.com/Technology/wireStory/cambridge-dictionary-chooses-human-word-year-response-ai-138231540",
+      "title": "Cambridge Dictionary chooses human as word of the year in response to AI fears",
+      "url": "https://abcnews.com/Technology/wireStory/cambridge-dictionary-chooses-human-word-year-response-ai-138231540",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://i.abcnewsfe.com/a/a6a07577-c095-4752-9e71-9af4e066d2df/wirestory_2969577a1e4a5e7afad81349dfecc992_16x9.jpg",
+      "domain": "abcnews.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.37,
+        "recommended": false,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.63,
+          "2": 0.34,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.86,
+        "topic_probabilities": {
+          "ai_models_research": 0.08,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.03,
+          "other_technology": 0.89
         }
       }
     },
@@ -1637,6 +3154,176 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.01,
           "other_technology": 0.99
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.foreignpolicyjournal.com/2026/11/17/michael-burry-dumps-alphabet-stake-and-pivots-put-strategy-while-doubling-down-on-adobe-nasdaq-adbe-and-mercadolibre-nasdaq-meli/",
+      "source": "gdelt",
+      "source_id": "https://www.foreignpolicyjournal.com/2026/11/17/michael-burry-dumps-alphabet-stake-and-pivots-put-strategy-while-doubling-down-on-adobe-nasdaq-adbe-and-mercadolibre-nasdaq-meli/",
+      "title": "Michael Burry Dumps Alphabet Stake And Pivots Put Strategy While Doubling Down On Adobe ( NASDAQ : ADBE ) And MercadoLibre ( NASDAQ : MELI )",
+      "url": "https://www.foreignpolicyjournal.com/2026/11/17/michael-burry-dumps-alphabet-stake-and-pivots-put-strategy-while-doubling-down-on-adobe-nasdaq-adbe-and-mercadolibre-nasdaq-meli/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.foreignpolicyjournal.com/wp-content/uploads/2026/04/Michael-Burry.jpg",
+      "domain": "foreignpolicyjournal.com",
+      "language": "English",
+      "country": "Israel",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.36,
+        "recommended": false,
+        "relevance_confidence": 0.61,
+        "relevance_probabilities": {
+          "0": 0.06,
+          "1": 0.6,
+          "2": 0.27,
+          "3": 0.07,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.84,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.87,
+          "other_technology": 0.13
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.mcall.com/2026/11/17/trump-service-disruptions-backlash/",
+      "source": "gdelt",
+      "source_id": "https://www.mcall.com/2026/11/17/trump-service-disruptions-backlash/",
+      "title": "Trump faces criticism as allies press the White House for answers on tech problems",
+      "url": "https://www.mcall.com/2026/11/17/trump-service-disruptions-backlash/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.mcall.com/wp-content/uploads/2026/11/Nationwide_Ground_Stop_4453__8a4d6c.jpg",
+      "domain": "mcall.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.34,
+        "recommended": false,
+        "relevance_confidence": 0.48,
+        "relevance_probabilities": {
+          "0": 0.13,
+          "1": 0.54,
+          "2": 0.18,
+          "3": 0.14,
+          "4": 0.01
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.59,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.32,
+          "other_technology": 0.67
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.lebanondemocrat.com/maconcounty/news/national/jensen-huang-scandal-illustrates-why-human-nature-is-cybersecurity-s-weakest-link/article_9ebfe951-d807-5261-ab6a-3a9041fe6799.html",
+      "source": "gdelt",
+      "source_id": "https://www.lebanondemocrat.com/maconcounty/news/national/jensen-huang-scandal-illustrates-why-human-nature-is-cybersecurity-s-weakest-link/article_9ebfe951-d807-5261-ab6a-3a9041fe6799.html",
+      "title": "Jensen Huang scandal illustrates why human nature is cybersecurity weakest link | National",
+      "url": "https://www.lebanondemocrat.com/maconcounty/news/national/jensen-huang-scandal-illustrates-why-human-nature-is-cybersecurity-s-weakest-link/article_9ebfe951-d807-5261-ab6a-3a9041fe6799.html",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://bloximages.chicago2.vip.townnews.com/lebanondemocrat.com/content/tncms/assets/v3/editorial/a/66/a6635ae0-fc09-5599-90ba-0464a2fd7934/6afcc07308882.image.jpg?crop=1763%2C926%2C0%2C124",
+      "domain": "lebanondemocrat.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.33,
+        "recommended": false,
+        "relevance_confidence": 0.66,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.66,
+          "2": 0.23,
+          "3": 0.07,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.86,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.05,
+          "policy_business": 0.05,
+          "other_technology": 0.89
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://wtov9.com/news/nation-world/americans-on-edge-after-string-of-outages-lawmakers-demand-answers-nsa",
+      "source": "gdelt",
+      "source_id": "https://wtov9.com/news/nation-world/americans-on-edge-after-string-of-outages-lawmakers-demand-answers-nsa",
+      "title": "Americans on edge after string of outages , lawmakers demand answers",
+      "url": "https://wtov9.com/news/nation-world/americans-on-edge-after-string-of-outages-lawmakers-demand-answers-nsa",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://wtov9.com/resources/media2/16x9/3000/1320/0x155/90/f95de64a-fab1-461e-8883-861f4d6111df-GettyImages2304840726.jpg",
+      "domain": "wtov9.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.32,
+        "recommended": false,
+        "relevance_confidence": 0.54,
+        "relevance_probabilities": {
+          "0": 0.12,
+          "1": 0.53,
+          "2": 0.27,
+          "3": 0.08,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.7,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.17,
+          "policy_business": 0.07,
+          "other_technology": 0.76
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://midmichigannow.com/news/nation-world/americans-on-edge-after-string-of-outages-lawmakers-demand-answers-nsa",
+      "source": "gdelt",
+      "source_id": "https://midmichigannow.com/news/nation-world/americans-on-edge-after-string-of-outages-lawmakers-demand-answers-nsa",
+      "title": "Americans on edge after string of outages , lawmakers demand answers",
+      "url": "https://midmichigannow.com/news/nation-world/americans-on-edge-after-string-of-outages-lawmakers-demand-answers-nsa",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://midmichigannow.com/resources/media2/16x9/3000/1320/0x155/90/f95de64a-fab1-461e-8883-861f4d6111df-GettyImages2304840726.jpg",
+      "domain": "midmichigannow.com",
+      "language": "English",
+      "country": "",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.26,
+        "recommended": false,
+        "relevance_confidence": 0.6,
+        "relevance_probabilities": {
+          "0": 0.11,
+          "1": 0.59,
+          "2": 0.23,
+          "3": 0.07,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.66,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.18,
+          "policy_business": 0.09,
+          "other_technology": 0.73
         }
       }
     },
@@ -1705,37 +3392,36 @@
       }
     },
     {
-      "id": "hackernews:50533723",
-      "source": "hackernews",
-      "source_id": "50533723",
-      "title": "Jensen Huang Posts on X",
-      "url": "https://twitter.com/JensenHuang/status/2122726005219737649",
-      "published_at": "2026-11-17T16:23:55+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50533723",
-      "points": 86,
-      "comments": 78,
-      "matched_term": "Jensen Huang",
+      "id": "gdelt:https://www.klcc.org/environment/2026-11-17/google-quaise-energy-newberry-volcano-superhot-rock-geothermal-deal",
+      "source": "gdelt",
+      "source_id": "https://www.klcc.org/environment/2026-11-17/google-quaise-energy-newberry-volcano-superhot-rock-geothermal-deal",
+      "title": "Google signs world first commercial superhot rock geothermal deal at Oregon Newberry Volcano",
+      "url": "https://www.klcc.org/environment/2026-11-17/google-quaise-energy-newberry-volcano-superhot-rock-geothermal-deal",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/da/d6/b65097ca48e0830e8d9a14ac8a56/quaise-energy.jpg",
+      "domain": "klcc.org",
+      "language": "English",
+      "country": "United States",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.15,
+        "relevance_score": 1.19,
         "recommended": false,
-        "relevance_confidence": 0.66,
+        "relevance_confidence": 0.51,
         "relevance_probabilities": {
-          "0": 0.13,
-          "1": 0.65,
-          "2": 0.16,
-          "3": 0.06,
-          "4": 0.0
+          "0": 0.19,
+          "1": 0.54,
+          "2": 0.15,
+          "3": 0.11,
+          "4": 0.01
         },
         "topic": "other_technology",
-        "topic_confidence": 0.4,
+        "topic_confidence": 0.52,
         "topic_probabilities": {
-          "ai_models_research": 0.11,
+          "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.17,
-          "policy_business": 0.2,
-          "other_technology": 0.52
+          "hardware_datacenters": 0.2,
+          "policy_business": 0.18,
+          "other_technology": 0.62
         }
       }
     },
@@ -1745,7 +3431,7 @@
       "source_id": "sponsors/sveltejs",
       "title": "sponsors/sveltejs",
       "url": "https://github.com/sponsors/sveltejs",
-      "published_at": "2026-11-17T23:32:58.579236+00:00",
+      "published_at": "2026-11-18T07:37:20.675872+00:00",
       "summary": "web development for the rest of us",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1769,6 +3455,108 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.wral.com/news/ap/ec4d8-trump-faces-criticism-as-allies-press-the-white-house-for-answers-on-tech-problems/",
+      "source": "gdelt",
+      "source_id": "https://www.wral.com/news/ap/ec4d8-trump-faces-criticism-as-allies-press-the-white-house-for-answers-on-tech-problems/",
+      "title": "Trump faces criticism as allies press the White House for answers on tech problems",
+      "url": "https://www.wral.com/news/ap/ec4d8-trump-faces-criticism-as-allies-press-the-white-house-for-answers-on-tech-problems/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://images.wral.com/47cca175-eddd-5cb3-8976-559b92bf8bbc",
+      "domain": "wral.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.1,
+        "recommended": false,
+        "relevance_confidence": 0.72,
+        "relevance_probabilities": {
+          "0": 0.12,
+          "1": 0.7,
+          "2": 0.14,
+          "3": 0.04,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.39,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.49,
+          "other_technology": 0.51
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.pr-inside.com/securities-lawsuit-alert-intel-corporation-intc-investors-may-contact-r5244910.htm",
+      "source": "gdelt",
+      "source_id": "https://www.pr-inside.com/securities-lawsuit-alert-intel-corporation-intc-investors-may-contact-r5244910.htm",
+      "title": "Securities Lawsuit Alert : Intel Corporation ( INTC ) Investors May Contact ...",
+      "url": "https://www.pr-inside.com/securities-lawsuit-alert-intel-corporation-intc-investors-may-contact-r5244910.htm",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "",
+      "domain": "pr-inside.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.89,
+        "recommended": false,
+        "relevance_confidence": 0.77,
+        "relevance_probabilities": {
+          "0": 0.2,
+          "1": 0.73,
+          "2": 0.06,
+          "3": 0.01,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.77,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.1,
+          "policy_business": 0.82,
+          "other_technology": 0.08
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.nbclosangeles.com/news/national-international/trump-faces-criticism-allies-press-white-house-for-answers-tech-problems/3972059/",
+      "source": "gdelt",
+      "source_id": "https://www.nbclosangeles.com/news/national-international/trump-faces-criticism-allies-press-white-house-for-answers-tech-problems/3972059/",
+      "title": "Trump faces criticism , allies press for answers on tech problems – NBC Los Angeles",
+      "url": "https://www.nbclosangeles.com/news/national-international/trump-faces-criticism-allies-press-white-house-for-answers-tech-problems/3972059/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://media.nbclosangeles.com/2026/11/split-2-diagonal-1200x675-10-4.jpg?quality=85&strip=all",
+      "domain": "nbclosangeles.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.88,
+        "recommended": false,
+        "relevance_confidence": 0.69,
+        "relevance_probabilities": {
+          "0": 0.25,
+          "1": 0.65,
+          "2": 0.08,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.4,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.52,
+          "other_technology": 0.47
         }
       }
     },
@@ -1805,110 +3593,245 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/policy/1035869/whats-next-majority-democrats-conference-denver-jeffries",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/policy/1035869/whats-next-majority-democrats-conference-denver-jeffries",
-      "title": "Democrats try to figure out how not to get swept away by the blue wave",
-      "url": "https://www.theverge.com/policy/1035869/whats-next-majority-democrats-conference-denver-jeffries",
-      "published_at": "2026-11-17T20:30:00+00:00",
-      "summary": "On a harried Saturday afternoon at Denver International Airport, I had the good fortune of sitting just a few feet from Minneapolis Mayor Jacob Frey. It shouldn't have come as a surprise. He, I, and 3,500 or so others had just left \"What's Next,\" a conference organized by Majority Democrats, a group dedicated to charting […]",
-      "name": "The Verge",
+      "id": "gdelt:https://www.fool.com/investing/2026/11/17/billionaire-stanley-druckenmiller-says-he-s-staying-away-from-stocks-here-s-what-he-bought-and-sold-last-quarter/",
+      "source": "gdelt",
+      "source_id": "https://www.fool.com/investing/2026/11/17/billionaire-stanley-druckenmiller-says-he-s-staying-away-from-stocks-here-s-what-he-bought-and-sold-last-quarter/",
+      "title": "Billionaire Stanley Druckenmiller Says He Staying Away From Stocks . Here What He Bought and Sold Last Quarter",
+      "url": "https://www.fool.com/investing/2026/11/17/billionaire-stanley-druckenmiller-says-he-s-staying-away-from-stocks-here-s-what-he-bought-and-sold-last-quarter/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://cdn.content.foolcdn.com/images/1umn9qeh/production/915c589a25edd71e373914033cad5320c095c41f-1280x853.jpg",
+      "domain": "fool.com",
+      "language": "English",
+      "country": "United States",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.09,
+        "relevance_score": 0.28,
+        "recommended": false,
+        "relevance_confidence": 0.76,
+        "relevance_probabilities": {
+          "0": 0.72,
+          "1": 0.27,
+          "2": 0.01,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.45,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.56,
+          "other_technology": 0.44
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.fool.com/investing/2026/11/17/only-11-of-the-power-plants-vistra-just-bought-are/",
+      "source": "gdelt",
+      "source_id": "https://www.fool.com/investing/2026/11/17/only-11-of-the-power-plants-vistra-just-bought-are/",
+      "title": "Only 11 % of the Power Plants Vistra Just Bought Are in Texas . Here Why That Matters After the Election .",
+      "url": "https://www.fool.com/investing/2026/11/17/only-11-of-the-power-plants-vistra-just-bought-are/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://g.foolcdn.com/editorial/images/893773/glowing-high-voltage-power-lines-source-getty.jpg",
+      "domain": "fool.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.28,
+        "recommended": false,
+        "relevance_confidence": 0.77,
+        "relevance_probabilities": {
+          "0": 0.75,
+          "1": 0.23,
+          "2": 0.02,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.66,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.22,
+          "policy_business": 0.73,
+          "other_technology": 0.05
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.dailyliberal.com.au/story/9393804/trump-to-meet-marcos-in-manila-before-china-talks/",
+      "source": "gdelt",
+      "source_id": "https://www.dailyliberal.com.au/story/9393804/trump-to-meet-marcos-in-manila-before-china-talks/",
+      "title": "Trump to meet Marcos in Manila before China talks",
+      "url": "https://www.dailyliberal.com.au/story/9393804/trump-to-meet-marcos-in-manila-before-china-talks/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.dailyliberal.com.au/images/transform/v1/crop/frm/silverstone-feed-data/9ea764df-3fcb-4380-ac71-41875c49c341.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "domain": "dailyliberal.com.au",
+      "language": "English",
+      "country": "Australia",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.1,
         "recommended": false,
         "relevance_confidence": 0.92,
         "relevance_probabilities": {
           "0": 0.91,
-          "1": 0.09,
+          "1": 0.08,
+          "2": 0.01,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.65,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.28,
+          "other_technology": 0.72
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.chillifm.com.au/trending/stories/bunnings-axes-350-jobs-retail-giant-shifts-major-operations-overseas/",
+      "source": "gdelt",
+      "source_id": "https://www.chillifm.com.au/trending/stories/bunnings-axes-350-jobs-retail-giant-shifts-major-operations-overseas/",
+      "title": "BUNNINGS AXES 350 JOBS ! Retail Giant Shifts Major Operations Overseas",
+      "url": "https://www.chillifm.com.au/trending/stories/bunnings-axes-350-jobs-retail-giant-shifts-major-operations-overseas/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.chillifm.com.au/wp-content/uploads/sites/43/2026/11/20261118-Bunnings-feature.jpg",
+      "domain": "chillifm.com.au",
+      "language": "English",
+      "country": "Australia",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.08,
+        "recommended": false,
+        "relevance_confidence": 0.93,
+        "relevance_probabilities": {
+          "0": 0.92,
+          "1": 0.08,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.9,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.92,
+          "other_technology": 0.08
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.yasstribune.com.au/story/9393804/trump-to-meet-marcos-in-manila-before-china-talks/",
+      "source": "gdelt",
+      "source_id": "https://www.yasstribune.com.au/story/9393804/trump-to-meet-marcos-in-manila-before-china-talks/",
+      "title": "Trump to meet Marcos in Manila before China talks",
+      "url": "https://www.yasstribune.com.au/story/9393804/trump-to-meet-marcos-in-manila-before-china-talks/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://www.yasstribune.com.au/images/transform/v1/crop/frm/silverstone-feed-data/9ea764df-3fcb-4380-ac71-41875c49c341.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "domain": "yasstribune.com.au",
+      "language": "English",
+      "country": "Australia",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.08,
+        "recommended": false,
+        "relevance_confidence": 0.94,
+        "relevance_probabilities": {
+          "0": 0.93,
+          "1": 0.07,
           "2": 0.0,
           "3": 0.0,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.84,
+        "topic_confidence": 0.66,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.13,
-          "other_technology": 0.87
+          "policy_business": 0.27,
+          "other_technology": 0.73
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://wjla.com/news/local/fairfax-county-executive-bryan-hill-retirement-board-supervisors-jeffrey-mckay-virginia-government-leadership-transition-strategic-plan-kevin-davis-nick-minock",
+      "source": "gdelt",
+      "source_id": "https://wjla.com/news/local/fairfax-county-executive-bryan-hill-retirement-board-supervisors-jeffrey-mckay-virginia-government-leadership-transition-strategic-plan-kevin-davis-nick-minock",
+      "title": "Fairfax County Executive Bryan Hill to step down in February",
+      "url": "https://wjla.com/news/local/fairfax-county-executive-bryan-hill-retirement-board-supervisors-jeffrey-mckay-virginia-government-leadership-transition-strategic-plan-kevin-davis-nick-minock",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "",
+      "domain": "wjla.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.06,
+        "recommended": false,
+        "relevance_confidence": 0.96,
+        "relevance_probabilities": {
+          "0": 0.95,
+          "1": 0.05,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.61,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.31,
+          "other_technology": 0.69
+        }
+      }
+    },
+    {
+      "id": "gdelt:https://www.nbcdfw.com/entertainment/the-scene/willie-nelson-on-a-near-death-experience-dolly-parton-james-talarico-and-his-book-the-last-leaf/4107396/",
+      "source": "gdelt",
+      "source_id": "https://www.nbcdfw.com/entertainment/the-scene/willie-nelson-on-a-near-death-experience-dolly-parton-james-talarico-and-his-book-the-last-leaf/4107396/",
+      "title": "Willie Nelson on a near - death experience and his book The Last Leaf – NBC 5 Dallas - Fort Worth",
+      "url": "https://www.nbcdfw.com/entertainment/the-scene/willie-nelson-on-a-near-death-experience-dolly-parton-james-talarico-and-his-book-the-last-leaf/4107396/",
+      "published_at": "2026-11-18T01:15:00+00:00",
+      "summary": "https://media.nbcdfw.com/2026/11/GettyImages-2267583871.jpg?quality=85&strip=all",
+      "domain": "nbcdfw.com",
+      "language": "English",
+      "country": "United States",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.01,
+        "recommended": false,
+        "relevance_confidence": 0.99,
+        "relevance_probabilities": {
+          "0": 0.99,
+          "1": 0.01,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     }
   ],
   "reddit": [],
-  "hn": [
-    {
-      "id": "hackernews:50534044",
-      "source": "hackernews",
-      "source_id": "50534044",
-      "title": "Jensen Huang says he’s open to returning in first statement since resignation",
-      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
-      "published_at": "2026-11-17T16:40:38+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50534044",
-      "points": 95,
-      "comments": 171,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.22,
-        "recommended": true,
-        "relevance_confidence": 0.0,
-        "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.32,
-          "2": 0.22,
-          "3": 0.27,
-          "4": 0.16
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.54,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.12,
-          "policy_business": 0.63,
-          "other_technology": 0.24
-        }
-      }
-    },
-    {
-      "id": "hackernews:50533723",
-      "source": "hackernews",
-      "source_id": "50533723",
-      "title": "Jensen Huang Posts on X",
-      "url": "https://twitter.com/JensenHuang/status/2122726005219737649",
-      "published_at": "2026-11-17T16:23:55+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50533723",
-      "points": 86,
-      "comments": 78,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.15,
-        "recommended": false,
-        "relevance_confidence": 0.66,
-        "relevance_probabilities": {
-          "0": 0.13,
-          "1": 0.65,
-          "2": 0.16,
-          "3": 0.06,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.4,
-        "topic_probabilities": {
-          "ai_models_research": 0.11,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.17,
-          "policy_business": 0.2,
-          "other_technology": 0.52
-        }
-      }
-    }
-  ],
+  "hn": [],
   "polymarket": []
 }
