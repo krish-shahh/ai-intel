@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-11-19** Snapchat opened AR Lens building to outside coding agents like [[claude-code]] and Cursor. On GitHub daily trending: `NVIDIA/SkillEvaluator` (quality gates, overlap detection, and live evals for agent skills and plugins) and `cursor/plugins` (Cursor's plugin spec and official plugins). [TechCrunch](https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/) (independent) · [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) · [cursor/plugins](https://github.com/cursor/plugins)
+
 - **2026-11-18** On GitHub daily trending: `openvinotoolkit/openvino` (Intel's open-source toolkit for optimizing and deploying AI inference) and `HKUDS/CLI-Anything` (wrapping existing software in agent-drivable CLIs). [OpenVINO](https://github.com/openvinotoolkit/openvino) · [CLI-Anything](https://github.com/HKUDS/CLI-Anything)
 
 - **2026-11-18** On GitHub daily trending: `backnotprop/plannotator` (a workspace for planning, annotating, and reviewing agent work and sending feedback to agents in one click) and `dream-num/univer` (an office SDK for document editing, calculation, and collaboration for people and AI agents, on an open-source core). [plannotator](https://github.com/backnotprop/plannotator) · [univer](https://github.com/dream-num/univer)

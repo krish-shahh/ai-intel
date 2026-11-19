@@ -10,6 +10,8 @@ Elon Musk is the founder and CEO of xAI, the AI company he started in 2023 that 
 
 ## Recent
 
+- **2026-11-19** Said ousting [[jensenhuang]] from [[nvidia]] is like "kicking Michael Jordan off your team" and that he doesn't think Huang is disloyal to the US. At the NYT DealBook Summit he also said Zelenskyy is lying about Starshield disruptions in Ukraine and trying to misuse consumer Starlink for military purposes. [TechCrunch](https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/) (independent) · [The Verge](https://www.theverge.com/tech/1037448/elon-musk-ukraine-starlink-starshield-nyt-dealbook) (independent)
+
 - **2026-11-16** Listed among signatories of a petition to reinstate [[jensenhuang]] as [[nvidia]] CEO, per MIT Technology Review. [MIT Technology Review](https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/) (independent)
 
 - **2026-10-16** SpaceXAI finally gave its subpoenaed testimony to the NYC Council's Committee on Technology, represented by a government-affairs manager rather than a technical lead. Per MLex, questions about the size of its dedicated safety staff and the resignation of whistleblower engineer Devin Kim went unanswered. [MLex](https://www.mlex.com/mlex/articles/2539163/spacexai-s-belated-testimony-to-nyc-council-light-on-safety-specifics) (independent)
