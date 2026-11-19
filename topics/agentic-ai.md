@@ -7,6 +7,8 @@ Agentic AI covers systems where LLMs plan and act over multiple steps with tools
 
 ## Notes
 
+- **2026-11-19** Citi is the latest major bank to put the brakes on personal-finance AI agents; TechCrunch says more banks are telling customers who use agents they're on their own, even if hacked. Microsoft CEO Satya Nadella said agents could disrupt ad-driven business models and force companies like Amazon to rethink how they compete for customers. Google Research's `paper-orchestra`, a multi-agent framework for automated paper writing, is on GitHub daily trending. [TechCrunch: banks](https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/) (independent) · [TechCrunch: Nadella](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/) (independent) · [paper-orchestra](https://github.com/google-research/paper-orchestra)
+
 - **2026-11-17** Google expanded access to Gemini Tasks, which can coordinate calls, log into websites, and make purchases for the user. [TechCrunch](https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/)
 
 - **2026-11-17** Agent-orchestration repos on GitHub daily trending: `Tencent/LoopForge` runs several coding agents behind human approval gates, and `ag-ui-protocol/ag-ui` defines a protocol for agents in frontend apps. [LoopForge](https://github.com/Tencent/LoopForge) · [ag-ui](https://github.com/ag-ui-protocol/ag-ui)
