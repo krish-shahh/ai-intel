@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-11-19** On GitHub daily trending: `jingyaogong/minimind` (train a 64M-parameter LLM from scratch in about two hours), `firecrawl/firecrawl` (search, scraping, and 550+ data providers through one API for agents), `Tracer-Cloud/opensre` (an open-source agent for CI/CD reliability), and `mvanhorn/last30days-skill` (an agent skill that researches a topic across Reddit, X, YouTube, HN, Polymarket, and the web). [minimind](https://github.com/jingyaogong/minimind) · [firecrawl](https://github.com/firecrawl/firecrawl) · [opensre](https://github.com/Tracer-Cloud/opensre) · [last30days-skill](https://github.com/mvanhorn/last30days-skill)
+
 - **2026-11-19** Snapchat opened AR Lens building to outside coding agents like [[claude-code]] and Cursor. On GitHub daily trending: `NVIDIA/SkillEvaluator` (quality gates, overlap detection, and live evals for agent skills and plugins) and `cursor/plugins` (Cursor's plugin spec and official plugins). [TechCrunch](https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/) (independent) · [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) · [cursor/plugins](https://github.com/cursor/plugins)
 
 - **2026-11-18** On GitHub daily trending: `openvinotoolkit/openvino` (Intel's open-source toolkit for optimizing and deploying AI inference) and `HKUDS/CLI-Anything` (wrapping existing software in agent-drivable CLIs). [OpenVINO](https://github.com/openvinotoolkit/openvino) · [CLI-Anything](https://github.com/HKUDS/CLI-Anything)
