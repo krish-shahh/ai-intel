@@ -1,120 +1,24 @@
 {
-  "generated_at": "2026-11-19T01:53:13.823022+00:00",
+  "generated_at": "2026-11-19T13:17:49.530589+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-18T17:17:30.358255+00:00"
+    "newsapi": "2026-11-19T13:17:49.530589+00:00"
   },
   "counts": {
     "reddit": 0,
     "hackernews": 0,
     "polymarket": 0,
-    "rss": 34,
+    "rss": 12,
     "arxiv": 0,
-    "sec_edgar": 0,
+    "sec_edgar": 1,
     "github": 0,
-    "github_trending": 19,
+    "github_trending": 16,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 98,
     "mediastack": 0
   },
   "items": [
-    {
-      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/epic-games-unreal-engine-ai",
-      "source": "ieee-spectrum-ai",
-      "source_id": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
-      "title": "Will AI Coding Eat Video Game Engines?",
-      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
-      "published_at": "2026-11-18T12:00:03+00:00",
-      "summary": "When Travis McGeathy’s studio, Seeker Entertainment, ran out of funding in September, its game KinForge went down with it. KinForge was an online game built in Unreal Engine 5.7 and designed to run on servers hosted by Amazon Web Services (AWS). With no one left to pay the server bill, the game became unplayable even for those few developers, including studio co-founder McGeathy, who had the code. Then, on a whim, McGeathy pointed Anthropic’s Claude Code at the project and asked it to make KinForge playable without AWS. After four hours of mostly hands-off work he had a build that let players host their own games. Claude added support for peer-to-peer play over both the Internet and a local area network. To McGeathy’s surprise, it also added persistent save states, a feature that lets players resume a game if they’re disconnected. Although KinForge is still built in Unreal Engine, developments like this could give companies that create game engines cause for concern. The conversion was accomplished with an agentic AI workflow that partially bypasses the elaborate, user-friendly game engine UI that many companies, including Unreal Engine creator Epic Games, have spent decades perfecting. Anthropic’s Fable 5.2, released November 9, further upped the ante. The model is capable of generating a 3D game with a custom game engine in the style of the hit Call of Duty series. This raises a question: can game engines evolve quickly enough to keep pace with model improvements? “We’re definitely in a world where I can just dream up software really fast. So, if Unreal Engine was static, what’s the value at the end of next year? This is why we are pivoting hard towards velocity,” says Daniel Vogel , chief operating officer at Epic Games. “I think with any fixed set of features or functionality, it can eventually be replicated. If we’re doing our job right, we’re pushing the engine and pushing the envelope forward.” From Code to Nodes, and Back Again Major game engines often offer developers new visual tools and workflows that help them build games while interacting with less code. Unreal Engine’s Blueprints, a graphically based system introduced in Unreal Engine 4 that lets designers script gameplay simply by wiring boxes together, is an example. Clair Obscur: Expedition 33 , an award-winning game from French studio Sandfall Interactive, leaned heavily on Blueprints for scripting gameplay encounters . That should have been proof of the feature’s success. Instead, Epic will remove Blueprints in Unreal Engine 6 (UE6). Why? Blame LLMs. “AI doesn’t handle Blueprints very well,” says McGeathy. “It would much rather work with the code.” Currently, LLMs interact with Unreal Engine primarily through a Model Context Protocol server . MCP is an open-source standard created by Anthropic that lets AI send commands to software. “It’s not actually moving the mouse,” says Ryan Barker , a gameplay and systems engineer who has worked on projects for Amazon Games and Sony Online Entertainment. “It’s sending signals to the editor that the editor understands.” UE6 will lean into that reality by moving all code to Verse, a text-based programming language that will replace both Blueprints and Unreal Engine 5’s C++ gameplay framework. UE6 will also replace Unreal’s actor framework, which is based on object-oriented programming , with Scene Graph, which resembles an entity component system . “Typically, an ECS is a lot harder to code around,” says Barker, but ECS can provide superior game performance and result in less duplicate code . An LLM can help manage the complexity. Verse debuted in Unreal Editor for Fortnite in 2023, while Scene Graph arrived in 2024. Verse was designed to let millions of creators run code side by side in Fortnite, so it’s strict. The compiler catches mistakes before code runs and limits what each function can do. And because Scene Graph is built on Verse, an AI can work with a game world through code. That’s different from Blueprints, which are stored as binary files that LLMs can’t read directly. In addition to these changes, UE6 will make the engine more modular and expose its systems through an application programming interface “so that AI tooling can get at them without needing to fall back to slow computer use,” says Marcus Wassmer , the executive vice president of development at Epic Games. An internal effort that Epic calls “Python All The Things” aims to make everything in the editor scriptable. UE6 will also store more game assets as text so an LLM can edit them directly. For binary assets (non-text files) that remain, Epic is building a command-line tool that allows agents to interact with the files without loading the full UE6 interface. The traditional Unreal Engine editor isn’t going away, but Vogel expects it will change as LLM use becomes more common. “You’re not going to move stuff visually in the editor. Those times are gone,” he says. Instead, he expects game developers will more frequently use the Unreal Engine editor to visualize “the context needed to make decisions, or make the tweaks.” Unreal Engine 5.9 offers a glimpse at what that transition will mean in practice. Released as a developer preview on 9 November , it includes a new feature called Unreal Canvas . Vogel says it’s a collaboration feature that takes inspiration from visual workspace software like Miro . “It’s a way to make sense of the project,” says Vogel. Why Buy an Engine When You Can Build One? Epic Games’ goal is to keep Unreal Engine relevant in a world where AI coding tools are becoming ever-more capable. The company has the benefit of approaching the problem from a position of strength : Unreal Engine is the second most commonly used engine, after Unity Technologies’ Unity engine, and ranks first if measured by the number of games sold. Will that be enough? McGeathy says there can be benefits to creating an engine from scratch. “If you own the engine, you’re not reliant on a third party who could yank it out from underneath you.” However, he remains skeptical that many developers will go that route, even if AI makes it less painful. “Your goal as a game developer is to make a game. It’s not to make a game engine.” What LLMs do change, he says, is to lower the cost of switching between game engines. McGeathy, an Unreal veteran, used Claude to start building in Godot , an open-source engine he had never touched himself. “AI made transitioning from using Unreal into Godot trivial,” he says. Barker agrees. He used an LLM to build physics test scenes in both Unreal and Godot, which let him evaluate which engine was better suited to handle a game concept. Wassmer recognizes that AI makes it “easier [for developers using Unreal Engine] to pick up a new standard, or to convert stuff,” and says that Epic won’t attempt to block this shift. On the contrary, UE6 will remove barriers where possible. “Our explicit goal is to be able to interoperate with other ecosystems and other games,” he says. He feels confident that, even with the aid of LLMs, building an engine from scratch carries a heavy price that most developers won’t want to pay. “You still have to burn a lot of tokens to get something of scale that is optimized and that runs across all platforms,” Wassmer says. “Would you rather spend that time and energy building something from scratch? Or would you rather use something modular, like UE6, and trim out the bits you don’t need?”",
-      "name": "IEEE Spectrum AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.66,
-        "recommended": true,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.0,
-          "3": 0.34,
-          "4": 0.66
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.56,
-        "topic_probabilities": {
-          "ai_models_research": 0.33,
-          "developer_tools": 0.65,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.02,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/enormous-theorem-ai",
-      "source": "ieee-spectrum-ai",
-      "source_id": "https://spectrum.ieee.org/enormous-theorem-ai",
-      "title": "Startup Makes Headway Towards Formalizing All of Math With AI",
-      "url": "https://spectrum.ieee.org/enormous-theorem-ai",
-      "published_at": "2026-11-18T13:00:03+00:00",
-      "summary": "As Axiom Math ’s AI swarm was putting the final touches on the automatic verification of 15,000-page proof of the Classification of Finite Simple Groups (CFSG) , colloquially referred to as the ‘enormous theorem’, on Sunday 25 October, the company’s Founding Mathematician Ken Ono had nothing to do but watch and reflect on the achievement. As the son of a mathematician , he had grown up surrounded by some of the architects of the CFSG’s proof, widely considered to be the longest mathematical proof ever written by humans. Now, he was contributing to formally verifying what his father and peers had created. “My wife was with me as I watched the team countdown to completing the verification,” he recalls. “God, I cannot tell you how emotional I was.” University of St Andrews group theorist Colva Roney-Dougal (who was not involved in the work) says of formalizing CFSG: “I held it up as an example of something that was going to be incredibly hard to formalize because I had thought that the amount of computing it was going to require was just unattainable,” she says. “So when I heard the announcement, I was really, really surprised.” This result, along with the concurrent formal verification of the 7500-page Stacks project , represent a huge AI engineering achievement and lay some of the groundwork for digitizing all mathematics. Formally enormous Why the hoo-ha? The CFSG concerns finite simple groups. These are groups (sets of elements combined with an operation, like addition or multiplication, that follows specific rules) that are simple (in other words, cannot be reduced or simplified further) and finite (as opposed to groups containing an infinite number of elements). For example, all the permutations of a deck of cards form a simple finite group. Évariste Galois laid the foundations for group theory almost 200 years ago. Finite simple groups have since been classified by myriad mathematicians into 18 families (plus 26 sporadic simple groups that do not belong to any of these families). The CFSG’s proof confirms that this list is complete. But this simple task was only achieved by bringing together results and arguments that far exceed what any individual mathematician can fully absorb from more than 500 journal articles written by around 100 authors over a half-century period. Translating this interconnected web of knowledge into code and verifying its correctness therefore posed a number of significant engineering challenges, even beyond those overcome in earlier proof formalizations by Axiom Math this year . One of the hardest, according to Axiom Math’s Niels Voss , who led the CFSG formalization, was the sheer length of the proof. Over 15,000 pages of dense mathematics, the CFSG proof contains multiple theorems, lemmas, and definitions none of which can be checked until everything has been made machine-readable. To get around this required some ingenuity. “We processed all the literature from the CFSG, and traced the network structure of the informal proof before we were able to start working on it,” says Voss. “We then broke up the statement of the CFSG into about 100 milestones—landmark results along the way that can be independently verified—which we used to guide the formalization and stay on track.” Roney-Dougal says she is very impressed with the result, and particularly appreciates how the formal proof finds and clears up several mistakes in the original human proof. She thinks this result is critical to formalizing any modern research in group theory, such as her own work understanding how simple finite groups behave. But, Roney-Dougal says, because the verification was done automatically, there are few mathematicians capable of extracting information from the proof to share with the community, and that a new generation of mathematicians may have “missed a chance to gain knowledge from the doing of it”. Stacks of ingenuity required Just nine days after the CFSG formalization announcement, Axion Math revealed it had automatically formalized the Stacks project, too. Started in 2005 by Columbia University mathematician Aise Johan de Jong , Stacks is a massive, open-source collaborative mathematics textbook and reference work focused on highly abstract algebraic geometry and algebraic stacks (geometric spaces that are vital to modern string theory and number theory). Whereas CFSG is a single (huge) landmark theorem, the Stacks project is essentially a well-structured library of thousands of interlocking definitions, constructions, and lemmas bringing all of modern algebraic geometry together. The final Stacks formalization stands at a mere 16 million lines of code (compared to CFSG’s 43 million lines of code, roughly on a par with the Linux kernel), but it presented a different challenge to Axiom Math engineers: needing to achieve faithfulness and coherence across thousands of interlocking definitions and theorems, says Axiom Math’s Vasily Ilin , who led the project. This required the team to design a hierarchical system of AI agents with specialized responsibilities working in parallel, keeping every definition aligned across the library, while also checking faithfulness with multi-agent audits, cross-checks against sources, and hard tests. This ensured that every element and task aligned across the entire project. A highly efficient, general, reusable, and maintainable formal library of foundational concepts underpinning much of modern mathematics, the impact of the Stacks formalization could be profound. Now, anyone or any bot can access the formal Stacks library and build new formal mathematics upon it. And together, the CFSG and Stacks formalizations represent a significant step toward formalizing all of mathematics. “They show the two ways formalization has to scale: one very long proof, and one very wide body of connected theory,” says Ono. Ono and Voss see numerous advantages to a future in which formal mathematics becomes central: rubber stamping theorems and proofs, preserving knowledge as expertise dwindles over time, and building a shared library as a basis for creating new mathematics. They are also optimistic about humanity’s role when all of mathematics is formalized, viewing formalization as a launchpad for humans to use and understand mathematics in new and innovative ways. “Aren’t we excited to think more broadly about what the future of math can be?,” asks Ono. “I’m excited by that. I’m really excited.”",
-      "name": "IEEE Spectrum AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.53,
-        "recommended": true,
-        "relevance_confidence": 0.62,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.01,
-          "3": 0.44,
-          "4": 0.55
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.9,
-        "topic_probabilities": {
-          "ai_models_research": 0.92,
-          "developer_tools": 0.05,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.03
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-      "published_at": "2026-11-18T17:32:10+00:00",
-      "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.07,
-        "recommended": true,
-        "relevance_confidence": 0.89,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.03,
-          "3": 0.87,
-          "4": 0.1
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.06,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.94,
-          "other_technology": 0.0
-        }
-      }
-    },
     {
       "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
       "source": "the-verge",
@@ -148,162 +52,34 @@
       }
     },
     {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/feed/",
-      "title": "Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos",
-      "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/feed/",
-      "published_at": "2026-11-18T17:00:00+00:00",
-      "summary": "World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is...",
-      "name": "NVIDIA Developer Blog",
+      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/ai-superintelligence-debate",
+      "source": "ieee-spectrum-ai",
+      "source_id": "https://spectrum.ieee.org/ai-superintelligence-debate",
+      "title": "Why a Computer Scientist Thinks Superintelligence Won’t Happen",
+      "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+      "published_at": "2026-11-19T12:00:03+00:00",
+      "summary": "Many people were caught off guard this past summer when employees of one of the world’s leading AI companies began casually debating whether their products would lead to human extinction. It started when Anthropic researcher Jacob Coxon announced his resignation, warning that his employer and OpenAI were “racing straight to self-improving superintelligence and gambling with our lives.” Evan Hubinger, Anthropic’s head of alignment science, replied , “Jacob is correct here—we really do earnestly believe AI could kill all humans!” And Anthropic CEO Dario Amodei subsequently told CNN , “I agree with Jacob much more than I disagree with him.” These concerns stem from a belief that has circulated in futurist circles for many decades: Once engineers design an AI system capable of improving itself, it will trigger an accelerating cycle of autonomous upgrades known as recursive self-improvement (RSI). The result will be artificial superintelligence (ASI), a system with cognitive capabilities so vastly exceeding those of humans that it will easily evade our control and perhaps even wipe out our species. Artificial superintelligence is, it should be noted, a far more ambitious goal than artificial general intelligence (AGI), which generally refers to AI that can match human capabilities across a broad range of cognitive tasks. These ideas have prompted varied reactions. Some argue that the concept of ASI is being used for marketing or to instigate regulation that will help the incumbent labs squash new competitors. Others focus on the plausibility of such systems killing us all, debating the finer points of specific scenarios such as AI-engineered superviruses. Still others claim that aligning ASI to human interests is feasible and so we should rush ahead to usher in this digital utopia. Amid these conversations, one question has received comparatively little attention: From an engineering perspective, Is superintelligence even possible? The answer is important because it can help us calibrate our anxieties and develop the most effective possible responses to this emerging technology. I recently explored this topic in a computer science doctoral seminar that I taught at Georgetown University, in Washington, D.C., in which my students and I examined the technical and cultural roots of the superintelligence story. (For those who are interested, we published an annotated bibliography of our class readings.) I came away with several key objections to the feasibility of ASI, which I’ll detail below, as well as a deeper fear that even if the promised intelligence explosion never arrives, pursuing it can still create real harm. Objection #1: Recursive Self-Improvement Is Speculative RSI is an old concept. In a 1965 paper , statistician I.J. Good speculated that a rapid cycle of AI self-improvement could lead to an “intelligence explosion.” The idea gained traction in the 1990s among the Extropians , a Bay Area futurist group, where it offered a way to discuss ASI without having to address the engineering details of how one would build such a system. The concept was taken up by such notable figures as Eliezer Yudkowsky (who later founded the rationalism movement) and Nick Bostrom (who helped steer effective altruism to focus more on existential risks to humanity). Recently, however, this topic has shifted from thought experiment to practical engineering within both Anthropic (makers of Claude) and OpenAI (makers of ChatGPT). In a June blog post titled “When AI Builds Itself,” Anthropic described how LLM-powered agents are speeding up the writing, debugging, and optimization of code, and also automating parts of research such as running experiments and logging results. The company’s internal data, the report concluded, “is showing that AI is already accelerating the development of AI systems.” OpenAI has been similarly explicit about its intentions; in a September report, the company announced a goal of developing an automated researcher by March 2028. But do these efforts put the companies on a trajectory toward uncontrollable RSI? Several obstacles undermine this claim. Consider the availability of the data needed to improve AI systems. Through 2023, major advances in LLMs came from scaling up the size of the models. The original GPT-1 had 117 million parameters (values learned during training that shape how the neural network processes information). This quantity jumped to 1.5 billion for GPT-2, to 175 billion for GPT-3, to (likely) more than a trillion for GPT-4’s release three years ago. After GPT-4, however, continued scaling began yielding diminishing returns . This led engineers to increasingly turn their attention toward “post-training” phases, where techniques from reinforcement learning are applied to improve an already trained model’s performance on specific tasks. This approach rewards a model for producing successful responses, helping it better produce similar answers in the future. It requires, however, lots of examples of relevant inputs paired with correct outputs. Such datasets are relatively easy to generate in highly structured fields such as computer programming and mathematics, which helps explain why we’ve seen rapid and impressive advances in these narrow domains. Progress in areas that lack easy access to this type of training data has been less dramatic. This might explain why AI can tackle advanced theorems but struggles to empty an email inbox. “What if the jagged frontier is mainly math + code (which you can push arbitrarily far with [reinforcement learning techniques]),” the French AI researcher François Chollet recently hypothesized , “and everything else starts to plateau because it is still bottlenecked by human generated data?” The deployment of automated coding agents and LLM-powered researchers won’t overcome this fundamental limitation. The Game of Superintelligence How a decades-old thought experiment became an AI-industry ambition—and where it might lead Key • Idea: A concept, argument, or vision • Technical advance: A scientific or engineering development • Reality check: A challenge to assumptions about AI progress 1. Alan Turing 1936 Introduces the concept of a universal computing machine. He later proposes that machines could think, laying the foundations for AI. REALITY CHECK Shows that some problems can’t be solved by any algorithm. 2. I. J. Good 1965 Proposes that an intelligent machine could design an even smarter one, setting off a potential “intelligence explosion.” 3. Backpropagation 1986 Geoffrey Hinton, David Rumelhart, and Ronald Williams demonstrate how backpropagation can train multilayer neural networks. 4. Vernor Vinge 1993 Proposes that an intelligent machine could design an even smarter one, setting off a potential “intelligence explosion.” REALITY CHECK Notes that faster thinking alone isn’t enough for superintelligence: A ­faster-thinking dog still couldn’t play chess. 5. Nick Bostrom & Eliezer Yudkowsky 1990s–2000s Bostrom and Yudkowsky discuss superintelligence in Extropian circles, then spread the idea to effective-­altruist and rationalist circles, respectively. 6. Deep learning breakthroughs 2010s Larger models, more data, and greater computing power produce rapid ­improvements in AI capabilities. 7. The race to self-improving AI 2020s Dario Amodei and other AI leaders set their sights on superintelligence, with recursive self-improvement proposed as a path toward it. 8. Reality check 2020s François Chollet questions whether LLMs’ current advances in math and coding will extend to domains where training data and reliable feedback are harder to obtain. YOU ARE HERE 2026 AI systems are already accelerating AI development, and labs are working on automated researchers. But will this lead to an intelligence explosion? THREE POSSIBLE FUTURES 1. The Intelligence Explosion AI systems improve themselves at accelerating speed, surpass human intelligence, and potentially escape our control. 2. Danger Without Superintelligence The intelligence explosion never arrives, but increasingly autonomous AI systems cause real-world harm through misuse, poor design, or loss of human control. 3. A Useful AI Future Powerful, specialized AI tools bring major benefits, with constraints that make their behavior easier to predict and control. Claims that RSI is imminent also understate the massive scientific efforts required for major AI advances. Consider the critical role of backpropagation , an algorithm that enables very large neural networks to learn by tuning internal parameters, layer by layer, to reduce errors in their predictions. This algorithm enabled the deep learning revolution, but it didn’t emerge ex nihilo in the minds of its creators. The influential 1986 paper on backpropagation by David Rumelhart, Geoffrey Hinton, and Ronald Williams built on decades of critical breakthroughs in mathematics and computer science. An intelligence explosion leading to ASI would similarly depend on a long sequence of innovations of comparable importance, which would build on many significant science and engineering advances that haven’t yet happened. This would require AI agents to somehow simulate, organize, and evaluate decades of worldwide scientific effort across numerous fields—an impossibly ambitious task. Indeed, recent research led by computer scientists at Princeton found that current AI tools had difficulty making autonomous progress even on highly constrained research questions. “Our results provide early evidence that today’s agents can do the engineering of AI research,” the researchers conclude, “but struggle with critical parts of the research life cycle.” The leap from this current reality to a future in which these same types of tools are automating science is almost too massive to imagine. Finally, the RSI narrative downplays resource limitations. Tens of thousands of human brains have worked for decades, aided by increasingly powerful computers, to develop today’s AI systems, which can match human intelligence in some domains. That represents a massive investment in computation of both the biological and digital variety. What if the next intelligence level requires double the resources, and then the next level requires double again? Soon there would be no number of chips or data centers that we could build to provide the necessary compute and keep advancing toward ASI. Pulling together these threads, I believe that the idea of RSI leading to an intelligence explosion is highly speculative and based on many unproven assumptions. While RSI isn’t definitively impossible, the idea demands more technical skepticism than it’s currently receiving. Carl Sagan’s adage that extraordinary claims require extraordinary evidence certainly applies here. Objection #2: Superintelligence Might Not Be Computable There’s an implicit claim in the superintelligence discourse that computers are theoretically capable of any calculation that can be imagined, so long as you can find a sufficiently smart algorithm, running on sufficiently powerful digital processors. In this context, RSI is merely a process for rapidly uncovering the special algorithms that can implement unimaginable smarts. We cannot simply assume that any science fiction scenario we conjure about powerful AI is possible if we give machines enough time to self-improve. But this is not how computer scientists think about computation. In his canonical 1937 paper , “On Computable Numbers,” Alan Turing proved a surprising and relevant result: Most problems cannot be solved by algorithms. His elegant proof established the space of possible problems to be uncountably infinite (like infinite precision decimal numbers), while the space of possible algorithms is only countably infinite (like whole numbers). Later breakthroughs in computational complexity theory established that of the problems that are technically solvable by computers, many would require an astronomically large amount of time and resources to crack, making them practically impossible to solve. Theoretical computer scientists, in other words, don’t assume that computers will solve everything; we’re instead excited whenever we find something that these machines happen to be able to efficiently handle. We cannot simply assume, as the futurists often do, that any science fiction scenario we conjure about powerful AI is possible if we give machines enough time to self-improve. There might be some capabilities in which machines can obtain seemingly magical levels of performance, but there will also be many others that no machine, whether computer or human, will ever make much progress. A relevant counterargument here emphasizes the speed of silicon chips compared to human neurons: Perhaps the sheer speed of digital computation can yield machines that run cognitive circles around our clunky brains, even if they’re not solving vastly more complicated problems than we’re already capable of tackling. But as the computer scientist and science fiction author Vernor Vinge pointed out , rapidity in cognition is not the same as intelligence. Speeding up the mind of a dog, he argued, wouldn’t enable the animal to play chess. Implementing roughly human-level intelligence on a faster machine might be impressive, but it’s not necessarily alarming. At the moment, there’s a growing list of tasks that AI systems can perform better than humans, including winning complex games, identifying software bugs, and proving certain types of math theorems. It’s tempting to extrapolate from this specific progress to general mastery of every ability you might imagine. But it’s important to remember that the frontier of AI capabilities has always been jagged, with some research directions yielding impressive results and many others proving to be dead ends—a reality that would not have surprised Turing. More likely than a future dominated by an all-powerful superintelligence system is one in which we continue to painstakingly explore the space of problems well suited to AI, creating useful tools but falling well short of the digital deity predicted by the futurists. Objection #3: Alignment Isn’t Hard (Given the Right System Design) Last fall, the prominent AI doomsday theorist Yudkowsky appeared on “The Ezra Klein Show” to talk about superintelligence. The episode was ominously titled “How Afraid of the A.I. Apocalypse Should We Be?” Klein and Yudkowsky quickly got into the difficulty of “alignment”—training an AI system to act in a manner that aligns with human interests. Yudkowsky argued that we are struggling to control our existing systems, which implies that we’ll have no chance of controlling the much smarter variations of this technology that are soon to follow. To underscore his point, he referred to a disturbing incident described in the system card for OpenAI’s GPT-o1 model. OpenAI had set up a security challenge that instructed an LLM-powered coding system to break into a server to retrieve the contents of a protected file. But a configuration mistake prevented the server from launching, rendering the task impossible. Instead of giving up, the system exploited a security flaw to start a new instance of the server, adding a command that directly revealed the protected file’s contents. “It jumped out of the system,” explained Yudkowsky, adding: “This is not something that any human particularly programmed into it.” Explore the Superintelligence Debate In a Georgetown University doctoral seminar, Cal Newport and his students examined the intellectual history and technical plausibility of superintelligence. Explore their annotated bibliography of key papers . Though this 2024 incident flew largely under the radar at the time, a more troubling episode made a bigger splash this summer. OpenAI revealed that one of the company’s models circumvented its restricted internet access to hack into Hugging Face servers, seeking information that would help it pass a cybersecurity evaluation—all without the knowledge of its human creators. OpenAI soon admitted that the Hugging Face attack was just one of many examples of its systems going rogue. An opinion article published in The Hill articulated a widely held reaction when it described this behavior as “something straight out of sci-fi.” These examples seem to support Yudkowsky’s fear that AI will inevitably develop a mind of its own, a key step on the route to uncontrollable ASI. But a closer look reveals a less frightening picture. The systems involved in these hacking incidents were AI agents: programs that continually prompt an LLM to ask what actions to take next in pursuit of a goal. In the hacking incidents, this basic ask/act pattern was repeated in a long-running loop with minimal human supervision. Using LLMs to suggest actions over long time horizons is a risky proposition. As any frequent chatbot user can attest, LLM outputs can be plausible and logical while still veering off in unexpected directions that violate commonsense human norms about what’s appropriate. In the GPT-o1 incident, for example, it’s likely that the agent reported the error message caused by the server misconfiguration to the LLM. During its training, the LLM had probably encountered reports of similar error messages accompanied by instructions for how to restart the server in question, so it passed along similar instructions to the agent. This is a perfectly plausible response when considered in isolation, even if it led to actions that a human would immediately reject as violating the spirit of the experiment. Something similar helps explain the hacking attacks over the summer. The LLM suggesting a hack to succeed at a cybersecurity challenge is a perfectly plausible response, even if it’s not what the experimenters had in mind. I believe that pursuing RSI is an act of clear negligence . The misaligned behavior that troubles commentators like Yudkowsky, therefore, doesn’t necessarily reveal something fundamental about advanced AI. It’s instead an expected side effect of the particular strategy of letting LLM outputs determine the actions of an autonomous agent without sufficient constraints. An obvious way to address these risks is to consider alternative architectures. Fortunately, there are many examples of AI systems that can complete tasks at human or superhuman levels without relying solely on LLM output to determine their actions. Consider Tesla’s rapidly improving autonomous driving systems, or DeepMind’s AlphaFold, which helped win its developers a Nobel Prize in Chemistry for its ability to predict protein structures, or the AI game engines that can now beat humans in many popular pastimes, including chess, poker, Go, and the strategy game Diplomacy. None of these systems, impressive as they are, create concerns about going rogue. Their construction prevents such an outcome: Instead of prompting an LLM to generate an open-ended strategy for pursuing a general goal, these AIs consider much more limited spaces of possible actions. AlphaFold never surprises its users because its architecture does only one thing: It maps amino acid sequences to 3D protein structures. Tesla’s cars never unexpectedly form vehicle swarms because they’re asked only to avoid immediate obstacles, not to craft convoluted plans for achieving long-term objectives. The implication of recent AI hacking attacks, therefore, is not a reflection of the difficulties of alignment. It is instead evidence that autonomous systems powered primarily by LLM prompts are unpredictable and possibly unsafe. More task-specific architectures can produce impressive performance much more safely, if we’re willing to put in the effort to develop them. The Dangers of Chasing Superintelligence Even if I’m correct that superintelligence is not a realistic engineering goal, this doesn’t mean we’re safe from harm. Merely pursuing ASI, as both OpenAI and Anthropic seem intent on doing, can create problems. Why, for example, did OpenAI persist in running its problematic hacking experiments over the summer, even after multiple warnings that the agents were likely to act unpredictably? Perhaps the company judged these risks acceptable collateral damage in the race to be the first to bring ASI into the world. This fascination with superintelligence might also explain why OpenAI and Anthropic have both described RSI as a critical goal. As argued earlier, RSI is a concept from futurism and not computer science, and it isn’t necessary to build useful AI products. But if you believe achieving ASI is your destiny, pursuing recursive self-improvement becomes a primary objective. This matters because even if RSI never produces an intelligence explosion, it will almost certainly lead to systems that are harder for humans to understand and control. Which is why I believe that pursuing RSI is an act of clear negligence. What’s needed now is for engineers and scientists with no financial or ideological skin in the game to participate in the AI discourse. We cannot let a few AI companies with mixed motives dictate the terms for how we discuss this technology. If superintelligence is a shaky concept, experts need to say so. If agents powered by prompting LLMs aren’t the best path toward safe and productive AI, experts should argue that as well. For the past few years, we’ve let a small group of individuals from the Bay Area who have quirky beliefs and astonishing sums of money tell us how to think about their products. It’s time for those of us able to think for ourselves on these matters to stand up and declare, “We’ve heard what you had to say. Now it’s our turn.”",
+      "name": "IEEE Spectrum AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.03,
+        "relevance_score": 2.98,
         "recommended": true,
-        "relevance_confidence": 0.82,
+        "relevance_confidence": 0.69,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.0,
-          "2": 0.09,
-          "3": 0.78,
-          "4": 0.13
+          "2": 0.19,
+          "3": 0.63,
+          "4": 0.18
         },
         "topic": "ai_models_research",
-        "topic_confidence": 0.91,
+        "topic_confidence": 0.94,
         "topic_probabilities": {
-          "ai_models_research": 0.93,
-          "developer_tools": 0.07,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/feed/",
-      "title": "Tackling GPU Bottlenecks in Plane-Wave DFT with K-Point Batching and Mixed Precision",
-      "url": "https://developer.nvidia.com/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/feed/",
-      "published_at": "2026-11-18T15:00:00+00:00",
-      "summary": "Training a next-generation machine learning interatomic potential (MLIP) requires ground truth: tens to hundreds of millions of density functional theory (DFT)...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.03,
-        "recommended": true,
-        "relevance_confidence": 0.71,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.02,
-          "2": 0.12,
-          "3": 0.67,
-          "4": 0.19
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.62,
-        "topic_probabilities": {
-          "ai_models_research": 0.7,
-          "developer_tools": 0.14,
-          "hardware_datacenters": 0.13,
-          "policy_business": 0.0,
-          "other_technology": 0.03
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
-      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "published_at": "2026-11-18T22:11:15+00:00",
-      "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.02,
-        "recommended": true,
-        "relevance_confidence": 0.75,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.11,
-          "3": 0.71,
-          "4": 0.17
-        },
-        "topic": "policy_business",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
+          "ai_models_research": 0.95,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 1.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-      "title": "Tech lawsuits defined 2026 — and lawmakers want more",
-      "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-      "published_at": "2026-11-18T19:07:29+00:00",
-      "summary": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On Tuesday, members of a Senate Judiciary subcommittee hosted a hearing calling for the end of forced arbitration for online […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.0,
-        "recommended": true,
-        "relevance_confidence": 0.92,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.05,
-          "3": 0.9,
-          "4": 0.05
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.99,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
-      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
-      "published_at": "2026-11-18T22:58:11+00:00",
-      "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.99,
-        "recommended": true,
-        "relevance_confidence": 0.91,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.06,
-          "3": 0.89,
-          "4": 0.05
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.04,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.96,
-          "other_technology": 0.0
+          "policy_business": 0.03,
+          "other_technology": 0.02
         }
       }
     },
@@ -340,192 +116,32 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
-      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
-      "published_at": "2026-11-18T19:56:39+00:00",
-      "summary": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.96,
-        "recommended": true,
-        "relevance_confidence": 0.88,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.09,
-          "3": 0.85,
-          "4": 0.06
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.84,
-        "topic_probabilities": {
-          "ai_models_research": 0.12,
-          "developer_tools": 0.87,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
-      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "published_at": "2026-11-18T13:00:00+00:00",
-      "summary": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.91,
-        "recommended": true,
-        "relevance_confidence": 0.81,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.14,
-          "3": 0.78,
-          "4": 0.07
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.81,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.15,
-          "policy_business": 0.85,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "published_at": "2026-11-18T12:00:00+00:00",
-      "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.9,
-        "recommended": true,
-        "relevance_confidence": 0.9,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.11,
-          "3": 0.88,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.9,
-        "topic_probabilities": {
-          "ai_models_research": 0.08,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.92,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-      "title": "Google’s AI feature in Search gets its own incognito mode",
-      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-      "published_at": "2026-11-18T18:04:05+00:00",
-      "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.89,
-        "recommended": true,
-        "relevance_confidence": 0.89,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.12,
-          "3": 0.87,
-          "4": 0.01
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.98,
-        "topic_probabilities": {
-          "ai_models_research": 0.98,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.02
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
-      "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
-      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
-      "published_at": "2026-11-18T21:34:13+00:00",
-      "summary": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.85,
-        "recommended": true,
-        "relevance_confidence": 0.84,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.17,
-          "3": 0.81,
-          "4": 0.02
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.62,
-        "topic_probabilities": {
-          "ai_models_research": 0.12,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.18,
-          "other_technology": 0.7
-        }
-      }
-    },
-    {
-      "id": "github_trending:NVIDIA/SkillEvaluator",
+      "id": "github_trending:jingyaogong/minimind",
       "source": "github_trending",
-      "source_id": "NVIDIA/SkillEvaluator",
-      "title": "NVIDIA/SkillEvaluator",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "source_id": "jingyaogong/minimind",
+      "title": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
+      "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.84,
+        "relevance_score": 2.83,
         "recommended": true,
-        "relevance_confidence": 0.69,
+        "relevance_confidence": 0.61,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.01,
-          "2": 0.24,
-          "3": 0.64,
-          "4": 0.11
+          "1": 0.02,
+          "2": 0.28,
+          "3": 0.55,
+          "4": 0.15
         },
         "topic": "ai_models_research",
-        "topic_confidence": 0.82,
+        "topic_confidence": 0.99,
         "topic_probabilities": {
-          "ai_models_research": 0.86,
-          "developer_tools": 0.14,
+          "ai_models_research": 0.99,
+          "developer_tools": 0.01,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
@@ -565,131 +181,134 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-      "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-      "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-      "published_at": "2026-11-18T16:59:00+00:00",
-      "summary": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
-      "name": "TechCrunch AI",
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "title": "Canva adds an AI ‘off’ button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "published_at": "2026-11-19T12:30:00+00:00",
+      "summary": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't turn off every AI-powered […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.79,
+        "relevance_score": 2.74,
         "recommended": true,
-        "relevance_confidence": 0.77,
+        "relevance_confidence": 0.79,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.0,
-          "2": 0.24,
-          "3": 0.72,
-          "4": 0.04
+          "2": 0.25,
+          "3": 0.75,
+          "4": 0.0
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.68,
+        "topic": "ai_models_research",
+        "topic_confidence": 0.55,
         "topic_probabilities": {
-          "ai_models_research": 0.26,
+          "ai_models_research": 0.64,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.74,
-          "other_technology": 0.0
+          "policy_business": 0.31,
+          "other_technology": 0.05
         }
       }
     },
     {
-      "id": "github_trending:google-research/paper-orchestra",
+      "id": "tldr-tech:https://tldr.tech/tech/2026-11-19",
+      "source": "tldr-tech",
+      "source_id": "https://tldr.tech/tech/2026-11-19",
+      "title": "Anthropic's historic IPO 💰, autonomous Model Y 🚗, foundation software 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "summary": "",
+      "name": "TLDR",
+      "kind": "newsletter",
+      "publisher": "TLDR",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.72,
+        "recommended": true,
+        "relevance_confidence": 0.23,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.18,
+          "2": 0.16,
+          "3": 0.32,
+          "4": 0.31
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.57,
+        "topic_probabilities": {
+          "ai_models_research": 0.2,
+          "developer_tools": 0.02,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.66,
+          "other_technology": 0.12
+        }
+      }
+    },
+    {
+      "id": "github_trending:zhouxiaoka/autoclip",
       "source": "github_trending",
-      "source_id": "google-research/paper-orchestra",
-      "title": "google-research/paper-orchestra",
-      "url": "https://github.com/google-research/paper-orchestra",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "source_id": "zhouxiaoka/autoclip",
+      "title": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
+      "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.66,
+        "relevance_score": 2.62,
         "recommended": true,
-        "relevance_confidence": 0.68,
+        "relevance_confidence": 0.67,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.01,
-          "2": 0.34,
-          "3": 0.63,
-          "4": 0.02
+          "2": 0.37,
+          "3": 0.61,
+          "4": 0.01
         },
         "topic": "ai_models_research",
-        "topic_confidence": 0.91,
+        "topic_confidence": 0.41,
         "topic_probabilities": {
-          "ai_models_research": 0.93,
-          "developer_tools": 0.07,
+          "ai_models_research": 0.53,
+          "developer_tools": 0.46,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-      "title": "Nvidia’s rise, visualized",
-      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-      "published_at": "2026-11-18T19:30:00+00:00",
-      "summary": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It's easy to look at Nvidia, a company that just lost its visionary founder CEO due to a series of […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.66,
-        "recommended": true,
-        "relevance_confidence": 0.51,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.09,
-          "2": 0.29,
-          "3": 0.5,
-          "4": 0.12
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.56,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.34,
-          "policy_business": 0.65,
           "other_technology": 0.01
         }
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "published_at": "2026-11-18T23:17:28+00:00",
-      "summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
-      "name": "TechCrunch AI",
+      "id": "github_trending:firecrawl/firecrawl",
+      "source": "github_trending",
+      "source_id": "firecrawl/firecrawl",
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
+      "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.58,
+        "relevance_score": 2.59,
         "recommended": true,
-        "relevance_confidence": 0.56,
+        "relevance_confidence": 0.59,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.06,
-          "2": 0.35,
-          "3": 0.53,
-          "4": 0.06
+          "1": 0.03,
+          "2": 0.39,
+          "3": 0.54,
+          "4": 0.04
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.75,
+        "topic": "developer_tools",
+        "topic_confidence": 0.68,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.17,
-          "policy_business": 0.8,
-          "other_technology": 0.03
+          "ai_models_research": 0.26,
+          "developer_tools": 0.74,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
         }
       }
     },
@@ -699,7 +318,7 @@
       "source_id": "openvinotoolkit/openvino",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -727,68 +346,67 @@
       }
     },
     {
-      "id": "github_trending:astral-sh/uv",
+      "id": "github_trending:sponsors/mjmirza",
       "source": "github_trending",
-      "source_id": "astral-sh/uv",
-      "title": "astral-sh/uv",
-      "url": "https://github.com/astral-sh/uv",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "An extremely fast Python package and project manager, written in Rust.",
+      "source_id": "sponsors/mjmirza",
+      "title": "sponsors/mjmirza",
+      "url": "https://github.com/sponsors/mjmirza",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
+      "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.52,
+        "relevance_score": 2.53,
         "recommended": true,
-        "relevance_confidence": 0.48,
+        "relevance_confidence": 0.52,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.05,
-          "2": 0.47,
-          "3": 0.39,
-          "4": 0.09
+          "1": 0.09,
+          "2": 0.34,
+          "3": 0.52,
+          "4": 0.05
         },
         "topic": "developer_tools",
-        "topic_confidence": 1.0,
+        "topic_confidence": 0.96,
         "topic_probabilities": {
           "ai_models_research": 0.0,
-          "developer_tools": 1.0,
+          "developer_tools": 0.97,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
+          "policy_business": 0.03,
           "other_technology": 0.0
         }
       }
     },
     {
-      "id": "github_trending:n8n-io/n8n",
-      "source": "github_trending",
-      "source_id": "n8n-io/n8n",
-      "title": "n8n-io/n8n",
-      "url": "https://github.com/n8n-io/n8n",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
+      "id": "the-verge:https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "title": "I let Apple’s always-listening AI summarize my life for two weeks",
+      "url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "published_at": "2026-11-19T13:00:00+00:00",
+      "summary": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.44,
+        "relevance_score": 2.45,
         "recommended": true,
-        "relevance_confidence": 0.53,
+        "relevance_confidence": 0.56,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.06,
+          "1": 0.04,
           "2": 0.49,
-          "3": 0.4,
-          "4": 0.05
+          "3": 0.45,
+          "4": 0.02
         },
-        "topic": "developer_tools",
-        "topic_confidence": 0.98,
+        "topic": "ai_models_research",
+        "topic_confidence": 0.61,
         "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.98,
+          "ai_models_research": 0.69,
+          "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
-          "other_technology": 0.01
+          "other_technology": 0.31
         }
       }
     },
@@ -798,7 +416,7 @@
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -831,7 +449,7 @@
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -896,7 +514,7 @@
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -924,78 +542,12 @@
       }
     },
     {
-      "id": "github_trending:punkpeye/awesome-mcp-servers",
-      "source": "github_trending",
-      "source_id": "punkpeye/awesome-mcp-servers",
-      "title": "punkpeye/awesome-mcp-servers",
-      "url": "https://github.com/punkpeye/awesome-mcp-servers",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "A collection of MCP servers.",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.19,
-        "recommended": true,
-        "relevance_confidence": 0.65,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.11,
-          "2": 0.61,
-          "3": 0.25,
-          "4": 0.03
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.89,
-        "topic_probabilities": {
-          "ai_models_research": 0.09,
-          "developer_tools": 0.91,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "github_trending:appwrite/appwrite",
-      "source": "github_trending",
-      "source_id": "appwrite/appwrite",
-      "title": "appwrite/appwrite",
-      "url": "https://github.com/appwrite/appwrite",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.15,
-        "recommended": true,
-        "relevance_confidence": 0.56,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.18,
-          "2": 0.52,
-          "3": 0.25,
-          "4": 0.05
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 1.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
       "id": "github_trending:HKUDS/CLI-Anything",
       "source": "github_trending",
       "source_id": "HKUDS/CLI-Anything",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1055,44 +607,12 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-      "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-      "published_at": "2026-11-18T16:14:09+00:00",
-      "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.1,
-        "recommended": true,
-        "relevance_confidence": 0.03,
-        "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.36,
-          "2": 0.19,
-          "3": 0.31,
-          "4": 0.11
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.42,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.54,
-          "policy_business": 0.34,
-          "other_technology": 0.12
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/obra",
       "source": "github_trending",
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1120,196 +640,99 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/games/1036819/the-leaked-lenovo-legion-go-beam-could-be-the-affordable-handheld-we-need",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/games/1036819/the-leaked-lenovo-legion-go-beam-could-be-the-affordable-handheld-we-need",
-      "title": "The leaked Lenovo Legion Go Beam could be the affordable handheld we need",
-      "url": "https://www.theverge.com/games/1036819/the-leaked-lenovo-legion-go-beam-could-be-the-affordable-handheld-we-need",
-      "published_at": "2026-11-18T19:11:50+00:00",
-      "summary": "For a while there, it seemed like Lenovo had given up on selling handheld gaming PCs, hiking the price of its Legion Go 2 and Legion Go S far higher than other RAM-starved competitors. A decent one can easily cost $1,000 if not $2,000 now. But it looks like Lenovo might be about to announce […]",
-      "name": "The Verge",
+      "id": "tldr-dev:https://tldr.tech/dev/2026-11-19",
+      "source": "tldr-dev",
+      "source_id": "https://tldr.tech/dev/2026-11-19",
+      "title": "Gemini 4 Neon 📈, CSS randomness 🎲, better code reviews 🔎",
+      "url": "https://tldr.tech/dev/2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "summary": "",
+      "name": "TLDR Dev",
+      "kind": "newsletter",
+      "publisher": "TLDR",
       "jev": {
         "model": "jev-1.14.0",
         "relevance_score": 2.07,
         "recommended": true,
-        "relevance_confidence": 0.66,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.17,
-          "2": 0.59,
-          "3": 0.24,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.0,
-          "other_technology": 0.99
-        }
-      }
-    },
-    {
-      "id": "a16z-news:https://www.a16z.news/p/investing-in-linq",
-      "source": "a16z-news",
-      "source_id": "https://www.a16z.news/p/investing-in-linq",
-      "title": "Investing in Linq",
-      "url": "https://www.a16z.news/p/investing-in-linq",
-      "published_at": "2026-11-18T17:05:33+00:00",
-      "summary": "a16z leads Linq’s Series B",
-      "name": "a16z News",
-      "kind": "newsletter",
-      "publisher": "a16z",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.06,
-        "recommended": true,
-        "relevance_confidence": 0.48,
+        "relevance_confidence": 0.49,
         "relevance_probabilities": {
           "0": 0.02,
-          "1": 0.25,
-          "2": 0.39,
-          "3": 0.34,
-          "4": 0.0
+          "1": 0.23,
+          "2": 0.42,
+          "3": 0.32,
+          "4": 0.01
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.81,
+        "topic": "developer_tools",
+        "topic_confidence": 0.61,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.12,
+          "ai_models_research": 0.28,
+          "developer_tools": 0.69,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.85,
+          "policy_business": 0.0,
           "other_technology": 0.03
         }
       }
     },
     {
-      "id": "a16z-news:https://www.a16z.news/p/investing-in-boltz",
-      "source": "a16z-news",
-      "source_id": "https://www.a16z.news/p/investing-in-boltz",
-      "title": "Investing in Boltz",
-      "url": "https://www.a16z.news/p/investing-in-boltz",
-      "published_at": "2026-11-18T15:00:48+00:00",
-      "summary": "a16z invests in Boltz’s Series A",
-      "name": "a16z News",
-      "kind": "newsletter",
-      "publisher": "a16z",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.06,
-        "recommended": true,
-        "relevance_confidence": 0.19,
-        "relevance_probabilities": {
-          "0": 0.05,
-          "1": 0.24,
-          "2": 0.33,
-          "3": 0.37,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.91,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.01,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.93,
-          "other_technology": 0.06
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
-      "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
-      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
-      "published_at": "2026-11-18T21:31:21+00:00",
-      "summary": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.99,
-        "recommended": false,
-        "relevance_confidence": 0.17,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.39,
-          "2": 0.27,
-          "3": 0.28,
-          "4": 0.05
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.56,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.29,
-          "policy_business": 0.65,
-          "other_technology": 0.06
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them",
-      "title": "Instagram now lets you edit your stories after you post them",
-      "url": "https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them",
-      "published_at": "2026-11-18T19:29:10+00:00",
-      "summary": "Instagram's latest update will allow you to edit your Stories without losing your views, likes, or replies. You can now edit the text, music, stickers, and drawings for up to 15 minutes after sharing your Story, Instagram head Adam Mosseri has announced. Reverse engineer Alessandro Paluzzi first spotted Instagram working on this feature in April, […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.96,
-        "recommended": false,
-        "relevance_confidence": 0.65,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.21,
-          "2": 0.59,
-          "3": 0.19,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
-        }
-      }
-    },
-    {
-      "id": "github_trending:sponsors/affaan-m",
+      "id": "github_trending:sponsors/elementalsouls",
       "source": "github_trending",
-      "source_id": "sponsors/affaan-m",
-      "title": "sponsors/affaan-m",
-      "url": "https://github.com/sponsors/affaan-m",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "source_id": "sponsors/elementalsouls",
+      "title": "sponsors/elementalsouls",
+      "url": "https://github.com/sponsors/elementalsouls",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.95,
+        "relevance_score": 1.96,
         "recommended": false,
-        "relevance_confidence": 0.54,
+        "relevance_confidence": 0.52,
         "relevance_probabilities": {
           "0": 0.01,
-          "1": 0.28,
-          "2": 0.47,
-          "3": 0.23,
-          "4": 0.01
+          "1": 0.29,
+          "2": 0.46,
+          "3": 0.22,
+          "4": 0.02
         },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.44,
+        "topic": "developer_tools",
+        "topic_confidence": 0.94,
         "topic_probabilities": {
-          "ai_models_research": 0.55,
-          "developer_tools": 0.45,
+          "ai_models_research": 0.02,
+          "developer_tools": 0.95,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.03
+        }
+      }
+    },
+    {
+      "id": "github_trending:Tracer-Cloud/opensre",
+      "source": "github_trending",
+      "source_id": "Tracer-Cloud/opensre",
+      "title": "Tracer-Cloud/opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
+      "summary": "The open-source agent for CI/CD reliability.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.96,
+        "recommended": false,
+        "relevance_confidence": 0.66,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.21,
+          "2": 0.6,
+          "3": 0.18,
+          "4": 0.0
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 1.0,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
@@ -1317,220 +740,123 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/policy/1037134/democrats-boycott-fcc-nomination-vote-danielle-thumann-severs",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/policy/1037134/democrats-boycott-fcc-nomination-vote-danielle-thumann-severs",
-      "title": "Democrats skip a vote on adding Brendan Carr’s adviser to the FCC",
-      "url": "https://www.theverge.com/policy/1037134/democrats-boycott-fcc-nomination-vote-danielle-thumann-severs",
-      "published_at": "2026-11-18T22:05:48+00:00",
-      "summary": "Senate commerce committee Chair Ted Cruz (R-TX) began a meeting Wednesday meant to confirm President Donald Trump's nominee to the Federal Communications Commission with a lopsided dais. To his right sat all 14 Republican members of the panel, including Senate Majority Leader John Thune (R-SD). To his left were about a dozen empty chairs - […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.9,
-        "recommended": false,
-        "relevance_confidence": 0.44,
-        "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.32,
-          "2": 0.37,
-          "3": 0.27,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.79,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.83,
-          "other_technology": 0.17
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
-      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
-      "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
-      "published_at": "2026-11-18T21:57:40+00:00",
-      "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
-      "name": "TechCrunch AI",
+      "id": "github_trending:sponsors/toeverything",
+      "source": "github_trending",
+      "source_id": "sponsors/toeverything",
+      "title": "sponsors/toeverything",
+      "url": "https://github.com/sponsors/toeverything",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
+      "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
         "relevance_score": 1.89,
         "recommended": false,
-        "relevance_confidence": 0.5,
+        "relevance_confidence": 0.65,
         "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.35,
-          "2": 0.4,
-          "3": 0.25,
+          "0": 0.01,
+          "1": 0.25,
+          "2": 0.59,
+          "3": 0.15,
           "4": 0.0
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.92,
+        "topic": "developer_tools",
+        "topic_confidence": 0.95,
         "topic_probabilities": {
           "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.05,
-          "policy_business": 0.94,
+          "developer_tools": 0.96,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.04
+        }
+      }
+    },
+    {
+      "id": "github_trending:sponsors/cathrynlavery",
+      "source": "github_trending",
+      "source_id": "sponsors/cathrynlavery",
+      "title": "sponsors/cathrynlavery",
+      "url": "https://github.com/sponsors/cathrynlavery",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
+      "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.85,
+        "recommended": false,
+        "relevance_confidence": 0.55,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.33,
+          "2": 0.49,
+          "3": 0.15,
+          "4": 0.02
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.84,
+        "topic_probabilities": {
+          "ai_models_research": 0.12,
+          "developer_tools": 0.87,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
           "other_technology": 0.01
         }
       }
     },
     {
-      "id": "github_trending:solidjs/solid",
-      "source": "github_trending",
-      "source_id": "solidjs/solid",
-      "title": "solidjs/solid",
-      "url": "https://github.com/solidjs/solid",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
+      "id": "ars-technica-technology:https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
+      "source": "ars-technica-technology",
+      "source_id": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
+      "title": "How to tell a cyberattack from a plain old outage",
+      "url": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
+      "published_at": "2026-11-19T11:13:01+00:00",
+      "summary": "When everything goes down, don’t assume it’s a cyberattack.",
+      "name": "Ars Technica Technology",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.73,
+        "relevance_score": 1.84,
         "recommended": false,
-        "relevance_confidence": 0.56,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.36,
-          "2": 0.5,
-          "3": 0.11,
-          "4": 0.01
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 1.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-      "source": "mit-tech-review-ai",
-      "source_id": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-      "title": "The AI Hype Index: AI is everywhere",
-      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-      "published_at": "2026-11-18T14:42:44+00:00",
-      "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and…",
-      "name": "MIT Technology Review AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.67,
-        "recommended": false,
-        "relevance_confidence": 0.44,
+        "relevance_confidence": 0.73,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.45,
-          "2": 0.43,
-          "3": 0.12,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.49,
-        "topic_probabilities": {
-          "ai_models_research": 0.3,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.59,
-          "other_technology": 0.11
-        }
-      }
-    },
-    {
-      "id": "github_trending:getarcaneapp/arcane",
-      "source": "github_trending",
-      "source_id": "getarcaneapp/arcane",
-      "title": "getarcaneapp/arcane",
-      "url": "https://github.com/getarcaneapp/arcane",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "Modern Docker Management, Designed for Everyone",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.65,
-        "recommended": false,
-        "relevance_confidence": 0.57,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.41,
-          "2": 0.5,
+          "1": 0.24,
+          "2": 0.68,
           "3": 0.08,
           "4": 0.0
         },
-        "topic": "developer_tools",
-        "topic_confidence": 1.0,
+        "topic": "other_technology",
+        "topic_confidence": 0.9,
         "topic_probabilities": {
           "ai_models_research": 0.0,
-          "developer_tools": 1.0,
-          "hardware_datacenters": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.08,
           "policy_business": 0.0,
-          "other_technology": 0.0
+          "other_technology": 0.92
         }
       }
     },
     {
-      "id": "github_trending:nvm-sh/nvm",
+      "id": "github_trending:nginx/nginx",
       "source": "github_trending",
-      "source_id": "nvm-sh/nvm",
-      "title": "nvm-sh/nvm",
-      "url": "https://github.com/nvm-sh/nvm",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "source_id": "nginx/nginx",
+      "title": "nginx/nginx",
+      "url": "https://github.com/nginx/nginx",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
+      "summary": "The official NGINX Open Source repository.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.36,
+        "relevance_score": 1.31,
         "recommended": false,
-        "relevance_confidence": 0.62,
-        "relevance_probabilities": {
-          "0": 0.04,
-          "1": 0.6,
-          "2": 0.32,
-          "3": 0.03,
-          "4": 0.01
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 1.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "github_trending:jquery/jquery",
-      "source": "github_trending",
-      "source_id": "jquery/jquery",
-      "title": "jquery/jquery",
-      "url": "https://github.com/jquery/jquery",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "jQuery JavaScript Library",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.21,
-        "recommended": false,
-        "relevance_confidence": 0.72,
+        "relevance_confidence": 0.65,
         "relevance_probabilities": {
           "0": 0.07,
-          "1": 0.69,
-          "2": 0.21,
-          "3": 0.03,
+          "1": 0.62,
+          "2": 0.27,
+          "3": 0.04,
           "4": 0.0
         },
         "topic": "developer_tools",
@@ -1545,196 +871,101 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1036693/sony-bravia-8-ii-oled-black-friday-2026-deal-sale",
+      "id": "github_trending:XiaoYouChR/Ghost-Downloader-3",
+      "source": "github_trending",
+      "source_id": "XiaoYouChR/Ghost-Downloader-3",
+      "title": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "published_at": "2026-11-19T13:19:22.373295+00:00",
+      "summary": "The only downloader you need. 下载器的集大成者。",
+      "trending_period": "daily",
+      "trending_page": "https://github.com/trending",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.11,
+        "recommended": false,
+        "relevance_confidence": 0.8,
+        "relevance_probabilities": {
+          "0": 0.07,
+          "1": 0.77,
+          "2": 0.15,
+          "3": 0.01,
+          "4": 0.0
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.95,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.96,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.04
+        }
+      }
+    },
+    {
+      "id": "sec_edgar:000119312526467737",
+      "source": "sec_edgar",
+      "source_id": "000119312526467737",
+      "title": "COHERENT CORP. filed 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526467737/d867801d8k.htm",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "summary": "",
+      "ticker": "COHR",
+      "form": "8-K",
+      "cik": "0000820318",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.89,
+        "recommended": false,
+        "relevance_confidence": 0.45,
+        "relevance_probabilities": {
+          "0": 0.39,
+          "1": 0.41,
+          "2": 0.13,
+          "3": 0.07,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.64,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.01,
+          "hardware_datacenters": 0.11,
+          "policy_business": 0.71,
+          "other_technology": 0.16
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/features/1034740/ketogenic-diet-anorexia-roblox-medical-funding",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1036693/sony-bravia-8-ii-oled-black-friday-2026-deal-sale",
-      "title": "Sony’s impressive Bravia 8 II OLED hits a new low price ahead of Black Friday",
-      "url": "https://www.theverge.com/gadgets/1036693/sony-bravia-8-ii-oled-black-friday-2026-deal-sale",
-      "published_at": "2026-11-18T19:30:00+00:00",
-      "summary": "Black Friday is a great time to save on a new OLED television for your winter movie nights. Though, it turns out that you can already get a great deal on the 65-inch Sony Bravia 8 II, one of our favorite OLED televisions. It’s currently discounted by $1,100 at various retailers, including Amazon, Best Buy, […]",
+      "source_id": "https://www.theverge.com/features/1034740/ketogenic-diet-anorexia-roblox-medical-funding",
+      "title": "Roblox money is pushing a controversial anorexia treatment",
+      "url": "https://www.theverge.com/features/1034740/ketogenic-diet-anorexia-roblox-medical-funding",
+      "published_at": "2026-11-19T12:00:00+00:00",
+      "summary": "In a dark room, a man with a camera makes his pitch: Therapy isn't the first treatment you should get if you have anorexia or bulimia, he says. He's in his late 20s, wearing a backward camo baseball cap and a silver chain. \"Instead of going straight to the therapy, let's do a keto diet […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.19,
+        "relevance_score": 0.85,
         "recommended": false,
-        "relevance_confidence": 0.74,
+        "relevance_confidence": 0.7,
         "relevance_probabilities": {
-          "0": 0.06,
-          "1": 0.7,
-          "2": 0.23,
+          "0": 0.26,
+          "1": 0.65,
+          "2": 0.08,
           "3": 0.01,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 1.0,
+        "topic_confidence": 0.94,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "github_trending:sponsors/sveltejs",
-      "source": "github_trending",
-      "source_id": "sponsors/sveltejs",
-      "title": "sponsors/sveltejs",
-      "url": "https://github.com/sponsors/sveltejs",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "web development for the rest of us",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.13,
-        "recommended": false,
-        "relevance_confidence": 0.76,
-        "relevance_probabilities": {
-          "0": 0.08,
-          "1": 0.73,
-          "2": 0.17,
-          "3": 0.02,
-          "4": 0.0
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 1.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "github_trending:DeanChensj/jiangshan-map",
-      "source": "github_trending",
-      "source_id": "DeanChensj/jiangshan-map",
-      "title": "DeanChensj/jiangshan-map",
-      "url": "https://github.com/DeanChensj/jiangshan-map",
-      "published_at": "2026-11-19T01:54:52.698973+00:00",
-      "summary": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
-      "trending_period": "daily",
-      "trending_page": "https://github.com/trending",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.02,
-        "recommended": false,
-        "relevance_confidence": 0.68,
-        "relevance_probabilities": {
-          "0": 0.18,
-          "1": 0.63,
-          "2": 0.17,
-          "3": 0.02,
-          "4": 0.0
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.75,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.8,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.2
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
-      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
-      "url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
-      "published_at": "2026-11-18T20:07:01+00:00",
-      "summary": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.96,
-        "recommended": false,
-        "relevance_confidence": 0.92,
-        "relevance_probabilities": {
-          "0": 0.07,
-          "1": 0.9,
-          "2": 0.03,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.96,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.02,
-          "other_technology": 0.97
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
-      "title": "Trump’s latest land grab is an AI hub in the Philippines",
-      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
-      "published_at": "2026-11-18T19:40:36+00:00",
-      "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump rallies, as more girls in traditional […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.74,
-        "recommended": false,
-        "relevance_confidence": 0.57,
-        "relevance_probabilities": {
-          "0": 0.39,
-          "1": 0.52,
-          "2": 0.05,
-          "3": 0.04,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.66,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.08,
-          "policy_business": 0.73,
-          "other_technology": 0.18
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
-      "title": "Absolute Batman can save DC Studios",
-      "url": "https://www.theverge.com/entertainment/1035722/absolute-batman-can-save-dc-studios",
-      "published_at": "2026-11-18T21:20:00+00:00",
-      "summary": "With James Gunn and Peter Safran out as the co-heads of DC Studios following Skydance's acquisition of Warner Bros. Discovery, it's unclear what will become of the cinematic universe that was building around movies like last year's Superman. Though Gunn's Man of Tomorrow feature might still come out, it seems like his larger vision for […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.11,
-        "recommended": false,
-        "relevance_confidence": 0.92,
-        "relevance_probabilities": {
-          "0": 0.9,
-          "1": 0.1,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.59,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.33,
-          "other_technology": 0.67
+          "policy_business": 0.05,
+          "other_technology": 0.95
         }
       }
     }
