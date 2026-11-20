@@ -7,6 +7,8 @@ AI research covers new papers, methods, and findings across machine learning: mo
 
 ## Notes
 
+- **2026-11-20** Nvidia's developer blog describes using its Dynamo inference framework to cut rollout bottlenecks in reinforcement learning, where inference workers generate the trajectories that get rewarded; the collected summary stops before any results (vendor post). [NVIDIA](https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/feed/) (primary)
+
 - **2026-11-19** In IEEE Spectrum, Georgetown computer scientist Cal Newport makes three objections to the superintelligence story: recursive self-improvement is speculative because RL post-training gains concentrate where correct answers are easy to generate (code, math); many problems aren't computable or tractable; and rogue-agent incidents reflect open-ended LLM agent loops rather than a hard alignment problem. He cites a Princeton study finding agents "struggle with critical parts of the research life cycle" and notes OpenAI's September goal of an automated researcher by March 2028. Opinion piece. [IEEE Spectrum](https://spectrum.ieee.org/ai-superintelligence-debate) (independent)
 
 - **2026-11-18** Axiom Math's AI swarm completed automatic formal verification of the 15,000-page proof of the Classification of Finite Simple Groups on Oct 25, alongside the 7,500-page Stacks project, per IEEE Spectrum. Uninvolved group theorist Colva Roney-Dougal said she was "really, really surprised." The record doesn't name the proof assistant or compute cost. [IEEE Spectrum](https://spectrum.ieee.org/enormous-theorem-ai) (independent)
