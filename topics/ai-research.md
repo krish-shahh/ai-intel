@@ -7,6 +7,12 @@ AI research covers new papers, methods, and findings across machine learning: mo
 
 ## Notes
 
+- **2026-11-21** METR updated its time-horizon plot: some AI capabilities are still improving on an exponential trajectory, but models do worse on judgment-heavy tasks than on coding, per MIT Technology Review. The collected summary gives no figures or model list. [MIT Technology Review](https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/) (independent)
+
+- **2026-11-21** TechCrunch reports a competing human claim to have solved the Riemann hypothesis, alongside Levent Alpöge's Claude-assisted claim; the summary doesn't name the human author or report outside verification of either. [TechCrunch](https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/) (independent)
+
+- **2026-11-21** Ars Technica reports a researcher planted 2 million canary prompts with unique, trackable secrets into the AI supply chain and found the data doesn't stay private; the summary doesn't name the services involved. [Ars Technica](https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/) (independent)
+
 - **2026-11-20** Anthropic mathematician Levent Alpöge claims he solved the Riemann hypothesis with Claude's help, per The Verge, which says it would be a major result "if verified." His posted PDF drew 1,189 points and 770 comments on Hacker News. The record has no independent verification, formal proof, or detail on Claude's role; compare the August zeta lower-bound result below, which was explicitly not a proof of the hypothesis. [The Verge](https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem) (independent) · [PDF](https://alpo.ge/remark.pdf) (primary) · [HN 50574968](https://news.ycombinator.com/item?id=50574968)
 
 - **2026-11-20** Nvidia's developer blog describes using its Dynamo inference framework to cut rollout bottlenecks in reinforcement learning, where inference workers generate the trajectories that get rewarded; the collected summary stops before any results (vendor post). [NVIDIA](https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/feed/) (primary)
