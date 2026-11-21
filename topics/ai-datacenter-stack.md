@@ -7,6 +7,8 @@ The physical supply chain underneath AI: compute (GPUs, AI accelerators, CPUs, D
 
 ## Notes
 
+- **2026-11-21** Trump promised a "tremendous tax" on companies that build datacenters outside the US, while states and cities restrict new applications to build them, per The Verge; no bill or rate is in the record. TechCrunch says lenders are wary of SpaceX launching their collateral into orbit, which raises financing questions for space datacenters. [The Verge](https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax) (independent) · [TechCrunch](https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/) (independent)
+
 - **2026-11-18** [[nvidia]] says its neocloud loan backstops only kick in once the neocloud has independent financing and the facility is built with Nvidia gear installed, per interim CEO Colette Kress. [TechCrunch](https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/) (independent)
 
 - **2026-11-17** [[nvidia]]'s interim CEO Colette Kress said the company is done selling chips to China; Q3 beat expectations and Nvidia projected continued record revenue. Residents in Red Oak, Texas, protested plans for more datacenters at a joint city meeting. [TechCrunch: China](https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/) · [TechCrunch: guidance](https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/) · [NBC DFW](https://www.nbcdfw.com/news/local/red-oak-residents-push-back-against-plans-for-more-data-centers/4107459/)
