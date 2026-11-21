@@ -1,31 +1,95 @@
 {
-  "generated_at": "2026-11-21T12:42:59.002858+00:00",
+  "generated_at": "2026-11-21T21:40:45.700075+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-21T01:33:22.739667+00:00"
+    "newsapi": "2026-11-21T21:40:45.700075+00:00"
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 0,
+    "hackernews": 1,
     "polymarket": 0,
-    "rss": 1,
+    "rss": 13,
     "arxiv": 0,
-    "sec_edgar": 2,
+    "sec_edgar": 0,
     "github": 0,
     "github_trending": 16,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 98,
     "mediastack": 0
   },
   "items": [
+    {
+      "id": "the-verge:https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "published_at": "2026-11-21T15:00:00+00:00",
+      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.97,
+        "recommended": true,
+        "relevance_confidence": 0.75,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.15,
+          "3": 0.71,
+          "4": 0.13
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.99,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "published_at": "2026-11-21T21:37:10+00:00",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.91,
+        "recommended": true,
+        "relevance_confidence": 0.83,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.13,
+          "3": 0.81,
+          "4": 0.05
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.45,
+        "topic_probabilities": {
+          "ai_models_research": 0.04,
+          "developer_tools": 0.01,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.56,
+          "other_technology": 0.39
+        }
+      }
+    },
     {
       "id": "github_trending:jingyaogong/minimind",
       "source": "github_trending",
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -53,12 +117,44 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "published_at": "2026-11-21T21:07:42+00:00",
+      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.81,
+        "recommended": true,
+        "relevance_confidence": 0.71,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.04,
+          "2": 0.19,
+          "3": 0.69,
+          "4": 0.08
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.56,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.34,
+          "policy_business": 0.65,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
       "id": "github_trending:zhouxiaoka/autoclip",
       "source": "github_trending",
       "source_id": "zhouxiaoka/autoclip",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -86,12 +182,44 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "published_at": "2026-11-21T16:00:00+00:00",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.6,
+        "recommended": true,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.35,
+          "3": 0.63,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.92,
+        "topic_probabilities": {
+          "ai_models_research": 0.05,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.94,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
       "id": "github_trending:firecrawl/firecrawl",
       "source": "github_trending",
       "source_id": "firecrawl/firecrawl",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -124,7 +252,7 @@
       "source_id": "openvinotoolkit/openvino",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -157,7 +285,7 @@
       "source_id": "sponsors/mjmirza",
       "title": "sponsors/mjmirza",
       "url": "https://github.com/sponsors/mjmirza",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -185,12 +313,44 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published_at": "2026-11-21T17:00:00+00:00",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.53,
+        "recommended": true,
+        "relevance_confidence": 0.61,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.45,
+          "3": 0.54,
+          "4": 0.0
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 1.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "github_trending:google-labs-code/stitch-skills",
       "source": "github_trending",
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -223,7 +383,7 @@
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -256,7 +416,7 @@
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -289,7 +449,7 @@
       "source_id": "HKUDS/CLI-Anything",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -317,12 +477,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+      "title": "The FBI and USDA were reportedly hacked",
+      "url": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+      "published_at": "2026-11-21T17:42:27+00:00",
+      "summary": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this time targeting the National Crime Information Center (NCIC), which federal, state, and local law […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.09,
+        "recommended": true,
+        "relevance_confidence": 0.61,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.17,
+          "2": 0.55,
+          "3": 0.26,
+          "4": 0.01
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/obra",
       "source": "github_trending",
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -355,7 +547,7 @@
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -388,7 +580,7 @@
       "source_id": "Tracer-Cloud/opensre",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "The open-source agent for CI/CD reliability.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -416,12 +608,47 @@
       }
     },
     {
+      "id": "hackernews:50591835",
+      "source": "hackernews",
+      "source_id": "50591835",
+      "title": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists",
+      "url": "https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
+      "published_at": "2026-11-21T17:59:59+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50591835",
+      "points": 143,
+      "comments": 275,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.94,
+        "recommended": false,
+        "relevance_confidence": 0.2,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.37,
+          "2": 0.31,
+          "3": 0.27,
+          "4": 0.03
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.46,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.35,
+          "policy_business": 0.57,
+          "other_technology": 0.06
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/toeverything",
       "source": "github_trending",
       "source_id": "sponsors/toeverything",
       "title": "sponsors/toeverything",
       "url": "https://github.com/sponsors/toeverything",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -454,7 +681,7 @@
       "source_id": "sponsors/cathrynlavery",
       "title": "sponsors/cathrynlavery",
       "url": "https://github.com/sponsors/cathrynlavery",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -478,6 +705,70 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review",
+      "title": "The Xiaomi 18 Pro proves two screens aren’t better than one",
+      "url": "https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review",
+      "published_at": "2026-11-21T13:00:00+00:00",
+      "summary": "Xiaomi introduced a second screen to its flagship phones with last year's 17 Pros, but didn't release them outside China. That means the new 18 Pro and Pro Max are the first chance I've had to find out if a screen on the back of a phone is any more useful now than it was […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.83,
+        "recommended": false,
+        "relevance_confidence": 0.73,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.24,
+          "2": 0.68,
+          "3": 0.08,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+      "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+      "published_at": "2026-11-21T16:00:00+00:00",
+      "summary": "Amazon only announced its first digital photo frame less than a month ago, but it’s already getting a sizable discount for Black Friday. You can currently grab the Alexa Photo Frame at Amazon and Best Buy starting at $114 ($115 off), making it a great holiday gift for anyone who loves displaying family photos. If […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.62,
+        "recommended": false,
+        "relevance_confidence": 0.57,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.44,
+          "2": 0.49,
+          "3": 0.07,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.99
         }
       }
     },
@@ -514,12 +805,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "published_at": "2026-11-21T14:00:00+00:00",
+      "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.43,
+        "recommended": false,
+        "relevance_confidence": 0.59,
+        "relevance_probabilities": {
+          "0": 0.04,
+          "1": 0.59,
+          "2": 0.29,
+          "3": 0.08,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.61,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.31,
+          "other_technology": 0.69
+        }
+      }
+    },
+    {
       "id": "github_trending:nginx/nginx",
       "source": "github_trending",
       "source_id": "nginx/nginx",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "The official NGINX Open Source repository.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -547,12 +870,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
+      "title": "Our go-to earbuds for taking calls have fallen to their lowest price to date",
+      "url": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
+      "published_at": "2026-11-21T14:55:28+00:00",
+      "summary": "If you’re looking for a new pair of earbuds, the Soundcore Liberty 5 Pro are on sale for $129.99 at Amazon, Best Buy, and Walmart right now. That’s the lowest price we’ve seen for Anker’s excellent wireless earbuds, which normally retail for $169.99 and come in four colors (black, white, blue, and pink) all of […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.19,
+        "recommended": false,
+        "relevance_confidence": 0.75,
+        "relevance_probabilities": {
+          "0": 0.05,
+          "1": 0.71,
+          "2": 0.23,
+          "3": 0.01,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
       "id": "github_trending:XiaoYouChR/Ghost-Downloader-3",
       "source": "github_trending",
       "source_id": "XiaoYouChR/Ghost-Downloader-3",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "published_at": "2026-11-21T12:44:34.090859+00:00",
+      "published_at": "2026-11-21T21:42:18.844384+00:00",
       "summary": "The only downloader you need. 下载器的集大成者。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -578,9 +933,109 @@
           "other_technology": 0.04
         }
       }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1039433/gta-vi-alfred-6-clockwisetv-installer",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1039433/gta-vi-alfred-6-clockwisetv-installer",
+      "title": "The game of the year is finally here",
+      "url": "https://www.theverge.com/tech/1039433/gta-vi-alfred-6-clockwisetv-installer",
+      "published_at": "2026-11-21T13:00:00+00:00",
+      "summary": "Hi, friends! Welcome to Installer No. 153, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, thank you for tearing yourself away from GTA to be here, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about nuclear radiation […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.78,
+        "recommended": false,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.3,
+          "1": 0.63,
+          "2": 0.05,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview",
+      "title": "John Roberts, the voice of Linda Belcher, is just happy to finish a thing",
+      "url": "https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview",
+      "published_at": "2026-11-21T16:00:00+00:00",
+      "summary": "You probably know John Roberts best as the voice of Linda Belcher on Bob's Burgers. The show just wrapped up its 16th season and shows no signs of slowing down anytime soon. The show remains a reliable source of laughs, top-notch puns, and frankly wholesome fun. Comedy is just part of Roberts' life, however. In […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.02,
+        "recommended": false,
+        "relevance_confidence": 0.98,
+        "relevance_probabilities": {
+          "0": 0.98,
+          "1": 0.02,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
     }
   ],
   "reddit": [],
-  "hn": [],
+  "hn": [
+    {
+      "id": "hackernews:50591835",
+      "source": "hackernews",
+      "source_id": "50591835",
+      "title": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists",
+      "url": "https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
+      "published_at": "2026-11-21T17:59:59+00:00",
+      "summary": "",
+      "thread_url": "https://news.ycombinator.com/item?id=50591835",
+      "points": 143,
+      "comments": 275,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.94,
+        "recommended": false,
+        "relevance_confidence": 0.2,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.37,
+          "2": 0.31,
+          "3": 0.27,
+          "4": 0.03
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.46,
+        "topic_probabilities": {
+          "ai_models_research": 0.02,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.35,
+          "policy_business": 0.57,
+          "other_technology": 0.06
+        }
+      }
+    }
+  ],
   "polymarket": []
 }
