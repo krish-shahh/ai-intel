@@ -1,53 +1,117 @@
 {
-  "generated_at": "2026-11-20T16:59:15.114666+00:00",
+  "generated_at": "2026-11-21T01:33:22.739667+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-20T07:23:14.687428+00:00"
+    "newsapi": "2026-11-21T01:33:22.739667+00:00"
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 1,
+    "hackernews": 0,
     "polymarket": 0,
-    "rss": 13,
+    "rss": 19,
     "arxiv": 0,
-    "sec_edgar": 0,
+    "sec_edgar": 2,
     "github": 0,
     "github_trending": 16,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 98,
     "mediastack": 0
   },
   "items": [
     {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "published_at": "2026-11-20T12:30:47+00:00",
-      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president […]",
-      "name": "The Verge",
+      "id": "ars-technica-technology:https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "source": "ars-technica-technology",
+      "source_id": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "published_at": "2026-11-20T20:59:08+00:00",
+      "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+      "name": "Ars Technica Technology",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.11,
+        "relevance_score": 3.44,
         "recommended": true,
-        "relevance_confidence": 0.86,
+        "relevance_confidence": 0.62,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.0,
-          "2": 0.03,
-          "3": 0.83,
+          "2": 0.01,
+          "3": 0.54,
+          "4": 0.45
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.99,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "published_at": "2026-11-20T18:50:19+00:00",
+      "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.09,
+        "recommended": true,
+        "relevance_confidence": 0.85,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.04,
+          "3": 0.82,
           "4": 0.14
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.25,
+        "topic": "policy_business",
+        "topic_confidence": 0.89,
         "topic_probabilities": {
-          "ai_models_research": 0.23,
-          "developer_tools": 0.02,
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.09,
+          "policy_business": 0.91,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+      "title": "Google says it’s going to shut off Google Assistant on smart speakers next year",
+      "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+      "published_at": "2026-11-20T18:00:00+00:00",
+      "summary": "Google is announcing some significant changes to its smart home software. Starting next year, the company will shut down the Nest app in favor of the Google Home app and retire Google Assistant on its smart home devices. The Nest app shutdown takes place on January 25th, 2027, meaning you'll have to manage your Nest […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.05,
+        "recommended": true,
+        "relevance_confidence": 0.83,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.07,
+          "3": 0.8,
+          "4": 0.13
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.39,
+        "topic_probabilities": {
+          "ai_models_research": 0.06,
+          "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.35,
-          "other_technology": 0.4
+          "policy_business": 0.43,
+          "other_technology": 0.51
         }
       }
     },
@@ -58,7 +122,7 @@
       "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
       "published_at": "2026-11-20T16:34:13+00:00",
-      "summary": "Anthropic mathematician Levent Alpöge claims he has solved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval […]",
+      "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
@@ -80,6 +144,38 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.04
+        }
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "source": "mit-tech-review-ai",
+      "source_id": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "published_at": "2026-11-20T18:15:15+00:00",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
+      "name": "MIT Technology Review AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.03,
+        "recommended": true,
+        "relevance_confidence": 0.86,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.07,
+          "3": 0.83,
+          "4": 0.1
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 1.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
         }
       }
     },
@@ -116,34 +212,34 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/transportation/1037667/waymo-serve-robotics-ditch-uber-autonomous-partnerships",
+      "id": "the-verge:https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/transportation/1037667/waymo-serve-robotics-ditch-uber-autonomous-partnerships",
-      "title": "Why the robots are ditching Uber",
-      "url": "https://www.theverge.com/transportation/1037667/waymo-serve-robotics-ditch-uber-autonomous-partnerships",
-      "published_at": "2026-11-20T12:00:00+00:00",
-      "summary": "In a late August earnings call, Uber CEO Dara Khosrowshahi sounded optimistic about his company's \"very strong\" partnership with Waymo, the global leader in autonomous robotaxis. The two companies had been working together for years in several cities - including exclusively in Austin and Atlanta - and things were going swimmingly, according to Khosrowshahi. \"We […]",
+      "source_id": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+      "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
+      "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+      "published_at": "2026-11-20T20:43:52+00:00",
+      "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement \"in principle,\" and that the deal would also include new safeguards for teens. The settlement would allow Google to avoid a wave […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.98,
+        "relevance_score": 2.93,
         "recommended": true,
-        "relevance_confidence": 0.83,
+        "relevance_confidence": 0.81,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.01,
-          "2": 0.09,
-          "3": 0.81,
-          "4": 0.09
+          "1": 0.02,
+          "2": 0.11,
+          "3": 0.79,
+          "4": 0.08
         },
         "topic": "policy_business",
-        "topic_confidence": 0.95,
+        "topic_confidence": 0.94,
         "topic_probabilities": {
-          "ai_models_research": 0.01,
+          "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.96,
-          "other_technology": 0.03
+          "policy_business": 0.95,
+          "other_technology": 0.05
         }
       }
     },
@@ -153,7 +249,7 @@
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -186,7 +282,7 @@
       "source_id": "zhouxiaoka/autoclip",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -219,8 +315,8 @@
       "source_id": "firecrawl/firecrawl",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
-      "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
+      "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
@@ -252,7 +348,7 @@
       "source_id": "openvinotoolkit/openvino",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -285,7 +381,7 @@
       "source_id": "sponsors/mjmirza",
       "title": "sponsors/mjmirza",
       "url": "https://github.com/sponsors/mjmirza",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -313,12 +409,44 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "published_at": "2026-11-20T19:32:08+00:00",
+      "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.43,
+        "recommended": true,
+        "relevance_confidence": 0.35,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.18,
+          "2": 0.31,
+          "3": 0.4,
+          "4": 0.11
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.69,
+        "topic_probabilities": {
+          "ai_models_research": 0.75,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.25
+        }
+      }
+    },
+    {
       "id": "github_trending:google-labs-code/stitch-skills",
       "source": "github_trending",
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -351,7 +479,7 @@
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -384,7 +512,7 @@
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -412,34 +540,34 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
-      "title": "The week everything fell apart",
-      "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
-      "published_at": "2026-11-20T14:06:59+00:00",
-      "summary": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of something even bigger. On […]",
-      "name": "The Verge",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "title": "Chips can survive the space environment — can their financing?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "published_at": "2026-11-20T17:40:01+00:00",
+      "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+      "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.17,
+        "relevance_score": 2.2,
         "recommended": true,
-        "relevance_confidence": 0.57,
+        "relevance_confidence": 0.49,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.17,
-          "2": 0.51,
-          "3": 0.29,
-          "4": 0.03
+          "1": 0.2,
+          "2": 0.4,
+          "3": 0.39,
+          "4": 0.01
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.96,
+        "topic": "policy_business",
+        "topic_confidence": 0.55,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.03,
-          "policy_business": 0.0,
-          "other_technology": 0.97
+          "hardware_datacenters": 0.35,
+          "policy_business": 0.64,
+          "other_technology": 0.01
         }
       }
     },
@@ -476,44 +604,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/policy/1038450/facebook-myanmar-genocide-un",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/policy/1038450/facebook-myanmar-genocide-un",
-      "title": "UN court cites military Facebook posts while finding Myanmar guilty of genocide",
-      "url": "https://www.theverge.com/policy/1038450/facebook-myanmar-genocide-un",
-      "published_at": "2026-11-20T15:02:13+00:00",
-      "summary": "In its ruling that Myanmar committed state-sponsored genocide against the Rohingya people in 2016 and 2017, the United Nations' top court says that Facebook played a role in helping Myanmar's military spread hate speech against its Muslim minority. The ruling from the International Court of Justice determined that Facebook posts made by the country's military […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.12,
-        "recommended": true,
-        "relevance_confidence": 0.5,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.22,
-          "2": 0.43,
-          "3": 0.32,
-          "4": 0.02
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.68,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.26,
-          "other_technology": 0.74
-        }
-      }
-    },
-    {
       "id": "github_trending:HKUDS/CLI-Anything",
       "source": "github_trending",
       "source_id": "HKUDS/CLI-Anything",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -546,7 +642,7 @@
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -574,12 +670,44 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "published_at": "2026-11-20T19:53:41+00:00",
+      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.05,
+        "recommended": true,
+        "relevance_confidence": 0.51,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.27,
+          "2": 0.41,
+          "3": 0.32,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.45,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.26,
+          "policy_business": 0.56,
+          "other_technology": 0.18
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/elementalsouls",
       "source": "github_trending",
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -612,7 +740,7 @@
       "source_id": "Tracer-Cloud/opensre",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "The open-source agent for CI/CD reliability.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -645,7 +773,7 @@
       "source_id": "sponsors/toeverything",
       "title": "sponsors/toeverything",
       "url": "https://github.com/sponsors/toeverything",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -678,7 +806,7 @@
       "source_id": "sponsors/cathrynlavery",
       "title": "sponsors/cathrynlavery",
       "url": "https://github.com/sponsors/cathrynlavery",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -774,12 +902,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale",
+      "title": "Multiplying your Switch 2’s storage costs less than usual right now",
+      "url": "https://www.theverge.com/gadgets/1037749/microsd-express-card-nintendo-switch-2-black-friday-2026-deal-sale",
+      "published_at": "2026-11-20T18:15:00+00:00",
+      "summary": "Expanding your Nintendo Switch 2’s 256GB of built-in storage with a microSD card is pricier than it was with Nintendo’s original console. That’s because microSD Express cards, while physically identical to ones you might have lying around, have faster read and write speeds. Thankfully, Samsung’s 256GB model has dropped to $44.99 at Amazon ahead of […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.41,
+        "recommended": false,
+        "relevance_confidence": 0.62,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.56,
+          "2": 0.39,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.0,
+          "other_technology": 0.99
+        }
+      }
+    },
+    {
       "id": "github_trending:nginx/nginx",
       "source": "github_trending",
       "source_id": "nginx/nginx",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "The official NGINX Open Source repository.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -807,37 +967,98 @@
       }
     },
     {
-      "id": "hackernews:50574968",
-      "source": "hackernews",
-      "source_id": "50574968",
-      "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
-      "url": "https://alpo.ge/remark.pdf",
-      "published_at": "2026-11-20T14:16:21+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50574968",
-      "points": 1189,
-      "comments": 770,
-      "matched_term": "Anthropic",
+      "id": "the-verge:https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth",
+      "title": "Teenage Engineering’s first CD player puts the spinning disc on display",
+      "url": "https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth",
+      "published_at": "2026-11-20T17:05:52+00:00",
+      "summary": "Teenage Engineering announced what it describes as \"a modern take on a classic CD player\" with its new EP/BC-1 featuring a slab-like design that leaves the spinning disc exposed instead of hiding it under a lid or inside a slide-out tray. The company says the EP/BC-1 is the first entry in its new broadcast series […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.31,
+        "relevance_score": 1.25,
         "recommended": false,
-        "relevance_confidence": 0.55,
+        "relevance_confidence": 0.74,
         "relevance_probabilities": {
-          "0": 0.12,
-          "1": 0.63,
-          "2": 0.1,
-          "3": 0.13,
-          "4": 0.02
+          "0": 0.03,
+          "1": 0.71,
+          "2": 0.24,
+          "3": 0.02,
+          "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.74,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
-          "ai_models_research": 0.21,
+          "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
-          "other_technology": 0.79
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+      "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+      "published_at": "2026-11-20T19:15:00+00:00",
+      "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up at a new low price of $379.99 ($420 off its original price) at Amazon, Best Buy, or directly from Eufy […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.14,
+        "recommended": false,
+        "relevance_confidence": 0.84,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.81,
+          "2": 0.16,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
+      "title": "Here are the Apple deals actually worth picking up ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
+      "published_at": "2026-11-20T17:33:59+00:00",
+      "summary": "A new pair of AirPods or the latest Apple Watch can make a great holiday gift, but they can also take a pretty big dent out of your budget. That’s especially true this year, as rising hardware prices have made MacBooks and other Apple devices even more expensive. Fortunately, Black Friday offers a chance to […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.13,
+        "recommended": false,
+        "relevance_confidence": 0.81,
+        "relevance_probabilities": {
+          "0": 0.05,
+          "1": 0.78,
+          "2": 0.16,
+          "3": 0.01,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.99
         }
       }
     },
@@ -847,7 +1068,7 @@
       "source_id": "XiaoYouChR/Ghost-Downloader-3",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "published_at": "2026-11-20T17:02:18.001358+00:00",
+      "published_at": "2026-11-21T01:34:56.587036+00:00",
       "summary": "The only downloader you need. 下载器的集大成者。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -875,66 +1096,34 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+      "id": "the-verge:https://www.theverge.com/games/1036279/gta-vi-sales",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-      "title": "The best early Black Friday deals you can already shop",
-      "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-      "published_at": "2026-11-20T15:53:25+00:00",
-      "summary": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low price. But […]",
+      "source_id": "https://www.theverge.com/games/1036279/gta-vi-sales",
+      "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+      "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
+      "published_at": "2026-11-20T19:35:06+00:00",
+      "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million preorder copies. \"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.04,
+        "relevance_score": 0.86,
         "recommended": false,
-        "relevance_confidence": 0.87,
+        "relevance_confidence": 0.69,
         "relevance_probabilities": {
-          "0": 0.06,
-          "1": 0.84,
-          "2": 0.1,
-          "3": 0.0,
+          "0": 0.26,
+          "1": 0.65,
+          "2": 0.07,
+          "3": 0.02,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 1.0,
+        "topic_confidence": 0.75,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/entertainment/1037545/gta-6-discussion",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/entertainment/1037545/gta-6-discussion",
-      "title": "Let’s talk about GTA VI",
-      "url": "https://www.theverge.com/entertainment/1037545/gta-6-discussion",
-      "published_at": "2026-11-20T15:00:00+00:00",
-      "summary": "It's hard to believe, but Grand Theft Auto VI is now a real thing that we all can play. Thirteen years after GTA V, and eight years since Red Dead Redemption 2, Rockstar is back with its latest sprawling, extravagant open world. There's a lot to experience - and a lot to talk about. Perhaps […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.44,
-        "recommended": false,
-        "relevance_confidence": 0.63,
-        "relevance_probabilities": {
-          "0": 0.57,
-          "1": 0.42,
-          "2": 0.01,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
+          "policy_business": 0.2,
+          "other_technology": 0.8
         }
       }
     },
@@ -969,77 +1158,9 @@
           "other_technology": 1.0
         }
       }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/entertainment/1038410/andrey-zvyagintsev-minotaur-interview-director",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/entertainment/1038410/andrey-zvyagintsev-minotaur-interview-director",
-      "title": "Andrey Zvyagintsev believes filmmakers know what the audience wants — not executives",
-      "url": "https://www.theverge.com/entertainment/1038410/andrey-zvyagintsev-minotaur-interview-director",
-      "published_at": "2026-11-20T16:00:00+00:00",
-      "summary": "The year is 2022. Vladimir Putin has announced the military draft. In Andrey Zvyagintsev's Minotaur, set in the fictional town of Krasoborsk, a quietly unhappy couple, called Gleb and Galina, carry on with their lives, or try to, geopolitics notwithstanding. For Galina, carrying on means an affair, which we deduce from a scene of her […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.03,
-        "recommended": false,
-        "relevance_confidence": 0.98,
-        "relevance_probabilities": {
-          "0": 0.97,
-          "1": 0.03,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
-        }
-      }
     }
   ],
   "reddit": [],
-  "hn": [
-    {
-      "id": "hackernews:50574968",
-      "source": "hackernews",
-      "source_id": "50574968",
-      "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
-      "url": "https://alpo.ge/remark.pdf",
-      "published_at": "2026-11-20T14:16:21+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50574968",
-      "points": 1189,
-      "comments": 770,
-      "matched_term": "Anthropic",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.31,
-        "recommended": false,
-        "relevance_confidence": 0.55,
-        "relevance_probabilities": {
-          "0": 0.12,
-          "1": 0.63,
-          "2": 0.1,
-          "3": 0.13,
-          "4": 0.02
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.74,
-        "topic_probabilities": {
-          "ai_models_research": 0.21,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.79
-        }
-      }
-    }
-  ],
+  "hn": [],
   "polymarket": []
 }
