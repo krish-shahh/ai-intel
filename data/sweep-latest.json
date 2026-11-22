@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-22T06:56:46.147146+00:00",
+  "generated_at": "2026-11-22T16:19:31.501940+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-21T21:40:45.700075+00:00"
+    "newsapi": "2026-11-22T16:19:31.501940+00:00"
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 2,
+    "hackernews": 0,
     "polymarket": 0,
     "rss": 6,
     "arxiv": 0,
@@ -15,84 +15,17 @@
     "github": 8,
     "github_trending": 16,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 98,
     "mediastack": 0
   },
   "items": [
-    {
-      "id": "hackernews:50595233",
-      "source": "hackernews",
-      "source_id": "50595233",
-      "title": "SoftBank explored $1T buyout of SK Hynix",
-      "url": "https://www.reuters.com/world/asia-pacific/softbanks-son-explored-1-trillion-buyout-sk-hynix-information-reports-2026-11-21/",
-      "published_at": "2026-11-22T01:08:17+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50595233",
-      "points": 13,
-      "comments": 2,
-      "matched_term": "SK Hynix",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.06,
-        "recommended": true,
-        "relevance_confidence": 0.45,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.07,
-          "2": 0.14,
-          "3": 0.43,
-          "4": 0.35
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.7,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.24,
-          "policy_business": 0.76,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-      "published_at": "2026-11-21T21:37:10+00:00",
-      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.91,
-        "recommended": true,
-        "relevance_confidence": 0.83,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.13,
-          "3": 0.81,
-          "4": 0.05
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.45,
-        "topic_probabilities": {
-          "ai_models_research": 0.04,
-          "developer_tools": 0.01,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.56,
-          "other_technology": 0.39
-        }
-      }
-    },
     {
       "id": "github_trending:jingyaogong/minimind",
       "source": "github_trending",
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -120,44 +53,12 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "title": "A tale of two Nvidias",
-      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "published_at": "2026-11-21T21:07:42+00:00",
-      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.81,
-        "recommended": true,
-        "relevance_confidence": 0.71,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.04,
-          "2": 0.19,
-          "3": 0.69,
-          "4": 0.08
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.56,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.34,
-          "policy_business": 0.65,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
       "id": "github_trending:zhouxiaoka/autoclip",
       "source": "github_trending",
       "source_id": "zhouxiaoka/autoclip",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -190,7 +91,7 @@
       "source_id": "firecrawl/firecrawl",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -223,7 +124,7 @@
       "source_id": "openvinotoolkit/openvino",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -256,8 +157,8 @@
       "source_id": "sponsors/mjmirza",
       "title": "sponsors/mjmirza",
       "url": "https://github.com/sponsors/mjmirza",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
-      "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
@@ -284,76 +185,12 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "published_at": "2026-11-21T17:00:00+00:00",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.53,
-        "recommended": true,
-        "relevance_confidence": 0.61,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.45,
-          "3": 0.54,
-          "4": 0.0
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 1.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-      "title": "The UN fails to agree on rules regulating ‘killer robots’",
-      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-      "published_at": "2026-11-21T20:03:37+00:00",
-      "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.47,
-        "recommended": true,
-        "relevance_confidence": 0.55,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.04,
-          "2": 0.45,
-          "3": 0.5,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 1.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
       "id": "github_trending:google-labs-code/stitch-skills",
       "source": "github_trending",
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -386,7 +223,7 @@
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -419,7 +256,7 @@
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -447,12 +284,108 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast",
+      "title": "‘The show is starting soon. Please turn on your headphones.’",
+      "url": "https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast",
+      "published_at": "2026-11-22T14:00:00+00:00",
+      "summary": "Up a few concrete steps and through the front door of a 200-year-old row house in New York City, I follow a crowd of people into the 178-seat SoHo Playhouse. As we filter to our seats, ushers hand each person a black drawstring bag with a pair of wired headphones connected to a small Auracast […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.16,
+        "recommended": true,
+        "relevance_confidence": 0.61,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.15,
+          "2": 0.54,
+          "3": 0.3,
+          "4": 0.01
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "published_at": "2026-11-22T13:00:00+00:00",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.14,
+        "recommended": true,
+        "relevance_confidence": 0.57,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.19,
+          "2": 0.49,
+          "3": 0.31,
+          "4": 0.01
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.3,
+        "topic_probabilities": {
+          "ai_models_research": 0.36,
+          "developer_tools": 0.44,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.01,
+          "other_technology": 0.18
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
+      "title": "Your questions about Apple HomeView’s audio, answered",
+      "url": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
+      "published_at": "2026-11-22T13:00:00+00:00",
+      "summary": "After I published my review of the HomeView, Apple's first smart display, y'all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. Here […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.12,
+        "recommended": true,
+        "relevance_confidence": 0.78,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.07,
+          "2": 0.74,
+          "3": 0.19,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
       "id": "github_trending:HKUDS/CLI-Anything",
       "source": "github_trending",
       "source_id": "HKUDS/CLI-Anything",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -480,44 +413,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1039543/fbi-usda-hacked",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
-      "title": "The FBI and USDA were reportedly hacked",
-      "url": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
-      "published_at": "2026-11-21T17:42:27+00:00",
-      "summary": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this time targeting the National Crime Information Center (NCIC), which federal, state, and local law […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.09,
-        "recommended": true,
-        "relevance_confidence": 0.61,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.17,
-          "2": 0.55,
-          "3": 0.26,
-          "4": 0.01
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/obra",
       "source": "github_trending",
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -550,7 +451,7 @@
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -583,7 +484,7 @@
       "source_id": "Tracer-Cloud/opensre",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "The open-source agent for CI/CD reliability.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -611,47 +512,12 @@
       }
     },
     {
-      "id": "hackernews:50591835",
-      "source": "hackernews",
-      "source_id": "50591835",
-      "title": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists",
-      "url": "https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
-      "published_at": "2026-11-21T17:59:59+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50591835",
-      "points": 165,
-      "comments": 351,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.94,
-        "recommended": false,
-        "relevance_confidence": 0.2,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.37,
-          "2": 0.31,
-          "3": 0.27,
-          "4": 0.03
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.46,
-        "topic_probabilities": {
-          "ai_models_research": 0.02,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.35,
-          "policy_business": 0.57,
-          "other_technology": 0.06
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/toeverything",
       "source": "github_trending",
       "source_id": "sponsors/toeverything",
       "title": "sponsors/toeverything",
       "url": "https://github.com/sponsors/toeverything",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -684,7 +550,7 @@
       "source_id": "sponsors/cathrynlavery",
       "title": "sponsors/cathrynlavery",
       "url": "https://github.com/sponsors/cathrynlavery",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -712,90 +578,34 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
+      "id": "the-verge:https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
-      "title": "Amazon is complaining about NYC Council on shipping labels, too",
-      "url": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
-      "published_at": "2026-11-21T21:59:31+00:00",
-      "summary": "Amazon is leaving no venue unexplored in its fight against the New York City Council and the Delivery Protection Act. The company is now putting labels on shipments claiming that the Council could add up to $5 to any Amazon order. The Delivery Protection Act would effectively ban the sort of third-party arrangements Amazon currently […]",
+      "source_id": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
+      "title": "Protesters storm Meta offices in India",
+      "url": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
+      "published_at": "2026-11-22T15:15:07+00:00",
+      "summary": "Members of the opposition Congress party protested outside Meta's offices in Delhi on Friday and appear to have entered the building in a video shared by CNN. Members of the party's youth wing are demanding the company restore accounts of party leaders and warned of more protests to come. The Congress party has criticized Meta […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.63,
+        "relevance_score": 1.74,
         "recommended": false,
-        "relevance_confidence": 0.34,
+        "relevance_confidence": 0.55,
         "relevance_probabilities": {
-          "0": 0.08,
-          "1": 0.41,
-          "2": 0.31,
-          "3": 0.2,
+          "0": 0.01,
+          "1": 0.38,
+          "2": 0.47,
+          "3": 0.14,
           "4": 0.0
         },
         "topic": "policy_business",
-        "topic_confidence": 0.96,
+        "topic_confidence": 0.5,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.97,
-          "other_technology": 0.03
-        }
-      }
-    },
-    {
-      "id": "github:GuzmanJacqueline93/copy-ai-pro-win",
-      "source": "github",
-      "source_id": "GuzmanJacqueline93/copy-ai-pro-win",
-      "title": "GuzmanJacqueline93/copy-ai-pro-win",
-      "url": "https://github.com/GuzmanJacqueline93/copy-ai-pro-win",
-      "published_at": "2026-11-21T17:04:23+00:00",
-      "summary": "Copy Ai Pro - AI copywriting assistant for content generation, tone rewriting and SEO text optimization on Windows 10/11",
-      "stars": 142,
-      "language": null,
-      "topics": [
-        "ai",
-        "ai-art",
-        "ai-tools",
-        "ai-writing",
-        "artificial-intelligence",
-        "copy",
-        "copy-detection",
-        "copy-files",
-        "copy-move-detection",
-        "copy-on-write",
-        "copy-paste",
-        "copywriting",
-        "deepcopy",
-        "dukascopy",
-        "generative-ai",
-        "image-generation",
-        "llm",
-        "pro",
-        "text-to-image",
-        "voice-cloning"
-      ],
-      "updated_at": "2026-11-22T06:56:37Z",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.4,
-        "recommended": false,
-        "relevance_confidence": 0.64,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.61,
-          "2": 0.33,
-          "3": 0.04,
-          "4": 0.0
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.82,
-        "topic_probabilities": {
-          "ai_models_research": 0.86,
-          "developer_tools": 0.13,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.01
+          "policy_business": 0.6,
+          "other_technology": 0.4
         }
       }
     },
@@ -805,7 +615,7 @@
       "source_id": "nginx/nginx",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "The official NGINX Open Source repository.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -833,12 +643,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale",
+      "title": "Nintendo’s Switch 2 console is $50 off for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale",
+      "published_at": "2026-11-22T14:00:00+00:00",
+      "summary": "Those hoping to save some cash on a Nintendo Switch 2 can do so starting today, November 22nd, through Saturday, December 5th, giving you plenty of time to think about it after Cyber Monday has passed. For a limited time, Nintendo has knocked $50 off one of its two current console bundles, temporarily rolling back […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.13,
+        "recommended": false,
+        "relevance_confidence": 0.73,
+        "relevance_probabilities": {
+          "0": 0.09,
+          "1": 0.71,
+          "2": 0.17,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.02,
+          "other_technology": 0.98
+        }
+      }
+    },
+    {
       "id": "github_trending:XiaoYouChR/Ghost-Downloader-3",
       "source": "github_trending",
       "source_id": "XiaoYouChR/Ghost-Downloader-3",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "published_at": "2026-11-22T06:58:23.995242+00:00",
+      "published_at": "2026-11-22T16:21:04.040733+00:00",
       "summary": "The only downloader you need. 下载器的集大成者。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -864,80 +706,41 @@
           "other_technology": 0.04
         }
       }
-    }
-  ],
-  "reddit": [],
-  "hn": [
-    {
-      "id": "hackernews:50591835",
-      "source": "hackernews",
-      "source_id": "50591835",
-      "title": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists",
-      "url": "https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
-      "published_at": "2026-11-21T17:59:59+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50591835",
-      "points": 165,
-      "comments": 351,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.94,
-        "recommended": false,
-        "relevance_confidence": 0.2,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.37,
-          "2": 0.31,
-          "3": 0.27,
-          "4": 0.03
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.46,
-        "topic_probabilities": {
-          "ai_models_research": 0.02,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.35,
-          "policy_business": 0.57,
-          "other_technology": 0.06
-        }
-      }
     },
     {
-      "id": "hackernews:50595233",
-      "source": "hackernews",
-      "source_id": "50595233",
-      "title": "SoftBank explored $1T buyout of SK Hynix",
-      "url": "https://www.reuters.com/world/asia-pacific/softbanks-son-explored-1-trillion-buyout-sk-hynix-information-reports-2026-11-21/",
-      "published_at": "2026-11-22T01:08:17+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50595233",
-      "points": 13,
-      "comments": 2,
-      "matched_term": "SK Hynix",
+      "id": "the-verge:https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
+      "title": "How Tamagotchis got us hooked on digital pets",
+      "url": "https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
+      "published_at": "2026-11-22T13:15:27+00:00",
+      "summary": "If you were are a kid in the late 1990s, there's a near-100 percent chance you either had a Tamagotchi or knew someone who did. The tiny digital pets came out of nowhere and became an overnight sensation, as millions of kids signed up to parent a crying, hungry, constantly dirty creature. Until they went […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.06,
-        "recommended": true,
-        "relevance_confidence": 0.45,
+        "relevance_score": 0.75,
+        "recommended": false,
+        "relevance_confidence": 0.77,
         "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.07,
-          "2": 0.14,
-          "3": 0.43,
-          "4": 0.35
+          "0": 0.26,
+          "1": 0.73,
+          "2": 0.01,
+          "3": 0.0,
+          "4": 0.0
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.7,
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.24,
-          "policy_business": 0.76,
-          "other_technology": 0.0
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     }
   ],
+  "reddit": [],
+  "hn": [],
   "polymarket": []
 }
