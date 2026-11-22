@@ -7,6 +7,8 @@ Dev tools covers the editors, CLIs, and services developers use to build with AI
 
 ## Notes
 
+- **2026-11-22** The Verge's Stepback newsletter (David Pierce) argues vibe coding is coming to gadgets like TVs and cameras; the collected summary stops before the specifics. On GitHub trending, the App Store and Google Play rejection playbook now lists 124 rejection patterns and 112 tracked deadlines, up from 117 and 95. [The Verge](https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera) (independent) · [Rejection playbook](https://github.com/sponsors/mjmirza)
+
 - **2026-11-20** New on GitHub daily trending: an App Store and Google Play rejection playbook with 117 documented patterns, privacy-manifest and Data safety checks, 95 tracked regulatory deadlines, and a skill for AI coding agents (linked via the author's sponsors page), and `zhouxiaoka/autoclip`, an open-source desktop tool that turns long videos into short clips with subtitles and post copy. [mjmirza](https://github.com/sponsors/mjmirza) · [autoclip](https://github.com/zhouxiaoka/autoclip)
 
 - **2026-11-19** On GitHub daily trending: `jingyaogong/minimind` (train a 64M-parameter LLM from scratch in about two hours), `firecrawl/firecrawl` (search, scraping, and 550+ data providers through one API for agents), `Tracer-Cloud/opensre` (an open-source agent for CI/CD reliability), and `mvanhorn/last30days-skill` (an agent skill that researches a topic across Reddit, X, YouTube, HN, Polymarket, and the web). [minimind](https://github.com/jingyaogong/minimind) · [firecrawl](https://github.com/firecrawl/firecrawl) · [opensre](https://github.com/Tracer-Cloud/opensre) · [last30days-skill](https://github.com/mvanhorn/last30days-skill)
