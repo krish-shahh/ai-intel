@@ -9,6 +9,8 @@ SK Hynix is the leading supplier of High Bandwidth Memory (HBM), the stacked-DRA
 
 ## Recent
 
+- **2026-11-22** SoftBank's Masayoshi Son explored a $1 trillion buyout of SK Hynix, per The Information as relayed by Reuters. The collected record is headline-only, so the timing, structure, and whether talks are ongoing are unknown; no comment from either company is in the record. [Reuters](https://www.reuters.com/world/asia-pacific/softbanks-son-explored-1-trillion-buyout-sk-hynix-information-reports-2026-11-21/) (independent)
+
 - **2026-10-28** Posted record Q3 2026 results: revenue crossed KRW 100 trillion for the first time, operating profit KRW 83.3 trillion on an 80% margin, a sixth straight record quarter. HBM4 moved to full-scale mass production and is expected to pass HBM3E in Q4. Management outlined roughly $75.4B in 2026 shareholder returns. [Fool.com transcript](https://www.fool.com/earnings/call-transcripts/2026/10/28/sk-hynix-skhy-q3-2026-earnings-call-transcript/) (primary) · [Investing.com](https://www.investing.com/news/company-news/sk-hynix-q3-2026-slides-revenue-tops-100t-80-margin-on-ai-boom-93CH-4977357) (independent)
 
 - **2026-10-08** Samsung's Q3 2026 preliminary print landed: operating profit above ₩107 trillion (~$75B), up 782% year over year, topping 100 trillion won for the first time on a quarterly basis. SK Hynix's own print is the next memory-pricing checkpoint after [[micron]]'s and Samsung's. [Pulse2](https://pulse2.com/samsung-guides-to-about-145-4-billion-krw-195-trillion-in-q3-2026-sales/) (independent)
