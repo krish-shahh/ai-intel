@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:19:31.501940+00:00",
+  "generated_at": "2026-11-23T00:55:12.251003+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
@@ -9,13 +9,13 @@
     "reddit": 0,
     "hackernews": 0,
     "polymarket": 0,
-    "rss": 6,
+    "rss": 12,
     "arxiv": 0,
     "sec_edgar": 0,
-    "github": 8,
+    "github": 0,
     "github_trending": 16,
     "gdelt": 0,
-    "newsapi": 98,
+    "newsapi": 0,
     "mediastack": 0
   },
   "items": [
@@ -25,7 +25,7 @@
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -53,12 +53,44 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "published_at": "2026-11-22T18:08:43+00:00",
+      "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.63,
+        "recommended": true,
+        "relevance_confidence": 0.65,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.36,
+          "3": 0.6,
+          "4": 0.02
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.99,
+          "policy_business": 0.01,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "github_trending:zhouxiaoka/autoclip",
       "source": "github_trending",
       "source_id": "zhouxiaoka/autoclip",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -91,7 +123,7 @@
       "source_id": "firecrawl/firecrawl",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -124,7 +156,7 @@
       "source_id": "openvinotoolkit/openvino",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -157,7 +189,7 @@
       "source_id": "sponsors/mjmirza",
       "title": "sponsors/mjmirza",
       "url": "https://github.com/sponsors/mjmirza",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -185,12 +217,44 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "published_at": "2026-11-22T21:14:07+00:00",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.48,
+        "recommended": true,
+        "relevance_confidence": 0.55,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.05,
+          "2": 0.43,
+          "3": 0.51,
+          "4": 0.01
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.89,
+        "topic_probabilities": {
+          "ai_models_research": 0.09,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.91,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
       "id": "github_trending:google-labs-code/stitch-skills",
       "source": "github_trending",
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -218,12 +282,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/tech/1039851/major-tech-outages",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "title": "We haven’t seen the last of the major tech outages",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "published_at": "2026-11-22T22:48:02+00:00",
+      "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.3,
+        "recommended": true,
+        "relevance_confidence": 0.58,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.1,
+          "2": 0.51,
+          "3": 0.38,
+          "4": 0.01
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.94,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.04,
+          "policy_business": 0.01,
+          "other_technology": 0.95
+        }
+      }
+    },
+    {
       "id": "github_trending:mvanhorn/last30days-skill",
       "source": "github_trending",
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -256,7 +352,7 @@
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -316,38 +412,6 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
-      "title": "The vibe-coding revolution is coming to all the gadgets",
-      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
-      "published_at": "2026-11-22T13:00:00+00:00",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.14,
-        "recommended": true,
-        "relevance_confidence": 0.57,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.19,
-          "2": 0.49,
-          "3": 0.31,
-          "4": 0.01
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.3,
-        "topic_probabilities": {
-          "ai_models_research": 0.36,
-          "developer_tools": 0.44,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.01,
-          "other_technology": 0.18
-        }
-      }
-    },
-    {
       "id": "the-verge:https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
       "source": "the-verge",
       "source_id": "https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay",
@@ -385,7 +449,7 @@
       "source_id": "HKUDS/CLI-Anything",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -418,7 +482,7 @@
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -446,12 +510,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "published_at": "2026-11-22T17:25:20+00:00",
+      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.97,
+        "recommended": false,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.21,
+          "2": 0.61,
+          "3": 0.18,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.31,
+        "topic_probabilities": {
+          "ai_models_research": 0.39,
+          "developer_tools": 0.03,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.13,
+          "other_technology": 0.45
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/elementalsouls",
       "source": "github_trending",
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -484,7 +580,7 @@
       "source_id": "Tracer-Cloud/opensre",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "The open-source agent for CI/CD reliability.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -517,7 +613,7 @@
       "source_id": "sponsors/toeverything",
       "title": "sponsors/toeverything",
       "url": "https://github.com/sponsors/toeverything",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -550,7 +646,7 @@
       "source_id": "sponsors/cathrynlavery",
       "title": "sponsors/cathrynlavery",
       "url": "https://github.com/sponsors/cathrynlavery",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -615,7 +711,7 @@
       "source_id": "nginx/nginx",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "The official NGINX Open Source repository.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -639,6 +735,38 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+      "title": "Delta flights in and out of Atlanta delayed due to system outage",
+      "url": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+      "published_at": "2026-11-22T17:46:44+00:00",
+      "summary": "All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane's weight and balance. Hartsfield-Jackson Atlanta International Airport is Delta's largest hub and one of the busiest airports in the world. While only Delta is impacted at the moment, disruptions at […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.3,
+        "recommended": false,
+        "relevance_confidence": 0.61,
+        "relevance_probabilities": {
+          "0": 0.08,
+          "1": 0.6,
+          "2": 0.25,
+          "3": 0.07,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.96,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.03,
+          "other_technology": 0.97
         }
       }
     },
@@ -680,7 +808,7 @@
       "source_id": "XiaoYouChR/Ghost-Downloader-3",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "published_at": "2026-11-22T16:21:04.040733+00:00",
+      "published_at": "2026-11-23T00:56:39.925189+00:00",
       "summary": "The only downloader you need. 下载器的集大成者。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -708,6 +836,38 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale",
+      "title": "Some of our favorite Switch 2 games are cheaper through Black Friday",
+      "url": "https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale",
+      "published_at": "2026-11-22T17:00:00+00:00",
+      "summary": "Black Friday is a great time to expand your game library because it’s a chance to catch deals that aren’t normally happening throughout the year. That’s true for Nintendo Switch 2 games, as well. In addition to a $50 off sale on one of its console bundles, Nintendo is also knocking $20 off some of […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.87,
+        "recommended": false,
+        "relevance_confidence": 0.8,
+        "relevance_probabilities": {
+          "0": 0.19,
+          "1": 0.76,
+          "2": 0.05,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.96,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.03,
+          "other_technology": 0.97
+        }
+      }
+    },
+    {
       "id": "the-verge:https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
       "source": "the-verge",
       "source_id": "https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary",
@@ -725,6 +885,38 @@
           "0": 0.26,
           "1": 0.73,
           "2": 0.01,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review",
+      "title": "Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk",
+      "url": "https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review",
+      "published_at": "2026-11-22T16:33:29+00:00",
+      "summary": "Sheherazaad started making ripples in the music world a few years ago with her EP Qasr, which was produced by Grammy Award winner Arooj Aftab. Now she's back with Khudgarzi, her reverb-drenched folk-noir debut LP that's primarily sung in Urdu. The instrumentation on Khudgarzi draws on traditional South Asian music, including Carnatic and Hindustani styles, […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.01,
+        "recommended": false,
+        "relevance_confidence": 1.0,
+        "relevance_probabilities": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
           "3": 0.0,
           "4": 0.0
         },
