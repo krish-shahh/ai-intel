@@ -1,117 +1,149 @@
 {
-  "generated_at": "2026-11-23T14:44:51.986273+00:00",
+  "generated_at": "2026-11-24T02:55:16.599213+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-23T14:44:51.986273+00:00"
+    "newsapi": "2026-11-24T02:55:16.599213+00:00"
   },
   "counts": {
     "reddit": 0,
     "hackernews": 2,
     "polymarket": 0,
-    "rss": 10,
+    "rss": 28,
     "arxiv": 0,
     "sec_edgar": 1,
     "github": 0,
     "github_trending": 16,
     "gdelt": 0,
-    "newsapi": 98,
+    "newsapi": 100,
     "mediastack": 0
   },
   "items": [
     {
-      "id": "the-verge:https://www.theverge.com/transportation/1039919/tesla-fsd-v15-reality-view-gta-nhtsa-safety-rollout",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/transportation/1039919/tesla-fsd-v15-reality-view-gta-nhtsa-safety-rollout",
-      "title": "Tesla’s FSD v15 turns driving visuals into Grand Theft Auto",
-      "url": "https://www.theverge.com/transportation/1039919/tesla-fsd-v15-reality-view-gta-nhtsa-safety-rollout",
-      "published_at": "2026-11-23T14:12:28+00:00",
-      "summary": "Tesla has begun rolling out Full Self-Driving (Supervised) v15, calling it a ground-up overhaul of its end-to-end driver assist system. The centerpiece is Reality View, a real-time generative display that swaps out old wireframe graphics for a live, overhead camera angle that lets drivers see and tap to influence what the car plans to do […]",
-      "name": "The Verge",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "published_at": "2026-11-23T17:14:23+00:00",
+      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
+      "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.21,
+        "relevance_score": 3.52,
         "recommended": true,
-        "relevance_confidence": 0.79,
+        "relevance_confidence": 0.61,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.0,
           "2": 0.02,
-          "3": 0.75,
-          "4": 0.23
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.52,
-        "topic_probabilities": {
-          "ai_models_research": 0.62,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.38
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "published_at": "2026-11-23T01:25:53+00:00",
-      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.08,
-        "recommended": true,
-        "relevance_confidence": 0.82,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.06,
-          "3": 0.79,
-          "4": 0.15
+          "3": 0.43,
+          "4": 0.55
         },
         "topic": "policy_business",
-        "topic_confidence": 0.99,
+        "topic_confidence": 0.8,
         "topic_probabilities": {
-          "ai_models_research": 0.01,
+          "ai_models_research": 0.07,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.99,
+          "hardware_datacenters": 0.09,
+          "policy_business": 0.84,
           "other_technology": 0.0
         }
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
-      "title": "Jensen Huang is back as Nvidia’s CEO",
-      "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
-      "published_at": "2026-11-23T14:04:24+00:00",
-      "summary": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NVIDIA.\" In its statement, the board […]",
-      "name": "The Verge",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "published_at": "2026-11-23T22:05:50+00:00",
+      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.02,
+        "relevance_score": 3.23,
         "recommended": true,
-        "relevance_confidence": 0.57,
+        "relevance_confidence": 0.8,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.04,
-          "2": 0.17,
-          "3": 0.52,
-          "4": 0.27
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.76,
+          "4": 0.24
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.91,
+        "topic_probabilities": {
+          "ai_models_research": 0.07,
+          "developer_tools": 0.93,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "published_at": "2026-11-23T19:14:46+00:00",
+      "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 3.09,
+        "recommended": true,
+        "relevance_confidence": 0.89,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.02,
+          "3": 0.87,
+          "4": 0.11
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.99,
+        "topic_probabilities": {
+          "ai_models_research": 0.99,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+      "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+      "published_at": "2026-11-23T15:04:01+00:00",
+      "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.99,
+        "recommended": true,
+        "relevance_confidence": 0.7,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.12,
+          "3": 0.67,
+          "4": 0.18
         },
         "topic": "policy_business",
-        "topic_confidence": 0.81,
+        "topic_confidence": 0.77,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.08,
-          "policy_business": 0.85,
-          "other_technology": 0.07
+          "hardware_datacenters": 0.17,
+          "policy_business": 0.82,
+          "other_technology": 0.01
         }
       }
     },
@@ -148,34 +180,69 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-      "title": "Meta Muse can do your Black Friday shopping at Walmart",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-      "published_at": "2026-11-23T11:00:00+00:00",
-      "summary": "Walmart will let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. Tomorrow, on Tuesday November 24th, the retail giant will roll out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products for you without […]",
-      "name": "The Verge",
+      "id": "hackernews:50611576",
+      "source": "hackernews",
+      "source_id": "50611576",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "published_at": "2026-11-23T14:00:18+00:00",
+      "summary": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j... https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress...",
+      "thread_url": "https://news.ycombinator.com/item?id=50611576",
+      "points": 2196,
+      "comments": 3221,
+      "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.96,
+        "relevance_score": 2.89,
         "recommended": true,
-        "relevance_confidence": 0.88,
+        "relevance_confidence": 0.38,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.11,
+          "2": 0.15,
+          "3": 0.41,
+          "4": 0.31
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.87,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.06,
+          "policy_business": 0.9,
+          "other_technology": 0.04
+        }
+      }
+    },
+    {
+      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/feed/",
+      "source": "nvidia-developer-blog",
+      "source_id": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/feed/",
+      "title": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension",
+      "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/feed/",
+      "published_at": "2026-11-23T17:09:28+00:00",
+      "summary": "As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and applications. For developers using DuckDB, reducing...",
+      "name": "NVIDIA Developer Blog",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.84,
+        "recommended": true,
+        "relevance_confidence": 0.77,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.0,
-          "2": 0.09,
-          "3": 0.86,
-          "4": 0.05
+          "1": 0.01,
+          "2": 0.2,
+          "3": 0.73,
+          "4": 0.06
         },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.91,
+        "topic": "developer_tools",
+        "topic_confidence": 0.99,
         "topic_probabilities": {
-          "ai_models_research": 0.93,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.06,
-          "other_technology": 0.01
+          "ai_models_research": 0.0,
+          "developer_tools": 0.99,
+          "hardware_datacenters": 0.01,
+          "policy_business": 0.0,
+          "other_technology": 0.0
         }
       }
     },
@@ -185,7 +252,7 @@
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -245,12 +312,110 @@
       }
     },
     {
+      "id": "a16z-news:https://www.a16z.news/p/welcome-to-the-b2a-economy-how-agents",
+      "source": "a16z-news",
+      "source_id": "https://www.a16z.news/p/welcome-to-the-b2a-economy-how-agents",
+      "title": "How to Win Bots and Influence Purchases",
+      "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy-how-agents",
+      "published_at": "2026-11-23T15:04:27+00:00",
+      "summary": "What gets your product or tool found, chosen, and used by agents?",
+      "name": "a16z News",
+      "kind": "newsletter",
+      "publisher": "a16z",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.73,
+        "recommended": true,
+        "relevance_confidence": 0.7,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.25,
+          "3": 0.67,
+          "4": 0.05
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.39,
+        "topic_probabilities": {
+          "ai_models_research": 0.45,
+          "developer_tools": 0.03,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.51,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "published_at": "2026-11-23T22:02:05+00:00",
+      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.65,
+        "recommended": true,
+        "relevance_confidence": 0.71,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.29,
+          "3": 0.68,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.82,
+        "topic_probabilities": {
+          "ai_models_research": 0.14,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.86,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/feed/",
+      "source": "nvidia-developer-blog",
+      "source_id": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/feed/",
+      "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
+      "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/feed/",
+      "published_at": "2026-11-23T19:59:40+00:00",
+      "summary": "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to...",
+      "name": "NVIDIA Developer Blog",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.63,
+        "recommended": true,
+        "relevance_confidence": 0.55,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.09,
+          "2": 0.27,
+          "3": 0.55,
+          "4": 0.09
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.91,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.93,
+          "hardware_datacenters": 0.05,
+          "policy_business": 0.0,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
       "id": "github_trending:zhouxiaoka/autoclip",
       "source": "github_trending",
       "source_id": "zhouxiaoka/autoclip",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -278,12 +443,76 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "title": "Ladybird, the first new browser engine in years, is now available to test",
+      "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+      "published_at": "2026-11-23T22:38:09+00:00",
+      "summary": "Ladybird, an independent web browser with a built-from-scratch engine, is finally available for testing. On Monday, Ladybird developer Andreas Kling announced that the browser is launching in alpha on macOS and Linux following more than four years of development. The release makes Ladybird the first browser in years to arrive with an entirely new engine. […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.62,
+        "recommended": true,
+        "relevance_confidence": 0.64,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.03,
+          "2": 0.34,
+          "3": 0.6,
+          "4": 0.03
+        },
+        "topic": "developer_tools",
+        "topic_confidence": 0.56,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.65,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.35
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+      "title": "Google alternative Kagi launches an email service",
+      "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+      "published_at": "2026-11-24T00:02:52+00:00",
+      "summary": "Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public beta of Kagi Mail, a new email service that has \"no surveillance, no ads, open standards, and no lock-in.\" With Kagi Mail, you […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.61,
+        "recommended": true,
+        "relevance_confidence": 0.68,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.01,
+          "2": 0.37,
+          "3": 0.62,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.9,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.01,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.07,
+          "other_technology": 0.92
+        }
+      }
+    },
+    {
       "id": "github_trending:firecrawl/firecrawl",
       "source": "github_trending",
       "source_id": "firecrawl/firecrawl",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -316,7 +545,7 @@
       "source_id": "openvinotoolkit/openvino",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -344,12 +573,44 @@
       }
     },
     {
+      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "source": "mit-tech-review-ai",
+      "source_id": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "published_at": "2026-11-23T17:36:08+00:00",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…",
+      "name": "MIT Technology Review AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.56,
+        "recommended": true,
+        "relevance_confidence": 0.63,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.02,
+          "2": 0.4,
+          "3": 0.58,
+          "4": 0.0
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.4,
+        "topic_probabilities": {
+          "ai_models_research": 0.52,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.47,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/mjmirza",
       "source": "github_trending",
       "source_id": "sponsors/mjmirza",
       "title": "sponsors/mjmirza",
       "url": "https://github.com/sponsors/mjmirza",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -377,12 +638,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "title": "AI data centers throw another wrench into chaotic UN climate talks",
+      "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "published_at": "2026-11-23T21:09:37+00:00",
+      "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close in Antalya, Turkey, on Sunday. Each year, attendees […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.45,
+        "recommended": true,
+        "relevance_confidence": 0.55,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.04,
+          "2": 0.48,
+          "3": 0.46,
+          "4": 0.02
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.75,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.8,
+          "policy_business": 0.19,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
       "id": "github_trending:google-labs-code/stitch-skills",
       "source": "github_trending",
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -415,7 +708,7 @@
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -443,12 +736,108 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "published_at": "2026-11-23T21:25:42+00:00",
+      "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.28,
+        "recommended": true,
+        "relevance_confidence": 0.28,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.27,
+          "2": 0.17,
+          "3": 0.47,
+          "4": 0.06
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.96,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.03,
+          "policy_business": 0.97,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "published_at": "2026-11-23T18:12:22+00:00",
+      "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.27,
+        "recommended": true,
+        "relevance_confidence": 0.27,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.27,
+          "2": 0.23,
+          "3": 0.41,
+          "4": 0.08
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.77,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.04,
+          "policy_business": 0.82,
+          "other_technology": 0.14
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+      "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+      "published_at": "2026-11-23T16:39:10+00:00",
+      "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.24,
+        "recommended": true,
+        "relevance_confidence": 0.26,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.29,
+          "2": 0.24,
+          "3": 0.4,
+          "4": 0.07
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.5,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.36,
+          "policy_business": 0.6,
+          "other_technology": 0.04
+        }
+      }
+    },
+    {
       "id": "github_trending:cursor/plugins",
       "source": "github_trending",
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -481,7 +870,7 @@
       "source_id": "HKUDS/CLI-Anything",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -514,7 +903,7 @@
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -542,13 +931,45 @@
       }
     },
     {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "title": "Jensen Huang isn’t out of the woods yet",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+      "published_at": "2026-11-23T16:57:40+00:00",
+      "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.05,
+        "recommended": true,
+        "relevance_confidence": 0.39,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.3,
+          "2": 0.34,
+          "3": 0.29,
+          "4": 0.05
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.73,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.12,
+          "policy_business": 0.78,
+          "other_technology": 0.09
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/elementalsouls",
       "source": "github_trending",
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
-      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
+      "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
@@ -580,7 +1001,7 @@
       "source_id": "Tracer-Cloud/opensre",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "The open-source agent for CI/CD reliability.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -608,6 +1029,40 @@
       }
     },
     {
+      "id": "a16z-news:https://www.a16z.news/p/investing-in-embo",
+      "source": "a16z-news",
+      "source_id": "https://www.a16z.news/p/investing-in-embo",
+      "title": "Investing in Embo",
+      "url": "https://www.a16z.news/p/investing-in-embo",
+      "published_at": "2026-11-23T17:02:28+00:00",
+      "summary": "a16z leads Embo’s round",
+      "name": "a16z News",
+      "kind": "newsletter",
+      "publisher": "a16z",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.95,
+        "recommended": false,
+        "relevance_confidence": 0.45,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.3,
+          "2": 0.37,
+          "3": 0.3,
+          "4": 0.0
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.96,
+        "topic_probabilities": {
+          "ai_models_research": 0.01,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.97,
+          "other_technology": 0.02
+        }
+      }
+    },
+    {
       "id": "hackernews:50611588",
       "source": "hackernews",
       "source_id": "50611588",
@@ -616,8 +1071,8 @@
       "published_at": "2026-11-23T14:01:23+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50611588",
-      "points": 791,
-      "comments": 569,
+      "points": 1705,
+      "comments": 4,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -648,7 +1103,7 @@
       "source_id": "sponsors/toeverything",
       "title": "sponsors/toeverything",
       "url": "https://github.com/sponsors/toeverything",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -676,47 +1131,12 @@
       }
     },
     {
-      "id": "hackernews:50606447",
-      "source": "hackernews",
-      "source_id": "50606447",
-      "title": "Dario Amodei suggests video games could pacify the masses after AI takes jobs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-      "published_at": "2026-11-23T01:45:50+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50606447",
-      "points": 16,
-      "comments": 10,
-      "matched_term": "Dario Amodei",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.87,
-        "recommended": false,
-        "relevance_confidence": 0.56,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.33,
-          "2": 0.47,
-          "3": 0.2,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.5,
-        "topic_probabilities": {
-          "ai_models_research": 0.05,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.6,
-          "other_technology": 0.35
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/cathrynlavery",
       "source": "github_trending",
       "source_id": "sponsors/cathrynlavery",
       "title": "sponsors/cathrynlavery",
       "url": "https://github.com/sponsors/cathrynlavery",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -744,56 +1164,152 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak",
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak",
-      "title": "Amazon is taking orders for the Moto Tag 3 before it’s even been announced",
-      "url": "https://www.theverge.com/tech/1039903/motorola-moto-tag-3-tracker-amazon-leak",
-      "published_at": "2026-11-23T13:09:32+00:00",
-      "summary": "Motorola's unannounced Moto Tag 3 has been listed for sale online, just five months after the Moto Tag 2 went on sale in the US, and before any official announcement of a follow-up. The listing on Amazon UK was spotted by X user @matteventu, and shows the tracker in a \"Pantone Lucent White\" color option, […]",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+      "title": "Welcome to elite impunity, Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+      "published_at": "2026-11-23T22:09:26+00:00",
+      "summary": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. Now, those of us who had some kind of basic education on what a \"free market\" is might […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.85,
+        "relevance_score": 1.53,
         "recommended": false,
-        "relevance_confidence": 0.69,
+        "relevance_confidence": 0.51,
         "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.26,
-          "2": 0.63,
-          "3": 0.11,
-          "4": 0.0
+          "0": 0.03,
+          "1": 0.61,
+          "2": 0.19,
+          "3": 0.14,
+          "4": 0.03
         },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
+        "topic": "policy_business",
+        "topic_confidence": 0.89,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
+          "hardware_datacenters": 0.07,
+          "policy_business": 0.91,
+          "other_technology": 0.02
         }
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/games/1039838/samsungs-odyssey-g6-1100hz-gaming-monitor",
+      "id": "the-verge:https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/games/1039838/samsungs-odyssey-g6-1100hz-gaming-monitor",
-      "title": "Samsung’s absurd 1,100Hz gaming monitor hits shelves next month for $899.99",
-      "url": "https://www.theverge.com/games/1039838/samsungs-odyssey-g6-1100hz-gaming-monitor",
-      "published_at": "2026-11-23T13:00:00+00:00",
-      "summary": "After being teased in December 2025 and getting an arguably unnecessary pre-release spec bump in August, the Samsung Odyssey G6 G60H rolls out next month for $899.99. The 27-inch gaming monitor will have an absurd 1,100Hz refresh rate, narrowly edging out LG's UltraGear 25G590B, which tops out at 1,000Hz. Is there any value in these […]",
+      "source_id": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+      "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
+      "url": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released",
+      "published_at": "2026-11-23T23:25:01+00:00",
+      "summary": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, years before the game's public release […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.56,
+        "relevance_score": 1.52,
         "recommended": false,
-        "relevance_confidence": 0.52,
+        "relevance_confidence": 0.54,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.53,
+          "2": 0.37,
+          "3": 0.08,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.02,
+          "other_technology": 0.98
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "title": "Trump engineered a risky comeback for Jensen Huang",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "published_at": "2026-11-23T22:25:12+00:00",
+      "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that Huang would \"end up on his feet.\" […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.48,
+        "recommended": false,
+        "relevance_confidence": 0.47,
+        "relevance_probabilities": {
+          "0": 0.09,
+          "1": 0.59,
+          "2": 0.13,
+          "3": 0.15,
+          "4": 0.04
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.44,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.17,
+          "policy_business": 0.55,
+          "other_technology": 0.28
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "published_at": "2026-11-23T21:47:41+00:00",
+      "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.48,
+        "recommended": false,
+        "relevance_confidence": 0.56,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.62,
+          "2": 0.21,
+          "3": 0.13,
+          "4": 0.01
+        },
+        "topic": "hardware_datacenters",
+        "topic_confidence": 0.27,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.42,
+          "policy_business": 0.39,
+          "other_technology": 0.19
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+      "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+      "published_at": "2026-11-23T21:36:48+00:00",
+      "summary": "If you’re still sporting an Apple Watch that launched five or so years ago, now is a good time to upgrade. Apple’s latest smartwatch, the 42mm Apple Watch Series 12 with Wi-Fi and GPS connectivity, has dropped to a new all-time low of $299 ($100 off) at Amazon and Walmart, beating its most sale price […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.39,
+        "recommended": false,
+        "relevance_confidence": 0.67,
         "relevance_probabilities": {
           "0": 0.01,
-          "1": 0.49,
-          "2": 0.43,
-          "3": 0.07,
+          "1": 0.62,
+          "2": 0.35,
+          "3": 0.02,
           "4": 0.0
         },
         "topic": "other_technology",
@@ -801,41 +1317,41 @@
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.01,
           "other_technology": 0.99
         }
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
-      "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
-      "url": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
-      "published_at": "2026-11-23T03:00:00+00:00",
-      "summary": "After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto's follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the Charmera's usefulness stopped at snapping grainy photos and terrible videos, the Kodak SlideTag goes one step […]",
-      "name": "The Verge",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "published_at": "2026-11-23T20:38:53+00:00",
+      "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
+      "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.38,
+        "relevance_score": 1.33,
         "recommended": false,
-        "relevance_confidence": 0.69,
+        "relevance_confidence": 0.72,
         "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.65,
-          "2": 0.33,
-          "3": 0.02,
+          "0": 0.01,
+          "1": 0.71,
+          "2": 0.24,
+          "3": 0.04,
           "4": 0.0
         },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
+        "topic": "policy_business",
+        "topic_confidence": 0.49,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
+          "hardware_datacenters": 0.15,
+          "policy_business": 0.59,
+          "other_technology": 0.26
         }
       }
     },
@@ -845,7 +1361,7 @@
       "source_id": "nginx/nginx",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "The official NGINX Open Source repository.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -873,12 +1389,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "published_at": "2026-11-23T22:10:32+00:00",
+      "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.22,
+        "recommended": false,
+        "relevance_confidence": 0.66,
+        "relevance_probabilities": {
+          "0": 0.1,
+          "1": 0.68,
+          "2": 0.14,
+          "3": 0.07,
+          "4": 0.01
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.66,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.02,
+          "policy_business": 0.25,
+          "other_technology": 0.73
+        }
+      }
+    },
+    {
       "id": "github_trending:XiaoYouChR/Ghost-Downloader-3",
       "source": "github_trending",
       "source_id": "XiaoYouChR/Ghost-Downloader-3",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "published_at": "2026-11-23T14:46:29.353464+00:00",
+      "published_at": "2026-11-24T02:56:47.244516+00:00",
       "summary": "The only downloader you need. 下载器的集大成者。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -906,23 +1454,23 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/entertainment/1039095/blade-runner-2099-review",
+      "id": "the-verge:https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/entertainment/1039095/blade-runner-2099-review",
-      "title": "Blade Runner 2099 is an inventive twist on a cyberpunk classic",
-      "url": "https://www.theverge.com/entertainment/1039095/blade-runner-2099-review",
-      "published_at": "2026-11-23T14:00:00+00:00",
-      "summary": "In an age of streaming shows designed to appeal to distracted viewers, Blade Runner 2099 can feel like a welcome anachronism. The Amazon series is slow and methodical, just like the movies it follows, as it delves deep into moral ambiguity. It is very Blade Runner, in that it both feels true to the films […]",
+      "source_id": "https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026",
+      "title": "The Verge’s 2026 holiday gift guide",
+      "url": "https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026",
+      "published_at": "2026-11-23T23:14:10+00:00",
+      "summary": "Gift-giving isn't just about grabbing something solid under a determined spending limit. It's an expression of love, a way to show someone how well you really know them. That doesn't mean you have to do it all on your own, though. Sometimes you just need a push in the right direction to get things rolling. […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.49,
+        "relevance_score": 0.92,
         "recommended": false,
-        "relevance_confidence": 0.59,
+        "relevance_confidence": 0.86,
         "relevance_probabilities": {
-          "0": 0.52,
-          "1": 0.47,
-          "2": 0.01,
+          "0": 0.13,
+          "1": 0.83,
+          "2": 0.04,
           "3": 0.0,
           "4": 0.0
         },
@@ -936,10 +1484,77 @@
           "other_technology": 1.0
         }
       }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv",
+      "title": "Apple renews Ted Lasso for season 5",
+      "url": "https://www.theverge.com/entertainment/1040699/ted-lasso-season-5-apple-tv",
+      "published_at": "2026-11-23T20:56:00+00:00",
+      "summary": "One of Apple's biggest shows is sticking around for at least one more season. The streamer announced today that Ted Lasso has been renewed for a fifth season on Apple TV, after what the company calls a \"record-breaking season four debut.\" There are currently no details about the new season nor when it might debut. […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.63,
+        "recommended": false,
+        "relevance_confidence": 0.65,
+        "relevance_probabilities": {
+          "0": 0.4,
+          "1": 0.58,
+          "2": 0.02,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.91,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.07,
+          "other_technology": 0.93
+        }
+      }
     }
   ],
   "reddit": [],
   "hn": [
+    {
+      "id": "hackernews:50611576",
+      "source": "hackernews",
+      "source_id": "50611576",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "published_at": "2026-11-23T14:00:18+00:00",
+      "summary": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j... https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress...",
+      "thread_url": "https://news.ycombinator.com/item?id=50611576",
+      "points": 2196,
+      "comments": 3221,
+      "matched_term": "Jensen Huang",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.89,
+        "recommended": true,
+        "relevance_confidence": 0.38,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.11,
+          "2": 0.15,
+          "3": 0.41,
+          "4": 0.31
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.87,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.06,
+          "policy_business": 0.9,
+          "other_technology": 0.04
+        }
+      }
+    },
     {
       "id": "hackernews:50611588",
       "source": "hackernews",
@@ -949,8 +1564,8 @@
       "published_at": "2026-11-23T14:01:23+00:00",
       "summary": "",
       "thread_url": "https://news.ycombinator.com/item?id=50611588",
-      "points": 791,
-      "comments": 569,
+      "points": 1705,
+      "comments": 4,
       "matched_term": "Jensen Huang",
       "jev": {
         "model": "jev-1.14.0",
@@ -972,41 +1587,6 @@
           "hardware_datacenters": 0.18,
           "policy_business": 0.72,
           "other_technology": 0.1
-        }
-      }
-    },
-    {
-      "id": "hackernews:50606447",
-      "source": "hackernews",
-      "source_id": "50606447",
-      "title": "Dario Amodei suggests video games could pacify the masses after AI takes jobs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-      "published_at": "2026-11-23T01:45:50+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50606447",
-      "points": 16,
-      "comments": 10,
-      "matched_term": "Dario Amodei",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.87,
-        "recommended": false,
-        "relevance_confidence": 0.56,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.33,
-          "2": 0.47,
-          "3": 0.2,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.5,
-        "topic_probabilities": {
-          "ai_models_research": 0.05,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.6,
-          "other_technology": 0.35
         }
       }
     }
