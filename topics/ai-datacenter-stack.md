@@ -7,6 +7,8 @@ The physical supply chain underneath AI: compute (GPUs, AI accelerators, CPUs, D
 
 ## Notes
 
+- **2026-11-24** Amazon is acquiring Decart's AI optimization technology and research team in a reported $7.5B deal as it prepares to sell Trainium chips, per TechCrunch. The Verge says AI datacenters' power demand complicated the COP31 climate talks in Antalya, which closed Sunday without a satisfying outcome. [TechCrunch: Decart](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/) (independent) · [The Verge: COP31](https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit) (independent)
+
 - **2026-11-23** TechCrunch interviewed journalist Paris Marx about his new book "Hyperscale," framed as why datacenters are at the center of the Big Tech backlash; the collected summary has no further detail. [TechCrunch](https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/) (independent)
 
 - **2026-11-21** Trump promised a "tremendous tax" on companies that build datacenters outside the US, while states and cities restrict new applications to build them, per The Verge; no bill or rate is in the record. TechCrunch says lenders are wary of SpaceX launching their collateral into orbit, which raises financing questions for space datacenters. [The Verge](https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax) (independent) · [TechCrunch](https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/) (independent)
