@@ -10,6 +10,8 @@ Jensen Huang is co-founder and CEO of NVIDIA, which he has led since founding it
 
 ## Recent
 
+- **2026-11-26** TechCrunch says Huang still faces questions from Congress and from [[nvidia]]'s board about his romantic relationship with an alleged chip smuggler tied to Megaspeed; no hearing date or list of questions in the collected summary. [TechCrunch](https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/) (independent)
+
 - **2026-11-25** Huang apologized to [[nvidia]] staff at his first all-hands back. Accounts differ on how he framed the White House's role: The Verge (citing Bloomberg, NYT, and The Handbasket) says he called it "not true" that Trump got him rehired, while TechCrunch's headline says he thanked the White House and said he's in therapy. TechCrunch also reports he still thinks a succession plan "creates unnecessary hierarchy." [The Verge](https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology) (independent) · [TechCrunch: all-hands](https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/) (independent) · [TechCrunch: succession](https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/) (independent)
 
 - **2026-11-25** A blog post alleging Polymarket insider trading around Huang's reinstatement at [[nvidia]] reached 439 points and 252 comments on Hacker News. Headline only in the record; the claims are unverified. [Blog post](https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/) (unverified) · [HN thread](https://news.ycombinator.com/item?id=50626578)
