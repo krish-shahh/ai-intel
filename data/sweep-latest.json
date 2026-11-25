@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-25T00:48:26.652526+00:00",
+  "generated_at": "2026-11-25T14:28:56.721587+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-25T00:48:26.652526+00:00"
+    "newsapi": "2026-11-25T14:28:56.721587+00:00"
   },
   "counts": {
     "reddit": 0,
-    "hackernews": 3,
+    "hackernews": 0,
     "polymarket": 0,
-    "rss": 30,
+    "rss": 10,
     "arxiv": 0,
-    "sec_edgar": 0,
+    "sec_edgar": 2,
     "github": 0,
     "github_trending": 16,
     "gdelt": 0,
@@ -20,353 +20,65 @@
   },
   "items": [
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-      "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
-      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
-      "published_at": "2026-11-24T15:51:07+00:00",
-      "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
-      "name": "TechCrunch AI",
+      "id": "the-verge:https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "published_at": "2026-11-25T14:12:33+00:00",
+      "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 3.42,
+        "relevance_score": 2.99,
         "recommended": true,
-        "relevance_confidence": 0.63,
+        "relevance_confidence": 0.92,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.0,
-          "2": 0.01,
-          "3": 0.56,
-          "4": 0.43
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.85,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.88,
-          "policy_business": 0.12,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "ars-technica-technology:https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-      "source": "ars-technica-technology",
-      "source_id": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
-      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-      "published_at": "2026-11-24T12:30:05+00:00",
-      "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
-      "name": "Ars Technica Technology",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.21,
-        "recommended": true,
-        "relevance_confidence": 0.81,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.01,
-          "3": 0.77,
-          "4": 0.22
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.74,
-        "topic_probabilities": {
-          "ai_models_research": 0.79,
-          "developer_tools": 0.03,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.18
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "published_at": "2026-11-24T16:46:00+00:00",
-      "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.17,
-        "recommended": true,
-        "relevance_confidence": 0.82,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.02,
-          "3": 0.79,
-          "4": 0.19
+          "2": 0.05,
+          "3": 0.9,
+          "4": 0.05
         },
         "topic": "policy_business",
-        "topic_confidence": 0.99,
+        "topic_confidence": 0.96,
         "topic_probabilities": {
-          "ai_models_research": 0.01,
+          "ai_models_research": 0.03,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.99,
+          "policy_business": 0.97,
           "other_technology": 0.0
         }
       }
     },
     {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/feed/",
-      "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
-      "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/feed/",
-      "published_at": "2026-11-24T18:44:05+00:00",
-      "summary": "Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory. NVIDIA Cosmos 3 Nano is a world...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.12,
-        "recommended": true,
-        "relevance_confidence": 0.78,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.06,
-          "3": 0.74,
-          "4": 0.2
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.71,
-        "topic_probabilities": {
-          "ai_models_research": 0.77,
-          "developer_tools": 0.23,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/swahili-speech-recognition",
-      "source": "ieee-spectrum-ai",
-      "source_id": "https://spectrum.ieee.org/swahili-speech-recognition",
-      "title": "Why Does Voice AI Still Struggle With Kenyans’ Speech?",
-      "url": "https://spectrum.ieee.org/swahili-speech-recognition",
-      "published_at": "2026-11-24T12:00:03+00:00",
-      "summary": "When people read prepared text aloud, AI can transcribe Swahili with remarkably few errors, and Swahili speech recognition looks close to solved. A March 2026 preprint by a team including a Harvard University researcher reports a 3.24 percent word-error rate on recordings from Mozilla’s Common Voice collection of volunteer-recorded speech. But Kenyans rarely talk like Common Voice volunteers. They switch between Swahili and English mid-sentence, drop in Sheng slang that changes by neighborhood, speak with accents shaped by their first languages, and contend with public-transport noise on low-end handsets. Another 2026 preprint , which covers 20 African languages, argues that this kind of spontaneous, noisy, overlapping audio exposes a generalization gap that scaling laws built on the English language have not closed. Voice has become a main interface for many Kenyans, as WhatsApp voice notes and chatbot voice prompts gain popularity in a country that ranks first globally on AI usage. But if an AI model cannot parse everyday speech, it quietly excludes the people it was meant to serve. “My iPhone’s Siri is unable to follow my voice command in Sheng or Swahili,” says Loise Lionah, a beautician in Nairobi. “ChatGPT tries to understand but gets the meaning wrong. The case is similar with Gemini and Claude.” Swahili Dialects and Sheng Challenge Voice AI Swahili, also called Kiswahili, is one of Kenya’s two official languages, alongside English. A Bantu language of the East African coast, Swahili is spoken by more than 200 million people across 14 African countries. Tanzania is regarded as the home of standard Swahili. Yet Catherine Mangare , an AI and computing lecturer at Tanzania’s Sokoine University of Agriculture and a Ph.D. candidate at Okayama University in Japan, says even there, the standard is only the baseline. “Standard Kiswahili is a useful starting point,” she says, “but Tanzanian speech varies by region and setting.” Sheng, spoken and understood by about 60 percent of Kenyans, adds another layer. This Swahili variant, which emerged among Nairobi’s urban youth many decades ago, follows Swahili grammar but borrows from English, Kenyan mother tongues, and even Hindi, Spanish, and American slang, and it has no standard spelling. Linguists label it a language in constant flux : For example, the Sheng word for “girl” fluctuates according to generation, location, and social media trends. “Sheng itself is highly broken down per region,” says Tehillah Kachila , founder and CEO of Nairobi-based Zabibu Technika, a startup that builds the Fikra family of Swahili AI models. Kachila says the most recent Sheng dataset dates back to 2019—a major reason, he argues, why prominent voice AI systems struggle to respond accurately to Sheng prompts. Lilian Wanzare, shown leading a voice-data collection workshop, develops speech datasets for Kenyan languages to help AI systems understand a wider range of speakers. Maseno Centre for Applied AI Building Speech Datasets for African Languages The supply of recorded Swahili speech is growing. The African Next Voices project , supported by a US $2.2 million Gates Foundation grant, has recorded 9,000 hours across 18 languages. Lilian Wanzare , who leads the project’s Kenyan component at Maseno University’s Centre for Applied AI, puts its Kenyan output at roughly 3,000 hours of transcribed speech. Google’s Waxal corpus , launched in February 2026, adds more than 11,000 hours across 21 African languages, Swahili included. But hours are not the same as coverage. Gilbert Korir , cofounder and CEO of the Nairobi-based Swahili speech AI startup MsingiAI , says a large dataset can hide limited variation in speakers and recording conditions. The scarcest material is the conversational speech that mixes languages. That’s why Cynthia Amol , a natural language processing researcher at Maseno University, says her team records unscripted speech. “Unscripted collection helps us capture more nuance and everyday word use, including natural code-switching.” Why Swahili Trips Up Speech Models Swahili is agglutinative, meaning words are built from stacked parts. “A single word can carry the negation, subject, tense, object, and action,” Wanzare says. “For example, the word ‘hajafika’ means ‘he has not arrived.’” The same root therefore shows up in many forms, giving models more variation to learn. Spelling is a second trap. Speech-recognition models learn from recordings paired with written transcripts, so inconsistent spelling can complicate training. And human transcribers often spell borrowed words, Sheng terms, and dialect variants inconsistently; for example, “kompyuta” (the Swahili word for computer) can also appear as “compyuta” or “kompiuta.” In a paper on phonemic transcription for Swahili coauthored by Wanzare, the team addresses a related challenge by developing a pronunciation dictionary that maps written words to speech sounds using a consistent set of symbols. Mixing languages adds another challenge. “In everyday conversations in Tanzania, people often mix Kiswahili and English, known as Swanglish,” says Okayama University’s Mangare. “A voice system trained mostly on recordings in a single language gets little practice with those switches.” The switch can even fall inside one word, as in “nita-check,” which pairs the Swahili prefix for “I will” with an English verb. In Swahili, Mangare says, “missing even a small part of a verb can change who did something or when.” Accents add another layer. Mangare notes that someone might say “Kirimanjalo” for Kilimanjaro, or “nchanga” for “mchanga” (the Swahili word for soil). A listener familiar with the accent may understand right away, she says, while a voice system trained mostly on standard pronunciation may miss the word or place name. And then there’s Sheng. “Sheng is quite dynamic,” Wanzare says. “Words are formed and ‘die’ on a daily basis, which makes data curation for it quite challenging.” Her team’s PolitiKweli dataset, built from social-media text that switches languages, captures the language at one moment in time. “Datasets in Sheng must be living documents that can be updated as the language evolves,” she says. Her group has not yet worked extensively on spoken Sheng. A member of MsingiAI’s team demonstrates a call with its Nia Voice Agent, which the company has piloted with farmers in western Kenya. MsingiAI Testing Voice AI Beyond the Benchmarks Background noise adds to the overall challenge. “Noisy code-switched speech is harder than monolingual speech, because the model has to handle both the noise and the switch between languages at the same time,” Wanzare says. And Korir cautions that suppressing noise can strip out useful speech. Model performance metrics can also miss what users care about. “A transcript can be mostly correct but get a farmer’s location or a payment amount wrong,” Korir says. Wanzare adds that a single overall benchmark score can hide how models perform across dialects, subject areas, genders, and ages. For developers building voice AI for Kenya, the priorities are clear: collect conversational speech, treat spelling and dialect as engineering problems, evaluate by task and not by one score, and test under the conditions people actually encounter.",
-      "name": "IEEE Spectrum AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.06,
-        "recommended": true,
-        "relevance_confidence": 0.9,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.03,
-          "3": 0.88,
-          "4": 0.09
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 1.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
       "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "title": "Even the best AI agents struggle with everyday life",
-      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "published_at": "2026-11-24T21:33:29+00:00",
-      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.98,
-        "recommended": true,
-        "relevance_confidence": 0.89,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.07,
-          "3": 0.87,
-          "4": 0.06
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 1.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
-      "source": "mit-tech-review-ai",
-      "source_id": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
-      "title": "Raising the stakes for enterprise networks with AI modernization",
-      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
-      "published_at": "2026-11-24T15:15:16+00:00",
-      "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As…",
-      "name": "MIT Technology Review AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.95,
-        "recommended": true,
-        "relevance_confidence": 0.83,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.11,
-          "3": 0.81,
-          "4": 0.07
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.04,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.96,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to U.S. industrial might — not a champion",
-      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-      "published_at": "2026-11-25T00:12:02+00:00",
-      "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+      "source_id": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "published_at": "2026-11-25T14:10:18+00:00",
+      "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
       "name": "TechCrunch AI",
       "jev": {
         "model": "jev-1.14.0",
         "relevance_score": 2.93,
         "recommended": true,
-        "relevance_confidence": 0.72,
+        "relevance_confidence": 0.78,
         "relevance_probabilities": {
           "0": 0.0,
           "1": 0.02,
-          "2": 0.16,
-          "3": 0.69,
-          "4": 0.13
+          "2": 0.12,
+          "3": 0.76,
+          "4": 0.1
         },
         "topic": "policy_business",
-        "topic_confidence": 0.82,
+        "topic_confidence": 0.71,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.14,
-          "policy_business": 0.86,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "published_at": "2026-11-24T17:00:00+00:00",
-      "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.92,
-        "recommended": true,
-        "relevance_confidence": 0.88,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.11,
-          "3": 0.86,
-          "4": 0.03
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.98,
-        "topic_probabilities": {
-          "ai_models_research": 0.98,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-      "published_at": "2026-11-24T18:02:59+00:00",
-      "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.9,
-        "recommended": true,
-        "relevance_confidence": 0.87,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.13,
-          "3": 0.84,
-          "4": 0.03
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.66,
-        "topic_probabilities": {
-          "ai_models_research": 0.03,
+          "ai_models_research": 0.22,
           "developer_tools": 0.01,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.23,
-          "other_technology": 0.73
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-      "published_at": "2026-11-24T21:19:52+00:00",
-      "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.87,
-        "recommended": true,
-        "relevance_confidence": 0.88,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.13,
-          "3": 0.86,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.65,
-        "topic_probabilities": {
-          "ai_models_research": 0.28,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.72,
+          "policy_business": 0.77,
           "other_technology": 0.0
         }
       }
@@ -377,7 +89,7 @@
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -405,236 +117,12 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
-      "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
-      "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
-      "published_at": "2026-11-24T16:10:00+00:00",
-      "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.78,
-        "recommended": true,
-        "relevance_confidence": 0.78,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.22,
-          "3": 0.75,
-          "4": 0.02
-        },
-        "topic": "hardware_datacenters",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.94,
-          "policy_business": 0.06,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
-      "title": "Huawei found guilty of stealing trade secrets",
-      "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
-      "published_at": "2026-11-24T22:23:27+00:00",
-      "summary": "A jury has found Huawei guilty of stealing US trade secrets, as reported earlier by NBC News and Bloomberg. The verdict, handed down in a federal court in New York, concludes a years-long legal battle that accused the Chinese telecom giant of stealing source code and proprietary technology from several companies, including T-Mobile, Cisco, and […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.77,
-        "recommended": true,
-        "relevance_confidence": 0.68,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.04,
-          "2": 0.22,
-          "3": 0.66,
-          "4": 0.08
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.57,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.66,
-          "other_technology": 0.33
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-      "published_at": "2026-11-24T21:32:38+00:00",
-      "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.75,
-        "recommended": true,
-        "relevance_confidence": 0.77,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.24,
-          "3": 0.73,
-          "4": 0.02
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.4,
-        "topic_probabilities": {
-          "ai_models_research": 0.47,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.52,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-      "published_at": "2026-11-24T18:30:42+00:00",
-      "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.74,
-        "recommended": true,
-        "relevance_confidence": 0.74,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.02,
-          "2": 0.25,
-          "3": 0.71,
-          "4": 0.02
-        },
-        "topic": "policy_business",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 1.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/feed/",
-      "title": "What’s New for Game Developers: AI Animation and RTX Tools",
-      "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/feed/",
-      "published_at": "2026-11-24T17:00:00+00:00",
-      "summary": "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.73,
-        "recommended": true,
-        "relevance_confidence": 0.73,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.03,
-          "2": 0.24,
-          "3": 0.7,
-          "4": 0.03
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.04,
-          "developer_tools": 0.96,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
-      "title": "Pinterest will now let parents limit the AI-generated content their teens see",
-      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
-      "published_at": "2026-11-24T16:02:37+00:00",
-      "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.73,
-        "recommended": true,
-        "relevance_confidence": 0.77,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.27,
-          "3": 0.73,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.04,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.95,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/feed/",
-      "title": "Prepare Market Data for Forecasting with NVIDIA Megatron Core",
-      "url": "https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/feed/",
-      "published_at": "2026-11-24T17:00:00+00:00",
-      "summary": "Market data arrives as a stream of trades and quotes: every execution, bid, and ask, timestamped to the microsecond. Preparing this data for AI-based market...",
-      "name": "NVIDIA Developer Blog",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.71,
-        "recommended": true,
-        "relevance_confidence": 0.68,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.05,
-          "2": 0.24,
-          "3": 0.67,
-          "4": 0.04
-        },
-        "topic": "developer_tools",
-        "topic_confidence": 0.45,
-        "topic_probabilities": {
-          "ai_models_research": 0.42,
-          "developer_tools": 0.56,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.0,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
       "id": "github_trending:zhouxiaoka/autoclip",
       "source": "github_trending",
       "source_id": "zhouxiaoka/autoclip",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -667,7 +155,7 @@
       "source_id": "firecrawl/firecrawl",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -695,12 +183,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
+      "title": "Microsoft declares ‘Code Red’ after huge Outlook outage",
+      "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
+      "published_at": "2026-11-25T11:12:42+00:00",
+      "summary": "This month's Exchange Online and Microsoft Outlook outage has prompted the software giant to declare an unusual \"Code Red\" internally, Reuters reports. The nearly 24-hour outage took down email for millions of customers, and was triggered by a bug that had been sitting on Microsoft 365 networking gateway servers since July without any impact to […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.57,
+        "recommended": true,
+        "relevance_confidence": 0.59,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.05,
+          "2": 0.36,
+          "3": 0.56,
+          "4": 0.03
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.8,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.03,
+          "hardware_datacenters": 0.12,
+          "policy_business": 0.01,
+          "other_technology": 0.84
+        }
+      }
+    },
+    {
       "id": "github_trending:openvinotoolkit/openvino",
       "source": "github_trending",
       "source_id": "openvinotoolkit/openvino",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -728,44 +248,12 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
-      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-      "published_at": "2026-11-24T22:27:52+00:00",
-      "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.55,
-        "recommended": true,
-        "relevance_confidence": 0.54,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.09,
-          "2": 0.32,
-          "3": 0.54,
-          "4": 0.05
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.98,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.98,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/mjmirza",
       "source": "github_trending",
       "source_id": "sponsors/mjmirza",
       "title": "sponsors/mjmirza",
       "url": "https://github.com/sponsors/mjmirza",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -793,66 +281,66 @@
       }
     },
     {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5/feed/",
-      "title": "Q&A: How Everstone Brings Where Winds Meet to Life with NVIDIA DLSS 5",
-      "url": "https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5/feed/",
-      "published_at": "2026-11-24T14:00:00+00:00",
-      "summary": "Where Winds Meet moves between distant mountain landscapes, bustling streets, and quiet moments with its characters. For Everstone Studio, bringing more...",
-      "name": "NVIDIA Developer Blog",
+      "id": "mit-tech-review-ai:https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "source": "mit-tech-review-ai",
+      "source_id": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "title": "AI is straining America’s open records systems",
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "published_at": "2026-11-25T10:00:00+00:00",
+      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…",
+      "name": "MIT Technology Review AI",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.39,
+        "relevance_score": 2.43,
         "recommended": true,
-        "relevance_confidence": 0.47,
+        "relevance_confidence": 0.52,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.1,
-          "2": 0.42,
-          "3": 0.46,
-          "4": 0.02
+          "1": 0.07,
+          "2": 0.43,
+          "3": 0.5,
+          "4": 0.0
         },
-        "topic": "developer_tools",
-        "topic_confidence": 0.26,
+        "topic": "policy_business",
+        "topic_confidence": 0.66,
         "topic_probabilities": {
-          "ai_models_research": 0.36,
-          "developer_tools": 0.41,
-          "hardware_datacenters": 0.08,
-          "policy_business": 0.0,
-          "other_technology": 0.15
+          "ai_models_research": 0.02,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.73,
+          "other_technology": 0.25
         }
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button",
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button",
-      "title": "Now Firefox can select which sites use its VPN, and clear your browsing history with one click",
-      "url": "https://www.theverge.com/tech/1041474/firefox-161-vpn-rules-fire-button",
-      "published_at": "2026-11-24T18:44:57+00:00",
-      "summary": "Mozilla released Firefox 161 on Tuesday with a new setting you can use to choose which pages automatically open with the browser's VPN active. Using the \"Manage VPN rules\" option in Firefox's VPN panel, you can set it to \"always on\" or \"always off\" for specific sites, so you don't have to toggle it manually […]",
+      "source_id": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+      "title": "Has vibe coding made open source the new normal for synths?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+      "published_at": "2026-11-25T13:00:00+00:00",
+      "summary": "The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has caused chaos in the music gear world, leaving companies scrambling to figure out how to respond. While some, like Roland, have remained silent for now, others have embraced the modding community. In the last several weeks, as it's become clear that no […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.35,
+        "relevance_score": 2.34,
         "recommended": true,
-        "relevance_confidence": 0.66,
+        "relevance_confidence": 0.54,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.03,
-          "2": 0.59,
-          "3": 0.38,
-          "4": 0.0
+          "1": 0.11,
+          "2": 0.46,
+          "3": 0.42,
+          "4": 0.01
         },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
+        "topic": "developer_tools",
+        "topic_confidence": 0.57,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.01,
+          "ai_models_research": 0.1,
+          "developer_tools": 0.66,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.99
+          "policy_business": 0.11,
+          "other_technology": 0.13
         }
       }
     },
@@ -862,7 +350,7 @@
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -895,7 +383,7 @@
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -923,44 +411,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
-      "title": "The clock is running out for America’s most contentious spying law",
-      "url": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
-      "published_at": "2026-11-24T20:00:00+00:00",
-      "summary": "Weeks before the end of the legislative session, some members of Congress are scrambling to reauthorize a controversial warrantless wiretapping authority, possibly by attaching it to a must-pass military spending bill. Sen. Mike Rounds (R-SD) told Politico that Section 702 of the Foreign Intelligence Surveillance Act (FISA) could be attached to the National Defense Authorization […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.26,
-        "recommended": true,
-        "relevance_confidence": 0.38,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.16,
-          "2": 0.39,
-          "3": 0.43,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.6,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.68,
-          "other_technology": 0.32
-        }
-      }
-    },
-    {
       "id": "github_trending:cursor/plugins",
       "source": "github_trending",
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -988,47 +444,12 @@
       }
     },
     {
-      "id": "hackernews:50635706",
-      "source": "hackernews",
-      "source_id": "50635706",
-      "title": "Anthropic CEO Dario Amodei and Sister Daniela Sold $561M in Stock During IPO",
-      "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/",
-      "published_at": "2026-11-24T22:27:19+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50635706",
-      "points": 20,
-      "comments": 3,
-      "matched_term": "Dario Amodei",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.13,
-        "recommended": true,
-        "relevance_confidence": 0.23,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.28,
-          "2": 0.31,
-          "3": 0.38,
-          "4": 0.02
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.99,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
       "id": "github_trending:HKUDS/CLI-Anything",
       "source": "github_trending",
       "source_id": "HKUDS/CLI-Anything",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1061,7 +482,7 @@
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1089,12 +510,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/tech/1041221/tapo-c825-security-indoor-2k-camera-video-calls-tracking-pan-tilt",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1041221/tapo-c825-security-indoor-2k-camera-video-calls-tracking-pan-tilt",
+      "title": "Tapo’s new indoor security camera includes a touchscreen for video calls",
+      "url": "https://www.theverge.com/tech/1041221/tapo-c825-security-indoor-2k-camera-video-calls-tracking-pan-tilt",
+      "published_at": "2026-11-25T13:30:00+00:00",
+      "summary": "TP-Link's Tapo smart home brand announced a new indoor security camera that can help keep an eye on your house while you're away or connect you to family and friends while you're at home. The C825 upgrades a 2K pan-and-tilt camera with a 4-inch touchscreen, so when it's not watching for intruders or misbehaving pets, […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.05,
+        "recommended": true,
+        "relevance_confidence": 0.78,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.1,
+          "2": 0.74,
+          "3": 0.16,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
       "id": "github_trending:sponsors/elementalsouls",
       "source": "github_trending",
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1127,7 +580,7 @@
       "source_id": "Tracer-Cloud/opensre",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "The open-source agent for CI/CD reliability.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1160,7 +613,7 @@
       "source_id": "sponsors/toeverything",
       "title": "sponsors/toeverything",
       "url": "https://github.com/sponsors/toeverything",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1193,7 +646,7 @@
       "source_id": "sponsors/cathrynlavery",
       "title": "sponsors/cathrynlavery",
       "url": "https://github.com/sponsors/cathrynlavery",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1221,200 +674,66 @@
       }
     },
     {
-      "id": "hackernews:50626578",
-      "source": "hackernews",
-      "source_id": "50626578",
-      "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
-      "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
-      "published_at": "2026-11-24T11:13:55+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50626578",
-      "points": 465,
-      "comments": 268,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.71,
-        "recommended": false,
-        "relevance_confidence": 0.36,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.47,
-          "2": 0.28,
-          "3": 0.22,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.95,
-          "other_technology": 0.03
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+      "id": "the-verge:https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
-      "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
-      "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
-      "published_at": "2026-11-24T20:02:03+00:00",
-      "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang […]",
+      "source_id": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+      "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+      "url": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+      "published_at": "2026-11-25T01:00:00+00:00",
+      "summary": "The Financial Crimes Enforcement Network (FinCEN) disclosed on Tuesday that it's investigating a \"cybersecurity incident.\" The bureau, which is part of the Treasury Department, said it's looking into an \"incident that resulted in unauthorized access to a limited subset of its systems.\" It hasn't offered any information about the full scope or source of the […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.66,
+        "relevance_score": 1.76,
         "recommended": false,
-        "relevance_confidence": 0.43,
+        "relevance_confidence": 0.62,
         "relevance_probabilities": {
           "0": 0.01,
-          "1": 0.46,
-          "2": 0.39,
-          "3": 0.14,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.49,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.05,
-          "policy_business": 0.59,
-          "other_technology": 0.36
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-      "published_at": "2026-11-24T21:48:27+00:00",
-      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.59,
-        "recommended": false,
-        "relevance_confidence": 0.49,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.55,
-          "2": 0.29,
-          "3": 0.14,
-          "4": 0.01
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.56,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.06,
-          "policy_business": 0.29,
-          "other_technology": 0.65
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two",
-      "title": "GTA VI PC recompilation project shut down by Take-Two",
-      "url": "https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two",
-      "published_at": "2026-11-24T21:39:14+00:00",
-      "summary": "Game modding communities are racing to get Grand Theft Auto VI running on PC, but one big effort has been taken down by Take-Two today. Leonida, a fan project by 15-year-old \"NotRexed,\" has vanished after a DMCA takedown notice from GTA VI publisher Take-Two. Leonida was designed to translate a leaked GTA VI Xbox build […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.57,
-        "recommended": false,
-        "relevance_confidence": 0.47,
-        "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.5,
-          "2": 0.33,
-          "3": 0.14,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.36,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.38,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.13,
-          "other_technology": 0.49
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1041618/tiktok-down-outage",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1041618/tiktok-down-outage",
-      "title": "TikTok was down",
-      "url": "https://www.theverge.com/tech/1041618/tiktok-down-outage",
-      "published_at": "2026-11-24T20:27:27+00:00",
-      "summary": "Earlier on Tuesday, TikTok experienced some issues, with videos, search results, favorites, and other features not loading as they usually do, following a slew of other outages over the past couple of weeks. Videos sometimes wouldn't load in the For You feed on my iPhone, and search results occasionally didn't show up as expected in […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.56,
-        "recommended": false,
-        "relevance_confidence": 0.59,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.46,
-          "2": 0.51,
-          "3": 0.03,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.98,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.01,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.0,
-          "other_technology": 0.98
-        }
-      }
-    },
-    {
-      "id": "hackernews:50627340",
-      "source": "hackernews",
-      "source_id": "50627340",
-      "title": "LLM agents work for their parent companies, not for you",
-      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-      "published_at": "2026-11-24T12:40:15+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50627340",
-      "points": 889,
-      "comments": 376,
-      "matched_term": "LLM",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.53,
-        "recommended": false,
-        "relevance_confidence": 0.55,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.56,
-          "2": 0.33,
+          "1": 0.33,
+          "2": 0.56,
           "3": 0.1,
           "4": 0.0
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.42,
+        "topic": "other_technology",
+        "topic_confidence": 0.96,
         "topic_probabilities": {
-          "ai_models_research": 0.46,
+          "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.54,
-          "other_technology": 0.0
+          "policy_business": 0.03,
+          "other_technology": 0.97
+        }
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "source": "techcrunch-ai",
+      "source_id": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "published_at": "2026-11-25T13:00:00+00:00",
+      "summary": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler.",
+      "name": "TechCrunch AI",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.54,
+        "recommended": false,
+        "relevance_confidence": 0.48,
+        "relevance_probabilities": {
+          "0": 0.05,
+          "1": 0.58,
+          "2": 0.18,
+          "3": 0.18,
+          "4": 0.01
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.66,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.16,
+          "policy_business": 0.73,
+          "other_technology": 0.11
         }
       }
     },
@@ -1424,7 +743,7 @@
       "source_id": "nginx/nginx",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "The official NGINX Open Source repository.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1452,34 +771,34 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
+      "id": "the-verge:https://www.theverge.com/gadgets/1040178/xteink-x4-classic-e-reader-black-friday-2026-deal-sale",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
-      "title": "Amazon is knocking almost $50 off six months of Apple TV",
-      "url": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
-      "published_at": "2026-11-24T19:00:00+00:00",
-      "summary": "Streaming deals aren’t as plentiful as they used to be, but they’re still around if you know where to look. One that caught our eye is an offer for Apple TV for those with an Amazon account in the US. Apple’s streaming service usually costs $14.99 per month, but following this page will let you […]",
+      "source_id": "https://www.theverge.com/gadgets/1040178/xteink-x4-classic-e-reader-black-friday-2026-deal-sale",
+      "title": "Xteink’s pocketable X4 Classic e-reader is down to just $55 for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1040178/xteink-x4-classic-e-reader-black-friday-2026-deal-sale",
+      "published_at": "2026-11-25T14:00:00+00:00",
+      "summary": "Unsurprisingly, we’re already seeing some solid Black Friday deals on a wide variety of e-readers. Everything from the Kobo Libra Colour to last-gen Kindle Paperwhite is on sale, but if you’re looking for something much cheaper — or considerably smaller — the Xteink X4 Classic is in a league of its own. Thankfully, the tiny […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.15,
+        "relevance_score": 1.27,
         "recommended": false,
-        "relevance_confidence": 0.77,
+        "relevance_confidence": 0.75,
         "relevance_probabilities": {
-          "0": 0.06,
-          "1": 0.74,
-          "2": 0.18,
-          "3": 0.02,
+          "0": 0.02,
+          "1": 0.71,
+          "2": 0.26,
+          "3": 0.01,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.91,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.07,
-          "other_technology": 0.93
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     },
@@ -1489,7 +808,7 @@
       "source_id": "XiaoYouChR/Ghost-Downloader-3",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "published_at": "2026-11-25T00:50:03.898394+00:00",
+      "published_at": "2026-11-25T14:31:12.483374+00:00",
       "summary": "The only downloader you need. 下载器的集大成者。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -1517,22 +836,22 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1021621/best-gifts-for-mom-2026",
+      "id": "the-verge:https://www.theverge.com/entertainment/1041596/blade-runner-2099-interview-showrunner-silka-luisa",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1021621/best-gifts-for-mom-2026",
-      "title": "The Verge’s 2026 holiday gift guide for moms",
-      "url": "https://www.theverge.com/gadgets/1021621/best-gifts-for-mom-2026",
-      "published_at": "2026-11-24T21:09:59+00:00",
-      "summary": "Given everything moms do for us, it feels good to give back during the holidays. But where to start? How do you come up with a physical representation of how you feel about such a key and influential figure in your life? The possibilities seem as endless as they are daunting, but fear not, we've […]",
+      "source_id": "https://www.theverge.com/entertainment/1041596/blade-runner-2099-interview-showrunner-silka-luisa",
+      "title": "‘It’s not for the timid’: Blade Runner 2099’s showrunner on adapting the series for TV",
+      "url": "https://www.theverge.com/entertainment/1041596/blade-runner-2099-interview-showrunner-silka-luisa",
+      "published_at": "2026-11-25T14:00:00+00:00",
+      "summary": "As a longtime fan of the films, Blade Runner 2099 showrunner Silka Luisa says she was more excited than scared when it came to adapting the series for TV. The new show is set 50 years after the 2017 film Blade Runner 2049 and imagines a bleak future where artificial humans known as replicants have […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.56,
+        "relevance_score": 0.84,
         "recommended": false,
-        "relevance_confidence": 0.62,
+        "relevance_confidence": 0.84,
         "relevance_probabilities": {
-          "0": 0.45,
-          "1": 0.54,
+          "0": 0.18,
+          "1": 0.81,
           "2": 0.01,
           "3": 0.0,
           "4": 0.0
@@ -1547,179 +866,9 @@
           "other_technology": 1.0
         }
       }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
-      "title": "The Verge’s 2026 gift guide for dads",
-      "url": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
-      "published_at": "2026-11-24T23:59:29+00:00",
-      "summary": "Gone are the days when you could just buy your father a random tie or some leather-clad alcohol vessel or a shaving kit. Dads want - nay, deserve - something memorable. Luckily for you, it's not that hard to find something special that he'll approve of, and we're here to guide you. We've curated this […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.49,
-        "recommended": false,
-        "relevance_confidence": 0.6,
-        "relevance_probabilities": {
-          "0": 0.52,
-          "1": 0.48,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
-      "title": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
-      "url": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
-      "published_at": "2026-11-24T23:25:46+00:00",
-      "summary": "The US Army is moving ahead with plans to detonate the nation's stockpile of lead azide at an ammunition plant in Middletown, Iowa, at approximately 9:00AM CST on Wednesday. The Verge reached out to experts on what to expect, and will keep this post updated. What material is the Army planning to detonate? There are […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.04,
-        "recommended": false,
-        "relevance_confidence": 0.97,
-        "relevance_probabilities": {
-          "0": 0.96,
-          "1": 0.04,
-          "2": 0.0,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
-        }
-      }
     }
   ],
   "reddit": [],
-  "hn": [
-    {
-      "id": "hackernews:50627340",
-      "source": "hackernews",
-      "source_id": "50627340",
-      "title": "LLM agents work for their parent companies, not for you",
-      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-      "published_at": "2026-11-24T12:40:15+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50627340",
-      "points": 889,
-      "comments": 376,
-      "matched_term": "LLM",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.53,
-        "recommended": false,
-        "relevance_confidence": 0.55,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.56,
-          "2": 0.33,
-          "3": 0.1,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.42,
-        "topic_probabilities": {
-          "ai_models_research": 0.46,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.54,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "hackernews:50626578",
-      "source": "hackernews",
-      "source_id": "50626578",
-      "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
-      "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
-      "published_at": "2026-11-24T11:13:55+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50626578",
-      "points": 465,
-      "comments": 268,
-      "matched_term": "Jensen Huang",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.71,
-        "recommended": false,
-        "relevance_confidence": 0.36,
-        "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.47,
-          "2": 0.28,
-          "3": 0.22,
-          "4": 0.01
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.94,
-        "topic_probabilities": {
-          "ai_models_research": 0.01,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
-          "policy_business": 0.95,
-          "other_technology": 0.03
-        }
-      }
-    },
-    {
-      "id": "hackernews:50635706",
-      "source": "hackernews",
-      "source_id": "50635706",
-      "title": "Anthropic CEO Dario Amodei and Sister Daniela Sold $561M in Stock During IPO",
-      "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/",
-      "published_at": "2026-11-24T22:27:19+00:00",
-      "summary": "",
-      "thread_url": "https://news.ycombinator.com/item?id=50635706",
-      "points": 20,
-      "comments": 3,
-      "matched_term": "Dario Amodei",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.13,
-        "recommended": true,
-        "relevance_confidence": 0.23,
-        "relevance_probabilities": {
-          "0": 0.01,
-          "1": 0.28,
-          "2": 0.31,
-          "3": 0.38,
-          "4": 0.02
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.99,
-          "other_technology": 0.01
-        }
-      }
-    }
-  ],
+  "hn": [],
   "polymarket": []
 }
