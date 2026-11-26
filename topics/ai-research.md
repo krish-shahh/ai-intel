@@ -7,6 +7,8 @@ AI research covers new papers, methods, and findings across machine learning: mo
 
 ## Notes
 
+- **2026-11-26** [[darioamodei]] calls accusations that he favors surrendering human agency to AI "absurd," in a TechCrunch piece noting leading AI companies increasingly automate their own research and model development; no automation metric in the record. [TechCrunch](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/) (independent)
+
 - **2026-11-25** IEEE Spectrum reports a gap between benchmark and real-world Swahili speech recognition: a March 2026 preprint reports a 3.24% word error rate on Mozilla's Common Voice read speech, while another 2026 preprint covering 20 African languages argues spontaneous, noisy, code-switched audio exposes a generalization gap English-based scaling laws haven't closed. [IEEE Spectrum](https://spectrum.ieee.org/swahili-speech-recognition) (independent)
 
 - **2026-11-21** METR updated its time-horizon plot: some AI capabilities are still improving on an exponential trajectory, but models do worse on judgment-heavy tasks than on coding, per MIT Technology Review. The collected summary gives no figures or model list. [MIT Technology Review](https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/) (independent)

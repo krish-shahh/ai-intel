@@ -10,6 +10,8 @@ Dario Amodei is co-founder and CEO of Anthropic, the AI safety company behind th
 
 ## Recent
 
+- **2026-11-26** Called rivals' accusations that he favors surrendering human agency to AI "absurd," per TechCrunch, which notes leading AI companies increasingly automate their own research and model development. Rivals not named in the summary. [TechCrunch](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/) (independent)
+
 - **2026-11-25** A Forbes headline says Amodei and his sister Daniela sold $561M in stock during Anthropic's IPO (headline only in the record), in line with TechCrunch's earlier report that each of the seven founders took $280M. TechCrunch reports Anthropic shares have since fallen below the $83 IPO price; the current price isn't in the record. [Forbes](https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/) (independent) · [TechCrunch](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/) (independent)
 
 - **2026-11-19** IEEE Spectrum essay by Georgetown computer scientist Cal Newport quotes Amodei telling CNN "I agree with Jacob much more than I disagree with him" about [[jacobcoxon]]'s resignation warning, and cites Anthropic's June "When AI Builds Itself" post saying AI "is already accelerating the development of AI systems." Newport argues superintelligence is speculative and that pursuing recursive self-improvement is "an act of clear negligence." Opinion piece. [IEEE Spectrum](https://spectrum.ieee.org/ai-superintelligence-debate) (independent)
