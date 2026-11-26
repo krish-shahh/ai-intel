@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-11-26T00:26:29.454389+00:00",
+  "generated_at": "2026-11-26T13:56:56.238988+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-25T14:28:56.721587+00:00"
+    "newsapi": "2026-11-26T13:56:56.238988+00:00"
   },
   "counts": {
     "reddit": 0,
     "hackernews": 0,
     "polymarket": 0,
-    "rss": 21,
+    "rss": 6,
     "arxiv": 0,
     "sec_edgar": 2,
     "github": 0,
     "github_trending": 16,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 93,
     "mediastack": 0
   },
   "items": [
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-      "published_at": "2026-11-25T14:10:18+00:00",
-      "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
-      "name": "TechCrunch AI",
+      "id": "the-verge:https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "published_at": "2026-11-26T09:54:40+00:00",
+      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
+      "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 2.93,
+        "relevance_score": 3.17,
         "recommended": true,
-        "relevance_confidence": 0.78,
+        "relevance_confidence": 0.84,
         "relevance_probabilities": {
           "0": 0.0,
-          "1": 0.02,
-          "2": 0.12,
-          "3": 0.76,
-          "4": 0.1
+          "1": 0.0,
+          "2": 0.01,
+          "3": 0.81,
+          "4": 0.18
         },
         "topic": "policy_business",
-        "topic_confidence": 0.71,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
-          "ai_models_research": 0.22,
-          "developer_tools": 0.01,
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.77,
+          "policy_business": 1.0,
           "other_technology": 0.0
         }
       }
@@ -57,7 +57,7 @@
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -85,13 +85,45 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
+      "url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+      "published_at": "2026-11-26T00:04:34+00:00",
+      "summary": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. However, a Google Home Premium subscription is still required […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.7,
+        "recommended": true,
+        "relevance_confidence": 0.75,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 0.3,
+          "3": 0.7,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.46,
+        "topic_probabilities": {
+          "ai_models_research": 0.43,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.57
+        }
+      }
+    },
+    {
       "id": "github_trending:zhouxiaoka/autoclip",
       "source": "github_trending",
       "source_id": "zhouxiaoka/autoclip",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
-      "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
+      "summary": "The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
@@ -123,7 +155,7 @@
       "source_id": "firecrawl/firecrawl",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -156,7 +188,7 @@
       "source_id": "openvinotoolkit/openvino",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -189,8 +221,8 @@
       "source_id": "sponsors/mjmirza",
       "title": "sponsors/mjmirza",
       "url": "https://github.com/sponsors/mjmirza",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
-      "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
+      "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
       "jev": {
@@ -217,12 +249,44 @@
       }
     },
     {
+      "id": "the-verge:https://www.theverge.com/news/1043078/x-parental-controls-features",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/news/1043078/x-parental-controls-features",
+      "title": "X is finally getting its first parental controls",
+      "url": "https://www.theverge.com/news/1043078/x-parental-controls-features",
+      "published_at": "2026-11-26T10:45:50+00:00",
+      "summary": "X is finally rolling out parental controls that allow parents and guardians to manage teens' accounts on the platform. While teens will retain ownership of their own account, parents and guardians will be able to see how much time their child has spent on X, set daily limits, require approval for new followers, and limit […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.51,
+        "recommended": true,
+        "relevance_confidence": 0.6,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.05,
+          "2": 0.38,
+          "3": 0.57,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.74,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.21,
+          "other_technology": 0.79
+        }
+      }
+    },
+    {
       "id": "github_trending:google-labs-code/stitch-skills",
       "source": "github_trending",
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -255,7 +319,7 @@
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -288,7 +352,7 @@
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -316,12 +380,78 @@
       }
     },
     {
+      "id": "tldr-dev:https://tldr.tech/dev/2026-11-26",
+      "source": "tldr-dev",
+      "source_id": "https://tldr.tech/dev/2026-11-26",
+      "title": "Scaling agent swarms 🤖, Anthropic’s Rust migration 🦀, Search for Agents 🔍",
+      "url": "https://tldr.tech/dev/2026-11-26",
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "summary": "",
+      "name": "TLDR Dev",
+      "kind": "newsletter",
+      "publisher": "TLDR",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.22,
+        "recommended": true,
+        "relevance_confidence": 0.29,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.21,
+          "2": 0.33,
+          "3": 0.4,
+          "4": 0.04
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.87,
+        "topic_probabilities": {
+          "ai_models_research": 0.9,
+          "developer_tools": 0.09,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/transportation/1042151/waymo-highway-ban-ai-safety-recalls",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/transportation/1042151/waymo-highway-ban-ai-safety-recalls",
+      "title": "Waymo conquered city streets — why does it keep stumbling on freeways?",
+      "url": "https://www.theverge.com/transportation/1042151/waymo-highway-ban-ai-safety-recalls",
+      "published_at": "2026-11-26T12:00:00+00:00",
+      "summary": "Most people know not to try to pass highway patrol cars while performing a traffic break on a freeway. But on November 6th, a driverless Waymo on Interstate 280 failed that test. Video shows the robotaxi attempting to overtake two California Highway Patrol cruisers during a traffic break, a moving violation that could get a […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.19,
+        "recommended": true,
+        "relevance_confidence": 0.59,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.15,
+          "2": 0.51,
+          "3": 0.34,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.66,
+        "topic_probabilities": {
+          "ai_models_research": 0.13,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.14,
+          "other_technology": 0.73
+        }
+      }
+    },
+    {
       "id": "github_trending:HKUDS/CLI-Anything",
       "source": "github_trending",
       "source_id": "HKUDS/CLI-Anything",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -354,7 +484,7 @@
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -387,7 +517,7 @@
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -420,7 +550,7 @@
       "source_id": "Tracer-Cloud/opensre",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "The open-source agent for CI/CD reliability.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -453,7 +583,7 @@
       "source_id": "sponsors/toeverything",
       "title": "sponsors/toeverything",
       "url": "https://github.com/sponsors/toeverything",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -486,7 +616,7 @@
       "source_id": "sponsors/cathrynlavery",
       "title": "sponsors/cathrynlavery",
       "url": "https://github.com/sponsors/cathrynlavery",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -514,34 +644,36 @@
       }
     },
     {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-      "published_at": "2026-11-25T13:00:00+00:00",
-      "summary": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
-      "name": "TechCrunch AI",
+      "id": "tldr-tech:https://tldr.tech/tech/2026-11-26",
+      "source": "tldr-tech",
+      "source_id": "https://tldr.tech/tech/2026-11-26",
+      "title": "SpaceX Starmind 🚀, Neuralink for ALS 🧠, late mid-game engineering 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-26",
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "summary": "",
+      "name": "TLDR",
+      "kind": "newsletter",
+      "publisher": "TLDR",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.54,
+        "relevance_score": 1.44,
         "recommended": false,
-        "relevance_confidence": 0.48,
+        "relevance_confidence": 0.44,
         "relevance_probabilities": {
-          "0": 0.05,
-          "1": 0.58,
-          "2": 0.18,
-          "3": 0.18,
-          "4": 0.01
+          "0": 0.12,
+          "1": 0.52,
+          "2": 0.19,
+          "3": 0.15,
+          "4": 0.02
         },
-        "topic": "policy_business",
-        "topic_confidence": 0.66,
+        "topic": "other_technology",
+        "topic_confidence": 0.9,
         "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.16,
-          "policy_business": 0.73,
-          "other_technology": 0.11
+          "ai_models_research": 0.03,
+          "developer_tools": 0.03,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.02,
+          "other_technology": 0.92
         }
       }
     },
@@ -551,7 +683,7 @@
       "source_id": "nginx/nginx",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "The official NGINX Open Source repository.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -584,7 +716,7 @@
       "source_id": "XiaoYouChR/Ghost-Downloader-3",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "published_at": "2026-11-26T00:27:58.660169+00:00",
+      "published_at": "2026-11-26T13:58:29.128424+00:00",
       "summary": "The only downloader you need. 下载器的集大成者。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -610,196 +742,6 @@
           "other_technology": 0.04
         }
       }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
-      "url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
-      "published_at": "2026-11-26T00:04:34+00:00",
-      "summary": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. However, a Google Home Premium subscription is still required […]",
-      "name": "The Verge"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
-      "title": "Amazon loses its latest attempt to get out of handling more recall notices",
-      "url": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
-      "published_at": "2026-11-25T23:56:44+00:00",
-      "summary": "Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for the District of Maryland ruled in favor of the CPSC, which argued that Amazon is a distributor of goods, not a logistics provider, making it […]",
-      "name": "The Verge"
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "published_at": "2026-11-25T22:44:32+00:00",
-      "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
-      "name": "TechCrunch AI"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
-      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
-      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
-      "published_at": "2026-11-25T21:51:26+00:00",
-      "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come […]",
-      "name": "The Verge"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1021917/best-gifts-for-travelers-2026",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1021917/best-gifts-for-travelers-2026",
-      "title": "The Verge’s 2026 holiday gift guide for travelers",
-      "url": "https://www.theverge.com/gadgets/1021917/best-gifts-for-travelers-2026",
-      "published_at": "2026-11-25T21:48:00+00:00",
-      "summary": "Everyone has that traveler in their life. That person who feels more at home on a 14-hour train ride than a quiet Sunday on the couch. They speak multiple languages, have a gut like a goat, and make friends wherever they go. Whether they're your kindred spirit or the person you live vicariously through, one […]",
-      "name": "The Verge"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
-      "title": "WhatsApp’s new scheduled messages let you choose the right time to send",
-      "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
-      "published_at": "2026-11-25T20:31:48+00:00",
-      "summary": "WhatsApp's 3 billion users are getting an option that Meta says is one of the most requested features, with the ability to schedule messages in advance for both private conversations and group chats. Most messaging platforms have had this for a very long time, but now it's on WhatsApp too. If you think of a […]",
-      "name": "The Verge"
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "published_at": "2026-11-25T20:03:27+00:00",
-      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-      "name": "TechCrunch AI"
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-      "published_at": "2026-11-25T19:54:57+00:00",
-      "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
-      "name": "TechCrunch AI"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/science/1042109/us-army-detonation-lead-azide-explosives-iowa-ammunition-plant",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/science/1042109/us-army-detonation-lead-azide-explosives-iowa-ammunition-plant",
-      "title": "EPA reports ‘zero’ airborne lead following controlled Army detonation in Iowa",
-      "url": "https://www.theverge.com/science/1042109/us-army-detonation-lead-azide-explosives-iowa-ammunition-plant",
-      "published_at": "2026-11-25T19:45:51+00:00",
-      "summary": "Saying it was necessary to prevent the possible spontaneous explosion of a stockpile of material used in igniters and blasting caps, the US Army conducted a controlled detonation of over 9,700 pounds of lead azide today at the Iowa Army Ammunition Plant (IAAAP) in Middletown, Iowa. Videos of the detonation showed plumes of smoke several […]",
-      "name": "The Verge"
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-      "published_at": "2026-11-25T19:44:24+00:00",
-      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
-      "name": "TechCrunch AI"
-    },
-    {
-      "id": "nvidia-developer-blog:https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/feed/",
-      "source": "nvidia-developer-blog",
-      "source_id": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/feed/",
-      "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
-      "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/feed/",
-      "published_at": "2026-11-25T19:30:00+00:00",
-      "summary": "Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and...",
-      "name": "NVIDIA Developer Blog"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1042409/1password-data-breach-leak",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
-      "title": "1Password breach leaked customer names and emails, but not passwords",
-      "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
-      "published_at": "2026-11-25T19:10:15+00:00",
-      "summary": "1Password says a hacker stole customer names and email addresses after gaining access to its backend systems. The breach didn't expose passwords or other information stored in customer vaults, but could put users at risk of phishing attempts, according to a post disclosing the incident. It's unclear how many users are affected. The password manager […]",
-      "name": "The Verge"
-    },
-    {
-      "id": "ars-technica-technology:https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
-      "source": "ars-technica-technology",
-      "source_id": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
-      "title": "Backblaze explains why it's sharing customer information with advertisers",
-      "url": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
-      "published_at": "2026-11-25T18:38:29+00:00",
-      "summary": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
-      "name": "Ars Technica Technology"
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-      "published_at": "2026-11-25T18:11:46+00:00",
-      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-      "name": "TechCrunch AI"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1041460/fairphone-6-plus-repairable-phone-black-friday-2026-deal-sale",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1041460/fairphone-6-plus-repairable-phone-black-friday-2026-deal-sale",
-      "title": "The Fairphone 6 Plus is modular, repairable, and $100 off right now",
-      "url": "https://www.theverge.com/gadgets/1041460/fairphone-6-plus-repairable-phone-black-friday-2026-deal-sale",
-      "published_at": "2026-11-25T18:00:00+00:00",
-      "summary": "Unlike most smartphones, the Fairphone 6 Plus is designed for home repair, with easily replaceable parts that could help extend its lifespan well into the future. That makes its midrange price point easier to justify, especially now that it’s dropped to a new low of $552.49 (about $98 off) at Amazon as part of the […]",
-      "name": "The Verge"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/column/1041761/optimizer-peptide-parties-afterglow",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/column/1041761/optimizer-peptide-parties-afterglow",
-      "title": "The loneliest peptide party in New York",
-      "url": "https://www.theverge.com/column/1041761/optimizer-peptide-parties-afterglow",
-      "published_at": "2026-11-25T18:00:00+00:00",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. On a rainy fall evening, an experimental art venue in Chelsea Market had a small line out the door. There […]",
-      "name": "The Verge"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
-      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
-      "published_at": "2026-11-25T17:44:51+00:00",
-      "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency […]",
-      "name": "The Verge"
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "published_at": "2026-11-25T17:35:58+00:00",
-      "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
-      "name": "TechCrunch AI"
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
-      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-      "published_at": "2026-11-25T15:41:43+00:00",
-      "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been selling exactly that. […]",
-      "name": "TechCrunch AI"
     }
   ],
   "reddit": [],
