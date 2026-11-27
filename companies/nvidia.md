@@ -9,6 +9,8 @@ NVIDIA designs the GPUs and AI accelerators that dominate model training and inf
 
 ## Recent
 
+- **2026-11-27** Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the US tightens its push to keep AI chips out of China, per TechCrunch. The summary doesn't give the pause's duration or which products it covers. [TechCrunch](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/) (independent)
+
 - **2026-11-26** S&P is considering cutting Nvidia's credit rating to AA-, the fourth-highest rating, over governance and "key man" risks. TechCrunch separately says [[jensenhuang]] broke Nvidia's code of conduct (provision not named in the summary). On TechCrunch's podcast, Nvidia is described as refusing to backstop an AI datacenter until it's nearly ready to run, as neoclouds report construction delays and costlier debt. [TechCrunch: S&P](https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/) (independent) · [TechCrunch: code of conduct](https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/) (independent) · [TechCrunch podcast](https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/) (independent)
 
 - **2026-11-26** TechCrunch says [[jensenhuang]] still faces questions from Congress and from Nvidia's board about his romantic relationship with an alleged chip smuggler tied to Megaspeed; the summary doesn't list the questions or give a Senate hearing date. [TechCrunch](https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/) (independent)
