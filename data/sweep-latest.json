@@ -1,95 +1,31 @@
 {
-  "generated_at": "2026-11-27T00:37:32.438924+00:00",
+  "generated_at": "2026-11-27T13:55:40.787807+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-26T13:56:56.238988+00:00"
+    "newsapi": "2026-11-27T13:55:40.787807+00:00"
   },
   "counts": {
     "reddit": 0,
     "hackernews": 0,
     "polymarket": 0,
-    "rss": 12,
+    "rss": 8,
     "arxiv": 0,
     "sec_edgar": 0,
     "github": 0,
     "github_trending": 16,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 97,
     "mediastack": 0
   },
   "items": [
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
-      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-      "published_at": "2026-11-26T20:03:54+00:00",
-      "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 3.42,
-        "recommended": true,
-        "relevance_confidence": 0.65,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.0,
-          "2": 0.0,
-          "3": 0.58,
-          "4": 0.42
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.45,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.44,
-          "policy_business": 0.56,
-          "other_technology": 0.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-      "title": "Android app developers will soon have to share their address publicly",
-      "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-      "published_at": "2026-11-26T17:06:24+00:00",
-      "summary": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.88,
-        "recommended": true,
-        "relevance_confidence": 0.85,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.13,
-          "3": 0.83,
-          "4": 0.03
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.95,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.02,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.96,
-          "other_technology": 0.02
-        }
-      }
-    },
     {
       "id": "github_trending:jingyaogong/minimind",
       "source": "github_trending",
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -117,12 +53,46 @@
       }
     },
     {
+      "id": "tldr-tech:https://tldr.tech/tech/2026-11-27",
+      "source": "tldr-tech",
+      "source_id": "https://tldr.tech/tech/2026-11-27",
+      "title": "Nvidia's China crackdown ⚡, OpenAI cost control 💰, multiagent coding 👨‍💻",
+      "url": "https://tldr.tech/tech/2026-11-27",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "summary": "",
+      "name": "TLDR",
+      "kind": "newsletter",
+      "publisher": "TLDR",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 2.82,
+        "recommended": true,
+        "relevance_confidence": 0.48,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.11,
+          "2": 0.15,
+          "3": 0.5,
+          "4": 0.23
+        },
+        "topic": "policy_business",
+        "topic_confidence": 0.54,
+        "topic_probabilities": {
+          "ai_models_research": 0.19,
+          "developer_tools": 0.06,
+          "hardware_datacenters": 0.03,
+          "policy_business": 0.63,
+          "other_technology": 0.09
+        }
+      }
+    },
+    {
       "id": "github_trending:zhouxiaoka/autoclip",
       "source": "github_trending",
       "source_id": "zhouxiaoka/autoclip",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -155,7 +125,7 @@
       "source_id": "firecrawl/firecrawl",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -188,7 +158,7 @@
       "source_id": "openvinotoolkit/openvino",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -221,7 +191,7 @@
       "source_id": "sponsors/mjmirza",
       "title": "sponsors/mjmirza",
       "url": "https://github.com/sponsors/mjmirza",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -254,7 +224,7 @@
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -287,7 +257,7 @@
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -320,7 +290,7 @@
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -353,7 +323,7 @@
       "source_id": "HKUDS/CLI-Anything",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -386,7 +356,7 @@
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -419,7 +389,7 @@
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -452,7 +422,7 @@
       "source_id": "Tracer-Cloud/opensre",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "The open-source agent for CI/CD reliability.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -485,7 +455,7 @@
       "source_id": "sponsors/toeverything",
       "title": "sponsors/toeverything",
       "url": "https://github.com/sponsors/toeverything",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -518,7 +488,7 @@
       "source_id": "sponsors/cathrynlavery",
       "title": "sponsors/cathrynlavery",
       "url": "https://github.com/sponsors/cathrynlavery",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -546,12 +516,110 @@
       }
     },
     {
+      "id": "tldr-dev:https://tldr.tech/dev/2026-11-27",
+      "source": "tldr-dev",
+      "source_id": "https://tldr.tech/dev/2026-11-27",
+      "title": "Claude orchestrator 🛠️, the AI illusion 🔍, MCP in 2027 📧",
+      "url": "https://tldr.tech/dev/2026-11-27",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "summary": "",
+      "name": "TLDR Dev",
+      "kind": "newsletter",
+      "publisher": "TLDR",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.84,
+        "recommended": false,
+        "relevance_confidence": 0.27,
+        "relevance_probabilities": {
+          "0": 0.02,
+          "1": 0.38,
+          "2": 0.35,
+          "3": 0.24,
+          "4": 0.01
+        },
+        "topic": "ai_models_research",
+        "topic_confidence": 0.9,
+        "topic_probabilities": {
+          "ai_models_research": 0.92,
+          "developer_tools": 0.08,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 0.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1041299/oura-ring-5-black-friday-2026-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1041299/oura-ring-5-black-friday-2026-deal-sale",
+      "title": "The Oura Ring 5 just got its biggest discount ever for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1041299/oura-ring-5-black-friday-2026-deal-sale",
+      "published_at": "2026-11-27T13:30:00+00:00",
+      "summary": "If you’ve been curious about smart rings but have been put off by their high price tags, Black Friday is a good time to consider giving one a try. That’s because the Oura Ring 5, which we consider the best smart ring you can buy, has dropped to an all-time low of $299 ($100 off) […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.41,
+        "recommended": false,
+        "relevance_confidence": 0.66,
+        "relevance_probabilities": {
+          "0": 0.0,
+          "1": 0.61,
+          "2": 0.37,
+          "3": 0.02,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1040313/apple-watch-se-3-black-friday-2026-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1040313/apple-watch-se-3-black-friday-2026-deal-sale",
+      "title": "The SE 3 is the Apple Watch most people should buy on Black Friday",
+      "url": "https://www.theverge.com/gadgets/1040313/apple-watch-se-3-black-friday-2026-deal-sale",
+      "published_at": "2026-11-27T11:30:00+00:00",
+      "summary": "During Black Friday, the Apple Watch SE 3 is on sale in the 40mm / GPS configuration at Amazon, Walmart, and Target starting around $179 ($70 off), $20 less than its previous lowest price. The 44mm variant, meanwhile, is on sale at Amazon, Walmart, and Target starting at around $209 (also $70 off), also beating […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.41,
+        "recommended": false,
+        "relevance_confidence": 0.62,
+        "relevance_probabilities": {
+          "0": 0.03,
+          "1": 0.57,
+          "2": 0.37,
+          "3": 0.03,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
+        }
+      }
+    },
+    {
       "id": "github_trending:nginx/nginx",
       "source": "github_trending",
       "source_id": "nginx/nginx",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "The official NGINX Open Source repository.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -579,76 +647,12 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
-      "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
-      "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
-      "published_at": "2026-11-26T17:07:00+00:00",
-      "summary": "If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $599.99 at Amazon and Costco, while the 512GB model with Touch ID is […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.31,
-        "recommended": false,
-        "relevance_confidence": 0.71,
-        "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.67,
-          "2": 0.28,
-          "3": 0.02,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.99,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.01,
-          "other_technology": 0.99
-        }
-      }
-    },
-    {
-      "id": "techcrunch-ai:https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
-      "source": "techcrunch-ai",
-      "source_id": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
-      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
-      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
-      "published_at": "2026-11-26T16:00:00+00:00",
-      "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
-      "name": "TechCrunch AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.27,
-        "recommended": false,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.72,
-          "2": 0.2,
-          "3": 0.05,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.37,
-        "topic_probabilities": {
-          "ai_models_research": 0.08,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.5,
-          "other_technology": 0.42
-        }
-      }
-    },
-    {
       "id": "github_trending:XiaoYouChR/Ghost-Downloader-3",
       "source": "github_trending",
       "source_id": "XiaoYouChR/Ghost-Downloader-3",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "published_at": "2026-11-27T00:38:59.784268+00:00",
+      "published_at": "2026-11-27T13:57:19.356407+00:00",
       "summary": "The only downloader you need. 下载器的集大成者。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -676,23 +680,23 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
+      "id": "the-verge:https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
-      "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
-      "url": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
-      "published_at": "2026-11-26T19:00:00+00:00",
-      "summary": "The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good thanks in part to its OLED touchscreen. When I reviewed it a few years ago, I called it the Goldilocks […]",
+      "source_id": "https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026",
+      "title": "Our favorite headphones and earbuds are cheaper than ever for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026",
+      "published_at": "2026-11-27T10:30:00+00:00",
+      "summary": "If you haven’t already caved and bought a fresh set of wireless earbuds, over-ear headphones, or bone conduction headphones this year, Black Friday is rewarding you with a colossal amount of deals, including discounts on the best models available. Apple, Beats, Soundcore, Sony, Nothing, and other major brands are offering some of the best prices […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.08,
+        "relevance_score": 1.11,
         "recommended": false,
-        "relevance_confidence": 0.79,
+        "relevance_confidence": 0.83,
         "relevance_probabilities": {
-          "0": 0.09,
-          "1": 0.75,
-          "2": 0.16,
+          "0": 0.05,
+          "1": 0.8,
+          "2": 0.15,
           "3": 0.0,
           "4": 0.0
         },
@@ -708,55 +712,55 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
+      "id": "the-verge:https://www.theverge.com/gadgets/1042744/best-black-friday-tv-deals-2026",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
-      "title": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday",
-      "url": "https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
-      "published_at": "2026-11-26T16:00:00+00:00",
-      "summary": "Black Friday isn’t just a good time to save on a new TV but also a chance to spend less on what you watch on it. The shopping holiday often brings steep streaming discounts, and this year is no exception, with some streamers offering more than 50 percent off. HBO Max, Apple TV, and Hulu […]",
+      "source_id": "https://www.theverge.com/gadgets/1042744/best-black-friday-tv-deals-2026",
+      "title": "Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1042744/best-black-friday-tv-deals-2026",
+      "published_at": "2026-11-27T12:30:00+00:00",
+      "summary": "Most of us spend a lot of time with our TVs, be it watching movies, TV shows, the news, or playing games. It’s part of being a fan of technology. And while they’re big purchases, they can last for years. But eventually, the time comes when we need a new one. Has that time come […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.06,
+        "relevance_score": 1.1,
         "recommended": false,
-        "relevance_confidence": 0.78,
+        "relevance_confidence": 0.81,
         "relevance_probabilities": {
-          "0": 0.1,
-          "1": 0.75,
-          "2": 0.14,
+          "0": 0.06,
+          "1": 0.78,
+          "2": 0.15,
           "3": 0.01,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.91,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
           "hardware_datacenters": 0.0,
-          "policy_business": 0.07,
-          "other_technology": 0.93
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+      "id": "the-verge:https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-      "title": "The best Black Friday deals we’ve already found",
-      "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-      "published_at": "2026-11-26T16:55:00+00:00",
-      "summary": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until tomorrow, November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low price. […]",
+      "source_id": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
+      "title": "The absolute best Black Friday deals we’ve found (so far)",
+      "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
+      "published_at": "2026-11-27T11:52:34+00:00",
+      "summary": "This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, e-readers, robot vacuums, and so much more. We can’t guarantee a deal you’ve had […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.05,
+        "relevance_score": 0.85,
         "recommended": false,
-        "relevance_confidence": 0.87,
+        "relevance_confidence": 0.81,
         "relevance_probabilities": {
-          "0": 0.06,
-          "1": 0.84,
-          "2": 0.1,
+          "0": 0.19,
+          "1": 0.77,
+          "2": 0.04,
           "3": 0.0,
           "4": 0.0
         },
@@ -772,151 +776,23 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
+      "id": "the-verge:https://www.theverge.com/entertainment/1043362/grand-theft-auto-6-ending",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
-      "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
-      "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
-      "published_at": "2026-11-26T16:38:00+00:00",
-      "summary": "US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting an early review of ABC's broadcast licenses in a preliminary injunction, and rejected its efforts to dismiss ABC's First Amendment lawsuit. ABC has accused the FCC of violating its free speech rights and claims the agency \"waged a retaliatory campaign\" against the […]",
+      "source_id": "https://www.theverge.com/entertainment/1043362/grand-theft-auto-6-ending",
+      "title": "Grand Theft Auto VI is a different kind of GTA — so it needed a different kind of ending",
+      "url": "https://www.theverge.com/entertainment/1043362/grand-theft-auto-6-ending",
+      "published_at": "2026-11-27T13:00:00+00:00",
+      "summary": "In most Grand Theft Auto games, and most open-world games for that matter, the world is left open for you to explore once the credits roll. It could be Los Santos or a twisted take on Manhattan, but the idea is that the main story is just one part of the experience. After that's done, […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 0.96,
+        "relevance_score": 0.24,
         "recommended": false,
-        "relevance_confidence": 0.61,
+        "relevance_confidence": 0.81,
         "relevance_probabilities": {
-          "0": 0.26,
-          "1": 0.57,
-          "2": 0.13,
-          "3": 0.04,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.64,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.71,
-          "other_technology": 0.29
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
-      "title": "Netflix’s coziest show has made a very quiet return",
-      "url": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
-      "published_at": "2026-11-26T21:00:00+00:00",
-      "summary": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup now also includes a growing library of reality shows, live-programming, and even games. It makes it easy for some of the best […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.9,
-        "recommended": false,
-        "relevance_confidence": 0.79,
-        "relevance_probabilities": {
-          "0": 0.18,
-          "1": 0.75,
-          "2": 0.07,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.92,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.06,
-          "other_technology": 0.94
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
-      "title": "GTA VI developers vote against unionization",
-      "url": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
-      "published_at": "2026-11-26T15:55:24+00:00",
-      "summary": "Workers at Grand Theft Auto VI developer Rockstar Games won't unionize, after the vote for a formal recognition agreement failed, with only 25 percent of votes in favor of unionization. The Independent Workers Union of Great Britain (IWGB) said that Rockstar workers in the union will continue organizing even without formal recognition. Voting ran from […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.9,
-        "recommended": false,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.22,
-          "1": 0.68,
-          "2": 0.08,
-          "3": 0.02,
-          "4": 0.0
-        },
-        "topic": "policy_business",
-        "topic_confidence": 0.4,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.01,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.52,
-          "other_technology": 0.47
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1040110/zelda-ocarina-of-time-switch-2-black-friday-2026-deal-sale",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1040110/zelda-ocarina-of-time-switch-2-black-friday-2026-deal-sale",
-      "title": "Here’s where you can save (a little) on the Ocarina of Time remake",
-      "url": "https://www.theverge.com/gadgets/1040110/zelda-ocarina-of-time-switch-2-black-friday-2026-deal-sale",
-      "published_at": "2026-11-26T14:00:00+00:00",
-      "summary": "A lot of people have The Legend of Zelda: Ocarina of Time for the Nintendo Switch 2 on their holiday wishlist. In case you haven’t bought it yet, I wanted to share some small but welcome deals happening on the physical and digital versions of the game. Costco members can currently grab the cartridge edition […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.58,
-        "recommended": false,
-        "relevance_confidence": 0.63,
-        "relevance_probabilities": {
-          "0": 0.43,
-          "1": 0.56,
-          "2": 0.01,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/entertainment/1042629/gta-6-city-design",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/entertainment/1042629/gta-6-city-design",
-      "title": "Why GTA VI’s version of Florida feels so real",
-      "url": "https://www.theverge.com/entertainment/1042629/gta-6-city-design",
-      "published_at": "2026-11-26T15:00:00+00:00",
-      "summary": "There are plenty of reasons why Grand Theft Auto VI is so popular: the 13 years of anticipation, the relatable lead characters and romantic storyline, the sheer level of depth. But another major factor is the sense of place. The GTA series is unmatched when it comes to re-creating the feeling of a bustling, real-world […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.48,
-        "recommended": false,
-        "relevance_confidence": 0.59,
-        "relevance_probabilities": {
-          "0": 0.52,
-          "1": 0.47,
-          "2": 0.01,
+          "0": 0.77,
+          "1": 0.23,
+          "2": 0.0,
           "3": 0.0,
           "4": 0.0
         },
