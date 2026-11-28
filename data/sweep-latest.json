@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-28T00:04:06.356854+00:00",
+  "generated_at": "2026-11-28T07:55:34.919962+00:00",
   "window_hours": 14,
   "collection_mode": "deterministic_api_and_feeds_no_web_search_with_optional_jev_scoring",
   "source_fetched_at": {
-    "newsapi": "2026-11-27T13:55:40.787807+00:00"
+    "newsapi": "2026-11-28T07:55:34.919962+00:00"
   },
   "counts": {
     "reddit": 0,
     "hackernews": 0,
     "polymarket": 0,
-    "rss": 11,
+    "rss": 10,
     "arxiv": 0,
     "sec_edgar": 0,
     "github": 1,
     "github_trending": 16,
     "gdelt": 0,
-    "newsapi": 0,
+    "newsapi": 99,
     "mediastack": 0
   },
   "items": [
@@ -25,7 +25,7 @@
       "source_id": "jingyaogong/minimind",
       "title": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -53,44 +53,12 @@
       }
     },
     {
-      "id": "ieee-spectrum-ai:https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
-      "source": "ieee-spectrum-ai",
-      "source_id": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
-      "title": "This ER Doctor Became a Hospital’s First Clinical AI Engineer",
-      "url": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
-      "published_at": "2026-11-27T14:00:01+00:00",
-      "summary": "When Boston Children’s Hospital posted a job listing for a prompt engineer in 2023, Dinesh Rai decided to apply. He didn’t expect to get the job. At the time, prompt engineering was being touted as one of the hot new jobs created by generative AI. Companies wanted people who knew how to coax the best answers from large language models (LLMs) by carefully wording instructions, supplying examples, and giving the systems personas or other context. Dinesh Rai Employer: Boston Children’s Hospital Occupation: Clinical AI Engineer Education: Bachelor’s degree in supply-chain management and marketing sciences, Rutgers Business School; Doctor of Medicine, Albert Einstein College of Medicine It was an unusual role for a hospital, but Rai had an unusual résumé. While he was trained as an emergency physician, he had also taught himself to code just before entering medical school. After completing a fellowship in clinical informatics—which focuses on the intersection of clinical practice and IT systems—he moved into health technology. Boston Children’s brought him on board in August 2023. Three years later, Rai still works there. Prompt engineering, however, has become a much less important part of the job . When he joined, the expectation was that prompting would become a job in itself. “Knowing how to prompt AI properly was going to be the job function of the future,” says John Brownstein , chief innovation officer at Boston Children’s. Early on, the hospital needed internal expertise about how to begin using AI, Brownstein says. Now, better models have made elaborate prompting less important, so the harder work is building AI into actual health care systems—and determining whether its answers can be trusted. Brownstein says the questions they focus on these days have shifted: “How do you embed these tools in your day-to-day operations? How do you build agents to manage literally everything that you do?” For Rai, that has meant embracing a job broader than the role that brought him to Boston. “I’m more like a clinical AI engineer now,” he says. Between medicine and engineering Rai originally studied business as an undergraduate and began teaching himself to code in 2014 (the same year he entered medical school), as neural networks and image recognition were starting to attract wider attention. He kept building software while training as a doctor. In medical school, for instance, he created a platform called Academius for students to track residency interviews and assemble their rank lists. For Rai, the appeal of coding was its scale. In emergency medicine, he could make a direct difference for the individual patient in front of him. Software offered the possibility of building something that thousands of clinicians might use for many more patients. His 2021–22 informatics fellowship made the possibility of doing that full-time feel real. In 2022, Rai took a job at Pieces , a health care AI company, where he led work to bring LLM-based medical summarization into clinical use. That meant taking a break from practicing medicine altogether. “Stepping away was definitely a hard decision,” Rai says. But he wanted to give the technology work his full attention. He has since reactivated his medical license and hopes to return to clinical practice in some capacity within the next year. At Boston Children’s, roughly half his day now looks like an engineer’s: working with developers, writing code, and advancing projects from the technical side. The other half is spent with clinicians, figuring out what they actually need. That combination has become the point of the job. Uncovering “clinical doppelgangers” One project, called clinical doppelgangers , is designed to help doctors treating complicated patients find similar cases buried in the hospital’s historical data. Medical guidelines are generally based on large populations, but at a hospital that handles rare and complex diseases, an individual child may not fit neatly into the populations represented in published studies. The system is being developed to let clinicians identify previous patients with relevant similarities, examine their trajectories, and see how different interventions turned out. It is not meant to replace randomized clinical trials. Instead, it could provide another source of evidence when a physician is facing a case for which the published literature offers little guidance. Projects like that require more than knowing how to ask an LLM the right question. They require understanding what hospital data means, how a clinician will use an answer, and how an AI system can go wrong. Rai recently encountered some of those challenges while working on another project with a clinical team and a development team. They were deciding how much of a patient’s medical record to give an AI model when asking it to identify findings relevant to a particular clinical outcome. Better models have made elaborate prompting less important, so the harder work is building AI into actual health care systems. Both groups initially favored giving the model access to more information, but for different reasons. The developers assumed any data point could be useful. The clinicians assumed the model would recognize irrelevant findings and ignore them. Rai saw a problem with both assumptions. Clinically, an abnormal lab result or vital sign is not necessarily relevant to the question being asked. And from a technical perspective, an LLM cannot be counted on to recognize that irrelevance. If the system asks the model whether a given abnormality matters, it may construct a plausible explanation for why it does, even when the record does not support the connection. “That’s where the dual perspective has been valuable,” Rai says, “not just translating between teams, but recognizing when an approach that looks reasonable from either perspective rests on assumptions we shouldn’t make.” After the prompt In medicine, the challenges surrounding the prompt are now more important than polishing the prompt itself. Is the model’s output consistent with the underlying data? How should its results be evaluated? Will the clinician using it be able to recognize a mistake? That also means listening to clinicians’ experience. For the platform Rai’s team built to draft clinical notes, the clinicians who would go on to use the tool reviewed a batch of generated notes before anything was finalized. Someone who had cared for a complicated patient in the cardiac intensive care unit for weeks would catch an error far more easily than someone skimming the chart afterward, Rai says. Although AI adoption in medicine is surging, some health care professionals still have concerns about its use . “I think some skepticism is healthy, and we don’t try to talk people out of it,” he says. The team told clinicians up front that it was a generative AI tool meant to support their judgment, not replace their own review of the chart. “People trust it more when they’ve seen its mistakes than when we just tell them it’s good.” An evolving career The evolution of Rai’s role reflects how quickly AI-focused jobs can change, so Rai is wary of telling people interested in careers like his to master any particular tool. For people who want hands-on engineering jobs, fundamental programming skills still matter . Some understanding of machine learning is useful, as is experience building and testing systems. But not every clinician who wants to work with AI needs to become a database architect or take a deep dive into algorithms. What Rai considers indispensable is domain knowledge. In the medical field, that means understanding how health care workflows operate, how electronic health record data is created, what that data actually represents, and where care breaks down. That may be the more durable lesson from a career that briefly carried one of AI’s buzziest job titles. “The value isn’t just knowing how to get an answer from a model,” Rai says. “It’s knowing what context it needs and whether that context supports the answer we’re asking it to give.”",
-      "name": "IEEE Spectrum AI",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 2.69,
-        "recommended": true,
-        "relevance_confidence": 0.72,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.01,
-          "2": 0.31,
-          "3": 0.67,
-          "4": 0.01
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.36,
-        "topic_probabilities": {
-          "ai_models_research": 0.49,
-          "developer_tools": 0.09,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.36,
-          "other_technology": 0.06
-        }
-      }
-    },
-    {
       "id": "github_trending:zhouxiaoka/autoclip",
       "source": "github_trending",
       "source_id": "zhouxiaoka/autoclip",
       "title": "zhouxiaoka/autoclip",
       "url": "https://github.com/zhouxiaoka/autoclip",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -123,7 +91,7 @@
       "source_id": "firecrawl/firecrawl",
       "title": "firecrawl/firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -156,7 +124,7 @@
       "source_id": "openvinotoolkit/openvino",
       "title": "openvinotoolkit/openvino",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -189,7 +157,7 @@
       "source_id": "sponsors/mjmirza",
       "title": "sponsors/mjmirza",
       "url": "https://github.com/sponsors/mjmirza",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -222,7 +190,7 @@
       "source_id": "google-labs-code/stitch-skills",
       "title": "google-labs-code/stitch-skills",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -255,7 +223,7 @@
       "source_id": "mvanhorn/last30days-skill",
       "title": "mvanhorn/last30days-skill",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -288,7 +256,7 @@
       "source_id": "cursor/plugins",
       "title": "cursor/plugins",
       "url": "https://github.com/cursor/plugins",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "Cursor plugin specification and official plugins",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -321,7 +289,7 @@
       "source_id": "HKUDS/CLI-Anything",
       "title": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -354,7 +322,7 @@
       "source_id": "sponsors/obra",
       "title": "sponsors/obra",
       "url": "https://github.com/sponsors/obra",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "An agentic skills framework & software development methodology that works.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -387,7 +355,7 @@
       "source_id": "sponsors/elementalsouls",
       "title": "sponsors/elementalsouls",
       "url": "https://github.com/sponsors/elementalsouls",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -420,7 +388,7 @@
       "source_id": "Tracer-Cloud/opensre",
       "title": "Tracer-Cloud/opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "The open-source agent for CI/CD reliability.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -448,67 +416,12 @@
       }
     },
     {
-      "id": "github:Red2076-arch/waifu2x-image-upscaler-windows",
-      "source": "github",
-      "source_id": "Red2076-arch/waifu2x-image-upscaler-windows",
-      "title": "Red2076-arch/waifu2x-image-upscaler-windows",
-      "url": "https://github.com/Red2076-arch/waifu2x-image-upscaler-windows",
-      "published_at": "2026-11-27T15:17:56+00:00",
-      "summary": "Free AI image upscaler and photo denoiser for Windows powered by Vulkan GPU acceleration and ncnn neural networks.",
-      "stars": 466,
-      "language": "C++",
-      "topics": [
-        "amd",
-        "artificial-intelligence",
-        "computer-vision",
-        "deep-learning",
-        "denoising",
-        "gpu",
-        "image-enhancement",
-        "image-processing",
-        "image-upscaling",
-        "intel",
-        "linux",
-        "machine-learning",
-        "macos",
-        "ncnn",
-        "nvidia",
-        "super-resolution",
-        "vulkan",
-        "waifu2x",
-        "windows"
-      ],
-      "updated_at": "2026-11-28T00:05:39Z",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.91,
-        "recommended": false,
-        "relevance_confidence": 0.67,
-        "relevance_probabilities": {
-          "0": 0.0,
-          "1": 0.24,
-          "2": 0.6,
-          "3": 0.16,
-          "4": 0.0
-        },
-        "topic": "ai_models_research",
-        "topic_confidence": 0.45,
-        "topic_probabilities": {
-          "ai_models_research": 0.56,
-          "developer_tools": 0.43,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.01
-        }
-      }
-    },
-    {
       "id": "github_trending:sponsors/toeverything",
       "source": "github_trending",
       "source_id": "sponsors/toeverything",
       "title": "sponsors/toeverything",
       "url": "https://github.com/sponsors/toeverything",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -541,7 +454,7 @@
       "source_id": "sponsors/cathrynlavery",
       "title": "sponsors/cathrynlavery",
       "url": "https://github.com/sponsors/cathrynlavery",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -565,6 +478,38 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.0,
           "other_technology": 0.01
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+      "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+      "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+      "published_at": "2026-11-28T03:30:00+00:00",
+      "summary": "If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 in June, you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 1.73,
+        "recommended": false,
+        "relevance_confidence": 0.61,
+        "relevance_probabilities": {
+          "0": 0.01,
+          "1": 0.35,
+          "2": 0.54,
+          "3": 0.1,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 0.98,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.02,
+          "other_technology": 0.98
         }
       }
     },
@@ -601,34 +546,34 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday",
+      "id": "the-verge:https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
       "source": "the-verge",
-      "source_id": "https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday",
-      "title": "Allstate has been suffering an outage since Monday",
-      "url": "https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday",
-      "published_at": "2026-11-27T21:52:42+00:00",
-      "summary": "On Monday, November 23rd, Allstate began dealing with an outage that has impacted its website, mobile apps, and roadside assistance service. It's just the latest company, including Microsoft and JPMorgan Chase, to suffer an outage in the last few weeks. As of Friday afternoon, access to accounts through the app and site appeared to still […]",
+      "source_id": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+      "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
+      "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+      "published_at": "2026-11-27T23:32:00+00:00",
+      "summary": "Instead of purely looking forward with its headphone designs, Sony went back to its popular WH-1000XM4 design and made some improvements to make it even better. The 2026 version, called the WH-1000XM4C, sounds nearly as good as the pricier XM6 model (currently $348), but is down to $198 during Black Friday at Amazon, Best Buy, […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
-        "relevance_score": 1.62,
+        "relevance_score": 1.5,
         "recommended": false,
-        "relevance_confidence": 0.52,
+        "relevance_confidence": 0.56,
         "relevance_probabilities": {
-          "0": 0.02,
-          "1": 0.44,
-          "2": 0.45,
-          "3": 0.09,
+          "0": 0.01,
+          "1": 0.52,
+          "2": 0.42,
+          "3": 0.05,
           "4": 0.0
         },
         "topic": "other_technology",
-        "topic_confidence": 0.99,
+        "topic_confidence": 1.0,
         "topic_probabilities": {
           "ai_models_research": 0.0,
           "developer_tools": 0.0,
-          "hardware_datacenters": 0.01,
+          "hardware_datacenters": 0.0,
           "policy_business": 0.0,
-          "other_technology": 0.99
+          "other_technology": 1.0
         }
       }
     },
@@ -639,7 +584,7 @@
       "title": "This purple electric Chinese minivan can go up to 559 miles on a charge",
       "url": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
       "published_at": "2026-11-28T00:02:49+00:00",
-      "summary": "Electric minivans could be the ultimate in utility, with room for passengers, gear, and huge batteries. While VW's ID Buzz only gave us 200 miles on a charge in 2023, China's BYD has just announced a flagship purple peoplemover that can go an estimated 559 miles (900 km) on electricity. It's called the BYD Whale, […]",
+      "summary": "Electric minivans could be the ultimate in utility, with room for passengers, gear, and huge batteries. While VW's ID Buzz only gave us 200 miles of real-world driving on a charge in 2023, China's BYD has just announced a flagship purple peoplemover that can go an estimated 559 miles (900 km) on electricity. It's called […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
@@ -665,42 +610,10 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
-      "title": "My favorite MPC beat maker is ready for your vibe-coded firmware and effects",
-      "url": "https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
-      "published_at": "2026-11-27T20:48:04+00:00",
-      "summary": "Akai is continuing to open up its various music-making platforms with the MPC Sample 1.4 firmware. My favorite (and the most affordable) of the MPC samplers has become a popular home for vibe-coded custom firmwares and mods. The company has decided, rather than fight it, to embrace the modding community. The latest update adds several […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 1.42,
-        "recommended": false,
-        "relevance_confidence": 0.61,
-        "relevance_probabilities": {
-          "0": 0.03,
-          "1": 0.59,
-          "2": 0.32,
-          "3": 0.06,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 0.8,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.16,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 0.84
-        }
-      }
-    },
-    {
       "id": "the-verge:https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
       "source": "the-verge",
       "source_id": "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
-      "title": "Roborock, Dreame, and Eufy are cutting robovac prices in half for Black Friday",
+      "title": "The best robot vacuums we’ve tested are up to 60 percent off for Black Friday",
       "url": "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
       "published_at": "2026-11-27T23:32:17+00:00",
       "summary": "Black Friday is here, and if you want a little help keeping your floors clean this holiday season, now is a great time to pick up a robot vacuum. Some of the best models we’ve tested over the last year or two are on sale for up to 60 percent off, whether you’re after a […]",
@@ -734,7 +647,7 @@
       "source_id": "nginx/nginx",
       "title": "nginx/nginx",
       "url": "https://github.com/nginx/nginx",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "The official NGINX Open Source repository.",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -767,7 +680,7 @@
       "source_id": "XiaoYouChR/Ghost-Downloader-3",
       "title": "XiaoYouChR/Ghost-Downloader-3",
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-      "published_at": "2026-11-28T00:06:03.877888+00:00",
+      "published_at": "2026-11-28T07:57:06.023580+00:00",
       "summary": "The only downloader you need. 下载器的集大成者。",
       "trending_period": "daily",
       "trending_page": "https://github.com/trending",
@@ -827,38 +740,6 @@
       }
     },
     {
-      "id": "the-verge:https://www.theverge.com/gadgets/1042951/best-black-friday-gaming-deals-ps5-nintendo-2026-sale",
-      "source": "the-verge",
-      "source_id": "https://www.theverge.com/gadgets/1042951/best-black-friday-gaming-deals-ps5-nintendo-2026-sale",
-      "title": "The 25 best gaming deals we’ve found so far for Black Friday",
-      "url": "https://www.theverge.com/gadgets/1042951/best-black-friday-gaming-deals-ps5-nintendo-2026-sale",
-      "published_at": "2026-11-27T21:50:00+00:00",
-      "summary": "While deals on consoles and key PC components are in short supply during Black Friday (or simply not good enough to warrant covering), there are numerous fantastic discounts on video games, accessories, and monitors to make up for it. We thought it’d be useful to display all of the deals we think are worth your […]",
-      "name": "The Verge",
-      "jev": {
-        "model": "jev-1.14.0",
-        "relevance_score": 0.88,
-        "recommended": false,
-        "relevance_confidence": 0.82,
-        "relevance_probabilities": {
-          "0": 0.17,
-          "1": 0.79,
-          "2": 0.04,
-          "3": 0.0,
-          "4": 0.0
-        },
-        "topic": "other_technology",
-        "topic_confidence": 1.0,
-        "topic_probabilities": {
-          "ai_models_research": 0.0,
-          "developer_tools": 0.0,
-          "hardware_datacenters": 0.0,
-          "policy_business": 0.0,
-          "other_technology": 1.0
-        }
-      }
-    },
-    {
       "id": "the-verge:https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
       "source": "the-verge",
       "source_id": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
@@ -894,10 +775,10 @@
       "id": "the-verge:https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
       "source": "the-verge",
       "source_id": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
-      "title": "The absolute best Black Friday deals we’ve found (so far)",
+      "title": "The absolute best Black Friday deals you can still get",
       "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
-      "published_at": "2026-11-27T22:43:57+00:00",
-      "summary": "This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, e-readers, robot vacuums, and so much more. We can’t guarantee a deal you’ve had […]",
+      "published_at": "2026-11-28T03:28:32+00:00",
+      "summary": "Black Friday is nearly over, but many of this year’s best deals are still available. You can still find some of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, robot vacuums, and so much more. We can’t guarantee a deal you’ve had your eye on will last through Cyber […]",
       "name": "The Verge",
       "jev": {
         "model": "jev-1.14.0",
@@ -919,6 +800,38 @@
           "hardware_datacenters": 0.0,
           "policy_business": 0.01,
           "other_technology": 0.99
+        }
+      }
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
+      "source": "the-verge",
+      "source_id": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
+      "title": "We found 60-odd Black Friday deals we love for $100 or less",
+      "url": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
+      "published_at": "2026-11-28T01:30:00+00:00",
+      "summary": "Between holiday travel, gifts, and the rising cost of just about everything, expenses can quickly add up during this time of year. Thankfully, you don’t have to dip too far into your savings to take advantage of some of the better Black Friday deals we’ve seen. Below, we’ve rounded up a range of great stuff […]",
+      "name": "The Verge",
+      "jev": {
+        "model": "jev-1.14.0",
+        "relevance_score": 0.7,
+        "recommended": false,
+        "relevance_confidence": 0.72,
+        "relevance_probabilities": {
+          "0": 0.32,
+          "1": 0.66,
+          "2": 0.02,
+          "3": 0.0,
+          "4": 0.0
+        },
+        "topic": "other_technology",
+        "topic_confidence": 1.0,
+        "topic_probabilities": {
+          "ai_models_research": 0.0,
+          "developer_tools": 0.0,
+          "hardware_datacenters": 0.0,
+          "policy_business": 0.0,
+          "other_technology": 1.0
         }
       }
     },
